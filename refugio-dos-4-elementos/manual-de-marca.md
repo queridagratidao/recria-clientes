@@ -33,17 +33,19 @@
 | Usar leveza e humor pontual mesmo em temas sérios | Usar imagens de banco de imagens genéricas que não pareçam o espaço real |
 | Reconhecer a equipe de terapeutas/consteladores, não só uma pessoa | Centralizar toda a comunicação em uma única pessoa quando o atendimento é em equipe |
 
-## 4. Logo
+## 4. Logo — FECHADO
 
-**Conceito:** Um círculo central — representando a essência humana, "voltar pra casa: pra dentro de si mesmo" — ao redor do qual se distribuem 4 ícones simples e minimalistas representando os elementos: uma gota (Água), uma chama (Fogo), uma pluma ou espiral de vento (Ar) e uma folha ou pequena montanha (Terra). O nome "Refúgio dos 4 Elementos" usa a tipografia de título da marca (ver seção 6).
+**Conceito (versão final aprovada):** Um anel fino e delicado (não um traço grosso) com o interior vazio — sem ponto central, sem linhas internas dividindo o círculo. Sobre a própria linha do anel, 4 ícones simples sentados como marcadores: chama (Fogo, terracota) no topo, gota (Água, azul acinzentado) à direita, folha com uma linha central (Terra, verde sálvia) na base, e vento — duas linhas curvas fluindo terminando em espiral (Ar, marrom) à esquerda. O nome "Refúgio dos 4 Elementos" usa Cormorant Garamond (ver seção 6). Logo desenvolvido com a usuária via iteração de prompt em IA generativa (Recraft Red Panda) e finalizado/montado no Canva.
 
-**Variações necessárias:**
-- Logo completo (símbolo + nome) — uso principal em site, capa de redes sociais, materiais impressos
-- Símbolo isolado (só o círculo + 4 ícones) — uso em foto de perfil do Instagram/WhatsApp Business, favicon
-- Versão horizontal (símbolo ao lado do nome) — uso em banners e cabeçalhos largos
-- Versão monocromática preto e branca — uso sobre fotos ou fundos onde a versão colorida perca contraste
+**Arquivos finais** (salvos em `refugio-dos-4-elementos/LOGO_R_4_E_com_variações/` e `LOGO_R_4_E_com_variações_com_fundo/`):
+- Símbolo isolado, colorido, fundo transparente e fundo creme — uso em foto de perfil do Instagram/WhatsApp Business, favicon
+- Logo completo vertical (símbolo + nome), colorido — uso principal em site, materiais impressos
+- Logo horizontal (símbolo + nome lado a lado), branco sobre fundo lilás — uso em banners e capas largas
+- Versão monocromática (marrom `#3B2E2A` e branca) do símbolo e do logo completo — uso sobre fotos ou fundos onde a versão colorida perca contraste
 
-**Área de respiro mínima e tamanho mínimo:** Manter ao redor do logo um espaço livre equivalente à altura do círculo central — não posicionar texto ou outros elementos dentro dessa margem. Em uso digital, não reduzir o logo completo a menos de 120px de largura, para não perder a legibilidade dos 4 ícones.
+**Aplicações fictícias de exemplo** geradas para validar legibilidade em contexto real: ver `aplicacoes-ficticias/` (post de Instagram, anúncio Stories/Reels, banner de Imersão na Cachoeira).
+
+**Área de respiro mínima e tamanho mínimo:** Manter ao redor do logo um espaço livre equivalente à altura do símbolo. Em uso digital, não reduzir o logo completo a menos de 120px de largura, para não perder a legibilidade dos 4 ícones — o anel é fino por design, então tamanhos muito pequenos tendem a "sumir" o traço antes dos ícones.
 
 ## 5. Paleta de Cores (Canva)
 
