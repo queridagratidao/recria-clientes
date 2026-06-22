@@ -79,3 +79,26 @@ Buscar cada uma pelo nome exato na busca de fontes do Canva (todas fazem parte d
 **Anúncio de tráfego pago (Feed 1:1 / Stories 9:16):** Fundo em Lilás Refúgio (#8B6FA8) ou Verde Sálvia (#6B8F71) como base de cor cheia, para destacar no feed. Headline em Quicksand, branco ou Creme Areia, para contraste e leitura rápida em mobile. Botão de CTA em Terracota (#C97B4A) para se destacar do fundo. Texto de apoio em Lora.
 
 **Capa de WhatsApp Business / banner de Imersão na Cachoeira:** Fundo dividido em faixas com as 4 cores de apoio (Terracota, Azul Acinzentado, Creme Areia, Verde Sálvia), simbolizando os 4 elementos, com o símbolo do logo centralizado e o nome "Refúgio dos 4 Elementos" em Cormorant Garamond sobre uma faixa central em Lilás Refúgio.
+
+## 8. Anexo Visual — Logo, Variações e Aplicações
+
+### Logo — símbolo isolado (colorido)
+![Símbolo isolado, colorido, fundo creme](LOGO_R_4_E_com_variações_com_fundo/1.png)
+
+### Logo completo (símbolo + nome)
+![Logo completo vertical, colorido, fundo branco](LOGO_R_4_E_com_variações_com_fundo/10.png)
+
+### Logo horizontal
+![Logo horizontal, branco sobre fundo lilás](LOGO_R_4_E_com_variações_com_fundo/20.png)
+
+### Versão monocromática
+![Logo completo, versão monocromática marrom](LOGO_R_4_E_com_variações_com_fundo/6.png)
+
+### Aplicação — Post de Instagram (feed)
+![Aplicação fictícia em post de Instagram](aplicacoes-ficticias/post-instagram-feed_exemplo.png)
+
+### Aplicação — Anúncio (Stories/Reels)
+![Aplicação fictícia em anúncio de tráfego pago](aplicacoes-ficticias/anuncio-stories-reels_exemplo.png)
+
+### Aplicação — Banner de Imersão na Cachoeira
+![Aplicação fictícia em banner de evento](aplicacoes-ficticias/banner-imersao-cachoeira_exemplo.png)
