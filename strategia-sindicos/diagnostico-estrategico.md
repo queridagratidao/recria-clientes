@@ -116,8 +116,20 @@ Isso torna o CAC (mesmo que comece alto enquanto o funil ainda está sendo valid
 
 ## 10. Identidade de Marca (insumo para Copywriter e Design)
 
-**Tom de voz:** profissional, direto, com autoridade técnica — mas sem alarmismo. Educa antes de vender. Em conteúdos de storytelling (condomínio insatisfeito), tom mais próximo e identificável, sem perder a seriedade institucional.
+**Status:** MIV formal já existe (brandbook 2025, oficial) e **a usuária decidiu manter a identidade visual atual como está** — sem retrabalho de marca. Detalhamento completo em [`identidade-visual.md`](./identidade-visual.md) e o brandbook original em [`Brandbook-Strategia-Sindicos.pdf`](./Brandbook-Strategia-Sindicos.pdf), ambos nesta pasta.
 
-**Cores/símbolos de referência (observação preliminar do Instagram — confirmar com MIV formal):** azul-marinho escuro como base, branco, vermelho/laranja como cor de CTA ("LEIA A LEGENDA"), verde reservado para temas ESG/sustentabilidade. Padrão "quadradinho" (checkerboard) usado como moldura decorativa fina em bordas de foto/bloco de cor, ou preenchendo selos/badges (ex: "10 anos") — não deve ser usado como fundo principal de slide com texto corrido, sob risco de comprometer legibilidade.
+**Conceito central:** a marca inteira é construída sobre a metáfora do **xadrez** — "tabuleiro", "jogada", "peça", "jogo" — posicionando a gestão condominial como algo que exige método e antecipação, nunca impulso ou sorte. Arquétipo dominante **Governante** (poder, ordem, decisão firme) combinado com arquétipo secundário **Cuidador** (empatia, serviço, proteção). Premissa: "Governar com sabedoria."
 
-**O que evitar:** branding genérico sem gancho de conversão (o padrão da agência anterior); comunicação que exponha publicamente as fraquezas internas identificadas neste diagnóstico (desorganização, demora de retorno) — esses pontos orientam o cuidado interno da agência, não o discurso público da marca.
+**Tom de voz:** profissional, direto, com autoridade técnica — mas sem alarmismo. Educa antes de vender. Diretrizes textuais formais do brandbook: 1ª pessoa do plural, parágrafos de 3-4 linhas, termos estrangeiros sem itálico, negrito para destacar pontos importantes. Em conteúdos de storytelling (condomínio insatisfeito, ago-set), tom pode ficar mais próximo e identificável, sem abandonar a autoridade — não precisa forçar a metáfora do xadrez em todo post.
+
+**Cores oficiais:** base em 5 tons de azul (Meia Noite `#011633`, Escuro `#001F4B`, Neutro `#05399C`, Médio `#0543CC`, Claro `#155DFD`) + complementares (Bege `#FFFDFA`, Laranja `#ED2F05` como cor de destaque/CTA, Cinza Escuro/Médio/Claro). O verde usado pontualmente em posts ESG no Instagram não é cor oficial da paleta — manter como extensão pontual, só para esse tema específico.
+
+**Tipografia oficial:** Neometric (principal — títulos/destaques) + Overpass (secundária — parágrafos, Google Font).
+
+**Elemento "quadradinho":** é uma das 4 variações oficiais de elemento de apoio do brandbook (bloco quadriculado grande, faixa fina, quadriculado sólido em selos/badges, e silhuetas de peças de xadrez). Regra de uso: moldura/borda fina em fotos ou blocos de cor, preenchimento de selos (ex: "10 anos"), ou acento decorativo de canto (inclusive rotado 45° em losango) — nunca como fundo de slide com texto corrido.
+
+**O que evitar:** distorcer/recolorir o logo, dissociar ícone do wordmark, logo claro em fundo claro ou escuro em fundo escuro (dont's formais do brandbook); branding genérico sem gancho de conversão (o padrão da agência anterior); comunicação que exponha publicamente as fraquezas internas identificadas neste diagnóstico (desorganização, demora de retorno) — esses pontos orientam o cuidado interno da agência, não o discurso público da marca.
+
+## 11. Frente futura sinalizada (não executar agora)
+
+A usuária confirmou interesse em, **a partir de novembro de 2026**, avaliar uma frente comercial dedicada a construtoras e imobiliárias (LP separada, materiais de social media e/ou tráfego pago focados em parceria/indicação B2B2C) — conforme já sinalizado na seção 5 (Oportunidades) e 8 (Sugestão de upsell futuro) deste diagnóstico. Retomar esse ponto quando o funil atual (cliente final) estiver estável e validado.
