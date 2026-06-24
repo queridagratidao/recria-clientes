@@ -13,11 +13,22 @@
 - **17/06, Enquete identidade:** ✅ opções corrigidas pelo parecer: 🔧 Reativa, 📋 Organizada (mas tudo passa por mim), 📈 Em crescimento (já delego), 🏛️ Gestão de patrimônio (conduzo como ativo).
 - **18/06, Resposta à enquete de identidade:** ✅
 - **23/06, Enquete método x rotina:** ✅
-- **24/06, Artigo "Cidades Privadas":** ✅
 
 ---
 
-## 25/06 (quinta) 🔲
+## 24/06 (quarta) ✅ **já postado, conteúdo real publicado no grupo**
+
+**🕐 Tarde · [COMUNIDADE WHATSAPP] · PÍLULA TÉCNICA + AUTORIDADE**
+
+| Campo | Conteúdo |
+|---|---|
+| **Formato** | Artigo do blog |
+| **Ancoragem** | https://www.elevags.com.br/blog/cidades-privadas |
+| **Legenda** | Boa tarde, síndicos de alta performance! 👋<br><br>Segue uma sugestão de leitura para o dia.<br><br>O artigo escrito por Giuliano Spolavori aborda como os condomínios funcionam como verdadeiras Cidades Privadas, movimentando R$ 170 bilhões por ano, e por que isso atrai cada vez mais fornecedores e prestadores de serviço querendo fatiar esse mercado.<br><br>Por que esse conteúdo é tão valioso para você, síndico?<br><br>Porque ele trata exatamente dos pontos que vão te ajudar a entender a lógica de como selecionar o melhor fornecedor ou prestador de serviços para os condomínios que você gerencia, lapidando seus critérios de avaliação e selecionando os melhores parceiros para sua carteira de condomínios.<br><br>Se interessou, toque no link abaixo e boa leitura! 👇<br><br>🔗 https://www.elevags.com.br/blog/cidades-privadas |
+
+---
+
+## 25/06 (quinta) 🔲 **continuação direta do artigo de 24/06**
 
 **🕐 Manhã · [COMUNIDADE WHATSAPP] · VENDA INDIRETA**
 
