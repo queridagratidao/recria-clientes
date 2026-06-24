@@ -8,4 +8,10 @@ O calendário foi dividido em 3 blocos mensais pra facilitar revisão e publica�
 
 **Cadência fixa:** terça = tema do ebook "De Síndico a Gestor de Ativos" (alternando venda direta/indireta, enquetes quando fizer sentido); quarta = artigo de fornecedor do blog elevags.com.br (1x/semana); quinta = CTA (Sessão Estratégica, Curso, e a partir de 20/08 também Mentoria, em rodízio).
 
+**Regras fixas de formatação (aplicadas em todo o calendário):**
+- Saudação sempre "síndicos de alta performance", nunca só "síndicos", é a marca registrada da comunidade.
+- Sem postagem de tarde (público está trabalhando), só Manhã ou Noite.
+- Toda enquete tem resposta no dia seguinte, sem exceção, mesmo que isso signifique dividir o dia seguinte em dois posts (resposta de manhã + conteúdo do dia à noite).
+- Texto que antecede link sempre gera valor/curiosidade antes de soltar o link (ver [[feedback-copy-link-valor-curiosidade]]).
+
 **Ajuste aplicado:** o artigo "a-engenharia-silenciosa-da-renovacao" repetia em 29/07 e 26/08 na lista do Giuliano. Não era intencional, então a segunda postagem (26/08) foi reescrita com ângulo diferente, ótica do fornecedor em vez do síndico, pra aproveitar o mesmo conteúdo sem repetir o texto.

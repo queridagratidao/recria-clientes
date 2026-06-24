@@ -3,7 +3,9 @@
 
 **Cadência:** Terça (tema do ebook), Quarta (artigo de fornecedor), Quinta (Sessão Estratégica ou Curso)
 **Status:** ✅ concluído | 🔲 a publicar
-**Sobre o horário:** como a postagem é manual, cada caixinha indica só o período do dia (Manhã, Tarde ou Noite). Poste dentro daquele período, no horário que estiver livre.
+**Sobre o horário:** postagem manual, sem horário fixo. Só **Manhã** ou **Noite**, nunca Tarde (eles estão trabalhando nesse período). Poste dentro do período indicado, no horário que estiver livre.
+**Saudação fixa:** sempre cumprimentar como **"síndicos de alta performance"**, é a marca registrada da comunidade Eleva. Nunca só "síndicos".
+**Regra de enquete:** toda enquete tem resposta publicada no dia seguinte, sem exceção e sem trocar de tema antes de fechar ela.
 
 ---
 
@@ -15,7 +17,23 @@
 
 ---
 
-## 30/06 (terça) ✅
+## 25/06 (quinta) 🔲
+**Manhã [Comunidade WhatsApp]** Venda indireta
+**Formato:** Pílula técnica + CTA Sessão Estratégica
+**Ancoragem:** Ebook, Introdução (mercado de R$ 170 bi/ano) + artigo "Cidades Privadas" (24/06)
+**Texto:**
+Bom dia, síndicos de alta performance! 👋
+
+O artigo de ontem mostrou um número que vale repetir: os condomínios movimentam R$ 170 bilhões por ano, e é exatamente por isso que cada vez mais fornecedor quer entrar nesse mercado.
+
+Com tanto dinheiro em jogo, a pergunta que fica é: a sua operação está estruturada pra capturar a parte que cabe a você nesse mercado, ou ainda está reagindo um problema por vez?
+
+Se quiser entender isso com o Giuliano numa conversa de 30 minutos, toque no link abaixo:
+🔗 https://www.elevags.com.br/sessao-estrategica-sindicos
+
+---
+
+## 30/06 (terça) 🔲
 **Manhã [Comunidade WhatsApp]** Engajamento
 **Formato:** Mini-texto reflexivo + Enquete
 **Ancoragem:** Ebook, Cap. 10.3 (reputação cumulativa) + arco do parecer de enquetes
@@ -33,12 +51,27 @@ Na sua operação hoje, você diria que a sua reputação está:
 
 ---
 
-## 01/07 (quarta) ✅
-**Tarde [Comunidade WhatsApp]** Pílula técnica + Autoridade
+## 01/07 (quarta) 🔲
+**Manhã [Comunidade WhatsApp]** Engajamento + Venda indireta
+**Formato:** Resposta à enquete de 30/06
+**Ancoragem:** Resposta à enquete de 30/06
+**Texto:**
+Bom dia, síndicos de alta performance! Resposta à enquete de ontem 👇
+
+Se você marcou "em construção" ou "consolidando", não se cobre por ainda não ser referência. Reputação é resultado acumulado, não acontece num post nem numa entrega isolada.
+
+Se marcou "consolidada", parabéns, esse é o degrau que sustenta o honorário mais alto e abre porta pra indicação espontânea.
+
+Em qualquer um dos três estágios, dá pra acelerar esse relógio com método, e é exatamente isso que o Giuliano mapeia conversa a conversa nas Sessões Estratégicas.
+
+Se quiser entender o seu caso específico, toque no link e agenda um horário:
+🔗 https://www.elevags.com.br/sessao-estrategica-sindicos
+
+**Noite [Comunidade WhatsApp]** Pílula técnica + Autoridade
 **Formato:** Artigo do blog
 **Ancoragem:** https://www.elevags.com.br/blog/o-hub-de-escala-e-o-ciclo-de-multiplicacao
 **Texto:**
-Boa tarde, síndicos de alta performance! 👋
+Boa noite, síndicos de alta performance! 👋
 
 Segue uma sugestão de leitura para o dia.
 
@@ -54,20 +87,16 @@ Se interessou, toque no link abaixo e boa leitura! 👇
 
 ---
 
-## 02/07 (quinta) ✅
-**Manhã [Comunidade WhatsApp]** Engajamento + Venda indireta
-**Formato:** Resposta à enquete + CTA Sessão Estratégica
-**Ancoragem:** Resposta à enquete de 30/06
+## 02/07 (quinta) 🔲
+**Manhã [Comunidade WhatsApp]** Venda indireta
+**Formato:** Pílula técnica + CTA Sessão Estratégica
+**Ancoragem:** Ebook, Cap. 3.4 (seleção de carteira como decisão estratégica)
 **Texto:**
-Bom dia! Resposta à enquete de terça 👇
+Bom dia, síndicos de alta performance! 👋
 
-Se você marcou "em construção" ou "consolidando", não se cobre por ainda não ser referência. Reputação é resultado acumulado, não acontece num post nem numa entrega isolada.
+Nem todo condomínio que aparece vale entrar na carteira. Selecionar carteira é decisão de negócio, não só de oportunidade disponível, e o critério errado consome tempo e margem que poderiam ir pra carteira certa.
 
-Se marcou "consolidada", parabéns, esse é o degrau que sustenta o honorário mais alto e abre porta pra indicação espontânea.
-
-Em qualquer um dos três estágios, dá pra acelerar esse relógio com método, e é exatamente isso que o Giuliano mapeia conversa a conversa nas Sessões Estratégicas: onde sua reputação trava hoje, e o que fazer pra mudar isso nos próximos meses.
-
-Se quiser entender o seu caso específico, toque no link e agenda um horário:
+Quer revisar esse critério de seleção com o Giuliano? Toque no link e agenda 30 minutos:
 🔗 https://www.elevags.com.br/sessao-estrategica-sindicos
 
 ---
@@ -77,7 +106,7 @@ Se quiser entender o seu caso específico, toque no link e agenda um horário:
 **Formato:** Texto de lançamento + CTA Curso
 **Ancoragem:** LP do curso, https://www.elevags.com.br/cursos-de-sindico-profissional-a-gestor-de-ativos
 **Texto:**
-Bom dia, síndico! Hoje é dia de novidade exclusiva pra essa comunidade. 🎉
+Bom dia, síndicos de alta performance! Hoje é dia de novidade exclusiva pra essa comunidade. 🎉
 
 O curso "De Síndico a Gestor de Ativos", do Giuliano Spolavori, está sendo lançado oficialmente hoje, e você está recebendo acesso em primeira mão, antes da divulgação pra fora do grupo.
 
@@ -85,7 +114,7 @@ Por que vale a pena conhecer agora?
 
 Porque o curso reúne, em um único lugar, as nove áreas do Mapa Estratégico, os contratos com SLA, o Hub de parceiros e os indicadores que sustentam um honorário mais alto, além de 42 casos reais de síndicos que já fizeram essa transição, com número documentado de resultado.
 
-E quem entra hoje leva bônus exclusivos e mais de R$ 100 de desconto no valor de lançamento, condição que não vai se repetir depois desta semana.
+E quem entra agora leva bônus exclusivos e mais de R$ 100 de desconto no valor de lançamento. A oferta tem data de validade, então corre.
 
 Toque no link abaixo, dá uma olhada com calma e garante sua vaga no valor de lançamento:
 🔗 https://www.elevags.com.br/cursos-de-sindico-profissional-a-gestor-de-ativos
@@ -97,7 +126,7 @@ Toque no link abaixo, dá uma olhada com calma e garante sua vaga no valor de la
 **Formato:** Mini-texto reflexivo
 **Ancoragem:** Ebook, Cap. 1 (a bifurcação do mercado da sindicatura)
 **Texto:**
-Bom dia, síndicos! 👋
+Bom dia, síndicos de alta performance! 👋
 
 Uma reflexão rápida pra começar a semana: o mercado da sindicatura está se dividindo em dois grupos, quem profissionaliza a operação e cresce carteira, e quem segue no mesmo patamar há anos sem entender exatamente por quê.
 
@@ -109,11 +138,11 @@ Se você quer entender em qual lado dessa divisão sua operação está hoje, va
 ---
 
 ## 08/07 (quarta) 🔲
-**Tarde [Comunidade WhatsApp]** Pílula técnica + Autoridade
+**Noite [Comunidade WhatsApp]** Pílula técnica + Autoridade
 **Formato:** Artigo do blog
 **Ancoragem:** https://www.elevags.com.br/blog/venda-consultiva
 **Texto:**
-Boa tarde, síndicos de alta performance! 👋
+Boa noite, síndicos de alta performance! 👋
 
 Segue uma sugestão de leitura para o dia.
 
@@ -134,7 +163,7 @@ Se interessou, toque no link abaixo e boa leitura! 👇
 **Formato:** Pílula técnica + CTA Curso
 **Ancoragem:** Ebook, Cap. 8 (Crescimento do Negócio, captação e autoridade)
 **Texto:**
-Bom dia, síndico! 👋
+Bom dia, síndicos de alta performance! 👋
 
 Captação de condomínio novo não deveria depender só de indicação espontânea, e talvez seja por isso que sua carteira cresce mais devagar do que poderia.
 
@@ -150,7 +179,7 @@ Se você ainda concorre só no boca a boca, vale conhecer esse método com calma
 **Formato:** Mini-texto reflexivo
 **Ancoragem:** Ebook, Cap. 4 (Mapa Estratégico, 9 áreas)
 **Texto:**
-Bom dia, síndicos! 👋
+Bom dia, síndicos de alta performance! 👋
 
 Um teste rápido: quantas das nove áreas do Mapa Estratégico você consegue nomear de cabeça? Financeira, Jurídica, Pessoas, Manutenção, Segurança, Tecnologia, Comercial, ESG, Estratégia e Crescimento.
 
@@ -162,11 +191,11 @@ O Giuliano detalha cada uma dessas nove áreas, com indicador e exemplo prático
 ---
 
 ## 15/07 (quarta) 🔲
-**Tarde [Comunidade WhatsApp]** Pílula técnica + Autoridade
+**Noite [Comunidade WhatsApp]** Pílula técnica + Autoridade
 **Formato:** Artigo do blog
 **Ancoragem:** https://www.elevags.com.br/blog/engenharia-da-capilaridade
 **Texto:**
-Boa tarde, síndicos de alta performance! 👋
+Boa noite, síndicos de alta performance! 👋
 
 Segue uma sugestão de leitura para o dia.
 
@@ -187,7 +216,7 @@ Se interessou, toque no link abaixo e boa leitura! 👇
 **Formato:** Pílula técnica + CTA Sessão Estratégica
 **Ancoragem:** Ebook, Cap. 5 (Gestão de Contratos e SLA)
 **Texto:**
-Bom dia! Uma frase do Giuliano que costuma incomodar (no bom sentido): um contrato sem SLA é uma declaração de intenção, não um instrumento de gestão.
+Bom dia, síndicos de alta performance! Uma frase do Giuliano que costuma incomodar (no bom sentido): um contrato sem SLA é uma declaração de intenção, não um instrumento de gestão.
 
 Se seus contratos ainda não têm critério de nível de serviço definido, vale revisar isso com calma antes que o problema apareça no peor momento possível.
 
@@ -201,7 +230,7 @@ Quer um diagnóstico rápido da sua operação com o Giuliano? Toque no link e a
 **Formato:** Mini-texto reflexivo + Enquete
 **Ancoragem:** Ebook, Cap. 6 (IA na Sindicatura)
 **Texto:**
-Bom dia, síndicos! 👋
+Bom dia, síndicos de alta performance! 👋
 
 A IA já mudou a equação do síndico profissional, principalmente na comunicação com moradores e na análise de contratos. Mas ela também tem fronteiras claras, tem decisão que não deve ser delegada a um modelo, e essa linha nem sempre é óbvia.
 
@@ -213,11 +242,24 @@ Você já usa alguma ferramenta de IA na sua operação hoje?
 ---
 
 ## 22/07 (quarta) 🔲
-**Tarde [Comunidade WhatsApp]** Pílula técnica + Autoridade
+**Manhã [Comunidade WhatsApp]** Engajamento + Venda indireta
+**Formato:** Resposta à enquete de 21/07
+**Ancoragem:** Resposta à enquete de 21/07 + Ebook, Cap. 6
+**Texto:**
+Bom dia, síndicos de alta performance! Resposta à enquete de ontem sobre IA 👇
+
+Se você ainda não usa, não tem problema, o ponto não é correr pra adotar qualquer ferramenta. É entender onde a IA realmente entrega retorno (comunicação e análise documental) e onde ela não deve decidir por você.
+
+O Giuliano dedica um capítulo inteiro do curso só pra esse mapeamento, com os limites de cada frente bem demarcados, pra você não cair nem na rejeição nem no exagero.
+
+Se quiser conhecer esse capítulo, toque no link:
+🔗 https://www.elevags.com.br/cursos-de-sindico-profissional-a-gestor-de-ativos
+
+**Noite [Comunidade WhatsApp]** Pílula técnica + Autoridade
 **Formato:** Artigo do blog
 **Ancoragem:** https://www.elevags.com.br/blog/indicar-fornecedor-e-expor-a-reputacao-do-sindico
 **Texto:**
-Boa tarde, síndicos! 👋
+Boa noite, síndicos de alta performance! 👋
 
 Segue uma sugestão de leitura para o dia.
 
@@ -236,15 +278,13 @@ Se interessou, toque no link abaixo e boa leitura! 👇
 ## 23/07 (quinta) 🔲
 **Manhã [Comunidade WhatsApp]** Venda direta
 **Formato:** Pílula técnica + CTA Curso
-**Ancoragem:** Resposta à enquete de IA (21/07) + Ebook, Cap. 6
+**Ancoragem:** Ebook, Cap. 9 (casos reais com IA)
 **Texto:**
-Bom dia! Resposta à enquete de terça sobre IA 👇
+Bom dia, síndicos de alta performance! 👋
 
-Se você ainda não usa, não tem problema, o ponto não é correr pra adotar qualquer ferramenta. É entender onde a IA realmente entrega retorno (comunicação e análise documental) e onde ela não deve decidir por você.
+Tem síndico que reduziu retrabalho e melhorou tempo de resposta usando IA só pra comunicação com morador, sem trocar nenhum outro processo. É um ajuste pequeno, com retorno rápido.
 
-O Giuliano dedica um capítulo inteiro do curso só pra esse mapeamento, com os limites de cada frente bem demarcados, pra você não cair nem na rejeição nem no exagero.
-
-Se quiser conhecer esse capítulo, toque no link:
+O curso mostra exatamente onde começar, sem cair em ferramenta cara ou complexa demais pra realidade da sua carteira:
 🔗 https://www.elevags.com.br/cursos-de-sindico-profissional-a-gestor-de-ativos
 
 ---
@@ -254,7 +294,7 @@ Se quiser conhecer esse capítulo, toque no link:
 **Formato:** Mini-texto reflexivo
 **Ancoragem:** Ebook, Cap. 7 (Hub Estratégico, dez categorias de parceria)
 **Texto:**
-Bom dia, síndicos! 👋
+Bom dia, síndicos de alta performance! 👋
 
 O Hub de parceiros é o ativo intangível que separa o Gestor de Ativos do síndico que só "tem fornecedor". Não é sobre ter contato, é sobre curadoria, ter um critério claro pra cada uma das dez categorias de parceria que sustentam um condomínio.
 
@@ -263,12 +303,12 @@ Quando o conselho confia na sua curadoria, o preço sai do centro da conversa, e
 ---
 
 ## 29/07 (quarta) 🔲
-**Tarde [Comunidade WhatsApp]** Pílula técnica + Autoridade
+**Noite [Comunidade WhatsApp]** Pílula técnica + Autoridade
 **Formato:** Artigo do blog
 **Ancoragem:** https://www.elevags.com.br/blog/a-engenharia-silenciosa-da-renovacao
 **Ângulo:** ótica do síndico, manter relação saudável com o fornecedor entre uma renovação e outra
 **Texto:**
-Boa tarde, síndicos de alta performance! 👋
+Boa noite, síndicos de alta performance! 👋
 
 Segue uma sugestão de leitura para o dia.
 
@@ -289,7 +329,7 @@ Se interessou, toque no link abaixo e boa leitura! 👇
 **Formato:** Pílula técnica + CTA Sessão Estratégica
 **Ancoragem:** Ebook, Cap. 9 (Casos reais)
 **Texto:**
-Bom dia, síndico! Um dos 42 casos reais do livro mostra um síndico que reduziu em 30% as manutenções corretivas emergenciais no primeiro ano, só com plano diretor de manutenção bem estruturado.
+Bom dia, síndicos de alta performance! Um dos 42 casos reais do livro mostra um síndico que reduziu em 30% as manutenções corretivas emergenciais no primeiro ano, só com plano diretor de manutenção bem estruturado.
 
 Não foi sorte, foi método documentado, e esse tipo de número é o que sustenta um honorário diferenciado em assembleia.
 
