@@ -1,10 +1,18 @@
 # Calendário Comunidade WhatsApp, Eleva, Síndicos
 ## Bloco 1: 24/06 a 30/07/2026
 
-**Cadência:** Terça (tema do ebook), Quarta (artigo de fornecedor), Quinta (Sessão Estratégica ou Curso)
+**Cadência:** Terça (tema do ebook do curso de síndicos), Quarta (artigo de fornecedor), Quinta (Sessão Estratégica ou Curso)
 **Status:** ✅ concluído | 🔲 a publicar
 **Sobre o horário:** postagem manual, sem horário fixo. Só **Manhã** ou **Noite**, nunca Tarde (eles estão trabalhando nesse período). Poste dentro do período indicado, no horário que estiver livre.
 **Saudação fixa:** sempre cumprimentar como **"síndicos de alta performance"**, é a marca registrada da comunidade Eleva. Nunca só "síndicos".
+
+**Repost de social media (plus do calendário, não substitui nenhum dia fixo):** sempre que sair um post no Instagram ou LinkedIn da Eleva que agregue valor pro síndico, ele também é repostado aqui no grupo, como um conteúdo extra, somado à cadência normal. Esse calendário da comunidade é editorialmente independente das redes sociais, o repost é só um plus quando fizer sentido.
+
+**Texto padrão de acompanhamento do repost:**
+"Bom dia/Boa noite, síndicos de alta performance! Segue um conteúdo novo que saiu no Instagram/LinkedIn da Eleva e pode te agregar muito. 👇 🔗 [link do post]"
+ou
+"Bom dia/Boa noite, síndicos de alta performance! Segue mais um conteúdo de valor que acabou de sair no Instagram/LinkedIn da Eleva, garanto que vai te agregar muito. 👇 🔗 [link do post]"
+
 **Regra de enquete:** toda enquete tem resposta publicada no dia seguinte, sem exceção e sem trocar de tema antes de fechar ela.
 
 ---
