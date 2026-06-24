@@ -39,7 +39,7 @@ Se marcou "em crescimento", você já passou a parte mais difícil, delega e amp
 E se marcou "gestão de patrimônio", você está no degrau que o mercado ainda trata como exceção, e que está virando o novo padrão.
 
 Quer mapear seu próximo degrau numa conversa direta com o Giuliano? Toque no link e agenda:
-🔗 https://www.elevags.com.br/sessao-estrategica-sindicos
+🔗 https://www.elevags.com.br/sessao-estrategica-sindicos?utm_source=hub_eleva&utm_medium=whatsapp&utm_campaign=sindicos
 
 ---
 
@@ -155,7 +155,7 @@ Bom dia, síndicos de alta performance! Quem chega no ponto de ser o nó central
 É exatamente esse o papel da Mentoria de Síndicos da Eleva, acompanhamento direto com o Giuliano pra quem já tem base.
 
 Se esse é o seu momento, toque no link:
-🔗 https://www.elevags.com.br/mentoria/sindicos-profissionais
+🔗 https://www.elevags.com.br/mentoria/sindicos-profissionais?utm_source=hub_eleva&utm_medium=whatsapp&utm_campaign=sindicos
 
 ---
 
@@ -198,7 +198,7 @@ Se interessou, toque no link abaixo e boa leitura! 👇
 Bom dia, síndicos de alta performance! Voltando ao tema de terça: se sua prestação de contas ainda depende de explicação verbal em assembleia, isso é sinal de processo, não de caráter. Dá pra resolver com protocolo, não com mais reunião.
 
 Quer revisar esse fluxo numa conversa de 30 minutos com o Giuliano? Toque no link e agenda:
-🔗 https://www.elevags.com.br/sessao-estrategica-sindicos
+🔗 https://www.elevags.com.br/sessao-estrategica-sindicos?utm_source=hub_eleva&utm_medium=whatsapp&utm_campaign=sindicos
 
 ---
 
