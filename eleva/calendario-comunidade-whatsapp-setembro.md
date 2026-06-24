@@ -41,9 +41,13 @@ E se marcou "gestão de patrimônio", você está no degrau que o mercado ainda 
 Quer mapear seu próximo degrau numa conversa direta com o Giuliano? Toque no link e agenda:
 🔗 https://www.elevags.com.br/sessao-estrategica-sindicos
 
+---
+
+## 03/09 (quinta) 🔲 **artigo, deslocado um dia da quarta por causa da resposta da enquete**
 **Noite [Comunidade WhatsApp]** Pílula técnica + Autoridade
 **Formato:** Artigo do blog
 **Ancoragem:** https://www.elevags.com.br/blog/a-nutricao-entre-contratos-decide-a-proxima-renovacao
+**Nota:** essa semana a quinta recebe o artigo no lugar do CTA, porque a quarta foi inteira pra resposta da enquete de terça. O CTA Curso que seria essa quinta foi pulado, a cadência normal retoma na semana seguinte.
 **Texto:**
 Boa noite, síndicos de alta performance! 👋
 
@@ -58,20 +62,6 @@ Porque ele mostra os pequenos pontos de contato que, somados, constroem (ou dest
 Se interessou, toque no link abaixo e boa leitura! 👇
 
 🔗 https://www.elevags.com.br/blog/a-nutricao-entre-contratos-decide-a-proxima-renovacao
-
----
-
-## 03/09 (quinta) 🔲
-**Manhã [Comunidade WhatsApp]** Venda direta
-**Formato:** Pílula técnica + CTA Curso
-**Ancoragem:** Ebook, Cap. 11 (Roadmap, mentoria)
-**Texto:**
-Bom dia, síndicos de alta performance! 👋
-
-A Mentoria é indicada pra quem já atua com pelo menos dois condomínios e sente que chegou no teto do método atual. Mas antes da mentoria, tem o curso, que organiza a base inteira: posicionamento, captação, proposta técnica e indicador de satisfação.
-
-Se você ainda não tem essa base estruturada, vale começar por aqui:
-🔗 https://www.elevags.com.br/cursos-de-sindico-profissional-a-gestor-de-ativos
 
 ---
 

@@ -67,9 +67,13 @@ Em qualquer um dos três estágios, dá pra acelerar esse relógio com método, 
 Se quiser entender o seu caso específico, toque no link e agenda um horário:
 🔗 https://www.elevags.com.br/sessao-estrategica-sindicos
 
+---
+
+## 02/07 (quinta) 🔲 **artigo, deslocado um dia da quarta por causa da resposta da enquete**
 **Noite [Comunidade WhatsApp]** Pílula técnica + Autoridade
 **Formato:** Artigo do blog
 **Ancoragem:** https://www.elevags.com.br/blog/o-hub-de-escala-e-o-ciclo-de-multiplicacao
+**Nota:** essa semana a quinta recebe o artigo no lugar do CTA, porque a quarta foi inteira pra resposta da enquete de terça. O CTA Sessão Estratégica que seria essa quinta foi pulado, a cadência normal (terça/quarta/quinta) retoma na semana seguinte.
 **Texto:**
 Boa noite, síndicos de alta performance! 👋
 
@@ -84,20 +88,6 @@ Porque ele expõe o motivo pelo qual alguns profissionais escalam de seis pra de
 Se interessou, toque no link abaixo e boa leitura! 👇
 
 🔗 https://www.elevags.com.br/blog/o-hub-de-escala-e-o-ciclo-de-multiplicacao
-
----
-
-## 02/07 (quinta) 🔲
-**Manhã [Comunidade WhatsApp]** Venda indireta
-**Formato:** Pílula técnica + CTA Sessão Estratégica
-**Ancoragem:** Ebook, Cap. 3.4 (seleção de carteira como decisão estratégica)
-**Texto:**
-Bom dia, síndicos de alta performance! 👋
-
-Nem todo condomínio que aparece vale entrar na carteira. Selecionar carteira é decisão de negócio, não só de oportunidade disponível, e o critério errado consome tempo e margem que poderiam ir pra carteira certa.
-
-Quer revisar esse critério de seleção com o Giuliano? Toque no link e agenda 30 minutos:
-🔗 https://www.elevags.com.br/sessao-estrategica-sindicos
 
 ---
 
@@ -255,9 +245,13 @@ O Giuliano dedica um capítulo inteiro do curso só pra esse mapeamento, com os 
 Se quiser conhecer esse capítulo, toque no link:
 🔗 https://www.elevags.com.br/cursos-de-sindico-profissional-a-gestor-de-ativos
 
+---
+
+## 23/07 (quinta) 🔲 **artigo, deslocado um dia da quarta por causa da resposta da enquete**
 **Noite [Comunidade WhatsApp]** Pílula técnica + Autoridade
 **Formato:** Artigo do blog
 **Ancoragem:** https://www.elevags.com.br/blog/indicar-fornecedor-e-expor-a-reputacao-do-sindico
+**Nota:** essa semana a quinta recebe o artigo no lugar do CTA, porque a quarta foi inteira pra resposta da enquete de terça. O CTA Curso que seria essa quinta foi pulado, a cadência normal retoma na semana seguinte.
 **Texto:**
 Boa noite, síndicos de alta performance! 👋
 
@@ -272,20 +266,6 @@ Porque ele ajuda a entender o peso real de cada indicação que você faz, e com
 Se interessou, toque no link abaixo e boa leitura! 👇
 
 🔗 https://www.elevags.com.br/blog/indicar-fornecedor-e-expor-a-reputacao-do-sindico
-
----
-
-## 23/07 (quinta) 🔲
-**Manhã [Comunidade WhatsApp]** Venda direta
-**Formato:** Pílula técnica + CTA Curso
-**Ancoragem:** Ebook, Cap. 9 (casos reais com IA)
-**Texto:**
-Bom dia, síndicos de alta performance! 👋
-
-Tem síndico que reduziu retrabalho e melhorou tempo de resposta usando IA só pra comunicação com morador, sem trocar nenhum outro processo. É um ajuste pequeno, com retorno rápido.
-
-O curso mostra exatamente onde começar, sem cair em ferramenta cara ou complexa demais pra realidade da sua carteira:
-🔗 https://www.elevags.com.br/cursos-de-sindico-profissional-a-gestor-de-ativos
 
 ---
 
