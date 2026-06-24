@@ -98,7 +98,7 @@ Se interessou, toque no link abaixo e boa leitura! 👇
 Bom dia, síndicos de alta performance! A gestão orientada por dados é o que separa o síndico que "sente" que o condomínio vai bem do que apresenta indicador pra provar. KPI de inadimplência, OPEX mês a mês, SLA de fornecedor, tudo isso muda a conversa com o conselho.
 
 Quer montar seu painel de indicadores com apoio direto do Giuliano? Toque no link e agenda uma Sessão Estratégica:
-🔗 https://www.elevags.com.br/sessao-estrategica-sindicos?utm_source=hub_eleva&utm_medium=whatsapp&utm_campaign=sindicos
+🔗 https://bit.ly/sessao-estrategica-sindicos
 
 ---
 
@@ -188,7 +188,7 @@ Bom dia, síndicos de alta performance! Se você já atua com dois ou mais condo
 Nem todo condomínio que aparece vale entrar na carteira. Selecionar carteira é decisão de negócio, não só de oportunidade disponível, e esse tipo de critério muda completamente o resultado dos próximos anos.
 
 É exatamente esse acompanhamento que a Mentoria de Síndicos da Eleva oferece, com o Giuliano olhando sua operação caso a caso:
-🔗 https://www.elevags.com.br/mentoria/sindicos-profissionais?utm_source=hub_eleva&utm_medium=whatsapp&utm_campaign=sindicos
+🔗 https://bit.ly/mentoria-sindicos
 
 ---
 **Próximo bloco:** `calendario-comunidade-whatsapp-setembro.md`

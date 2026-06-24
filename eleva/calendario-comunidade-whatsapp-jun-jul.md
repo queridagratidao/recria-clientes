@@ -29,7 +29,7 @@ O artigo de ontem mostrou um número que vale repetir: os condomínios movimenta
 Com tanto dinheiro em jogo, a pergunta que fica é: a sua operação está estruturada pra capturar a parte que cabe a você nesse mercado, ou ainda está reagindo um problema por vez?
 
 Se quiser entender isso com o Giuliano numa conversa de 30 minutos, toque no link abaixo:
-🔗 https://www.elevags.com.br/sessao-estrategica-sindicos?utm_source=hub_eleva&utm_medium=whatsapp&utm_campaign=sindicos
+🔗 https://bit.ly/sessao-estrategica-sindicos
 
 ---
 
@@ -65,7 +65,7 @@ Se marcou "consolidada", parabéns, esse é o degrau que sustenta o honorário m
 Em qualquer um dos três estágios, dá pra acelerar esse relógio com método, e é exatamente isso que o Giuliano mapeia conversa a conversa nas Sessões Estratégicas.
 
 Se quiser entender o seu caso específico, toque no link e agenda um horário:
-🔗 https://www.elevags.com.br/sessao-estrategica-sindicos?utm_source=hub_eleva&utm_medium=whatsapp&utm_campaign=sindicos
+🔗 https://bit.ly/sessao-estrategica-sindicos
 
 ---
 
@@ -165,7 +165,7 @@ Captação de condomínio novo não deveria depender só de indicação espontâ
 Se você ainda concorre só no boca a boca, vale entender com o Giuliano onde sua captação está travando hoje, e o que muda isso de forma prática.
 
 Toque no link e agenda uma conversa de 30 minutos:
-🔗 https://www.elevags.com.br/sessao-estrategica-sindicos?utm_source=hub_eleva&utm_medium=whatsapp&utm_campaign=sindicos
+🔗 https://bit.ly/sessao-estrategica-sindicos
 
 ---
 
@@ -316,7 +316,7 @@ Bom dia, síndicos de alta performance! Um dos 42 casos reais do livro mostra um
 Não foi sorte, foi método documentado, e esse tipo de número é o que sustenta um honorário diferenciado em assembleia.
 
 Se você quer entender onde sua operação ainda perde dinheiro por falta de plano, toque no link e agenda uma conversa de 30 minutos com o Giuliano:
-🔗 https://www.elevags.com.br/sessao-estrategica-sindicos?utm_source=hub_eleva&utm_medium=whatsapp&utm_campaign=sindicos
+🔗 https://bit.ly/sessao-estrategica-sindicos
 
 ---
 **Próximo bloco:** `calendario-comunidade-whatsapp-agosto.md`
