@@ -32,4 +32,6 @@ Síndicos profissionais (executores em transição ou já estruturados), fornece
 **O que evitar:** travessão (—) em qualquer texto; comparação agressiva ou que constranja o síndico; enquete sem opções de resposta definidas.
 
 ## 7. Próximo passo
-Calendário de conteúdo completo (24/06 a 16/09/2026) entregue em `calendario-comunidade-whatsapp.md`, nesta mesma pasta, pronto para revisão antes da etapa `copywriter-cliente`.
+Calendário de conteúdo completo (24/06 a 30/09/2026) entregue em 3 blocos mensais (`calendario-comunidade-whatsapp-jun-jul.md`, `-agosto.md`, `-setembro.md`), indexados em `calendario-comunidade-whatsapp.md`, nesta mesma pasta, pronto para revisão antes da etapa `copywriter-cliente`.
+
+A Mentoria de Síndicos (https://www.elevags.com.br/mentoria/sindicos-profissionais) entra no rodízio das quintas a partir de 20/08, intercalando com Sessão Estratégica e Curso (rodízio de 3 a partir de então).

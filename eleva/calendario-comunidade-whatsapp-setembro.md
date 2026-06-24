@@ -1,0 +1,189 @@
+# Calendário Comunidade WhatsApp, Eleva, Síndicos
+## Bloco 3: 01/09 a 30/09/2026 (mês completo)
+
+**Cadência:** Terça (tema do ebook), Quarta (artigo de fornecedor), Quinta (Sessão Estratégica, Curso ou Mentoria, em rodízio de 3)
+**Status:** 🔲 a publicar (todo o bloco)
+**Nota:** a lista de artigos de fornecedor enviada pelo Giuliano cobria até 16/09. Para 23/09 e 30/09, retomamos os dois primeiros artigos do ciclo (24/06 e 01/07) com ângulo novo, pra não repetir o texto de antes.
+
+---
+
+## 01/09 (terça) 🔲
+**12h30 [Comunidade WhatsApp]** Engajamento
+**Formato:** Mini-texto reflexivo + Enquete
+**Ancoragem:** Ebook, Cap. 3 (os três estágios), retomando o arco da enquete de 17/06
+**Texto:**
+Já faz uns meses desde a primeira vez que perguntamos sobre isso aqui na comunidade, então vamos de novo: hoje, a sua atuação está mais para:
+🔧 Reativa, meu dia é definido pelo que aparece
+📋 Organizada, mas a operação não anda sem mim
+📈 Em crescimento, já delego e amplio a carteira com estrutura
+🏛️ Gestão de patrimônio, conduzo cada condomínio como um ativo
+
+---
+
+## 02/09 (quarta) 🔲
+**17h00 [Comunidade WhatsApp]** Pílula técnica + Autoridade
+**Formato:** Artigo do blog
+**Ancoragem:** https://www.elevags.com.br/blog/a-nutricao-entre-contratos-decide-a-proxima-renovacao
+**Texto:**
+Boa tarde, síndicos! 👋
+
+Hoje o tema é a nutrição entre contratos, o relacionamento que você constrói no dia a dia decide a próxima renovação, não só a proposta final.
+
+👉 https://www.elevags.com.br/blog/a-nutricao-entre-contratos-decide-a-proxima-renovacao
+
+---
+
+## 03/09 (quinta) 🔲 **Sessão Estratégica**
+**11h00 [Comunidade WhatsApp]** Venda indireta
+**Formato:** Resposta à enquete (01/09) + CTA Sessão Estratégica
+**Ancoragem:** Resposta à enquete de 01/09
+**Texto:**
+Resposta à enquete de terça 👇
+
+Se você marcou "reativa" ou "organizada, mas tudo passa por mim", está em boa companhia, é onde a maioria dos síndicos profissionais passa mais tempo do que precisaria. Não por falta de esforço, mas por falta de método.
+
+Se marcou "em crescimento", você já passou a parte mais difícil, delega e amplia. O desafio agora é fazer isso sem depender da sua presença constante.
+
+E se marcou "gestão de patrimônio", você está no degrau que o mercado ainda trata como exceção, e que está virando o novo padrão.
+
+Quer mapear seu próximo degrau com o Giuliano?
+👉 https://www.elevags.com.br/sessao-estrategica-sindicos
+
+---
+
+## 08/09 (terça) 🔲
+**12h30 [Comunidade WhatsApp]** Pílula técnica, Venda direta
+**Formato:** Mini-texto reflexivo + CTA Curso
+**Ancoragem:** Ebook, Cap. 11 (Roadmap, mentoria)
+**Texto:**
+A Mentoria é indicada pra quem já atua com pelo menos dois condomínios e sente que chegou no teto do método atual. Mas antes da mentoria, tem o curso, que organiza a base inteira: posicionamento, captação, proposta técnica e indicador de satisfação.
+
+Se você ainda não tem essa base estruturada, comece por aqui:
+👉 https://www.elevags.com.br/cursos-de-sindico-profissional-a-gestor-de-ativos
+
+---
+
+## 09/09 (quarta) 🔲
+**17h00 [Comunidade WhatsApp]** Pílula técnica + Autoridade
+**Formato:** Artigo do blog
+**Ancoragem:** https://www.elevags.com.br/blog/criterios-esg-eliminam-fornecedores-na-homologacao
+**Texto:**
+Boa tarde, síndicos de alta performance! 👋
+
+Leitura de hoje: critérios ESG eliminam fornecedores na homologação, o que considerar antes de fechar contrato com um prestador.
+
+👉 https://www.elevags.com.br/blog/criterios-esg-eliminam-fornecedores-na-homologacao
+
+---
+
+## 10/09 (quinta) 🔲 **Curso**
+**11h00 [Comunidade WhatsApp]** Venda direta
+**Formato:** Pílula técnica + CTA Curso
+**Ancoragem:** Ebook, Cap. 4.8 (ESG e Sustentabilidade)
+**Texto:**
+O portfólio ESG documentado é um dos diferenciadores mais eficientes do síndico profissional hoje. Não é discurso, é apresentação concreta de plano em assembleia, com economia e impacto mensurados.
+
+O curso mostra como montar esse portfólio passo a passo:
+👉 https://www.elevags.com.br/cursos-de-sindico-profissional-a-gestor-de-ativos
+
+---
+
+## 15/09 (terça) 🔲
+**12h30 [Comunidade WhatsApp]** Pílula técnica, Venda indireta
+**Formato:** Mini-texto reflexivo
+**Ancoragem:** Ebook, Cap. 10 (profissionalização internacional, Espanha, Itália, Reino Unido)
+**Texto:**
+Em países como Espanha e Itália, a profissionalização da sindicatura levou décadas antes de qualquer lei obrigar. Certificação, exame técnico e código de conduta vieram do próprio mercado, não do Estado.
+
+O Brasil está nesse mesmo momento agora. Quem se profissionaliza antes da regulamentação formal chega com vantagem competitiva real.
+
+---
+
+## 16/09 (quarta) 🔲
+**17h00 [Comunidade WhatsApp]** Pílula técnica + Autoridade
+**Formato:** Artigo do blog
+**Ancoragem:** https://www.elevags.com.br/blog/a-aprovacao-condominial-e-uma-sequencia-nao-um-momento
+**Texto:**
+Boa tarde, síndicos! 👋
+
+Hoje o tema é a aprovação condominial como sequência, não como momento único, o trabalho de construir consenso começa muito antes da assembleia.
+
+👉 https://www.elevags.com.br/blog/a-aprovacao-condominial-e-uma-sequencia-nao-um-momento
+
+---
+
+## 17/09 (quinta) 🔲 **Mentoria de Síndicos**
+**11h00 [Comunidade WhatsApp]** Venda direta
+**Formato:** Pílula técnica + CTA Mentoria
+**Ancoragem:** Ebook, Cap. 7.5 (síndico como novo nó central do ecossistema)
+**Texto:**
+Quem chega no ponto de ser o nó central do ecossistema, com Hub de parceiros, indicadores e contratos com SLA rodando, não precisa mais de curso introdutório. Precisa de alguém olhando a operação com você e ajudando a destravar o próximo degrau.
+
+É exatamente esse o papel da Mentoria de Síndicos da Eleva, acompanhamento direto com o Giuliano pra quem já tem base.
+
+👉 https://www.elevags.com.br/mentoria/sindicos-profissionais
+
+---
+
+## 22/09 (terça) 🔲
+**12h30 [Comunidade WhatsApp]** Pílula técnica, Venda indireta
+**Formato:** Mini-texto reflexivo
+**Ancoragem:** Ebook, Cap. 5.3 (Prestação de Contas)
+**Texto:**
+Prestação de contas não é burocracia, é o único instrumento que separa o síndico diligente do síndico que só "parece" diligente. Protocolo claro, documentação acessível, linguagem que o conselho entende sem precisar perguntar duas vezes.
+
+Quando esse processo é confuso, desgasta a credibilidade mesmo quando a gestão financeira está correta.
+
+---
+
+## 23/09 (quarta) 🔲 **artigo retomado, ângulo novo**
+**17h00 [Comunidade WhatsApp]** Pílula técnica + Autoridade
+**Formato:** Artigo do blog
+**Ancoragem:** https://www.elevags.com.br/blog/cidades-privadas
+**Ângulo:** foco no fornecedor e na administradora, como a dimensão de R$ 170 bilhões/ano do setor também é oportunidade de posicionamento pra quem presta serviço, não só pro síndico
+**Texto:**
+Boa tarde, síndicos e parceiros! 👋
+
+Retomamos um artigo que já passou por aqui em junho, mas hoje com outro recorte: os condomínios como Cidades Privadas movimentam R$ 170 bilhões por ano, e isso não é só dado de mercado pro síndico, é também o tamanho da oportunidade pra fornecedor e administradora que se posicionam com critério.
+
+👉 https://www.elevags.com.br/blog/cidades-privadas
+
+---
+
+## 24/09 (quinta) 🔲 **Sessão Estratégica**
+**11h00 [Comunidade WhatsApp]** Venda indireta
+**Formato:** Pílula técnica + CTA Sessão Estratégica
+**Ancoragem:** Ebook, Cap. 5.3 (resposta indireta ao tema de 22/09)
+**Texto:**
+Voltando ao tema de terça: se sua prestação de contas ainda depende de explicação verbal em assembleia, isso é sinal de processo, não de caráter. Dá pra resolver com protocolo, não com mais reunião.
+
+Quer revisar esse fluxo com o Giuliano numa conversa de 30 minutos?
+👉 https://www.elevags.com.br/sessao-estrategica-sindicos
+
+---
+
+## 29/09 (terça) 🔲
+**12h30 [Comunidade WhatsApp]** Pílula técnica, Venda direta
+**Formato:** Mini-texto reflexivo + CTA Curso
+**Ancoragem:** Ebook, Cap. 9.17 (Turnaround condominial)
+**Texto:**
+O turnaround condominial é o caso que o síndico profissional não anuncia em rede social, mas é o que mais prova competência: assumir um condomínio em crise financeira ou estrutural e devolver ele saudável em poucos meses.
+
+Esse tipo de virada não acontece por intuição, segue método. É um dos 42 casos detalhados no curso "De Síndico a Gestor de Ativos".
+👉 https://www.elevags.com.br/cursos-de-sindico-profissional-a-gestor-de-ativos
+
+---
+
+## 30/09 (quarta) 🔲 **artigo retomado, ângulo novo**
+**17h00 [Comunidade WhatsApp]** Pílula técnica + Autoridade
+**Formato:** Artigo do blog
+**Ancoragem:** https://www.elevags.com.br/blog/o-hub-de-escala-e-o-ciclo-de-multiplicacao
+**Ângulo:** foco em administradoras e executivos, como o Hub de Escala se aplica também a quem gerencia múltiplas carteiras, não só ao síndico individual
+**Texto:**
+Boa tarde, síndicos e administradoras! 👋
+
+Fechando o mês, retomamos o tema do Hub de Escala e o Ciclo de Multiplicação, mas hoje olhando pra quem administra mais de uma carteira: o mesmo princípio de não depender da presença física individual vale pra estrutura inteira de uma administradora.
+
+👉 https://www.elevags.com.br/blog/o-hub-de-escala-e-o-ciclo-de-multiplicacao
+
+*A partir de outubro, o calendário segue o mesmo ciclo: terça com tema do ebook (alternando venda direta/indireta), quarta com artigo de fornecedor, quinta em rodízio de três CTAs (Sessão Estratégica, Curso, Mentoria).*
