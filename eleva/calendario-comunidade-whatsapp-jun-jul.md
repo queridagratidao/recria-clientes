@@ -111,19 +111,24 @@ Toque no link abaixo, dá uma olhada com calma e garante sua vaga no valor de la
 
 ---
 
-## 07/07 (terça) 🔲
-**Manhã [Comunidade WhatsApp]** Pílula técnica, Venda indireta
-**Formato:** Mini-texto reflexivo
-**Ancoragem:** Ebook, Cap. 1 (a bifurcação do mercado da sindicatura)
+## 07/07 (terça) 🔲 **logo após o lançamento, sem venda, só valor**
+**Manhã [Comunidade WhatsApp]** Pílula técnica + Autoridade
+**Formato:** Artigo do blog (não é o de fornecedor da quarta, é conteúdo extra de valor pro síndico)
+**Ancoragem:** https://www.elevags.com.br/blog/mentalidade-de-alta-performance
 **Texto:**
 Bom dia, síndicos de alta performance! 👋
 
-Uma reflexão rápida pra começar a semana: o mercado da sindicatura está se dividindo em dois grupos, quem profissionaliza a operação e cresce carteira, e quem segue no mesmo patamar há anos sem entender exatamente por quê.
+Segue uma sugestão de leitura pra começar a semana.
 
-A diferença não é esforço, é estrutura. E é justamente essa bifurcação, e o que separa quem cresce de quem fica para trás, que o Giuliano detalha no primeiro capítulo do curso "De Síndico a Gestor de Ativos".
+O artigo escrito por Giuliano Spolavori aborda a mentalidade de alta performance, o que muda na cabeça de quem decide tratar a sindicatura como negócio, não só como função.
 
-Se você quer entender em qual lado dessa divisão sua operação está hoje, vale conhecer:
-🔗 https://www.elevags.com.br/cursos-de-sindico-profissional-a-gestor-de-ativos
+Por que esse conteúdo é tão valioso para você, síndico?
+
+Porque mentalidade vem antes de método. Antes de qualquer ferramenta ou processo novo, é essa virada de chave que separa quem cresce de quem segue no mesmo patamar.
+
+Se interessou, toque no link abaixo e boa leitura! 👇
+
+🔗 https://www.elevags.com.br/blog/mentalidade-de-alta-performance
 
 ---
 
@@ -148,24 +153,24 @@ Se interessou, toque no link abaixo e boa leitura! 👇
 
 ---
 
-## 09/07 (quinta) 🔲
-**Manhã [Comunidade WhatsApp]** Venda direta
-**Formato:** Pílula técnica + CTA Curso
+## 09/07 (quinta) 🔲 **Sessão Estratégica (o curso já teve sua venda direta nessa semana, em 06/07)**
+**Manhã [Comunidade WhatsApp]** Venda indireta
+**Formato:** Pílula técnica + CTA Sessão Estratégica
 **Ancoragem:** Ebook, Cap. 8 (Crescimento do Negócio, captação e autoridade)
 **Texto:**
 Bom dia, síndicos de alta performance! 👋
 
 Captação de condomínio novo não deveria depender só de indicação espontânea, e talvez seja por isso que sua carteira cresce mais devagar do que poderia.
 
-No curso, o Giuliano detalha o processo de proposta do síndico de alta performance, desde o posicionamento até a apresentação de dados de viabilidade que fazem o conselho decidir por valor, não por preço.
+Se você ainda concorre só no boca a boca, vale entender com o Giuliano onde sua captação está travando hoje, e o que muda isso de forma prática.
 
-Se você ainda concorre só no boca a boca, vale conhecer esse método com calma:
-🔗 https://www.elevags.com.br/cursos-de-sindico-profissional-a-gestor-de-ativos
+Toque no link e agenda uma conversa de 30 minutos:
+🔗 https://www.elevags.com.br/sessao-estrategica-sindicos
 
 ---
 
-## 14/07 (terça) 🔲
-**Manhã [Comunidade WhatsApp]** Pílula técnica, Venda indireta
+## 14/07 (terça) 🔲 **sem link, só reflexão (a venda da semana fica concentrada na quinta)**
+**Manhã [Comunidade WhatsApp]** Engajamento
 **Formato:** Mini-texto reflexivo
 **Ancoragem:** Ebook, Cap. 4 (Mapa Estratégico, 9 áreas)
 **Texto:**
@@ -175,8 +180,7 @@ Um teste rápido: quantas das nove áreas do Mapa Estratégico você consegue no
 
 O síndico que só olha pra duas ou três dessas áreas administra contrato. O que olha pras nove conduz patrimônio, e é exatamente essa diferença que sustenta um honorário maior.
 
-O Giuliano detalha cada uma dessas nove áreas, com indicador e exemplo prático, no curso "De Síndico a Gestor de Ativos":
-🔗 https://www.elevags.com.br/cursos-de-sindico-profissional-a-gestor-de-ativos
+Vale o exercício: anote as nove de cabeça e veja quantas faltaram.
 
 ---
 
@@ -201,17 +205,15 @@ Se interessou, toque no link abaixo e boa leitura! 👇
 
 ---
 
-## 16/07 (quinta) 🔲
-**Manhã [Comunidade WhatsApp]** Venda indireta
-**Formato:** Pílula técnica + CTA Sessão Estratégica
+## 16/07 (quinta) 🔲 **única venda direta de curso dessa semana**
+**Manhã [Comunidade WhatsApp]** Venda direta
+**Formato:** Pílula técnica + CTA Curso
 **Ancoragem:** Ebook, Cap. 5 (Gestão de Contratos e SLA)
 **Texto:**
 Bom dia, síndicos de alta performance! Uma frase do Giuliano que costuma incomodar (no bom sentido): um contrato sem SLA é uma declaração de intenção, não um instrumento de gestão.
 
-Se seus contratos ainda não têm critério de nível de serviço definido, vale revisar isso com calma antes que o problema apareça no peor momento possível.
-
-Quer um diagnóstico rápido da sua operação com o Giuliano? Toque no link e agenda 30 minutos:
-🔗 https://www.elevags.com.br/sessao-estrategica-sindicos
+Se seus contratos ainda não têm critério de nível de serviço definido, o curso mostra como montar isso desde o modelo de contrato até o indicador de acompanhamento:
+🔗 https://www.elevags.com.br/cursos-de-sindico-profissional-a-gestor-de-ativos
 
 ---
 

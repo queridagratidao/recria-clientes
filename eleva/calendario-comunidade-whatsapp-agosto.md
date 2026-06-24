@@ -10,19 +10,16 @@
 
 ---
 
-## 04/08 (terça) 🔲
-**Manhã [Comunidade WhatsApp]** Pílula técnica, Venda direta
-**Formato:** Mini-texto reflexivo + CTA Curso
+## 04/08 (terça) 🔲 **sem link, a venda da semana fica concentrada na quinta**
+**Manhã [Comunidade WhatsApp]** Engajamento
+**Formato:** Mini-texto reflexivo
 **Ancoragem:** Ebook, Cap. 2 (Código de Deveres)
 **Texto:**
 Bom dia, síndicos de alta performance! 👋
 
 O síndico é garantidor por lei, e a proteção dele se constrói com documentação, não com sorte. Ata de assembleia, laudo técnico, ART do responsável, tudo isso é o que separa responsabilidade civil de responsabilidade criminal num momento de crise.
 
-O curso traz o mapeamento completo das obrigações por hierarquia normativa, capítulo por capítulo, pra você ter isso organizado antes de precisar, não depois.
-
-Quer dar uma olhada nesse mapeamento?
-🔗 https://www.elevags.com.br/cursos-de-sindico-profissional-a-gestor-de-ativos
+Vale revisar: se hoje desse uma vistoria surpresa na sua pasta de documentação, o que estaria faltando?
 
 ---
 
@@ -59,17 +56,16 @@ Se você ainda sente que justifica preço em vez de apresentar valor, vale conhe
 
 ---
 
-## 11/08 (terça) 🔲
-**Manhã [Comunidade WhatsApp]** Pílula técnica, Venda direta
-**Formato:** Mini-texto reflexivo + CTA Curso
+## 11/08 (terça) 🔲 **sem link, a venda da semana fica concentrada na quinta**
+**Manhã [Comunidade WhatsApp]** Engajamento
+**Formato:** Mini-texto reflexivo
 **Ancoragem:** Ebook, Cap. 8 (captação estruturada)
 **Texto:**
 Bom dia, síndicos de alta performance! 👋
 
 Captação estruturada não é sair atrás de condomínio, é construir um conjunto de ações planejadas que geram entrada recorrente de oportunidade, mesmo nos meses em que você não está prospectando ativamente.
 
-É exatamente esse processo, do posicionamento até a proposta com dados de viabilidade, que o Giuliano destrincha passo a passo no curso. Vale a curiosidade:
-🔗 https://www.elevags.com.br/cursos-de-sindico-profissional-a-gestor-de-ativos
+Pergunta pra reflexão: nos últimos seis meses, quantos condomínios novos vieram de uma ação planejada sua, e quantos vieram só de sorte ou indicação espontânea?
 
 ---
 
@@ -152,17 +148,16 @@ Se você quer esse tipo de repertório pra apresentar em assembleia, está tudo 
 
 ---
 
-## 25/08 (terça) 🔲
-**Manhã [Comunidade WhatsApp]** Pílula técnica, Venda direta
-**Formato:** Mini-texto reflexivo + CTA Curso
+## 25/08 (terça) 🔲 **sem link, a venda da semana fica concentrada na quinta (Mentoria)**
+**Manhã [Comunidade WhatsApp]** Engajamento
+**Formato:** Mini-texto reflexivo
 **Ancoragem:** Ebook, Cap. 9.42 ("o que os 41 casos têm em comum")
 **Texto:**
 Bom dia, síndicos de alta performance! 👋
 
 O livro fecha o bloco de casos reais com uma pergunta que vale a reflexão: o que 41 histórias de síndicos diferentes têm em comum? A resposta não é sorte, nem mercado favorável. É decisão deliberada de método, repetida mês após mês.
 
-Vale conhecer esse fio condutor com calma:
-🔗 https://www.elevags.com.br/cursos-de-sindico-profissional-a-gestor-de-ativos
+Vale pensar: qual seria o seu caso, se alguém fosse documentar sua trajetória hoje?
 
 ---
 
