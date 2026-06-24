@@ -107,7 +107,7 @@ Se interessou, toque no link abaixo e boa leitura! 👇
 Bom dia, síndicos de alta performance! Um dos casos do livro mostra como um portfólio ESG bem documentado vira argumento de honorário mais alto em assembleia, não só discurso de sustentabilidade.
 
 O curso mostra como montar esse portfólio passo a passo, do zero até a apresentação:
-🔗 https://www.elevags.com.br/cursos-de-sindico-profissional-a-gestor-de-ativos
+🔗 https://bit.ly/curso-eleva-sindicos
 
 ---
 
@@ -212,7 +212,7 @@ Bom dia, síndicos de alta performance! 👋
 O turnaround condominial é o caso que o síndico profissional não anuncia em rede social, mas é o que mais prova competência: assumir um condomínio em crise financeira ou estrutural e devolver ele saudável em poucos meses.
 
 Esse tipo de virada não acontece por intuição, segue método. É um dos 42 casos detalhados, com número e cronograma, no curso "De Síndico a Gestor de Ativos":
-🔗 https://www.elevags.com.br/cursos-de-sindico-profissional-a-gestor-de-ativos
+🔗 https://bit.ly/curso-eleva-sindicos
 
 ---
 

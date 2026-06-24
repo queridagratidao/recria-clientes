@@ -94,7 +94,7 @@ Se interessou, toque no link abaixo e boa leitura! 👇
 ## 06/07 (segunda, especial, fora da cadência) **LANÇAMENTO DO CURSO** 🔲
 **Manhã [Comunidade WhatsApp]** Venda direta
 **Formato:** Texto de lançamento + CTA Curso
-**Ancoragem:** LP do curso, https://www.elevags.com.br/cursos-de-sindico-profissional-a-gestor-de-ativos
+**Ancoragem:** LP do curso, https://bit.ly/curso-eleva-sindicos
 **Texto:**
 Bom dia, síndicos de alta performance! Hoje é dia de novidade exclusiva pra essa comunidade. 🎉
 
@@ -107,7 +107,7 @@ Porque o curso reúne, em um único lugar, as nove áreas do Mapa Estratégico, 
 E quem entra agora leva bônus exclusivos e mais de R$ 100 de desconto no valor de lançamento. A oferta tem data de validade, então corre.
 
 Toque no link abaixo, dá uma olhada com calma e garante sua vaga no valor de lançamento:
-🔗 https://www.elevags.com.br/cursos-de-sindico-profissional-a-gestor-de-ativos
+🔗 https://bit.ly/curso-eleva-sindicos
 
 ---
 
@@ -213,7 +213,7 @@ Se interessou, toque no link abaixo e boa leitura! 👇
 Bom dia, síndicos de alta performance! Uma frase do Giuliano que costuma incomodar (no bom sentido): um contrato sem SLA é uma declaração de intenção, não um instrumento de gestão.
 
 Se seus contratos ainda não têm critério de nível de serviço definido, o curso mostra como montar isso desde o modelo de contrato até o indicador de acompanhamento:
-🔗 https://www.elevags.com.br/cursos-de-sindico-profissional-a-gestor-de-ativos
+🔗 https://bit.ly/curso-eleva-sindicos
 
 ---
 
@@ -245,7 +245,7 @@ Se você ainda não usa, não tem problema, o ponto não é correr pra adotar qu
 O Giuliano dedica um capítulo inteiro do curso só pra esse mapeamento, com os limites de cada frente bem demarcados, pra você não cair nem na rejeição nem no exagero.
 
 Se quiser conhecer esse capítulo, toque no link:
-🔗 https://www.elevags.com.br/cursos-de-sindico-profissional-a-gestor-de-ativos
+🔗 https://bit.ly/curso-eleva-sindicos
 
 ---
 

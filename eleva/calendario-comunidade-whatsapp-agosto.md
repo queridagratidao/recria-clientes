@@ -52,7 +52,7 @@ Se interessou, toque no link abaixo e boa leitura! 👇
 Bom dia, síndicos de alta performance! Quando o conselho entende o que sustenta o honorário, a decisão de preço se transforma em decisão de valor. Esse é um dos pontos mais repetidos no livro do Giuliano, e também um dos mais difíceis de aplicar sem método.
 
 Se você ainda sente que justifica preço em vez de apresentar valor, vale conhecer como estruturar esse argumento no curso completo:
-🔗 https://www.elevags.com.br/cursos-de-sindico-profissional-a-gestor-de-ativos
+🔗 https://bit.ly/curso-eleva-sindicos
 
 ---
 
@@ -144,7 +144,7 @@ Se interessou, toque no link abaixo e boa leitura! 👇
 Bom dia, síndicos de alta performance! Entre os 42 casos do livro tem síndico que reduziu OPEX com portaria remota, que monetizou vaga de garagem ociosa, que fechou contrato de energia solar por assinatura sem custo de instalação pro condomínio. Tudo documentado, com número.
 
 Se você quer esse tipo de repertório pra apresentar em assembleia, está tudo no curso:
-🔗 https://www.elevags.com.br/cursos-de-sindico-profissional-a-gestor-de-ativos
+🔗 https://bit.ly/curso-eleva-sindicos
 
 ---
 
