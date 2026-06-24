@@ -34,6 +34,27 @@ Se quiser entender isso com o Giuliano numa conversa de 30 minutos, toque no lin
 ---
 
 ## 30/06 (terça) 🔲
+**Noite [Comunidade WhatsApp]** Pílula técnica + Autoridade
+**Formato:** Artigo do blog
+**Ancoragem:** https://www.elevags.com.br/blog/o-hub-de-escala-e-o-ciclo-de-multiplicacao
+**Texto:**
+Boa noite, síndicos de alta performance! 👋
+
+Segue uma sugestão de leitura para o dia.
+
+O artigo escrito por Giuliano Spolavori aborda o Hub de Escala e o Ciclo de Multiplicação, o mecanismo que permite a um síndico crescer carteira sem precisar multiplicar as próprias horas de trabalho.
+
+Por que esse conteúdo é tão valioso para você, síndico?
+
+Porque ele expõe o motivo pelo qual alguns profissionais escalam de seis pra dezoito condomínios sem virar escravo da própria agenda, enquanto outros travam no mesmo patamar há anos. A diferença está numa lógica de estrutura que o artigo detalha passo a passo.
+
+Se interessou, toque no link abaixo e boa leitura! 👇
+
+🔗 https://www.elevags.com.br/blog/o-hub-de-escala-e-o-ciclo-de-multiplicacao
+
+---
+
+## 01/07 (quarta) 🔲
 **Manhã [Comunidade WhatsApp]** Engajamento
 **Formato:** Mini-texto reflexivo + Enquete
 **Ancoragem:** Ebook, Cap. 10.3 (reputação cumulativa) + arco do parecer de enquetes
@@ -51,10 +72,10 @@ Na sua operação hoje, você diria que a sua reputação está:
 
 ---
 
-## 01/07 (quarta) 🔲
+## 02/07 (quinta) 🔲
 **Manhã [Comunidade WhatsApp]** Engajamento + Venda indireta
-**Formato:** Resposta à enquete de 30/06
-**Ancoragem:** Resposta à enquete de 30/06
+**Formato:** Resposta à enquete de 01/07
+**Ancoragem:** Resposta à enquete de 01/07
 **Texto:**
 Bom dia, síndicos de alta performance! Resposta à enquete de ontem 👇
 
@@ -66,28 +87,6 @@ Em qualquer um dos três estágios, dá pra acelerar esse relógio com método, 
 
 Se quiser entender o seu caso específico, toque no link e agenda um horário:
 🔗 https://bit.ly/sessao-estrategica-sindicos
-
----
-
-## 02/07 (quinta) 🔲 **artigo, deslocado um dia da quarta por causa da resposta da enquete**
-**Noite [Comunidade WhatsApp]** Pílula técnica + Autoridade
-**Formato:** Artigo do blog
-**Ancoragem:** https://www.elevags.com.br/blog/o-hub-de-escala-e-o-ciclo-de-multiplicacao
-**Nota:** essa semana a quinta recebe o artigo no lugar do CTA, porque a quarta foi inteira pra resposta da enquete de terça. O CTA Sessão Estratégica que seria essa quinta foi pulado, a cadência normal (terça/quarta/quinta) retoma na semana seguinte.
-**Texto:**
-Boa noite, síndicos de alta performance! 👋
-
-Segue uma sugestão de leitura para o dia.
-
-O artigo escrito por Giuliano Spolavori aborda o Hub de Escala e o Ciclo de Multiplicação, o mecanismo que permite a um síndico crescer carteira sem precisar multiplicar as próprias horas de trabalho.
-
-Por que esse conteúdo é tão valioso para você, síndico?
-
-Porque ele expõe o motivo pelo qual alguns profissionais escalam de seis pra dezoito condomínios sem virar escravo da própria agenda, enquanto outros travam no mesmo patamar há anos. A diferença está numa lógica de estrutura que o artigo detalha passo a passo.
-
-Se interessou, toque no link abaixo e boa leitura! 👇
-
-🔗 https://www.elevags.com.br/blog/o-hub-de-escala-e-o-ciclo-de-multiplicacao
 
 ---
 
