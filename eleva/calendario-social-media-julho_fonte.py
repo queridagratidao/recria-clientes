@@ -13,30 +13,32 @@ add_month("JULHO 2026")
 
 add_week("SEMANA 1 · 06 a 09/07, Eficiência operacional (Fornecedor)")
 
-add_day("07/07 (TER), Semana 1, Fornecedor", [
-    dict(time="18h", channel="INSTAGRAM", tipo="VENDA (ManyChat → Fornecedor)",
-         ancoragem="Cap 5+7 do curso Fornecedor, case Evolua Energia (Geração Distribuída)",
-         formato="Post Estático", persona="Fornecedor / Prestador de Serviços para Condomínios",
-         headline="Existe uma proposta que o condomínio aprova em assembleia sem pedir desconto. E não tem nada a ver com preço.",
-         subheadline="O fornecedor que entende esse detalhe nunca compete na cotação mais barata.",
+add_day("07/07 (TER), Semana 1, Reaproveitamento LinkedIn 17/06 → Instagram (copy idêntica, arte já pronta)", [
+    dict(time="18h", channel="INSTAGRAM", tipo="ENGAJAMENTO (ManyChat → SESSÃO ESTRATÉGICA)",
+         origem="Post LinkedIn 17/06, publicado em junho no LinkedIn. Copy idêntica ao original (mesma headline, subheadline e legenda completa), reaproveitada aqui para o Instagram. Arte já existente, sem necessidade de peça nova.",
+         ancoragem=None, formato="Post Estático", persona="Diretor / Sócio / Executivo de Imobiliária de Aluguéis",
+         headline="Quando a imobiliária de aluguéis depende quase 100% da taxa de administração: escolha ou limitação?",
+         subheadline="Cada imóvel da carteira carrega pelo menos cinco fontes de receita que costumam ficar inativadas.",
          cta=None,
-         legenda="A Geração Distribuída por assinatura é um dos modelos de eficiência energética com adesão mais rápida em assembleia, o condomínio não desembolsa nada, e ainda sai com desconto recorrente na conta de energia. O case Evolua Energia, documentado no curso, mostra como esse modelo virou porta de entrada para uma carteira inteira de condomínios. Comente FORNECEDOR e olhe o seu direct.",
-         hashtags="#GeracaoDistribuida #FornecedoresCondominiais #MercadoCondominial #ElevaGS"),
+         legenda="A maioria das imobiliárias de aluguéis opera com um modelo de receita que tem data de validade. Quando a única fonte é a taxa de administração, a única forma de competir é reduzindo margem, uma espiral que corrói o negócio silenciosamente até o ponto em que não há mais espaço para baixar. Mas cada imóvel administrado carrega valor inativado para os dois lados, proprietário, inquilino e imobiliária: consultoria fiscal e patrimonial ao proprietário, que reduz carga tributária legalmente e maximiza a valorização do imóvel (a imobiliária cobra por hora ou por projeto, receita com baixa elasticidade ao preço, porque o ganho do proprietário é direto e mensurável); gestão integral de reformas, o proprietário recebe obra conduzida, prazo cumprido e imóvel valorizado, sem investir tempo da própria rotina (a imobiliária recebe taxa sobre o valor da obra); seguro residencial via parcerias com seguradoras, o proprietário ganha proteção patrimonial e o inquilino ganha proteção de responsabilidade civil (a imobiliária recebe comissionamento recorrente sem operação adicional); concierge para inquilinos, manutenção, mudança, decoração (a imobiliária atua como curadora, com comissão sobre cada entrega e taxas de retenção do inquilino que aumentam de forma mensurável); e relatórios premium de performance do imóvel como investimento, ROI bruto e líquido, comparativos com benchmarks de mercado, projeção de valorização. A equação é sempre a mesma: a receita só é sustentável porque o cliente final recebe valor proporcional ou superior ao preço. As imobiliárias que crescem não encontraram um mercado novo, encontraram o valor que já existia na carteira, para os dois lados da relação. Para um diagnóstico direcionado ao seu negócio, comente SESSÃO ESTRATÉGICA e olhe o seu direct.",
+         hashtags="#ImobiliáriaDeAluguéis #ReceitaRecorrente #GestaoImobiliária #ElevaGS"),
 ])
 
-add_day("08/07 (QUA), Semana 1", [
+add_day("08/07 (QUA), Semana 1, Réplica de conteúdo de junho (02/06, era só Instagram) → LinkedIn (copy igual, arte já pronta)", [
     dict(time="19h", channel="LINKEDIN", tipo="VENDA (link → curso Fornecedor)",
-         ancoragem="Capítulo 5 do curso, Matriz de Vantagem Competitiva",
+         origem="Post Instagram 02/06, publicado em junho só no Instagram. Réplica da mesma copy para o LinkedIn em julho, arte já existente.",
+         ancoragem="Capítulo 2.3 do curso, Engenharia da Segurança como argumento comercial",
          formato="Post Estático", persona="Fornecedor / Prestador de Serviços para Condomínios",
-         headline="Existem quatro tipos de vantagem competitiva no ecossistema condominial. A maioria dos fornecedores só conhece um, e aposta justamente no que menos dura.",
-         subheadline="Preço, escopo, reputação e eficiência. Só uma dessas quatro se reforça com o tempo.",
+         headline="No ecossistema condominial o que diferencia uma proposta não é o preço. É o que está documentado nela.",
+         subheadline="Apólice de RC, ARTs, certidões de regularidade e treinamentos de NR-10 e NR-35 não são burocracia, são as credenciais que o síndico profissional usa para proteger o condomínio e blindar a própria gestão.",
          cta=None,
-         legenda="A vantagem por preço se esgota na primeira cotação melhor. A vantagem por escopo depende de manter o portfólio sempre ampliado. A vantagem por reputação demora anos para se consolidar. Existe uma quarta, e é a única que se reforça com o tempo: cada contrato bem executado reduz o custo do próximo, melhora a margem sem competir por ela e libera capacidade para atender mais carteira sem custo proporcional. O curso \"Multiplicar Vendas para Condomínios\" da Eleva (audiobook + ebook como material complementar) descreve, no Capítulo 5, como construir essa vantagem de forma deliberada, com os 43 casos reais documentados por Giuliano Spolavori. Acesse: " + FORNECEDOR_LINK,
-         hashtags="#VantagemCompetitiva #MercadoCondominial #FornecedoresCondominiais #ElevaGS"),
+         legenda="No ecossistema condominial, todo síndico, seja Profissional ou morador eleito, responde civil, criminal, trabalhista e administrativamente por cada decisão de contratação. A diferença está no perfil de gestão: o Síndico Profissional, descrito no curso como Gestor de Ativos, opera com lógica proativa, foco em eficiência operacional e mitigação de passivos. Para esse gestor, contratar um fornecedor sem documentação técnica adequada não é redução de custo, é amplificação de risco. Por isso, os fornecedores que constroem carteira nesse mercado entendem que apólice de RC, ART, certidões fiscais e trabalhistas e treinamentos de NR-10 e NR-35 não são custo operacional. São o argumento que o síndico apresenta ao Conselho Fiscal para justificar a escolha, e o que protege a gestão dele se algo der errado em obra. É o que o curso chama de Engenharia da Segurança, um dos argumentos comerciais mais subutilizados pelos fornecedores que entram no mercado condominial. Giuliano Spolavori documentou em 43 casos reais como fornecedores de alta performance transformaram esse arsenal técnico em diferencial competitivo, saindo da disputa de preço sem perder competitividade. Acesse: " + FORNECEDOR_LINK,
+         hashtags="#FornecedoresCondominiais #EngenhariaDaSegurança #MercadoCondominial #ElevaGS"),
 ])
 
-# Tema original desta semana (Geração Distribuída, Cap 5+7, case 4.9 Evolua Energia) fica no
-# Banco de Conteúdo de setembro.
+# Conteúdos originalmente planejados para esta semana (Geração Distribuída, Cap 5+7, case 4.9
+# Evolua Energia, e Vantagem Competitiva, Cap 5) ficam reservados: Geração Distribuída passa
+# para setembro (01/09), Vantagem Competitiva fica no Banco de Conteúdo para outubro.
 
 add_week("SEMANA 2 · 13 a 16/07, Gestor de Ativos: os 3 estágios do síndico (Curso Síndico)")
 
@@ -150,3 +152,10 @@ add_day("29/07 (QUA), Semana 4, Conteúdo baseado no curso de Síndico", [
 
 # Temas originais desta semana (Atlas Schindler, case 4.8, e Protocolos de Comunicação
 # Consultiva, Cap 6) ficam no Banco de Conteúdo de setembro.
+
+# =========================================================================
+# BANCO DE CONTEÚDO, encaixe em outubro/2026
+#
+# Vantagem Competitiva (Cap 5 do curso Fornecedor, os quatro tipos de vantagem competitiva,
+# persona Fornecedor, formato LinkedIn estático), deslocado da Semana 1 de julho (08/07) para
+# abrir espaço para a réplica do conteúdo de 02/06 (Engenharia da Segurança) nesse dia.

@@ -17,17 +17,17 @@ add_month("SETEMBRO 2026")
 add_week("Setembro segue a intercalação de agosto: terça Fornecedor, quinta Síndico, quarta "
          "Executivos/Administradoras. Conteúdo do banco de julho/agosto + capítulos novos dos cursos.")
 
-add_week("SEMANA 1 · 01 a 03/09, Reaproveitamento LinkedIn 17/06 (Fornecedor/Imobiliária) + Antecipação (Síndico)")
+add_week("SEMANA 1 · 01 a 03/09, Geração Distribuída (Fornecedor, deslocado de julho) + Antecipação (Síndico)")
 
-add_day("01/09 (TER), Semana 1, Reaproveitamento LinkedIn 17/06 → Instagram (copy idêntica ao original)", [
-    dict(time="18h", channel="INSTAGRAM", tipo="ENGAJAMENTO (ManyChat → SESSÃO ESTRATÉGICA)",
-         origem="Post LinkedIn 17/06, publicado em junho no LinkedIn. Copy idêntica ao original (mesma headline, subheadline e legenda completa), reaproveitada aqui para o Instagram.",
-         ancoragem=None, formato="Post Estático", persona="Diretor / Sócio / Executivo de Imobiliária de Aluguéis",
-         headline="Quando a imobiliária de aluguéis depende quase 100% da taxa de administração: escolha ou limitação?",
-         subheadline="Cada imóvel da carteira carrega pelo menos cinco fontes de receita que costumam ficar inativadas.",
+add_day("01/09 (TER), Semana 1, Fornecedor, deslocado da Semana 1 de julho (Geração Distribuída)", [
+    dict(time="18h", channel="INSTAGRAM", tipo="VENDA (ManyChat → Fornecedor)",
+         ancoragem="Cap 5+7 do curso Fornecedor, case Evolua Energia (Geração Distribuída)",
+         formato="Post Estático", persona="Fornecedor / Prestador de Serviços para Condomínios",
+         headline="Existe uma proposta que o condomínio aprova em assembleia sem pedir desconto. E não tem nada a ver com preço.",
+         subheadline="O fornecedor que entende esse detalhe nunca compete na cotação mais barata.",
          cta=None,
-         legenda="A maioria das imobiliárias de aluguéis opera com um modelo de receita que tem data de validade. Quando a única fonte é a taxa de administração, a única forma de competir é reduzindo margem, uma espiral que corrói o negócio silenciosamente até o ponto em que não há mais espaço para baixar. Mas cada imóvel administrado carrega valor inativado para os dois lados, proprietário, inquilino e imobiliária: consultoria fiscal e patrimonial ao proprietário, que reduz carga tributária legalmente e maximiza a valorização do imóvel (a imobiliária cobra por hora ou por projeto, receita com baixa elasticidade ao preço, porque o ganho do proprietário é direto e mensurável); gestão integral de reformas, o proprietário recebe obra conduzida, prazo cumprido e imóvel valorizado, sem investir tempo da própria rotina (a imobiliária recebe taxa sobre o valor da obra); seguro residencial via parcerias com seguradoras, o proprietário ganha proteção patrimonial e o inquilino ganha proteção de responsabilidade civil (a imobiliária recebe comissionamento recorrente sem operação adicional); concierge para inquilinos, manutenção, mudança, decoração (a imobiliária atua como curadora, com comissão sobre cada entrega e taxas de retenção do inquilino que aumentam de forma mensurável); e relatórios premium de performance do imóvel como investimento, ROI bruto e líquido, comparativos com benchmarks de mercado, projeção de valorização. A equação é sempre a mesma: a receita só é sustentável porque o cliente final recebe valor proporcional ou superior ao preço. As imobiliárias que crescem não encontraram um mercado novo, encontraram o valor que já existia na carteira, para os dois lados da relação. Para um diagnóstico direcionado ao seu negócio, comente SESSÃO ESTRATÉGICA e olhe o seu direct.",
-         hashtags="#ImobiliáriaDeAluguéis #ReceitaRecorrente #GestaoImobiliária #ElevaGS"),
+         legenda="A Geração Distribuída por assinatura é um dos modelos de eficiência energética com adesão mais rápida em assembleia, o condomínio não desembolsa nada, e ainda sai com desconto recorrente na conta de energia. O case Evolua Energia, documentado no curso, mostra como esse modelo virou porta de entrada para uma carteira inteira de condomínios. Comente FORNECEDOR e olhe o seu direct.",
+         hashtags="#GeracaoDistribuida #FornecedoresCondominiais #MercadoCondominial #ElevaGS"),
 ])
 
 add_day("03/09 (QUI), Semana 1, Síndico, Curso Síndico (Cap 11.2)", [
