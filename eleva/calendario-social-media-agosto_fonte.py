@@ -86,9 +86,19 @@ add_week("SEMANA 3 · 17 a 20/08, Cases emblemáticos (Fornecedor) + 41 casos do
 add_day("18/08 (TER), Semana 3, Fornecedor", [
     dict(time="18h", channel="INSTAGRAM", tipo="VENDA (ManyChat → Fornecedor)",
          ancoragem="Cap 4.11 do curso Fornecedor, Market4u", formato="Carrossel (4 cards)", persona="Fornecedor / Prestador de Serviços",
-         headline="Uma empresa faturou R$ 336 milhões sem nunca sair de dentro de condomínios. E o condomínio nem precisou investir um real.",
-         subheadline=None, cta=None,
-         legenda="CARD 1, CAPA. HEADLINE: Uma empresa faturou R$ 336 milhões sem nunca sair de dentro de condomínios. SUBHEADLINE: E o condomínio nem precisou investir um real. CTA: Arrasta pra entender como. CARD 2, Título: A marca + o número. Corpo: Market4u faturou R$ 336 milhões operando exclusivamente dentro de condomínios. CARD 3, Título: A engenharia básica. Corpo: minimercados autônomos, o condomínio cede espaço, sem risco financeiro fora do próprio balanço. CARD FINAL, HEADLINE: O curso tem outros 42 casos como este, em segmentos diferentes. SUBHEADLINE: O método é o mesmo. O setor é circunstância. CTA: Comente FORNECEDOR para conhecer os 43 casos. LEGENDA DO POST: Esse é só um dos 43 casos documentados no curso \"Multiplicar Vendas para Condomínios\".",
+         headline="Uma empresa faturou R$ 336 milhões sem nunca sair de dentro de condomínios.",
+         subheadline="E o condomínio nem precisou investir um real.",
+         cta="Arrasta pra entender como.",
+         cards=[
+             dict(titulo="A marca + o número", corpo="Market4u faturou R$ 336 milhões operando exclusivamente dentro de condomínios."),
+             dict(titulo="A engenharia básica", corpo="Minimercados autônomos, o condomínio cede espaço, sem risco financeiro fora do próprio balanço."),
+         ],
+         card_final=dict(
+             headline="O curso tem outros 42 casos como este, em segmentos diferentes.",
+             subheadline="O método é o mesmo. O setor é circunstância.",
+             cta="Comente FORNECEDOR para conhecer os 43 casos.",
+         ),
+         legenda="Esse é só um dos 43 casos documentados no curso \"Multiplicar Vendas para Condomínios\".",
          hashtags="#CasesDeSucesso #MercadoCondominial #FornecedoresCondominiais #ElevaGS"),
 ])
 
@@ -120,7 +130,17 @@ add_day("25/08 (TER), Semana 4, Reaproveitamento LinkedIn 24/06 → Instagram (m
          headline="+20 operações de M&A no setor. E em todas elas, a mesma pergunta vinha antes do contrato.",
          subheadline="Crescer organicamente ou adquirir? A resposta errada não é a que você imagina.",
          cta="Comente SESSÃO ESTRATÉGICA.",
-         legenda="CARD 2, Título: O dilema real. Corpo: crescer organicamente é seguro, mas pode ser lento para competir com grupos que já têm escala. Adquirir é rápido, mas integração mal preparada destrói valor em meses. CARD 3, Título: Erros mais comuns em aquisições no setor. Corpo: superestimar retenção de clientes, ignorar integração de cultura, due diligence insuficiente sobre passivos. CARD 4, Título: O que o diagnóstico precisa responder antes da decisão. Corpo: situação do mercado local, prontidão operacional para escalar, capital e time para absorver integração. CARD FINAL, HEADLINE: Giuliano Spolavori conduziu +20 operações de M&A em 35 anos de setor. SUBHEADLINE: Nenhuma sem esse diagnóstico estruturado. CTA: Comente SESSÃO ESTRATÉGICA para entender qual caminho faz sentido para a sua empresa.",
+         cards=[
+             dict(titulo="O dilema real", corpo="Crescer organicamente é seguro, mas pode ser lento para competir com grupos que já têm escala. Adquirir é rápido, mas integração mal preparada destrói valor em meses."),
+             dict(titulo="Erros mais comuns em aquisições no setor", corpo="Superestimar retenção de clientes, ignorar integração de cultura, due diligence insuficiente sobre passivos."),
+             dict(titulo="O que o diagnóstico precisa responder antes da decisão", corpo="Situação do mercado local, prontidão operacional para escalar, capital e time para absorver integração."),
+         ],
+         card_final=dict(
+             headline="Giuliano Spolavori conduziu +20 operações de M&A em 35 anos de setor.",
+             subheadline="Nenhuma sem esse diagnóstico estruturado.",
+             cta="Comente SESSÃO ESTRATÉGICA para entender qual caminho faz sentido para a sua empresa.",
+         ),
+         legenda="Carrossel mantido idêntico ao original de LinkedIn 24/06, reaproveitado aqui no fim de agosto para o Instagram.",
          hashtags="#M&A #AdministradoraCondomínios #CrescimentoImobiliário #ElevaGS"),
 ])
 

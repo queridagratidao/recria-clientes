@@ -12,6 +12,7 @@ import re
 NAVY = colors.HexColor('#0A0C0F')
 ORANGE = colors.HexColor('#E09C3B')
 LIGHTGRAY = colors.HexColor('#F4F4F4')
+CARDGRAY = colors.HexColor('#F7F4EE')
 BORDER = colors.HexColor('#D9D9D9')
 CH_COLOR = {
     'INSTAGRAM': colors.HexColor('#C2185B'),
@@ -34,7 +35,7 @@ def bolditalic(text):
 
 def month_title(text):
     return Paragraph(escape(text), ParagraphStyle('month', fontName='Helvetica-Bold', fontSize=20,
-                      textColor=NAVY, spaceBefore=10, spaceAfter=4))
+                      textColor=NAVY, spaceBefore=6, spaceAfter=16))
 
 def week_bar(text):
     t = Table([[Paragraph(escape(text), ParagraphStyle('wk', fontName='Helvetica-Bold', fontSize=11.5,
@@ -56,7 +57,35 @@ def day_bar(text):
     ]))
     return t
 
-def post_card(time, channel, tipo, ancoragem, formato, persona, headline, subheadline, cta, legenda, hashtags, origem=None):
+def _card_box(label, flows, label_color=ORANGE):
+    """Mini bordered box used for each carousel card (capa, meio, final)."""
+    rows = [[P("**%s**" % label, fontSize=8.3, textColor=label_color, spaceAfter=3)]]
+    for f in flows:
+        rows.append([f])
+    t = Table(rows, colWidths=[16.6*cm])
+    t.setStyle(TableStyle([
+        ('BACKGROUND', (0,0), (-1,-1), CARDGRAY),
+        ('BOX', (0,0), (-1,-1), 0.8, BORDER),
+        ('LEFTPADDING', (0,0), (-1,-1), 9), ('RIGHTPADDING', (0,0), (-1,-1), 9),
+        ('TOPPADDING', (0,0), (-1,-1), 6), ('BOTTOMPADDING', (0,0), (-1,-1), 6),
+    ]))
+    return t
+
+def capa_card(label, headline, subheadline, cta):
+    flows = [P("**HEADLINE:** " + headline, fontSize=9.6, leading=13, spaceAfter=3)]
+    if subheadline:
+        flows.append(P("**SUBHEADLINE:** " + subheadline, fontSize=9, leading=12, spaceAfter=3))
+    if cta:
+        flows.append(P("**CTA:** " + cta, fontSize=8.8, textColor=ORANGE))
+    return _card_box(label, flows)
+
+def mid_card(num, titulo, corpo):
+    flows = [P("**" + titulo + "**", fontSize=9.3, leading=12.5, spaceAfter=2),
+             P(corpo, fontSize=9, leading=12.3)]
+    return _card_box("CARD %s" % num, flows, label_color=colors.HexColor('#666666'))
+
+def post_card(time, channel, tipo, ancoragem, formato, persona, headline, subheadline, cta,
+              legenda, hashtags, origem=None, cards=None, card_final=None):
     accent = CH_COLOR.get(channel, NAVY)
     meta = "%s  ·  %s  ·  %s" % (time, channel, tipo)
     body_flow = []
@@ -64,14 +93,29 @@ def post_card(time, channel, tipo, ancoragem, formato, persona, headline, subhea
         body_flow.append(P("__Origem:__ " + origem, fontSize=8.3, textColor=colors.HexColor('#666666'), spaceAfter=3))
     if ancoragem:
         body_flow.append(P("__Ancoragem:__ " + ancoragem, fontSize=8.3, textColor=colors.HexColor('#666666'), spaceAfter=3))
-    body_flow.append(P("__Formato:__ " + formato + "    __Persona:__ " + persona, fontSize=8.6, spaceAfter=5))
-    if headline:
-        body_flow.append(P("**HEADLINE:** " + headline, fontSize=10, leading=13.5, spaceAfter=4))
-    if subheadline:
-        body_flow.append(P("**SUBHEADLINE:** " + subheadline, fontSize=9.3, leading=12.5, spaceAfter=4))
-    if cta:
-        body_flow.append(P("**CTA:** " + cta, fontSize=9, textColor=ORANGE, spaceAfter=5))
-    body_flow.append(P("**LEGENDA:** " + legenda, fontSize=9, leading=12.8, spaceAfter=5))
+    body_flow.append(P("__Formato:__ " + formato + "    __Persona:__ " + persona, fontSize=8.6, spaceAfter=6))
+
+    if cards:
+        # Carrossel: capa, cards do meio, card final, cada um em bloco visual separado.
+        body_flow.append(capa_card("CARD 1 — CAPA", headline, subheadline, cta))
+        body_flow.append(Spacer(1, 0.12*cm))
+        for i, c in enumerate(cards, start=2):
+            body_flow.append(mid_card(i, c['titulo'], c['corpo']))
+            body_flow.append(Spacer(1, 0.12*cm))
+        if card_final:
+            body_flow.append(capa_card("CARD FINAL", card_final.get('headline'),
+                                        card_final.get('subheadline'), card_final.get('cta')))
+            body_flow.append(Spacer(1, 0.12*cm))
+        body_flow.append(P("**LEGENDA DO POST:** " + legenda, fontSize=9, leading=12.8, spaceAfter=5))
+    else:
+        if headline:
+            body_flow.append(P("**HEADLINE:** " + headline, fontSize=10, leading=13.5, spaceAfter=4))
+        if subheadline:
+            body_flow.append(P("**SUBHEADLINE:** " + subheadline, fontSize=9.3, leading=12.5, spaceAfter=4))
+        if cta:
+            body_flow.append(P("**CTA:** " + cta, fontSize=9, textColor=ORANGE, spaceAfter=5))
+        body_flow.append(P("**LEGENDA:** " + legenda, fontSize=9, leading=12.8, spaceAfter=5))
+
     body_flow.append(P("**HASHTAGS:** " + hashtags, fontSize=8.2, textColor=colors.HexColor('#666666')))
 
     inner = Table([[bf] for bf in body_flow], colWidths=[17.0*cm])
@@ -103,9 +147,9 @@ def build_calendar(content_file, output_pdf):
         story.append(month_title(title))
 
     def add_week(title):
-        story.append(Spacer(1, 0.15*cm))
+        story.append(Spacer(1, 0.3*cm))
         story.append(week_bar(title))
-        story.append(Spacer(1, 0.1*cm))
+        story.append(Spacer(1, 0.12*cm))
 
     def add_day(title, posts):
         story.append(day_bar(title))

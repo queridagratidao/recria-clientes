@@ -17,17 +17,17 @@ add_month("SETEMBRO 2026")
 add_week("Setembro segue a intercalação de agosto: terça Fornecedor, quinta Síndico, quarta "
          "Executivos/Administradoras. Conteúdo do banco de julho/agosto + capítulos novos dos cursos.")
 
-add_week("SEMANA 1 · 01 a 03/09, Geração Distribuída (Fornecedor) + Antecipação (Síndico)")
+add_week("SEMANA 1 · 01 a 03/09, Reaproveitamento LinkedIn 17/06 (Fornecedor/Imobiliária) + Antecipação (Síndico)")
 
-add_day("01/09 (TER), Semana 1, Fornecedor, Banco de Conteúdo (Geração Distribuída)", [
-    dict(time="18h", channel="INSTAGRAM", tipo="VENDA (ManyChat → Fornecedor)",
-         ancoragem="Cap 5+7 do curso Fornecedor, case Evolua Energia (Geração Distribuída)",
-         formato="Post Estático", persona="Fornecedor / Prestador de Serviços para Condomínios",
-         headline="Existe uma proposta que o condomínio aprova em assembleia sem pedir desconto. E não tem nada a ver com preço.",
-         subheadline="O fornecedor que entende esse detalhe nunca compete na cotação mais barata.",
+add_day("01/09 (TER), Semana 1, Reaproveitamento LinkedIn 17/06 → Instagram (copy idêntica ao original)", [
+    dict(time="18h", channel="INSTAGRAM", tipo="ENGAJAMENTO (ManyChat → SESSÃO ESTRATÉGICA)",
+         origem="Post LinkedIn 17/06, publicado em junho no LinkedIn. Copy idêntica ao original (mesma headline, subheadline e legenda completa), reaproveitada aqui para o Instagram.",
+         ancoragem=None, formato="Post Estático", persona="Diretor / Sócio / Executivo de Imobiliária de Aluguéis",
+         headline="Quando a imobiliária de aluguéis depende quase 100% da taxa de administração: escolha ou limitação?",
+         subheadline="Cada imóvel da carteira carrega pelo menos cinco fontes de receita que costumam ficar inativadas.",
          cta=None,
-         legenda="A Geração Distribuída por assinatura é um dos modelos de eficiência energética com adesão mais rápida em assembleia, o condomínio não desembolsa nada, e ainda sai com desconto recorrente na conta de energia. O case Evolua Energia, documentado no curso, mostra como esse modelo virou porta de entrada para uma carteira inteira de condomínios. Comente FORNECEDOR e olhe o seu direct.",
-         hashtags="#GeracaoDistribuida #FornecedoresCondominiais #MercadoCondominial #ElevaGS"),
+         legenda="A maioria das imobiliárias de aluguéis opera com um modelo de receita que tem data de validade. Quando a única fonte é a taxa de administração, a única forma de competir é reduzindo margem, uma espiral que corrói o negócio silenciosamente até o ponto em que não há mais espaço para baixar. Mas cada imóvel administrado carrega valor inativado para os dois lados, proprietário, inquilino e imobiliária: consultoria fiscal e patrimonial ao proprietário, que reduz carga tributária legalmente e maximiza a valorização do imóvel (a imobiliária cobra por hora ou por projeto, receita com baixa elasticidade ao preço, porque o ganho do proprietário é direto e mensurável); gestão integral de reformas, o proprietário recebe obra conduzida, prazo cumprido e imóvel valorizado, sem investir tempo da própria rotina (a imobiliária recebe taxa sobre o valor da obra); seguro residencial via parcerias com seguradoras, o proprietário ganha proteção patrimonial e o inquilino ganha proteção de responsabilidade civil (a imobiliária recebe comissionamento recorrente sem operação adicional); concierge para inquilinos, manutenção, mudança, decoração (a imobiliária atua como curadora, com comissão sobre cada entrega e taxas de retenção do inquilino que aumentam de forma mensurável); e relatórios premium de performance do imóvel como investimento, ROI bruto e líquido, comparativos com benchmarks de mercado, projeção de valorização. A equação é sempre a mesma: a receita só é sustentável porque o cliente final recebe valor proporcional ou superior ao preço. As imobiliárias que crescem não encontraram um mercado novo, encontraram o valor que já existia na carteira, para os dois lados da relação. Para um diagnóstico direcionado ao seu negócio, comente SESSÃO ESTRATÉGICA e olhe o seu direct.",
+         hashtags="#ImobiliáriaDeAluguéis #ReceitaRecorrente #GestaoImobiliária #ElevaGS"),
 ])
 
 add_day("03/09 (QUI), Semana 1, Síndico, Curso Síndico (Cap 11.2)", [
@@ -60,7 +60,16 @@ add_day("08/09 (TER), Semana 2, Síndico, Curso Síndico (Cap 7.2-7.3)", [
          headline="O síndico tem acesso a 10 categorias de parceiros que quase nenhum outro profissional do condomínio consegue reunir. A maioria usa menos de 3.",
          subheadline="E é exatamente nessas categorias que mora a diferença entre cobrar honorário e cobrar curadoria.",
          cta="Comente GESTOR DE ATIVOS e olhe o seu direct.",
-         legenda="CARD 2, Título: O mapa do ecossistema. Corpo: fornecedores técnicos, seguradoras, fintechs, administradoras, assessoria jurídica, entre outras categorias, cada uma com critério próprio de seleção e formalização. CARD 3, Título: Curadoria como atributo de precificação. Corpo: o síndico que filtra, homologa e responde pela qualidade dos parceiros que entram no condomínio está vendendo mais do que gestão, está vendendo curadoria, e isso justifica honorário diferenciado. CARD FINAL, HEADLINE: Construir essas dez categorias não é acumular contatos. SUBHEADLINE: É arquitetura de parcerias, com critério de seleção, formalização e gestão contínua. CTA: Comente GESTOR DE ATIVOS para conhecer o curso. LEGENDA DO POST: O Capítulo 7 do curso detalha as dez categorias e como cada uma se formaliza.",
+         cards=[
+             dict(titulo="O mapa do ecossistema", corpo="Fornecedores técnicos, seguradoras, fintechs, administradoras, assessoria jurídica, entre outras categorias, cada uma com critério próprio de seleção e formalização."),
+             dict(titulo="Curadoria como atributo de precificação", corpo="O síndico que filtra, homologa e responde pela qualidade dos parceiros que entram no condomínio está vendendo mais do que gestão, está vendendo curadoria, e isso justifica honorário diferenciado."),
+         ],
+         card_final=dict(
+             headline="Construir essas dez categorias não é acumular contatos.",
+             subheadline="É arquitetura de parcerias, com critério de seleção, formalização e gestão contínua.",
+             cta="Comente GESTOR DE ATIVOS para conhecer o curso.",
+         ),
+         legenda="O Capítulo 7 do curso detalha as dez categorias e como cada uma se formaliza.",
          hashtags="#HubEstratégico #GestorDeAtivos #SíndicoProfissional #ElevaGS"),
 ])
 
@@ -105,7 +114,18 @@ add_day("17/09 (QUI), Semana 3, Síndico, Curso Síndico (Cap 8.2)", [
          headline="\"Captação espontânea é consequência de boa gestão. Não é estratégia de crescimento.\"",
          subheadline="O síndico que só cresce por indicação está crescendo no ritmo do acaso.",
          cta="Comente GESTOR DE ATIVOS e olhe o seu direct.",
-         legenda="CARD 2, Título: Canal 1, Administradoras. Corpo: maior volume de oportunidades, menor esforço por oportunidade, uma vez estabelecida a relação de confiança. CARD 3, Título: Canal 2, Construtoras e Incorporadoras. Corpo: empreendimentos novos criam demanda sistemática de síndico desde a primeira assembleia. CARD 4, Título: Canal 3, Rede de Síndicos e Eventos do Setor. Corpo: Porter Summit, Enacon e jornadas regionais concentram administradoras e pares com intenção comercial. CARD 5, Título: Canal 4, Conteúdo e Presença Digital. Corpo: publicar com regularidade sobre gestão condominial constrói histórico de competência visível antes mesmo da primeira reunião. CARD FINAL, HEADLINE: Existe ainda um quinto canal, e é o menos explorado do mercado brasileiro. SUBHEADLINE: Expansão geográfica regional. CTA: Comente GESTOR DE ATIVOS para conhecer os cinco canais em detalhe. LEGENDA DO POST: Com dois ou três canais ativos e consistentes, o crescimento deixa de depender do acaso.",
+         cards=[
+             dict(titulo="Canal 1, Administradoras", corpo="Maior volume de oportunidades, menor esforço por oportunidade, uma vez estabelecida a relação de confiança."),
+             dict(titulo="Canal 2, Construtoras e Incorporadoras", corpo="Empreendimentos novos criam demanda sistemática de síndico desde a primeira assembleia."),
+             dict(titulo="Canal 3, Rede de Síndicos e Eventos do Setor", corpo="Porter Summit, Enacon e jornadas regionais concentram administradoras e pares com intenção comercial."),
+             dict(titulo="Canal 4, Conteúdo e Presença Digital", corpo="Publicar com regularidade sobre gestão condominial constrói histórico de competência visível antes mesmo da primeira reunião."),
+         ],
+         card_final=dict(
+             headline="Existe ainda um quinto canal, e é o menos explorado do mercado brasileiro.",
+             subheadline="Expansão geográfica regional.",
+             cta="Comente GESTOR DE ATIVOS para conhecer os cinco canais em detalhe.",
+         ),
+         legenda="Com dois ou três canais ativos e consistentes, o crescimento deixa de depender do acaso.",
          hashtags="#GestorDeAtivos #SíndicoProfissional #CaptaçãoEstruturada #ElevaGS"),
 ])
 
