@@ -84,16 +84,32 @@ def mid_card(num, titulo, corpo):
              P(corpo, fontSize=9, leading=12.3)]
     return _card_box("CARD %s" % num, flows, label_color=colors.HexColor('#666666'))
 
+def meta_bar(time, channel, tipo, accent):
+    meta = "%s  ·  %s  ·  %s" % (time, channel, tipo)
+    t = Table([[Paragraph(escape(meta), ParagraphStyle('metaw', fontName='Helvetica-Bold', fontSize=9.3,
+               textColor=colors.white))]], colWidths=[17.4*cm])
+    t.setStyle(TableStyle([
+        ('BACKGROUND', (0,0), (-1,-1), accent),
+        ('TOPPADDING', (0,0), (-1,-1), 5), ('BOTTOMPADDING', (0,0), (-1,-1), 5),
+        ('LEFTPADDING', (0,0), (-1,-1), 10), ('RIGHTPADDING', (0,0), (-1,-1), 10),
+        ('BOX', (0,0), (-1,-1), 1, BORDER),
+    ]))
+    return t
+
 def post_card(time, channel, tipo, ancoragem, formato, persona, headline, subheadline, cta,
               legenda, hashtags, origem=None, cards=None, card_final=None):
+    """Returns a LIST of flowables for one post (not a single monolithic table), so
+    long carrosséis can break across pages instead of overflowing a single table cell."""
     accent = CH_COLOR.get(channel, NAVY)
-    meta = "%s  ·  %s  ·  %s" % (time, channel, tipo)
+    flows = [meta_bar(time, channel, tipo, accent)]
+
+    indent = dict(leftIndent=10, rightIndent=10)
     body_flow = []
     if origem:
-        body_flow.append(P("__Origem:__ " + origem, fontSize=8.3, textColor=colors.HexColor('#666666'), spaceAfter=3))
+        body_flow.append(P("__Origem:__ " + origem, fontSize=8.3, textColor=colors.HexColor('#666666'), spaceAfter=3, **indent))
     if ancoragem:
-        body_flow.append(P("__Ancoragem:__ " + ancoragem, fontSize=8.3, textColor=colors.HexColor('#666666'), spaceAfter=3))
-    body_flow.append(P("__Formato:__ " + formato + "    __Persona:__ " + persona, fontSize=8.6, spaceAfter=6))
+        body_flow.append(P("__Ancoragem:__ " + ancoragem, fontSize=8.3, textColor=colors.HexColor('#666666'), spaceAfter=3, **indent))
+    body_flow.append(P("__Formato:__ " + formato + "    __Persona:__ " + persona, fontSize=8.6, spaceAfter=6, **indent))
 
     if cards:
         # Carrossel: capa, cards do meio, card final, cada um em bloco visual separado.
@@ -106,39 +122,20 @@ def post_card(time, channel, tipo, ancoragem, formato, persona, headline, subhea
             body_flow.append(capa_card("CARD FINAL", card_final.get('headline'),
                                         card_final.get('subheadline'), card_final.get('cta')))
             body_flow.append(Spacer(1, 0.12*cm))
-        body_flow.append(P("**LEGENDA DO POST:** " + legenda, fontSize=9, leading=12.8, spaceAfter=5))
+        body_flow.append(P("**LEGENDA DO POST:** " + legenda, fontSize=9, leading=12.8, spaceAfter=5, **indent))
     else:
         if headline:
-            body_flow.append(P("**HEADLINE:** " + headline, fontSize=10, leading=13.5, spaceAfter=4))
+            body_flow.append(P("**HEADLINE:** " + headline, fontSize=10, leading=13.5, spaceAfter=4, **indent))
         if subheadline:
-            body_flow.append(P("**SUBHEADLINE:** " + subheadline, fontSize=9.3, leading=12.5, spaceAfter=4))
+            body_flow.append(P("**SUBHEADLINE:** " + subheadline, fontSize=9.3, leading=12.5, spaceAfter=4, **indent))
         if cta:
-            body_flow.append(P("**CTA:** " + cta, fontSize=9, textColor=ORANGE, spaceAfter=5))
-        body_flow.append(P("**LEGENDA:** " + legenda, fontSize=9, leading=12.8, spaceAfter=5))
+            body_flow.append(P("**CTA:** " + cta, fontSize=9, textColor=ORANGE, spaceAfter=5, **indent))
+        body_flow.append(P("**LEGENDA:** " + legenda, fontSize=9, leading=12.8, spaceAfter=5, **indent))
 
-    body_flow.append(P("**HASHTAGS:** " + hashtags, fontSize=8.2, textColor=colors.HexColor('#666666')))
+    body_flow.append(P("**HASHTAGS:** " + hashtags, fontSize=8.2, textColor=colors.HexColor('#666666'), **indent))
 
-    inner = Table([[bf] for bf in body_flow], colWidths=[17.0*cm])
-    inner.setStyle(TableStyle([
-        ('LEFTPADDING', (0,0), (-1,-1), 0), ('RIGHTPADDING', (0,0), (-1,-1), 0),
-        ('TOPPADDING', (0,0), (-1,-1), 1.5), ('BOTTOMPADDING', (0,0), (-1,-1), 1.5),
-    ]))
-
-    t = Table([
-        [Paragraph(escape(meta), ParagraphStyle('metaw', fontName='Helvetica-Bold', fontSize=9.3, textColor=colors.white))],
-        [inner],
-    ], colWidths=[17.4*cm])
-    t.setStyle(TableStyle([
-        ('BACKGROUND', (0,0), (0,0), accent),
-        ('TOPPADDING', (0,0), (0,0), 5), ('BOTTOMPADDING', (0,0), (0,0), 5),
-        ('LEFTPADDING', (0,0), (0,0), 10), ('RIGHTPADDING', (0,0), (0,0), 10),
-        ('BACKGROUND', (0,1), (0,1), colors.white),
-        ('TOPPADDING', (0,1), (0,1), 8), ('BOTTOMPADDING', (0,1), (0,1), 8),
-        ('LEFTPADDING', (0,1), (0,1), 10), ('RIGHTPADDING', (0,1), (0,1), 10),
-        ('BOX', (0,0), (-1,-1), 1, BORDER),
-        ('LINEBELOW', (0,0), (0,0), 1, BORDER),
-    ]))
-    return t
+    flows.extend(body_flow)
+    return flows
 
 def build_calendar(content_file, output_pdf):
     story = []
@@ -155,8 +152,8 @@ def build_calendar(content_file, output_pdf):
         story.append(day_bar(title))
         story.append(Spacer(1, 0.12*cm))
         for p in posts:
-            story.append(post_card(**p))
-            story.append(Spacer(1, 0.18*cm))
+            story.extend(post_card(**p))
+            story.append(Spacer(1, 0.22*cm))
         story.append(Spacer(1, 0.05*cm))
 
     namespace = dict(add_month=add_month, add_week=add_week, add_day=add_day)

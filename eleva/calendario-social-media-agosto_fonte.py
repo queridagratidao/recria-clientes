@@ -60,24 +60,35 @@ add_day("11/08 (TER), Semana 2, Síndico", [
          hashtags="#GestorDeAtivos #IGMI-R #SíndicoProfissional #ElevaGS"),
 ])
 
-add_day("13/08 (QUI), Semana 2, Fornecedor", [
-    dict(time="18h", channel="INSTAGRAM", tipo="VENDA (ManyChat → Fornecedor)",
-         ancoragem="Cap 10.2 do curso Fornecedor, LCC aplicado",
-         formato="Post Estático", persona="Fornecedor / Prestador de Serviços",
-         headline="Existe uma conta de R$ 30 mil que parece cara, até alguém mostrar a conta de R$ 150 mil que ela evita.",
-         subheadline="É a mesma obra. A diferença está só em como ela é apresentada.",
-         cta=None,
-         legenda="O fornecedor que compete por preço está estruturalmente num ciclo desfavorável: ganha o contrato com margem reduzida, compromete a qualidade, perde a renovação. Quem sai desse ciclo opera com a linguagem do LCC, Custo do Ciclo de Vida. Uma impermeabilização de R$ 30 mil que evita recuperação estrutural de R$ 150 mil não é despesa: é investimento documentado. \"A margem saudável não é consequência da qualidade, é condição para ela.\" Comente FORNECEDOR para entender como apresentar essa conta ao síndico.",
-         hashtags="#LCC #EngenhariaDeValor #FornecedoresCondominiais #ElevaGS"),
+add_day("13/08 (QUI), Semana 2, Reaproveitamento LinkedIn 24/06 → Instagram (copy do original, arte já pronta) — Programado", [
+    dict(time="18h", channel="INSTAGRAM", tipo="ENGAJAMENTO (ManyChat → SESSÃO ESTRATÉGICA)",
+         origem="Carrossel LinkedIn 24/06, \"Crescimento orgânico ou aquisição\". Conteúdo e arte mantidos idênticos ao já produzido, reaproveitado aqui para o Instagram.",
+         ancoragem=None, formato="Carrossel (5 cards)", persona="Diretor / Sócio / Executivo de Administradora de Condomínios",
+         headline="+20 operações de M&A no setor. E em todas elas, a mesma pergunta vinha antes do contrato.",
+         subheadline="Crescer organicamente ou adquirir? A resposta errada não é a que você imagina.",
+         cta="Comente SESSÃO ESTRATÉGICA.",
+         cards=[
+             dict(titulo="O dilema real", corpo="Crescer organicamente é seguro, mas pode ser lento para competir com grupos que já têm escala. Adquirir é rápido, mas integração mal preparada destrói valor em meses."),
+             dict(titulo="Erros mais comuns em aquisições no setor", corpo="Superestimar retenção de clientes, ignorar integração de cultura, due diligence insuficiente sobre passivos."),
+             dict(titulo="O que o diagnóstico precisa responder antes da decisão", corpo="Situação do mercado local, prontidão operacional para escalar, capital e time para absorver integração."),
+         ],
+         card_final=dict(
+             headline="Giuliano Spolavori conduziu +20 operações de M&A em 35 anos de setor.",
+             subheadline="Nenhuma sem esse diagnóstico estruturado.",
+             cta="Comente SESSÃO ESTRATÉGICA para entender qual caminho faz sentido para a sua empresa.",
+         ),
+         legenda="A maioria das administradoras que trava no crescimento não trava por falta de ambição. Trava porque chegou a um ponto em que o mercado local já não responde como antes, e a decisão entre crescer organicamente ou partir para uma aquisição nunca foi feita com os critérios certos. O crescimento orgânico tem um teto. Em mercados maduros, chega um momento em que marketing, retenção e melhoria operacional já não movem o ponteiro com a velocidade que o negócio exige. A aquisição resolve isso, mas só quando a empresa compradora está pronta para integrar, não pronta no papel: pronta em governança, em processos, em cultura e em capital. Quando esses elementos não existem, a aquisição não acelera o crescimento, transfere os passivos e disfunções da empresa adquirida para a operação compradora. Giuliano Spolavori conduziu mais de 20 operações de M&A no setor imobiliário ao longo de 35 anos. O que ele observa na maioria dos casos não é falta de recurso financeiro, é falta de diagnóstico antes da decisão.",
+         hashtags="#M&A #AdministradoraCondomínios #CrescimentoImobiliário #ElevaGS"),
 ])
 
-add_day("LINKEDIN, Semana 2 (Agosto), Executivos / Administradoras", [
+add_day("LINKEDIN, Semana 2 (Agosto), Reaproveitamento Instagram 23/06 → LinkedIn (copy idêntica, arte já pronta) — Programado", [
     dict(time="19h", channel="LINKEDIN", tipo="VENDA (link → Mentoria Executiva)",
+         origem="Post Instagram 23/06, publicado em junho só no Instagram. Copy idêntica, reaproveitada aqui para o LinkedIn. Arte já existente.",
          ancoragem=None, formato="Post Estático", persona="Diretor / Sócio / Executivo de Administradora de Condomínios",
-         headline="Existem administradoras que sobrevivem à saída do fundador. E administradoras que não sobrevivem.",
-         subheadline="A diferença entre as duas tem nome: governança.",
+         headline="Se eu fosse líder de uma administradora familiar e quisesse crescer, eu não começaria contratando mais gente.",
+         subheadline="O que separa a empresa familiar que cresce da que estagna não é tamanho. É governança.",
          cta=None,
-         legenda="O setor de administração de condomínios no Brasil é predominantemente composto por empresas familiares, muitas delas chegaram longe com esforço e talento. Mas em determinado ponto, a estrutura que funcionou para chegar até ali passa a ser o obstáculo para ir além: decisões estratégicas que ainda dependem de uma única pessoa, processos que existem na cabeça do fundador e não no manual da empresa, dificuldade de atrair executivos externos de qualidade. Governança não significa perder o controle, significa que a empresa funciona bem mesmo na ausência da liderança fundadora. Giuliano Spolavori é conselheiro certificado pelo IBGC e conduziu esse processo ao longo de 35 anos no setor. Para conhecer a Mentoria Executiva da Eleva, acesse: " + MENTORIA_EXEC_LINK,
+         legenda="O setor de administração de condomínios no Brasil é predominantemente composto por empresas familiares. Muitas delas chegaram longe, com muito esforço, muito sacrifício e muito talento. Mas em determinado ponto, a estrutura que funcionou para chegar até aqui passa a ser o obstáculo para ir além. Os quatro sinais mais comuns de que uma administradora precisa de governança: decisões estratégicas ainda dependem de uma pessoa, e essa pessoa é o dono; cargos de liderança ocupados sem critério explícito de competência ou meritocracia interna; processos que existem na cabeça do fundador, não no manual da empresa; dificuldade de atrair ou reter executivos externos de qualidade. Governança não significa perder o controle. Significa que a empresa funciona bem mesmo na ausência da liderança fundadora. É nesse ponto que a estrutura se descola do patamar anterior. Giuliano Spolavori é conselheiro certificado pelo IBGC e conduziu esse processo ao longo de 35 anos de atuação no setor. Artigo completo no link abaixo: elevags.com.br/blog/governanca-corporativa-em-imobiliarias-o-caminho-da-empresa-familiar-para-a-empresa-profissional",
          hashtags="#GovernançaCorporativa #EmpresaFamiliar #AdministradoraCondomínios #ElevaGS"),
 ])
 
@@ -123,25 +134,14 @@ add_day("LINKEDIN, Semana 3 (Agosto), Executivos / Administradoras", [
 
 add_week("SEMANA 4 · 24 a 27/08, Executivos (reaproveitamento M&A) + Encerramento dos 90 dias")
 
-add_day("25/08 (TER), Semana 4, Reaproveitamento LinkedIn 24/06 → Instagram (mantido conforme já produzido)", [
-    dict(time="18h", channel="INSTAGRAM", tipo="ENGAJAMENTO (ManyChat → SESSÃO ESTRATÉGICA)",
-         origem="Carrossel LinkedIn 24/06, \"Crescimento orgânico ou aquisição\". Conteúdo e arte mantidos idênticos ao já produzido, só a legenda recebe pequeno ajuste de contexto para reposicionar a peça no fim de agosto.",
-         ancoragem=None, formato="Carrossel (5 cards)", persona="Diretor / Sócio / Executivo de Administradora de Condomínios",
-         headline="+20 operações de M&A no setor. E em todas elas, a mesma pergunta vinha antes do contrato.",
-         subheadline="Crescer organicamente ou adquirir? A resposta errada não é a que você imagina.",
-         cta="Comente SESSÃO ESTRATÉGICA.",
-         cards=[
-             dict(titulo="O dilema real", corpo="Crescer organicamente é seguro, mas pode ser lento para competir com grupos que já têm escala. Adquirir é rápido, mas integração mal preparada destrói valor em meses."),
-             dict(titulo="Erros mais comuns em aquisições no setor", corpo="Superestimar retenção de clientes, ignorar integração de cultura, due diligence insuficiente sobre passivos."),
-             dict(titulo="O que o diagnóstico precisa responder antes da decisão", corpo="Situação do mercado local, prontidão operacional para escalar, capital e time para absorver integração."),
-         ],
-         card_final=dict(
-             headline="Giuliano Spolavori conduziu +20 operações de M&A em 35 anos de setor.",
-             subheadline="Nenhuma sem esse diagnóstico estruturado.",
-             cta="Comente SESSÃO ESTRATÉGICA para entender qual caminho faz sentido para a sua empresa.",
-         ),
-         legenda="Carrossel mantido idêntico ao original de LinkedIn 24/06, reaproveitado aqui no fim de agosto para o Instagram.",
-         hashtags="#M&A #AdministradoraCondomínios #CrescimentoImobiliário #ElevaGS"),
+add_day("25/08 (TER), Semana 4, Executivos", [
+    dict(time="18h", channel="INSTAGRAM", tipo="VENDA (ManyChat → SESSÃO ESTRATÉGICA)",
+         ancoragem=None, formato="Post Estático", persona="Diretor / Sócio / Executivo de Administradora de Condomínios",
+         headline="Existem administradoras que sobrevivem à saída do fundador. E administradoras que não sobrevivem.",
+         subheadline="A diferença entre as duas tem nome: governança.",
+         cta="Comente SESSÃO ESTRATÉGICA e olhe o seu direct.",
+         legenda="O setor de administração de condomínios no Brasil é predominantemente composto por empresas familiares, muitas delas chegaram longe com esforço e talento. Mas em determinado ponto, a estrutura que funcionou para chegar até ali passa a ser o obstáculo para ir além: decisões estratégicas que ainda dependem de uma única pessoa, processos que existem na cabeça do fundador e não no manual da empresa, dificuldade de atrair executivos externos de qualidade. Governança não significa perder o controle, significa que a empresa funciona bem mesmo na ausência da liderança fundadora. Giuliano Spolavori é conselheiro certificado pelo IBGC e conduziu esse processo ao longo de 35 anos no setor.",
+         hashtags="#GovernançaCorporativa #EmpresaFamiliar #AdministradoraCondomínios #ElevaGS"),
 ])
 
 add_day("27/08 (QUI), Semana 4, Fechamento dos 90 dias (Fornecedor + Síndico)", [
@@ -162,3 +162,10 @@ add_day("LINKEDIN, Semana 4 (Agosto), Mentoria Executiva", [
          legenda="Governança que se descola da figura do fundador: diagnóstico de processos, eficiência operacional, profissionalização da gestão, análise de M&A quando pertinente, plano para maximizar valuation. Atendimento individual, conduzido pelo próprio Giuliano. Ciclos com datas definidas. Acesse: " + MENTORIA_EXEC_LINK,
          hashtags="#MentoriaExecutiva #GovernançaCorporativa #C-Level #ElevaGS"),
 ])
+
+# =========================================================================
+# BANCO DE CONTEÚDO, encaixe em setembro/outubro 2026
+#
+# LCC aplicado (Cap 10.2 do curso Fornecedor, persona Fornecedor, formato Post Estático,
+# "Existe uma conta de R$ 30 mil que parece cara..."), deslocado de 13/08, que passou a
+# receber o reaproveitamento do carrossel de M&A (LinkedIn 24/06).
