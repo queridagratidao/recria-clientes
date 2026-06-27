@@ -101,17 +101,41 @@ def day_bar(text):
     sp_after = doc.add_paragraph()
     sp_after.paragraph_format.space_after = Pt(4)
 
-def meta_bar(time, channel, tipo):
+def set_cell_borders(cell, color='D9D9D9', sz='8'):
+    tcPr = cell._tc.get_or_add_tcPr()
+    borders = OxmlElement('w:tcBorders')
+    for edge in ('top', 'left', 'bottom', 'right'):
+        el = OxmlElement('w:%s' % edge)
+        el.set(qn('w:val'), 'single')
+        el.set(qn('w:sz'), sz)
+        el.set(qn('w:space'), '0')
+        el.set(qn('w:color'), color)
+        borders.append(el)
+    tcPr.append(borders)
+
+def begin_post_box(time, channel, tipo):
+    """Cria UMA unica tabela de 2 linhas (cabecalho colorido + corpo) para o post inteiro,
+    com borda ao redor de tudo, igual ao modelo de junho: uma caixa so, sem espaco entre o
+    cabecalho e o corpo."""
     hexcolor = CH_HEX.get(channel, '0A0C0F')
     emoji = tipo_emoji(tipo)
-    t = doc.add_table(rows=1, cols=1)
+    t = doc.add_table(rows=2, cols=1)
     t.autofit = False
     t.columns[0].width = Cm(18)
-    cell = t.rows[0].cells[0]
-    cell.width = Cm(18)
-    shade_cell(cell, hexcolor)
-    p = cell.paragraphs[0]
+    head_cell = t.rows[0].cells[0]
+    head_cell.width = Cm(18)
+    shade_cell(head_cell, hexcolor)
+    set_cell_borders(head_cell)
+    p = head_cell.paragraphs[0]
+    p.paragraph_format.space_after = Pt(0)
     add_run(p, "⏰ %s   [ %s ]   %s %s" % (time, channel, emoji, tipo), bold=True, color=WHITE, size=10)
+
+    body_cell = t.rows[1].cells[0]
+    body_cell.width = Cm(18)
+    shade_cell(body_cell, OUTERBOX)
+    set_cell_borders(body_cell)
+    body_cell.paragraphs[0].paragraph_format.space_after = Pt(0)
+    return body_cell
 
 def card_paragraph(cell, label, lines, label_color=ORANGE):
     """lines: list of (bold_prefix_or_None, text). Renders as ONE shaded/bordered paragraph
@@ -145,16 +169,7 @@ def field_p(cell, label, text, color=None, size=10, italic=False, emoji=None):
 
 def post_card(time, channel, tipo, ancoragem, formato, persona, headline, subheadline, cta,
               legenda, hashtags, origem=None, cards=None, card_final=None):
-    meta_bar(time, channel, tipo)
-
-    # Caixa unica (quadradinho) envolvendo todo o conteudo do post, abaixo da barra colorida.
-    outer = doc.add_table(rows=1, cols=1)
-    outer.autofit = False
-    outer.columns[0].width = Cm(18)
-    cell = outer.rows[0].cells[0]
-    cell.width = Cm(18)
-    shade_cell(cell, OUTERBOX)
-    cell.paragraphs[0].paragraph_format.space_after = Pt(0)
+    cell = begin_post_box(time, channel, tipo)
 
     if origem:
         field_p(cell, "Origem:", origem, color=GRAY, size=8.5, italic=True, emoji="📖")
@@ -184,25 +199,11 @@ def post_card(time, channel, tipo, ancoragem, formato, persona, headline, subhea
     sp.paragraph_format.space_after = Pt(12)
 
 def podcast_entry(time, episodio, ultimo=False):
-    t = doc.add_table(rows=1, cols=1)
-    t.autofit = False
-    t.columns[0].width = Cm(18)
-    cell = t.rows[0].cells[0]
-    cell.width = Cm(18)
-    shade_cell(cell, CH_HEX['INSTAGRAM'])
-    p = cell.paragraphs[0]
-    add_run(p, "⏰ %s   [ INSTAGRAM ]   🎙 ElevaCast — Corte de Podcast (Reels)" % time, bold=True, color=WHITE, size=10)
-
-    outer = doc.add_table(rows=1, cols=1)
-    outer.autofit = False
-    outer.columns[0].width = Cm(18)
-    cell2 = outer.rows[0].cells[0]
-    cell2.width = Cm(18)
-    shade_cell(cell2, OUTERBOX)
+    cell = begin_post_box(time, "INSTAGRAM", "ElevaCast — Corte de Podcast (Reels)")
     texto = ("Reels — Corte do ElevaCast · Episódio: %s — %s. "
              "Publicação programada, não requer aprovação de copy." %
              (episodio, "Último corte da série" if ultimo else "Corte sequencial"))
-    field_p(cell2, "Formato:", texto, size=9.5)
+    field_p(cell, "Formato:", texto, size=9.5)
     sp = doc.add_paragraph()
     sp.paragraph_format.space_after = Pt(12)
 
