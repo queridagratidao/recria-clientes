@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # JULHO 2026
 # Regras: sem WhatsApp (calendario separado da Eleva). LinkedIn nunca usa gatilho "Comente X"
-# (ManyChat) -- sempre link direto. Instagram usa gatilho de comentario quando fizer sentido.
+# (Automação) -- sempre link direto. Instagram usa gatilho de comentario quando fizer sentido.
 # Nunca usar travessao (regra de marca Eleva).
 
 FORNECEDOR_LINK = "https://www.elevags.com.br/cursos-multiplicar-vendas-condominios"
@@ -11,10 +11,10 @@ MENTORIA_EXEC_LINK = "https://www.elevags.com.br/mentoria/executiva"
 
 add_month("JULHO 2026")
 
-add_week("SEMANA 1 · 01 a 09/07, Eficiência operacional (Fornecedor)")
+add_week("SEMANA 1 · 28/06 a 04/07, Eficiência operacional (Fornecedor)")
 
 add_day("01/07 (QUA), Reaproveitamento Instagram 09/06 → LinkedIn (copy idêntica, arte já pronta) — Programado", [
-    dict(time="19h", channel="LINKEDIN", tipo="VENDA (link → curso Fornecedor)",
+    dict(time="19h", channel="LINKEDIN", tipo="VENDA (link → curso Fornecedor) ✅",
          origem="Carrossel Instagram 09/06, publicado em junho só no Instagram (6 slides, 4 condutas). Reaproveitado aqui para o LinkedIn, mesma arte, legenda do post conforme original.",
          ancoragem="Caps 3 (Compliance / Pasta), 7 (LCC), 2.2 e 9 (Hub de Escala) do curso Fornecedor",
          formato="Carrossel (6 cards)", persona="Fornecedor / Prestador de Serviços para Condomínios",
@@ -40,8 +40,12 @@ add_day("01/07 (QUA), Reaproveitamento Instagram 09/06 → LinkedIn (copy idênt
          hashtags="#FornecedoresCondominiais #MercadoCondominial #VendaParaCondomínios #ElevaGS"),
 ])
 
-add_day("07/07 (TER), Semana 1, Reaproveitamento LinkedIn 17/06 → Instagram (copy idêntica, arte já pronta) — Programado", [
-    dict(time="18h", channel="INSTAGRAM", tipo="ENGAJAMENTO (ManyChat → SESSÃO ESTRATÉGICA)",
+add_podcast("02/07 (QUI), Corte de podcast", "19h", "EP #6")
+
+add_week("SEMANA 2 · 05 a 11/07, Eficiência operacional (Fornecedor)")
+
+add_day("07/07 (TER), Semana 2, Reaproveitamento LinkedIn 17/06 → Instagram (copy idêntica, arte já pronta) — Programado", [
+    dict(time="18h", channel="INSTAGRAM", tipo="ENGAJAMENTO (Automação → SESSÃO ESTRATÉGICA) ✅",
          origem="Post LinkedIn 17/06, publicado em junho no LinkedIn. Copy idêntica ao original (mesma headline, subheadline e legenda completa), reaproveitada aqui para o Instagram. Arte já existente, sem necessidade de peça nova.",
          ancoragem=None, formato="Post Estático", persona="Diretor / Sócio / Executivo de Imobiliária de Aluguéis",
          headline="Quando a imobiliária de aluguéis depende quase 100% da taxa de administração: escolha ou limitação?",
@@ -51,8 +55,8 @@ add_day("07/07 (TER), Semana 1, Reaproveitamento LinkedIn 17/06 → Instagram (c
          hashtags="#ImobiliáriaDeAluguéis #ReceitaRecorrente #GestaoImobiliária #ElevaGS"),
 ])
 
-add_day("08/07 (QUA), Semana 1, Reaproveitamento Instagram 16/06 → LinkedIn (copy idêntica, arte já pronta) — Programado", [
-    dict(time="19h", channel="LINKEDIN", tipo="VENDA (link → Mentoria Executiva)",
+add_day("08/07 (QUA), Semana 2, Reaproveitamento Instagram 16/06 → LinkedIn (copy idêntica, arte já pronta) — Programado", [
+    dict(time="19h", channel="LINKEDIN", tipo="VENDA (link → Mentoria Executiva) ✅",
          origem="Post Instagram 16/06, publicado em junho só no Instagram. Copy idêntica, reaproveitada aqui para o LinkedIn. Arte já existente.",
          ancoragem=None, formato="Post Estático", persona="Diretor / Sócio / Executivo de Administradora de Condomínios",
          headline="Você investiu em sistemas e automações. Treinou a equipe. E o retrabalho não parou.",
@@ -62,19 +66,21 @@ add_day("08/07 (QUA), Semana 1, Reaproveitamento Instagram 16/06 → LinkedIn (c
          hashtags="#AdministradoraCondomínios #GestaoOperacional #AutomaçãoEstratégica #ElevaGS"),
 ])
 
+add_podcast("09/07 (QUI), Corte de podcast", "19h", "EP #6")
+
 # Conteúdos originalmente planejados para esta semana (Geração Distribuída, Cap 5+7, case 4.9
 # Evolua Energia, e Vantagem Competitiva, Cap 5) ficam reservados: Geração Distribuída passa
 # para setembro (01/09), Vantagem Competitiva fica no Banco de Conteúdo para outubro.
 
-add_week("SEMANA 2 · 13 a 16/07, Gestor de Ativos: os 3 estágios do síndico (Curso Síndico)")
+add_week("SEMANA 3 · 12 a 18/07, Gestor de Ativos: os 3 estágios do síndico (Curso Síndico)")
 
-add_day("14/07 (TER), Semana 2, Conteúdo baseado no curso de Síndico", [
-    dict(time="18h", channel="INSTAGRAM", tipo="VALOR + VENDA (ManyChat → Gestor de ativos)",
+add_day("14/07 (TER), Semana 3, Conteúdo baseado no curso de Síndico", [
+    dict(time="18h", channel="INSTAGRAM", tipo="VALOR + VENDA (Automação → Gestor de ativos)",
          ancoragem="Cap 3.1 (Os três estágios da sindicatura profissional) + Cap 3.2 (IGMI-R)",
          formato="Carrossel (5 cards)", persona="Síndico Profissional",
          headline="Existem 3 estágios na carreira de um síndico. A maioria passa a vida inteira presa no segundo.",
          subheadline="E o que separa quem avança não é tempo de carreira. É uma virada de mentalidade bem específica.",
-         cta="Comente GESTOR DE ATIVOS e olhe o seu direct.",
+         cta="Arraste para o lado para conferir.",
          cards=[
              dict(titulo="Estágio 1, O Executor",
                   corpo="Mede o próprio trabalho em tarefas, o que foi feito, que chamado foi atendido. Aprendizado necessário, mas insuficiente: trabalho medido em tarefa compete com qualquer morador que \"também consegue fazer isso\"."),
@@ -86,13 +92,13 @@ add_day("14/07 (TER), Semana 2, Conteúdo baseado no curso de Síndico", [
          card_final=dict(
              headline="A progressão entre os três estágios não é cronológica. É estrutural.",
              subheadline="Há síndico com 20 anos de carteira ainda no estágio 1. E síndico com 5 anos de carteira já operando no estágio 3.",
-             cta="Comente GESTOR DE ATIVOS para conhecer o curso que estrutura essa transição.",
+             cta="Comente GESTOR DE ATIVOS para conhecer o curso que irá estruturar essa transição.",
          ),
-         legenda="O tempo na função não promove o profissional. O método promove. Arrasta o carrossel.",
+         legenda="O tempo na função não promove o profissional. O método promove. Arrasta o carrossel para saber mais. Além de Síndico profissional, quer se tornar um Gestor de Ativos? Comente GESTOR DE ATIVOS e olhe o que enviamos no seu direct.",
          hashtags="#GestorDeAtivos #SíndicoProfissional #MercadoCondominial #ElevaGS"),
 ])
 
-add_day("15/07 (QUA), Semana 2", [
+add_day("15/07 (QUA), Semana 3", [
     dict(time="19h", channel="LINKEDIN", tipo="VENDA (link → curso Fornecedor)",
          ancoragem="Cap 6 do curso (Protocolos de Comunicação), cases 4.20 e 4.23",
          formato="Post Estático", persona="Fornecedor / Prestador de Serviços",
@@ -106,29 +112,33 @@ add_day("15/07 (QUA), Semana 2", [
 # Tema original desta semana (Compliance / Alfândega Técnica, Cap 6 + 3.3) fica no Banco de
 # Conteúdo de setembro.
 
-add_week("SEMANA 3 · 20 a 23/07, Hub de Escala (Fornecedor)")
+add_podcast("16/07 (QUI), Corte de podcast", "19h", "EP #6")
 
-add_day("21/07 (TER), Semana 3", [
-    dict(time="18h", channel="INSTAGRAM", tipo="VENDA (ManyChat → Fornecedor)",
+add_week("SEMANA 4 · 19 a 25/07, Hub de Escala (Fornecedor)")
+
+add_day("21/07 (TER), Semana 4", [
+    dict(time="18h", channel="INSTAGRAM", tipo="VENDA (Automação → Fornecedor)",
          ancoragem="Cap 2.2 (Síndico Profissional como Hub) + Cap 3.4 (Administradora como Canal)",
-         formato="Carrossel (3 cards)", persona="Fornecedor / Prestador de Serviços",
+         formato="Carrossel (4 cards)", persona="Fornecedor / Prestador de Serviços",
          headline="1 contrato pode virar 30. A maioria dos fornecedores nunca percebe quando está na frente dessa porta.",
          subheadline="Não é sorte. É reconhecer a posição de quem está do outro lado da mesa.",
-         cta="Comente FORNECEDOR e olhe o seu direct.",
+         cta="Arraste para o lado para conferir.",
          cards=[
              dict(titulo="O que é o Hub de Escala",
                   corpo="Quando o fornecedor de alta performance conquista a confiança de um Síndico Profissional, que gerencia dezenas de condomínios, não está fechando um contrato. Está abrindo um canal."),
+             dict(titulo="Hub Síndico vs Hub Administradora",
+                  corpo="São duas portas diferentes, com engenharias diferentes. Conquistar o Síndico Profissional é construir confiança pessoal e técnica, entrega após entrega, até ele abrir a carteira inteira que administra. Conquistar a Administradora é diferente: exige passar pelo processo de homologação dela, a alfândega técnica, para entrar na lista de fornecedores indicados a todos os condomínios que ela gerencia. Quem trata as duas portas da mesma forma perde as duas."),
          ],
          card_final=dict(
-             headline="\"A escala real não vem de bater em 100 portas isoladas. Vem de entrar em 1 porta que abre 100 outras.\"",
-             subheadline="Existem dois Hubs no ecossistema condominial, o Síndico Profissional e a Administradora, e cada um exige uma engenharia de relacionamento diferente.",
-             cta="Comente FORNECEDOR para entender essa engenharia.",
+             headline="Quer entender mais a fundo como funciona essa engenharia para conquistar tanto o Hub de Síndicos quanto o Hub de Administradoras?",
+             subheadline="Parar de vender apenas uma vez para o mesmo condomínio, vender mais e escalar sua carteira.",
+             cta="Comente FORNECEDOR e olhe o seu direct.",
          ),
-         legenda="O curso \"Multiplicar Vendas para Condomínios\" detalha, nos Capítulos 2 e 3, como conquistar cada um dos dois Hubs.",
+         legenda="O curso \"Aprenda a Multiplicar Vendas para Condomínios\" detalha, nos Capítulos 2 e 3, como conquistar cada um dos dois Hubs. Quer entender mais a fundo como funciona essa engenharia para conquistar tanto o Hub de Síndicos quanto o Hub de Administradoras, parar de vender apenas uma vez para o mesmo condomínio, vender mais e escalar sua carteira? Comente FORNECEDOR e olhe o seu direct.",
          hashtags="#HubDeEscala #FornecedoresCondominiais #MercadoCondominial #ElevaGS"),
 ])
 
-add_day("22/07 (QUA), Semana 3", [
+add_day("22/07 (QUA), Semana 4", [
     dict(time="19h", channel="LINKEDIN", tipo="VENDA (link → curso Fornecedor)",
          ancoragem="Caps 2 e 9 do curso, CAC e LTV no ecossistema condominial",
          formato="Post Estático", persona="Fornecedor / Prestador de Serviços (LinkedIn analítico)",
@@ -139,10 +149,12 @@ add_day("22/07 (QUA), Semana 3", [
          hashtags="#CAC #HubDeEscala #VendaB2B #ElevaGS"),
 ])
 
-add_week("SEMANA 4 · 27 a 30/07, Curso de Síndico em foco")
+add_podcast("23/07 (QUI), Corte de podcast", "19h", "EP #6")
 
-add_day("28/07 (TER), Semana 4, Conteúdo baseado no curso de Síndico", [
-    dict(time="18h", channel="INSTAGRAM", tipo="VALOR + VENDA (ManyChat → Gestor de ativos)",
+add_week("SEMANA 5 · 26/07 a 01/08, Curso de Síndico em foco")
+
+add_day("28/07 (TER), Semana 5, Conteúdo baseado no curso de Síndico", [
+    dict(time="18h", channel="INSTAGRAM", tipo="VALOR + VENDA (Automação → Gestor de ativos)",
          ancoragem="Cap 7.1, Hub Estratégico: posição, acesso e confiança",
          formato="Post Estático", persona="Síndico Profissional",
          headline="Dois síndicos começam a carreira no mesmo ano, com a mesma carteira. Cinco anos depois, um tem o dobro de condomínios e foi procurado para vender a operação. O outro ainda compete em preço.",
@@ -152,7 +164,7 @@ add_day("28/07 (TER), Semana 4, Conteúdo baseado no curso de Síndico", [
          hashtags="#HubEstratégico #GestorDeAtivos #SíndicoProfissional #ElevaGS"),
 ])
 
-add_day("29/07 (QUA), Semana 4, Conteúdo baseado no curso de Síndico", [
+add_day("29/07 (QUA), Semana 5, Conteúdo baseado no curso de Síndico", [
     dict(time="19h", channel="LINKEDIN", tipo="VENDA (link → curso Síndico)",
          ancoragem="Cap 1, O Mercado da Sindicatura Profissional Hoje (bifurcação)",
          formato="Carrossel (5 cards)", persona="Síndico Profissional / Gestor de Ativos",
@@ -169,12 +181,14 @@ add_day("29/07 (QUA), Semana 4, Conteúdo baseado no curso de Síndico", [
          ],
          card_final=dict(
              headline="A bifurcação já começou.",
-             subheadline="O curso \"Síndico Profissional a Gestor de Ativos\" da Eleva (audiobook + ebook como material complementar) detalha as forças que vão estruturar esse mercado nos próximos anos.",
-             cta="Conheça o curso clicando no link: " + SINDICO_LINK,
+             subheadline="O curso \"De Síndico Profissional a Gestor de Ativos\" da Eleva (audiobook + ebook como material complementar) detalha as forças que vão estruturar esse mercado nos próximos anos.",
+             cta="Conheça o curso clicando no link da legenda.",
          ),
-         legenda="O tempo de carreira não garante de qual lado da bifurcação você está. O método, sim.",
+         legenda="O tempo de carreira não garante de qual lado da bifurcação você está. O método, sim. O curso \"De Síndico Profissional a Gestor de Ativos\" da Eleva (audiobook + ebook como material complementar) detalha as forças que vão estruturar esse mercado nos próximos anos. Conheça o curso clicando no link: " + SINDICO_LINK,
          hashtags="#SíndicoProfissional #GestorDeAtivos #MercadoCondominial #ElevaGS"),
 ])
+
+add_podcast("30/07 (QUI), Corte de podcast — encerramento de julho", "19h", "EP #6", ultimo=True)
 
 # Temas originais desta semana (Atlas Schindler, case 4.8, e Protocolos de Comunicação
 # Consultiva, Cap 6) ficam no Banco de Conteúdo de setembro.
