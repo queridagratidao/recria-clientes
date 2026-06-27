@@ -15,8 +15,8 @@ WHITE = (245, 245, 245)
 GRAY = (170, 173, 178)
 NAVY = (10, 12, 15)
 
-CTA_TEXT = "Toque no botão para saber mais"
-PUSH_LINE = "Aprenda de uma vez por todas a multiplicar vendas para condomínio"
+CTA_TEXT = "Toque no botão para saber mais."
+PUSH_LINE = "Aprenda de uma vez por todas a multiplicar vendas para condomínio."
 TAG_TEXT = "FORNECEDOR E PRESTADOR DE SERVIÇOS"
 
 _LOGO_SRC = Image.open(LOGO_PATH).convert("RGBA")
