@@ -10,12 +10,12 @@
 ### Criativo 1 — Objeção Invertida
 - Texto principal: "Fornecedor bom não precisa saber vender. Precisa entregar bem."
 - Sub-headline: Se você acredita nisso, está perdendo contratos todo mês sem perceber.
-- CTA: Aprenda a multiplicar vendas para condomínios
+- CTA visual no criativo: Toque no botão para saber mais
 
 ### Criativo 2 — Perda Silenciosa
 - Texto principal: Quantos contratos com condomínio você perdeu nos últimos 6 meses sem nem saber por quê?
 - Texto de apoio: O gestor não te ligou de volta. A reunião não evoluiu. Você mandou proposta e ficou no silêncio.
-- CTA: Aprenda a multiplicar vendas para condomínios
+- CTA visual no criativo: Toque no botão para saber mais
 
 ## Legendas do anúncio (variações A/B)
 Ver `../../copies/2026-06-27_copy-trafego-fornecedores.md` (2 variações de legenda por criativo, headline e CTA pro gestor de tráfego escolher/testar).
@@ -26,7 +26,7 @@ Ver `../../copies/2026-06-27_copy-trafego-fornecedores.md` (2 variações de leg
 - Perda Silenciosa — Feed 1:1: `03_perda-silenciosa_feed-1x1.png`
 - Perda Silenciosa — Stories/Reels 9:16: `04_perda-silenciosa_story-9x16.png`
 
-Identidade visual aplicada: fundo #0A0C0F, destaque laranja #E09C3B, tipografia Sora, sem fotografia (tipografia + ícone gráfico minimalista), consistente com o restante do material Eleva.
+Identidade visual aplicada: fundo #0A0C0F, destaque laranja #E09C3B, tipografia Sora, sem fotografia, logo branco da Eleva (`logo-eleva-branco.png`, extraído do MIV) no canto inferior esquerdo.
 
 ## CTA e destino
 Link da LP do curso (Hotmart) — botão "Saiba mais" / "Comprar agora" conforme placement.

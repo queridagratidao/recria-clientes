@@ -8,13 +8,15 @@ from PIL import Image, ImageDraw, ImageFont
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 FONT_PATH = r"C:\Users\amand\AppData\Local\Temp\claude\C--Users-amand-OneDrive-Documentos-Agencia-de-IA\3fe07fba-9f71-405e-8476-7a4a9a1a0aab\scratchpad\fonts\Sora-ExtraBold.ttf"
+LOGO_PATH = os.path.join(BASE, "logo-eleva-branco.png")
 
 BG = (10, 12, 15)       # #0A0C0F
 ORANGE = (224, 156, 59)  # #E09C3B
 WHITE = (245, 245, 245)
 GRAY = (170, 173, 178)
 
-CTA_TEXT = "Aprenda a multiplicar vendas para condomínios"
+CTA_TEXT = "Toque no botão para saber mais"
+_LOGO_SRC = Image.open(LOGO_PATH).convert("RGBA")
 
 
 def font(size, variation="ExtraBold"):
@@ -53,42 +55,24 @@ def wrap_draw(draw, text, fnt, max_width, x, y, fill, line_spacing=1.25, align="
     return y
 
 
-def icon_document_loss(draw, cx, cy, scale=1.0, color=ORANGE):
-    """Ícone simples de documento com seta descendente (perda de contrato)."""
-    w, h = 70 * scale, 90 * scale
-    x0, y0 = cx - w / 2, cy - h / 2
-    draw.rounded_rectangle([x0, y0, x0 + w, y0 + h], radius=6 * scale, outline=color, width=int(4 * scale))
-    for i in range(3):
-        ly = y0 + h * 0.3 + i * h * 0.18
-        draw.line([x0 + w * 0.18, ly, x0 + w * 0.82, ly], fill=color, width=int(3 * scale))
-    ax, ay = cx, y0 + h + 14 * scale
-    draw.line([ax, y0 + h * 0.55, ax, ay], fill=color, width=int(5 * scale))
-    draw.polygon([(ax - 12 * scale, ay - 14 * scale), (ax + 12 * scale, ay - 14 * scale), (ax, ay + 4 * scale)], fill=color)
-
-
-def icon_silent_chat(draw, cx, cy, scale=1.0, color=ORANGE):
-    """Balão de chat com reticências (silêncio sem resposta)."""
-    w, h = 110 * scale, 70 * scale
-    x0, y0 = cx - w / 2, cy - h / 2
-    draw.rounded_rectangle([x0, y0, x0 + w, y0 + h], radius=16 * scale, outline=color, width=int(4 * scale))
-    draw.polygon([(cx - 14 * scale, y0 + h), (cx + 14 * scale, y0 + h), (cx - 4 * scale, y0 + h + 18 * scale)], fill=color)
-    r = 5 * scale
-    for i, dx in enumerate([-22, 0, 22]):
-        ddx = dx * scale
-        draw.ellipse([cx + ddx - r, cy - r, cx + ddx + r, cy + r], fill=color)
-
-
 def base_canvas(size):
-    img = Image.new("RGB", size, BG)
+    img = Image.new("RGBA", size, BG + (255,))
     return img, ImageDraw.Draw(img)
 
 
-def draw_cta_bar(draw, w, y, cta_font, pad=46):
+def draw_cta(draw, y, cta_font, pad=46):
     draw.text((pad, y), CTA_TEXT.upper(), font=cta_font, fill=ORANGE)
-    arrow_x = pad + draw.textlength(CTA_TEXT.upper(), font=cta_font) + 18
-    cy = y + cta_font.size * 0.4
-    draw.line([(arrow_x, cy), (arrow_x + 28, cy)], fill=ORANGE, width=4)
-    draw.polygon([(arrow_x + 22, cy - 8), (arrow_x + 22, cy + 8), (arrow_x + 34, cy)], fill=ORANGE)
+
+
+def paste_logo(img, pad, logo_width, bottom_margin):
+    """Cola o logo branco da Eleva no canto inferior esquerdo, mantendo a proporção original."""
+    ratio = _LOGO_SRC.height / _LOGO_SRC.width
+    logo_h = int(logo_width * ratio)
+    logo = _LOGO_SRC.resize((logo_width, logo_h), Image.LANCZOS)
+    x = pad
+    y = img.height - bottom_margin - logo_h
+    img.alpha_composite(logo, (x, y))
+    return y
 
 
 # ---------- Criativo 1: Objeção Invertida ----------
@@ -108,10 +92,10 @@ def objecao_invertida_feed():
 
     y += 48
     sub = "Se você acredita nisso, está perdendo contratos todo mês sem perceber."
-    y = wrap_draw(d, sub, sub_font, W - 2 * pad, pad, y, ORANGE, line_spacing=1.3)
+    wrap_draw(d, sub, sub_font, W - 2 * pad, pad, y, ORANGE, line_spacing=1.3)
 
-    icon_document_loss(d, W - 140, H - 200, scale=1.3)
-    draw_cta_bar(d, W, H - 130, cta_font, pad)
+    draw_cta(d, H - 150, cta_font, pad)
+    paste_logo(img, pad, logo_width=220, bottom_margin=60)
     return img
 
 
@@ -133,11 +117,10 @@ def objecao_invertida_story():
 
     y += 70
     sub = "Se você acredita nisso, está perdendo contratos todo mês sem perceber."
-    y = wrap_draw(d, sub, sub_font, W - 2 * pad, pad, y, ORANGE, line_spacing=1.35)
+    wrap_draw(d, sub, sub_font, W - 2 * pad, pad, y, ORANGE, line_spacing=1.35)
 
-    icon_document_loss(d, W / 2, H / 2 + 120, scale=1.8)
-
-    draw_cta_bar(d, W, bottom_safe - 110, cta_font, pad)
+    draw_cta(d, bottom_safe - 150, cta_font, pad)
+    paste_logo(img, pad, logo_width=240, bottom_margin=(H - bottom_safe) + 40)
     return img
 
 
@@ -158,10 +141,10 @@ def perda_silenciosa_feed():
 
     y += 50
     body = "O gestor não te ligou de volta. A reunião não evoluiu. Você mandou proposta e ficou no silêncio."
-    y = wrap_draw(d, body, body_font, W - 2 * pad, pad, y, GRAY, line_spacing=1.35)
+    wrap_draw(d, body, body_font, W - 2 * pad, pad, y, GRAY, line_spacing=1.35)
 
-    icon_silent_chat(d, W - 160, H - 210, scale=1.3)
-    draw_cta_bar(d, W, H - 130, cta_font, pad)
+    draw_cta(d, H - 150, cta_font, pad)
+    paste_logo(img, pad, logo_width=220, bottom_margin=60)
     return img
 
 
@@ -183,11 +166,10 @@ def perda_silenciosa_story():
 
     y += 70
     body = "O gestor não te ligou de volta. A reunião não evoluiu. Você mandou proposta e ficou no silêncio."
-    y = wrap_draw(d, body, body_font, W - 2 * pad, pad, y, GRAY, line_spacing=1.4)
+    wrap_draw(d, body, body_font, W - 2 * pad, pad, y, GRAY, line_spacing=1.4)
 
-    icon_silent_chat(d, W / 2, H / 2 + 140, scale=1.9)
-
-    draw_cta_bar(d, W, bottom_safe - 110, cta_font, pad)
+    draw_cta(d, bottom_safe - 150, cta_font, pad)
+    paste_logo(img, pad, logo_width=240, bottom_margin=(H - bottom_safe) + 40)
     return img
 
 
@@ -200,7 +182,7 @@ if __name__ == "__main__":
         ("04_perda-silenciosa_story-9x16.png", perda_silenciosa_story),
     ]
     for name, fn in jobs:
-        img = fn()
+        img = fn().convert("RGB")
         path = os.path.join(out, name)
         img.save(path, "PNG")
         print("salvo:", path)
