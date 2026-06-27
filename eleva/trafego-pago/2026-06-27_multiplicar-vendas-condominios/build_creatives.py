@@ -84,30 +84,23 @@ def draw_tag(draw, pad, y, tag_font):
     return box[3]
 
 
-def bottom_block(img, draw, pad, content_width, push_font, cta_font, logo_width, bottom_floor, floor_gap=60):
-    """Desenha (de cima pra baixo, ancorado pela base): linha de reforço (push), CTA e logo,
-    sempre encostados na base disponível (bottom_floor), respeitando floor_gap."""
-    push_lines = compute_lines(draw, PUSH_LINE, push_font, content_width)
-    push_line_h = line_height(push_font, 1.3)
-    push_h = push_line_h * len(push_lines)
+def draw_push_line(draw, pad, content_width, push_font, y, line_spacing=1.3):
+    """Linha de reforço (ex: 'Aprenda de uma vez por todas...'), centralizada verticalmente
+    no espaço vazio do meio do criativo, em destaque (fonte maior, branco)."""
+    wrap_draw(draw, PUSH_LINE, push_font, content_width, pad, y, WHITE, line_spacing=line_spacing)
 
+
+def draw_cta_and_logo(img, draw, pad, cta_font, logo_width, bottom_floor, floor_gap=60, gap_cta_logo=58):
+    """Desenha a CTA e, abaixo (com respiro maior), o logo, ancorados na base disponível."""
     cta_bbox = cta_font.getbbox("Ay")
     cta_h = cta_bbox[3] - cta_bbox[1]
 
     ratio = _LOGO_SRC.height / _LOGO_SRC.width
     logo_h = int(logo_width * ratio)
 
-    gap_push_cta = 22
-    gap_cta_logo = 30
-
-    total_h = push_h + gap_push_cta + cta_h + gap_cta_logo + logo_h
+    total_h = cta_h + gap_cta_logo + logo_h
     block_bottom = bottom_floor - floor_gap
     y = block_bottom - total_h
-
-    for line in push_lines:
-        draw.text((pad, y), line, font=push_font, fill=WHITE)
-        y += push_line_h
-    y += gap_push_cta
 
     draw.text((pad, y), CTA_TEXT.upper(), font=cta_font, fill=ORANGE)
     y += cta_h + gap_cta_logo
@@ -125,8 +118,8 @@ def objecao_invertida_feed():
 
     title_font = font(56)
     sub_font = font(32)
-    push_font = font(30)
-    cta_font = font(27)
+    push_font = font(38)
+    cta_font = font(34)
 
     y = 110
     quote = "“Fornecedor bom não precisa saber vender. Precisa entregar bem.”"
@@ -136,7 +129,8 @@ def objecao_invertida_feed():
     sub = "Se você acredita nisso, está perdendo contratos todo mês sem perceber."
     wrap_draw(d, sub, sub_font, W - 2 * pad, pad, y, ORANGE, line_spacing=1.3)
 
-    bottom_block(img, d, pad, W - 2 * pad, push_font, cta_font, logo_width=300, bottom_floor=H)
+    draw_push_line(d, pad, W - 2 * pad, push_font, 600)
+    draw_cta_and_logo(img, d, pad, cta_font, logo_width=300, bottom_floor=H)
     return img
 
 
@@ -147,8 +141,8 @@ def objecao_invertida_story():
 
     title_font = font(60)
     sub_font = font(34)
-    push_font = font(32)
-    cta_font = font(29)
+    push_font = font(42)
+    cta_font = font(36)
 
     top_safe = int(H * 0.14)
     bottom_safe = H - int(H * 0.14)
@@ -161,7 +155,8 @@ def objecao_invertida_story():
     sub = "Se você acredita nisso, está perdendo contratos todo mês sem perceber."
     wrap_draw(d, sub, sub_font, W - 2 * pad, pad, y, ORANGE, line_spacing=1.32)
 
-    bottom_block(img, d, pad, W - 2 * pad, push_font, cta_font, logo_width=320, bottom_floor=bottom_safe, floor_gap=40)
+    draw_push_line(d, pad, W - 2 * pad, push_font, 1050)
+    draw_cta_and_logo(img, d, pad, cta_font, logo_width=320, bottom_floor=bottom_safe, floor_gap=40)
     return img
 
 
@@ -175,8 +170,8 @@ def perda_silenciosa_feed():
     tag_font = font(20)
     title_font = font(46)
     body_font = font(28, variation="Regular")
-    push_font = font(30)
-    cta_font = font(27)
+    push_font = font(38)
+    cta_font = font(34)
 
     y = 90
     y = draw_tag(d, pad, y, tag_font)
@@ -190,7 +185,8 @@ def perda_silenciosa_feed():
             "Você enviou a proposta e sem nenhum retorno ou retorno negativo.")
     wrap_draw(d, body, body_font, W - 2 * pad, pad, y, GRAY, line_spacing=1.32)
 
-    bottom_block(img, d, pad, W - 2 * pad, push_font, cta_font, logo_width=300, bottom_floor=H)
+    draw_push_line(d, pad, W - 2 * pad, push_font, 620)
+    draw_cta_and_logo(img, d, pad, cta_font, logo_width=300, bottom_floor=H)
     return img
 
 
@@ -202,8 +198,8 @@ def perda_silenciosa_story():
     tag_font = font(22)
     title_font = font(50)
     body_font = font(30, variation="Regular")
-    push_font = font(32)
-    cta_font = font(29)
+    push_font = font(42)
+    cta_font = font(36)
 
     top_safe = int(H * 0.14)
     bottom_safe = H - int(H * 0.14)
@@ -220,7 +216,8 @@ def perda_silenciosa_story():
             "Você enviou a proposta e sem nenhum retorno ou retorno negativo.")
     wrap_draw(d, body, body_font, W - 2 * pad, pad, y, GRAY, line_spacing=1.35)
 
-    bottom_block(img, d, pad, W - 2 * pad, push_font, cta_font, logo_width=320, bottom_floor=bottom_safe, floor_gap=40)
+    draw_push_line(d, pad, W - 2 * pad, push_font, 1080)
+    draw_cta_and_logo(img, d, pad, cta_font, logo_width=320, bottom_floor=bottom_safe, floor_gap=40)
     return img
 
 
