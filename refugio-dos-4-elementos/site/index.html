@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Refúgio dos 4 Elementos — espaço de terapia holística em Cuiabá e online. Constelação Familiar, Reiki, Aromaterapia, Cristaloterapia, Terapia Xamânica e Louvação com Ayahuasca. Acolhimento incondicional e transformação genuína.">
+  <title>Refúgio dos 4 Elementos — Terapia Holística em Cuiabá e Online</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Quicksand:wght@500;700&family=Lora:wght@400;500&display=swap" rel="stylesheet">
+
+  <style>
+    /* ── Variáveis de marca ─────────────────────────── */
+    :root {
+      --lilas:     #8B6FA8;
+      --verde:     #6B8F71;
+      --terracota: #C97B4A;
+      --azul:      #A9C4CB;
+      --creme:     #F7F3EC;
+      --marrom:    #3B2E2A;
+      --branco:    #FFFFFF;
+
+      --font-titulo:    'Cormorant Garamond', Georgia, serif;
+      --font-destaque:  'Quicksand', sans-serif;
+      --font-corpo:     'Lora', Georgia, serif;
+
+      --raio:    12px;
+      --sombra:  0 4px 24px rgba(59,46,42,.10);
+      --max-w:   1140px;
+    }
+
+    /* ── Reset mínimo ───────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--creme);
+      color: var(--marrom);
+      font-family: var(--font-corpo);
+      font-size: 16px;
+      line-height: 1.7;
+    }
+    img { max-width: 100%; display: block; }
+    a { color: inherit; text-decoration: none; }
+
+    /* ── Utilitários ────────────────────────────────── */
+    .container { width: 100%; max-width: var(--max-w); margin: 0 auto; padding: 0 24px; }
+    .section { padding: 80px 0; }
+    .section--escuro { background: var(--marrom); color: var(--creme); }
+    .section--lilas  { background: var(--lilas);  color: var(--branco); }
+    .section--verde  { background: var(--verde);  color: var(--branco); }
+
+    .tag {
+      display: inline-block;
+      font-family: var(--font-destaque);
+      font-size: .75rem;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--lilas);
+      margin-bottom: 12px;
+    }
+    .section--escuro .tag,
+    .section--lilas .tag,
+    .section--verde .tag { color: rgba(255,255,255,.7); }
+
+    h2 {
+      font-family: var(--font-titulo);
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 600;
+      line-height: 1.2;
+      margin-bottom: 20px;
+    }
+    h3 {
+      font-family: var(--font-titulo);
+      font-size: 1.4rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    p { margin-bottom: 16px; }
+    p:last-child { margin-bottom: 0; }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--font-destaque);
+      font-weight: 700;
+      font-size: .95rem;
+      padding: 14px 28px;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: opacity .2s, transform .15s;
+      border: none;
+    }
+    .btn:hover { opacity: .88; transform: translateY(-1px); }
+    .btn--lilas   { background: var(--lilas);     color: var(--branco); }
+    .btn--terrac  { background: var(--terracota);  color: var(--branco); }
+    .btn--branco  { background: var(--branco);     color: var(--lilas);  }
+    .btn--outline {
+      background: transparent;
+      border: 2px solid var(--branco);
+      color: var(--branco);
+    }
+
+    /* ── WhatsApp flutuante ─────────────────────────── */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 28px;
+      right: 28px;
+      z-index: 999;
+      width: 58px;
+      height: 58px;
+      border-radius: 50%;
+      background: #25D366;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 16px rgba(0,0,0,.25);
+      transition: transform .2s;
+    }
+    .whatsapp-float:hover { transform: scale(1.08); }
+    .whatsapp-float svg { width: 30px; height: 30px; fill: #fff; }
+
+    /* ── Nav ────────────────────────────────────────── */
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(247,243,236,.95);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid rgba(139,111,168,.15);
+      padding: 14px 0;
+    }
+    .nav__inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .nav__logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .nav__logo img {
+      height: 48px;
+      width: auto;
+    }
+    .nav__nome {
+      font-family: var(--font-titulo);
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--marrom);
+      line-height: 1.2;
+    }
+    .nav__links {
+      display: none;
+      gap: 28px;
+      list-style: none;
+      font-family: var(--font-destaque);
+      font-size: .88rem;
+      font-weight: 700;
+    }
+    .nav__links a { color: var(--marrom); }
+    .nav__links a:hover { color: var(--lilas); }
+    .nav__cta { display: none; }
+
+    @media (min-width: 768px) {
+      .nav__links { display: flex; }
+      .nav__cta   { display: block; }
+    }
+
+    /* ── Hero ───────────────────────────────────────── */
+    .hero {
+      min-height: 92vh;
+      display: flex;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+      background:
+        linear-gradient(160deg,
+          rgba(139,111,168,.18) 0%,
+          rgba(107,143,113,.08) 50%,
+          rgba(169,196,203,.15) 100%),
+        var(--creme);
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 80% 60% at 70% 50%, rgba(139,111,168,.10) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .hero__inner {
+      display: grid;
+      gap: 48px;
+      align-items: center;
+    }
+    .hero__texto { max-width: 620px; }
+    .hero__titulo {
+      font-family: var(--font-titulo);
+      font-size: clamp(2.6rem, 7vw, 4.2rem);
+      font-weight: 600;
+      line-height: 1.15;
+      color: var(--marrom);
+      margin-bottom: 20px;
+    }
+    .hero__titulo em {
+      font-style: italic;
+      color: var(--lilas);
+    }
+    .hero__sub {
+      font-size: 1.1rem;
+      color: var(--marrom);
+      opacity: .8;
+      margin-bottom: 32px;
+      max-width: 500px;
+    }
+    .hero__ctas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+    .hero__decorativo {
+      display: none;
+      position: relative;
+    }
+    .hero__anel {
+      width: 420px;
+      max-width: 100%;
+    }
+
+    @media (min-width: 768px) {
+      .hero__inner { grid-template-columns: 1fr 1fr; }
+      .hero__decorativo { display: block; text-align: center; }
+    }
+
+    /* ── Elementos badge ────────────────────────────── */
+    .elementos-bar {
+      background: var(--marrom);
+      padding: 20px 0;
+    }
+    .elementos-bar__inner {
+      display: flex;
+      gap: 32px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .elemento-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--font-destaque);
+      font-size: .85rem;
+      font-weight: 700;
+      color: var(--creme);
+      letter-spacing: .05em;
+    }
+    .elemento-item__icon { font-size: 1.2rem; }
+
+    /* ── Sobre ──────────────────────────────────────── */
+    .sobre__grid {
+      display: grid;
+      gap: 48px;
+      align-items: center;
+    }
+    .sobre__foto {
+      border-radius: var(--raio);
+      overflow: hidden;
+      background: var(--azul);
+      min-height: 340px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .sobre__foto img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .sobre__foto-placeholder {
+      font-family: var(--font-destaque);
+      color: rgba(59,46,42,.4);
+      text-align: center;
+      padding: 32px;
+      font-size: .85rem;
+    }
+    .valores {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-top: 32px;
+    }
+    .valor-card {
+      background: var(--branco);
+      border-radius: var(--raio);
+      padding: 20px;
+      border-left: 4px solid var(--lilas);
+      box-shadow: var(--sombra);
+    }
+    .valor-card--verde  { border-left-color: var(--verde); }
+    .valor-card--terrac { border-left-color: var(--terracota); }
+    .valor-card--azul   { border-left-color: var(--azul); }
+    .valor-card__titulo {
+      font-family: var(--font-destaque);
+      font-weight: 700;
+      font-size: .85rem;
+      margin-bottom: 4px;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+    }
+    .valor-card p { font-size: .88rem; opacity: .8; margin: 0; }
+
+    @media (min-width: 768px) {
+      .sobre__grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    /* ── Serviços ───────────────────────────────────── */
+    .section--servicos { background: var(--branco); }
+    .servicos__intro { max-width: 640px; margin-bottom: 48px; }
+    .servicos__grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 24px;
+    }
+    .servico-card {
+      background: var(--creme);
+      border-radius: var(--raio);
+      padding: 28px 24px;
+      border-top: 4px solid var(--lilas);
+      transition: box-shadow .2s, transform .2s;
+    }
+    .servico-card:hover {
+      box-shadow: var(--sombra);
+      transform: translateY(-3px);
+    }
+    .servico-card--verde  { border-top-color: var(--verde); }
+    .servico-card--terrac { border-top-color: var(--terracota); }
+    .servico-card--azul   { border-top-color: var(--azul); }
+    .servico-card__icon {
+      font-size: 2rem;
+      margin-bottom: 12px;
+      display: block;
+    }
+    .servico-card h3 { font-size: 1.2rem; margin-bottom: 8px; }
+    .servico-card p  { font-size: .9rem; opacity: .8; margin: 0; }
+    .servicos__cta { text-align: center; margin-top: 48px; }
+
+    /* ── Destaques (números) ────────────────────────── */
+    .destaques { background: var(--lilas); color: var(--branco); padding: 60px 0; }
+    .destaques__grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 32px;
+      text-align: center;
+    }
+    .destaque-num {
+      font-family: var(--font-titulo);
+      font-size: 3rem;
+      font-weight: 600;
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+    .destaque-label {
+      font-family: var(--font-destaque);
+      font-size: .85rem;
+      opacity: .85;
+    }
+
+    /* ── Depoimentos ────────────────────────────────── */
+    .depoimentos__grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 24px;
+    }
+    .depoimento-card {
+      background: var(--branco);
+      border-radius: var(--raio);
+      padding: 28px;
+      box-shadow: var(--sombra);
+      position: relative;
+    }
+    .depoimento-card::before {
+      content: '"';
+      font-family: var(--font-titulo);
+      font-size: 5rem;
+      color: var(--lilas);
+      opacity: .25;
+      position: absolute;
+      top: 8px;
+      left: 20px;
+      line-height: 1;
+    }
+    .depoimento-card__texto {
+      font-style: italic;
+      margin-bottom: 20px;
+      padding-top: 24px;
+      font-size: .95rem;
+    }
+    .depoimento-card__autor {
+      font-family: var(--font-destaque);
+      font-weight: 700;
+      font-size: .85rem;
+    }
+    .depoimento-card__servico {
+      font-size: .82rem;
+      color: var(--lilas);
+      margin-top: 2px;
+    }
+
+    /* ── CTA principal ──────────────────────────────── */
+    .cta-principal {
+      background:
+        linear-gradient(135deg, var(--verde) 0%, var(--lilas) 100%);
+      color: var(--branco);
+      text-align: center;
+      padding: 80px 0;
+    }
+    .cta-principal h2 {
+      font-family: var(--font-titulo);
+      font-size: clamp(2rem, 5vw, 3rem);
+      margin-bottom: 16px;
+    }
+    .cta-principal p { font-size: 1.05rem; opacity: .9; margin-bottom: 32px; }
+
+    /* ── Localização / Contato ──────────────────────── */
+    .contato__grid {
+      display: grid;
+      gap: 48px;
+    }
+    .contato__info h3 { margin-bottom: 16px; }
+    .contato__item {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      margin-bottom: 20px;
+    }
+    .contato__item__icon {
+      font-size: 1.4rem;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .contato__item__label {
+      font-family: var(--font-destaque);
+      font-weight: 700;
+      font-size: .85rem;
+      margin-bottom: 2px;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      color: var(--lilas);
+    }
+    .contato__mapa {
+      border-radius: var(--raio);
+      overflow: hidden;
+      background: var(--azul);
+      min-height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .contato__mapa iframe {
+      width: 100%;
+      height: 340px;
+      border: none;
+    }
+    .contato__mapa-placeholder {
+      text-align: center;
+      padding: 32px;
+      color: var(--marrom);
+      opacity: .5;
+      font-size: .85rem;
+    }
+
+    @media (min-width: 768px) {
+      .contato__grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    /* ── Footer ─────────────────────────────────────── */
+    .footer {
+      background: var(--marrom);
+      color: var(--creme);
+      padding: 40px 0 24px;
+    }
+    .footer__inner {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      align-items: center;
+      text-align: center;
+    }
+    .footer__logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .footer__logo img { height: 40px; filter: brightness(0) invert(1); opacity: .8; }
+    .footer__nome {
+      font-family: var(--font-titulo);
+      font-size: 1.1rem;
+      color: var(--creme);
+    }
+    .footer__social {
+      display: flex;
+      gap: 16px;
+    }
+    .footer__social a {
+      width: 40px; height: 40px;
+      border-radius: 50%;
+      background: rgba(255,255,255,.12);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.1rem;
+      transition: background .2s;
+    }
+    .footer__social a:hover { background: rgba(255,255,255,.25); }
+    .footer__copy {
+      font-size: .8rem;
+      opacity: .55;
+      font-family: var(--font-destaque);
+    }
+
+    @media (min-width: 768px) {
+      .footer__inner { flex-direction: row; justify-content: space-between; text-align: left; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ── WhatsApp flutuante ───────────────────────── -->
+  <!-- TODO: substituir 5565999999999 pelo número real da Daniela -->
+  <a href="https://wa.me/5565999999999?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20terapias%20do%20Refúgio%20dos%204%20Elementos."
+     class="whatsapp-float"
+     aria-label="Fale pelo WhatsApp"
+     target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <!-- ── Nav ──────────────────────────────────────── -->
+  <nav class="nav" aria-label="Navegação principal">
+    <div class="container">
+      <div class="nav__inner">
+        <a href="#inicio" class="nav__logo">
+          <!-- TODO: salvar logo em site/img/logo.png -->
+          <img src="img/logo.png" alt="Logo Refúgio dos 4 Elementos" onerror="this.style.display='none'">
+          <span class="nav__nome">Refúgio dos<br>4 Elementos</span>
+        </a>
+        <ul class="nav__links">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#terapias">Terapias</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+        <a href="https://wa.me/5565999999999?text=Olá!%20Quero%20agendar%20uma%20sessão."
+           class="btn btn--lilas nav__cta"
+           target="_blank" rel="noopener">
+          Agendar sessão
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ── Hero ─────────────────────────────────────── -->
+  <section class="hero" id="inicio">
+    <div class="container">
+      <div class="hero__inner">
+        <div class="hero__texto">
+          <span class="tag">Terapia Holística · Cuiabá e Online</span>
+          <h1 class="hero__titulo">
+            Você não precisa<br>estar pronto pra nada —<br>
+            só precisa se <em>permitir chegar</em>.
+          </h1>
+          <p class="hero__sub">
+            O Refúgio dos 4 Elementos é um espaço de acolhimento, cura e transformação
+            através da sabedoria da Terra, Água, Ar e Fogo — sem julgamentos,
+            sem pressão, no seu próprio tempo.
+          </p>
+          <div class="hero__ctas">
+            <a href="https://wa.me/5565999999999?text=Olá!%20Gostaria%20de%20saber%20qual%20terapia%20é%20certa%20pra%20mim."
+               class="btn btn--lilas"
+               target="_blank" rel="noopener">
+              💬 Fale comigo no WhatsApp
+            </a>
+            <a href="#terapias" class="btn btn--outline" style="border-color:var(--lilas);color:var(--lilas);">
+              Ver terapias
+            </a>
+          </div>
+        </div>
+        <div class="hero__decorativo">
+          <!-- SVG do logo recriado inline como elemento decorativo de fundo -->
+          <svg class="hero__anel" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <!-- Anel fino lilás -->
+            <circle cx="200" cy="200" r="150" fill="none" stroke="#8B6FA8" stroke-width="2.5"/>
+            <!-- Fogo (topo) — terracota -->
+            <g transform="translate(188,38)">
+              <path d="M12 0 C12 0 20 12 20 20 C20 28 16 34 12 36 C8 34 4 28 4 20 C4 12 12 0 12 0Z
+                       M12 20 C12 20 16 24 16 28 C16 32 14 34 12 35 C10 34 8 32 8 28 C8 24 12 20 12 20Z"
+                    fill="#C97B4A" opacity=".0"/>
+              <text x="12" y="30" text-anchor="middle" font-size="36" fill="#C97B4A">🔥</text>
+            </g>
+            <!-- Água (direita) — azul -->
+            <text x="350" y="210" text-anchor="middle" font-size="34" fill="#A9C4CB">💧</text>
+            <!-- Terra (base) — verde -->
+            <text x="197" y="368" text-anchor="middle" font-size="34" fill="#6B8F71">🌿</text>
+            <!-- Ar (esquerda) — marrom -->
+            <text x="35" y="210" text-anchor="middle" font-size="30" fill="#3B2E2A">🌬</text>
+
+            <!-- Texto central -->
+            <text x="200" y="188" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#8B6FA8" font-style="italic">Refúgio dos</text>
+            <text x="200" y="212" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#3B2E2A" font-weight="bold">4 Elementos</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Barra elementos ───────────────────────────── -->
+  <div class="elementos-bar" aria-hidden="true">
+    <div class="container">
+      <div class="elementos-bar__inner">
+        <span class="elemento-item"><span class="elemento-item__icon">🔥</span> Fogo</span>
+        <span class="elemento-item"><span class="elemento-item__icon">💧</span> Água</span>
+        <span class="elemento-item"><span class="elemento-item__icon">🌿</span> Terra</span>
+        <span class="elemento-item"><span class="elemento-item__icon">🌬</span> Ar</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Sobre ─────────────────────────────────────── -->
+  <section class="section" id="sobre">
+    <div class="container">
+      <div class="sobre__grid">
+        <div class="sobre__foto">
+          <!-- TODO: substituir por foto real da Daniela ou do espaço -->
+          <div class="sobre__foto-placeholder">
+            <!-- TODO: salvar foto em site/img/daniela.jpg -->
+            <img src="img/daniela.jpg" alt="Daniela Sampaio, terapeuta holística" onerror="this.style.display='none'">
+            <p>📸 Foto da Daniela ou do espaço</p>
+          </div>
+        </div>
+        <div class="sobre__texto">
+          <span class="tag">Sobre o espaço</span>
+          <h2>Um lugar pra você ser exatamente quem é</h2>
+          <p>
+            O Refúgio dos 4 Elementos nasceu da crença de que a cura acontece quando
+            a pessoa se sente verdadeiramente acolhida — sem julgamentos, sem obrigações,
+            sem promessas vazias. Há 3 anos, criamos um espaço onde Terra, Água, Ar e Fogo
+            orientam cada terapia com escuta genuína e responsabilidade técnica.
+          </p>
+          <p>
+            Daniela Sampaio e nossa equipe de consteladores e terapeutas atendem online
+            para todo o Brasil e presencialmente em Cuiabá e região de Mato Grosso.
+          </p>
+          <div class="valores">
+            <div class="valor-card">
+              <div class="valor-card__titulo">Acolhimento</div>
+              <p>Aqui ninguém é obrigado a nada. Cada pessoa avança no seu próprio tempo.</p>
+            </div>
+            <div class="valor-card valor-card--verde">
+              <div class="valor-card__titulo">Universalidade</div>
+              <p>Respeitamos todas as crenças. Nenhuma prática é vinculada a uma religião.</p>
+            </div>
+            <div class="valor-card valor-card--terrac">
+              <div class="valor-card__titulo">Técnica séria</div>
+              <p>Cada terapia é conduzida com responsabilidade e conhecimento real.</p>
+            </div>
+            <div class="valor-card valor-card--azul">
+              <div class="valor-card__titulo">Transformação real</div>
+              <p>Buscamos resultado genuíno na vida das pessoas, não promessas vazias.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Destaques ──────────────────────────────────── -->
+  <div class="destaques">
+    <div class="container">
+      <div class="destaques__grid">
+        <div>
+          <div class="destaque-num">3+</div>
+          <div class="destaque-label">anos de cuidado e escuta</div>
+        </div>
+        <div>
+          <div class="destaque-num">10</div>
+          <div class="destaque-label">modalidades terapêuticas</div>
+        </div>
+        <div>
+          <div class="destaque-num">🇧🇷</div>
+          <div class="destaque-label">atendimento online para o Brasil todo</div>
+        </div>
+        <div>
+          <div class="destaque-num">♾</div>
+          <div class="destaque-label">sem julgamentos, sem pressão</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Terapias ───────────────────────────────────── -->
+  <section class="section section--servicos" id="terapias">
+    <div class="container">
+      <div class="servicos__intro">
+        <span class="tag">Nossas terapias</span>
+        <h2>Cada caminho de cura é único como você</h2>
+        <p>
+          Oferecemos uma ampla gama de terapias integrativas e holísticas —
+          desde práticas energéticas individuais até imersões coletivas em contato com a natureza.
+          Não tem uma terapia "certa" — tem a que faz sentido pra você agora.
+        </p>
+      </div>
+      <div class="servicos__grid">
+
+        <div class="servico-card">
+          <span class="servico-card__icon">🌀</span>
+          <h3>Constelação Familiar Sistêmica</h3>
+          <p>Individual ou em grupo. Revela e dissolve padrões familiares que se repetem na sua vida — sem que você precise saber de onde vêm. Não tem vínculo religioso.</p>
+        </div>
+
+        <div class="servico-card servico-card--verde">
+          <span class="servico-card__icon">✋</span>
+          <h3>Reiki</h3>
+          <p>Canalização de energia universal para reequilibrar os campos energéticos e promover bem-estar físico, mental e emocional.</p>
+        </div>
+
+        <div class="servico-card servico-card--terrac">
+          <span class="servico-card__icon">🌿</span>
+          <h3>Aromaterapia</h3>
+          <p>Uso terapêutico de óleos essenciais naturais para equilibrar emoções, reduzir ansiedade e apoiar o bem-estar integral.</p>
+        </div>
+
+        <div class="servico-card servico-card--azul">
+          <span class="servico-card__icon">💎</span>
+          <h3>Cristaloterapia</h3>
+          <p>Trabalho com cristais e pedras naturais para harmonizar os chakras, liberar bloqueios e amplificar a energia curativa.</p>
+        </div>
+
+        <div class="servico-card">
+          <span class="servico-card__icon">🕯️</span>
+          <h3>Cone Hindu</h3>
+          <p>Técnica de auriculoterapia com cones de papel para limpeza e equilíbrio dos campos energéticos e do ouvido interno.</p>
+        </div>
+
+        <div class="servico-card servico-card--verde">
+          <span class="servico-card__icon">🌟</span>
+          <h3>Passe Energético</h3>
+          <p>Transmissão de energia canalizada com intenção de cura, harmonizando o campo áurico e promovendo bem-estar profundo.</p>
+        </div>
+
+        <div class="servico-card servico-card--terrac">
+          <span class="servico-card__icon">💬</span>
+          <h3>Conversa Fraterna</h3>
+          <p>Escuta ativa e acolhedora, sem julgamentos. Um espaço seguro pra você falar sobre o que está sentindo sem precisar "ter o problema todo resolvido".</p>
+        </div>
+
+        <div class="servico-card servico-card--azul">
+          <span class="servico-card__icon">🔥</span>
+          <h3>Terapia Xamânica dos 4 Elementos</h3>
+          <p>Práticas de cura ancestral que conectam Terra, Água, Ar e Fogo para liberar bloqueios energéticos e restaurar o equilíbrio da alma.</p>
+        </div>
+
+        <div class="servico-card">
+          <span class="servico-card__icon">🌊</span>
+          <h3>Imersão na Cachoeira</h3>
+          <p>Experiência presencial de conexão profunda com a natureza — um ritual de purificação, reconexão e transformação ao ar livre. Em Cuiabá e MT.</p>
+        </div>
+
+        <div class="servico-card servico-card--verde">
+          <span class="servico-card__icon">🌱</span>
+          <h3>Louvação com Ayahuasca</h3>
+          <p>Cerimônia conduzida com responsabilidade técnica e espiritual, em ambiente seguro e acolhedor. Realizada presencialmente em MT e eventualmente em outros estados.</p>
+        </div>
+
+      </div>
+      <div class="servicos__cta">
+        <p style="margin-bottom:20px;font-size:1rem;opacity:.75;">
+          Não sabe por onde começar? Fale comigo e vamos descobrir juntos.
+        </p>
+        <a href="https://wa.me/5565999999999?text=Olá%20Daniela!%20Gostaria%20de%20entender%20qual%20terapia%20faz%20sentido%20pra%20mim."
+           class="btn btn--lilas"
+           target="_blank" rel="noopener">
+          💬 Quero saber qual terapia é pra mim
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Depoimentos ────────────────────────────────── -->
+  <section class="section" id="depoimentos">
+    <div class="container">
+      <span class="tag">Depoimentos</span>
+      <h2 style="margin-bottom:40px;">O que dizem quem chegou aqui</h2>
+
+      <!-- TODO: substituir pelos depoimentos reais coletados -->
+      <div class="depoimentos__grid">
+        <div class="depoimento-card">
+          <p class="depoimento-card__texto">
+            "Cheguei sem esperança e sem acreditar em nada. A Daniela me acolheu sem julgamento nenhum.
+            Depois da constelação, senti como se um peso que eu nem sabia que carregava tivesse
+            sumido do meu peito."
+          </p>
+          <div class="depoimento-card__autor"><!-- TODO: nome real --> M. R.</div>
+          <div class="depoimento-card__servico">Constelação Familiar</div>
+        </div>
+        <div class="depoimento-card">
+          <p class="depoimento-card__texto">
+            "A imersão na cachoeira foi uma das experiências mais transformadoras da minha vida.
+            Saí de lá sabendo quem eu sou de verdade."
+          </p>
+          <div class="depoimento-card__autor"><!-- TODO: nome real --> J. C.</div>
+          <div class="depoimento-card__servico">Imersão na Cachoeira</div>
+        </div>
+        <div class="depoimento-card">
+          <p class="depoimento-card__texto">
+            "Nunca pensei que ia me sentir tão bem tratada num espaço assim. Sem pressão, sem
+            obrigação, no meu tempo. O Refúgio é o nome certo."
+          </p>
+          <div class="depoimento-card__autor"><!-- TODO: nome real --> A. S.</div>
+          <div class="depoimento-card__servico">Reiki · Aromaterapia</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── CTA principal ──────────────────────────────── -->
+  <section class="cta-principal">
+    <div class="container">
+      <h2>Pronto pra começar? Ou ainda com dúvida?</h2>
+      <p>
+        Os dois são bem-vindos aqui. Manda uma mensagem — sem compromisso —
+        e a gente conversa sobre o que você está sentindo e o que pode fazer sentido pra você.
+      </p>
+      <a href="https://wa.me/5565999999999?text=Olá!%20Quero%20agendar%20uma%20sessão%20no%20Refúgio%20dos%204%20Elementos."
+         class="btn btn--branco"
+         target="_blank" rel="noopener">
+        💬 Falar no WhatsApp agora
+      </a>
+    </div>
+  </section>
+
+  <!-- ── Contato ────────────────────────────────────── -->
+  <section class="section" id="contato">
+    <div class="container">
+      <span class="tag">Contato e localização</span>
+      <h2 style="margin-bottom:40px;">Onde estamos</h2>
+      <div class="contato__grid">
+        <div class="contato__info">
+
+          <div class="contato__item">
+            <span class="contato__item__icon">💬</span>
+            <div>
+              <div class="contato__item__label">WhatsApp</div>
+              <!-- TODO: substituir pelo número real -->
+              <a href="https://wa.me/5565999999999" target="_blank" rel="noopener" style="color:var(--lilas);font-family:var(--font-destaque);font-weight:700;">
+                (65) 9 9999-9999
+              </a>
+            </div>
+          </div>
+
+          <div class="contato__item">
+            <span class="contato__item__icon">📍</span>
+            <div>
+              <div class="contato__item__label">Presencial</div>
+              <p style="margin:0;">Cuiabá e região de Mato Grosso</p>
+            </div>
+          </div>
+
+          <div class="contato__item">
+            <span class="contato__item__icon">🌐</span>
+            <div>
+              <div class="contato__item__label">Online</div>
+              <p style="margin:0;">Brasil todo — atendimentos via videochamada</p>
+            </div>
+          </div>
+
+          <div class="contato__item">
+            <span class="contato__item__icon">📸</span>
+            <div>
+              <div class="contato__item__label">Instagram</div>
+              <!-- TODO: substituir pelo @ real -->
+              <a href="https://instagram.com/refugio4elementos" target="_blank" rel="noopener" style="color:var(--lilas);font-family:var(--font-destaque);font-weight:700;">
+                @refugio4elementos
+              </a>
+            </div>
+          </div>
+
+          <div class="contato__item">
+            <span class="contato__item__icon">🕐</span>
+            <div>
+              <div class="contato__item__label">Horários</div>
+              <p style="margin:0;">Conforme agenda disponível — entre em contato para verificar horários</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="contato__mapa">
+          <!-- TODO: substituir pelo embed real do Google Maps com endereço do espaço -->
+          <!-- Se não houver endereço fixo público, manter o placeholder abaixo -->
+          <div class="contato__mapa-placeholder">
+            <p style="font-size:2rem;margin-bottom:8px;">🗺️</p>
+            <p>Localização em Cuiabá, MT</p>
+            <p style="margin-top:8px;font-size:.75rem;">
+              <!-- TODO: substituir pelo iframe do Google Maps -->
+              <em>Endereço compartilhado após agendamento</em>
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ─────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__logo">
+          <img src="img/logo.png" alt="Logo Refúgio dos 4 Elementos" onerror="this.style.display='none'">
+          <span class="footer__nome">Refúgio dos 4 Elementos</span>
+        </div>
+        <div class="footer__social">
+          <!-- TODO: substituir pelos links reais -->
+          <a href="https://instagram.com/refugio4elementos" aria-label="Instagram" target="_blank" rel="noopener">📸</a>
+          <a href="https://wa.me/5565999999999" aria-label="WhatsApp" target="_blank" rel="noopener">💬</a>
+          <a href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noopener">👤</a>
+        </div>
+        <p class="footer__copy">
+          &copy; 2026 Refúgio dos 4 Elementos · Desenvolvido por <a href="https://agenciarecria.com.br" style="opacity:.8;">RECRIA Marketing</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
