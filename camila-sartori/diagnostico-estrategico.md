@@ -14,7 +14,7 @@ Não aplicável — questionário respondido por uma única fonte (RECRIA, relat
 ## 3. Forças
 - Já tem um curso estruturado, com 5 módulos, bônus e site de vendas existente — não é preciso criar produto do zero, só reposicionar e reativar.
 - Fundamentação técnica sólida: terapia do esquema e TCC são abordagens reconhecidas, o que dá credibilidade e profundidade à comunicação (diferencial frente a conteúdo de autoajuda genérico).
-- Já tem prova social real: depoimentos em vídeo de alunas (ex: Rosângela, Salvador/BA; Helena, Porto Alegre/RS) mencionando resultado concreto ("curso divisor de águas").
+- Já tem prova social real com fonte verificável: depoimento em vídeo da aluna Rosângela (Salvador/BA), com link do YouTube, mencionando resultado concreto ("imersão em si mesma, vira a chave em todas as áreas da vida"). Outros depoimentos do site antigo sem link/fonte real não devem ser reaproveitados (ver [[feedback-nao-fabricar-prova-social]]).
 - Preço de entrada acessível (R$297, parcelável em 12x) frente ao valor percebido (mentoria individual, lives e ebook como bônus).
 - Já tem audiência mínima em atendimento clínico que pode ser convertida em audiência de conteúdo/curso.
 
