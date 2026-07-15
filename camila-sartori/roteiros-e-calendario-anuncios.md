@@ -1,74 +1,170 @@
-# Roteiros de Vídeo para Anúncio + Calendário de Rotação — Jornada AME-SE
+# Roteiros de Vídeo para Anúncio e Vídeos de Feed da Jornada AME-SE
 **Camila Sartori • gravação prevista na semana de 13 a 19/07/2026, para rodar a partir de 20/07**
 
 ## Como gravar
-5 vídeos falados direto pra câmera pela Camila, **até 2 minutos cada**, formato vertical (9:16) — funcionam em Stories e Reels ads, e o mesmo vídeo pode ser reaproveitado depois em anúncio de Feed. Cada um parte de uma dor bem específica e concreta (não uma dor genérica), liga essa dor a um padrão que a terapia do esquema e a TCC explicam, mostra o desejo do outro lado, e só depois apresenta a Camila e o curso. Todos terminam com o mesmo CTA verbal: **"Pra conhecer mais sobre o curso, clique no botão que vai aparecer na sua tela."** — não falar "link na bio", porque esse mesmo vídeo pode rodar em formatos que não têm bio (Feed, por exemplo).
+8 vídeos falados direto para a câmera pela Camila, formato vertical (9:16): 5 para anúncio pago (até 2 minutos cada) e 3 para o Feed orgânico, com CTA de comentário para ativar a automação Youze. Cada roteiro parte de uma dor específica e concreta, liga essa dor a um padrão explicado pela terapia do esquema e pela TCC, mostra o desejo do outro lado, e só depois apresenta a Camila.
 
-**Importante sobre a credencial:** é **"mais de três mil horas de atendimento"**, não "três mil atendimentos" — a Camila pediu pra reforçar essa correção em todos os materiais.
+**Sobre a credencial:** sempre "mais de três mil horas de atendimento", nunca "três mil atendimentos".
+
+**Sobre falar do curso:** nos Anúncios 1 e 2, manter o mistério (fala em "um passo a passo", sem citar "curso"). Nos Anúncios 3, 4 e 5, pode falar abertamente que é um curso.
+
+**Sobre o cenário de gravação:** nada aqui está escrito em pedra, são só sugestões para testar se o público dela responde melhor a vídeo parado ou em movimento. Se a Camila não conseguir seguir à risca, pode gravar sentada ou em pé, do jeito que for mais prático naquele momento, desde que tenha boa iluminação e bom áudio.
 
 ---
 
-## Anúncio 1 — Ciúme e relacionamentos que não duram
-**Dor:** apego inseguro, ciúme, relacionamentos que terminam por causa disso.
+## Anúncio 1: Ciúme e relacionamentos que não duram
+**Cenário sugerido:** sentada em uma poltrona do consultório, olhando direto para a câmera, mãos apoiadas no colo. Tom mais intimista, quase uma conversa em consultório.
 
-> "Você já perdeu um relacionamento por causa do ciúme e continua sem entender por quê? Você sente que ama demais, mas na verdade vive controlando, cobrando, se sentindo insegura o tempo todo, com medo de ser abandonada de novo? Isso não é 'amar demais'. Isso tem nome: é um padrão de apego que se formou muito antes desse relacionamento, provavelmente na sua infância. E ele vai continuar se repetindo, com pessoas diferentes, até você entender de onde ele vem.
+**Roteiro:**
+> "Você ama muito o seu parceiro, mas na prática se pega controlando, cobrando, se sentindo insegura o tempo todo, com medo de ser abandonada? Isso não é 'amar demais'. Isso tem nome: é um padrão de apego que pode ter se formado muito antes desse relacionamento, provavelmente na sua infância. E se você não analisar e concluir esse padrão, ele poderá continuar se repetindo, com pessoas diferentes, até você entender de onde ele vem. E chega de términos por conta disso, né?
 >
-> Imagina se relacionar sem esse aperto no peito. Confiar sem precisar controlar. Ficar sozinha sem se sentir desesperada. Isso é possível.
+> Agora, imagine se relacionar sem esse aperto no peito. Confiar sem precisar controlar. Ficar sozinha sem se sentir desesperada. Isso é possível.
 >
-> Eu sou psicóloga desde 2018, já são mais de três mil horas de atendimento, e criei a Jornada AME-SE com tudo que eu aplico na prática clínica, baseado em terapia do esquema e terapia cognitivo-comportamental, pra te ajudar a entender e quebrar esse padrão.
+> Muito prazer, me chamo Camila Sartori, psicóloga desde 2018, com mais de três mil horas de atendimento. Com base em toda experiência que adquiri nesses quase 10 anos de profissão, desenvolvi um passo a passo com tudo que eu aplico na prática clínica, baseado em terapia do esquema e terapia cognitivo-comportamental, para ajudar mulheres como você a entender e quebrar esse padrão.
 >
-> Pra conhecer mais sobre o curso, clique no botão que vai aparecer na sua tela."
+> Para saber mais, toque no botão que vai aparecer na sua tela."
 
-## Anúncio 2 — Solidão e medo de se conectar
-**Dor:** se afastar/sabotar relações antes de ser machucada, terminar sempre sozinha.
+**Legenda:** Ciúme não é sinônimo de amor. Entenda de onde vem esse padrão e como quebrá-lo. Toque no botão para saber mais.
 
+---
+
+## Anúncio 2: Solidão e medo de se conectar
+**Cenário sugerido:** caminhando devagar por um corredor da clínica, olhando para a câmera enquanto anda.
+
+**Roteiro:**
 > "Você sente que não consegue se relacionar de verdade com ninguém? Que ou você se afasta primeiro, ou some, ou sabota antes que a outra pessoa possa te machucar? E no fim, fica sozinha, se perguntando o que tem de errado com você?
 >
-> Não tem nada de errado com você. Isso é um mecanismo de proteção que você aprendeu a usar em algum momento da sua vida, provavelmente porque alguém que deveria cuidar de você, não cuidou do jeito que você precisava. E esse mecanismo, hoje, tá te afastando exatamente do que você mais quer: se sentir segura pra amar e ser amada.
+> Não tem nada de errado com você. Isso é um mecanismo de proteção que você aprendeu a usar em algum momento da sua vida, provavelmente porque alguém que deveria cuidar de você não cuidou do jeito que você precisava. E esse mecanismo, hoje, está te afastando exatamente do que você mais quer: se sentir segura para amar e ser amada.
 >
-> Eu sou psicóloga desde 2018, com mais de três mil horas de atendimento, e criei a Jornada AME-SE baseada em terapia do esquema e terapia cognitivo-comportamental, pra te ajudar a entender essa raiz e conseguir se abrir de verdade.
+> Muito prazer, me chamo Camila Sartori, psicóloga desde 2018, com mais de três mil horas de atendimento. Com base em toda experiência que adquiri nesses quase 10 anos de profissão, desenvolvi um passo a passo baseado em terapia do esquema e terapia cognitivo-comportamental, para te ajudar a entender essa raiz e conseguir se abrir de verdade.
 >
-> Pra conhecer mais sobre o curso, clique no botão que vai aparecer na sua tela."
+> Para saber mais, toque no botão que vai aparecer na sua tela."
 
-## Anúncio 3 — Autocrítica e sensação de insuficiência
-**Dor:** se cobrar demais, nunca sentir que é o bastante, mesmo fazendo tudo certo.
-
-> "Você já fez tudo certo e mesmo assim sentiu que não foi suficiente? Já se cobrou tanto que no fim do dia só sobrou cansaço e a sensação de estar sempre devendo alguma coisa pra alguém, ou pra você mesma?
->
-> Essa voz que te diz que você não é boa o bastante não é a verdade, é uma crença limitante, formada muito antes de você conseguir escolher outra coisa. E ela pode ser desconstruída. Imagina terminar o dia sem esse peso. Se olhar no espelho e sentir orgulho, não cobrança.
->
-> Eu sou psicóloga desde 2018, com mais de três mil horas de atendimento, e criei a Jornada AME-SE, baseada em terapia do esquema e terapia cognitivo-comportamental, pra te ajudar a identificar e transformar essa autocrítica em autoconfiança de verdade.
->
-> Pra conhecer mais sobre o curso, clique no botão que vai aparecer na sua tela."
-
-## Anúncio 4 — Anulação de si mesma / dificuldade de dizer não
-**Dor:** colocar todo mundo na frente, dizer sim quando queria dizer não, se perder de vista.
-
-> "Quantas vezes você disse sim quando queria dizer não, só pra não desapontar alguém? Quantas vezes você colocou todo mundo na frente e esqueceu de perguntar o que você realmente queria?
->
-> Se anular não é ser gentil, é um padrão que você aprendeu, e que tá te afastando de uma vida que realmente é sua. Imagina conseguir dizer não sem culpa. Colocar seus limites e continuar sendo amada mesmo assim. Isso é possível, e começa com autoconhecimento.
->
-> Eu sou psicóloga desde 2018, com mais de três mil horas de atendimento, e criei a Jornada AME-SE, baseada em terapia do esquema e terapia cognitivo-comportamental, pra te ajudar a construir limites saudáveis sem culpa.
->
-> Pra conhecer mais sobre o curso, clique no botão que vai aparecer na sua tela."
-
-## Anúncio 5 — Padrões repetidos / origem na infância
-**Dor:** repetir o mesmo erro em relacionamentos diferentes, sem entender por quê. (Ângulo de mais autoridade.)
-
-> "Você percebe que sempre repete o mesmo tipo de erro nos relacionamentos, mesmo trocando de parceiro, de emprego, de cidade? Isso não é falta de sorte. Padrões se repetem porque eles nascem de crenças formadas na infância, muitas vezes antes mesmo de você conseguir colocar em palavras o que estava sentindo. E enquanto você não entende essa origem, o padrão continua se repetindo.
->
-> Eu sou psicóloga formada desde 2018, com mais de três mil horas de atendimento clínico, e trabalho com terapia do esquema exatamente pra isso: encontrar a raiz e mudar o padrão de verdade, não só o sintoma. Criei a Jornada AME-SE com tudo que aplico na prática clínica, unindo terapia do esquema e terapia cognitivo-comportamental.
->
-> Pra conhecer mais sobre o curso, clique no botão que vai aparecer na sua tela."
+**Legenda:** Se afastar antes de ser machucada também é uma forma de sofrer sozinha. Toque no botão para saber mais.
 
 ---
 
-## Calendário de rotação (verba R$15/dia, só Instagram)
+## Anúncio 3: Autocrítica e sensação de insuficiência
+**Cenário sugerido:** em pé, encostada em uma estante de livros ou perto da janela, com boa luz natural.
+
+**Roteiro:**
+> "Você já fez tudo certo e mesmo assim sentiu que não foi suficiente? Já se cobrou tanto que no fim do dia só sobrou cansaço e a sensação de estar sempre devendo alguma coisa para alguém, ou para você mesma?
+>
+> Essa voz que te diz que você não é boa o bastante não é verdade. É uma crença limitante, e ela pode ser desconstruída.
+>
+> Imagine terminar o dia sem esse peso, se olhar no espelho e sentir orgulho, e não cobrança.
+>
+> Muito prazer, me chamo Camila Sartori, psicóloga desde 2018, com mais de três mil horas de atendimento. Com base em toda a experiência que adquiri nesses quase dez anos de profissão, desenvolvi um curso, baseado também na terapia do esquema e terapia cognitivo-comportamental, para te ajudar a identificar e transformar a autocrítica em autoconfiança de verdade.
+>
+> Para saber mais, toque no botão que vai aparecer na sua tela."
+
+**Legenda:** Você não precisa se cobrar tanto para merecer se sentir bem. Toque no botão e conheça o curso.
+
+---
+
+## Anúncio 4: Anulação de si mesma, dificuldade de dizer não
+**Cenário sugerido:** sentada à mesa do consultório, talvez com uma caneta ou caderno nas mãos enquanto fala.
+
+**Roteiro:**
+> "Mulher, toda vez que você diz sim para todo mundo, é mais um não que está dizendo para si mesma.
+>
+> Quantas vezes você disse sim quando queria dizer não, só para não desapontar alguém? Quantas vezes você colocou todo mundo na frente e esqueceu de se perguntar o que você realmente queria naquele momento?
+>
+> Se anular não é ser gentil, é um padrão que você aprendeu, e que está te afastando de uma vida que realmente é sua.
+>
+> Agora, imagine conseguir dizer não sem culpa, colocando seus limites, e continuar sendo amada mesmo assim. Isso é possível e começa com autoconhecimento.
+>
+> Muito prazer, me chamo Camila Sartori, psicóloga desde 2018, com mais de três mil horas de atendimento. Com base em toda a minha experiência, e também na terapia do esquema e terapia cognitivo-comportamental, eu desenvolvi um curso para ajudar pessoas como você a construir limites saudáveis sem culpa, e assim ter mais qualidade de vida.
+>
+> Para saber mais, toque no botão que vai aparecer na sua tela."
+
+**Legenda:** Dizer sim para todo mundo pode ser dizer não para você mesma. Toque no botão e conheça o curso.
+
+---
+
+## Anúncio 5: Padrões repetidos
+**Cenário sugerido:** em pé, caminhando lentamente em direção à câmera, como se estivesse chegando a uma virada.
+
+**Roteiro:**
+> "Você muda de trabalho, muda de cidade, muda de relacionamento, e mesmo assim os mesmos padrões continuam te perseguindo? Parece que, mesmo mudando o cenário e as pessoas ao redor, a mesma situação se repete, de novo, e de novo?
+>
+> Isso não é falta de sorte. Esse tipo de repetição nasce de crenças muitas vezes formadas na infância. E enquanto você não entende essa origem, o ciclo continua se repetindo.
+>
+> Muito prazer, me chamo Camila Sartori, psicóloga formada desde 2018, com mais de três mil horas de atendimento clínico. Trabalho com a terapia do esquema e terapia cognitivo-comportamental, e com base em toda a minha experiência e estudos, desenvolvi um curso para ajudar mulheres como você a encontrarem a raiz dessas crenças e comportamentos repetidos, e assim conseguirem viver relações mais saudáveis e ter mais qualidade de vida.
+>
+> Se você quiser saber mais, toque no botão que vai aparecer na sua tela."
+
+**Legenda:** Se os cenários mudam mas o problema se repete, o padrão está em você, não no acaso. Toque no botão e conheça o curso.
+
+---
+
+## Vídeos para o Feed (topo, meio e fundo de funil)
+Objetivo: parar o scroll, gerar identificação progressiva enquanto a pessoa assiste, e terminar com um comentário de palavra-chave que ativa a automação Youze, levando a conversa para o direct.
+
+### Feed A: Topo de funil (autoestima/insegurança, gancho amplo)
+**Cenário sugerido:** sentada em um sofá ou poltrona confortável do consultório, postura leve e acolhedora.
+
+**Roteiro:**
+> "Se você se pega se comparando com todo mundo, achando que todo mundo está bem menos você, esse vídeo é para você.
+>
+> A gente acha que insegurança é só não gostar do corpo ou não saber se vestir, mas na verdade ela aparece em coisas muito mais silenciosas: no jeito que você aceita qualquer tratamento numa relação, no jeito que você nunca acha que está pronta o suficiente para pedir um aumento, no jeito que você sempre coloca a opinião dos outros na frente da sua.
+>
+> Se isso faz sentido para você, saiba que não é frescura, e não é definitivo. Existe um caminho para entender de onde isso vem e mudar essa história.
+>
+> Eu sou Camila Sartori, psicóloga, e trabalho todos os dias ajudando mulheres a construir mais confiança e autoestima de verdade.
+>
+> Comente: 'CONFIANÇA' e olha o que eu vou te enviar no seu direct."
+
+**Legenda:** Insegurança aparece de formas que você nem percebe. Comente CONFIANÇA e vem comigo entender mais.
+
+### Feed B: Meio de funil (ciúme/apego)
+**Cenário sugerido:** em pé, perto de uma janela ou planta, tom mais próximo e confidencial.
+
+**Roteiro:**
+> "Você já ficou horas analisando as mensagens ou story de alguém, tentando entender uma coisa que talvez só existisse na sua cabeça?
+>
+> Ciúme demais não é sinônimo de amor, e sim de insegurança. E o problema é que, sem entender de onde vem esse padrão, ele se repete com pessoas diferentes e relações diferentes.
+>
+> A boa notícia é que dá para entender a raiz disso, e parar de reviver a mesma dor, quebrando esses padrões.
+>
+> Eu sou Camila Sartori, psicóloga, e trabalho com terapia do esquema e TCC, exatamente para ajudar mulheres a entenderem e quebrar esses padrões.
+>
+> Comente 'CIÚME' e olha o que eu vou te enviar no seu direct, garanto que você vai adorar."
+
+**Legenda:** Ciúme em excesso fala mais sobre insegurança do que sobre amor. Comente CIÚME e olha o que vou te mandar.
+
+### Feed C: Fundo de funil (relacionamentos, "ficante virou namorado")
+**Cenário sugerido:** caminhando pelo corredor ou em pé em um ambiente mais aberto da clínica, energia mais viva.
+
+**Roteiro:**
+> "Toda mulher quer um relacionamento que funcione, com um parceiro presente, funcional, que a valorize de verdade, não é mesmo?
+>
+> Porém, muitas dessas mulheres já tratam ficante logo de cara como namorado, ou começam a cobrar por insegurança antes mesmo de que algo se torne um relacionamento de verdade. E quando vai perceber, está sozinha de novo.
+>
+> E aí vêm alguns pensamentos: que nenhum homem no mundo presta, que quem casou, casou, que o jeito é ficar sozinha mesmo, ou até o tal do celibato forçado.
+>
+> Mas o que muitas mulheres não refletem é que, na maioria das vezes, tem um padrão por trás que está regendo a forma como ela está lidando com isso. Seja a dificuldade de se posicionar, o medo de deixar claro que gostaria de um compromisso, ou até mesmo as escolhas de sempre acabar se relacionando com pessoas emocionalmente indisponíveis.
+>
+> Quando você entende qual é esse padrão por trás, que te faz se manter no mesmo erro nos seus relacionamentos, repetindo sempre o mesmo cenário, você percebe que provavelmente é algo que você absorveu inconscientemente em algum momento da sua vida, como na infância, por exemplo.
+>
+> Mas é possível mudar esse padrão, e aprender a escolher pessoas emocionalmente disponíveis. E sim, gente, ainda existe homem para relacionamento sério nesse mundo.
+>
+> Eu sou Camila Sartori, psicóloga, e ajudo mulheres a entenderem esses padrões para terem relacionamentos mais saudáveis e duradouros.
+>
+> Se você passa por algum desses padrões e quer, de uma vez por todas, construir relacionamentos que sejam realmente satisfatórios, comente 'RELACIONAMENTO' e olha o que eu vou te enviar no seu direct."
+
+**Legenda:** Nem sempre é falta de sorte, às vezes é um padrão se repetindo. Comente RELACIONAMENTO e olha o que vou te mandar.
+
+---
+
+## Calendário de anúncios (verba R$15/dia, só Instagram)
 
 | Período | Anúncios ativos | O que observar |
 |---|---|---|
 | 20/07 a 02/08 (2 semanas) | Anúncio 1 (ciúme/relacionamentos) + Anúncio 2 (solidão) | Os dois ganchos de dor mais fortes primeiro. Rodar simultaneamente, dividindo a verba, e comparar custo por clique e por venda. |
 | 03/08 a 16/08 (2 semanas) | Manter o vencedor da dupla anterior + Anúncio 3 (autocrítica/insuficiência) | Trocar o anúncio de pior desempenho pelo novo, manter o de melhor desempenho rodando. |
-| 17/08 a 30/08 (2 semanas) | Manter o melhor até aqui + testar Anúncio 4 (anulação/dizer não) ou Anúncio 5 (padrões/origem), o que ainda não foi testado | Nessa altura já deve dar pra visualizar qual dor converte melhor pro público dela, e isso orienta os próximos anúncios quando a verba aumentar. |
+| 17/08 a 30/08 (2 semanas) | Manter o melhor até aqui + testar Anúncio 4 (anulação/dizer não) ou Anúncio 5 (padrões repetidos), o que ainda não foi testado | Nessa altura já deve dar para visualizar qual dor converte melhor para o público dela, e isso orienta os próximos anúncios quando a verba aumentar. |
 
-**Regra geral:** nunca rodar mais de 2 anúncios simultâneos com R$15/dia — verba dividida entre muitos criativos não gera dado suficiente pra decidir nada. Assim que a verba subir, dá pra testar 3-4 ao mesmo tempo.
+**Regra geral:** nunca rodar mais de 2 anúncios simultâneos com R$15/dia. Verba dividida entre muitos criativos não gera dado suficiente para decidir nada. Assim que a verba subir, dá para testar 3-4 ao mesmo tempo.
+
+Os 3 vídeos de Feed não entram nessa verba paga: são conteúdo orgânico, podem ser publicados ao longo das mesmas semanas, espaçados entre si, para não competir por atenção com os reels do calendário de Instagram.
