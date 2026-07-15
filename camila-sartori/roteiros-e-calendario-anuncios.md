@@ -58,7 +58,7 @@
 >
 > Para saber mais, toque no botão que vai aparecer na sua tela."
 
-**Legenda:** Você não precisa se cobrar tanto para merecer se sentir bem. Toque no botão e conheça o curso.
+**Legenda:** Você não precisa se cobrar tanto para merecer se sentir bem. Se quer transformar essa autocrítica em autoconfiança de verdade, toque no botão para saber mais.
 
 ---
 
@@ -78,7 +78,7 @@
 >
 > Para saber mais, toque no botão que vai aparecer na sua tela."
 
-**Legenda:** Dizer sim para todo mundo pode ser dizer não para você mesma. Toque no botão e conheça o curso.
+**Legenda:** Dizer sim para todo mundo pode ser dizer não para você mesma. Se você quer aprender a colocar limites sem culpa, de uma vez por todas, toque no botão para saber mais.
 
 ---
 
@@ -94,7 +94,7 @@
 >
 > Se você quiser saber mais, toque no botão que vai aparecer na sua tela."
 
-**Legenda:** Se os cenários mudam mas o problema se repete, o padrão está em você, não no acaso. Toque no botão e conheça o curso.
+**Legenda:** Se os cenários mudam mas o problema se repete, o padrão está em você, não no acaso. Se você quer entender essa raiz e parar de repetir a mesma história, toque no botão para saber mais.
 
 ---
 
@@ -113,9 +113,9 @@ Objetivo: parar o scroll, gerar identificação progressiva enquanto a pessoa as
 >
 > Eu sou Camila Sartori, psicóloga, e trabalho todos os dias ajudando mulheres a construir mais confiança e autoestima de verdade.
 >
-> Comente: 'CONFIANÇA' e olha o que eu vou te enviar no seu direct."
+> Se você quer parar de se sentir insegura e finalmente confiar em você mesma, comente: 'CONFIANÇA' e olha o que eu vou te enviar no seu direct."
 
-**Legenda:** Insegurança aparece de formas que você nem percebe. Comente CONFIANÇA e vem comigo entender mais.
+**Legenda:** Insegurança aparece de formas que você nem percebe, e pode estar te travando sem você notar. Se você quer entender de onde isso vem, quebrar esse padrão e finalmente confiar em você mesma, comente: CONFIANÇA e olha o que eu vou te enviar no seu direct.
 
 ### Feed B: Meio de funil (ciúme/apego)
 **Cenário sugerido:** em pé, perto de uma janela ou planta, tom mais próximo e confidencial.
@@ -129,9 +129,9 @@ Objetivo: parar o scroll, gerar identificação progressiva enquanto a pessoa as
 >
 > Eu sou Camila Sartori, psicóloga, e trabalho com terapia do esquema e TCC, exatamente para ajudar mulheres a entenderem e quebrar esses padrões.
 >
-> Comente 'CIÚME' e olha o que eu vou te enviar no seu direct, garanto que você vai adorar."
+> Se você quer parar de sofrer com ciúme e aprender a ser mais segura de si, comente 'CIÚME' e olha o que eu vou te enviar no seu direct, garanto que você vai adorar."
 
-**Legenda:** Ciúme em excesso fala mais sobre insegurança do que sobre amor. Comente CIÚME e olha o que vou te mandar.
+**Legenda:** Ciúme em excesso fala mais sobre insegurança do que sobre amor, e pode estar destruindo seus relacionamentos sem você perceber. Se você quer entender essa raiz, parar de reviver a mesma dor, e se sentir mais segura e confiante, comente: CIÚME e olha o que eu vou te enviar no seu direct.
 
 ### Feed C: Fundo de funil (relacionamentos, "ficante virou namorado")
 **Cenário sugerido:** caminhando pelo corredor ou em pé em um ambiente mais aberto da clínica, energia mais viva.
