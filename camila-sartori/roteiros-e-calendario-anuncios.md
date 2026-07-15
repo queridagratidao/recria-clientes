@@ -159,12 +159,16 @@ Objetivo: parar o scroll, gerar identificação progressiva enquanto a pessoa as
 
 ## Calendário de anúncios (verba R$15/dia, só Instagram)
 
-| Período | Anúncios ativos | O que observar |
-|---|---|---|
-| 20/07 a 02/08 (2 semanas) | Anúncio 1 (ciúme/relacionamentos) + Anúncio 2 (solidão) | Os dois ganchos de dor mais fortes primeiro. Rodar simultaneamente, dividindo a verba, e comparar custo por clique e por venda. |
-| 03/08 a 16/08 (2 semanas) | Manter o vencedor da dupla anterior + Anúncio 3 (autocrítica/insuficiência) | Trocar o anúncio de pior desempenho pelo novo, manter o de melhor desempenho rodando. |
-| 17/08 a 30/08 (2 semanas) | Manter o melhor até aqui + testar Anúncio 4 (anulação/dizer não) ou Anúncio 5 (padrões repetidos), o que ainda não foi testado | Nessa altura já deve dar para visualizar qual dor converte melhor para o público dela, e isso orienta os próximos anúncios quando a verba aumentar. |
+Desde a primeira semana, sempre 1 vídeo de venda direta + 1 vídeo de engajamento rodando ao mesmo tempo, ambos pagos, para comparar o custo por venda dos dois caminhos: vender direto (toque no botão) ou vender via automação de comentário (comenta e recebe DM). Cada dupla usa o mesmo tema dos dois lados, para isolar a variável do funil e não misturar tema com formato na comparação.
 
-**Regra geral:** nunca rodar mais de 2 anúncios simultâneos com R$15/dia. Verba dividida entre muitos criativos não gera dado suficiente para decidir nada. Assim que a verba subir, dá para testar 3-4 ao mesmo tempo.
+| Período | Venda direta | Engajamento | Tema em comum |
+|---|---|---|---|
+| Semana 1-2 (20/07 a 02/08) | Anúncio 1 | Feed B | Ciúme e relacionamentos |
+| Semana 3-4 (03/08 a 16/08) | Anúncio 3 | Feed A | Autocrítica e autoestima |
+| Semana 5-6 (17/08 a 30/08) | Anúncio 5 | Feed C | Padrões repetidos e relacionamentos |
 
-Os 3 vídeos de Feed não entram nessa verba paga: são conteúdo orgânico, podem ser publicados ao longo das mesmas semanas, espaçados entre si, para não competir por atenção com os reels do calendário de Instagram.
+Essa programação usa os Anúncios 1, 3 e 5 (venda direta) e os três vídeos de Feed (engajamento) dentro dessas 6 semanas. Os Anúncios 2 e 4 ficam de reserva, prontos para entrar quando a verba aumentar ou se algum par performar mal e precisar de substituto no meio do caminho.
+
+**Regra geral:** nunca rodar mais de 2 anúncios simultâneos com R$15/dia. Verba dividida entre muitos criativos não gera dado suficiente para decidir nada. Assim que a verba subir, dá para testar mais pares ao mesmo tempo.
+
+Rodar os vídeos de Feed também como anúncio pago (não só orgânico) ajuda em outro ponto do diagnóstico: a automação Youze só funciona bem com tráfego pago rodando, e assim ela já tem volume alimentando ela desde a semana 1.
