@@ -75,7 +75,7 @@ def month_title(text):
     p = doc.add_paragraph()
     p.paragraph_format.space_before = Pt(4)
     p.paragraph_format.space_after = Pt(14)
-    add_run(p, text, bold=True, color=NAVY, size=20)
+    add_run(p, text, bold=True, color=NAVY, size=15)
 
 def week_bar(text):
     t = doc.add_table(rows=1, cols=1)
@@ -168,8 +168,9 @@ def field_p(cell, label, text, color=None, size=10, italic=False, emoji=None):
     add_run(p, text, size=size, color=color, italic=italic)
 
 def post_card(time, channel, tipo, formato, headline, subheadline, cta,
-              legenda, ancoragem=None, persona=None, hashtags=None, origem=None,
-              cards=None, card_final=None, observacao=None, cenario=None):
+              legenda=None, ancoragem=None, persona=None, hashtags=None, origem=None,
+              cards=None, card_final=None, observacao=None, cenario=None,
+              label_legenda="LEGENDA:", acoes=None):
     cell = begin_post_box(time, channel, tipo)
 
     if origem:
@@ -197,7 +198,11 @@ def post_card(time, channel, tipo, formato, headline, subheadline, cta,
             field_p(cell, "SUBHEADLINE:", subheadline, size=9.5)
         if cta:
             field_p(cell, "CTA:", cta, color=ORANGE, size=9.5)
-        field_p(cell, "LEGENDA:", legenda, size=9.5)
+        if acoes:
+            for i, a in enumerate(acoes, start=1):
+                card_paragraph(cell, "AÇÃO %d — %s" % (i, a['label']), [(None, a['texto'])])
+        elif legenda:
+            field_p(cell, label_legenda, legenda, size=9.5)
 
     if hashtags:
         field_p(cell, "HASHTAGS:", hashtags, color=GRAY, size=8.5)

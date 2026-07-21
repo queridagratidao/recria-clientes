@@ -99,8 +99,9 @@ def meta_bar(time, channel, tipo, accent):
     return t
 
 def post_card(time, channel, tipo, formato, headline, subheadline, cta,
-              legenda, ancoragem=None, persona=None, hashtags=None, origem=None,
-              cards=None, card_final=None, observacao=None, cenario=None):
+              legenda=None, ancoragem=None, persona=None, hashtags=None, origem=None,
+              cards=None, card_final=None, observacao=None, cenario=None,
+              label_legenda="LEGENDA:", acoes=None):
     """Returns a LIST of flowables for one post (not a single monolithic table), so
     long carrosséis can break across pages instead of overflowing a single table cell."""
     accent = CH_COLOR.get(channel, NAVY)
@@ -136,7 +137,13 @@ def post_card(time, channel, tipo, formato, headline, subheadline, cta,
             body_flow.append(P("**SUBHEADLINE:** " + subheadline, fontSize=9.3, leading=12.5, spaceAfter=4, **indent))
         if cta:
             body_flow.append(P("**CTA:** " + cta, fontSize=9, textColor=ORANGE, spaceAfter=5, **indent))
-        body_flow.append(P("**LEGENDA:** " + legenda, fontSize=9, leading=12.8, spaceAfter=5, **indent))
+        if acoes:
+            for i, a in enumerate(acoes, start=1):
+                label = "AÇÃO %d — %s" % (i, a['label'])
+                body_flow.append(_card_box(label, [P(a['texto'], fontSize=9, leading=12.3)], label_color=colors.HexColor('#666666')))
+                body_flow.append(Spacer(1, 0.1*cm))
+        elif legenda:
+            body_flow.append(P("**" + label_legenda + "** " + legenda, fontSize=9, leading=12.8, spaceAfter=5, **indent))
 
     if hashtags:
         body_flow.append(P("**HASHTAGS:** " + hashtags, fontSize=8.2, textColor=colors.HexColor('#666666'), spaceAfter=4, **indent))
