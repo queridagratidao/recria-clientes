@@ -40,7 +40,7 @@ add_day("07/08 (SEX), Repost — texto pronto para copiar e colar no grupo", [
              dict(label="Texto de chamada (enviar antes do repost)",
                   texto="Mulheres, vocês já refizeram um texto várias vezes antes de enviar, mesmo já estando bom? Pode ser mais do que cuidado. Eu preparei um carrossel especial sobre isso, no post de hoje, no link abaixo 👇🏻"),
              dict(label="Repost do Instagram",
-                  texto='Repostar o carrossel de 07/08, com a mesma arte e legenda do Instagram: "Marca SIM ou NÃO. Se bater 3 ou mais, isso também é sobre você."'),
+                  texto='Repostar o carrossel de 07/08, com a mesma arte e legenda do Instagram: "Ela terminou o projeto duas semanas antes do prazo. Revisado três vezes. E mesmo assim, não conseguiu comemorar."'),
          ]),
 ])
 
@@ -112,7 +112,7 @@ add_day("21/08 (SEX), Repost — texto pronto para copiar e colar no grupo", [
              dict(label="Texto de chamada (enviar antes do repost)",
                   texto="Mulheres, os seus últimos relacionamentos parecem versões diferentes do mesmo problema? Preparei um carrossel sobre isso, no post de hoje, no link abaixo 👇🏻"),
              dict(label="Repost do Instagram",
-                  texto='Repostar o carrossel de 21/08, com a mesma arte e legenda do Instagram: "Marca SIM ou NÃO. Se bater 3 ou mais, talvez você repita mais do que imagina."'),
+                  texto='Repostar o carrossel de 21/08, com a mesma arte e legenda do Instagram: "Era o terceiro relacionamento em dois anos que terminava do mesmo jeito. Cenário diferente, pessoa diferente, final idêntico."'),
          ]),
 ])
 
