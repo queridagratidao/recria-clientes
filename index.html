@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jornada AME-SE | Camila Sartori</title>
+<title>Comunidade AME-SE | Camila Sartori</title>
 <meta name="description" content="Curso online de autoconhecimento e autoestima para mulheres, com base em terapia do esquema e terapia cognitivo-comportamental.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Nunito:ital,wght@0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
@@ -190,10 +190,26 @@
   }
   .aviso-terapia b{color:var(--magenta-escuro);}
 
+  /* CARROSSEL (arrastar pro lado) */
+  .carrossel{
+    display:flex;gap:22px;overflow-x:auto;scroll-snap-type:x mandatory;
+    padding:6px 4px 22px;margin:0 -4px;cursor:grab;
+    scrollbar-width:thin;scrollbar-color:var(--magenta) var(--rosa-bonus);
+    -webkit-overflow-scrolling:touch;
+  }
+  .carrossel.dragging{cursor:grabbing;scroll-snap-type:none;user-select:none;}
+  .carrossel::-webkit-scrollbar{height:8px;}
+  .carrossel::-webkit-scrollbar-track{background:var(--rosa-bonus);border-radius:4px;}
+  .carrossel::-webkit-scrollbar-thumb{background:var(--magenta);border-radius:4px;}
+  .carrossel-dica{text-align:center;font-size:.82rem;color:var(--texto-claro);margin-top:-10px;margin-bottom:8px;}
+
   /* MODULOS */
   .modulos{background:linear-gradient(180deg,#fdeef8,#fbdaf0);}
-  .modulos h2{text-align:center;text-decoration:underline;color:var(--magenta-escuro);margin-bottom:40px;font-style:italic;}
-  .modulo{text-align:center;max-width:640px;margin:0 auto 34px;}
+  .modulos h2{text-align:center;text-decoration:underline;color:var(--magenta-escuro);margin-bottom:24px;font-style:italic;}
+  .modulo{
+    text-align:center;flex:0 0 260px;scroll-snap-align:start;
+    background:#fff;border-radius:14px;padding:26px 22px;box-shadow:0 6px 18px rgba(90,16,66,.08);
+  }
   .modulo .tag{
     display:inline-block;background:var(--magenta-escuro);color:#fff;font-weight:700;
     padding:6px 16px;border-radius:2px;margin-bottom:4px;font-family:'Quicksand',sans-serif;
@@ -203,15 +219,16 @@
   /* BONUS */
   .bonus{background:#f8f2fa;}
   .bonus > .container > h2{text-align:center;margin-bottom:8px;color:var(--magenta);}
-  .bonus > .container > p.sub{text-align:center;color:var(--texto-claro);margin-bottom:36px;}
+  .bonus > .container > p.sub{text-align:center;color:var(--texto-claro);margin-bottom:24px;}
   .bonus-card{
-    background:var(--rosa-bonus);border-radius:10px;padding:22px 26px;margin-bottom:20px;
+    background:var(--rosa-bonus);border-radius:10px;padding:22px 26px;
+    flex:0 0 260px;scroll-snap-align:start;
   }
   .bonus-card .num{font-weight:700;color:var(--magenta-escuro);font-family:'Quicksand',sans-serif;}
   .bonus-card .titulo{display:block;font-weight:700;color:var(--magenta-escuro);margin:2px 0 10px;font-family:'Quicksand',sans-serif;font-size:1.05rem;}
   .bonus-card .preco{margin-top:10px;font-weight:700;color:var(--magenta-escuro);}
   .bonus-card .de{text-decoration:line-through;opacity:.6;font-weight:400;}
-  .bonus-total{text-align:center;margin-top:30px;}
+  .bonus-total{text-align:center;margin-top:10px;}
   .bonus-total .valor{font-size:1.3rem;font-weight:700;color:var(--magenta-escuro);font-family:'Quicksand',sans-serif;}
 
   /* PRECO */
@@ -247,11 +264,22 @@
   .faq{background:#efe3ed;}
   .faq h2{text-align:center;color:var(--magenta-escuro);margin-bottom:34px;}
   .faq-item{
-    background:var(--rosa-bonus);border-radius:6px;padding:20px 24px;margin-bottom:16px;
-    border-left:4px solid var(--magenta);
+    background:var(--rosa-bonus);border-radius:6px;margin-bottom:16px;
+    border-left:4px solid var(--magenta);overflow:hidden;
   }
-  .faq-item .pergunta{font-weight:700;color:var(--magenta-escuro);margin-bottom:8px;font-size:.92rem;letter-spacing:.02em;}
-  .faq-item .resposta{font-size:.96rem;}
+  .faq-item .pergunta{
+    width:100%;text-align:left;background:none;border:none;cursor:pointer;
+    font-weight:700;color:var(--magenta-escuro);font-size:.92rem;letter-spacing:.02em;
+    font-family:'Nunito',sans-serif;padding:20px 24px;
+    display:flex;justify-content:space-between;align-items:center;gap:14px;
+  }
+  .faq-item .faq-icone{font-size:1.3rem;font-weight:700;color:var(--magenta);flex-shrink:0;transition:transform .2s ease;}
+  .faq-item.aberta .faq-icone{transform:rotate(45deg);}
+  .faq-item .resposta{
+    font-size:.96rem;max-height:0;overflow:hidden;padding:0 24px;
+    transition:max-height .3s ease, padding .3s ease;
+  }
+  .faq-item.aberta .resposta{max-height:320px;padding:0 24px 20px;}
 
   footer{background:#fff;text-align:center;padding:40px 0;}
   footer .contato-btn{
@@ -271,17 +299,17 @@
 <section class="hero">
   <div class="container">
     <div class="logo-mark">
-      <img src="img/logo-icon.png" alt="Jornada AME-SE">
+      <img src="img/logo-icon.png" alt="Comunidade AME-SE">
     </div>
     <p class="eyebrow center">Psicóloga Camila Sartori</p>
-    <h1>Jornada AME-SE</h1>
+    <h1>Comunidade AME-SE</h1>
     <p class="subtitle">Curso online de autoconhecimento e autoestima para mulheres</p>
-    <p>Aprenda a acreditar e investir no seu potencial. Com a Jornada AME-SE, você vai entender quais são suas crenças limitantes e como superá-las, vai aprender a enfrentar os obstáculos criados a partir de vivências do passado, e vai começar a mudar o jeito que você enxerga a si mesma, ganhando mais qualidade de vida e mais autocontrole.</p>
+    <p>Aprenda a acreditar e investir no seu potencial. Com a Comunidade AME-SE, você vai entender quais são suas crenças limitantes e como superá-las, vai aprender a enfrentar os obstáculos criados a partir de vivências do passado, e vai começar a mudar o jeito que você enxerga a si mesma, ganhando mais qualidade de vida e mais autocontrole.</p>
     <p>Este curso foi construído a partir da terapia do esquema e da terapia cognitivo-comportamental, sob a minha ótica de psicóloga, com mais de três mil horas de atendimento, nos quais atuo todos os dias ajudando nessa transformação.</p>
     <p class="cta-line">Quer ter uma vida mais leve, com mais autoestima e mais confiança em você mesma?</p>
     <p class="center"><a href="https://hotmart.com/pt-br/marketplace/produtos/ame-se-8/D61607222R" target="_blank" rel="noopener">Então essa jornada é para você!</a></p>
     <div class="video-frame">
-      <iframe width="100%" height="100%" style="aspect-ratio:16/9;border:0;" src="https://www.youtube.com/embed/Oet-bhpOsfI" title="Jornada AME-SE - Apresentação" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="100%" height="100%" style="aspect-ratio:16/9;border:0;" src="https://www.youtube.com/embed/Oet-bhpOsfI" title="Comunidade AME-SE - Apresentação" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div class="cta-center"><a class="btn" href="https://hotmart.com/pt-br/marketplace/produtos/ame-se-8/D61607222R" target="_blank" rel="noopener">Quero fazer o curso</a></div>
   </div>
@@ -292,10 +320,10 @@
     <div class="foto-placeholder"><img src="img/camila-2.jpg" alt="Camila Sartori" style="width:100%;height:100%;object-fit:cover;border-radius:16px;"></div>
     <div>
       <h2>Quem estará com você nessa Jornada de autoconhecimento?</h2>
-      <p>Sou psicóloga formada pela PUC-RS desde 2018, com Mestrado em Psicologia Clínica pela mesma instituição e atualmente doutoranda em Psicologia. Realizo atendimentos clínicos para adultos e casais, fundamentados na abordagem Cognitivo-Comportamental e na Terapia do Esquema.</p>
+      <p>Sou Camila Sartori, psicóloga formada pela PUC-RS desde 2018, com Mestrado em Psicologia Clínica pela mesma instituição e atualmente doutoranda em Psicologia. Realizo atendimentos clínicos para adultos e casais, fundamentados na abordagem Cognitivo-Comportamental e na Terapia do Esquema.</p>
       <p>Os atendimentos são realizados via consultas on-line através de vídeo chamadas por plataformas digitais.</p>
-      <p>No momento não tenho mais agenda disponível, mas você pode entrar na lista de espera clicando no botão abaixo.</p>
-      <div><a class="btn" href="#lista-espera">Entrar na lista de espera</a></div>
+      <p>No momento não tenho mais agenda disponível, mas você pode entrar em contato pelo botão abaixo.</p>
+      <div><a class="btn" href="#contato-terapia">Entrar em contato</a></div>
     </div>
   </div>
 </section>
@@ -328,14 +356,15 @@
     <ol>
       <li>Autoconhecimento, com ajuda de uma <b>psicóloga que há anos trabalha com mulheres</b>;</li>
       <li>Você vai conseguir <b>identificar quais são suas crenças limitantes</b> e como modificá-las;</li>
-      <li>Vai <b>descobrir a origem</b>, muitas vezes na infância, das suas crenças limitantes;</li>
+      <li>Vai <b>descobrir a origem</b> das suas crenças limitantes, muitas vezes ligada à sua história de vida;</li>
       <li><b>Fortalecer pensamentos mais saudáveis e confiantes</b> dentro da sua mente;</li>
       <li>Fortalecer sua autoconfiança, acreditando que <b>você é capaz</b>;</li>
       <li><b>Quebrar o seu ciclo da insegurança</b> emocional;</li>
       <li><b>Fortalecer sua autoestima</b>, aprendendo a reconhecer o seu valor;</li>
       <li>Ter uma postura menos crítica consigo mesma, conseguindo <b>se amar e se aceitar mais</b>;</li>
       <li>Aprender a <b>lidar melhor com suas emoções</b>;</li>
-      <li><b>Aprender a dizer não</b> e a estabelecer limites saudáveis.</li>
+      <li><b>Aprender a dizer não</b> e a estabelecer limites saudáveis;</li>
+      <li>Desenvolver <b>relacionamentos mais saudáveis</b>, com mais confiança e menos medo de se posicionar.</li>
     </ol>
     <div class="cta-center"><a class="btn" href="https://hotmart.com/pt-br/marketplace/produtos/ame-se-8/D61607222R" target="_blank" rel="noopener">Quero ser minha melhor versão</a></div>
   </div>
@@ -343,13 +372,13 @@
 
 <section class="jornada">
   <div class="container">
-    <h2>Sua jornada dentro do AME-SE</h2>
+    <h2>Sua jornada dentro da Comunidade AME-SE</h2>
     <p class="sub">Um passo de cada vez. Veja onde você está hoje e onde essa jornada pode te levar.</p>
     <div class="timeline">
       <div class="t-step hoje">
         <div class="t-dot">•</div>
         <h3>Onde você está agora</h3>
-        <p>Insegurança, autocrítica, crenças limitantes que vêm de longe, dificuldade de se posicionar, talvez ciúme ou apego demais em relacionamentos.</p>
+        <p>Talvez você esteja sentindo: Insegurança, autocrítica, crenças limitantes com origem na sua história de vida, dificuldade de se posicionar, ciúme ou apego demais em relacionamentos.</p>
       </div>
       <div class="t-step">
         <div class="t-dot">1</div>
@@ -378,44 +407,47 @@
       </div>
       <div class="t-step depois">
         <div class="t-dot">✓</div>
-        <h3>Onde você chega</h3>
-        <p>Mais autoestima, mais confiança para se posicionar, menos apego e menos ciúme nos relacionamentos, mais leveza para viver o seu dia a dia.</p>
+        <h3>Onde você chegará.</h3>
+        <p>Mais autoestima, mais confiança para se posicionar, menos dependência emocional e menos ciúme nos relacionamentos, mais leveza para viver o seu dia a dia.</p>
       </div>
     </div>
     <div class="aviso-terapia">
-      A Jornada AME-SE é um curso de autoconhecimento, <b>não substitui o acompanhamento terapêutico individual.</b> Se ao final da jornada você sentir que quer dar o próximo passo com uma terapia 1:1 com a Camila, você pode entrar na lista de espera abaixo.
+      A Comunidade AME-SE é um curso de autoconhecimento, <b>não substitui o acompanhamento terapêutico individual.</b> Se ao final da jornada você sentir que quer dar o próximo passo com uma terapia 1:1 com a Camila, você pode entrar em contato pelo botão abaixo.
     </div>
-    <div class="cta-center"><a class="btn" href="#lista-espera">Quero entrar na lista de espera</a></div>
+    <div class="cta-center"><a class="btn" href="#contato-terapia">Quero fazer terapia</a></div>
   </div>
 </section>
 
 <section class="modulos">
   <div class="container">
     <h2>Conheça os módulos do curso:</h2>
-    <div class="modulo">
-      <span class="tag">Módulo 1</span>
-      <span class="titulo">Autoconhecimento na Prática</span>
-      <p>Você vai se conectar com a sua história de vida, descobrindo quais necessidades emocionais básicas não foram supridas, e como isso pode ter influenciado na formação das suas crenças limitantes e esquemas mentais.</p>
-    </div>
-    <div class="modulo">
-      <span class="tag">Módulo 2</span>
-      <span class="titulo">Confiando em si</span>
-      <p>Irá identificar o seu ciclo da insegurança e aprender a combatê-lo, bem como modificar suas crenças limitantes. Vai se encorajar a enfrentar os medos que travam a sua vida, e aumentar a sua autoeficácia, pilar central para ser mais autoconfiante.</p>
-    </div>
-    <div class="modulo">
-      <span class="tag">Módulo 3</span>
-      <span class="titulo">Cuidando das suas emoções</span>
-      <p>Você irá aprender a desenvolver sua inteligência emocional e como lidar melhor com o que sente. Desenvolvendo maior estabilidade emocional, bem como estabelecendo limites saudáveis na sua vida.</p>
-    </div>
-    <div class="modulo">
-      <span class="tag">Módulo 4</span>
-      <span class="titulo">Fortalecendo sua autoestima</span>
-      <p>Você irá desenvolver todos os pilares da sua autoestima, que vão fazer com que você consiga reconhecer o seu verdadeiro valor, suas qualidades, potencialidades, forças e virtudes.</p>
-    </div>
-    <div class="modulo">
-      <span class="tag">Módulo 5</span>
-      <span class="titulo">Amando-se</span>
-      <p>Você vai aprender a como praticar a autoaceitação, gratidão e a se livrar da crítica interna, podendo assim fortalecer mais o seu amor próprio.</p>
+    <p class="carrossel-dica">Arraste para o lado para ver todos os módulos →</p>
+    <div class="carrossel modulos-carrossel">
+      <div class="modulo">
+        <span class="tag">Módulo 1</span>
+        <span class="titulo">Autoconhecimento na Prática</span>
+        <p>Você vai se conectar com a sua história de vida, descobrindo quais necessidades emocionais básicas não foram supridas, e como isso pode ter influenciado na formação das suas crenças limitantes e esquemas mentais.</p>
+      </div>
+      <div class="modulo">
+        <span class="tag">Módulo 2</span>
+        <span class="titulo">Confiando em si</span>
+        <p>Irá identificar o seu ciclo da insegurança e aprender a combatê-lo, bem como modificar suas crenças limitantes. Vai se encorajar a enfrentar os medos que travam a sua vida, e aumentar a sua autoeficácia, pilar central para ser mais autoconfiante.</p>
+      </div>
+      <div class="modulo">
+        <span class="tag">Módulo 3</span>
+        <span class="titulo">Cuidando das suas emoções</span>
+        <p>Você irá aprender a desenvolver sua inteligência emocional e como lidar melhor com o que sente. Desenvolvendo maior estabilidade emocional, bem como estabelecendo limites saudáveis na sua vida.</p>
+      </div>
+      <div class="modulo">
+        <span class="tag">Módulo 4</span>
+        <span class="titulo">Fortalecendo sua autoestima</span>
+        <p>Você irá desenvolver todos os pilares da sua autoestima, que vão fazer com que você consiga reconhecer o seu verdadeiro valor, suas qualidades, potencialidades, forças e virtudes.</p>
+      </div>
+      <div class="modulo">
+        <span class="tag">Módulo 5</span>
+        <span class="titulo">Amando-se</span>
+        <p>Você vai aprender a como praticar a autoaceitação, gratidão e a se livrar da crítica interna, podendo assim fortalecer mais o seu amor próprio.</p>
+      </div>
     </div>
     <div class="cta-center"><a class="btn" href="https://hotmart.com/pt-br/marketplace/produtos/ame-se-8/D61607222R" target="_blank" rel="noopener">Quero começar minha jornada</a></div>
   </div>
@@ -423,55 +455,59 @@
 
 <section class="bonus">
   <div class="container">
-    <h2>Jornada AME-SE</h2>
+    <h2>Comunidade AME-SE</h2>
     <p class="sub">Veja todos os bônus que você vai levar de presente ao se inscrever agora:</p>
-    <div class="bonus-card">
-      <span class="num">Bônus #1:</span>
-      <span class="titulo">Mentoria Individual</span>
-      <p>Comprando o curso, você ganha uma mentoria individual com a Camila, para tirar suas dúvidas ao longo da jornada e dar um up na sua autoestima.</p>
-      <p class="preco">De <span class="de">R$ 200,00</span> por R$ 0,00</p>
-    </div>
-    <div class="bonus-card">
-      <span class="num">Bônus #2:</span>
-      <span class="titulo">Combo de Lives da Autoconfiança na Prática</span>
-      <p>Horas de conteúdo da série Autoconfiança na Prática, que não estão mais disponíveis, mas você recebe como aluna da Jornada AME-SE.</p>
-      <p class="preco">De <span class="de">R$ 97,00</span> por R$ 0,00</p>
-    </div>
-    <div class="bonus-card">
-      <span class="num">Bônus #3:</span>
-      <span class="titulo">Ebook Livre-se da Procrastinação e Construa Novos Hábitos</span>
-      <p>Um ebook de presente para te ajudar no processo de combate à procrastinação, com conteúdo exclusivo para construir novos hábitos.</p>
-      <p class="preco">De <span class="de">R$ 47,00</span> por R$ 0,00</p>
-    </div>
-    <div class="bonus-card">
-      <span class="num">Bônus #4:</span>
-      <span class="titulo">Atualizações Vitalícias do Curso</span>
-      <p>A Jornada AME-SE está em constante atualização. Quem compra agora garante acesso a todas as atualizações futuras do curso, sem nenhum custo adicional.</p>
+    <p class="carrossel-dica">Arraste para o lado para ver todos os bônus →</p>
+    <div class="carrossel bonus-carrossel">
+      <div class="bonus-card">
+        <span class="num">Bônus #1:</span>
+        <span class="titulo">Mentoria em grupo</span>
+        <p>Ao comprar o curso, você ganha acesso a uma mentoria em grupo, um espaço para tirar dúvidas, trocar experiências e continuar se desenvolvendo junto com outras mulheres na mesma jornada.</p>
+        <p class="preco">De <span class="de">R$ 200,00</span> por R$ 0,00</p>
+      </div>
+      <div class="bonus-card">
+        <span class="num">Bônus #2:</span>
+        <span class="titulo">Combo de Lives da Autoconfiança na Prática</span>
+        <p>Horas de conteúdo da série Autoconfiança na Prática, que não estão mais disponíveis, mas você recebe como aluna da Comunidade AME-SE.</p>
+        <p class="preco">De <span class="de">R$ 97,00</span> por R$ 0,00</p>
+      </div>
+      <div class="bonus-card">
+        <span class="num">Bônus #3:</span>
+        <span class="titulo">Ebook Livre-se da Procrastinação e Construa Novos Hábitos</span>
+        <p>Um ebook de presente para te ajudar no processo de combate à procrastinação, com conteúdo exclusivo para construir novos hábitos.</p>
+        <p class="preco">De <span class="de">R$ 47,00</span> por R$ 0,00</p>
+      </div>
+      <div class="bonus-card">
+        <span class="num">Bônus #4:</span>
+        <span class="titulo">Atualizações Vitalícias do Curso</span>
+        <p>A Comunidade AME-SE está em constante atualização. Quem compra agora garante acesso a todas as atualizações futuras do curso, sem nenhum custo adicional.</p>
+      </div>
     </div>
     <div class="bonus-total">
       <p>Total em bônus:</p>
       <p class="valor">de R$ 344,00 por R$ 0,00</p>
       <p style="font-size:.85rem;font-weight:400;color:var(--texto-claro);margin-top:6px;">+ atualizações do curso sempre inclusas</p>
     </div>
-    <div class="cta-center" style="margin-top:20px;"><a class="btn" href="https://hotmart.com/pt-br/marketplace/produtos/ame-se-8/D61607222R" target="_blank" rel="noopener">Quero acessar a Jornada AME-SE</a></div>
+    <div class="cta-center" style="margin-top:20px;"><a class="btn" href="https://hotmart.com/pt-br/marketplace/produtos/ame-se-8/D61607222R" target="_blank" rel="noopener">Quero acessar a Comunidade AME-SE</a></div>
   </div>
 </section>
 
 <section class="preco-final" id="preco">
   <div class="container">
-    <h2>Dê mais um passo na sua jornada por apenas</h2>
+    <h2>Pronta para dar esse passo na sua jornada de autoconhecimento?</h2>
+    <p style="font-weight:700;margin-bottom:10px;">Por apenas</p>
     <div class="preco-box">12x de R$ 29,64<br>ou <span class="a-vista">R$ 297,00</span> à vista sem juros</div>
     <div class="cta-center"><a class="btn btn-outline" href="https://hotmart.com/pt-br/marketplace/produtos/ame-se-8/D61607222R" target="_blank" rel="noopener">Quero ser aluna</a></div>
     <p class="garantia">Pagamento <i>100% seguro</i> e com <b>7 dias de garantia</b> de satisfação, ou <i>seu dinheiro de volta</i>.</p>
   </div>
 </section>
 
-<section class="lista-espera" id="lista-espera">
+<section class="lista-espera" id="contato-terapia">
   <div class="container">
     <div class="box">
       <h2>Quer dar o próximo passo?</h2>
-      <p>Se depois da Jornada AME-SE você sentir que quer seguir com um acompanhamento terapêutico individual com a Camila, deixe seus dados abaixo. No momento a agenda está em lista de espera, e você será uma das primeiras a ser chamada assim que abrir uma vaga.</p>
-      <button class="btn" onclick="document.getElementById('form-espera').classList.add('aberto'); this.style.display='none';">Entrar na lista de espera</button>
+      <p>Se depois da Comunidade AME-SE você sentir que quer seguir com um acompanhamento terapêutico individual comigo, deixe seus dados abaixo. Vou entrar em contato o quanto antes: se eu tiver uma vaga disponível na agenda nesse momento, já sigo com o seu atendimento. Caso contrário, te indico como continuar essa jornada, seja pelo curso ou com um profissional de confiança.</p>
+      <button class="btn" onclick="document.getElementById('form-espera').classList.add('aberto'); this.style.display='none';">Quero fazer terapia</button>
       <form id="form-espera" class="form-espera" onsubmit="return enviarListaEspera(event)">
         <label for="nome">Nome</label>
         <input id="nome" name="nome" type="text" required>
@@ -479,8 +515,8 @@
         <input id="whatsapp" name="whatsapp" type="tel" required>
         <label for="email">E-mail</label>
         <input id="email" name="email" type="email" required>
-        <div class="cta-center"><button class="btn" type="submit">Quero entrar na lista</button></div>
-        <p class="form-msg" id="form-msg">Recebemos o seu contato! A Camila vai falar com você assim que houver uma vaga.</p>
+        <div class="cta-center"><button class="btn" type="submit">Quero entrar em contato</button></div>
+        <p class="form-msg" id="form-msg">Recebemos o seu contato! Vou retornar em breve, seja para dar sequência ao atendimento ou indicar o melhor caminho para você.</p>
       </form>
     </div>
   </div>
@@ -490,24 +526,24 @@
   <div class="container">
     <h2>Perguntas Frequentes</h2>
     <div class="faq-item">
-      <div class="pergunta">PARA QUEM É A JORNADA AME-SE?</div>
+      <button class="pergunta" onclick="this.parentElement.classList.toggle('aberta')">PARA QUEM É A COMUNIDADE AME-SE? <span class="faq-icone">+</span></button>
       <div class="resposta">É para mulheres acima de 18 anos que buscam mais confiança em si e uma autoestima mais elevada, através do desenvolvimento do autoconhecimento e do amor próprio. Para quem busca viver uma vida que vale a pena ser vivida, sem os medos e inseguranças atrapalhando a conquista do que deseja.</div>
     </div>
     <div class="faq-item">
-      <div class="pergunta">QUANDO E COMO VOU RECEBER O ACESSO?</div>
+      <button class="pergunta" onclick="this.parentElement.classList.toggle('aberta')">QUANDO E COMO VOU RECEBER O ACESSO? <span class="faq-icone">+</span></button>
       <div class="resposta">Você terá acesso por 1 ano, disponível na sua área de membros no site da Hotmart. Assim que realizar a compra, seja pelo cartão ou boleto, você já recebe um e-mail com o acesso.</div>
     </div>
     <div class="faq-item">
-      <div class="pergunta">PRECISO TER UMA CONTA NA HOTMART?</div>
+      <button class="pergunta" onclick="this.parentElement.classList.toggle('aberta')">PRECISO TER UMA CONTA NA HOTMART? <span class="faq-icone">+</span></button>
       <div class="resposta">Sim. Se você ainda não tiver, não tem problema: ao colocar suas informações na hora da compra, o acesso é enviado automaticamente para o e-mail que você usou no cadastro.</div>
     </div>
     <div class="faq-item">
-      <div class="pergunta">A JORNADA OFERECE CERTIFICADO?</div>
+      <button class="pergunta" onclick="this.parentElement.classList.toggle('aberta')">A COMUNIDADE OFERECE CERTIFICADO? <span class="faq-icone">+</span></button>
       <div class="resposta">Sim, você recebe um certificado de conclusão com as horas de aula realizadas após finalizar todos os módulos.</div>
     </div>
     <div class="faq-item">
-      <div class="pergunta">SOU PSICÓLOGA, POSSO FAZER O CURSO?</div>
-      <div class="resposta">A Jornada AME-SE é voltada para mulheres que querem desenvolver autoconfiança e autoestima. Se você é psicóloga, o curso pode te ajudar nesses aspectos também, além de servir como material de apoio na sua prática com pacientes.</div>
+      <button class="pergunta" onclick="this.parentElement.classList.toggle('aberta')">SOU PSICÓLOGA, POSSO FAZER O CURSO? <span class="faq-icone">+</span></button>
+      <div class="resposta">A Comunidade AME-SE é voltada para mulheres que querem desenvolver autoconfiança e autoestima. Se você é psicóloga, o curso pode te ajudar nesses aspectos também, além de servir como material de apoio na sua prática com pacientes.</div>
     </div>
   </div>
 </section>
@@ -516,6 +552,14 @@
   <div class="container">
     <p style="margin-bottom:16px;">Dúvidas ou problemas para se inscrever?</p>
     <a class="contato-btn" href="https://wa.link/wdtnkt" target="_blank" rel="noopener">Entrar em contato</a>
+    <p style="margin-bottom:8px;font-weight:700;color:var(--magenta-escuro);">Me acompanhe nas redes sociais</p>
+    <p style="margin-bottom:24px;">
+      <a href="https://www.instagram.com/psicamilasartori/" target="_blank" rel="noopener" style="color:var(--magenta-escuro);text-decoration:none;font-weight:700;margin:0 8px;">Instagram</a>
+      &bull;
+      <a href="https://www.youtube.com/channel/UCk-7QH02gCh6L2zUYgArY9Q" target="_blank" rel="noopener" style="color:var(--magenta-escuro);text-decoration:none;font-weight:700;margin:0 8px;">YouTube</a>
+      &bull;
+      <a href="https://chat.whatsapp.com/KitgsdMiNesF0Qq876MTTz" target="_blank" rel="noopener" style="color:var(--magenta-escuro);text-decoration:none;font-weight:700;margin:0 8px;">Grupo VIP no WhatsApp</a>
+    </p>
     <p class="legal">Aviso legal: nenhuma informação contida neste produto deve ser interpretada como afirmação da obtenção de resultados. Qualquer referência ao desempenho passado ou potencial de uma estratégia abordada no conteúdo não é, e não deve ser interpretada como uma indicação ou garantia de qualquer resultado específico.</p>
     <p class="assinatura">Camila Sartori da Silva &copy; 2026 — Todos os direitos reservados</p>
     <p class="assinatura">Criado pela Agência Recria</p>
@@ -544,6 +588,25 @@
     msg.style.display = 'block';
     return false;
   }
+
+  document.querySelectorAll('.carrossel').forEach(function(carrossel){
+    var isDown = false, startX, scrollLeft;
+    carrossel.addEventListener('mousedown', function(e){
+      isDown = true;
+      carrossel.classList.add('dragging');
+      startX = e.pageX - carrossel.offsetLeft;
+      scrollLeft = carrossel.scrollLeft;
+    });
+    carrossel.addEventListener('mouseleave', function(){ isDown = false; carrossel.classList.remove('dragging'); });
+    carrossel.addEventListener('mouseup', function(){ isDown = false; carrossel.classList.remove('dragging'); });
+    carrossel.addEventListener('mousemove', function(e){
+      if(!isDown) return;
+      e.preventDefault();
+      var x = e.pageX - carrossel.offsetLeft;
+      var walk = (x - startX) * 1.2;
+      carrossel.scrollLeft = scrollLeft - walk;
+    });
+  });
 </script>
 
 </body>
