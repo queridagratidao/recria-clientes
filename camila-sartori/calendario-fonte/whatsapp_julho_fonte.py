@@ -3,9 +3,7 @@
 # 3 conteúdos/semana: 2 reposts do Instagram (mesmo dia do post) + 1 exclusivo (segunda/terça).
 # Grupo começa a ser alimentado via automação a partir dos posts de 22/07 e 24/07 do Instagram.
 #
-# PENDENTE PARA AGOSTO: definir com a Camila um termo específico para chamar as pessoas do
-# grupo (testadas e recusadas: "Jornadeiras", "Tribo AME-SE", "Time AME-SE", "Amêsianas").
-# Por enquanto, usar apenas "mulheres" / "mulher".
+# Termo definido pela Camila para chamar as integrantes do grupo: "donas de si".
 
 add_month("Grupo de WhatsApp - Julho 2026 (últimas 2 semanas)")
 
@@ -43,7 +41,7 @@ add_day("29/07 (QUA), Repost — texto pronto para copiar e colar no grupo", [
          headline=None, subheadline=None, cta=None,
          acoes=[
              dict(label="Texto de chamada (enviar antes do repost)",
-                  texto="Mulheres, vocês já se pegaram respondendo sim quando na verdade queriam dizer não? Pois é, quanto mais a gente faz isso, mais acaba se anulando, se invalidando. Eu me aprofundo nessa temática no post de hoje, no link abaixo 👇🏻"),
+                  texto="Donas de si, vocês já se pegaram respondendo sim quando na verdade queriam dizer não? Pois é, quanto mais a gente faz isso, mais acaba se anulando, se invalidando. Eu me aprofundo nessa temática no post de hoje, no link abaixo 👇🏻"),
              dict(label="Repost do Instagram",
                   texto='Repostar o post estático de 29/07, com a mesma arte e legenda do Instagram: "Toda vez que você diz sim para todo mundo, talvez esteja dizendo não para você mesma..."'),
          ]),
@@ -55,9 +53,8 @@ add_day("31/07 (SEX), Repost — texto pronto para copiar e colar no grupo", [
          headline=None, subheadline=None, cta=None,
          acoes=[
              dict(label="Texto de chamada (enviar antes do repost)",
-                  texto="Mulheres, vocês já repararam que, quando um relacionamento começa a dar certo de verdade, uma parte de vocês fica desconfiada? Pois é, isso também pode ser uma crença limitante. Eu me aprofundo nessa temática no post de hoje, no link abaixo 👇🏻"),
+                  texto="Donas de si, vocês já repararam que, quando um relacionamento começa a dar certo de verdade, uma parte de vocês fica desconfiada? Pois é, isso também pode ser uma crença limitante. Eu me aprofundo nessa temática no post de hoje, no link abaixo 👇🏻"),
              dict(label="Repost do Instagram",
                   texto='Repostar o reel de 31/07, com o mesmo vídeo e legenda do Instagram: "Você já reparou que, quando um relacionamento começa a dar certo de verdade..."'),
-         ],
-         observacao='PENDENTE PARA AGOSTO: definir com a Camila um termo específico para chamar as pessoas do grupo (testadas e recusadas: Jornadeiras, Tribo AME-SE, Time AME-SE, Amêsianas). Por enquanto, usar apenas "mulheres"/"mulher".'),
+         ]),
 ])

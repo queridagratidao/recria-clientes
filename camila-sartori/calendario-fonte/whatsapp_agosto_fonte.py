@@ -2,9 +2,7 @@
 # AGOSTO 2026 - GRUPO DE WHATSAPP - Jornada AME-SE
 # 3 conteúdos/semana: 1 exclusivo (segunda) + 2 reposts do Instagram (mesmo dia do post).
 #
-# PENDENTE: definir com a Camila um termo específico para chamar as pessoas do grupo
-# (testadas e recusadas em julho: Jornadeiras, Tribo AME-SE, Time AME-SE, Amêsianas).
-# Por enquanto, usar apenas "mulheres" / "mulher".
+# Termo definido pela Camila para chamar as integrantes do grupo: "donas de si".
 
 add_month("Grupo de WhatsApp - Agosto 2026")
 
@@ -26,7 +24,7 @@ add_day("05/08 (QUA), Repost — texto pronto para copiar e colar no grupo", [
          headline=None, subheadline=None, cta=None,
          acoes=[
              dict(label="Texto de chamada (enviar antes do repost)",
-                  texto="Mulheres, vocês já perceberam que às vezes adiam algo importante sem entender bem o motivo? Pois é, pode não ser preguiça. Eu me aprofundo nessa temática no post de hoje, no link abaixo 👇🏻"),
+                  texto="Donas de si, vocês já perceberam que às vezes adiam algo importante sem entender bem o motivo? Pois é, pode não ser preguiça. Eu me aprofundo nessa temática no post de hoje, no link abaixo 👇🏻"),
              dict(label="Repost do Instagram",
                   texto='Repostar o post estático de 05/08, com a mesma arte e legenda do Instagram: "Procrastinar não é preguiça. Pode ser medo disfarçado."'),
          ]),
@@ -38,7 +36,7 @@ add_day("07/08 (SEX), Repost — texto pronto para copiar e colar no grupo", [
          headline=None, subheadline=None, cta=None,
          acoes=[
              dict(label="Texto de chamada (enviar antes do repost)",
-                  texto="Mulheres, mesmo fazendo tudo certo, vocês ainda sentem que não foi suficiente? Eu preparei um carrossel especial sobre isso, no post de hoje, no link abaixo 👇🏻"),
+                  texto="Donas de si, mesmo fazendo tudo certo, vocês ainda sentem que não foi suficiente? Eu preparei um carrossel especial sobre isso, no post de hoje, no link abaixo 👇🏻"),
              dict(label="Repost do Instagram",
                   texto='Repostar o carrossel de 07/08, com a mesma arte e legenda do Instagram: "Ela era a primeira a chegar e a última a sair. E mesmo assim, achava que não tinha feito o suficiente."'),
          ]),
@@ -62,7 +60,7 @@ add_day("12/08 (QUA), Repost — texto pronto para copiar e colar no grupo", [
          headline=None, subheadline=None, cta=None,
          acoes=[
              dict(label="Texto de chamada (enviar antes do repost)",
-                  texto="Mulheres, ciúme demais também pode ser insegurança, não amor grande. Eu me aprofundo nessa temática no post de hoje, no link abaixo 👇🏻"),
+                  texto="Donas de si, ciúme demais também pode ser insegurança, não amor grande. Eu me aprofundo nessa temática no post de hoje, no link abaixo 👇🏻"),
              dict(label="Repost do Instagram",
                   texto='Repostar o post estático de 12/08, com a mesma arte e legenda do Instagram: "Ciúme demais não é prova de amor. Pode ser prova de insegurança."'),
          ]),
@@ -74,7 +72,7 @@ add_day("14/08 (SEX), Repost — texto pronto para copiar e colar no grupo", [
          headline=None, subheadline=None, cta=None,
          acoes=[
              dict(label="Texto de chamada (enviar antes do repost)",
-                  texto="Mulheres, vocês conseguem listar rápido o que fizeram de errado essa semana, mas travam para lembrar do que fizeram bem? Eu trago o caso da Maria no post de hoje, no link abaixo 👇🏻"),
+                  texto="Donas de si, vocês conseguem listar rápido o que fizeram de errado essa semana, mas travam para lembrar do que fizeram bem? Eu trago o caso da Maria no post de hoje, no link abaixo 👇🏻"),
              dict(label="Repost do Instagram",
                   texto='Repostar o reel de 14/08, com o mesmo vídeo e legenda do Instagram: "Vou compartilhar com você o caso da Maria. Ela sabia listar de cabeça cinco coisas que fez de errado essa semana."'),
          ]),
@@ -98,7 +96,7 @@ add_day("19/08 (QUA), Repost — texto pronto para copiar e colar no grupo", [
          headline=None, subheadline=None, cta=None,
          acoes=[
              dict(label="Texto de chamada (enviar antes do repost)",
-                  texto="Mulheres, vocês se reprimem para não incomodar? Isso pode ter um nome, e eu me aprofundo nesse tema no post de hoje, no link abaixo 👇🏻"),
+                  texto="Donas de si, vocês se reprimem para não incomodar? Isso pode ter um nome, e eu me aprofundo nesse tema no post de hoje, no link abaixo 👇🏻"),
              dict(label="Repost do Instagram",
                   texto='Repostar o post estático de 19/08, com a mesma arte e legenda do Instagram: "Você se reprime para não incomodar? Isso pode ter um nome."'),
          ]),
@@ -110,7 +108,7 @@ add_day("21/08 (SEX), Repost — texto pronto para copiar e colar no grupo", [
          headline=None, subheadline=None, cta=None,
          acoes=[
              dict(label="Texto de chamada (enviar antes do repost)",
-                  texto="Mulheres, os seus últimos relacionamentos parecem versões diferentes do mesmo problema? Preparei um carrossel sobre isso, no post de hoje, no link abaixo 👇🏻"),
+                  texto="Donas de si, os seus últimos relacionamentos parecem versões diferentes do mesmo problema? Preparei um carrossel sobre isso, no post de hoje, no link abaixo 👇🏻"),
              dict(label="Repost do Instagram",
                   texto='Repostar o carrossel de 21/08, com a mesma arte e legenda do Instagram: "Era o terceiro relacionamento em dois anos que terminava do mesmo jeito. Cenário diferente, pessoa diferente, final idêntico."'),
          ]),
@@ -134,7 +132,7 @@ add_day("26/08 (QUA), Repost — texto pronto para copiar e colar no grupo", [
          headline=None, subheadline=None, cta=None,
          acoes=[
              dict(label="Texto de chamada (enviar antes do repost)",
-                  texto="Mulheres, vocês estão na lista de prioridades de todo mundo, menos na própria? Eu me aprofundo nesse tema no post de hoje, no link abaixo 👇🏻"),
+                  texto="Donas de si, vocês estão na lista de prioridades de todo mundo, menos na própria? Eu me aprofundo nesse tema no post de hoje, no link abaixo 👇🏻"),
              dict(label="Repost do Instagram",
                   texto='Repostar o post estático de 26/08, com a mesma arte e legenda do Instagram: "Você está na lista de prioridades de todo mundo, menos na sua própria?"'),
          ]),
@@ -146,9 +144,8 @@ add_day("28/08 (SEX), Repost — texto pronto para copiar e colar no grupo", [
          headline=None, subheadline=None, cta=None,
          acoes=[
              dict(label="Texto de chamada (enviar antes do repost)",
-                  texto="Mulheres, fechando o mês: um padrão que eu escuto sempre no consultório é colocar todo mundo em primeiro lugar e ficar por último na própria vida. Eu falo mais sobre isso no post de hoje, no link abaixo 👇🏻"),
+                  texto="Donas de si, fechando o mês: um padrão que eu escuto sempre no consultório é colocar todo mundo em primeiro lugar e ficar por último na própria vida. Eu falo mais sobre isso no post de hoje, no link abaixo 👇🏻"),
              dict(label="Repost do Instagram",
                   texto='Repostar o reel de 28/08, com o mesmo vídeo e legenda do Instagram: "Um padrão que eu escuto sempre no consultório: colocar todo mundo como prioridade e se colocar no último lugar, ou em nenhum lugar, na própria vida."'),
-         ],
-         observacao='PENDENTE: definir com a Camila um termo específico para chamar as pessoas do grupo. Por enquanto, usar apenas "mulheres"/"mulher".'),
+         ]),
 ])
