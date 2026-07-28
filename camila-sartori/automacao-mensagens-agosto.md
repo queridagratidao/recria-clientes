@@ -26,7 +26,7 @@ Usada nas palavras-chave: **PERFEIÇÃO** (07/08), **CIÚME** (12/08), **AUTOEST
 > **Botão:** Sim, eu quero
 
 ### Mensagem 2 (enviada só depois do clique em "Sim, eu quero")
-> "Eu criei a Jornada AME-SE, um curso online de autoconhecimento e autoestima para mulheres, baseado na terapia do esquema e na terapia cognitivo-comportamental, com tudo que eu aplico na minha prática como psicóloga. São 5 módulos que vão te ajudar a entender a raiz das suas crenças limitantes, fortalecer sua autoestima e construir relações mais saudáveis, no seu tempo, revendo o conteúdo sempre que quiser. E ainda tem bônus exclusivos, como mentoria e materiais extras."
+> "Eu criei a Comunidade AME-SE, um curso online de autoconhecimento e autoestima para mulheres, baseado na terapia do esquema e na terapia cognitivo-comportamental, com tudo que eu aplico na minha prática como psicóloga. São 5 módulos que vão te ajudar a entender a raiz das suas crenças limitantes, fortalecer sua autoestima e construir relações mais saudáveis, no seu tempo, revendo o conteúdo sempre que quiser. E ainda tem bônus exclusivos, como mentoria e materiais extras."
 
 ### Mensagem 3 (detalhes finais + formas de pagamento)
 > "Você pode conferir todos os detalhes, os módulos e os bônus completos, com garantia de 7 dias. E pode escolher se prefere pagar no boleto, no Pix, ou parcelar no seu cartão. É só clicar no botão abaixo para ver tudo."
