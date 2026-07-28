@@ -38,9 +38,9 @@ add_day("07/08 (SEX), Repost — texto pronto para copiar e colar no grupo", [
          headline=None, subheadline=None, cta=None,
          acoes=[
              dict(label="Texto de chamada (enviar antes do repost)",
-                  texto="Mulheres, vocês já refizeram um texto várias vezes antes de enviar, mesmo já estando bom? Pode ser mais do que cuidado. Eu preparei um carrossel especial sobre isso, no post de hoje, no link abaixo 👇🏻"),
+                  texto="Mulheres, mesmo fazendo tudo certo, vocês ainda sentem que não foi suficiente? Eu preparei um carrossel especial sobre isso, no post de hoje, no link abaixo 👇🏻"),
              dict(label="Repost do Instagram",
-                  texto='Repostar o carrossel de 07/08, com a mesma arte e legenda do Instagram: "Ela terminou o projeto duas semanas antes do prazo. Revisado três vezes. E mesmo assim, não conseguiu comemorar."'),
+                  texto='Repostar o carrossel de 07/08, com a mesma arte e legenda do Instagram: "Ela era a primeira a chegar e a última a sair. E mesmo assim, achava que não tinha feito o suficiente."'),
          ]),
 ])
 
@@ -74,9 +74,9 @@ add_day("14/08 (SEX), Repost — texto pronto para copiar e colar no grupo", [
          headline=None, subheadline=None, cta=None,
          acoes=[
              dict(label="Texto de chamada (enviar antes do repost)",
-                  texto="Mulheres, vocês percebem mais o que erram do que o que acertam? Eu me aprofundo nessa temática no post de hoje, no link abaixo 👇🏻"),
+                  texto="Mulheres, vocês conseguem listar rápido o que fizeram de errado essa semana, mas travam para lembrar do que fizeram bem? Eu trago o caso da Maria no post de hoje, no link abaixo 👇🏻"),
              dict(label="Repost do Instagram",
-                  texto='Repostar o reel de 14/08, com o mesmo vídeo e legenda do Instagram: "Você sabe listar rápido três coisas que fez de errado essa semana..."'),
+                  texto='Repostar o reel de 14/08, com o mesmo vídeo e legenda do Instagram: "Vou compartilhar com você o caso da Maria. Ela sabia listar de cabeça cinco coisas que fez de errado essa semana."'),
          ]),
 ])
 
@@ -98,9 +98,9 @@ add_day("19/08 (QUA), Repost — texto pronto para copiar e colar no grupo", [
          headline=None, subheadline=None, cta=None,
          acoes=[
              dict(label="Texto de chamada (enviar antes do repost)",
-                  texto="Mulheres, vocês se encolhem para não incomodar? Isso tem nome, e eu me aprofundo nesse tema no post de hoje, no link abaixo 👇🏻"),
+                  texto="Mulheres, vocês se reprimem para não incomodar? Isso pode ter um nome, e eu me aprofundo nesse tema no post de hoje, no link abaixo 👇🏻"),
              dict(label="Repost do Instagram",
-                  texto='Repostar o post estático de 19/08, com a mesma arte e legenda do Instagram: "Você se encolhe para não incomodar? Isso tem nome."'),
+                  texto='Repostar o post estático de 19/08, com a mesma arte e legenda do Instagram: "Você se reprime para não incomodar? Isso pode ter um nome."'),
          ]),
 ])
 
@@ -146,9 +146,9 @@ add_day("28/08 (SEX), Repost — texto pronto para copiar e colar no grupo", [
          headline=None, subheadline=None, cta=None,
          acoes=[
              dict(label="Texto de chamada (enviar antes do repost)",
-                  texto="Mulheres, fechando o mês: nenhum dos temas que a gente trouxe em agosto é sobre falta de caráter. Eu falo mais sobre isso no post de hoje, no link abaixo 👇🏻"),
+                  texto="Mulheres, fechando o mês: um padrão que eu escuto sempre no consultório é colocar todo mundo em primeiro lugar e ficar por último na própria vida. Eu falo mais sobre isso no post de hoje, no link abaixo 👇🏻"),
              dict(label="Repost do Instagram",
-                  texto='Repostar o reel de 28/08, com o mesmo vídeo e legenda do Instagram: "Ao longo desse mês a gente falou sobre procrastinação, perfeccionismo, ciúme..."'),
+                  texto='Repostar o reel de 28/08, com o mesmo vídeo e legenda do Instagram: "Um padrão que eu escuto sempre no consultório: colocar todo mundo como prioridade e se colocar no último lugar, ou em nenhum lugar, na própria vida."'),
          ],
          observacao='PENDENTE: definir com a Camila um termo específico para chamar as pessoas do grupo. Por enquanto, usar apenas "mulheres"/"mulher".'),
 ])
