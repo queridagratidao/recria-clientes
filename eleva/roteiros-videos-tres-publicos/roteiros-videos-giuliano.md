@@ -62,10 +62,10 @@ Comente "FORMAÇÃO" que te envio os detalhes no direct, ou acessa direto pelo l
 "Eu sou o Giuliano Spolavori, tenho mais de 35 anos de mercado condominial e já administrei mais de 2 mil condomínios. E por toda essa experiência, desenvolvi dois caminhos para te ajudar."
 
 **[CTA 1 — curso]**
-"Síndico, você pode se aprimorar e se posicionar como esse parceiro de negócios que gera patrimônio através do meu Curso Avançado de Síndico. Comente 'SÍNDICO' que eu te envio todas as informações no direct, ou acessa o link da bio."
+"Síndico, você pode se aprimorar e se posicionar como esse parceiro de negócios que gere patrimônio através do meu Curso Avançado de Síndico. Comente 'SÍNDICO' e eu vou te enviar todas as informações no direct, ou acessa o link da bio."
 
 **[CTA 2 — sessão estratégica]**
-"Agora, se você já está pronto pra dar um passo mais acelerado, quer que eu faça um diagnóstico ou uma mentoria personalizada pra você, o primeiro passo é a gente conversar numa sessão estratégica, uma reunião online gratuita comigo. Se você se interessou, comente 'SESSÃO' que minha equipe vai agendar sua sessão estratégica gratuita, ou também acesse todas as informações pelo link da bio."
+"Agora, caso você já queira dar um passo mais acelerado, que é a minha expertise para te ajudar de maneira personalizada no seu negócio, te convido para uma reunião online: nossa sessão estratégica gratuita, para eu entender o seu cenário e te propor um diagnóstico ou uma mentoria para te auxiliar. Caso você deseje, comente 'SESSÃO' que eu te envio todos os detalhes no seu direct, ou se preferir, acessa o link da bio."
 
 ## Legenda (para postar)
 
@@ -143,10 +143,10 @@ Comente "FORNECEDOR" que te envio os detalhes do curso, ou "SESSÃO" para agenda
 "Quando você tem uma equipe bem selecionada e competente, os gargalos operacionais resolvidos e ferramentas que agilizam a entrega com qualidade, sua empresa flui mesmo quando você precisar viajar ou focar mais no tático e no estratégico do seu negócio — para expandir, fazer fusões e aquisições, ou o que você achar necessário nesse processo. E eu posso te ajudar nesse processo."
 
 **[AUTORIDADE]**
-"Muito prazer, meu nome é Giuliano Spolavori, tenho mais de 35 anos de mercado condominial, já administrei mais de 2 mil condomínios, já fiz fusões, aquisições."
+"Muito prazer, meu nome é Giuliano Spolavori, tenho mais de 35 anos de mercado condominial. Mais de 2.200 condomínios administrados, mais de 8.000 imóveis locados e mais de 20 operações de M&A."
 
 **[CTA]**
-"Através de uma sessão estratégica gratuita, posso entender mais a fundo o seu caso para fazermos um diagnóstico, e até mesmo uma mentoria, para resolver esses pontos e outros, para que você consiga escalar o seu negócio. Se interessou? Comente 'SESSÃO' aqui embaixo que eu te passo todos os detalhes para agendarmos nossa reunião no seu direct, ou se preferir, acessa o link da bio."
+"Caso você queira minha ajuda, minha expertise personalizada para o seu negócio, te convido para uma reunião online: nossa sessão estratégica gratuita, para eu entender o seu cenário e te propor um diagnóstico ou uma mentoria para te auxiliar. Caso você deseje, comente 'SESSÃO', e eu te enviarei todos os detalhes no seu direct, ou se preferir, acessa o link da bio."
 
 ## Legenda (para postar)
 
@@ -156,8 +156,8 @@ Toda empresa depende do dono em algum nível — isso é natural. O problema é 
 
 Com equipe bem selecionada, gargalos resolvidos e ferramentas certas, sua empresa flui mesmo quando você precisa viajar ou focar no tático e estratégico — expansão, fusões, aquisições.
 
-Sou Giuliano Spolavori, mais de 35 anos de mercado condominial, mais de 2 mil condomínios administrados, já fiz fusões e aquisições.
+Sou Giuliano Spolavori, mais de 35 anos de mercado condominial. Mais de 2.200 condomínios administrados, mais de 8.000 imóveis locados e mais de 20 operações de M&A.
 
-Comente "SESSÃO" que eu te passo os detalhes para agendarmos sua sessão estratégica gratuita, ou acessa direto pelo link da bio.
+Comente "SESSÃO" que eu te enviarei todos os detalhes no seu direct para agendarmos sua sessão estratégica gratuita, ou acessa direto pelo link da bio.
 
 #administradoradecondominios #imobiliaria #gestaoempresarial #eleva
