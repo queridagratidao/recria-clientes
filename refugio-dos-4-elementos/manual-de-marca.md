@@ -47,20 +47,22 @@
 
 **Área de respiro mínima e tamanho mínimo:** Manter ao redor do logo um espaço livre equivalente à altura do símbolo. Em uso digital, não reduzir o logo completo a menos de 120px de largura, para não perder a legibilidade dos 4 ícones — o anel é fino por design, então tamanhos muito pequenos tendem a "sumir" o traço antes dos ícones.
 
-## 5. Paleta de Cores (Canva)
+## 5. Paleta de Cores (Canva) — Atualizada 12/08/2026, "Terra Viva"
 
 A paleta combina as duas referências levantadas no diagnóstico — lilás (Daniela) e verde (Jean Carlos) — com o lilás como cor dominante (liga mais diretamente à mística/espiritualidade e une bem com o conceito dos 4 elementos) e o verde como cor de apoio (natureza, chakra cardíaco). As outras duas cores de apoio representam Água e Fogo, fechando a referência aos 4 elementos.
 
+> **Atualização 12/08/2026:** pequena revisão de tom nas 4 cores principais (Opção C — "Terra Viva"), deixando a paleta mais viva/saturada. Creme Areia e Marrom Terra seguem sem alteração. Usar os HEX abaixo em todo material novo a partir desta data; substitui a paleta anterior.
+
 | Cor | Função | Código HEX | Onde encontrar no Canva |
 |---|---|---|---|
-| Lilás Refúgio | Cor primária (dominante) | #8B6FA8 | Inserir o HEX diretamente no seletor de cores do Canva; aparece próximo às sugestões de "Lavender"/"Lilac" |
-| Verde Sálvia | Cor secundária (apoio — Terra/coração) | #6B8F71 | Buscar "Sage Green" no seletor de cores ou inserir o HEX |
-| Terracota | Cor de apoio (Fogo) | #C97B4A | Buscar "Terracotta" ou "Burnt Orange" no seletor de cores |
-| Azul Acinzentado | Cor de apoio (Água) | #A9C4CB | Buscar "Dusty Blue" no seletor de cores |
+| Lilás Ametista | Cor primária (dominante) | #7852A0 | Inserir o HEX diretamente no seletor de cores do Canva; aparece próximo às sugestões de "Amethyst"/"Purple" |
+| Verde Natureza | Cor secundária (apoio — Terra/coração) | #2E7845 | Buscar "Forest Green" no seletor de cores ou inserir o HEX |
+| Terracota Forte | Cor de apoio (Fogo) | #B85A2E | Buscar "Terracotta" ou "Burnt Orange" no seletor de cores |
+| Azul Oceano | Cor de apoio (Água) | #4A9AB5 | Buscar "Ocean Blue" no seletor de cores |
 | Creme Areia | Neutra clara (fundo — Ar) | #F7F3EC | Buscar "Ivory" ou "Cream" no seletor de cores |
 | Marrom Terra | Neutra escura (texto) | #3B2E2A | Buscar "Espresso" ou "Dark Brown" no seletor de cores |
 
-**Uso recomendado:** Lilás como cor de destaque principal (títulos, logo, CTA secundário); Creme Areia como fundo padrão de posts; Marrom Terra para todo o corpo de texto (melhor legibilidade que preto puro, mantém o tom orgânico); Verde Sálvia, Terracota e Azul Acinzentado como cores de apoio rotativas, usadas para diferenciar visualmente conteúdo de cada elemento ou tipo de terapia.
+**Uso recomendado:** Lilás Ametista como cor de destaque principal (títulos, logo, CTA secundário); Creme Areia como fundo padrão de posts; Marrom Terra para todo o corpo de texto (melhor legibilidade que preto puro, mantém o tom orgânico); Verde Natureza, Terracota Forte e Azul Oceano como cores de apoio rotativas, usadas para diferenciar visualmente conteúdo de cada elemento ou tipo de terapia.
 
 ## 6. Tipografia (Canva)
 
