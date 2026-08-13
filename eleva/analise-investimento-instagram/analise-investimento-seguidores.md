@@ -15,7 +15,7 @@ Quanto a Eleva precisa investir *a mais* do que investe hoje em Meta Ads para cr
 | **Topo de funil (high ticket)** | Mentoria — R$ 15.000 | Mentoria — R$ 15.000 | Mentoria — R$ 15.000 |
 | **Porta de entrada gratuita** | Sessão Estratégica (reunião de alinhamento e diagnóstico inicial), aberta aos 3 perfis | | |
 
-**Gargalo identificado pelo Giu:** a Sessão Estratégica está com custo de lead alto e baixa conversão direta em diagnóstico/mentoria. A estratégia definida é dar um passo atrás: crescer a base de seguidores e a autoridade do Giu agora, com investimento controlado, para que o comercial (Jesse) trabalhe social selling à medida que a base cresce, direcionando os leads mais qualificados/engajados para a Sessão Estratégica, com o diagnóstico (~R$4 mil) como produto-ponte mais realista antes da mentoria.
+**Gargalo identificado pelo Giu:** a Sessão Estratégica está com custo de lead alto e baixa conversão direta em diagnóstico/mentoria. A estratégia definida é dar um passo atrás: crescer a base de seguidores e a autoridade do Giu agora, com investimento controlado, para que o comercial (Jessie) trabalhe social selling à medida que a base cresce, direcionando os leads mais qualificados/engajados para a Sessão Estratégica, com o diagnóstico (~R$4 mil) como produto-ponte mais realista antes da mentoria.
 
 **Ponto de atenção estrutural:** o executivo não tem produto de entrada barato. Crescer a base de seguidores executivos só compensa a médio prazo se o comercial estiver ativo em social selling nesse público — não existe CTA de baixo ticket pra converter esse perfil sozinho via redes.
 
@@ -30,7 +30,7 @@ Quanto a Eleva precisa investir *a mais* do que investe hoje em Meta Ads para cr
 
 **Performance das campanhas (últimos 30 dias, 14/jul a 12/ago/2026):**
 
-| Campanha | Objetivo | Resultado | Alcance | Gasto 30d | Custo/resultado |
+| Campanha | Objetivo | Resultado | Alcance | Investimento em mídia (30d) | Custo/resultado |
 |---|---|---|---|---|---|
 | Executivos - Engajamento | Visitas ao perfil/Página | 3.838 | 21.806 | R$ 617,03 | R$ 0,16 |
 | Curso Síndicos - Engajamento | Visitas ao perfil/Página | 3.163 | 42.206 | R$ 654,54 | R$ 0,21 |
@@ -46,17 +46,7 @@ O ritmo está acelerando (de 2,7 para 3,83 seguidores/dia), o que é esperado à
 
 **Avaliação comparativa (benchmark do próprio Instagram, últimos 28 dias):** mesmo na categoria genérica em que o Instagram enquadrou a conta ("Lojas de produtos pessoais e mercadorias em geral" — não é o nicho real da Eleva, é só a aproximação disponível na ferramenta), a Eleva ganhou 114 seguidores contra uma média de 39 seguidores de contas comparáveis no período — desempenho **~3x acima do normal da categoria**. É um sinal de que a operação atual (conteúdo + investimento) já está performando bem acima da média.
 
-## 4. Ponto de atenção antes de aumentar o investimento
-
-No detalhamento de público (Insights > Público > Principais cidades/países), o Irã aparece com **20% do público**, e uma cidade iraniana ("Mexed, Coração Razavi, Irã") é a **2ª cidade que mais aparece, com 5%** — atrás apenas de Porto Alegre. Brasil representa 61,1% do público total.
-
-Para um negócio B2B de síndicos e condomínios no Brasil, esse volume de público em outro país é fora do padrão esperado e é um forte indício de:
-- segmentação geográfica mal configurada em alguma das campanhas ativas, ou
-- tráfego de baixa qualidade (cliques/contas não-orgânicas) sendo contabilizado no alcance.
-
-**Recomendação:** revisar a segmentação geográfica de todas as campanhas ativas (confirmar Brasil como único país-alvo) antes de qualquer aumento de verba. Esse ajuste não tem custo adicional e evita que parte do orçamento extra continue indo pra audiência fora do perfil de cliente.
-
-## 5. Projeções de seguidores até 31/12/2026, por nível de investimento
+## 4. Projeções de seguidores até 31/12/2026, por nível de investimento
 
 Dias restantes até 31/12/2026 a partir de hoje: 140. Custo por seguidor na base atual: R$ 60 ÷ 3,83/dia ≈ **R$ 15,70 por seguidor**. Nas faixas de investimento maior, apliquei uma margem de rendimento decrescente (natural em Ads, o público qualificado disponível é finito), por isso o custo por seguidor sobe em cada faixa.
 
@@ -73,11 +63,11 @@ Dias restantes até 31/12/2026 a partir de hoje: 140. Custo por seguidor na base
 - **5 mil exige triplicar o investimento** (+R$3.900/mês) — ainda defensável, mas é uma decisão de orçamento maior.
 - **10 mil exige multiplicar o orçamento por 12-15x** (de R$1.800/mês para R$21-27 mil/mês) — não é proporcional, é um salto de patamar sem relação com o ticket dos produtos e sem retorno esperado ainda em 2026. Não recomendamos perseguir essa meta neste ano.
 
-**Recomendação de meta para 2026:** 3 mil seguidores, com o incremento de +R$50/dia, e reavaliação em janeiro/2027 para decidir se vale escalar rumo a 5 mil ou 10 mil, já com a segmentação corrigida e o funil de social selling rodando.
+**Recomendação de meta para 2026:** 3 mil seguidores, com o incremento de +R$50/dia, e reavaliação em janeiro/2027 para decidir se vale escalar rumo a 5 mil ou 10 mil, já com o funil de social selling rodando.
 
-## 6. Plano de conteúdo orgânico (reduz a dependência de aumentar verba)
+## 5. Plano de conteúdo orgânico (reduz a dependência de aumentar verba)
 
-**Situação atual:** carrossel 2x/semana (cai para menos quando não sobra produção), cortes do Elevacast até 4x/semana quando há episódio novo, Stories usados hoje só para repostar o feed, os cortes, e vídeos pontuais de pitch de venda de curso. O Giu está no início do hábito de aparecer em vídeo e tem agenda muito concorrida (não usava Instagram antes da Eleva).
+**Situação atual:** nas semanas com corte do Elevacast, são 5 cortes + 1 carrossel por semana no feed; nas semanas sem corte, são 2 carrosséis/posts estáticos por semana no feed. Stories usados hoje só para repostar o feed, os cortes, e vídeos pontuais de pitch de venda de curso. O Giu está no início do hábito de aparecer em vídeo e tem agenda muito concorrida (não usava Instagram antes da Eleva).
 
 **Calendário de Stories proposto** (rotina leve, viável dentro da agenda do Giu):
 
@@ -86,7 +76,7 @@ Dias restantes até 31/12/2026 a partir de hoje: 140. Custo por seguidor na base
 | 1x por semana (dia flexível) | Vídeo do Giu contando um caso real e como ajudou a resolver — formato curto e repetível (problema → o que ele fez → resultado, 30-45s) | Giu grava bruto → RECRIA edita |
 | 1x por semana | Caixinha de pergunta, ligada a um tema do carrossel da semana ou dor comum do público | RECRIA |
 | 1x por semana | Repost de conteúdo do feed | RECRIA |
-| Algumas vezes por semana | Convite para o grupo do WhatsApp (Rubeleva) | RECRIA |
+| Algumas vezes por semana | Convite para o grupo do WhatsApp (Hub Eleva - Síndicos de Alta Performance) | RECRIA |
 | Algumas vezes por semana | Link para artigo do blog da Eleva | RECRIA |
 | Quando houver | Prova social (depoimento, case, resultado de aluno) — ainda não existe banco de prova social, adicionar assim que surgir | RECRIA |
 
@@ -94,20 +84,19 @@ Dias restantes até 31/12/2026 a partir de hoje: 140. Custo por seguidor na base
 - Um único vídeo do Giu por semana já resolve o gargalo identificado nos dados (seção 3): o engajamento hoje vem muito de quem já segue, e rosto/voz reais tendem a gerar mais conexão com quem ainda não segue — sem exigir dedicação diária dele.
 - Caixinha de pergunta e enquete são os formatos de Stories mais baratos para aumentar alcance orgânico (o Instagram prioriza Stories interativos) e geram, ao mesmo tempo, sinal direto para o comercial fazer social selling nos comentários e DMs.
 - O formato fixo do "vídeo de caso resolvido" reduz o atrito de gravação (ele só precisa contar mais um caso, não criar um roteiro novo) e já funciona como prova social própria, mesmo antes de existir um banco de depoimentos de terceiros.
-- Convite ao Rubeleva e link de blog aproveitam produção que já existe, sem custo extra de criação.
+- Convite ao Hub Eleva - Síndicos de Alta Performance e link de blog aproveitam produção que já existe, sem custo extra de criação.
 
-**Carrossel do feed:** manter o ritmo de 2x/semana está ok para o momento. Se sobrar produção nas semanas sem corte do Elevacast, subir para 3x ajuda a manter a cadência de alcance, mas não é urgente.
+**Carrossel/post estático do feed:** manter o ritmo de 5 cortes + 1 carrossel por semana quando há Elevacast, e 2 carrosséis/posts estáticos por semana quando não há, está ok para o momento.
 
-## 7. Continuidade do social selling (comercial)
+## 6. Continuidade do social selling (comercial)
 
-Independente do cenário de investimento escolhido, a orientação é manter o comercial (Jesse) atuando em social selling à medida que a base de seguidores cresce: acompanhar quem interage com os Stories interativos (enquete/caixinha de pergunta) e com o vídeo semanal do Giu, e abordar esses leads engajados para a Sessão Estratégica, priorizando a oferta do diagnóstico (~R$4 mil) como produto-ponte antes da mentoria (R$15 mil). Esse fluxo não depende de aumento de verba — depende do volume de seguidores engajados, que cresce com o plano de conteúdo da seção 6 e com o cenário de investimento escolhido na seção 5.
+Independente do cenário de investimento escolhido, a orientação é manter o comercial (Jessie) atuando em social selling à medida que a base de seguidores cresce: acompanhar quem interage com os Stories interativos (enquete/caixinha de pergunta) e com o vídeo semanal do Giu, e abordar esses leads engajados para a Sessão Estratégica, priorizando a oferta do diagnóstico (~R$4 mil) como produto-ponte antes da mentoria (R$15 mil). Esse fluxo não depende de aumento de verba — depende do volume de seguidores engajados, que cresce com o plano de conteúdo da seção 5 e com o cenário de investimento escolhido na seção 4.
 
-## 8. Recomendação para a reunião com o Giu
+## 7. Recomendação para a reunião com o Giu
 
 1. Confirmar a esteira de produtos e o gargalo da Sessão Estratégica (seção 2) como pano de fundo da decisão.
 2. Alinhar a base real: 1.472 seguidores hoje.
 3. Apresentar os 3 cenários de meta (3 mil / 5 mil / 10 mil) e recomendar **3 mil seguidores até dezembro/2026**, com aumento de +R$50/dia — coerente com o momento de "plantar sem gastar muito".
-4. Corrigir a segmentação geográfica (Irã) antes de qualquer aumento de verba — passo sem custo adicional.
-5. Aprovar o calendário de Stories da seção 6, com apenas 1 gravação semanal do Giu.
-6. Confirmar que o comercial (Jesse) segue em social selling sobre os seguidores mais engajados, com o diagnóstico como produto-ponte.
-7. Reavaliar em janeiro/2027 se há espaço para escalar rumo a 5 mil ou 10 mil seguidores, já com a segmentação corrigida e o funil de social selling validado.
+4. Aprovar o calendário de Stories da seção 5, com apenas 1 gravação semanal do Giu.
+5. Confirmar que o comercial (Jessie) segue em social selling sobre os seguidores mais engajados, com o diagnóstico como produto-ponte.
+6. Reavaliar em janeiro/2027 se há espaço para escalar rumo a 5 mil ou 10 mil seguidores, já com o funil de social selling validado.
