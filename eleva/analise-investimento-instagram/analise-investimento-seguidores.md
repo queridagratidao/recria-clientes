@@ -35,6 +35,8 @@ O ritmo está acelerando (de 2,7 para 3,83 seguidores/dia), o que é esperado à
 - Interações com o conteúdo: apenas 450 (+1,6%) — o anúncio está gerando alcance em escala, mas conversão em curtida/comentário/salvamento é baixa (~0,85% do alcance)
 - Alcance por não-seguidores: 131.460 (+248,4%) vs. por seguidores: 7.040 (-12,5%) — bom sinal para aquisição, o anúncio está mesmo entregando pra fora da base atual
 
+**Churn e origem das interações (últimos 28 dias):** dos 114 seguidores líquidos ganhos, 10 deixaram de seguir no mesmo período — o ganho bruto foi maior, o número líquido já desconta esse churn. Além disso, das interações com o conteúdo, 61% vêm de quem já segue a conta e só 39% de quem não segue — mesmo o alcance sendo dominado por não-seguidores (52.916 de não-seguidores vs. 404 de seguidores). Ou seja: o conteúdo engaja bem quem já é público, mas converte pouco do alcance pago/novo em interação e, por consequência, em novo seguidor. Reforça a recomendação da seção 6 de investir em melhorar o criativo/gancho, não só a verba.
+
 **Avaliação comparativa (benchmark do próprio Instagram, últimos 28 dias):** mesmo na categoria genérica em que o Instagram enquadrou a conta ("Lojas de produtos pessoais e mercadorias em geral" — não é o nicho real da Eleva, é só a aproximação disponível na ferramenta), a Eleva ganhou 114 seguidores contra uma média de 39 seguidores de contas comparáveis no período — desempenho **~3x acima do normal da categoria**. É um sinal de que a operação atual (conteúdo + investimento) já está performando bem acima da média, o que é argumento a favor de escalar com mais confiança, uma vez corrigido o ponto da seção 3.
 
 ## 3. Ponto de atenção antes de aumentar o investimento
