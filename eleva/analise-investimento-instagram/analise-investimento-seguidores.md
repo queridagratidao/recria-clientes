@@ -35,6 +35,8 @@ O ritmo está acelerando (de 2,7 para 3,83 seguidores/dia), o que é esperado à
 - Interações com o conteúdo: apenas 450 (+1,6%) — o anúncio está gerando alcance em escala, mas conversão em curtida/comentário/salvamento é baixa (~0,85% do alcance)
 - Alcance por não-seguidores: 131.460 (+248,4%) vs. por seguidores: 7.040 (-12,5%) — bom sinal para aquisição, o anúncio está mesmo entregando pra fora da base atual
 
+**Avaliação comparativa (benchmark do próprio Instagram, últimos 28 dias):** mesmo na categoria genérica em que o Instagram enquadrou a conta ("Lojas de produtos pessoais e mercadorias em geral" — não é o nicho real da Eleva, é só a aproximação disponível na ferramenta), a Eleva ganhou 114 seguidores contra uma média de 39 seguidores de contas comparáveis no período — desempenho **~3x acima do normal da categoria**. É um sinal de que a operação atual (conteúdo + investimento) já está performando bem acima da média, o que é argumento a favor de escalar com mais confiança, uma vez corrigido o ponto da seção 3.
+
 ## 3. Ponto de atenção antes de aumentar o investimento
 
 No detalhamento de público (Insights > Público > Principais cidades/países), o Irã aparece com **20% do público**, e uma cidade iraniana ("Mexed, Coração Razavi, Irã") é a **2ª cidade que mais aparece, com 5%** — atrás apenas de Porto Alegre. Brasil representa 61,1% do público total.
