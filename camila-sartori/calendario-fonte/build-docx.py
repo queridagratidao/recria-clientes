@@ -170,7 +170,7 @@ def field_p(cell, label, text, color=None, size=10, italic=False, emoji=None):
 def post_card(time, channel, tipo, formato, headline, subheadline, cta,
               legenda=None, ancoragem=None, persona=None, hashtags=None, origem=None,
               cards=None, card_final=None, observacao=None, cenario=None,
-              label_legenda="LEGENDA:", acoes=None):
+              label_legenda="LEGENDA:", acoes=None, trechos=None):
     cell = begin_post_box(time, channel, tipo)
 
     if origem:
@@ -196,6 +196,12 @@ def post_card(time, channel, tipo, formato, headline, subheadline, cta,
             field_p(cell, "HEADLINE:", headline, size=10.5)
         if subheadline:
             field_p(cell, "SUBHEADLINE:", subheadline, size=9.5)
+        if trechos:
+            p = cell.add_paragraph()
+            p.paragraph_format.space_after = Pt(4)
+            add_run(p, "ROTEIRO (teleprompter):", bold=True, size=9.5)
+            for i, t in enumerate(trechos, start=1):
+                card_paragraph(cell, "TRECHO %d" % i, [(None, t)], label_color=GRAY)
         if cta:
             field_p(cell, "CTA:", cta, color=ORANGE, size=9.5)
         if acoes:
