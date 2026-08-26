@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Insegurança Emocional</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Nunito:ital,wght@0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --rosa-claro:#fbeef7;
+    --lilas-claro:#f2e6f7;
+    --branco:#ffffff;
+    --magenta:#9c1256;
+    --magenta-escuro:#6e0e3d;
+    --roxo-profundo:#5a1042;
+    --rosa-bonus:#f3d2ec;
+    --texto:#3a2233;
+    --texto-claro:#6b4b60;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    font-family:'Nunito',sans-serif;
+    color:var(--texto);
+    background:var(--branco);
+    width:1600px;
+  }
+  .page{
+    background:linear-gradient(180deg,var(--lilas-claro) 0%, var(--rosa-claro) 55%, #fff 100%);
+    padding:40px 40px 0 40px;
+  }
+  .grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:24px;
+  }
+  .card{
+    background:#fff;
+    border-radius:18px;
+    padding:28px 26px;
+    box-shadow:0 4px 18px rgba(90,16,66,.08);
+  }
+  .flower{
+    text-align:center;
+    font-size:26px;
+    color:var(--magenta);
+    margin-bottom:6px;
+  }
+  h1{
+    font-family:'Quicksand',sans-serif;
+    font-weight:700;
+    font-size:1.7rem;
+    color:var(--roxo-profundo);
+    text-align:center;
+    line-height:1.25;
+  }
+  .tag{
+    text-align:center;
+    color:var(--magenta);
+    font-weight:600;
+    font-size:.95rem;
+    margin:6px 0 18px 0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+  }
+  .tag .rule{flex:1;max-width:40px;height:1px;background:var(--rosa-bonus);}
+  h2{
+    font-family:'Quicksand',sans-serif;
+    font-weight:700;
+    font-size:1.35rem;
+    color:var(--magenta-escuro);
+    text-align:center;
+    margin-bottom:14px;
+  }
+  p.lead{
+    font-size:.92rem;
+    line-height:1.55;
+    color:var(--texto);
+    text-align:center;
+    margin-bottom:14px;
+  }
+  .subtitulo{
+    background:var(--rosa-claro);
+    color:var(--magenta-escuro);
+    font-weight:700;
+    font-size:.88rem;
+    text-align:center;
+    padding:8px;
+    border-radius:8px;
+    margin-bottom:12px;
+  }
+  ul.list{list-style:none;}
+  ul.list li{
+    display:flex;
+    gap:10px;
+    align-items:flex-start;
+    font-size:.9rem;
+    line-height:1.5;
+    padding:7px 0;
+    border-bottom:1px solid var(--rosa-claro);
+  }
+  ul.list li:last-child{border-bottom:none;}
+  .icon-heart{color:var(--magenta);flex-shrink:0;font-size:1rem;line-height:1.5;}
+  .box-final{
+    background:var(--rosa-claro);
+    border-radius:12px;
+    padding:14px 16px;
+    margin-top:16px;
+    font-size:.88rem;
+    line-height:1.5;
+    color:var(--texto);
+    display:flex;
+    gap:10px;
+    align-items:flex-start;
+  }
+  .box-final .heart-out{color:var(--magenta);font-size:1.1rem;}
+  .origem-item{
+    display:flex;
+    gap:14px;
+    align-items:flex-start;
+    padding:12px 0;
+    border-bottom:1px solid var(--rosa-claro);
+  }
+  .origem-item:last-of-type{border-bottom:none;}
+  .origem-icon{
+    width:44px;height:44px;border-radius:50%;
+    border:2px solid var(--rosa-bonus);
+    display:flex;align-items:center;justify-content:center;
+    color:var(--magenta);font-size:1.2rem;flex-shrink:0;
+  }
+  .origem-item span.txt{font-size:.9rem;line-height:1.5;padding-top:6px;}
+  .reflexao-sub{
+    text-align:center;
+    font-size:.92rem;
+    color:var(--texto-claro);
+    margin-bottom:16px;
+    line-height:1.45;
+  }
+  .areas{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:10px;
+    margin-bottom:16px;
+  }
+  .area-box{
+    background:var(--rosa-claro);
+    border-radius:10px;
+    text-align:center;
+    padding:14px 6px;
+    font-size:.72rem;
+    font-weight:700;
+    color:var(--magenta-escuro);
+  }
+  .area-box .emoji{font-size:1.4rem;display:block;margin-bottom:6px;}
+  .escolha-txt{font-size:.88rem;line-height:1.5;margin-bottom:12px;}
+  .pergunta-box{
+    background:var(--magenta);
+    color:#fff;
+    border-radius:12px;
+    padding:16px 18px;
+    font-family:'Quicksand',sans-serif;
+    font-weight:600;
+    font-size:1rem;
+    text-align:center;
+    line-height:1.4;
+    margin-bottom:14px;
+    position:relative;
+  }
+  .obs-final{font-size:.85rem;line-height:1.5;color:var(--texto-claro);}
+  .footer{
+    margin-top:36px;
+    background:var(--magenta);
+    color:#fff;
+    text-align:center;
+    padding:22px;
+    font-family:'Quicksand',sans-serif;
+    font-weight:700;
+    font-size:1.1rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="grid">
+
+    <!-- CARD 1 -->
+    <div class="card">
+      <div class="flower">✿</div>
+      <h1>INSEGURANÇA<br>EMOCIONAL</h1>
+      <div class="tag"><span class="rule"></span> o que é? <span class="rule"></span></div>
+      <p class="lead">A insegurança emocional é aquela sensação interna de instabilidade, dúvida ou medo que nos faz questionar nosso valor, nossas escolhas ou a estabilidade das relações.</p>
+      <div class="subtitulo">Ela pode se manifestar quando:</div>
+      <ul class="list">
+        <li><span class="icon-heart">♡</span>você precisa de confirmação constante;</li>
+        <li><span class="icon-heart">♡</span>tem dificuldade de dizer não por medo de desagradar;</li>
+        <li><span class="icon-heart">♡</span>se preocupa excessivamente com o que os outros pensam;</li>
+        <li><span class="icon-heart">♡</span>qualquer mudança no comportamento do outro desperta medo, dúvidas ou necessidade de entender o que está acontecendo.</li>
+      </ul>
+      <div class="box-final">
+        <span class="heart-out">♡</span>
+        <span>Não significa "ser insegura". É um padrão que aprendemos ao longo da vida — e que podemos transformar.</span>
+      </div>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="card">
+      <div class="flower">✿</div>
+      <h2 style="font-size:1.5rem;">DE ONDE ELA PODE VIR?</h2>
+      <p class="lead">A insegurança emocional não surge do nada. Ela pode ser construída ao longo da nossa história a partir de experiências como:</p>
+
+      <div class="origem-item">
+        <div class="origem-icon">⌂</div>
+        <span class="txt">relações nas quais nossas necessidades emocionais não foram suficientemente acolhidas;</span>
+      </div>
+      <div class="origem-item">
+        <div class="origem-icon">💬</div>
+        <span class="txt">críticas, rejeições ou experiências de desvalorização;</span>
+      </div>
+      <div class="origem-item">
+        <div class="origem-icon">💔</div>
+        <span class="txt">relações amorosas marcadas por instabilidade;</span>
+      </div>
+      <div class="origem-item">
+        <div class="origem-icon">👥</div>
+        <span class="txt">experiências em que aprendemos a depender muito da aprovação dos outros;</span>
+      </div>
+      <div class="origem-item">
+        <div class="origem-icon">◎</div>
+        <span class="txt">situações que fizeram com que passássemos a duvidar da nossa capacidade de lidar com as coisas.</span>
+      </div>
+
+      <div class="box-final">
+        <span>Isso não significa que exista uma única causa, ou que o passado determine quem somos hoje. Compreender esse processo pode ser o primeiro passo para construir novas escolhas.</span>
+        <span class="heart-out">♡</span>
+      </div>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="card">
+      <div class="flower">✿</div>
+      <h2 style="font-size:1.5rem;">REFLEXÃO INICIAL</h2>
+      <p class="reflexao-sub">Em qual área da sua vida você percebe mais insegurança?</p>
+
+      <div class="areas">
+        <div class="area-box"><span class="emoji">♡</span>Relacionamentos amorosos</div>
+        <div class="area-box"><span class="emoji">👥</span>Relações de amizade</div>
+        <div class="area-box"><span class="emoji">💼</span>Trabalho e estudos</div>
+        <div class="area-box"><span class="emoji">🔍</span>Autoimagem e autoestima</div>
+        <div class="area-box"><span class="emoji">💬</span>Dificuldade de se posicionar</div>
+        <div class="area-box"><span class="emoji">🧭</span>Tomada de decisões</div>
+        <div class="area-box"><span class="emoji">🛡️</span>Medo de rejeição ou abandono</div>
+        <div class="area-box"><span class="emoji">…</span>Outra área</div>
+      </div>
+
+      <p class="escolha-txt">Escolha uma dessas áreas — ou outra que faça sentido para você. E se pergunte:</p>
+
+      <div class="pergunta-box">
+        "O que eu costumo pensar, sentir ou fazer quando me sinto insegura nessa situação?"
+      </div>
+
+      <p class="obs-final">Não precisa responder agora. Apenas observe. O primeiro passo para mudar um padrão é conseguir reconhecê-lo.</p>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <span>📷</span> @psicamilanosartori
+  </div>
+</div>
+</body>
+</html>
