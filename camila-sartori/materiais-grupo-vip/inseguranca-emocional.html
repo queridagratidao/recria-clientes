@@ -182,10 +182,38 @@
     justify-content:center;
     gap:10px;
   }
+  .top-tag{
+    display:flex;
+    justify-content:center;
+    gap:14px;
+    margin-bottom:24px;
+    flex-wrap:wrap;
+  }
+  .tag-pill{
+    font-family:'Quicksand',sans-serif;
+    font-weight:700;
+    font-size:.85rem;
+    padding:9px 20px;
+    border-radius:999px;
+    text-align:center;
+  }
+  .tag-exclusivo{
+    background:var(--roxo-profundo);
+    color:#fff;
+  }
+  .tag-atividade{
+    background:#fff;
+    color:var(--magenta-escuro);
+    border:2px solid var(--magenta);
+  }
 </style>
 </head>
 <body>
 <div class="page">
+  <div class="top-tag">
+    <div class="tag-pill tag-exclusivo">Conteúdo exclusivo · Comunidade Donas de Si</div>
+    <div class="tag-pill tag-atividade">Atividade 1 · Autoconhecimento</div>
+  </div>
   <div class="grid">
 
     <!-- CARD 1 -->
@@ -269,7 +297,7 @@
   </div>
 
   <div class="footer">
-    <span>📷</span> @psicamilanosartori
+    <span>📷</span> @psicamilasartori
   </div>
 </div>
 </body>
