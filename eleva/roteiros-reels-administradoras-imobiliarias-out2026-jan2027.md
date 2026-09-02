@@ -42,6 +42,8 @@
 
 [PONTE] A pergunta certa não é "quanto vale hoje?", é "o que eu faço para que valha o dobro em três anos?".
 
+[SOLUÇÃO] Já ajudei diversos executivos a descobrir esse número e a construir um plano pra multiplicá-lo. Também posso ajudar no seu negócio, através de uma sessão estratégica, um diagnóstico ou uma mentoria.
+
 [CTA] Comente SESSÃO que eu te explico no direct como agendar. Nessa sessão estratégica, eu entendo o cenário e os gargalos do seu negócio, e te oriento se o caminho é um diagnóstico ou uma mentoria comigo. Ou agende direto pelo link da bio.
 
 **LEGENDA (pronta para publicar)**
@@ -49,6 +51,8 @@
 Dono de administradora ou imobiliária: quanto vale a sua empresa hoje?
 
 Se a resposta for um chute baseado no faturamento, você está pensando na empresa como renda mensal — não como um patrimônio que se mede e se constrói. A pergunta certa não é "quanto vale hoje?". É "o que eu faço para que valha o dobro em três anos?".
+
+Já ajudei diversos executivos a descobrir esse número e a construir um plano pra multiplicá-lo. Também posso ajudar no seu negócio, através de uma sessão estratégica, um diagnóstico ou uma mentoria.
 
 Sou Giuliano Spolavori, fundador da Eleva Expansão Estratégica. São mais de 35 anos no mercado condominial e imobiliário, em que estive à frente de uma das maiores administradoras de condomínios e imóveis do país — mais de 2.200 condomínios sob gestão, mais de 8.000 imóveis alugados, mais de 110 mil unidades e mais de 20 operações de M&A realizadas.
 
@@ -72,6 +76,8 @@ Comente "SESSÃO" que eu te explico no direct como agendar. Nessa sessão estrat
 
 [PONTE] A saída é decompor a margem por contrato, por segmento e por canal, e decidir com número, não com sensação.
 
+[SOLUÇÃO] Já ajudei vários executivos a identificar exatamente quais contratos estavam sangrando a operação e a corrigir isso. Também posso ajudar no seu negócio, através de uma sessão estratégica, um diagnóstico ou uma mentoria.
+
 [CTA] Comente SESSÃO que eu te explico no direct como agendar. Nessa sessão estratégica, eu entendo o cenário e os gargalos do seu negócio, e te oriento se o caminho é um diagnóstico ou uma mentoria comigo. Ou agende direto pelo link da bio.
 
 **LEGENDA (pronta para publicar)**
@@ -79,6 +85,8 @@ Comente "SESSÃO" que eu te explico no direct como agendar. Nessa sessão estrat
 Uma administradora ou imobiliária pode fechar o ano no azul e, ainda assim, estar perdendo dinheiro em uma parcela significativa da carteira. O resultado agregado esconde contratos deficitários: os clientes lucrativos subsidiam os que dão prejuízo.
 
 A saída é decompor a margem por contrato, segmento e canal.
+
+Já ajudei vários executivos a identificar exatamente quais contratos estavam sangrando a operação e a corrigir isso. Também posso ajudar no seu negócio, através de uma sessão estratégica, um diagnóstico ou uma mentoria.
 
 Sou Giuliano Spolavori, fundador da Eleva Expansão Estratégica. São mais de 35 anos no mercado condominial e imobiliário, em que estive à frente de uma das maiores administradoras de condomínios e imóveis do país — mais de 2.200 condomínios sob gestão, mais de 8.000 imóveis alugados, mais de 110 mil unidades e mais de 20 operações de M&A realizadas.
 
@@ -102,6 +110,8 @@ Comente "SESSÃO" que eu te explico no direct como agendar. Nessa sessão estrat
 
 [PONTE] Um olhar externo estruturado revela em semanas o que a rotina esconde há anos, e transforma essa clareza em prioridades e num plano de ação para a sua empresa.
 
+[SOLUÇÃO] Já conduzi esse tipo de diagnóstico para dezenas de executivos do setor. Também posso ajudar no seu negócio, através de uma sessão estratégica, um diagnóstico ou uma mentoria.
+
 [CTA] Comente SESSÃO que eu te explico no direct como agendar. Nessa sessão estratégica, eu entendo o cenário e os gargalos do seu negócio, e te oriento se o caminho é um diagnóstico ou uma mentoria comigo. Ou agende direto pelo link da bio.
 
 **LEGENDA (pronta para publicar)**
@@ -109,6 +119,8 @@ Comente "SESSÃO" que eu te explico no direct como agendar. Nessa sessão estrat
 Dono de administradora ou imobiliária: existem problemas na sua operação que você não consegue enxergar de dentro — não por falta de competência, mas por excesso de proximidade.
 
 Em quase todos os diagnósticos que eu conduzo, os mesmos pontos cegos aparecem: receita que fica na mesa, processos que dependem de pessoas específicas e decisões tomadas sem indicadores. Um olhar externo estruturado revela em semanas o que a rotina esconde há anos, e transforma essa clareza em prioridades e num plano de ação para a sua empresa.
+
+Já conduzi esse tipo de diagnóstico para dezenas de executivos do setor. Também posso ajudar no seu negócio, através de uma sessão estratégica, um diagnóstico ou uma mentoria.
 
 Sou Giuliano Spolavori, fundador da Eleva Expansão Estratégica. São mais de 35 anos no mercado condominial e imobiliário, em que estive à frente de uma das maiores administradoras de condomínios e imóveis do país — mais de 2.200 condomínios sob gestão, mais de 8.000 imóveis alugados, mais de 110 mil unidades e mais de 20 operações de M&A realizadas.
 
@@ -132,6 +144,8 @@ Comente "SESSÃO" que eu te explico no direct como agendar. Nessa sessão estrat
 
 [PONTE] Quem escolhe com antecedência negocia em posição de força; quem é surpreendido costuma apenas aceitar. Definir a sua posição, e conduzir a operação com segurança, é exatamente o meu terreno de atuação.
 
+[SOLUÇÃO] Já acompanhei diversos executivos nesse tipo de decisão, negociando compra, fusão ou venda sem ter certeza se era o melhor caminho. Também posso ajudar no seu negócio a tomar a decisão mais assertiva, através de uma sessão estratégica, um diagnóstico ou uma mentoria.
+
 [CTA] Comente SESSÃO que eu te explico no direct como agendar. Nessa sessão estratégica, eu entendo o cenário e os gargalos do seu negócio, e te oriento se o caminho é um diagnóstico ou uma mentoria comigo. Ou agende direto pelo link da bio.
 
 **LEGENDA (pronta para publicar)**
@@ -139,6 +153,8 @@ Comente "SESSÃO" que eu te explico no direct como agendar. Nessa sessão estrat
 Dono de administradora ou imobiliária: o mercado está se consolidando ao seu redor — decida você participar ou não.
 
 Nesse cenário, os caminhos são compra, fusão ou venda. Escolhas legítimas; o risco está em não escolher e deixar que o mercado escolha por você. Quem escolhe com antecedência negocia em posição de força; quem é surpreendido costuma apenas aceitar. Definir a sua posição, avaliar a sua empresa e conduzir a operação com segurança é exatamente onde eu posso ajudar.
+
+Já acompanhei diversos executivos nesse tipo de decisão, negociando compra, fusão ou venda sem ter certeza se era o melhor caminho. Também posso ajudar no seu negócio a tomar a decisão mais assertiva, através de uma sessão estratégica, um diagnóstico ou uma mentoria.
 
 Sou Giuliano Spolavori, fundador da Eleva Expansão Estratégica. São mais de 35 anos no mercado condominial e imobiliário, em que estive à frente de uma das maiores administradoras de condomínios e imóveis do país — mais de 2.200 condomínios sob gestão, mais de 8.000 imóveis alugados, mais de 110 mil unidades e mais de 20 operações de M&A realizadas.
 
@@ -162,6 +178,8 @@ Comente "SESSÃO" que eu te explico no direct como agendar. Nessa sessão estrat
 
 [PONTE] O que separa opção de pressão é o tempo de preparo. Conduzir esse processo com antecedência, com um olhar externo e isento, é exatamente onde eu posso te ajudar.
 
+[SOLUÇÃO] Já ajudei executivos a estruturar esse tipo de transição, seja sucessão, fusão ou expansão. Também posso ajudar no seu negócio, através de uma sessão estratégica, um diagnóstico ou uma mentoria.
+
 [CTA] Comente SESSÃO que eu te explico no direct como agendar. Nessa sessão estratégica, eu entendo o cenário e os gargalos do seu negócio, e te oriento se o caminho é um diagnóstico ou uma mentoria comigo. Ou agende direto pelo link da bio.
 
 **LEGENDA (pronta para publicar)**
@@ -169,6 +187,8 @@ Comente "SESSÃO" que eu te explico no direct como agendar. Nessa sessão estrat
 Dono de administradora ou imobiliária: a sua empresa está preparada para o futuro — com ou sem você na operação do dia a dia?
 
 Mais cedo ou mais tarde, a empresa chega a essa encruzilhada: preparar a sucessão, avaliar uma fusão, seguir expandindo com uma gestão que não dependa de uma pessoa só, ou, se for a sua escolha, uma venda bem negociada. Preparadas com anos de antecedência, essas escolhas acontecem nos seus termos. Adiadas, acontecem nos termos do mercado. O que separa opção de pressão é o tempo de preparo, e um olhar externo e isento.
+
+Já ajudei executivos a estruturar esse tipo de transição, seja sucessão, fusão ou expansão. Também posso ajudar no seu negócio, através de uma sessão estratégica, um diagnóstico ou uma mentoria.
 
 Sou Giuliano Spolavori, fundador da Eleva Expansão Estratégica. São mais de 35 anos no mercado condominial e imobiliário, em que estive à frente de uma das maiores administradoras de condomínios e imóveis do país — mais de 2.200 condomínios sob gestão, mais de 8.000 imóveis alugados, mais de 110 mil unidades e mais de 20 operações de M&A realizadas.
 
@@ -192,6 +212,8 @@ Comente "SESSÃO" que eu te explico no direct como agendar. Nessa sessão estrat
 
 [PONTE] Expansão se desenha antes de se executar: direção, modelo, equipe e capital, nessa ordem. Escolher o caminho com método, e não por instinto, é exatamente onde eu posso te ajudar.
 
+[SOLUÇÃO] Já ajudei diversos executivos a desenhar esse tipo de expansão com método antes de executar. Também posso ajudar no seu negócio, através de uma sessão estratégica, um diagnóstico ou uma mentoria.
+
 [CTA] Comente SESSÃO que eu te explico no direct como agendar. Nessa sessão estratégica, eu entendo o cenário e os gargalos do seu negócio, e te oriento se o caminho é um diagnóstico ou uma mentoria comigo. Ou agende direto pelo link da bio.
 
 **LEGENDA (pronta para publicar)**
@@ -199,6 +221,8 @@ Comente "SESSÃO" que eu te explico no direct como agendar. Nessa sessão estrat
 Dono de administradora ou imobiliária: expandir apenas por instinto costuma sair muito caro.
 
 Expansão tem mais de um caminho: uma nova praça, uma nova vertical de serviços, uma aquisição. A que dá errado quase nunca falha na ambição; falha no preparo — o caminho errado, no momento errado, com a operação de origem ainda frágil. Expansão se desenha antes de se executar: direção, modelo, equipe e capital, nessa ordem.
+
+Já ajudei diversos executivos a desenhar esse tipo de expansão com método antes de executar. Também posso ajudar no seu negócio, através de uma sessão estratégica, um diagnóstico ou uma mentoria.
 
 Sou Giuliano Spolavori, fundador da Eleva Expansão Estratégica. São mais de 35 anos no mercado condominial e imobiliário, em que estive à frente de uma das maiores administradoras de condomínios e imóveis do país — mais de 2.200 condomínios sob gestão, mais de 8.000 imóveis alugados, mais de 110 mil unidades e mais de 20 operações de M&A realizadas.
 
