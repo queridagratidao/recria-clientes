@@ -11,10 +11,10 @@
 3. Bloco de abertura, tensão, autoridade e ponte de cada roteiro **mantidos como o Giuliano escreveu**, só o fechamento (CTA) foi padronizado.
 
 **CTA final, usado nos 6 roteiros (locução):**
-> Comente SESSÃO que eu te explico os detalhes no direct. Numa sessão de uma hora, eu entendo o cenário e os gargalos do seu negócio, e te oriento se o caminho certo é um diagnóstico ou uma mentoria comigo. Se preferir, acesse pelo link da bio.
+> Comente SESSÃO que eu te explico no direct como agendar. Nessa sessão, eu entendo o cenário e os gargalos do seu negócio, e te oriento se o caminho é um diagnóstico ou uma mentoria comigo. Ou agende direto pelo link da bio.
 
 **CTA final, usado nos 6 roteiros (legenda):**
-> Comente "SESSÃO" que eu te explico os detalhes no direct. Numa sessão de uma hora, entendo o cenário do seu negócio e te oriento se o caminho é um diagnóstico ou uma mentoria comigo. Se preferir, acesse pelo link da bio.
+> Comente "SESSÃO" que eu te explico no direct como agendar. Nessa sessão, entendo o cenário do seu negócio e te oriento se o caminho é um diagnóstico ou uma mentoria comigo. Ou agende direto pelo link da bio.
 
 **Bloco de autoridade travado (usar exatamente, não parafrasear):**
 
@@ -42,7 +42,7 @@
 
 [PONTE] A pergunta certa não é "quanto vale hoje?", é "o que eu faço para que valha o dobro em três anos?".
 
-[CTA] Comente SESSÃO que eu te explico os detalhes no direct. Numa sessão de uma hora, eu entendo o cenário e os gargalos do seu negócio, e te oriento se o caminho certo é um diagnóstico ou uma mentoria comigo. Se preferir, acesse pelo link da bio.
+[CTA] Comente SESSÃO que eu te explico no direct como agendar. Nessa sessão, eu entendo o cenário e os gargalos do seu negócio, e te oriento se o caminho é um diagnóstico ou uma mentoria comigo. Ou agende direto pelo link da bio.
 
 **LEGENDA (pronta para publicar)**
 
@@ -52,7 +52,7 @@ Se a resposta for um chute baseado no faturamento, você está pensando na empre
 
 Sou Giuliano Spolavori, fundador da Eleva Expansão Estratégica. São mais de 35 anos no mercado condominial e imobiliário, em que estive à frente de uma das maiores administradoras de condomínios e imóveis do país — mais de 2.200 condomínios sob gestão, mais de 8.000 imóveis alugados, mais de 110 mil unidades e mais de 20 operações de M&A realizadas.
 
-Comente "SESSÃO" que eu te explico os detalhes no direct. Numa sessão de uma hora, entendo o cenário do seu negócio e te oriento se o caminho é um diagnóstico ou uma mentoria comigo. Se preferir, acesse pelo link da bio.
+Comente "SESSÃO" que eu te explico no direct como agendar. Nessa sessão, entendo o cenário do seu negócio e te oriento se o caminho é um diagnóstico ou uma mentoria comigo. Ou agende direto pelo link da bio.
 
 #administradoradecondominios #imobiliaria #gestaoimobiliaria
 
@@ -72,7 +72,7 @@ Comente "SESSÃO" que eu te explico os detalhes no direct. Numa sessão de uma h
 
 [PONTE] A saída é decompor a margem por contrato, por segmento e por canal, e decidir com número, não com sensação.
 
-[CTA] Comente SESSÃO que eu te explico os detalhes no direct. Numa sessão de uma hora, eu entendo o cenário e os gargalos do seu negócio, e te oriento se o caminho certo é um diagnóstico ou uma mentoria comigo. Se preferir, acesse pelo link da bio.
+[CTA] Comente SESSÃO que eu te explico no direct como agendar. Nessa sessão, eu entendo o cenário e os gargalos do seu negócio, e te oriento se o caminho é um diagnóstico ou uma mentoria comigo. Ou agende direto pelo link da bio.
 
 **LEGENDA (pronta para publicar)**
 
@@ -82,7 +82,7 @@ A saída é decompor a margem por contrato, segmento e canal.
 
 Sou Giuliano Spolavori, fundador da Eleva Expansão Estratégica. São mais de 35 anos no mercado condominial e imobiliário, em que estive à frente de uma das maiores administradoras de condomínios e imóveis do país — mais de 2.200 condomínios sob gestão, mais de 8.000 imóveis alugados, mais de 110 mil unidades e mais de 20 operações de M&A realizadas.
 
-Comente "SESSÃO" que eu te explico os detalhes no direct. Numa sessão de uma hora, entendo o cenário do seu negócio e te oriento se o caminho é um diagnóstico ou uma mentoria comigo. Se preferir, acesse pelo link da bio.
+Comente "SESSÃO" que eu te explico no direct como agendar. Nessa sessão, entendo o cenário do seu negócio e te oriento se o caminho é um diagnóstico ou uma mentoria comigo. Ou agende direto pelo link da bio.
 
 #administradoradecondominios #imobiliaria #gestaoimobiliaria
 
@@ -102,7 +102,7 @@ Comente "SESSÃO" que eu te explico os detalhes no direct. Numa sessão de uma h
 
 [PONTE] Um olhar externo estruturado revela em semanas o que a rotina esconde há anos, e transforma essa clareza em prioridades e num plano de ação para a sua empresa.
 
-[CTA] Comente SESSÃO que eu te explico os detalhes no direct. Numa sessão de uma hora, eu entendo o cenário e os gargalos do seu negócio, e te oriento se o caminho certo é um diagnóstico ou uma mentoria comigo. Se preferir, acesse pelo link da bio.
+[CTA] Comente SESSÃO que eu te explico no direct como agendar. Nessa sessão, eu entendo o cenário e os gargalos do seu negócio, e te oriento se o caminho é um diagnóstico ou uma mentoria comigo. Ou agende direto pelo link da bio.
 
 **LEGENDA (pronta para publicar)**
 
@@ -112,7 +112,7 @@ Em quase todos os diagnósticos que eu conduzo, os mesmos pontos cegos aparecem:
 
 Sou Giuliano Spolavori, fundador da Eleva Expansão Estratégica. São mais de 35 anos no mercado condominial e imobiliário, em que estive à frente de uma das maiores administradoras de condomínios e imóveis do país — mais de 2.200 condomínios sob gestão, mais de 8.000 imóveis alugados, mais de 110 mil unidades e mais de 20 operações de M&A realizadas.
 
-Comente "SESSÃO" que eu te explico os detalhes no direct. Numa sessão de uma hora, entendo o cenário do seu negócio e te oriento se o caminho é um diagnóstico ou uma mentoria comigo. Se preferir, acesse pelo link da bio.
+Comente "SESSÃO" que eu te explico no direct como agendar. Nessa sessão, entendo o cenário do seu negócio e te oriento se o caminho é um diagnóstico ou uma mentoria comigo. Ou agende direto pelo link da bio.
 
 #administradoradecondominios #imobiliaria #gestaoimobiliaria
 
@@ -132,7 +132,7 @@ Comente "SESSÃO" que eu te explico os detalhes no direct. Numa sessão de uma h
 
 [PONTE] Quem escolhe com antecedência negocia em posição de força; quem é surpreendido costuma apenas aceitar. Definir a sua posição, e conduzir a operação com segurança, é exatamente o meu terreno de atuação.
 
-[CTA] Comente SESSÃO que eu te explico os detalhes no direct. Numa sessão de uma hora, eu entendo o cenário e os gargalos do seu negócio, e te oriento se o caminho certo é um diagnóstico ou uma mentoria comigo. Se preferir, acesse pelo link da bio.
+[CTA] Comente SESSÃO que eu te explico no direct como agendar. Nessa sessão, eu entendo o cenário e os gargalos do seu negócio, e te oriento se o caminho é um diagnóstico ou uma mentoria comigo. Ou agende direto pelo link da bio.
 
 **LEGENDA (pronta para publicar)**
 
@@ -142,7 +142,7 @@ Nesse cenário, os caminhos são compra, fusão ou venda. Escolhas legítimas; o
 
 Sou Giuliano Spolavori, fundador da Eleva Expansão Estratégica. São mais de 35 anos no mercado condominial e imobiliário, em que estive à frente de uma das maiores administradoras de condomínios e imóveis do país — mais de 2.200 condomínios sob gestão, mais de 8.000 imóveis alugados, mais de 110 mil unidades e mais de 20 operações de M&A realizadas.
 
-Comente "SESSÃO" que eu te explico os detalhes no direct. Numa sessão de uma hora, entendo o cenário do seu negócio e te oriento se o caminho é um diagnóstico ou uma mentoria comigo. Se preferir, acesse pelo link da bio.
+Comente "SESSÃO" que eu te explico no direct como agendar. Nessa sessão, entendo o cenário do seu negócio e te oriento se o caminho é um diagnóstico ou uma mentoria comigo. Ou agende direto pelo link da bio.
 
 #administradoradecondominios #imobiliaria #gestaoimobiliaria
 
@@ -162,7 +162,7 @@ Comente "SESSÃO" que eu te explico os detalhes no direct. Numa sessão de uma h
 
 [PONTE] O que separa opção de pressão é o tempo de preparo. Conduzir esse processo com antecedência, com um olhar externo e isento, é exatamente onde eu posso te ajudar.
 
-[CTA] Comente SESSÃO que eu te explico os detalhes no direct. Numa sessão de uma hora, eu entendo o cenário e os gargalos do seu negócio, e te oriento se o caminho certo é um diagnóstico ou uma mentoria comigo. Se preferir, acesse pelo link da bio.
+[CTA] Comente SESSÃO que eu te explico no direct como agendar. Nessa sessão, eu entendo o cenário e os gargalos do seu negócio, e te oriento se o caminho é um diagnóstico ou uma mentoria comigo. Ou agende direto pelo link da bio.
 
 **LEGENDA (pronta para publicar)**
 
@@ -172,7 +172,7 @@ Mais cedo ou mais tarde, a empresa chega a essa encruzilhada: preparar a sucess�
 
 Sou Giuliano Spolavori, fundador da Eleva Expansão Estratégica. São mais de 35 anos no mercado condominial e imobiliário, em que estive à frente de uma das maiores administradoras de condomínios e imóveis do país — mais de 2.200 condomínios sob gestão, mais de 8.000 imóveis alugados, mais de 110 mil unidades e mais de 20 operações de M&A realizadas.
 
-Comente "SESSÃO" que eu te explico os detalhes no direct. Numa sessão de uma hora, entendo o cenário do seu negócio e te oriento se o caminho é um diagnóstico ou uma mentoria comigo. Se preferir, acesse pelo link da bio.
+Comente "SESSÃO" que eu te explico no direct como agendar. Nessa sessão, entendo o cenário do seu negócio e te oriento se o caminho é um diagnóstico ou uma mentoria comigo. Ou agende direto pelo link da bio.
 
 #administradoradecondominios #imobiliaria #gestaoimobiliaria
 
@@ -192,7 +192,7 @@ Comente "SESSÃO" que eu te explico os detalhes no direct. Numa sessão de uma h
 
 [PONTE] Expansão se desenha antes de se executar: direção, modelo, equipe e capital, nessa ordem. Escolher o caminho com método, e não por instinto, é exatamente onde eu posso te ajudar.
 
-[CTA] Comente SESSÃO que eu te explico os detalhes no direct. Numa sessão de uma hora, eu entendo o cenário e os gargalos do seu negócio, e te oriento se o caminho certo é um diagnóstico ou uma mentoria comigo. Se preferir, acesse pelo link da bio.
+[CTA] Comente SESSÃO que eu te explico no direct como agendar. Nessa sessão, eu entendo o cenário e os gargalos do seu negócio, e te oriento se o caminho é um diagnóstico ou uma mentoria comigo. Ou agende direto pelo link da bio.
 
 **LEGENDA (pronta para publicar)**
 
@@ -202,7 +202,7 @@ Expansão tem mais de um caminho: uma nova praça, uma nova vertical de serviço
 
 Sou Giuliano Spolavori, fundador da Eleva Expansão Estratégica. São mais de 35 anos no mercado condominial e imobiliário, em que estive à frente de uma das maiores administradoras de condomínios e imóveis do país — mais de 2.200 condomínios sob gestão, mais de 8.000 imóveis alugados, mais de 110 mil unidades e mais de 20 operações de M&A realizadas.
 
-Comente "SESSÃO" que eu te explico os detalhes no direct. Numa sessão de uma hora, entendo o cenário do seu negócio e te oriento se o caminho é um diagnóstico ou uma mentoria comigo. Se preferir, acesse pelo link da bio.
+Comente "SESSÃO" que eu te explico no direct como agendar. Nessa sessão, entendo o cenário do seu negócio e te oriento se o caminho é um diagnóstico ou uma mentoria comigo. Ou agende direto pelo link da bio.
 
 #administradoradecondominios #imobiliaria #gestaoimobiliaria
 
