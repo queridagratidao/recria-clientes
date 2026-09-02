@@ -234,4 +234,4 @@ Comente "SESSÃO" que eu te explico no direct como agendar. Nessa sessão estrat
 
 ## Observação sobre as capas
 
-As 6 artes de capa enviadas parecem estar em proporção mais próxima de post de feed (quadrado/4:5) do que de capa de Reels (retrato 1080x1920, 9:16). Vale confirmar com quem criou e reexportar no tamanho correto antes de publicar, para não cortar ou distorcer no formato de Reels.
+As 6 artes de capa originais, enviadas pelo Giuliano, estavam em proporção mais próxima de post de feed (quadrado/4:5) do que de capa de Reels (retrato 1080x1920, 9:16). Foram reajustadas para essa proporção, e os textos foram mais centralizados para não saírem cortados na hora de programar e publicar os Reels, mantendo toda a identidade visual e as informações das capas originais enviadas pelo Giuliano.
