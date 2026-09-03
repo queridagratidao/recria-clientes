@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Janeiro - Comunidade Donas de Si</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Nunito:ital,wght@0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+<style>
+
+  @page { size: A4; margin: 0; }
+  :root{
+    --rosa-claro:#fbeef7;
+    --lilas-claro:#f2e6f7;
+    --branco:#ffffff;
+    --magenta:#9c1256;
+    --magenta-escuro:#6e0e3d;
+    --roxo-profundo:#5a1042;
+    --rosa-bonus:#f3d2ec;
+    --texto:#3a2233;
+    --texto-claro:#6b4b60;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{ font-family:'Nunito',sans-serif; color:var(--texto); background:#fff; }
+  .page{
+    width:210mm; min-height:297mm; padding:16mm 18mm 22mm 18mm; position:relative;
+    page-break-after:always; background:linear-gradient(180deg,var(--lilas-claro) 0%, #fff 40%);
+  }
+  .page:last-child{page-break-after:auto;}
+  .flower{ text-align:center; font-size:22px; color:var(--magenta); margin-bottom:6px;}
+  .capa{ display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; min-height:265mm;}
+  .capa h1{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--roxo-profundo); font-size:2.3rem; line-height:1.25; margin-bottom:14px;}
+  .capa .sub{ color:var(--magenta); font-weight:600; font-size:1.1rem; margin-bottom:30px;}
+  .capa .mes-badge{ background:var(--magenta); color:#fff; font-family:'Quicksand',sans-serif; font-weight:700; padding:10px 26px; border-radius:999px; font-size:1rem; margin-bottom:40px;}
+  .capa .lista-semanas{ text-align:left; background:#fff; border-radius:16px; padding:24px 30px; box-shadow:0 4px 18px rgba(90,16,66,.08); max-width:420px;}
+  .capa .lista-semanas li{ margin-bottom:10px; font-size:.95rem; color:var(--texto);}
+  .capa .lista-semanas b{ color:var(--magenta-escuro);}
+  h2.titulo-semana{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:1.55rem; color:var(--roxo-profundo); text-align:center; margin-bottom:4px;}
+  p.subtitulo-semana{ text-align:center; color:var(--magenta); font-weight:600; font-size:.92rem; margin-bottom:18px;}
+  .tag-formato{ display:block; text-align:center; margin:0 auto 20px auto; background:var(--rosa-bonus); color:var(--magenta-escuro); font-weight:700; font-size:.78rem; padding:5px 16px; border-radius:999px; width:fit-content;}
+  .whatsapp-box{
+    background:#fff; border:1.5px solid var(--rosa-bonus); border-radius:14px; padding:18px 20px; margin-bottom:22px;
+    box-shadow:0 3px 12px rgba(90,16,66,.06);
+  }
+  .whatsapp-box .label{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--magenta); font-size:.78rem; text-transform:uppercase; letter-spacing:.03em; margin-bottom:8px; display:block;}
+  .whatsapp-box p{ font-size:.87rem; line-height:1.55; margin-bottom:8px;}
+  .whatsapp-box .link{ color:var(--magenta-escuro); font-weight:700; font-size:.85rem;}
+  h3.secao{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--magenta-escuro); font-size:1.05rem; margin:16px 0 6px 0;}
+  p.corpo{ font-size:.9rem; line-height:1.6; margin-bottom:10px;}
+  .box-conexao{
+    background:var(--rosa-claro); border-left:4px solid var(--magenta); border-radius:8px; padding:12px 16px; font-size:.86rem; line-height:1.55; margin-bottom:16px; color:var(--texto);
+  }
+  .exercicio-box{
+    background:var(--rosa-claro); border-radius:12px; padding:18px 20px; margin-top:14px;
+    break-inside:avoid; page-break-inside:avoid;
+  }
+  .exercicio-box .titulo-ex{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--magenta); font-size:1rem; margin-bottom:10px;}
+  .exercicio-box p.pergunta{ font-size:.88rem; margin-bottom:6px; font-weight:600;}
+  .linha-escrever{ border-bottom:1px solid var(--rosa-bonus); height:22px; margin-bottom:6px;}
+  .frase-guardar{
+    background:var(--magenta); color:#fff; border-radius:12px; padding:14px 18px; font-family:'Quicksand',sans-serif; font-weight:600; font-size:.92rem; text-align:center; margin-top:18px; line-height:1.4;
+    break-inside:avoid; page-break-inside:avoid;
+  }
+  .roteiro-box{
+    background:var(--rosa-claro); border-radius:12px; padding:18px 20px; margin-top:8px; margin-bottom:14px;
+    break-inside:avoid; page-break-inside:avoid;
+  }
+  .roteiro-box p{ font-size:.9rem; line-height:1.65; font-style:italic; color:var(--texto);}
+  .plano-b{ background:#fff; border:1.5px dashed var(--rosa-bonus); border-radius:12px; padding:14px 18px; font-size:.85rem; line-height:1.5; color:var(--texto-claro); break-inside:avoid; page-break-inside:avoid;}
+  .plano-b .label{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--magenta); display:block; margin-bottom:6px; font-size:.82rem;}
+  .enquete-box{ background:var(--rosa-claro); border-radius:12px; padding:16px 20px; margin-top:6px;}
+  .enquete-box .opcao{ font-size:.88rem; margin-bottom:6px; font-weight:600;}
+  .resumo-item{ display:flex; gap:10px; margin-bottom:12px; font-size:.9rem; line-height:1.5;}
+  .resumo-item .bullet{ color:var(--magenta); font-weight:700; flex-shrink:0;}
+  .rodape{
+    position:absolute; bottom:10mm; left:18mm; right:18mm; text-align:center; font-size:.72rem; color:var(--texto-claro); border-top:1px solid var(--rosa-bonus); padding-top:8px; line-height:1.5;
+  }
+  .rodape b{ color:var(--magenta);}
+  .fechamento, .fechamento-inline{ text-align:center; font-family:'Quicksand',sans-serif; font-weight:600; color:var(--magenta-escuro); font-size:.92rem; margin-top:18px; display:block;}
+  .material-ref{
+    background:var(--lilas-claro); border:1.5px dashed var(--roxo-profundo); border-radius:12px; padding:14px 18px; font-size:.86rem; line-height:1.55; color:var(--texto); margin-bottom:16px;
+  }
+  .material-ref b{ color:var(--roxo-profundo); }
+  .recesso{
+    background:#fff; border-radius:16px; padding:26px 26px; text-align:center; box-shadow:0 4px 18px rgba(90,16,66,.08); max-width:440px; margin:0 auto;
+  }
+  .recesso p{ font-size:.92rem; line-height:1.6; margin-bottom:10px; color:var(--texto);}
+
+</style>
+</head>
+<body>
+<div class="page capa">
+  <div class="flower">✿</div>
+  <span class="mes-badge">JANEIRO · COMUNIDADE DONAS DE SI</span>
+  <h1>Reinventar-se sem<br>Repetir os Padrões</h1>
+  <p class="sub">Novo ciclo · Piloto automático · Vídeo · Interação</p>
+  <div class="lista-semanas"><ul style="list-style:none;">
+    <li>✿ <b>Semana 1:</b> Novo ciclo, mesmos padrões? (PDF teórico)</li>
+    <li>✿ <b>Semana 2:</b> Quebrando o piloto automático (PDF prático)</li>
+    <li>✿ <b>Semana 3:</b> Reinventar não é recomeçar do zero (vídeo/áudio)</li>
+    <li>✿ <b>Semana 4:</b> Sua intenção pra esse ciclo (interação)</li>
+    <li>✿ <b>Semana 5:</b> Resumão do mês</li>
+  </ul></div>
+</div>
+<div class="page">
+  <div class="flower">✿</div>
+  <h2 class="titulo-semana">Mensagem de Retomada</h2>
+  <p class="subtitulo-semana">Enviar junto com o conteúdo da Semana 1</p>
+  <div class="whatsapp-box">
+    <span class="label">Textinho de apoio (WhatsApp)</span>
+    <p>Bom dia, mulheres donas de si! 🌸</p>
+    <p>Voltamos! Espero que o recesso tenha sido leve e cheio de bons momentos com quem vocês amam.</p>
+    <p>A gente fecha o ano passado com um balanço gentil, e agora começa 2027 com um tema que combina muito com início de ano: como reinventar a vida sem cair nos mesmos padrões de sempre.</p>
+    <p>Vamos entender por que a virada do ano sozinha raramente muda alguma coisa, e o que de fato ajuda a construir um ciclo diferente.</p>
+    <p>Bora começar? Segue o primeiro conteúdo da semana 👇</p>
+  </div>
+
+  <div class="rodape">
+    <b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria
+  </div>
+
+</div>
+<div class="page">
+  <div class="flower">✿</div>
+  <h2 class="titulo-semana">Semana 1 (11–17/01)</h2>
+  <p class="subtitulo-semana">Novo ciclo, mesmos padrões?</p>
+  <span class="tag-formato">PDF TEÓRICO</span>
+  <div class="whatsapp-box">
+    <span class="label">Textinho de apoio (WhatsApp)</span>
+    <p>Bom dia, mulheres donas de si! 💕</p>
+    <p>Quantas vezes você já entrou em um ano novo prometendo mudar, e em fevereiro já estava repetindo os mesmos hábitos de sempre?</p>
+    <p>Preparei um material sobre por que isso acontece, e o que realmente ajuda a construir uma mudança que dura mais do que a virada do calendário.</p>
+    <p>📎 Segue o PDF completo:</p>
+    <p>Se esse tema te tocou, na Comunidade AME-SE a gente aprofunda muito mais sobre reinventar sua vida com base real, por 12x de R$16,24 (ou R$157 à vista).</p>
+    <p>🔗 curso-ame-se.camilasartori.com.br</p>
+    <p>Boa leitura! 💕</p>
+  </div>
+
+  <div class="material-ref">
+    📎 <b>Material de apoio (PDF em arquivo separado):</b> pegar o conteúdo do arquivo <b>Janeiro · Semana 1 · Novo ciclo, mesmos padrões.pdf</b> para enviar junto com o texto acima.
+  </div>
+
+  <div class="rodape">
+    <b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria
+  </div>
+
+</div>
+<div class="page">
+  <div class="flower">✿</div>
+  <h2 class="titulo-semana">Semana 2 (18–24/01)</h2>
+  <p class="subtitulo-semana">Quebrando o piloto automático</p>
+  <span class="tag-formato">PDF PRÁTICO</span>
+  <div class="whatsapp-box">
+    <span class="label">Textinho de apoio (WhatsApp)</span>
+    <p>Boa tarde, mulheres donas de si! 🌸</p>
+    <p>Semana passada a gente entendeu por que os mesmos padrões voltam. Hoje eu trago um exercício prático pra identificar o piloto automático agindo no seu dia a dia.</p>
+    <p>📎 Segue o PDF com o exercício da semana:</p>
+    <p>Quer se aprofundar? Na Comunidade AME-SE a gente trabalha isso com muito mais calma e profundidade, por 12x de R$16,24 (ou R$157 à vista).</p>
+    <p>🔗 curso-ame-se.camilasartori.com.br</p>
+    <p>Bom exercício! 💕</p>
+  </div>
+
+  <div class="material-ref">
+    📎 <b>Material de apoio (PDF em arquivo separado):</b> pegar o conteúdo do arquivo <b>Janeiro · Semana 2 · Quebrando o piloto automático.pdf</b> para enviar junto com o texto acima.
+  </div>
+
+  <div class="rodape">
+    <b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria
+  </div>
+
+</div>
+<div class="page">
+  <div class="flower">✿</div>
+  <h2 class="titulo-semana">Semana 3 (25–31/01)</h2>
+  <p class="subtitulo-semana">Reinventar não é recomeçar do zero</p>
+  <span class="tag-formato">VÍDEO / ÁUDIO DA CAMILA</span>
+  <div class="whatsapp-box">
+    <span class="label">Textinho de apoio (WhatsApp)</span>
+    <p>Boa tarde, mulheres donas de si! 🌸</p>
+    <p>Você acha que precisa jogar tudo fora e começar do zero pra mudar de verdade? Eu discordo, e quero te contar o porquê.</p>
+    <p>Gravei um vídeo rapidinho sobre isso, solta o play:</p>
+    <p>[vídeo/áudio]</p>
+    <p>Se esse assunto te tocou, na Comunidade AME-SE eu aprofundo isso e muito mais, por 12x de R$16,24 (ou R$157 à vista).</p>
+    <p>🔗 curso-ame-se.camilasartori.com.br</p>
+    <p>Boa reflexão! 💕</p>
+  </div>
+
+  <h3 class="secao">Roteiro (vídeo até 90s, ou áudio)</h3>
+  <div class="roteiro-box">
+    <p>"Uma coisa que eu preciso te falar sobre início de ano: reinventar a vida não é apagar tudo o que você já é e começar do zero.
+    <p style="margin-top:8px;">Muita gente acha que precisa virar outra pessoa completamente pra mudar de verdade, e desiste no meio do caminho porque isso é exaustivo, e nem é real.</p>
+    <p style="margin-top:8px;">Reinventar-se é mais sobre revisar o que você já construiu, o autoconceito, os limites, o jeito de lidar com as emoções, e ajustar o que não está mais servindo. Não é destruir a base, é continuar construindo em cima dela.</p>
+    <p style="margin-top:8px;">Então, se você começou o ano sem uma virada radical, tudo bem. O que importa é continuar prestando atenção nos pequenos ajustes, dia após dia."</p>
+  </div>
+  <div class="plano-b">
+    <span class="label">Plano B, se não der pra gravar vídeo ou áudio</span>
+    Mandar a mesma mensagem em formato de texto, escrita em primeira pessoa, como se fosse a Camila falando diretamente no grupo. O conteúdo é idêntico ao roteiro acima, só sem o vídeo.
+  </div>
+  <div class="rodape">
+    <b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria
+  </div>
+
+</div>
+<div class="page">
+  <div class="flower">✿</div>
+  <h2 class="titulo-semana">Semana 4 (01–07/02)</h2>
+  <p class="subtitulo-semana">Sua intenção pra esse ciclo</p>
+  <span class="tag-formato">INTERAÇÃO</span>
+  <div class="whatsapp-box">
+    <span class="label">Textinho de apoio (WhatsApp)</span>
+    <p>Oi, mulheres donas de si! 💌</p>
+    <p>Hoje abri uma caixinha de perguntas lá no Instagram sobre esse tema: qual é a sua intenção principal pra esse novo ciclo, não precisa ser uma meta grande, pode ser só um jeito diferente de se tratar?</p>
+    <p>Manda sua resposta lá 👉 [link do story]</p>
+    <p>Nos próximos dias eu volto aqui no grupo pra comentar as respostas. 💕</p>
+    <p>Boa reflexão! 💕</p>
+  </div>
+
+  <div class="plano-b">
+    <span class="label">Plano B, enquete nativa do WhatsApp (se não der pra fazer caixinha no Instagram)</span>
+  </div>
+  <div class="enquete-box">
+    <p class="pergunta">🗳️ Enquete: Qual área você mais quer cuidar nesse novo ciclo?</p>
+    <p class="opcao">🅰️ Autoestima</p>
+    <p class="opcao">🅱️ Relacionamentos</p>
+    <p class="opcao">🅲️ Emoções</p>
+    <p class="opcao">🅳️ Rotina e autocuidado</p>
+  </div>
+  <div class="rodape">
+    <b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria
+  </div>
+
+</div>
+<div class="page">
+  <div class="flower">✿</div>
+  <h2 class="titulo-semana">Semana 5 (08–14/02)</h2>
+  <p class="subtitulo-semana">Resumão do Mês</p>
+  <div class="whatsapp-box">
+    <span class="label">Textinho de apoio (WhatsApp)</span>
+    <p>📚 Resumão de Janeiro, mulheres donas de si</p>
+    <p>Esse mês a gente começou o ano revisando padrões. Foi assim que caminhamos:</p>
+    <p>✿ <b>Semana 1, Novo ciclo:</b> por que a virada do ano sozinha raramente muda alguma coisa</p>
+    <p>✿ <b>Semana 2, Piloto automático:</b> identificar padrões automáticos no dia a dia</p>
+    <p>✿ <b>Semana 3, Reinventar-se:</b> mudar é ajustar o que já existe, não apagar tudo</p>
+    <p>✿ <b>Semana 4, Sua intenção:</b> definir uma intenção pra esse novo ciclo, sem pressão</p>
+    <p>📎 Preparei esse resumão pra quem quer voltar e refazer as atividades com calma, é só rolar aqui nas conversas ou salvar o PDF.</p>
+    <p>Lembrando que todo esse material, junto com vídeos e conteúdos ainda mais aprofundados sobre esses temas, está disponível de forma organizada e completa dentro da Comunidade AME-SE, lá dá pra estudar no seu ritmo, sem precisar procurar entre as conversas do grupo. Se você quiser saber mais, clique no link 👇</p>
+    <p>🔗 curso-ame-se.camilasartori.com.br</p>
+    <p>Se você tiver qualquer dúvida ou quiser saber mais detalhes sobre a Comunidade AME-SE, sobre terapia particular comigo ou sobre esse grupo, me chama no privado.</p>
+    <p><span class="fechamento-inline">Ótimo mês pra todas nós! 💕</span></p>
+  </div>
+
+  <div class="rodape">
+    <b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria
+  </div>
+
+</div>
+</body>
+</html>
