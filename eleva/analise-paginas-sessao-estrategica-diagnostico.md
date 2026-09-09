@@ -124,3 +124,25 @@ Essa é a régua de clareza que a Sessão Estratégica precisa alcançar, e a su
 **O que continua igual:** o botão de WhatsApp flutuante (que já existe fixo na tela) continua direcionando para a Jessie normalmente.
 
 **Melhoria possível:** depois que a pessoa preencher o formulário ("se preferir, preencha o formulário e entraremos em contato"), pode aparecer também um botão de WhatsApp levando direto pra conversa com a Jessie, em vez de só ficar esperando o retorno.
+
+---
+
+## 6. Sugestão adicional: alternativa pra quem ainda não tem R$700 (só síndico e fornecedor)
+
+**De onde vem:** direto da análise de preço da seção 2.5 — nas páginas de síndico e fornecedor, parte de quem chegar até a Sessão Estratégica pode não ter, hoje, os R$700 disponíveis pra decidir. Sem alternativa, esse lead se perde. Como já existe curso de entrada pras duas personas, dá pra reaproveitar essa oferta como rede de segurança na própria página, em vez de deixar a pessoa ir embora sem nada.
+
+**Onde inserir:** logo após o bloco de preço da Sessão Estratégica, só nas páginas de **síndico** e **fornecedor** (o executivo não tem curso próprio, então essa seção não se aplica a ele, mantém a página como está).
+
+**Sugestão de texto (síndico):**
+> **Ainda não é o momento pra Sessão Estratégica?**
+> Se o investimento ainda não faz sentido pro momento da sua empresa, comece pelo Curso Avançado para Síndico Profissional, por R$297. Quando estiver pronto pra dar o próximo passo, você pode voltar e agendar sua Sessão Estratégica.
+>
+> [Botão: Conhecer o Curso Avançado para Síndico Profissional →] (leva pro checkout do curso na Hotmart)
+
+**Sugestão de texto (fornecedor):**
+> **Ainda não é o momento pra Sessão Estratégica?**
+> Se o investimento ainda não faz sentido pro momento da sua empresa, comece pelo curso Aprenda a Multiplicar Vendas para Condomínios, por R$297. Quando estiver pronto pra dar o próximo passo, você pode voltar e agendar sua Sessão Estratégica.
+>
+> [Botão: Conhecer o curso Aprenda a Multiplicar Vendas para Condomínios →] (leva pro checkout do curso na Hotmart)
+
+**Por que funciona:** não é desconto disfarçado nem depreciação do produto principal — é uma segunda oferta, com produto e preço diferentes, pra quem realmente ainda não está no momento de pagar R$700. Quem compra o curso continua na base e pode ser trabalhado depois (e-mail, comunidade, redes) até estar pronto pra Sessão Estratégica, Diagnóstico ou Mentoria.
