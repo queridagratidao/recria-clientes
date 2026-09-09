@@ -84,7 +84,7 @@ Nos três casos, o público é dono de empresa (não profissional autônomo), ma
 
 - **Empresas fornecedoras e prestadoras de serviço para condomínios:** público heterogêneo, de operação pequena/local a empresa regional maior, geralmente com poder aquisitivo mais próximo do das empresas de síndico do que do das administradoras/imobiliárias. Uma empresa fornecedora pequena pode hesitar em pagar R$700 sem prova de retorno anterior; uma já vendendo em escala B2B tende a ver isso como custo baixo frente ao ticket de um contrato que pode fechar depois.
 
-**Conclusão e recomendação:** o preço parece bem calibrado para executivos (maior poder aquisitivo médio entre as três personas), e arriscado, não necessariamente errado, mas não comprovado, para as empresas de síndico e de fornecimento de menor porte. Sugiro monitorar a taxa de conversão por persona nas primeiras semanas de venda. Se essas duas personas converterem muito abaixo do executivo, vale considerar uma oferta diferenciada por segmento (por exemplo, facilidades de pagamento específicas, ou uma versão de sessão mais curta e com ticket menor), em vez de manter um preço único para os três desde o início.
+**Conclusão:** o preço parece bem calibrado para executivos (maior poder aquisitivo médio entre as três personas), e mais desafiador para as empresas de síndico e de fornecimento de menor porte. Esse ponto já está considerado na estratégia do Giuliano: o preço único para as três personas é deliberado, funcionando como filtro de qualificação de lead — quem não está no momento de pagar Sessão Estratégica, Diagnóstico ou Mentoria, compra o curso de entrada (R$297) primeiro (ver seção 2.6).
 
 ### 2.6 Alternativa para quem ainda não tem R$700 (só síndico e fornecedor)
 
