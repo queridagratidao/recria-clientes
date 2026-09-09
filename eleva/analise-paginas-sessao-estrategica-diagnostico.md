@@ -5,7 +5,7 @@
 
 **Contexto:** a Sessão Estratégica e o Diagnóstico passaram a ser pagos (R$700 e R$3.950). A Amanda avaliou que a promessa das páginas de Sessão Estratégica está vaga e talvez não venda a ideia da sessão o suficiente frente ao investimento, enquanto o Diagnóstico já está claro. Este documento reúne sugestões de ajustes em cada seção, e o motivo.
 
-**Sobre o público:** o foco do Giuliano nas personas de síndico e fornecedor é preferencialmente o **dono de empresa** que presta esse serviço (com CNPJ, podendo ter funcionário). O profissional autônomo/pessoa física, se tiver condições financeiras, entra como a curva B de persona/cliente da Eleva nas frentes de Sessão Estratégica, Diagnóstico ou Mentoria — mas é um cliente potencial como parceiro das outras frentes do Eleva Group, como o Hub e a Eleva Seguros. Isso é relevante tanto para o vocabulário das páginas quanto para análise de preço (seção 2.5) — donos de administradora/imobiliária tendem a ter poder aquisitivo maior do que donos de empresa de síndico ou de empresa fornecedora, mesmo todos sendo donos de empresa.
+**Sobre o público:** o foco do Giuliano nas personas de síndico e fornecedor é preferencialmente o **dono de empresa** que presta esse serviço (com CNPJ, podendo ter funcionário). O profissional autônomo/pessoa física, se tiver condições financeiras, entra como a curva B de persona/cliente da Eleva nas frentes de Sessão Estratégica, Diagnóstico ou Mentoria — mas é um cliente potencial como parceiro das outras frentes do Eleva Group, como o Hub e a Eleva Seguros. Isso é relevante tanto para o vocabulário das páginas quanto para a análise de preço (seção 2.5) — donos de administradora/imobiliária tendem a ter poder aquisitivo maior do que donos de empresa de síndico ou de empresa fornecedora, mesmo todos sendo donos de empresa.
 
 ---
 
@@ -86,6 +86,26 @@ Nos três casos, o público é dono de empresa (não profissional autônomo), ma
 
 **Conclusão e recomendação:** o preço parece bem calibrado para executivos (maior poder aquisitivo médio entre as três personas), e arriscado, não necessariamente errado, mas não comprovado, para as empresas de síndico e de fornecimento de menor porte. Sugiro monitorar a taxa de conversão por persona nas primeiras semanas de venda. Se essas duas personas converterem muito abaixo do executivo, vale considerar uma oferta diferenciada por segmento (por exemplo, facilidades de pagamento específicas, ou uma versão de sessão mais curta e com ticket menor), em vez de manter um preço único para os três desde o início.
 
+### 2.6 Alternativa para quem ainda não tem R$700 (só síndico e fornecedor)
+
+**De onde vem:** direto da análise de preço da seção 2.5 — nas páginas de síndico e fornecedor, parte de quem chegar até a Sessão Estratégica pode não ter, hoje, os R$700 disponíveis para decidir. Sem alternativa, esse lead se perde. Como já existe curso de entrada para as duas personas, dá para reaproveitar essa oferta como rede de segurança na própria página, em vez de deixar a pessoa ir embora sem nada.
+
+**Onde inserir:** logo após o bloco de preço da Sessão Estratégica, só nas páginas de **síndico** e **fornecedor** (o executivo não tem curso próprio, então essa seção não se aplica a ele, mantém a página como está).
+
+**Sugestão de texto (síndico):**
+> **Ainda não é o momento para Sessão Estratégica?**
+> Se o investimento ainda não faz sentido para o momento da sua empresa, comece pelo Curso Avançado para Síndico Profissional, por R$297. Quando estiver pronto para dar o próximo passo, você pode voltar e agendar sua Sessão Estratégica.
+>
+> [Botão: Conhecer o Curso Avançado para Síndico Profissional →] (leva para o checkout do curso na Hotmart)
+
+**Sugestão de texto (fornecedor):**
+> **Ainda não é o momento para Sessão Estratégica?**
+> Se o investimento ainda não faz sentido para o momento da sua empresa, comece pelo curso Aprenda a Multiplicar Vendas para Condomínios, por R$297. Quando estiver pronto para dar o próximo passo, você pode voltar e agendar sua Sessão Estratégica.
+>
+> [Botão: Conhecer o curso Aprenda a Multiplicar Vendas para Condomínios →] (leva para o checkout do curso na Hotmart)
+
+**Por que funciona:** não é desconto disfarçado nem depreciação do produto principal — é uma segunda oferta, com produto e preço diferentes, para quem realmente ainda não está no momento de pagar R$700. Quem compra o curso continua na base e pode ser trabalhado depois (e-mail, comunidade, redes) até estar pronto para Sessão Estratégica, Diagnóstico ou Mentoria.
+
 ---
 
 ## 3. Diagnóstico — pequenos ajustes de copy (estrutura já está boa)
@@ -109,7 +129,7 @@ A estrutura do Diagnóstico (H1 → por que fazer → como funciona → método 
 - "O que você leva" lista 5 entregáveis concretos, incluindo o Plano de Direcionamento por escrito
 - Preço transparente na própria página (R$3.950, parcelamento, o que está incluso)
 - FAQ antecipa objeções reais (funciona para qualquer porte? é igual à Mentoria? como fica a confidencialidade?)
-- Deixa claro que o Diagnóstico não é consultoria nem mentoria, e que o valor pago é 100% creditado se avançar para Mentoria 8S em até 30 dias — remove o medo de "pagar duas vezes"
+- Deixa claro que o Diagnóstico não é consultoria nem mentoria, e que o valor pago é 100% creditado se avançar para a Mentoria 8S em até 30 dias — remove o medo de "pagar duas vezes"
 
 Essa é a régua de clareza que a Sessão Estratégica precisa alcançar, e a sugestão da seção 2 foi desenhada para chegar nesse mesmo padrão.
 
@@ -123,37 +143,17 @@ Essa é a régua de clareza que a Sessão Estratégica precisa alcançar, e a su
 
 **O que continua igual:** o botão de WhatsApp flutuante (que já existe fixo na tela) continua direcionando para a Jessie normalmente.
 
-**Melhoria possível:** depois que a pessoa preencher o formulário ("se preferir, preencha o formulário e entraremos em contato"), pode aparecer também um botão de WhatsApp levando direto para conversa com a Jessie, em vez de só ficar esperando o retorno.
+**Melhoria possível:** depois que a pessoa preencher o formulário ("se preferir, preencha o formulário e entraremos em contato"), pode aparecer também um botão de WhatsApp levando direto para a conversa com a Jessie, em vez de só ficar esperando o retorno.
 
 ---
 
-## 6. Sugestão adicional: alternativa para quem ainda não tem R$700 (só síndico e fornecedor)
+## 6. Ajuste no texto de introdução do formulário (Sessão Estratégica e Diagnóstico)
 
-**De onde vem:** direto da análise de preço da seção 2.5 — nas páginas de síndico e fornecedor, parte de quem chegar até a Sessão Estratégica pode não ter, hoje, os R$700 disponíveis para decidir. Sem alternativa, esse lead se perde. Como já existe curso de entrada para as duas personas, dá para reaproveitar essa oferta como rede de segurança na própria página, em vez de deixar a pessoa ir embora sem nada.
+Vale para as 6 páginas (Sessão Estratégica e Diagnóstico, nas 3 personas) — o formulário é o mesmo template em todas.
 
-**Onde inserir:** logo após o bloco de preço da Sessão Estratégica, só nas páginas de **síndico** e **fornecedor** (o executivo não tem curso próprio, então essa seção não se aplica a ele, mantém a página como está).
-
-**Sugestão de texto (síndico):**
-> **Ainda não é o momento para Sessão Estratégica?**
-> Se o investimento ainda não faz sentido para o momento da sua empresa, comece pelo Curso Avançado para Síndico Profissional, por R$297. Quando estiver pronto para dar o próximo passo, você pode voltar e agendar sua Sessão Estratégica.
->
-> [Botão: Conhecer o Curso Avançado para Síndico Profissional →] (leva para o checkout do curso na Hotmart)
-
-**Sugestão de texto (fornecedor):**
-> **Ainda não é o momento para Sessão Estratégica?**
-> Se o investimento ainda não faz sentido para o momento da sua empresa, comece pelo curso Aprenda a Multiplicar Vendas para Condomínios, por R$297. Quando estiver pronto para dar o próximo passo, você pode voltar e agendar sua Sessão Estratégica.
->
-> [Botão: Conhecer o curso Aprenda a Multiplicar Vendas para Condomínios →] (leva para o checkout do curso na Hotmart)
-
-**Por que funciona:** não é desconto disfarçado nem depreciação do produto principal — é uma segunda oferta, com produto e preço diferentes, para quem realmente ainda não está no momento de pagar R$700. Quem compra o curso continua na base e pode ser trabalhado depois (e-mail, comunidade, redes) até estar pronto para Sessão Estratégica, Diagnóstico ou Mentoria.
-
----
-
-## 7. Ajuste no texto de introdução do formulário (Sessão Estratégica e Diagnóstico)
-
-**Como está hoje:** "Se preferir, preencha o formulário e entraremos em contato." — não dá nenhum motivo pra usar o formulário em vez de pagar direto ou chamar no WhatsApp, fica sem função clara ao lado das outras opções.
+**Como está hoje:** "Se preferir, preencha o formulário e entraremos em contato." — não dá nenhum motivo para usar o formulário em vez de pagar direto ou chamar no WhatsApp, fica sem função clara ao lado das outras opções.
 
 **Sugestão:**
 > Ainda está em dúvida se a sessão é para você? Ou gostaria de tirar uma dúvida antes de adquirir? Preencha o formulário que o nosso time comercial vai te atender.
 
-**Por quê:** dá um motivo específico pra usar o formulário (dúvida, não decisão de compra ainda), diferenciando esse caminho do botão de pagamento direto e do WhatsApp flutuante — cada opção da página passa a ter uma função clara: pagar (Hotmart), tirar dúvida rápida (WhatsApp) ou tirar dúvida mais detalhada por escrito (formulário).
+**Por quê:** dá um motivo específico para usar o formulário (dúvida, não decisão de compra ainda), diferenciando esse caminho do botão de pagamento direto e do WhatsApp flutuante — cada opção da página passa a ter uma função clara: pagar (Hotmart), tirar dúvida rápida (WhatsApp) ou tirar dúvida mais detalhada por escrito (formulário).
