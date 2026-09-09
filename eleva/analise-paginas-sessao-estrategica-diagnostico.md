@@ -2,7 +2,9 @@
 **RECRIA Marketing, 09/09/2026**
 **Páginas analisadas:** Sessão Estratégica (executivos, fornecedores, síndicos) e Diagnóstico Empresarial (executivos, fornecedores, síndicos), elevags.com.br
 
-**Contexto:** a Sessão Estratégica e o Diagnóstico passaram a ser pagos (R$700 e R$3.950). A Amanda avaliou que a promessa das páginas de Sessão Estratégica está fraca frente ao investimento, enquanto o Diagnóstico já está claro. Este documento reúne o que precisa ajustar em cada seção, e o motivo.
+**Contexto:** a Sessão Estratégica e o Diagnóstico passaram a ser pagos (R$700 e R$3.950). A Amanda avaliou que a promessa das páginas de Sessão Estratégica está vaga e talvez não venda a ideia da sessão o suficiente frente ao investimento, enquanto o Diagnóstico já está claro. Este documento reúne o que precisa ajustar em cada seção, e o motivo.
+
+**Sobre o público:** o foco do Giuliano nas personas de síndico e fornecedor é o **dono de empresa** que presta esse serviço (com CNPJ, podendo ter funcionário), não o profissional autônomo/pessoa física. Ou seja: empresa que presta serviço de síndico profissional, e empresa fornecedora/prestadora de serviço para condomínios. Isso é relevante tanto pro vocabulário das páginas quanto pra análise de preço (seção 2.5) — donos de administradora/imobiliária tendem a ter poder aquisitivo maior do que donos de empresa de síndico ou de empresa fornecedora, mesmo todos sendo donos de empresa.
 
 ---
 
@@ -19,7 +21,7 @@
 
 ---
 
-## 2. Sessão Estratégica — promessa fraca frente ao investimento
+## 2. Sessão Estratégica — promessa vaga frente ao investimento
 
 **Problema comum às 3 páginas:** o H1 e o subhead prometem uma *experiência* ("veja pelos olhos de quem já liderou...", "situar o momento... enxergar os cenários possíveis"), não uma *entrega concreta*. Para R$700 por 2h, quem está decidindo precisa saber o que leva em mãos ao final, não só uma perspectiva. O Diagnóstico já resolve isso bem (ver seção 4) — a sugestão é replicar essa clareza aqui.
 
@@ -71,29 +73,25 @@
 
 **Por persona:**
 
-- **Executivos (donos de administradora/imobiliária):** R$700 por 2h com um profissional com 35 anos de mercado e mais de 20 operações de M&A está dentro, ou até abaixo, do que consultoria estratégica sênior costuma cobrar no Brasil (consultores seniores e especialistas em M&A frequentemente cobram na faixa de R$300 a R$800+ por hora). Para esse público, que já lida com decisões de investimento maiores no negócio, o valor tende a ser bem recebido, e talvez até esteja subprecificado frente ao mercado.
+Nos três casos, o público é dono de empresa (não profissional autônomo), mas o **porte e a capitalização da empresa variam bastante entre as personas** — isso é o que sustenta a diferença de sensibilidade a preço abaixo, não uma diferença entre "pessoa física" e "empresa".
 
-- **Síndicos profissionais:** público mais sensível a preço. A renda de um síndico profissional varia muito com o tamanho da carteira: quem já administra muitos condomínios tende a ver R$700 como investimento pequeno frente ao retorno possível; quem está começando (1 a 3 condomínios) pode achar alto para uma decisão isolada, principalmente já existindo o curso de R$297 como porta de entrada mais barata. O risco é filtrar só os síndicos já mais consolidados — o que não é necessariamente um problema (é público mais qualificado), mas reduz o volume de quem chega à sessão.
+- **Executivos (donos de administradora/imobiliária):** R$700 por 2h com um profissional com 35 anos de mercado e mais de 20 operações de M&A está dentro, ou até abaixo, do que consultoria estratégica sênior costuma cobrar no Brasil (consultores seniores e especialistas em M&A frequentemente cobram na faixa de R$300 a R$800+ por hora). Administradoras e imobiliárias tendem a ser empresas de maior porte e faturamento entre as três personas, então esse público tem, em média, o maior poder aquisitivo pra decidir rápido. O valor tende a ser bem recebido, e talvez até esteja subprecificado frente ao mercado.
 
-- **Fornecedores e prestadores de serviço:** público heterogêneo, de operação pequena/local a empresa regional maior. Um fornecedor pequeno pode hesitar em pagar R$700 sem prova de retorno anterior; um fornecedor já vendendo em escala B2B tende a ver isso como custo baixo frente ao ticket de um contrato que pode fechar depois.
+- **Empresas de síndico profissional:** público mais sensível a preço que o executivo, mesmo sendo dono de empresa também. O porte varia muito com o tamanho da carteira de condomínios atendidos: uma empresa de síndico já consolidada, com carteira grande e funcionários, tende a ver R$700 como investimento pequeno frente ao retorno possível; uma empresa ainda pequena (carteira de 1 a 3 condomínios) pode achar alto para uma decisão isolada, principalmente já existindo o curso de R$297 como porta de entrada mais barata. O risco é filtrar só as empresas de síndico já mais consolidadas — o que não é necessariamente um problema (é público mais qualificado), mas reduz o volume de quem chega à sessão.
 
-**Conclusão e recomendação:** o preço parece bem calibrado para executivos, e arriscado (não necessariamente errado, mas não comprovado) para síndicos e fornecedores de menor porte. Sugiro monitorar a taxa de conversão por persona nas primeiras semanas de venda. Se síndico e fornecedor converterem muito abaixo de executivo, vale considerar uma oferta diferenciada por segmento (por exemplo, facilidades de pagamento específicas, ou uma versão de sessão mais curta e com ticket menor para esses dois públicos), em vez de manter um preço único para os três desde o início.
+- **Empresas fornecedoras e prestadoras de serviço para condomínios:** público heterogêneo, de operação pequena/local a empresa regional maior, geralmente com poder aquisitivo mais próximo do das empresas de síndico do que do das administradoras/imobiliárias. Uma empresa fornecedora pequena pode hesitar em pagar R$700 sem prova de retorno anterior; uma já vendendo em escala B2B tende a ver isso como custo baixo frente ao ticket de um contrato que pode fechar depois.
+
+**Conclusão e recomendação:** o preço parece bem calibrado para executivos (maior poder aquisitivo médio entre as três personas), e arriscado, não necessariamente errado, mas não comprovado, para as empresas de síndico e de fornecimento de menor porte. Sugiro monitorar a taxa de conversão por persona nas primeiras semanas de venda. Se essas duas personas converterem muito abaixo do executivo, vale considerar uma oferta diferenciada por segmento (por exemplo, facilidades de pagamento específicas, ou uma versão de sessão mais curta e com ticket menor), em vez de manter um preço único para os três desde o início.
 
 ---
 
 ## 3. Diagnóstico — pequenos ajustes de copy (estrutura já está boa)
 
-A estrutura do Diagnóstico (H1 → por que fazer → como funciona → método em 5 etapas → o que você leva → prova social → próximo passo (Mentoria 8S) → FAQ → preço) já entrega uma promessa clara e concreta. Não recomendo mudar a estrutura, só 2 pontos:
+A estrutura do Diagnóstico (H1 → por que fazer → como funciona → método em 5 etapas → o que você leva → prova social → próximo passo (Mentoria 8S) → FAQ → preço) já entrega uma promessa clara e concreta. Não recomendo mudar a estrutura, só 1 ponto:
 
-### 3.1 Síndicos — H1 com termo errado
+**Nota sobre o termo "sua empresa de síndico":** esse termo está correto e não precisa de ajuste — o público dessa persona é o dono de empresa que presta serviço de síndico profissional (com CNPJ, podendo ter funcionário), não o síndico autônomo pessoa física. Terminologia mantida como está.
 
-**Como está:** "Descubra o que trava o crescimento da **sua empresa de síndico** — em duas sessões."
-
-**Problema:** síndico não tem "empresa de síndico" — é um termo que não existe no vocabulário do próprio mercado, quebra a identificação.
-
-**Sugestão:** "Descubra o que trava o crescimento da **sua atuação como síndico** — em duas sessões." (ou "da sua carteira", mantendo consistência com o ajuste já sugerido na Sessão Estratégica de síndicos).
-
-### 3.2 Fornecedores — link duplicando "para"
+### 3.1 Fornecedores — link duplicando "para"
 
 **Como está:** "Saiba mais sobre a Mentoria 8S para Fornecedores **para** Condomínios →"
 
@@ -111,3 +109,15 @@ A estrutura do Diagnóstico (H1 → por que fazer → como funciona → método 
 - Deixa claro que o Diagnóstico não é consultoria nem mentoria, e que o valor pago é 100% creditado se avançar pra Mentoria 8S em até 30 dias — remove o medo de "pagar duas vezes"
 
 Essa é a régua de clareza que a Sessão Estratégica precisa alcançar, e a sugestão da seção 2 foi desenhada pra chegar nesse mesmo padrão.
+
+---
+
+## 5. Ajuste no destino do botão de Agendar (Sessão Estratégica e Diagnóstico)
+
+**Como está hoje:** o botão "Agendar minha Sessão Estratégica" (e o equivalente nas páginas de Diagnóstico) leva direto para o WhatsApp do comercial (Jessie).
+
+**Mudança em andamento:** a Amanda vai criar as ofertas de Sessão Estratégica dentro da Hotmart. A partir disso, esse botão passa a levar direto para o checkout de pagamento na Hotmart, em vez do WhatsApp.
+
+**O que continua igual:** o botão de WhatsApp flutuante (que já existe fixo na tela) continua direcionando para a Jessie normalmente.
+
+**Melhoria possível:** depois que a pessoa preencher o formulário ("se preferir, preencha o formulário e entraremos em contato"), pode aparecer também um botão de WhatsApp levando direto pra conversa com a Jessie, em vez de só ficar esperando o retorno.
