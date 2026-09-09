@@ -143,7 +143,7 @@ Essa é a régua de clareza que a Sessão Estratégica precisa alcançar, e a su
 
 **O que continua igual:** o botão de WhatsApp flutuante (que já existe fixo na tela) continua direcionando para a Jessie normalmente.
 
-**Melhoria possível:** depois que a pessoa preencher o formulário ("se preferir, preencha o formulário e entraremos em contato"), pode aparecer também um botão de WhatsApp levando direto para a conversa com a Jessie, em vez de só ficar esperando o retorno.
+**Sobre o WhatsApp após o formulário:** não é preciso criar um botão novo — o botão de WhatsApp flutuante já cobre esse caso. O ajuste é só no texto (ver seção 6), deixando claro pra quem preferir chamar direto em vez de esperar retorno pelo formulário.
 
 ---
 
@@ -151,9 +151,12 @@ Essa é a régua de clareza que a Sessão Estratégica precisa alcançar, e a su
 
 Vale para as 6 páginas (Sessão Estratégica e Diagnóstico, nas 3 personas) — o formulário é o mesmo template em todas.
 
-**Como está hoje:** "Se preferir, preencha o formulário e entraremos em contato." — não dá nenhum motivo para usar o formulário em vez de pagar direto ou chamar no WhatsApp, fica sem função clara ao lado das outras opções.
+**Como está hoje:** "Se preferir, preencha o formulário e entraremos em contato." — não dá nenhum motivo para usar o formulário em vez de pagar direto ou chamar no WhatsApp, fica sem função clara ao lado das outras opções, e não menciona o WhatsApp flutuante que já existe na tela.
 
-**Sugestão:**
-> Ainda está em dúvida se a sessão é para você? Ou gostaria de tirar uma dúvida antes de adquirir? Preencha o formulário que o nosso time comercial vai te atender.
+**Sugestão, páginas de Sessão Estratégica:**
+> Ainda está em dúvida se a sessão é para você? Ou gostaria de tirar uma dúvida antes de adquirir? Preencha o formulário que o nosso time vai te atender, ou, se preferir, chame a gente pelo WhatsApp no botão flutuante.
 
-**Por quê:** dá um motivo específico para usar o formulário (dúvida, não decisão de compra ainda), diferenciando esse caminho do botão de pagamento direto e do WhatsApp flutuante — cada opção da página passa a ter uma função clara: pagar (Hotmart), tirar dúvida rápida (WhatsApp) ou tirar dúvida mais detalhada por escrito (formulário).
+**Sugestão, páginas de Diagnóstico:**
+> Ainda está em dúvida se o Diagnóstico é para você? Ou gostaria de tirar uma dúvida antes de adquirir? Preencha o formulário que o nosso time vai te atender, ou, se preferir, chame a gente pelo WhatsApp no botão flutuante.
+
+**Por quê:** dá um motivo específico para usar o formulário (dúvida, não decisão de compra ainda), nomeia o produto certo em cada página (sessão ou Diagnóstico), e já aponta pro WhatsApp flutuante como alternativa mais rápida, sem precisar criar nada novo. Cada opção da página passa a ter uma função clara: pagar (Hotmart), tirar dúvida rápida (WhatsApp flutuante) ou tirar dúvida mais detalhada por escrito (formulário).
