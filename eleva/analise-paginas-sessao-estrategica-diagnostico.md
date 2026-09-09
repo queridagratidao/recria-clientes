@@ -1,10 +1,11 @@
 # Análise e Sugestões — Páginas de Sessão Estratégica e Diagnóstico
-**RECRIA Marketing, 09/09/2026**
+**Recria - Agência de Marketing, 09/09/2026**
+**Cliente:** Eleva
 **Páginas analisadas:** Sessão Estratégica (executivos, fornecedores, síndicos) e Diagnóstico Empresarial (executivos, fornecedores, síndicos), elevags.com.br
 
-**Contexto:** a Sessão Estratégica e o Diagnóstico passaram a ser pagos (R$700 e R$3.950). A Amanda avaliou que a promessa das páginas de Sessão Estratégica está vaga e talvez não venda a ideia da sessão o suficiente frente ao investimento, enquanto o Diagnóstico já está claro. Este documento reúne o que precisa ajustar em cada seção, e o motivo.
+**Contexto:** a Sessão Estratégica e o Diagnóstico passaram a ser pagos (R$700 e R$3.950). A Amanda avaliou que a promessa das páginas de Sessão Estratégica está vaga e talvez não venda a ideia da sessão o suficiente frente ao investimento, enquanto o Diagnóstico já está claro. Este documento reúne sugestões de ajustes em cada seção, e o motivo.
 
-**Sobre o público:** o foco do Giuliano nas personas de síndico e fornecedor é o **dono de empresa** que presta esse serviço (com CNPJ, podendo ter funcionário), não o profissional autônomo/pessoa física. Ou seja: empresa que presta serviço de síndico profissional, e empresa fornecedora/prestadora de serviço para condomínios. Isso é relevante tanto pro vocabulário das páginas quanto pra análise de preço (seção 2.5) — donos de administradora/imobiliária tendem a ter poder aquisitivo maior do que donos de empresa de síndico ou de empresa fornecedora, mesmo todos sendo donos de empresa.
+**Sobre o público:** o foco do Giuliano nas personas de síndico e fornecedor é preferencialmente o **dono de empresa** que presta esse serviço (com CNPJ, podendo ter funcionário). O profissional autônomo/pessoa física, se tiver condições financeiras, entra como a curva B de persona/cliente da Eleva nas frentes de Sessão Estratégica, Diagnóstico ou Mentoria — mas é um cliente potencial como parceiro das outras frentes do Eleva Group, como o Hub e a Eleva Seguros. Isso é relevante tanto pro vocabulário das páginas quanto pra análise de preço (seção 2.5) — donos de administradora/imobiliária tendem a ter poder aquisitivo maior do que donos de empresa de síndico ou de empresa fornecedora, mesmo todos sendo donos de empresa.
 
 ---
 
@@ -25,6 +26,8 @@
 
 **Problema comum às 3 páginas:** o H1 e o subhead prometem uma *experiência* ("veja pelos olhos de quem já liderou...", "situar o momento... enxergar os cenários possíveis"), não uma *entrega concreta*. Para R$700 por 2h, quem está decidindo precisa saber o que leva em mãos ao final, não só uma perspectiva. O Diagnóstico já resolve isso bem (ver seção 4) — a sugestão é replicar essa clareza aqui.
 
+**Lógica da promessa reformulada (vale pras 3 páginas):** em vez de prometer "a resolução do que já pode ser feito agora" (ainda meio genérico), a promessa fica em torno de **um gargalo específico**: em 2h, a pessoa sai com o passo a passo em andamento pra resolver **um** ponto que está travando o negócio — não é possível resolver vários gargalos numa sessão só. Isso já deixa claro, sem precisar explicar depois, por que resolver **múltiplos** gargalos é o papel do Diagnóstico ou da Mentoria.
+
 ### 2.1 Sessão Estratégica — Executivos
 
 **Como está:**
@@ -32,10 +35,10 @@
 - Subhead: "2 horas com Giuliano Spolavori — +35 anos no mercado imobiliário — para situar o momento do seu negócio e enxergar os cenários possíveis a partir daqui."
 
 **Sugestão:**
-- H1: "Em 2 horas, saia com a resolução do que já pode ser feito agora na sua administradora ou imobiliária"
+- H1: "Em 2 horas, saia com o passo a passo pra resolver um dos gargalos que pode estar travando o crescimento da sua administradora ou imobiliária"
 - Subhead: "Giuliano Spolavori entende o cenário do seu negócio e já entrega, na própria sessão, o encaminhamento prático pro que for possível resolver nessas 2h. Se a questão pedir mais profundidade, você sai sabendo exatamente se o caminho certo é um Diagnóstico ou uma Mentoria."
 
-**Por quê:** troca "enxergar/situar" (vago) por "sair com a resolução" (concreto), e deixa claro que Diagnóstico/Mentoria são caminhos condicionais, não o destino padrão de toda sessão.
+**Por quê:** troca "enxergar/situar" (vago) por "sair com o passo a passo pra resolver um gargalo" (concreto e delimitado), e deixa claro que Diagnóstico/Mentoria são caminhos condicionais, pra quando há mais de um gargalo a resolver, não o destino padrão de toda sessão.
 
 ### 2.2 Sessão Estratégica — Fornecedores
 
@@ -44,7 +47,7 @@
 - Subhead: "2 horas com Giuliano Spolavori — +35 anos contratando e avaliando fornecedores no mercado condominial — para situar o momento do seu negócio e enxergar os cenários possíveis a partir daqui."
 
 **Sugestão:**
-- H1: "Em 2 horas, saia com a resolução do que já pode ser feito agora pra vender mais pra condomínios"
+- H1: "Em 2 horas, saia com o passo a passo pra resolver um dos gargalos que pode estar te impedindo de vender mais pra condomínios"
 - Subhead: "Giuliano Spolavori entende o cenário da sua empresa e já entrega, na própria sessão, o encaminhamento prático pro que for possível resolver nessas 2h. Se a questão pedir mais profundidade, você sai sabendo exatamente se o caminho certo é um Diagnóstico ou uma Mentoria."
 
 ### 2.3 Sessão Estratégica — Síndicos
@@ -54,7 +57,7 @@
 - Subhead: "2 horas com Giuliano Spolavori — +35 anos no mercado condominial — para situar o momento da sua carteira e enxergar os cenários possíveis a partir daqui."
 
 **Sugestão:**
-- H1: "Em 2 horas, saia com a resolução do que já pode ser feito agora na sua atuação como síndico profissional"
+- H1: "Em 2 horas, saia com o passo a passo pra resolver um dos gargalos que pode estar travando a sua atuação como síndico profissional"
 - Subhead: "Giuliano Spolavori entende o cenário da sua carteira e já entrega, na própria sessão, o encaminhamento prático pro que for possível resolver nessas 2h. Se a questão pedir mais profundidade, você sai sabendo exatamente se o caminho certo é um Diagnóstico ou uma Mentoria."
 
 ### 2.4 "Como funciona" — passo 3, nas 3 páginas de Sessão Estratégica
