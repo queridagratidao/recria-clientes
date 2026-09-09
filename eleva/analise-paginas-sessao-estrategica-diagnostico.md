@@ -65,6 +65,20 @@
 **Sugestão** (adaptar o público em cada página):
 > **Resolução possível** — Você sai da sessão com o encaminhamento prático do que já pode ser resolvido agora [na sua operação / na sua carteira]. Se a questão for mais profunda, Giuliano te orienta se o caminho é o Diagnóstico ou a Mentoria.
 
+### 2.5 R$700 por 2h está alinhado ao valor de mercado?
+
+**Ressalva importante:** esta análise é baseada em raciocínio de mercado geral sobre consultoria B2B no Brasil, não em pesquisa de concorrentes em tempo real (não há acesso à internet neste ambiente para benchmark direto). Deve ser tratada como hipótese a validar, não como dado de mercado confirmado.
+
+**Por persona:**
+
+- **Executivos (donos de administradora/imobiliária):** R$700 por 2h com um profissional com 35 anos de mercado e mais de 20 operações de M&A está dentro, ou até abaixo, do que consultoria estratégica sênior costuma cobrar no Brasil (consultores seniores e especialistas em M&A frequentemente cobram na faixa de R$300 a R$800+ por hora). Para esse público, que já lida com decisões de investimento maiores no negócio, o valor tende a ser bem recebido, e talvez até esteja subprecificado frente ao mercado.
+
+- **Síndicos profissionais:** público mais sensível a preço. A renda de um síndico profissional varia muito com o tamanho da carteira: quem já administra muitos condomínios tende a ver R$700 como investimento pequeno frente ao retorno possível; quem está começando (1 a 3 condomínios) pode achar alto para uma decisão isolada, principalmente já existindo o curso de R$297 como porta de entrada mais barata. O risco é filtrar só os síndicos já mais consolidados — o que não é necessariamente um problema (é público mais qualificado), mas reduz o volume de quem chega à sessão.
+
+- **Fornecedores e prestadores de serviço:** público heterogêneo, de operação pequena/local a empresa regional maior. Um fornecedor pequeno pode hesitar em pagar R$700 sem prova de retorno anterior; um fornecedor já vendendo em escala B2B tende a ver isso como custo baixo frente ao ticket de um contrato que pode fechar depois.
+
+**Conclusão e recomendação:** o preço parece bem calibrado para executivos, e arriscado (não necessariamente errado, mas não comprovado) para síndicos e fornecedores de menor porte. Sugiro monitorar a taxa de conversão por persona nas primeiras semanas de venda. Se síndico e fornecedor converterem muito abaixo de executivo, vale considerar uma oferta diferenciada por segmento (por exemplo, facilidades de pagamento específicas, ou uma versão de sessão mais curta e com ticket menor para esses dois públicos), em vez de manter um preço único para os três desde o início.
+
 ---
 
 ## 3. Diagnóstico — pequenos ajustes de copy (estrutura já está boa)
