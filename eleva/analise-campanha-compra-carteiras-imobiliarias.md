@@ -6,7 +6,7 @@
 
 **Objetivo de negócio:** captar imobiliárias/administradoras em **Porto Alegre e Canoas (RS)** interessadas em vender sua carteira de aluguéis e/ou condomínios, para a Eleva intermediar a negociação de compra — sem expor publicamente que a Eleva atua como intermediadora (o anúncio fala em nome da Eleva como compradora direta, e a intermediação acontece na prática, dentro da conversa).
 
-**Ação desejada:** clique no anúncio → conversa iniciada no WhatsApp da Eleva.
+**Ação desejada:** clique no anúncio, gerando conversa iniciada no WhatsApp da Eleva.
 
 **Restrição geográfica:** só Porto Alegre e Canoas — público bem restrito, o que impacta CPM e velocidade de aprendizado da campanha (ver seção 5).
 
@@ -41,18 +41,34 @@ Em vez de segmentar as cidades inteiras, foi feito um levantamento das imobiliá
 | Centro | ~2 km | 6 |
 | Marechal Rondon | ~2 km | 6 |
 
-**Cobertura total:** ~55 das 63 empresas listadas. As demais (~8) estão em bairros isolados sem concentração suficiente pra justificar um pin próprio — não compensa criar segmentação extra pra 1 empresa.
+**Cobertura pelos 5 clusters:** ~55 das 63 empresas listadas.
 
-**Como usar no Meta Ads:** no conjunto de anúncios, em "Localização", adicionar cada um dos 5 pins acima (busca por bairro/endereço de referência no mapa do Gerenciador de Anúncios) com o raio indicado, em vez de selecionar "Porto Alegre" e "Canoas" como cidades inteiras.
+**Pins individuais adicionais (empresas fora dos 5 clusters):** como não é trabalhoso adicionar mais pins e a ideia é explorar todas as possibilidades, as empresas que ficam fora dos clusters acima recebem um pin próprio, direto no endereço, com raio pequeno (~1 km):
+
+| Empresa | Cidade | Endereço | Bairro |
+|---|---|---|---|
+| Alfa City Adm. de Condomínios | Porto Alegre | Av. Assis Brasil, 4550 | São Sebastião |
+| Innove Imóveis e Seguros | Porto Alegre | Av. Bento Gonçalves | Partenon |
+| Imobiliária Farrapos | Porto Alegre | Rua Conde de Porto Alegre | Navegantes |
+| Talla Adm. de Condomínios | Porto Alegre | Av. Protásio Alves, 1880 | Petrópolis |
+| Inovar Gestão Imobiliária | Canoas | Rua Lajeado, 1621 | Niterói |
+| R2 Síndicos Profissionais | Canoas | Rua Paes Lemes, 715 Sl 01 | Rio Branco (Canoas) |
+| Da Vinci Gestão Imobiliária | Canoas | Rua Nazaré, 600 | Nossa Sra. das Graças |
+
+**Atenção — 8 empresas da planilha sem bairro identificado:** 3R Administração Imobiliária, A Diretriz Imóveis, Imobiliária Acemil, Adacon Imóveis, Administradora Rio Grandense, Afreis Gestão Condominial, Cohen Imóveis e Imobiliária Exame têm só rua/CEP na planilha, sem bairro confirmado (não temos acesso a mapa neste ambiente pra confirmar a localização com segurança). Antes de criar o pin dessas, vale conferir o endereço completo num mapa (Google Maps) — não quis arriscar posicionar errado.
+
+**Total de pins no conjunto de anúncios:** 5 clusters + 7 pins individuais = 12 pins (mais os das 8 empresas pendentes de confirmação, se quiser incluir depois de checar o endereço).
+
+**Como usar no Meta Ads:** no conjunto de anúncios, em "Localização", adicionar cada um dos pins acima (busca por bairro/endereço de referência no mapa do Gerenciador de Anúncios) com o raio indicado, em vez de selecionar "Porto Alegre" e "Canoas" como cidades inteiras.
 
 ## 4. Público sugerido (demografia e interesses)
 
-- **Localização:** os 5 clusters da seção 3
+- **Localização:** os pins da seção 3 (5 clusters + pins individuais)
 - **Idade:** 30–65 anos
 - **Gênero:** todos
 - **Interesses (segmentação detalhada manual, combinados com "OU" — sem estreitar):** Mercado imobiliário, Corretagem de imóveis, Gestão de propriedades, Investimento imobiliário, Administração de condomínios
 - **Expansão de detalhamento de público:** **desativada** — com orçamento de R$50/dia e público já hiperlocal, deixar o Meta "expandir" pra fora dos interesses definidos arrisca gastar verba testando gente fora do perfil antes de aprender.
-- **Posicionamento:** Advantage+ (automático, só decide onde o anúncio aparece — Feed, Stories, Reels — não expande quem vê)
+- **Posicionamento:** manual — selecionar diretamente Feed do Instagram e Facebook + Stories (os formatos mais diretos pra esse tipo de anúncio), em vez de deixar no automático (Advantage+ Posicionamentos). Com pouca verba e só 15 dias, não vale gastar tempo de aprendizado do algoritmo testando posicionamento — melhor já ir direto no que costuma performar melhor pra esse tipo de campanha.
 
 **Reforço no criativo/legenda:** usar termos como "dono de imobiliária", "administradora de aluguéis e condomínios", "carteira de imóveis" na legenda, pra quem não se identificar simplesmente ignorar o anúncio — essa é a segmentação "de verdade" nesse caso.
 
@@ -63,7 +79,7 @@ Em vez de segmentar as cidades inteiras, foi feito um levantamento das imobiliá
 - **Orçamento total do teste:** R$750
 - **Critério de decisão ao final:** se o custo por conversa iniciada estiver dentro do razoável (seção 6) e/ou já surgir pelo menos 1 conversa qualificada (imobiliária real, carteira real), aumentar o orçamento. Se não houver nenhuma conversa qualificada em 15 dias, revisar público e/ou criativo antes de aumentar verba.
 
-## 6. Projeção de métricas (cenários, acumulado dos 15 dias) — ⚠️ estimativa, não dado real
+## 6. Projeção de métricas (cenários, acumulado dos 15 dias) — estimativa, não dado real
 
 **Premissa:** sem CPM histórico desse público específico (por não haver dado da campanha anterior nesta BM), a projeção usa benchmark geral de Meta Ads B2B no Brasil, ajustado pra cima pela restrição geográfica forte (público pequeno tende a aumentar CPM), e pra baixo pela segmentação por cluster (seção 3), que deve melhorar a eficiência frente a segmentar a cidade inteira.
 
@@ -80,7 +96,7 @@ Em vez de segmentar as cidades inteiras, foi feito um levantamento das imobiliá
 | Custo por conversa iniciada (WhatsApp) | R$35 | R$22 | R$12 |
 | Conversas iniciadas estimadas (total) | ~21 | ~34 | ~62 |
 
-**Sobre conversão (conversa → negócio):** não há histórico suficiente pra estimar com segurança essa etapa. Como hipótese de trabalho, sugiro considerar que de cada 5 a 10 conversas iniciadas, 1 tende a ser uma imobiliária real e qualificada (dono de fato interessado em vender, não curioso ou concorrente testando o anúncio) — e dessas, uma fração menor avança pra negociação de valores. Recomendo tratar isso como algo a **medir durante o teste**, não como projeção confiável, e ajustar a régua depois dos primeiros 15 dias com dado real.
+**Sobre conversão (conversa até virar negócio):** não há histórico suficiente pra estimar com segurança essa etapa. Como hipótese de trabalho, sugiro considerar que de cada 5 a 10 conversas iniciadas, 1 tende a ser uma imobiliária real e qualificada (dono de fato interessado em vender, não curioso ou concorrente testando o anúncio) — e dessas, uma fração menor avança pra negociação de valores. Recomendo tratar isso como algo a **medir durante o teste**, não como projeção confiável, e ajustar a régua depois dos primeiros 15 dias com dado real.
 
 ## 7. Legenda do anúncio
 
@@ -93,7 +109,7 @@ Como as duas artes têm exatamente o mesmo texto na imagem (só muda a foto do G
 > A Eleva está adquirindo empresas e carteiras de aluguéis e condomínios na região, negociação direta com Giuliano Spolavori: +35 anos no mercado imobiliário, +2.200 condomínios geridos, +20 operações de M&A, +8 mil imóveis locados.
 >
 > Se interessou e quer saber como funciona?
-> Toque no botão para conversar conosco através do WhatsApp 👇🏻
+> Toque no botão abaixo para conversar conosco através do WhatsApp.
 
 **Botão do anúncio:** Fale conosco
 
@@ -107,6 +123,6 @@ Como as duas artes têm exatamente o mesmo texto na imagem (só muda a foto do G
 ## 9. Próximos passos
 
 1. Giuliano aprova público, segmentação por cluster, orçamento e legenda.
-2. Subir a campanha com a estrutura da seção 2, usando os 5 pins da seção 3.
+2. Subir a campanha com a estrutura da seção 2, usando os pins da seção 3.
 3. Rodar os 15 dias sem mexer (evitar reiniciar aprendizado do Meta).
 4. Ao final, comparar resultado real com os 3 cenários da seção 6, e decidir sobre aumento de verba com base em custo por conversa qualificada, não só custo por conversa iniciada.
