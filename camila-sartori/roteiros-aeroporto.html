@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Roteiros para gravar no aeroporto</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Nunito:ital,wght@0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+<style>
+
+  @page { size: A4; margin: 0; }
+  :root{
+    --rosa-claro:#fbeef7;
+    --lilas-claro:#f2e6f7;
+    --branco:#ffffff;
+    --magenta:#9c1256;
+    --magenta-escuro:#6e0e3d;
+    --roxo-profundo:#5a1042;
+    --rosa-bonus:#f3d2ec;
+    --texto:#3a2233;
+    --texto-claro:#6b4b60;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{ font-family:'Nunito',sans-serif; color:var(--texto); background:#fff; }
+  .page{
+    width:210mm; min-height:297mm; padding:16mm 18mm 22mm 18mm; position:relative;
+    page-break-after:always; background:linear-gradient(180deg,var(--lilas-claro) 0%, #fff 40%);
+  }
+  .page:last-child{page-break-after:auto;}
+  .flower{ text-align:center; font-size:22px; color:var(--magenta); margin-bottom:6px;}
+  .capa{ display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; min-height:265mm;}
+  .capa h1{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--roxo-profundo); font-size:2.3rem; line-height:1.25; margin-bottom:14px;}
+  .capa .sub{ color:var(--magenta); font-weight:600; font-size:1.1rem; margin-bottom:30px;}
+  .capa .mes-badge{ background:var(--magenta); color:#fff; font-family:'Quicksand',sans-serif; font-weight:700; padding:10px 26px; border-radius:999px; font-size:1rem; margin-bottom:40px;}
+  .capa .lista-semanas{ text-align:left; background:#fff; border-radius:16px; padding:24px 30px; box-shadow:0 4px 18px rgba(90,16,66,.08); max-width:420px;}
+  .capa .lista-semanas li{ margin-bottom:10px; font-size:.95rem; color:var(--texto);}
+  .capa .lista-semanas b{ color:var(--magenta-escuro);}
+  h2.titulo-semana{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:1.55rem; color:var(--roxo-profundo); text-align:center; margin-bottom:4px;}
+  p.subtitulo-semana{ text-align:center; color:var(--magenta); font-weight:600; font-size:.92rem; margin-bottom:18px;}
+  .tag-formato{ display:block; text-align:center; margin:0 auto 20px auto; background:var(--rosa-bonus); color:var(--magenta-escuro); font-weight:700; font-size:.78rem; padding:5px 16px; border-radius:999px; width:fit-content;}
+  .whatsapp-box{
+    background:#fff; border:1.5px solid var(--rosa-bonus); border-radius:14px; padding:18px 20px; margin-bottom:22px;
+    box-shadow:0 3px 12px rgba(90,16,66,.06);
+  }
+  .whatsapp-box .label{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--magenta); font-size:.78rem; text-transform:uppercase; letter-spacing:.03em; margin-bottom:8px; display:block;}
+  .whatsapp-box p{ font-size:.87rem; line-height:1.55; margin-bottom:8px;}
+  .whatsapp-box .link{ color:var(--magenta-escuro); font-weight:700; font-size:.85rem;}
+  h3.secao{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--magenta-escuro); font-size:1.05rem; margin:16px 0 6px 0;}
+  p.corpo{ font-size:.9rem; line-height:1.6; margin-bottom:10px;}
+  .box-conexao{
+    background:var(--rosa-claro); border-left:4px solid var(--magenta); border-radius:8px; padding:12px 16px; font-size:.86rem; line-height:1.55; margin-bottom:16px; color:var(--texto);
+  }
+  .exercicio-box{
+    background:var(--rosa-claro); border-radius:12px; padding:18px 20px; margin-top:14px;
+    break-inside:avoid; page-break-inside:avoid;
+  }
+  .exercicio-box .titulo-ex{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--magenta); font-size:1rem; margin-bottom:10px;}
+  .exercicio-box p.pergunta{ font-size:.88rem; margin-bottom:6px; font-weight:600;}
+  .linha-escrever{ border-bottom:1px solid var(--rosa-bonus); height:22px; margin-bottom:6px;}
+  .frase-guardar{
+    background:var(--magenta); color:#fff; border-radius:12px; padding:14px 18px; font-family:'Quicksand',sans-serif; font-weight:600; font-size:.92rem; text-align:center; margin-top:18px; line-height:1.4;
+    break-inside:avoid; page-break-inside:avoid;
+  }
+  .roteiro-box{
+    background:var(--rosa-claro); border-radius:12px; padding:18px 20px; margin-top:8px; margin-bottom:14px;
+    break-inside:avoid; page-break-inside:avoid;
+  }
+  .roteiro-box p{ font-size:.9rem; line-height:1.65; font-style:italic; color:var(--texto);}
+  .plano-b{ background:#fff; border:1.5px dashed var(--rosa-bonus); border-radius:12px; padding:14px 18px; font-size:.85rem; line-height:1.5; color:var(--texto-claro); break-inside:avoid; page-break-inside:avoid;}
+  .plano-b .label{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--magenta); display:block; margin-bottom:6px; font-size:.82rem;}
+  .enquete-box{ background:var(--rosa-claro); border-radius:12px; padding:16px 20px; margin-top:6px;}
+  .enquete-box .opcao{ font-size:.88rem; margin-bottom:6px; font-weight:600;}
+  .resumo-item{ display:flex; gap:10px; margin-bottom:12px; font-size:.9rem; line-height:1.5;}
+  .resumo-item .bullet{ color:var(--magenta); font-weight:700; flex-shrink:0;}
+  .rodape{
+    position:absolute; bottom:10mm; left:18mm; right:18mm; text-align:center; font-size:.72rem; color:var(--texto-claro); border-top:1px solid var(--rosa-bonus); padding-top:8px; line-height:1.5;
+  }
+  .rodape b{ color:var(--magenta);}
+  .fechamento, .fechamento-inline{ text-align:center; font-family:'Quicksand',sans-serif; font-weight:600; color:var(--magenta-escuro); font-size:.92rem; margin-top:18px; display:block;}
+  .material-ref{
+    background:var(--lilas-claro); border:1.5px dashed var(--roxo-profundo); border-radius:12px; padding:14px 18px; font-size:.86rem; line-height:1.55; color:var(--texto); margin-bottom:16px;
+  }
+  .material-ref b{ color:var(--roxo-profundo); }
+  .recesso{
+    background:#fff; border-radius:16px; padding:26px 26px; text-align:center; box-shadow:0 4px 18px rgba(90,16,66,.08); max-width:440px; margin:0 auto;
+  }
+  .recesso p{ font-size:.92rem; line-height:1.6; margin-bottom:10px; color:var(--texto);}
+
+  .tag-formato2{ display:inline-block; background:var(--rosa-bonus); color:var(--magenta-escuro); font-weight:700; font-size:.72rem; padding:4px 12px; border-radius:999px; margin-bottom:14px;}
+  .trecho{ background:var(--rosa-claro); border-radius:10px; padding:12px 16px; margin-bottom:10px; font-size:.88rem; line-height:1.6; font-style:italic; color:var(--texto); break-inside:avoid; page-break-inside:avoid;}
+  .campo{ font-size:.87rem; line-height:1.55; margin-bottom:8px;}
+  .campo b{ color:var(--magenta-escuro);}
+  .obs{ font-size:.8rem; color:var(--texto-claro); font-style:italic; margin-top:6px;}
+
+</style>
+</head>
+<body>
+<div class="page capa">
+  <div class="flower">✿</div>
+  <span class="mes-badge">ROTEIROS PARA GRAVAR NO AEROPORTO</span>
+  <h1>4 Roteiros com Fala<br>(Teleprompter)</h1>
+  <p class="sub">2 venda do curso AME-SE · 1 convite Grupo VIP · 1 engajamento</p>
+  <div class="lista-semanas"><ul style="list-style:none;">
+    <li>✿ <b>Roteiro 1:</b> Venda AME-SE, Apego Evitativo</li>
+    <li>✿ <b>Roteiro 2:</b> Venda AME-SE, Padrão dos pais nas relações</li>
+    <li>✿ <b>Roteiro 3:</b> Grupo VIP Donas de Si, Pessoas narcisistas</li>
+    <li>✿ <b>Roteiro 4:</b> Engajamento, Descontar frustração</li>
+  </ul></div>
+  <p class="sub" style="margin-top:18px;font-size:.85rem;">Todos com menos de 3 minutos, formato dark post ou vídeo de feed</p>
+</div>
+<div class="page">
+  <div class="flower">✿</div>
+  <h2 class="titulo-semana">Roteiro 1</h2>
+  <p class="subtitulo-semana">Apego Evitativo</p>
+  <div style="text-align:center;"><span class="tag-formato2">VENDA · COMUNIDADE AME-SE</span></div>
+  <h3 class="secao">Roteiro (teleprompter, até 3 minutos)</h3>
+  <div class="trecho">Você já conheceu alguém que se aproxima rápido, intenso, parece super interessado... e assim que a relação começa a ficar séria de verdade, some, se afasta, ou arruma um motivo pra brigar?</div>
+  <div class="trecho">Isso é um padrão chamado apego evitativo. Não é falta de interesse, na maioria das vezes. É medo de intimidade, de depender de alguém, de ser vista de verdade e, quem sabe, magoada depois.</div>
+  <div class="trecho">E o mais difícil: quem tem esse padrão muitas vezes nem sabe que tem. Só sente um alarme interno de perigo toda vez que alguém chega perto demais.</div>
+  <div class="trecho">Mas existe solução. Eu sou Camila Sartori, mestre em psicologia clínica, e trabalho com terapia do esquema e terapia cognitivo-comportamental.</div>
+  <div class="trecho">Na Comunidade AME-SE, eu criei um espaço com vários cursos e atividades pra quebrar esse e outros padrões que impedem você de ter mais qualidade de vida e relacionamentos melhores.</div>
+  <div class="trecho">Se você quer mais informações, toque no botão que vai aparecer na sua tela, ou acesse pelo link da bio.</div>
+  <p class="campo"><b>Legenda:</b> Apego evitativo não é falta de interesse, é medo de intimidade disfarçado de distância. Toque no botão ou acesse o link da bio pra conhecer a Comunidade AME-SE.</p>
+  <p class="campo"><b>Hashtags:</b> #ApegoEvitativo #ComunidadeAmeSe #JornadaAmeSe</p>
+  <p class="obs">Reels/anúncio, até 3min, teleprompter — funciona como dark post ou vídeo de feed.</p>
+  <div class="rodape">
+    <b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria
+  </div>
+
+</div>
+<div class="page">
+  <div class="flower">✿</div>
+  <h2 class="titulo-semana">Roteiro 2</h2>
+  <p class="subtitulo-semana">Padrão dos pais nas relações</p>
+  <div style="text-align:center;"><span class="tag-formato2">VENDA · COMUNIDADE AME-SE</span></div>
+  <h3 class="secao">Roteiro (teleprompter, até 3 minutos)</h3>
+  <div class="trecho">Você já reparou que, sem perceber, você vai atrás de pessoas parecidas com quem te machucou, muitas vezes na infância?</div>
+  <div class="trecho">Isso acontece mais do que parece. Quando a gente cresce num ambiente onde faltou atenção, ou sobrou crítica, a mente aprende a associar aquilo a "normal", até a "familiar". E aí, na vida adulta, a gente se sente atraída por pessoas que reproduzem esse mesmo padrão, mesmo sabendo, racionalmente, que aquilo machuca.</div>
+  <div class="trecho">Mas existe solução. Eu sou Camila Sartori, mestre em psicologia clínica, e trabalho com terapia do esquema e terapia cognitivo-comportamental.</div>
+  <div class="trecho">Te convido a conhecer a Comunidade AME-SE, lá você terá acesso a vários cursos e atividades pra entender essa raiz e quebrar esse e outros padrões que te impedem de ter a vida que tanto quer.</div>
+  <div class="trecho">E o melhor: você pode experimentar por 7 dias grátis, e o valor do acesso anual sai mais barato que uma pizza, pra você investir no seu autoconhecimento, na sua autoestima e nos seus relacionamentos.</div>
+  <div class="trecho">Para saber mais: comente AME-SE ou acesse pelo link da bio.</div>
+  <p class="campo"><b>Legenda:</b> A gente repete, sem perceber, o padrão de vínculo que aprendeu na infância. 7 dias grátis pra conhecer a Comunidade AME-SE, mais barato que uma pizza por ano. Comente AME-SE ou acesse o link da bio.</p>
+  <p class="campo"><b>Hashtags:</b> #PadrõesFamiliares #Autoconhecimento #ComunidadeAmeSe</p>
+  <p class="obs">Reels/anúncio, até 3min, teleprompter — funciona como dark post ou vídeo de feed.</p>
+  <div class="rodape">
+    <b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria
+  </div>
+
+</div>
+<div class="page">
+  <div class="flower">✿</div>
+  <h2 class="titulo-semana">Roteiro 3</h2>
+  <p class="subtitulo-semana">Pessoas narcisistas</p>
+  <div style="text-align:center;"><span class="tag-formato2">CONVITE · GRUPO VIP DONAS DE SI</span></div>
+  <h3 class="secao">Roteiro (teleprompter, até 3 minutos)</h3>
+  <div class="trecho">Você já conviveu com alguém que, de um jeito sutil, sempre fazia tudo girar em torno dela? Que colocava a própria necessidade acima da sua o tempo todo, e ainda te fazia sentir culpada quando você se posicionava?</div>
+  <div class="trecho">Isso pode acontecer com um pai, uma mãe, um chefe, um parceiro. E o mais difícil é que, muitas vezes, a gente nem reconhece isso como um problema, porque aprendeu a viver assim, e acha que é assim que toda relação funciona.</div>
+  <div class="trecho">Conviver perto de traços narcisistas deixa marcas silenciosas: a sensação de nunca ser suficiente, a dificuldade de confiar no que você sente, e um cansaço que parece não ter explicação.</div>
+  <div class="trecho">Mas existe solução. Eu sou Camila Sartori, mestre em psicologia clínica, e trabalho com terapia do esquema e terapia cognitivo-comportamental.</div>
+  <div class="trecho">Na Comunidade Donas de Si, eu falo sobre como lidar com pessoas narcisistas, love bombing, ghosting, autocrítica, e muito mais. Ou seja, é um espaço para você desenvolver o seu autoconhecimento com o meu apoio, um espaço gratuito, no WhatsApp, exclusivo para mulheres.</div>
+  <div class="trecho">Comente DONAS DE SI e então eu te envio o convite no seu direct, ou acesse pelo link da bio.</div>
+  <p class="campo"><b>Legenda:</b> Conviver perto de uma pessoa narcisista deixa marcas silenciosas. Comente DONAS DE SI e entra no meu grupo gratuito, exclusivo para mulheres, ou acesse pelo link da bio.</p>
+  <p class="campo"><b>Hashtags:</b> #Narcisismo #GrupoVIP #JornadaAmeSe</p>
+  <p class="obs">Reels, até 3min, teleprompter — funciona tanto pro feed quanto como anúncio pro Grupo VIP.</p>
+  <div class="rodape">
+    <b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria
+  </div>
+
+</div>
+<div class="page">
+  <div class="flower">✿</div>
+  <h2 class="titulo-semana">Roteiro 4</h2>
+  <p class="subtitulo-semana">Descontar frustração</p>
+  <div style="text-align:center;"><span class="tag-formato2">ENGAJAMENTO (COMENTÁRIOS)</span></div>
+  <h3 class="secao">Roteiro (teleprompter, até 3 minutos)</h3>
+  <div class="trecho">Deixa eu te perguntar uma coisa: quando você tá frustrada, brava, ou com algum problema em casa, pra onde vai essa energia?</div>
+  <div class="trecho">Tem gente que desconta na comida. Tem gente que desconta em algum vício, rolar rede social sem parar, compra por impulso, uma bebida a mais. Tem gente que simplesmente engole tudo e finge que está tudo bem.</div>
+  <div class="trecho">Nenhuma dessas válvulas resolve o problema de verdade, elas só adiam. Muitas vezes isso é uma espécie de fome emocional, um jeito de tapar um buraco que, na real, pede outro tipo de cuidado.</div>
+  <div class="trecho">E isso tem caminho, sim: pode ser trabalhado e resolvido com terapia e acompanhamento profissional.</div>
+  <div class="trecho">Pra onde vai a sua frustração quando as coisas não estão bem? Me conta aqui nos comentários, isso me ajuda a te conhecer melhor e trazer cada vez mais conteúdos que façam sentido e agreguem pra você.</div>
+  <p class="campo"><b>Legenda:</b> Pra onde vai a sua frustração quando as coisas não estão bem? Conta aqui nos comentários, quero te conhecer melhor pra trazer conteúdos que façam sentido pra você.</p>
+  <p class="campo"><b>Hashtags:</b> #SaúdeEmocional #Autoconhecimento #JornadaAmeSe</p>
+  <p class="obs">Reels, até 3min, teleprompter, sem venda direta — objetivo é comentário e alcance.</p>
+  <div class="rodape">
+    <b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria
+  </div>
+
+</div>
+</body>
+</html>
