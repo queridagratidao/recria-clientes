@@ -30,8 +30,8 @@ Em vez de segmentar as cidades inteiras, foi feito um levantamento das imobiliá
 
 | Cluster (pin) | Raio sugerido | Empresas cobertas | Bairros na área |
 |---|---|---|---|
-| Centro / Centro Histórico | ~4 km | 12 diretas + cobre a maioria das demais | Centro, Centro Histórico, Bom Fim, Farroupilha, Independência, Azenha, Moinhos de Vento, Floresta, Mont'Serrat, Menino Deus, Bela Vista, Rio Branco |
-| Cristo Redentor / Passo d'Areia | ~3 km | 5 | Cristo Redentor, Passo d'Areia |
+| Centro / Centro Histórico | ~4 km | 17 diretas + cobre a maioria das demais | Centro, Centro Histórico, Bom Fim, Farroupilha, Independência, Azenha, Moinhos de Vento, Floresta, Auxiliadora, Mont'Serrat, Menino Deus, Bela Vista, Rio Branco |
+| Cristo Redentor / Passo d'Areia | ~3 km | 6 | Cristo Redentor, Passo d'Areia |
 | Cristal | ~2 km | 2 | Cristal |
 
 **Canoas (15 empresas no levantamento):**
@@ -41,13 +41,15 @@ Em vez de segmentar as cidades inteiras, foi feito um levantamento das imobiliá
 | Centro | ~2 km | 6 |
 | Marechal Rondon | ~2 km | 6 |
 
-**Cobertura pelos 5 clusters:** ~55 das 63 empresas listadas.
+**Cobertura pelos 3 clusters de Porto Alegre + 2 de Canoas:** ~61 das 63 empresas listadas, após confirmar o bairro das 8 que estavam sem essa informação na planilha original (a maioria caiu dentro dos clusters já existentes, só 1 exigiu ajuste no raio do cluster Centro pra incluir o bairro Auxiliadora).
 
-**Pins individuais adicionais (empresas fora dos 5 clusters):** como não é trabalhoso adicionar mais pins e a ideia é explorar todas as possibilidades, as empresas que ficam fora dos clusters acima recebem um pin próprio, direto no endereço, com raio pequeno (~1 km):
+**Pins individuais adicionais (empresas fora dos clusters):** como não é trabalhoso adicionar mais pins e a ideia é explorar todas as possibilidades, as empresas que ficam fora dos clusters acima recebem um pin próprio, direto no endereço, com raio pequeno (~1 km):
 
 | Empresa | Cidade | Endereço | Bairro |
 |---|---|---|---|
 | Alfa City Adm. de Condomínios | Porto Alegre | Av. Assis Brasil, 4550 | São Sebastião |
+| A Diretriz Adm. de Imóveis e Condomínios | Porto Alegre | R. Joaquim Silveira, 396 | São Sebastião (mesmo pin do Alfa City) |
+| Administradora Rio Grandense | Porto Alegre | R. Santa Flora, 1482 | Nonoai |
 | Innove Imóveis e Seguros | Porto Alegre | Av. Bento Gonçalves | Partenon |
 | Imobiliária Farrapos | Porto Alegre | Rua Conde de Porto Alegre | Navegantes |
 | Talla Adm. de Condomínios | Porto Alegre | Av. Protásio Alves, 1880 | Petrópolis |
@@ -55,9 +57,7 @@ Em vez de segmentar as cidades inteiras, foi feito um levantamento das imobiliá
 | R2 Síndicos Profissionais | Canoas | Rua Paes Lemes, 715 Sl 01 | Rio Branco (Canoas) |
 | Da Vinci Gestão Imobiliária | Canoas | Rua Nazaré, 600 | Nossa Sra. das Graças |
 
-**Atenção — 8 empresas da planilha sem bairro identificado:** 3R Administração Imobiliária, A Diretriz Imóveis, Imobiliária Acemil, Adacon Imóveis, Administradora Rio Grandense, Afreis Gestão Condominial, Cohen Imóveis e Imobiliária Exame têm só rua/CEP na planilha, sem bairro confirmado (não temos acesso a mapa neste ambiente pra confirmar a localização com segurança). Antes de criar o pin dessas, vale conferir o endereço completo num mapa (Google Maps) — não quis arriscar posicionar errado.
-
-**Total de pins no conjunto de anúncios:** 5 clusters + 7 pins individuais = 12 pins (mais os das 8 empresas pendentes de confirmação, se quiser incluir depois de checar o endereço).
+**Total de pins no conjunto de anúncios:** 5 clusters + 8 pins individuais (o de São Sebastião cobre 2 empresas) = 13 pins, cobrindo as 63 empresas do levantamento.
 
 **Como usar no Meta Ads:** no conjunto de anúncios, em "Localização", adicionar cada um dos pins acima (busca por bairro/endereço de referência no mapa do Gerenciador de Anúncios) com o raio indicado, em vez de selecionar "Porto Alegre" e "Canoas" como cidades inteiras.
 
