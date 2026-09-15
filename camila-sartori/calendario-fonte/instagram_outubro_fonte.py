@@ -14,7 +14,18 @@
 
 add_month("OUTUBRO 2026 - Instagram")
 
-add_week("SEMANA 1 · 05 a 11/10, Love bombing — Camila ainda viajando, so estatico")
+add_week("SEMANA 1 · 02 a 11/10, Codependência emocional e Love bombing — Camila ainda viajando, so estatico")
+
+add_day("02/10 (SEX), Post de texto (sem imagem)", [
+    dict(time="09h", channel="INSTAGRAM", tipo="VENDA (Automação -> Comunidade AME-SE)",
+         formato="Post de texto (sem sugestão de imagem — fundo simples, só texto, paleta da marca)",
+         headline="Você já deixou de fazer coisas que gosta, ver quem gosta, ou até de ter opinião própria, só pra manter uma relação em pé?",
+         subheadline="Isso tem nome, e não é amor, é codependência emocional. Leia a legenda.",
+         cta=None,
+         legenda="Codependência emocional é quando o bem-estar de alguém passa a depender quase inteiramente da relação, e da aprovação do outro, a ponto da própria identidade ir ficando em segundo plano. Não acontece de um dia pro outro: começa com pequenas cessões, abrir mão de um encontro com amigas, engolir uma opinião, adiar um plano, e vai se acumulando até a pessoa perceber que já não sabe muito bem o que ela mesma queria antes daquela relação. Diferente do amor saudável, onde duas pessoas se apoiam sem deixar de existir sozinhas, a codependência cria uma sensação de que, sem o outro, alguma coisa desmorona, inclusive a própria identidade. Reconhecer esse padrão não é sobre terminar relações, é sobre voltar a se enxergar como alguém inteira, com espaço próprio, mesmo dividindo a vida com outra pessoa. Se você se identificou com isso, te convido a conhecer a Comunidade AME-SE, um espaço com vários cursos e materiais pra você se desenvolver de forma ampla: autoconhecimento, autoestima, relacionamentos familiares, amorosos, com os amigos, no trabalho, além de mentorias em grupo com o pessoal do curso. E o valor é mais barato do que uma pizza, se você optar por parcelar em 12 vezes, fica ainda mais barato que um salgado por mês. Por apenas R$16 por mês, você investe no seu autoconhecimento, na sua autoestima e no seu desenvolvimento pessoal, pra ter mais qualidade de vida e relacionamentos mais saudáveis. Se você se interessou, comente AME-SE que eu te envio todos os detalhes no seu direct, ou, se preferir, acesse a página da comunidade no link da bio, e aproveite também os seus 7 dias grátis.",
+         hashtags="#CodependênciaEmocional #ComunidadeAmeSe #JornadaAmeSe",
+         observacao="Post de texto, não depende de gravação. Tema novo, ainda não abordado nem em setembro nem em outubro. Assim que postar no Instagram, repostar no grupo do WhatsApp (mesmo texto)."),
+])
 
 add_day("07/10 (QUA), Carrossel", [
     dict(time="09h", channel="INSTAGRAM", tipo="VALOR + ENGAJAMENTO (Automação -> Grupo VIP)",

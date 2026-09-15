@@ -108,26 +108,15 @@ add_day("16/09 (QUA), Post de texto (sem imagem)", [
          observacao="Teste de formato: post só de texto, sem imagem/foto sugerida. Assim que postar no Instagram, repostar no grupo do WhatsApp (mesmo texto)."),
 ])
 
-add_day("18/09 (SEX), Reel (roteiro para a Camila gravar) — caso da Joana", [
+add_day("18/09 (SEX), Post de texto (sem imagem) — situação hipotética (Joana)", [
     dict(time="09h", channel="INSTAGRAM", tipo="VENDA (Automação -> Curso, ver plano de automação)",
-         formato="Reels (até 3 min), formato caso/história (Camila contando o caso da Joana)",
-         cenario="Sentada, tom de conversa próxima, como quem está contando um caso real de terapia (nome fictício, sem identificar ninguém).",
-         headline="Deixa eu te contar o caso da Joana. No começo do relacionamento, ela achava que tinha muita sorte.",
-         subheadline=None,
-         trechos=[
-             "Deixa eu te contar o caso da Joana. No começo do relacionamento, ela achava que tinha muita sorte: o namorado sempre sabia exatamente o que dizer, elogiava tudo nela, dizia que ela era diferente de todo mundo.",
-             "Só que, com o tempo, ela percebeu um padrão: toda conversa, de algum jeito, voltava pra ele. Os problemas dela nunca eram tão importantes quanto os dele. E quando ela discordava de alguma coisa, ele fazia ela se sentir culpada por isso.",
-             "Ela não sabia nomear o que estava sentindo, só sabia que, cada vez mais, se sentia pequena, e que se policiava antes de expressar qualquer necessidade.",
-             "Isso é um padrão comum em relacionamentos com traços narcisistas: idealização intensa no começo, seguida de uma dinâmica onde as necessidades da outra pessoa deixam de importar, e qualquer tentativa de se posicionar é tratada como drama ou exagero.",
-             "Ela levou um tempo pra reconhecer isso, porque, de fora, o relacionamento até parecia bom. Ele não era agressivo na forma como a gente costuma imaginar.",
-             "A gente trabalhou juntas pra ela reconstruir a confiança na própria percepção, entender que sentir que algo está errado, mesmo sem provas óbvias, também é uma informação válida.",
-             "Hoje ela consegue reconhecer esses sinais muito mais cedo, e principalmente, confiar em si mesma de novo.",
-             "Por questões de sigilo profissional, eu dei um nome fictício aqui para um exemplo muito comum que vejo nas sessões de terapia todos os meses.",
-         ],
-         cta="Se você se identificou com o caso da Joana e quer melhorar os seus relacionamentos, comente ou envie no meu direct a palavra: NARCISISTA, e eu vou te enviar algo que vai te ajudar.",
-         legenda="O caso da Joana: relacionamento com traços narcisistas nem sempre grita, mas sempre corrói a autoconfiança aos poucos. Comente NARCISISTA e olha o que eu vou te enviar no seu direct.",
+         formato="Post de texto (sem sugestão de imagem — fundo simples, só texto, paleta da marca), situação hipotética contada em forma de história. PLANO B: virou post estático no lugar do Reel, pra não depender de gravação.",
+         headline="No começo do relacionamento, ela achava que tinha muita sorte. O namorado sempre sabia exatamente o que dizer.",
+         subheadline="Mas, com o tempo, toda conversa, de algum jeito, voltava pra ele, ignorando completamente quando o assunto era ela. Continue na legenda.",
+         cta=None,
+         legenda='Deixa eu te contar a história da Joana (nome fictício, é um caso que acontece com muita frequência, e achei importante trazer esse tema pro feed). No começo do relacionamento, ela achava que tinha muita sorte: o namorado sempre sabia exatamente o que dizer, elogiava tudo nela, dizia que ela era diferente de todo mundo. Só que, com o tempo, ela percebeu um padrão: toda conversa, de algum jeito, voltava pra ele. Os problemas dela nunca eram tão importantes quanto os dele. E quando ela discordava de alguma coisa, ele fazia ela se sentir culpada por isso. Ela não sabia nomear o que estava sentindo, só sabia que, cada vez mais, se sentia pequena, e que se policiava antes de expressar qualquer necessidade. Isso é um padrão comum em relacionamentos com traços narcisistas: idealização intensa no começo, seguida de uma dinâmica onde as necessidades da outra pessoa deixam de importar, e qualquer tentativa de se posicionar é tratada como drama ou exagero. Ela levou um tempo pra reconhecer isso, porque, de fora, o relacionamento até parecia bom, ele não era agressivo na forma como a gente costuma imaginar. Reconstruir a confiança na própria percepção, entender que sentir que algo está errado, mesmo sem provas óbvias, também é uma informação válida, foi o que fez ela conseguir reconhecer esses sinais muito mais cedo, e principalmente, confiar em si mesma de novo. Se você se identificou com essa situação e quer melhorar os seus relacionamentos, venha para a Comunidade Donas de Si, uma comunidade totalmente gratuita no WhatsApp, organizada através do meu direcionamento como psicóloga, exclusiva para mulheres. Comente DONAS DE SI que eu te envio o convite no seu direct, ou, se preferir, acesse pelo link da bio.',
          hashtags="#RelacionamentoNarcisista #SaúdeEmocional #JornadaAmeSe",
-         observacao="Nome fictício, sem identificar ninguém — por sigilo profissional. Automação: 1ª mensagem oferece o curso (venda direta). No dia seguinte (19/09), enviar follow-up convidando para o Grupo VIP. Ver plano de automação separado."),
+         observacao="Situação fictícia/hipotética (Joana), deixado explícito no próprio texto — não é relato de sessão real, e sem qualquer menção a sessão de terapia (sigilo profissional). Post de texto, não depende de gravação. Automação: comentário DONAS DE SI dispara convite pra Comunidade Donas de Si no direct."),
 ])
 
 add_week("SEMANA 4 · 21 a 27/09, Manipulação emocional — teste de formato texto")
@@ -143,47 +132,26 @@ add_day("23/09 (QUA), Post de texto (sem imagem)", [
          observacao="Teste de formato: post só de texto, sem imagem/foto sugerida. Assim que postar no Instagram, repostar no grupo do WhatsApp (mesmo texto)."),
 ])
 
-add_day("25/09 (SEX), Reel (roteiro para a Camila gravar) — caso da Aline, fechamento do mês", [
+add_day("25/09 (SEX), Post de texto (sem imagem) — situação hipotética (Aline), fechamento do mês", [
     dict(time="09h", channel="INSTAGRAM", tipo="VENDA (Automação -> Curso, ver plano de automação)",
-         formato="Reels (até 3 min), formato caso/história (Camila contando o caso da Aline)",
-         cenario="Sentada, tom de conversa próxima, como quem está contando um caso real de terapia (nome fictício, sem identificar ninguém). Energia mais calorosa, fechamento do mês.",
-         headline="Deixa eu te contar o caso da Aline. Ela sabia, há tempos, que aquele relacionamento não fazia bem. E mesmo assim, não conseguia sair.",
+         formato="Post de texto (sem sugestão de imagem — fundo simples, só texto, paleta da marca), situação hipotética contada em forma de história. PLANO B: virou post estático no lugar do Reel, pra não depender de gravação.",
+         headline="Ela sabia, há tempos, que aquele relacionamento não fazia bem. E mesmo assim, não conseguia sair.",
          subheadline=None,
-         trechos=[
-             "Deixa eu te contar o caso da Aline. Ela sabia, há tempos, que aquele relacionamento não fazia bem. As brigas eram constantes, ela vivia ansiosa, e as pessoas mais próximas já tinham comentado a mudança nela. Mesmo assim, ela não conseguia sair.",
-             "Não era falta de clareza. Ela sabia exatamente o que estava errado. O que faltava era coragem, e um medo enorme do que viria depois: ficar sozinha, ter que recomeçar, ou não saber quem ela era fora daquela relação.",
-             "Isso é mais comum do que parece. Às vezes a gente permanece num lugar que não faz bem, não porque não vê o problema, mas porque o medo do vazio depois é maior que o desconforto de ficar.",
-             "Na terapia, a gente trabalhou primeiro esse medo, entender de onde ele vinha, muitas vezes de uma história antiga de abandono ou de instabilidade, antes mesmo de falar sobre o relacionamento em si.",
-             "Porque não adianta só ter coragem quando o medo de base nunca foi trabalhado. A pessoa sai de um relacionamento assim e, sem entender a raiz, corre o risco de repetir o padrão no próximo.",
-             "Ela levou alguns meses, mas conseguiu não só sair do relacionamento, como principalmente entender por que ficava tanto tempo em lugares que não faziam bem pra ela.",
-             "E isso resume um pouco tudo que a gente conversou esse mês por aqui: relacionamento com o outro, relacionamento com a família, relacionamento com você mesma. No fundo, é sempre sobre os mesmos padrões se repetindo em contextos diferentes.",
-             "Por questões de sigilo profissional, o nome da Aline é fictício. Não é um caso específico de ninguém, é um relato que eu escuto bastante nas sessões de terapia.",
-         ],
-         cta="Mas se você se sentir identificada, se o caso da Aline te tocou de alguma forma, comenta RELACIONAMENTO que eu vou te enviar algo que vai te ajudar muito. Ou, se preferir, pode mandar a mensagem direto no meu direct também.",
-         legenda="O caso da Aline: às vezes a gente não sai de onde não faz bem por medo do que vem depois, não por falta de clareza. Comente RELACIONAMENTO e olha o que eu vou te enviar no seu direct.",
+         cta="Continua na legenda...",
+         legenda='Deixa eu te contar a história da Aline (nome fictício, é um caso que acontece com muita frequência, e achei importante trazer esse tema pro feed). Ela sabia, há tempos, que aquele relacionamento não fazia bem. As brigas eram constantes, ela vivia ansiosa, e as pessoas mais próximas já tinham comentado a mudança nela. Mesmo assim, ela não conseguia sair. Não era falta de clareza, ela sabia exatamente o que estava errado. O que faltava era coragem, e um medo enorme do que viria depois: ficar sozinha, ter que recomeçar, ou não saber quem ela era fora daquela relação. Isso é mais comum do que parece: às vezes a gente permanece num lugar que não faz bem, não porque não vê o problema, mas porque o medo do vazio depois é maior que o desconforto de ficar. O primeiro passo costuma ser trabalhar justamente esse medo, entender de onde ele vem, muitas vezes de uma história antiga de abandono ou de instabilidade, antes mesmo de falar sobre o relacionamento em si. Porque não adianta só ter coragem quando o medo de base nunca foi trabalhado, a pessoa sai de um relacionamento assim e, sem entender a raiz, corre o risco de repetir o padrão no próximo. E isso resume um pouco tudo que a gente conversou esse mês por aqui: relacionamento com o outro, relacionamento com a família, relacionamento com você mesma. No fundo, é sempre sobre os mesmos padrões se repetindo em contextos diferentes. Se você se sentiu identificada, ou se essa situação te tocou de alguma forma, venha para a Comunidade Donas de Si, uma comunidade totalmente gratuita no WhatsApp, organizada através do meu direcionamento como psicóloga, exclusiva para mulheres. Comente DONAS DE SI que eu te envio o convite no seu direct, ou, se preferir, acesse pelo link da bio.',
          hashtags="#Relacionamentos #SaúdeEmocional #JornadaAmeSe",
-         observacao="Nome fictício, sem identificar ninguém — relato recorrente nas sessões de terapia. Fecha o mês. Automação: 1ª mensagem oferece o curso (venda direta). No dia seguinte (26/09), enviar follow-up convidando para o Grupo VIP. Ver plano de automação separado."),
+         observacao="Situação fictícia/hipotética (Aline), deixado explícito no próprio texto — não é relato de sessão real, e sem qualquer menção a sessão de terapia (sigilo profissional). Post de texto, não depende de gravação. Fecha o mês. Automação: comentário DONAS DE SI dispara convite pra Comunidade Donas de Si no direct."),
 ])
 
 add_week("SEMANA 5 · 28/09 a 04/10, Apego evitativo — fechamento real do mês")
 
-add_day("30/09 (QUA), Reel (roteiro para a Camila gravar) — pergunta de opinião", [
+add_day("30/09 (QUA), Post de texto (sem imagem) — pergunta de opinião", [
     dict(time="09h", channel="INSTAGRAM", tipo="ENGAJAMENTO (Opinião nos comentários)",
-         formato="Reels (até 3 min)",
-         cenario="Sentada, luz natural, tom leve e de conversa (não é venda).",
-         headline="A conversa era ótima, teve encontro, tava tudo indo bem... e do nada, a pessoa some.",
-         subheadline=None,
-         trechos=[
-             "A conversa era ótima, teve encontro, tava tudo indo bem, parecia que finalmente tinha dado certo. E do nada, a pessoa some. Sem explicação, sem aviso, do nada.",
-             "Isso tem nome, ghosting, mas o que pouca gente sabe é que, muitas vezes, por trás disso tem um padrão bem mais profundo: o apego evitativo.",
-             "Gente com esse padrão costuma se aproximar rápido, às vezes até intenso demais no começo, uma atenção enorme, mensagens o dia todo, aquela sensação de conexão instantânea.",
-             "Só que, assim que a relação começa a ficar séria de verdade, alguma coisa dispara internamente um alarme de perigo. E, ao invés de falar sobre isso, a pessoa evita, se afasta, ou simplesmente some.",
-             "Não é sobre falta de interesse, na maioria das vezes. É medo de intimidade, de depender de alguém, de ser vista de verdade e, quem sabe, magoada depois.",
-             "E para quem está do outro lado, isso dói duas vezes: primeiro pelo sumiço em si, segundo por não entender o que aconteceu, o que geralmente leva a procurar defeito em si mesma, quando na verdade era um padrão do outro se manifestando.",
-             "Entender esse padrão, seja no outro ou em você mesma, muda completamente a forma de lidar com relações assim, ou até de reconhecer os primeiros sinais antes de se machucar de novo.",
-         ],
-         cta="E você, já passou por uma situação assim, ou já percebeu esse padrão em alguém? Qual é a sua opinião sobre isso? Deixa aqui nos comentários.",
-         legenda="Apego evitativo: quando o medo de intimidade faz a pessoa sumir assim que a relação começa a ficar séria. Conta aqui o que você acha sobre esse tema.",
-         hashtags="#ApegoEvitativo #Ghosting #JornadaAmeSe",
-         observacao="Fecha setembro. Love bombing e ghosting como temas próprios, com mais profundidade cada um, ficam reservados pro calendário de outubro. Sem automação de DM nesse post: o objetivo é gerar conversa e comentários públicos."),
+         formato="Post de texto (sem sugestão de imagem — fundo simples, só texto, paleta da marca). PLANO B: virou post estático no lugar do Reel, pra não depender de gravação. Ângulo diferente do post de ghosting/apego evitativo já usado em outubro (09/10): aqui fala pra quem TEM o padrão, não pra quem sofre o sumiço.",
+         headline="Ele se aproxima rápido, tudo parece incrível. Mas assim que a relação começa a ficar séria de verdade, ele perde o interesse e some.",
+         subheadline="Isso também é um padrão, e tem nome. Continua na legenda.",
+         cta=None,
+         legenda="Existe um padrão em que ele se aproxima rápido, se envolve intensamente, e assim que a relação começa a ficar séria de verdade, alguma coisa interna dispara um alarme de perigo. E, ao invés de falar sobre isso, ele evita, arruma um motivo pra brigar, ou se afasta aos poucos. Isso tem nome: apego evitativo. Não costuma ser falta de interesse, é medo de intimidade, de depender de alguém, de se abrir de verdade e, talvez, se machucar depois. Muita gente com esse padrão nem percebe que tem, só sente um desconforto crescente quando alguém chega perto demais, e interpreta esse desconforto como falta de sintonia com a pessoa, quando na verdade é um mecanismo de proteção antigo. Reconhecer isso, seja em você ou em alguém que você se relaciona, é o primeiro passo pra parar de sabotar relações que poderiam dar certo. Você se reconhece nisso, ou conhece alguém que se encaixa nesse padrão? Deixa aqui a sua opinião nos comentários.",
+         hashtags="#ApegoEvitativo #Autoconhecimento #JornadaAmeSe",
+         observacao="Post de texto, não depende de gravação. Fecha setembro. Aqui o ângulo é 'quem tem o padrão evitativo', diferente do post de outubro (09/10) que fala pela perspectiva de quem sofre o ghosting — evita repetir a mesma copy. Sem automação de DM nesse post: o objetivo é gerar conversa e comentários públicos."),
 ])
