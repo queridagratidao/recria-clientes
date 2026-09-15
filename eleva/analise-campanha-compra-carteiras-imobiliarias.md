@@ -1,5 +1,5 @@
 # Análise de Campanha — Compra de Carteiras Imobiliárias (Meta Ads)
-**Recria - Agência de Marketing, 14/09/2026**
+**Recria - Agência de Marketing, 15/09/2026**
 **Cliente:** Eleva
 
 ## 1. Objetivo e contexto
