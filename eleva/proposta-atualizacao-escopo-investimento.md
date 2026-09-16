@@ -4,15 +4,15 @@
 
 ## Um projeto em que acredito, com transparência sobre onde estamos
 
-Giu, antes de entrar nos números, quero te dizer que essa parceria significa muito para mim, desde abril, quando começamos, até hoje. A confiança que você depositou na Recria, incluindo as indicações para a Strategia e, mais recentemente, para o projeto da Patrícia, é algo que eu valorizo de verdade e não trato como certo.
+Giu, antes de entrar nos números, quero te dizer que essa parceria significa muito para mim, desde abril, quando começamos, até hoje. A confiança que você depositou em mim, incluindo as indicações para a Strategia e, mais recentemente, para o projeto da Patrícia, é algo que eu valorizo de verdade.
 
-Tem um ponto sensível que preciso comentar antes de seguir, mesmo sabendo que não é responsabilidade minha, mas é importante estar claro entre a gente. Até o momento, ainda não tivemos venda de diagnóstico nem de mentoria, que são os produtos de maior valor agregado. Tivemos vendas do curso de fornecedor e do curso de síndico, e em alguns momentos nem tivemos retorno do investimento em tráfego pago. Sei que ainda estamos engatinhando nesse processo, também porque decidimos juntos dar um passo atrás, primeiro crescer a autoridade do Giu, para depois conseguir vender diagnóstico e mentoria sem precisar de um investimento tão grande em tráfego, seja no Google ou na Meta.
+Tem um ponto sensível que preciso comentar antes de seguir, até o momento, ainda não tivemos venda de diagnóstico nem de mentoria, que são os produtos de maior valor agregado. Tivemos vendas do curso de fornecedor e do curso de síndico, e em alguns momentos nem tivemos retorno do investimento em tráfego pago. Sei que ainda estamos engatinhando nesse processo, também porque decidimos juntos dar um passo atrás, primeiro crescer a sua autoridade a nível estadual e nacional, para depois conseguirmos vender diagnóstico e mentoria sem precisar de um investimento tão grande em tráfego, seja no Google ou na Meta.
 
 Entendo que o projeto ainda não se paga, e estou totalmente comprometida em fazer isso dar certo, para que a nossa parceria perdure e a Eleva consiga prosperar em todas as frentes, todo mundo crescendo junto. Ao mesmo tempo, não posso absorver demandas novas sem ajustar o escopo, porque isso seria injusto com o meu tempo, a minha dedicação e a minha expertise como profissional. É com esse equilíbrio em mente, entre valorizar a nossa parceria e valorizar o meu trabalho, que te trago a proposta abaixo.
 
 ## Uma parceria que já entrega mais do que foi combinado
 
-Desde abril, quando a Recria assumiu a gestão de marketing da Eleva, o escopo original combinado foi direto: cuidar das redes sociais (Instagram e LinkedIn) e do tráfego pago (Meta e Google). Esse era o trato.
+Desde abril, quando a Recria assumiu a gestão de marketing da Eleva, o escopo original combinado foi: cuidar das redes sociais (Instagram e LinkedIn) e do tráfego pago (Meta e Google).
 
 Mas uma parceria que dá certo raramente fica só no que foi combinado no papel. Ao longo desses meses, a operação da Eleva cresceu, e eu fui absorvendo, sem cobrar à parte, entregas que vieram se somando naturalmente ao trabalho:
 
@@ -58,5 +58,7 @@ Vale registrar, o valor combinado antes, só para Eleva Seguros sozinha, já era
 ## Fechamento
 
 Se o Cenário 1 for o suficiente por enquanto, sigo com o mesmo valor, sem problema nenhum. Meu único objetivo aqui é manter a relação transparente que a gente construiu desde o início, e garantir que eu continue entregando com a qualidade que a Eleva merece em todas as frentes.
+
+Se você optar pelo Cenário 2, precisaremos alinhar uma reunião extra para estruturarmos quando essas duas frentes entrariam no escopo, e qual o seu objetivo inicial de cada frente nova, para que assim eu já monte e valide com você as possíveis estratégias em anúncios e conteúdos.
 
 Giu, obrigada pela confiança de sempre e fico no aguardo do seu retorno!
