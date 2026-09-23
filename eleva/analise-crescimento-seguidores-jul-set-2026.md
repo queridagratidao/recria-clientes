@@ -56,7 +56,7 @@ Em interações: Reels ~300, Stories ~30, posts/vídeos de feed ~27.
 | Campanha | Orçamento | Valor gasto | Custo por visita |
 |---|---|---|---|
 | Executivos - Engajamento | R$25/dia | R$569,73 | R$0,23 |
-| Curso Síndicos - Engajamento | R$25/dia | R$521,73 | R$0,17 |
+| Síndicos - Engajamento | R$25/dia | R$521,73 | R$0,17 |
 | **Total** | R$50/dia | **R$1.091,46** | **~R$0,20 (média)** |
 
 O custo médio por visita ao perfil segue em queda: R$0,20 este mês, R$0,18 mês passado, contra mais de R$0,25 nos meses anteriores.
@@ -86,6 +86,20 @@ Julho teve mais seguidores novos, mas puxado por investimento pago mais alto e c
 ## Isso está dentro do esperado para o ramo?
 
 Sim. Para um perfil B2B/de nicho (síndicos e executivos de administradoras, público racional e de decisão lenta), o volume de seguidores novos por mês tende a ser baixo mesmo com bom desempenho de conteúdo, esse público segue perfis por autoridade construída ao longo do tempo, não por impulso. O que importa mais nessa fase é o que já está acontecendo: alcance de não seguidores subindo, custo por visita em queda constante, e visualizações triplicando de um patamar para outro em um único mês.
+
+## Projeção de seguidores — outubro/2026 a janeiro/2027
+
+Mantendo o investimento atual de R$25/dia na campanha de Executivos e R$25/dia na campanha de Síndicos (R$50/dia no total), a expectativa para os 4 meses seguintes (outubro, novembro, dezembro/2026 e janeiro/2027):
+
+| Cenário | Novos seguidores/mês | Total no período (4 meses) |
+|---|---|---|
+| Conservador | ~50 | +200 |
+| Realista | ~60 (média de setembro) | +240 |
+| Otimista | ~70 a 75 | +280 a +300 |
+
+**Por que essa faixa:** setembro fechou em 60 novos seguidores, número menor que julho (100) porque as campanhas atuais são de engajamento, não de conversão direta como as de julho, mas com qualidade de alcance muito superior (90% de não seguidores, custo por visita em queda). O cenário realista assume que esse ritmo se mantém estável. O otimista considera que a curva de visualizações, que já triplicou de agosto para setembro, continue subindo e traga mais gente nova ao perfil. O conservador considera uma leve acomodação, comum depois de um salto de patamar como o que aconteceu em setembro.
+
+**Importante:** esse número é sobre seguidores, não sobre vendas. Para um público B2B de decisão lenta como síndicos e executivos de administradoras, o crescimento de seguidor é consequência de autoridade construída ao longo do tempo, o resultado comercial (Diagnóstico e Mentoria) tende a vir depois desse período de maturação, não junto com o pico de seguidores.
 
 ## Recomendações
 
