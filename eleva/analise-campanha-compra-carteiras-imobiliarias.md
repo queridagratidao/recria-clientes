@@ -129,4 +129,4 @@ Como as duas artes têm exatamente o mesmo texto na imagem (só muda a foto do G
 
 ## 10. Atualização — squeeze page de qualificação
 
-Os primeiros 5 dias de veiculação confirmaram o risco apontado na seção 8: levar o clique direto para o WhatsApp, sem nenhuma etapa de qualificação, não filtra quem é curioso de quem realmente é dono ou decisor de imobiliária/administradora. Em outro documento paralelo, que a Amanda vai enviar, está o mockup e a proposta de squeeze page para receber esse público antes de liberar a conversa com o Giuliano (arquivo `squeeze-page-compra-carteiras-imobiliarias.md`, com docx e pdf).
+Os primeiros 5 dias de veiculação confirmaram o risco apontado na seção 8: levar o clique direto para o WhatsApp, sem nenhuma etapa de qualificação, não filtra quem é curioso de quem realmente é dono ou decisor de imobiliária/administradora. Em outro documento paralelo, que a Amanda vai enviar, está a análise completa dos números dos 5 dias, o mockup e a proposta de squeeze page para receber esse público antes de liberar a conversa com o Giuliano (arquivo `analise-campanha-carteiras-cinco-dias-squeeze-page.md`, com docx e pdf).
