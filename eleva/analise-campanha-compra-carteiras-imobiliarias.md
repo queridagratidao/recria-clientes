@@ -126,3 +126,7 @@ Como as duas artes têm exatamente o mesmo texto na imagem (só muda a foto do G
 2. Subir a campanha com a estrutura da seção 2, usando os pins da seção 3.
 3. Rodar os 15 dias sem mexer (evitar reiniciar aprendizado do Meta).
 4. Ao final, comparar resultado real com os 3 cenários da seção 6, e decidir sobre aumento de verba com base em custo por conversa qualificada, não só custo por conversa iniciada.
+
+## 10. Atualização — squeeze page de qualificação
+
+Os primeiros 5 dias de veiculação confirmaram o risco apontado na seção 8: levar o clique direto para o WhatsApp, sem nenhuma etapa de qualificação, não filtra quem é curioso de quem realmente é dono ou decisor de imobiliária/administradora. Em outro documento paralelo, que a Amanda vai enviar, está o mockup e a proposta de squeeze page para receber esse público antes de liberar a conversa com o Giuliano (arquivo `squeeze-page-compra-carteiras-imobiliarias.md`, com docx e pdf).
