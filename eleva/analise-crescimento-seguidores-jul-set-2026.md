@@ -61,6 +61,8 @@ Em interações: Reels ~300, Stories ~30, posts/vídeos de feed ~27.
 
 O custo médio por visita ao perfil segue em queda: R$0,20 este mês, R$0,18 mês passado, contra mais de R$0,25 nos meses anteriores.
 
+**Custo por seguidor em setembro:** R$1.091,46 investidos / 60 novos seguidores no mês = aproximadamente **R$18,19 por seguidor**. Vale lembrar que esse número é uma referência indireta, já que a campanha é de engajamento (visitas ao perfil), não de "seguir a página", parte desses 60 seguidores vem de conversão orgânica somada ao efeito da verba paga, não só de quem clicou direto no anúncio.
+
 Segmentação ativa: público aberto do nicho (captação de público novo), remarketing de quem segue ou interagiu nos últimos 365 dias, lookalike de compradores anteriores, listas de síndicos/fornecedores, e recentemente a lista de localização de imobiliárias adicionada à campanha de Executivos.
 
 Foco das campanhas: engajamento no feed (visualizar, comentar, compartilhar, seguir), aproximando a base do Giuliano e abrindo espaço para a Jessie trabalhar social selling em paralelo (cursos, Sessão Estratégica, Diagnóstico ou Mentoria).
@@ -91,11 +93,14 @@ Sim. Para um perfil B2B/de nicho (síndicos e executivos de administradoras, pú
 
 Mantendo o investimento atual de R$25/dia na campanha de Executivos e R$25/dia na campanha de Síndicos (R$50/dia no total), a expectativa para os 4 meses seguintes (outubro, novembro, dezembro/2026 e janeiro/2027):
 
-| Cenário | Novos seguidores/mês | Total no período (4 meses) |
-|---|---|---|
-| Conservador | ~50 | +200 |
-| Realista | ~60 (média de setembro) | +240 |
-| Otimista | ~70 a 75 | +280 a +300 |
+| Mês | Conservador (~50/mês) | Realista (~60/mês) | Otimista (~70-75/mês) |
+|---|---|---|---|
+| Outubro/2026 | 50 | 60 | 70-75 |
+| Novembro/2026 | 100 (acumulado) | 120 (acumulado) | 140-150 (acumulado) |
+| **Dezembro/2026** | **150 (acumulado)** | **180 (acumulado)** | **210-225 (acumulado)** |
+| **Janeiro/2027** | **200 (acumulado)** | **240 (acumulado)** | **280-300 (acumulado)** |
+
+Ou seja: até **dezembro/2026**, a margem fica entre **+150 e +225 novos seguidores** desde outubro. Até **janeiro/2027**, entre **+200 e +300 novos seguidores** desde outubro, mantendo o mesmo ritmo de investimento e sem mudança de estratégia.
 
 **Por que essa faixa:** setembro fechou em 60 novos seguidores, número menor que julho (100) porque as campanhas atuais são de engajamento, não de conversão direta como as de julho, mas com qualidade de alcance muito superior (90% de não seguidores, custo por visita em queda). O cenário realista assume que esse ritmo se mantém estável. O otimista considera que a curva de visualizações, que já triplicou de agosto para setembro, continue subindo e traga mais gente nova ao perfil. O conservador considera uma leve acomodação, comum depois de um salto de patamar como o que aconteceu em setembro.
 
