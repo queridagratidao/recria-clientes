@@ -61,7 +61,9 @@ Em interações: Reels ~300, Stories ~30, posts/vídeos de feed ~27.
 
 O custo médio por visita ao perfil segue em queda: R$0,20 este mês, R$0,18 mês passado, contra mais de R$0,25 nos meses anteriores.
 
-**Custo por seguidor em setembro:** R$1.091,46 investidos / 60 novos seguidores no mês = aproximadamente **R$18,19 por seguidor**. Vale lembrar que esse número é uma referência indireta, já que a campanha é de engajamento (visitas ao perfil), não de "seguir a página", parte desses 60 seguidores vem de conversão orgânica somada ao efeito da verba paga, não só de quem clicou direto no anúncio.
+**Custo por seguidor em setembro:** R$1.091,46 investidos / 60 novos seguidores no mês = aproximadamente **R$18,19 por seguidor**.
+
+**Sugestão:** testar, junto com o Giuliano, algumas peças de conteúdo com uma chamada direta para seguir a página (convidando quem está consumindo aquele conteúdo a continuar acompanhando e se aprofundar no tema). Isso ajuda a entender se um estímulo mais explícito dentro do próprio conteúdo melhora essa conversão a partir de outubro.
 
 Segmentação ativa: público aberto do nicho (captação de público novo), remarketing de quem segue ou interagiu nos últimos 365 dias, lookalike de compradores anteriores, listas de síndicos/fornecedores, e recentemente a lista de localização de imobiliárias adicionada à campanha de Executivos.
 
@@ -113,9 +115,24 @@ Ou seja: até **dezembro/2026**, a margem fica entre **+150 e +225 novos seguido
 
 **Importante:** esse número é sobre seguidores, não sobre vendas. Para um público B2B de decisão lenta como síndicos e executivos de administradoras, o crescimento de seguidor é consequência de autoridade construída ao longo do tempo, o resultado comercial (Diagnóstico e Mentoria) tende a vir depois desse período de maturação, não junto com o pico de seguidores.
 
+## Sugestão: lives semanais ou quinzenais para acelerar autoridade e seguidores
+
+Um recurso que ainda não está sendo usado no perfil da Eleva é a live no Instagram. É um formato amplamente reconhecido no mercado de marketing digital como um dos que mais aceleram crescimento orgânico de perfil e construção de autoridade, justamente porque o Instagram entrega a live para uma fatia maior da base (avisando quem segue que a transmissão começou) e favorece esse tipo de conteúdo no alcance depois, por ser interação ao vivo. Nomes como Leandro Ladeira, Érico Rocha e outros criadores de referência em marketing e alta performance construíram parte relevante da autoridade e da base de seguidores deles com rotinas frequentes de live, em alguns casos diárias, em outros de duas a três vezes por semana, sustentadas por meses ou anos seguidos. *(Vale confirmar os números exatos de cada um antes de citar publicamente para o Giuliano, aqui é usado como referência de mercado, não como dado fechado.)*
+
+**Proposta de rotina para o Giuliano:** uma live fixa, semanal ou quinzenal, em dia e horário fixos (ex: toda quarta-feira, das 10h às 11h), alternando o tema a cada edição:
+
+- Semana 1: pauta para síndicos
+- Semana 2: pauta para executivos de administradora
+- Semana 3: pauta para fornecedores
+- Semana 4: pauta para quem quer se tornar síndico, ou atualizações e ganchos do setor
+
+**Impacto esperado no médio e longo prazo:** com uma rotina consistente (mesmo que quinzenal ou mensal para começar), a tendência é reforçar a autoridade do Giuliano de forma mais rápida do que só com Reels e posts, porque a live cria um compromisso recorrente com a base, aumenta o tempo médio de consumo de conteúdo, e sinaliza para o algoritmo que aquele perfil gera interação ao vivo, o que tende a ampliar o alcance orgânico dos outros formatos também. Pode não gerar salto imediato em número de seguidores no primeiro mês, mas costuma ser um dos investimentos de tempo com melhor retorno de autoridade a médio prazo, o que reforça diretamente o objetivo de sustentar as vendas futuras de Diagnóstico e Mentoria. Vale considerar como meta ainda para este ano, nem que seja começando quinzenal, com plano de virar semanal em 2027.
+
 ## Recomendações
 
 - Manter prioridade em vídeo (Reels e cortes de podcast), que segue puxando o alcance nos 3 meses.
 - Manter publicação no horário noturno, onde a base está mais ativa.
 - Testar mais conteúdo direcionado à faixa 18-34 e ao público feminino, hoje sub-representados na base mas em crescimento.
 - Considerar reforçar presença em Porto Alegre e São Paulo, cidades que mais convertem seguidores hoje, com conteúdo ou anúncio segmentado.
+- Testar conteúdos com chamada explícita para seguir a página.
+- Avaliar iniciar uma rotina de lives (quinzenal ou mensal para começar) para acelerar autoridade e seguidores no médio prazo.
