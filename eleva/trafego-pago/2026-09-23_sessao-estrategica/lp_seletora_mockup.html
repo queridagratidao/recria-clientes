@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sessão Estratégica — Eleva (mockup LP seletora)</title>
+<style>
+  :root {
+    --navy: #1F3864;
+    --navy-dark: #142445;
+    --gold: #C9A227;
+    --bg: #f7f8fa;
+    --text: #1a1a1a;
+    --muted: #5c5c5c;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+  }
+  .badge {
+    background: #fff3cd;
+    color: #7a5c00;
+    text-align: center;
+    font-size: 13px;
+    padding: 8px 12px;
+    font-weight: 600;
+    border-bottom: 1px solid #f0e0a0;
+  }
+  .hero {
+    background: linear-gradient(160deg, var(--navy) 0%, var(--navy-dark) 100%);
+    color: #fff;
+    text-align: center;
+    padding: 56px 20px 48px;
+  }
+  .hero .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: var(--gold);
+    font-weight: 700;
+    margin-bottom: 14px;
+  }
+  .hero h1 {
+    font-size: 30px;
+    line-height: 1.25;
+    margin: 0 0 16px;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero p {
+    max-width: 560px;
+    margin: 0 auto;
+    color: #d7deec;
+    font-size: 16px;
+    line-height: 1.55;
+  }
+  .authority {
+    max-width: 640px;
+    margin: 22px auto 0;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.18);
+    border-radius: 10px;
+    padding: 14px 18px;
+    font-size: 14px;
+    color: #f1f3f8;
+  }
+  .section {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 20px 60px;
+    text-align: center;
+  }
+  .section h2 {
+    font-size: 20px;
+    color: var(--navy);
+    margin-bottom: 8px;
+  }
+  .section .sub {
+    color: var(--muted);
+    font-size: 14px;
+    margin-bottom: 32px;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+  }
+  .card {
+    background: #fff;
+    border: 1px solid #e4e7ee;
+    border-radius: 14px;
+    padding: 28px 18px 24px;
+    text-decoration: none;
+    color: var(--text);
+    transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(31,56,100,0.12);
+    border-color: var(--navy);
+  }
+  .card .icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: #eef2f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+  }
+  .card .label {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--navy);
+  }
+  .card .desc {
+    font-size: 13px;
+    color: var(--muted);
+    line-height: 1.4;
+  }
+  .card .cta {
+    margin-top: 6px;
+    background: var(--navy);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 9px 16px;
+    border-radius: 999px;
+  }
+  .card:hover .cta { background: var(--gold); color: var(--navy-dark); }
+  .footnote {
+    margin-top: 34px;
+    font-size: 12px;
+    color: #9aa1ad;
+  }
+  @media (max-width: 680px) {
+    .cards { grid-template-columns: 1fr; }
+    .hero h1 { font-size: 24px; }
+  }
+</style>
+</head>
+<body>
+
+  <div class="badge">MOCKUP — não é a página final, só uma referência visual de layout e conteúdo</div>
+
+  <section class="hero">
+    <div class="eyebrow">Eleva · Sessão Estratégica</div>
+    <h1>Seu negócio está travado e você não sabe como resolver?</h1>
+    <p>Antes de agendar sua Sessão Estratégica, nos conte qual é o seu perfil — assim a página seguinte já será direcionada.</p>
+    <div class="authority">Giuliano Spolavori — +35 anos no mercado imobiliário, +2.200 condomínios geridos, +20 operações de M&amp;A, +8 mil imóveis locados.</div>
+  </section>
+
+  <section class="section">
+    <h2>Qual desses é o seu perfil hoje?</h2>
+    <div class="sub">Toque na opção certa — você será direcionado para a página feita para você.</div>
+
+    <div class="cards">
+      <a class="card" href="https://www.elevags.com.br/sessao-estrategica-sindicos?utm_source=meta&utm_medium=paid&utm_campaign=sessao_estrategica&utm_content=sindico">
+        <div class="icon">🏢</div>
+        <div class="label">Sou síndico</div>
+        <div class="desc">Gestão do condomínio travada, decisão no feeling, sem raio-x claro.</div>
+        <div class="cta">Ver minha página →</div>
+      </a>
+
+      <a class="card" href="https://www.elevags.com.br/sessao-estrategica-executivos?utm_source=meta&utm_medium=paid&utm_campaign=sessao_estrategica&utm_content=executivo">
+        <div class="icon">📈</div>
+        <div class="label">Sou executivo</div>
+        <div class="desc">Administradora/imobiliária que não escala do jeito que devia.</div>
+        <div class="cta">Ver minha página →</div>
+      </a>
+
+      <a class="card" href="https://www.elevags.com.br/sessao-estrategica-fornecedores?utm_source=meta&utm_medium=paid&utm_campaign=sessao_estrategica&utm_content=fornecedor">
+        <div class="icon">🛠️</div>
+        <div class="label">Sou fornecedor</div>
+        <div class="desc">Presta serviço pra condomínio e depende só de indicação.</div>
+        <div class="cta">Ver minha página →</div>
+      </a>
+    </div>
+
+    <div class="footnote">Pixel da Meta instalado nesta página (evento PageView) + parâmetros UTM propagados para cada LP de destino, garantindo rastreamento completo do funil.</div>
+  </section>
+
+</body>
+</html>
