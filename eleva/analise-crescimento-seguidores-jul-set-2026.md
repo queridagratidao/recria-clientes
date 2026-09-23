@@ -102,6 +102,13 @@ Mantendo o investimento atual de R$25/dia na campanha de Executivos e R$25/dia n
 
 Ou seja: até **dezembro/2026**, a margem fica entre **+150 e +225 novos seguidores** desde outubro. Até **janeiro/2027**, entre **+200 e +300 novos seguidores** desde outubro, mantendo o mesmo ritmo de investimento e sem mudança de estratégia.
 
+**Total projetado (base atual: 1.492 seguidores)**
+
+| Mês | Conservador | Realista | Otimista |
+|---|---|---|---|
+| **Dezembro/2026** | 1.642 | 1.672 | 1.702 a 1.717 |
+| **Janeiro/2027** | 1.692 | 1.732 | 1.772 a 1.792 |
+
 **Por que essa faixa:** setembro fechou em 60 novos seguidores, número menor que julho (100) porque as campanhas atuais são de engajamento, não de conversão direta como as de julho, mas com qualidade de alcance muito superior (90% de não seguidores, custo por visita em queda). O cenário realista assume que esse ritmo se mantém estável. O otimista considera que a curva de visualizações, que já triplicou de agosto para setembro, continue subindo e traga mais gente nova ao perfil. O conservador considera uma leve acomodação, comum depois de um salto de patamar como o que aconteceu em setembro.
 
 **Importante:** esse número é sobre seguidores, não sobre vendas. Para um público B2B de decisão lenta como síndicos e executivos de administradoras, o crescimento de seguidor é consequência de autoridade construída ao longo do tempo, o resultado comercial (Diagnóstico e Mentoria) tende a vir depois desse período de maturação, não junto com o pico de seguidores.
