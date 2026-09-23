@@ -15,7 +15,6 @@ A campanha "AM | Eleva - Compra de Carteiras Imobiliárias" está ativa desde 18
 | Frequência | 2,18 | 2,09 | 1,57 |
 | Custo por resultado | R$36,94 | R$40,56 | R$15,18 |
 | Valor gasto | R$258,55 | R$243,37 | R$15,18 |
-| Orçamento | Diário, não compartilhado | — | — |
 | Segmentação | Porto Alegre + Canoas + São Leopoldo + Novo Hamburgo | — | — |
 
 ### Conclusão da análise
@@ -100,7 +99,7 @@ Se interessou e prefere já chamar direto, é só acessar o WhatsApp da Eleva pe
 
 ### Roteiro de vídeo curto (até 2 min) para o Giuliano gravar
 
-**Gancho + proposta (0-25s):** "Se você é dono de imobiliária ou administradora em Porto Alegre, Canoas, São Leopoldo ou Novo Hamburgo, eu tenho uma proposta para te fazer. Estamos adquirindo empresas e carteiras de aluguéis e condomínios na sua região. Se você está pensando em vender sua carteira ou sua empresa, você vai negociar diretamente comigo, fundador da Eleva."
+**Gancho + proposta (0-25s):** "Se você é dono de imobiliária ou administradora em Porto Alegre, Canoas, São Leopoldo ou Novo Hamburgo, eu tenho uma proposta para te fazer. Estamos adquirindo empresas e carteiras de aluguéis e condomínios na sua região. Se você está pensando em vender sua carteira ou sua empresa, você pode negociar diretamente comigo, o fundador da Eleva."
 
 **Credenciais (25-60s):** "Eu sou Giuliano Spolavori, tenho mais de 35 anos no mercado imobiliário, já geri mais de 2.200 condomínios, já conduzi mais de 20 operações de M&A no setor."
 
