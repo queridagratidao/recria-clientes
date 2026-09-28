@@ -1,5 +1,7 @@
 # Carrosséis de outubro 2026 — Agência Recria (collab com @amandarecria)
 
+Tom de voz: usar "nós" (fizemos, criamos, explicamos), nunca "a gente".
+
 Estilo do perfil: minimalista, fundo escuro (preto) alternando com fundo claro (off-white), títulos em serifa, destaque em dourado, imagem só na capa. Texto curto por card, uma frase-chave em destaque (dourado ou itálico). Todo card termina com uma frase que puxa para o próximo (→).
 
 Legenda dos marcadores:
@@ -14,97 +16,78 @@ As mensagens de automação estão em `../automacao-mensagens-out-nov-2026.md`.
 
 ---
 
-## Carrossel 1 — 07/10 (quarta)
+## Carrossel 1 — 07/10 (quarta) — APROVADO
 **Tema:** Case CRM: R$ 1,2 milhão sem tráfego pago
-**Linhas de conteúdo:** História + Case + bater numa crença ("tráfego pago é a salvação")
 **CTA:** CONSULTORIA
+**Peças prontas:** `../social-media/2026-10-07_carrossel-case-crm/card-01.png` a `card-10.png`
 
-### Card 1 — Capa (fundo escuro + imagem)
+### Card 1 — Capa (foto + logo)
 - [kicker] Como um e-commerce de suplementos para bariátricos faturou
-- [título, gigante] **R$ 1,2 MILHÃO**
-- [título, linha 2] **SEM TRÁFEGO PAGO**
+- [título] **R$ 1,2 MILHÃO** / **SEM TRÁFEGO PAGO**
 - [apoio] E como aplicar a mesma lógica no seu negócio →
 
-### Card 2 (claro)
-- [título] 4 anos de empresa.
-- [apoio] Uma base enorme de clientes.
-- [apoio] E o máximo que uma ação para essa base já tinha rendido: **R$ 10 mil**. Isso numa Black Friday ou numa queima de estoque.
-- [rodapé] O problema não era o produto →
+### Card 2
+**4 anos de empresa. Uma base enorme de clientes.**
+E o máximo que uma ação para essa base já tinha rendido: **R$ 10 mil**, numa Black Friday ou numa queima de estoque.
+A empresa só entrava em contato com quem já era cliente para vender: oferta, oferta, oferta. Aquela base nunca tinha sido tratada de maneira **personalizada e humanizada**.
+*O problema não era o produto. Era a forma de se comunicar com o cliente →*
 
-### Card 3 (escuro)
-- [título] Oferta. Oferta. Oferta.
-- [apoio] Era a única coisa que a empresa falava para quem já era cliente.
-- [apoio] Nenhuma mensagem para engajar. Nenhuma para ensinar. Nenhuma para lembrar a cliente **por que ela comprou**.
-- [destaque] A base simplesmente parou de ouvir.
-- [rodapé] Foi aí que eu entrei →
+### Card 3
+O que nós fizemos: **Uma régua de comunicação que fizesse sentido.**
+WhatsApp + e-mail, trabalhando a jornada inteira da cliente: engajar → nutrir → aumentar o nível de consciência → vender.
+E **ensinar antes de vender**: qual a diferença do suplemento para cabelo e do suplemento para unhas? Parece óbvio para quem vende. Não é para quem compra.
+Com mais de 70% do público feminino, a comunicação falava de autoestima, saúde e qualidade de vida, não só de nutriente.
 
-### Card 4 (claro)
-- [kicker] O que eu fiz
-- [título] Uma régua de comunicação que fizesse sentido.
-- [apoio] WhatsApp + e-mail, trabalhando a jornada inteira da cliente:
-- [lista] engajar → nutrir → aumentar o nível de consciência → vender
-- [rodapé] E cada etapa tinha um papel →
+### Card 4
+**Cada mensagem tinha um objetivo próprio.** A base foi segmentada de acordo com:
+- o **momento de compra** (matriz RFM: quem comprou há pouco, quem compra sempre, quem gasta mais)
+- o **estágio da bariátrica**: antes, logo depois, meses depois
+- o **último produto comprado** e o ticket médio
 
-### Card 5 (escuro)
-- [título] Ensinar antes de vender.
-- [apoio] Qual a diferença do suplemento para cabelo e do suplemento para unhas?
-- [apoio] Parece óbvio para quem vende. **Não é para quem compra.**
-- [apoio] Mais de 70% do público era feminino. Então a comunicação falava de autoestima, não só de nutriente.
-- [rodapé] E ninguém recebia a mesma mensagem →
+### Card 5
+**Quem já era cliente passou a ser tratado como VIP.**
+Uma comunidade de bariátricas, com acessos, cupons e benefícios exclusivos que **não eram divulgados abertamente**, só para essa base.
+As ofertas gerais do site continuavam, mas sempre existiam ações só para quem já confiava na marca, incentivando a compra constante e o autocuidado.
+*Se liga no resultado →*
 
-### Card 6 (claro)
-- [título] A mensagem certa, para a pessoa certa.
-- [lista]
-  - **Matriz RFM:** quem comprou há pouco, quem compra sempre, quem gasta mais
-  - **Produto complementar:** a próxima oferta dependia do último produto comprado
-  - **Ticket médio:** cada cliente recebia uma oferta do tamanho do bolso dela
-- [rodapé] E quem já era cliente era tratado como cliente →
+### Card 6
+Mês 1: **R$ 300 mil** · Mês 2: **R$ 400 mil** · Mês 3: **R$ 500 mil**
+*R$ 1,2 milhão em 3 meses. R$ 0 em tráfego pago.*
+Apenas valorizando e comunicando de forma personalizada com cada tipo de cliente.
 
-### Card 7 (escuro)
-- [título] Quem já comprou precisa sentir que valeu a pena.
-- [apoio] Cupons e benefícios exclusivos para quem já era cliente. Primeiro quem está em casa. Depois quem ainda vai chegar.
-- [rodapé] O resultado →
+### Card 7
+**A cliente se sentiu acolhida e valorizada.**
+Essa base estava havia 4 anos com a marca. Comprava só quando ela mesma decidia, ou nem voltava, porque só recebia oferta.
+Quando percebeu que a empresa se importava com a nova vida que ela estava construindo, **o antes e o depois da bariátrica**, passou a se sentir parte da marca.
+Também criamos uma comunidade nos canais da marca. E ela passou a comprar todo mês e a adquirir os pacotes de assinatura, **mesmo sem oferta**.
 
-### Card 8 (claro, números grandes)
-- [linha] Mês 1 — **R$ 300 mil**
-- [linha] Mês 2 — **R$ 400 mil**
-- [linha] Mês 3 — **R$ 500 mil**
-- [destaque] R$ 1,2 milhão em 3 meses. R$ 0 em tráfego pago.
-- [apoio] Tudo vindo de quem já estava na base, e que nunca tinha sido trabalhada do jeito certo.
+### Card 8
+**Tráfego pago nem sempre é o salvador da pátria.**
+Você já pagou para conquistar cada cliente da sua base. **Quantas vezes você vendeu para ele? Só uma?**
+Já calculou o seu **CAC** (quanto custa conquistar um cliente) e o **LTV** (quanto ele deixa com você ao longo do tempo)?
+Às vezes o caminho é nutrir a base. Às vezes é atrair novos clientes. Às vezes são os dois. Às vezes é reestruturar o negócio.
+*Cada negócio pede um diagnóstico específico.*
 
-### Card 9 (escuro)
-- [título] Tráfego pago não é o salvador da pátria.
-- [apoio] Você já pagou para conquistar cada cliente da sua base.
-- [destaque] Quantas vezes você vendeu de novo para ela?
-- [apoio] Nesse caso, fazia sentido: eles queriam aproveitar melhor a base enquanto investiam em novos públicos. **Mas cada negócio pede um diagnóstico.**
-- [rodapé] E o seu? →
+### Card 9 — CTA
+Quer que a Agência Recria faça um diagnóstico do seu negócio?
+Mapeamos objetivos e gargalos, mostramos as alavancas de crescimento e **entregamos tudo documentado** depois de uma reunião online.
+COMENTE: **CONSULTORIA**
+Explicamos tudo no direct. E ainda enviamos um presente. 🎁
 
-### Card 10 (claro)
-- [título] Qual é o caminho do seu negócio?
-- [lista] Nutrir quem já está na base? · Atrair novos clientes? · Os dois? · Ou reestruturar o negócio?
-- [apoio] Numa conversa online comigo, eu entendo o seu negócio e os seus objetivos, mapeio os gargalos, mostro as alavancas de crescimento e **te entrego tudo documentado** depois da reunião.
-
-### Card 11 — CTA (escuro, caixa dourada)
-- [título] Quer descobrir o caminho do seu negócio?
-- [caixa] COMENTE: **CONSULTORIA**
-- [apoio] Eu te explico como funciona no direct. E ainda te mando um presente. 🎁
-
-### Card 12 — Link da bio (padrão, ver final do arquivo)
+### Card 10 — Link da bio (padrão)
 
 ### Legenda
 > Tráfego pago não salvou esse negócio. A base salvou. 💸
 >
-> Um e-commerce de suplementos para bariátricos, 4 anos de empresa, uma base enorme de clientes… e o máximo que uma ação para essa base tinha rendido era R$ 10 mil.
+> Um e-commerce de suplementos para bariátricos, 4 anos de empresa, uma base enorme… e a empresa só falava com as clientes para mandar oferta.
 >
-> O problema? Só se falava com a cliente para mandar oferta.
+> Segmentamos a base pelo momento de compra e pelo estágio da bariátrica, criamos mensagens com objetivo próprio, benefícios exclusivos e uma comunidade para quem já era cliente.
 >
-> Eu estruturei a comunicação: nutrição, níveis de consciência, matriz RFM, produtos complementares e benefícios para quem já era cliente.
+> Resultado: R$ 300 mil, R$ 400 mil e R$ 500 mil nos 3 meses seguintes. Sem 1 real em tráfego pago. E clientes comprando todo mês, até sem oferta.
 >
-> Resultado: R$ 300 mil, R$ 400 mil e R$ 500 mil nos 3 meses seguintes. Sem 1 real em tráfego pago.
+> Você já calculou quanto custa conquistar um cliente e quanto ele deixa com você ao longo do tempo? Cada negócio pede um diagnóstico.
 >
-> Isso não quer dizer que anúncio não funciona. Quer dizer que cada negócio precisa de um diagnóstico antes de escolher o caminho.
->
-> 👉 Comente CONSULTORIA que eu te explico como funciona no direct, e ainda te mando um presente. 🎁
+> 👉 Comente CONSULTORIA que explicamos tudo no direct, e ainda enviamos um presente. 🎁
 >
 > No link da bio você encontra tudo o que a Recria faz pelo seu negócio.
 
@@ -385,9 +368,9 @@ As mensagens de automação estão em `../automacao-mensagens-out-nov-2026.md`.
 - [diagrama, frentes ao redor]
   - **Consultoria Recria:** diagnóstico e plano personalizado
   - **Recria Ads:** conteúdos e anúncios sem cara de anúncio
-  - **Manual:** o passo a passo em e-book
-  - **Estratégia Trend que Vende:** para quem está começando
+  - **Manual Estratégias Atraentes que Vendem:** o passo a passo em e-book
+  - **Estratégia Atraente que Vende:** curso express para quem está começando
   - **Lista de espera** dos próximos cursos
-  - **Serviços da agência:** tráfego pago, social media e estruturação de negócio
+  - **Serviços da agência:** tráfego pago, social media, estruturação de negócio, treinamentos…
 - [centro do diagrama] **Vender todo dia, sem parecer que está vendendo.**
 - [rodapé] Clique no link da bio →
