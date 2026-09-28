@@ -120,6 +120,8 @@ Explicamos tudo no direct. E ainda enviamos um presente. 🎁
 >
 > 👉 Comente RECRIA ADS e receba um passo a passo para criar conteúdos e anúncios sem cara de anúncio. 🎁
 > 👉 Quer um direcional personalizado? Comente CONSULTORIA.
+>
+> 📌 Créditos do vídeo: @sarahafonseca e @toyotadobrasil
 
 ---
 
