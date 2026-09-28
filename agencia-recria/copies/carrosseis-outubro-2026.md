@@ -93,86 +93,33 @@ Explicamos tudo no direct. E ainda enviamos um presente. 🎁
 
 ---
 
-## Carrossel 2 — 14/10 (quarta)
+## Carrossel 2 — 14/10 (quarta) — v2, peças montadas (aguardando aprovação final)
 **Tema:** Toyota × Sarah Fonseca: "Passou na faculdade, ganhou um carro"
-**Linhas:** Zeitgeist + Case
-**CTA:** RECRIA ADS (+ CONSULTORIA)
+**CTA:** RECRIA ADS + CONSULTORIA (sem card de link da bio)
+**Peças:** `../social-media/2026-10-14_carrossel-toyota/` (card 3 é vídeo: `card-03.mp4`, trecho 0s–30s do vídeo da Sarah)
 
-### Card 1 — Capa (print do vídeo da Sarah com o pai)
-- [título] **Passou na faculdade, ganhou um carro.**
-- [apoio] Como a Toyota usou marketing de oportunidade e anúncio sem cara de anúncio para vender, e como você pode se inspirar →
-
-### Card 2 (escuro)
-- [título] Você conhece essa promessa.
-- [apoio] Talvez tenha ouvido. Talvez ainda esteja esperando.
-- [apoio] Todo pai brasileiro já prometeu um carro se o filho passasse numa faculdade pública. **Quase nenhum cumpriu.**
-- [rodapé] Foi exatamente isso que a Toyota usou →
-
-### Card 3 (claro + frame do vídeo)
-- [kicker] O enredo
-- [apoio] A criadora Sarah Fonseca descobre nos comentários que não foi só o pai dela que "esqueceu" a promessa. Ela passou em **4 universidades públicas**.
-- [apoio] Então chama o pai para se explicar publicamente.
-- [citação] "Sabendo do potencial da minha filha, eu tinha certeza que ela ia comprar o carro sozinha."
-- [rodapé] E aí entra o produto →
-
-### Card 4 (escuro + frame)
-- [citação] "Como cansei de esperar, eu mesma pesquisei. O que mais gostei foi o Yaris Cross."
-- [apoio] A condição especial para empreendedores com CNPJ entra na conversa. Até os itens do carro viram piada: *"sensor de estacionamento traseiro, pra quem precisa relembrar dirigir. Vulgo eu."*
-- [apoio] E o pai fecha: *"Eu mesmo vou com você na concessionária."* 🚗 **"Tô de Toyota, tô de carro novo."**
-- [rodapé] Por que isso funciona →
-
-### Card 5 (claro)
-- [número] 1
-- [título] Marketing de oportunidade.
-- [apoio] A Toyota não criou um assunto. Entrou num que já existia na cabeça de todo mundo: a promessa do vestibular.
-- [destaque] Memória coletiva + identificação imediata.
-
-### Card 6 (escuro)
-- [número] 2
-- [título] Anúncio sem cara de anúncio.
-- [apoio] Os primeiros segundos parecem conteúdo da criadora, não comercial. O produto entra como **a solução da história**, não como interrupção. E a oferta vem embrulhada em humor.
-
-### Card 7 (claro)
-- [número] 3
-- [título] Um episódio pedido pelo público.
-- [apoio] O vídeo começa mostrando comentários do vídeo anterior: *"Essa promessa é clássica, tô esperando o meu até hoje."*
-- [destaque] É lógica de série: o público pede o próximo capítulo, e os comentários viram prova social.
-
-### Card 8 (escuro)
-- [número] 4
-- [título] Público certo, oferta certa.
-- [apoio] A Sarah fala com empreendedores. A condição é para compra com CNPJ. E o bordão "tô de carro novo" já nasce pronto para ser repetido.
-
-### Card 9 (claro)
-- [título] E o seu negócio com isso?
-- [apoio] Você não precisa da verba da Toyota. Precisa de:
-- [lista]
-  - uma situação que o seu público reconhece na hora
-  - uma pessoa real contando (você, sua equipe, um cliente, um microinfluenciador)
-  - o produto entrando como a solução da história
-- [exemplos] Loja de roupa: *"a roupa que minha mãe dizia que eu ia usar no casamento"*. Clínica: *"a promessa de todo janeiro de cuidar da pele"*. Restaurante: *"o almoço de domingo na casa da vó"*.
-
-### Card 10 — CTA (escuro, caixa dourada)
-- [título] Quer vender sem parecer que está vendendo?
-- [caixa] COMENTE: **RECRIA ADS**
-- [apoio] E receba um presente: o passo a passo para criar conteúdos e anúncios sem cara de anúncio para o seu negócio. 🎁
-- [apoio menor] Quer que eu olhe o seu caso de perto? Comente **CONSULTORIA**.
-
-### Card 11 — Link da bio (padrão)
+1. **Capa (foto da Sarah com o pai):** Passou na faculdade, *ganhou um carro.* / Como a Toyota usou marketing de oportunidade e anúncio sem cara de anúncio para vender, e como você pode se inspirar →
+2. **Você conhece essa promessa.** Talvez tenha ouvido. Talvez ainda esteja esperando. Quase todo pai brasileiro já prometeu um carro se o filho passasse numa faculdade pública. **E a minoria de fato cumpre…** / *Foi exatamente isso que a Toyota usou →*
+3. **O enredo (texto + vídeo):** A criadora Sarah Fonseca descobre nos comentários que não foi só o pai dela que "esqueceu" a promessa. Ela passou em 4 universidades públicas. Então chama o pai para se explicar publicamente. E ele se safa com uma resposta genial: "Sabendo do potencial da minha filha, uma menina inteligente, dedicada, estudiosa… eu tinha certeza que ela ia comprar o carro sozinha." / *Plot twist. E aí a história muda de direção →*
+4. **A virada: do enredo para o anúncio.** Com o seguidor já preso na história, a Sarah faz a transição aos poucos: "Como cansei de esperar, eu mesma pesquisei. O que mais gostei foi o Yaris Cross." A condição especial para empreendedores com CNPJ entra na conversa. Até os itens do carro viram piada: "sensor de estacionamento traseiro, pra quem precisa relembrar dirigir. Vulgo eu." E o pai fecha: "Eu mesmo vou com você na concessionária." "Tô de Toyota, tô de carro novo." 🚗
+5. **Qual é a estratégia por trás desse tipo de anúncio? E por que ela funciona?** 1. Marketing de oportunidade. A Toyota não criou um assunto. Entrou num que já existia na cabeça de todo mundo: a promessa do vestibular. / *Memória coletiva + identificação imediata.*
+6. **2. Anúncio sem cara de anúncio.** Os primeiros segundos parecem conteúdo da criadora, não comercial. O produto entra como a solução da história, não como interrupção. E a oferta vem embrulhada em humor.
+7. **3. Storytelling, como num episódio de série.** O vídeo começa com comentários do vídeo anterior: "Essa promessa é clássica, tô esperando o meu até hoje." É o episódio 2, pedido pelo público, como numa novela. E a neurociência explica por que isso prende: o cérebro humano busca fechamento. Tudo precisa ter começo, meio e fim. Quando uma história começa e desperta interesse, a mente só sossega quando sabe como ela termina. / *Foi esse o gancho que segurou a pessoa até o meio do vídeo, exatamente onde entra a Toyota.*
+8. **4. Público certo, oferta certa.** A Sarah fala com empreendedores. A condição é para compra com CNPJ. E o bordão "tô de carro novo" já nasce pronto para ser repetido.
+9. **E o seu negócio com isso?** Você não precisa da verba da Toyota. Precisa de uma história que prenda, e do produto entrando como parte dela: Restaurante ("Tudo começou num almoço de domingo na casa da minha avó…"), Loja de roupa ("Cheguei na festa e dei de cara com uma mulher usando o mesmo vestido que eu. Adivinha a minha reação…"; na loja X, os vestidos são exclusivos), Clínica ("Nunca cuidei da pele. Até o dia em que vi uma foto minha que eu não esperava…").
+10. **CTA:** Quer aprender a vender sem parecer que está vendendo, em qualquer tipo de conteúdo? COMENTE: **RECRIA ADS**. E receba um presente: um passo a passo para criar conteúdos e anúncios sem cara de anúncio. 🎁 Também vamos te apresentar o curso Recria Ads, com o passo a passo completo e aprofundado para quem está pronto para dar o próximo passo no negócio. / Quer que nós olhemos o seu negócio mais de perto? Comente **CONSULTORIA** e receba um direcional personalizado.
 
 ### Legenda
-> "Passou na faculdade, ganhou um carro." Quantos pais prometeram isso? 🚗😂
+> "Passou na faculdade, ganhou um carro." Quase todo pai prometeu. A minoria cumpriu. 🚗😂
 >
 > A Toyota pegou essa promessa, que todo brasileiro conhece, e transformou num anúncio que ninguém pulou.
 >
-> Com a Sarah Fonseca e o pai dela, a marca juntou marketing de oportunidade, identificação e humor, e colocou o Yaris Cross como a solução da história, não como interrupção.
+> Com a Sarah Fonseca e o pai dela, a marca juntou marketing de oportunidade, identificação e storytelling em formato de episódio, e colocou o Yaris Cross como a solução da história, não como interrupção.
 >
-> Nesse carrossel eu te mostro por que funcionou e como adaptar isso para o seu negócio, mesmo sem a verba de uma montadora.
+> Nesse carrossel explicamos a estratégia por trás desse anúncio, por que o cérebro não consegue largar uma história no meio e como adaptar isso para o seu negócio.
 >
-> 👉 Comente RECRIA ADS e receba o passo a passo para criar conteúdos e anúncios sem cara de anúncio. 🎁
-> Quer um direcional personalizado? Comente CONSULTORIA.
->
-> Tudo o que a Recria faz está no link da bio.
+> 👉 Comente RECRIA ADS e receba um passo a passo para criar conteúdos e anúncios sem cara de anúncio. 🎁
+> 👉 Quer um direcional personalizado? Comente CONSULTORIA.
 
 ---
 
