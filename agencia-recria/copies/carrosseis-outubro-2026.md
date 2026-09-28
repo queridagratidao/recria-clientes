@@ -35,7 +35,7 @@ A empresa só entrava em contato com quem já era cliente para vender: oferta, o
 ### Card 3
 O que nós fizemos: **Uma régua de comunicação que fizesse sentido.**
 WhatsApp + e-mail, trabalhando a jornada inteira da cliente: engajar → nutrir → aumentar o nível de consciência → vender.
-E **ensinar antes de vender**: qual a diferença do suplemento para cabelo e do suplemento para unhas? Parece óbvio para quem vende. Não é para quem compra.
+E **ensinar antes de vender novamente**: qual a diferença do suplemento para cabelo e do suplemento para unhas? Parece óbvio para quem vende. Não é para quem compra.
 Com mais de 70% do público feminino, a comunicação falava de autoestima, saúde e qualidade de vida, não só de nutriente.
 
 ### Card 4
@@ -57,7 +57,7 @@ Apenas valorizando e comunicando de forma personalizada com cada tipo de cliente
 
 ### Card 7
 **A cliente se sentiu acolhida e valorizada.**
-Essa base estava havia 4 anos com a marca. Comprava só quando ela mesma decidia, ou nem voltava, porque só recebia oferta.
+Essa base já estava ativa havia 4 anos com a marca. Porém, só comprava quando a própria cliente decidia comprar, ou nem voltava, porque era metralhada de oferta, oferta, oferta. E isso gerava o efeito inverso: **repelia a volta**.
 Quando percebeu que a empresa se importava com a nova vida que ela estava construindo, **o antes e o depois da bariátrica**, passou a se sentir parte da marca.
 Também criamos uma comunidade nos canais da marca. E ela passou a comprar todo mês e a adquirir os pacotes de assinatura, **mesmo sem oferta**.
 
@@ -65,7 +65,7 @@ Também criamos uma comunidade nos canais da marca. E ela passou a comprar todo 
 **Tráfego pago nem sempre é o salvador da pátria.**
 Você já pagou para conquistar cada cliente da sua base. **Quantas vezes você vendeu para ele? Só uma?**
 Já calculou o seu **CAC** (quanto custa conquistar um cliente) e o **LTV** (quanto ele deixa com você ao longo do tempo)?
-Às vezes o caminho é nutrir a base. Às vezes é atrair novos clientes. Às vezes são os dois. Às vezes é reestruturar o negócio.
+Cada negócio tem o seu momento de olhar para cada pilar da empresa. Talvez agora o seu caminho seja **nutrir a base** que você já tem. Talvez seja **atrair novos clientes**, num momento de expansão. Talvez você esteja começando e precise **equilibrar os dois pilares** ao mesmo tempo. Ou até fazer um **rebranding** ou reconstruir o seu negócio do zero.
 *Cada negócio pede um diagnóstico específico.*
 
 ### Card 9 — CTA
