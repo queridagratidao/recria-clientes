@@ -373,4 +373,4 @@ Explicamos tudo no direct. E ainda enviamos um presente. 🎁
   - **Lista de espera** dos próximos cursos
   - **Serviços da agência:** tráfego pago, social media, estruturação de negócio, treinamentos…
 - [centro do diagrama] **Vender todo dia, sem parecer que está vendendo.**
-- [rodapé] Clique no link da bio →
+- [rodapé] Clique no link da bio
