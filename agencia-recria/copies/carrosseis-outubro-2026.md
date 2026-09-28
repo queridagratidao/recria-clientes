@@ -114,7 +114,7 @@ Explicamos tudo no direct. E ainda enviamos um presente. 🎁
 >
 > A Toyota pegou essa promessa, que todo brasileiro conhece, e transformou num anúncio que ninguém pulou.
 >
-> Com a @sarahafonseca e o pai dela, em parceria com a @toyotadobrasil, a marca juntou marketing de oportunidade, identificação e storytelling em formato de episódio, e colocou o Yaris Cross como a solução da história, não como interrupção.
+> Com a @sarahafonseca e o pai dela, em parceria com a @toyotadobrasil, a marca juntou marketing de oportunidade, identificação e storytelling em formato de episódio, e colocou o Yaris Cross como o desejo e solução da história, de forma leve e fluída.
 >
 > Nesse carrossel explicamos a estratégia por trás desse anúncio, por que o cérebro não consegue largar uma história no meio e como adaptar isso para o seu negócio.
 >
