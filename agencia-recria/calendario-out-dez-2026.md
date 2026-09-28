@@ -4,8 +4,8 @@
 
 | # | Data | Tema | CTA (comentário) | Status |
 |---|---|---|---|---|
-| 1 | 07/10 | Case CRM: R$ 1,2 mi sem tráfego pago | CONSULTORIA | Copy pronta |
-| 2 | 14/10 | Toyota × Sarah Fonseca: "Passou na faculdade, ganhou um carro" | RECRIA ADS + CONSULTORIA | Copy pronta |
+| 1 | 07/10 | Case CRM: R$ 1,2 mi sem tráfego pago | CONSULTORIA | ✅ Programado (Instagram + Facebook da Agência Recria) · falta adicionar collab @amandarecria ao publicar |
+| 2 | 14/10 | Toyota × Sarah Fonseca: "Passou na faculdade, ganhou um carro" | RECRIA ADS + CONSULTORIA | ✅ Programado (Instagram + Facebook da Agência Recria) · falta adicionar collab @amandarecria ao publicar |
 | 3 | 21/10 | Black Friday 1: a preparação | TRÁFEGO + CONSULTORIA | Copy pronta |
 | 4 | 28/10 | Boticário × Mari Krüger: a ciência estudou o corpo errado | RECRIA ADS + CONSULTORIA | Copy pronta |
 | 5 | 04/11 | Black Friday 2: como eu faria a Black no seu negócio | TRÁFEGO + CONSULTORIA | Copy pronta |
@@ -38,3 +38,9 @@
 - **Liquid Death (carrossel 7):** vendas de US$ 2,8 mi para US$ 333 mi e US$ 1,6 mi captados. Vêm do vídeo do Gabriel Leopoldo e do resumo de IA do Google.
 - **Bud Light (carrossel 4):** queda de cerca de 25% nas vendas em 2023 e perda do posto de mais vendida nos EUA, conforme reportado na época.
 - **Carrossel 8:** tirei o dado dos "65% a menos de diversidade nos roteiros", porque não achei o estudo. No lugar entrou a reportagem de 2024 sobre roteiros de streaming e o estudo do efeito Flynn reverso (PNAS, 2018).
+
+## Padrões de produção definidos
+- **Vídeo no carrossel:** card com o vídeo à esquerda (moldura dourada, 405×720 px, posição 96/250) e o texto à direita. O Instagram aceita no máximo 60s por card: vídeos mais longos são divididos em cards seguidos, cortando numa pausa natural da fala. Entregar sempre o MP4 pronto + a base PNG para o Canva.
+- **Collab:** o gerenciador não permite adicionar o collab ao programar. Após a publicação, adicionar @amandarecria como collab manualmente.
+- **Tom de voz:** "nós" (fizemos, criamos, explicamos), nunca "a gente".
+- **Destaques em cards claros:** caixa preta com texto dourado.
