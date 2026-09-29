@@ -1,5 +1,7 @@
 # Fluxo Youze: CONSULTORIA / DIAGNÓSTICO (Fluxo Avançado)
 
+Status: configurado no Youze e testado no Dia 0 (29/09/2026).
+
 Gatilhos: comentar qualquer publicação, mandar DM ou responder story com CONSULTORIA ou DIAGNÓSTICO.
 Resposta no comentário: "Enviamos um presente no seu direct! 🎁" (com variações).
 
@@ -8,8 +10,8 @@ Os botões de Opções renovam a janela de 24h da Meta. Se a pessoa não tocar e
 Para atualizar o e-book sem trocar o link: Drive → Gerenciar versões → Enviar nova versão.
 
 ## Dia 0
-1. **Boas-vindas:** Oi, {name}! Que bom te ver por aqui. Separamos um presente para você olhar para o seu negócio com outros olhos: o Direcional de Marketing e Negócios da Agência Recria. Quer receber? [Eu quero]
-2. **Captura de Dados** (WhatsApp + e-mail), com o texto: Perfeito! Para te enviar o presente e avisar quando tivermos novidades e condições especiais, me conta rapidinho 👇
+1. **Boas-vindas:** Oi, {name}! Que bom te ver por aqui. Separamos um presente para você: o Direcional de Marketing e Negócios da Agência Recria. Quer receber? [Eu quero]
+2. **Captura de Dados** (WhatsApp + e-mail), com o texto: Perfeito! Para te enviar o presente e avisar quando tivermos novidades e condições especiais, me conta aqui rapidinho 👇
 3. **Mensagem:** Aqui está: o Direcional de Marketing e Negócios e um autodiagnóstico para você fazer agora. 🎁
 4. **Botão Link:** Toque no botão abaixo para baixá-lo 👇 [Toque aqui e baixe seu e-book] → PDF no Google Drive ("Qualquer pessoa com o link", Leitor)
 5. (não usar o nó Documento: o Instagram abre o PDF por um link temporário da Meta, com aviso de "link fora do Facebook")
@@ -17,9 +19,9 @@ Para atualizar o e-book sem trocar o link: Drive → Gerenciar versões → Envi
 
 ## Dia 1
 7. **Opções:** Oi, {name}! Conseguiu ver o seu Direcional? O que achou? [Adorei! 😍] [Ainda não vi]
-   - Adorei → **Mensagem:** Que bom que você gostou! 💛 E isso é só o começo do que dá para fazer pelo seu negócio. → Espera 1 min
+   - Adorei → **Mensagem:** Que bom que gostou! 💛 E isso é só o começo do que dá para fazer pelo seu negócio. → Espera 1 min
    - Ainda não vi → **Mensagem:** Sem problemas! Ele está aqui em cima, na nossa conversa, e é rapidinho de ler e começar a aplicar. Vale muito a pena. → Espera 1 min
-8. **Botão Link** (os dois caminhos): E, se você já estiver pronto(a) para dar um passo além: no Diagnóstico Recria, a nossa consultoria online personalizada, olhamos juntos para o seu negócio e definimos o melhor posicionamento para o momento dele. Condição especial de R$ 67 por sessão. [Quero o meu diagnóstico]
+8. **Botão Link** (os dois caminhos): E, se você já estiver pronto(a) para dar um passo além: no Diagnóstico Recria, a nossa consultoria online personalizada, olhamos juntos para o seu negócio e definimos o melhor posicionamento para o momento dele. Condição especial de R$ 67 por sessão. [Quero meu diagnóstico]
 9. **Espera:** 23 horas
 
 ## Dia 2
