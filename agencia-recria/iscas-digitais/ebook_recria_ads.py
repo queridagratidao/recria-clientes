@@ -19,7 +19,8 @@ b.page('dark', '''<div class="kick">A estrutura</div><h1>Os 5 passos de um anún
 <tr><td>3. Conflito</td><td>A tensão, a dúvida, o problema que prende até o fim</td></tr>
 <tr><td>4. Virada</td><td>O produto entra como desejo ou solução, sem quebrar a história</td></tr>
 <tr><td>5. Fechamento</td><td>Um bordão, um final marcante ou um convite para o próximo episódio</td></tr></table>
-<div class="box" style="margin-top:16px">Exemplo: a Toyota com @sarahafonseca. "Passou na faculdade, ganhou um carro?" O pai se safa com uma resposta genial, e o Yaris Cross entra como o desejo da história.</div>''')
+<div class="box" style="margin-top:16px">Exemplo: a Toyota com @sarahafonseca. "Passou na faculdade, ganhou um carro?" O pai se safa com uma resposta genial, e o Yaris Cross entra como o desejo da história.</div>
+<p style="font-size:23px;margin-top:4px">Fizemos uma análise completa, passo a passo, dessa collab. Veja no perfil da Agência Recria no Instagram: <b style="color:#E4C988">@agencia.recria</b></p>''')
 
 b.page('light', '''<div class="kick">Quem vai aparecer?</div><h1>3 caminhos, <em class="g">qualquer orçamento</em></h1>
 <h2>1. Você, dono(a) do negócio</h2>
