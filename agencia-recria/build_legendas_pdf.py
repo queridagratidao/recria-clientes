@@ -81,6 +81,33 @@ Nesse carrossel mostramos como aquecer o seu público, a sequência de conteúdo
             ('RECRIA ADS · Mensagem 3', 'E, se você está pronta para dar o próximo passo, conheça o Recria Ads: o nosso curso aprofundado de criação de conteúdos e anúncios para vender com leveza e naturalidade, sem parecer aquele vendedor chato, mesmo que o seu negócio esteja começando. Por R$ 97 em até 12x. [Botão: Quero conhecer o Recria Ads → link]'),
             ('RECRIA ADS · Mensagem 4 (23h depois, se não clicou)', 'Oi, [Nome]! Conseguiu ver o seu presente? Se preferir um direcional personalizado para o seu negócio, é só tocar no botão: DIAGNÓSTICO. [Botão: DIAGNÓSTICO]'),
          ]),
+    dict(folder='2026-10-28_carrossel-boticario', nome='Post 28.10 - Boticario - legenda e automacao.pdf', post='Post 28.10', data='Quarta-feira, 28/10/2026', titulo='Boticário × Mari Krüger: a ciência estudou o corpo errado',
+         arquivos='card-01.png, card-02-video.mp4, card-03-video.mp4, card-04-video.mp4, card-05.png a card-10.png', palavras='RECRIA ADS e DIAGNÓSTICO',
+         marcar='Collab: @agencia.recria × @amandarecria (adicionar após publicar) · Marcar no post: @grupoboticario e @[perfil da Mari Krüger]',
+         legenda="""A ciência estudou o corpo errado. E o Grupo Boticário transformou isso em posicionamento. 🔬
+
+Por muito tempo, o corpo do homem foi o padrão das pesquisas. O Grupo Boticário criou um centro de pesquisa dedicado ao corpo da mulher e chamou a Mari Krüger, que ensina ciência com humor, para mostrar isso numa série.
+
+O resultado: identificação, comunidade nos comentários e uma marca com décadas de mercado se diferenciando de novo.
+
+Nesse carrossel mostramos por que funcionou, por que não é oportunismo e as 5 perguntas para responder antes de levantar qualquer bandeira no seu negócio.
+
+👉 Comente RECRIA ADS e receba um passo a passo para criar conteúdos e anúncios sem cara de anúncio. 🎁
+👉 Quer um direcional para o seu negócio? Comente DIAGNÓSTICO.
+
+📌 Créditos do vídeo: @grupoboticario e @[perfil da Mari Krüger]""",
+         auto=[
+            ('RECRIA ADS · Resposta no comentário', 'Enviamos no seu direct! 📩'),
+            ('RECRIA ADS · Mensagem 1 (botão: Quero o presente)', 'Oi, [Nome]! Vimos que você gostou de como o Boticário se posicionou. Quer receber o passo a passo para criar conteúdos e anúncios sem cara de anúncio para o seu negócio?'),
+            ('RECRIA ADS · Mensagem 2', 'Aqui está o seu presente: o passo a passo para criar conteúdos e anúncios sem cara de anúncio. 🎁 [PDF]'),
+            ('RECRIA ADS · Mensagem 3', 'E, se você está pronta para dar o próximo passo, conheça o Recria Ads: o nosso curso aprofundado de criação de conteúdos e anúncios para vender com leveza e naturalidade, sem parecer aquele vendedor chato, mesmo que o seu negócio esteja começando. Por R$ 97 em até 12x. [Botão: Quero conhecer o Recria Ads → link]'),
+            ('RECRIA ADS · Mensagem 4 (23h depois, se não clicou)', 'Oi, [Nome]! Conseguiu ver o seu presente? Se preferir um direcional personalizado para o seu negócio, é só tocar no botão: DIAGNÓSTICO. [Botão: DIAGNÓSTICO]'),
+            ('DIAGNÓSTICO · Resposta no comentário', 'Enviamos no seu direct! 📩'),
+            ('DIAGNÓSTICO · Mensagem 1 (botão: Quero saber)', 'Oi, [Nome]! Vimos que você quer posicionar o seu negócio de um jeito criativo e coerente, como o Boticário fez. Quer saber como funciona o Diagnóstico Recria?'),
+            ('DIAGNÓSTICO · Mensagem 2', 'Funciona assim: em uma reunião online, entendemos o seu negócio e os seus objetivos, mapeamos os gargalos que estão travando o seu crescimento e mostramos as alavancas que podem fazer diferença, inclusive no posicionamento da sua marca. Depois da reunião, você recebe tudo documentado, para saber exatamente o que fazer.'),
+            ('DIAGNÓSTICO · Mensagem 3', 'Para garantir o seu Diagnóstico Recria, é só tocar no botão abaixo. [Botão: Quero o meu diagnóstico → https://www.agenciarecria.com.br/diagnostico-recria/]'),
+            ('DIAGNÓSTICO · Mensagem 4 (23h depois, se não clicou)', 'Oi, [Nome]! Passando para lembrar que as vagas da agenda são limitadas. Se ficou alguma dúvida sobre o Diagnóstico Recria, é só responder aqui que explicamos. 😊'),
+         ]),
 ]
 
 CSS = FONTS + """
