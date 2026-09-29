@@ -2,20 +2,22 @@
 **RECRIA Marketing, 29/09/2026**
 **Cliente:** Eleva
 
-**Formato de todos:** vertical, Giuliano caminhando em condomínio em Porto Alegre, até 1 min, gravado para anúncio.
+**Formato de todos:** vertical, até 1 min, gravado para anúncio. Giuliano pode gravar caminhando dentro do escritório da Eleva, em ambiente aberto, ou em algum condomínio. Se tiver dificuldade de falar caminhando, pode gravar parado, ou fazer alguns takes caminhando e outros parado.
 
 ## Lógica de automação por palavra-chave (resumo)
 
 | Vídeo | Palavra-chave | O que a automação faz |
 |---|---|---|
-| 1 — Sessão Estratégica (geral) | SESSÃO | Pergunta a persona (síndico/fornecedor/executivo) e manda o link da Sessão Estratégica certa |
-| 2 — Diagnóstico (geral) | DIAGNÓSTICO | Pergunta a persona e manda o link do Diagnóstico certo |
-| 3 — Mentoria (geral) | MENTORIA | Pergunta a persona e manda o link da Mentoria certa |
+| 1 — Sessão Estratégica (geral) | SESSÃO | Identifica a persona (síndico/fornecedor/executivo) e manda o link da Sessão Estratégica certa |
+| 2 — Diagnóstico (geral) | DIAGNÓSTICO | Identifica a persona e manda o link do Diagnóstico certo |
+| 3 — Mentoria (geral) | MENTORIA | Identifica a persona e manda o link da Mentoria certa |
 | 4 — Curso Multiplicar Vendas (geral) | CONDOMÍNIO | Manda direto o link do curso, serve as 3 personas |
 | 5 — Curso Avançado Síndico | SÍNDICO | Manda o link do curso; 1 dia depois, oferece a Sessão Estratégica síndico |
 | 6 — Curso Multiplicar Vendas (fornecedor) | FORNECEDOR | Manda o link do curso; 1 dia depois, oferece a Sessão Estratégica fornecedor |
 | 7 — Formação de Síndico | FORMAÇÃO | Manda o link do curso de formação (automação já ativa) |
 | 8 — Hub de Negócios | Hub de Negócio | Pede os dados da pessoa (nome, e-mail, WhatsApp, função) |
+
+*As automações já estão escritas e configuradas pela Amanda, a tabela acima é só para o Giuliano entender a lógica de cada gatilho.*
 
 ---
 
@@ -23,11 +25,13 @@
 
 ## Vídeo 1 — Geral, Sessão Estratégica
 
-**"Duas horas podem valer mais que seis meses tentando sozinho"**
+**"Duas horas bem direcionadas podem valer mais que seis meses tentando sozinho"**
 
 [Giuliano caminhando, tom direto]
 
-"Síndico, executivo de administradora ou fornecedor, não importa de qual lado desse mercado você está, todo mundo tem pelo menos um gargalo travando o crescimento agora."
+"Síndico, executivo de administradora ou fornecedor. Duas horas bem direcionadas podem valer mais que seis meses tentando sozinho."
+
+"Não importa de qual lado desse mercado você está, todo empresário desse ramo tem pelo menos um gargalo que pode estar travando o seu crescimento agora."
 
 [pausa, olha para a câmera]
 
@@ -35,26 +39,26 @@
 
 [retoma o caminhar]
 
-"E o que eu aprendi é que, às vezes, você não precisa de um curso inteiro ou de meses de acompanhamento. Precisa de 2 horas de conversa direta comigo, focadas no seu negócio, para sair com o passo a passo de um problema específico resolvido."
+"E eu aprendi que, às vezes, você não precisa de um curso inteiro ou de meses de acompanhamento. Às vezes, para o seu caso, uma Sessão Estratégica de duas horas focada no seu negócio já é suficiente para você sair com o passo a passo para resolver um problema específico, ou uma dor latente."
 
 [para, olha para a câmera]
 
-"Isso é a Sessão Estratégica."
+"É isso que chamamos de Sessão Estratégica da Eleva."
 
-"Comente: SESSÃO para saber mais. Me conta se você é síndico, fornecedor ou executivo que eu te mando o link certo, ou se preferir, acesse pelo link da bio."
+"Comente: SESSÃO para receber todas as informações no seu direct, ou se preferir, acesse pelo link da bio."
 
 **Duração estimada:** 40-45 segundos
 **CTA:** "Clica no link e agenda sua sessão"
 
-**Automação de direct (gatilho: comentário "SESSÃO"):**
+**Legenda do post:**
 
-> Oi, tudo bem? Vi que você comentou "SESSÃO" no vídeo do Giuliano. Me conta rapidinho: você é síndico, fornecedor ou executivo de administradora/imobiliária? Assim já te mando o link certo para agendar.
->
-> Síndico: 🔗 https://www.elevags.com.br/sessao-estrategica-sindicos
-> Fornecedor: 🔗 https://www.elevags.com.br/sessao-estrategica-fornecedores
-> Executivo: 🔗 https://www.elevags.com.br/sessao-estrategica-executivos
->
-> Qualquer dúvida, é só me chamar por aqui!
+Duas horas bem direcionadas podem valer mais que seis meses tentando resolver sozinho.
+
+Síndico, fornecedor ou executivo de administradora, todo empresário desse ramo tem pelo menos um gargalo travando o crescimento agora.
+
+A Sessão Estratégica da Eleva é focada no seu negócio, para você sair com o passo a passo de um problema específico resolvido.
+
+Comente "SESSÃO" 👇 ou acesse pelo link da bio.
 
 ---
 
@@ -64,67 +68,67 @@
 
 [Giuliano caminhando]
 
-"Síndico, fornecedor ou executivo de administradora, a maioria de vocês sente que tem alguma coisa errada na operação, mas não consegue apontar exatamente onde."
+"Síndico, fornecedor ou executivo de administradora, você sabe exatamente onde o seu negócio está perdendo dinheiro nesse exato momento?"
+
+[pausa]
+
+"Pois é. A maioria dos empresários do ramo tem algum gargalo incomodando na operação, mas não consegue apontar exatamente o que é. E assim o tempo vai passando, e muitas vezes você vai deixando dinheiro na mesa."
 
 [para, olha para a câmera]
 
-"Foi para isso que eu criei o Diagnóstico Empresarial da Eleva: um mapeamento completo do seu negócio, para você enxergar, com clareza, todos os pontos que estão travando o seu crescimento, não só um."
+"Foi por isso que eu criei o Diagnóstico Empresarial da Eleva: um mapeamento do seu negócio para você enxergar, com clareza, todos os pontos que estão travando o seu crescimento, e entender quais são as possíveis alavancas para contornar isso tudo."
 
 [retoma o caminhar]
 
-"É o passo natural para quem já entende que tem mais de um gargalo, e quer resolver isso com método, não no achismo."
-
-[para, olha para a câmera]
-
-"Comente: DIAGNÓSTICO para saber mais. Me conta se você é síndico, fornecedor ou executivo que eu te mando o link certo, ou se preferir, acesse pelo link da bio."
+"Se você quer saber mais informações de tudo que eu entrego nesse diagnóstico, comente aqui: DIAGNÓSTICO, que eu vou enviar todos os detalhes no seu direct. Ou, se preferir, clique no nosso link da bio."
 
 **Duração estimada:** 40-45 segundos
 **CTA:** "Clica e mapeia seu negócio"
 
-**Automação de direct (gatilho: comentário "DIAGNÓSTICO"):**
+**Legenda do post:**
 
-> Oi, tudo bem? Vi que você comentou "DIAGNÓSTICO" no vídeo do Giuliano. Me conta rapidinho: você é síndico, fornecedor ou executivo de administradora/imobiliária? Assim já te mando o link certo.
->
-> Síndico: 🔗 https://www.elevags.com.br/diagnostico-empresarial-sindicos
-> Fornecedor: 🔗 https://www.elevags.com.br/diagnostico-empresarial-fornecedores
-> Executivo: 🔗 https://www.elevags.com.br/diagnostico-empresarial-executivos
->
-> Qualquer dúvida, é só me chamar por aqui!
+Você sabe exatamente onde o seu negócio está perdendo dinheiro agora?
+
+A maioria dos empresários do ramo sente que tem algo travando a operação, mas não consegue apontar exatamente o quê. E o tempo vai passando, deixando dinheiro na mesa.
+
+O Diagnóstico Empresarial da Eleva mapeia o seu negócio com clareza, mostrando todos os pontos que estão travando o crescimento e as alavancas para contornar isso.
+
+Comente "DIAGNÓSTICO" 👇 ou acesse pelo link da bio.
 
 ---
 
 ## Vídeo 3 — Geral, Mentoria
 
-**"Tem gente que não precisa de mais informação. Precisa de acompanhamento."**
+**"Talvez o que você precise não seja informação isolada"**
 
 [Giuliano caminhando]
 
-"Se você já sabe o que precisa mudar no seu negócio, seja síndico, fornecedor ou executivo de administradora, mas sente que sozinho a execução trava, ou volta ao mesmo lugar depois de um tempo, o problema não é falta de conteúdo."
+"Síndico, fornecedor ou executivo de administradora de condomínios. Se você já sabe que precisa mudar algo no seu negócio, seja na operação, no tático ou no estratégico, mas está perdido sobre o que precisa ser feito, ou como ajustar todo esse processo..."
 
-[para, olha para a câmera]
+[pausa, olha para a câmera]
 
-"É falta de acompanhamento próximo, cobrando, ajustando rota, e comemorando cada avanço junto com você."
+"Talvez o que você precise não seja informação isolada, e sim um acompanhamento direcionado, personalizado para o seu negócio."
 
 [retoma o caminhar]
 
-"Isso é a Mentoria da Eleva: um acompanhamento contínuo, que se aprofunda conforme o momento do seu negócio."
+"Às vezes falta acompanhamento próximo, ajustando a rota, comemorando cada avanço junto com você. Isso é a Mentoria da Eleva: uma metodologia desenvolvida por mim, após mais de 35 anos de experiência no mercado condominial. Um acompanhamento contínuo, onde vamos aprofundando a cada etapa do seu negócio."
 
 [para, olha para a câmera]
 
-"Comente: MENTORIA para saber mais. Me conta se você é síndico, fornecedor ou executivo que eu te mando o link certo, ou se preferir, acesse pelo link da bio."
+"Se você quer saber em detalhes como funciona a mentoria, comente: MENTORIA, que eu vou enviar todos os detalhes no seu direct. Ou, se preferir, acesse pelo link da bio."
 
 **Duração estimada:** 40-45 segundos
 **CTA:** "Clica e entra para a mentoria"
 
-**Automação de direct (gatilho: comentário "MENTORIA"):**
+**Legenda do post:**
 
-> Oi, tudo bem? Vi que você comentou "MENTORIA" no vídeo do Giuliano. Me conta rapidinho: você é síndico, fornecedor ou executivo de administradora/imobiliária? Assim já te mando o link certo.
->
-> Síndico: 🔗 https://www.elevags.com.br/mentoria/sindicos-profissionais
-> Fornecedor: 🔗 https://www.elevags.com.br/mentoria/fornecedores-condominios
-> Executivo: 🔗 https://www.elevags.com.br/mentoria/executiva
->
-> Qualquer dúvida, é só me chamar por aqui!
+Talvez o que você precise não seja mais informação isolada.
+
+Síndico, fornecedor ou executivo, se você já sabe o que precisa mudar no seu negócio, mas está perdido em como ajustar o processo, o que falta é acompanhamento próximo, ajustando a rota com você.
+
+Essa é a Mentoria da Eleva, uma metodologia de mais de 35 anos de experiência no mercado condominial, se aprofundando a cada etapa do seu negócio.
+
+Comente "MENTORIA" 👇 ou acesse pelo link da bio.
 
 ---
 
@@ -156,15 +160,6 @@
 
 **Duração estimada:** 40-45 segundos
 **CTA:** "Clica no link e saiba mais"
-
-**Automação de direct (gatilho: comentário "CONDOMÍNIO"):**
-
-> Oi, tudo bem? Vi que você comentou "CONDOMÍNIO" no vídeo do Giuliano. Esse curso serve para quem atua nesse mercado de qualquer lado, síndico, fornecedor ou executivo.
->
-> Conheça o Aprenda a Multiplicar Vendas para Condomínios, com 7 dias grátis:
-> 🔗 https://www.elevags.com.br/curso-multiplicar-vendas-condominios
->
-> Qualquer dúvida, é só me chamar por aqui!
 
 ---
 
@@ -201,17 +196,6 @@
 **Duração estimada:** 40-45 segundos
 **CTA:** "Clica e descobre o método"
 
-**Automação de direct (gatilho: comentário "SÍNDICO"):**
-
-> Oi, tudo bem? Vi que você comentou "SÍNDICO" no vídeo do Giuliano.
->
-> Conheça o Curso Avançado para Síndico Profissional, um Gestor de Ativos, com 7 dias grátis:
-> 🔗 https://www.elevags.com.br/curso-avancado-sindico-profissional-gestor-de-ativos
->
-> Qualquer dúvida, é só me chamar por aqui!
-
-*(Sequência automática D+1: se a pessoa não avançar, enviar mensagem oferecendo a Sessão Estratégica síndico: 🔗 https://www.elevags.com.br/sessao-estrategica-sindicos)*
-
 ---
 
 ## Vídeo 6 — Fornecedor, Curso Multiplicar Vendas
@@ -243,17 +227,6 @@
 **Duração estimada:** 40-45 segundos
 **CTA:** "Clica no link aqui embaixo"
 
-**Automação de direct (gatilho: comentário "FORNECEDOR"):**
-
-> Oi, tudo bem? Vi que você comentou "FORNECEDOR" no vídeo do Giuliano.
->
-> Conheça o Aprenda a Multiplicar Vendas para Condomínios, com 7 dias grátis:
-> 🔗 https://www.elevags.com.br/curso-multiplicar-vendas-condominios
->
-> Qualquer dúvida, é só me chamar por aqui!
-
-*(Sequência automática D+1: se a pessoa não avançar, enviar mensagem oferecendo a Sessão Estratégica fornecedor: 🔗 https://www.elevags.com.br/sessao-estrategica-fornecedores)*
-
 ---
 
 ## Vídeo 7 — Formação de Síndico (novo)
@@ -276,27 +249,34 @@
 
 [para, olha para a câmera]
 
-"Comente: FORMAÇÃO para saber mais sobre o curso, ou se preferir, acesse pelo link da bio."
+"Comente: FORMAÇÃO para receber mais informações sobre o curso no seu direct e aproveitar também 7 dias grátis, se você quiser. Ou, se preferir, acesse mais informações sobre o curso de formação pelo link da bio."
 
 **Duração estimada:** 40-45 segundos
 **CTA:** "Clica e comece sua nova carreira"
-
-**Automação de direct:** já ativa (gatilho: comentário "FORMAÇÃO")
-🔗 https://www.elevags.com.br/curso-formacao-de-sindico-profissional
 
 ---
 
 ## Vídeo 8 — Hub de Negócios, geral
 
-*(Reaproveitado do documento anterior, roteiro de vídeos Hub Eleva/Hub de Negócios.)*
-
 **Persona:** síndico, fornecedor ou executivo, qualquer prestador de serviço para condomínio
 
 **Fala:**
 
-"Se você presta algum tipo de serviço para condomínio, seja como executivo, síndico ou prestador de serviço, entenda que estar rodeado de um hub de parceiros que te auxiliam nas diversas demandas do condomínio é uma das formas mais fáceis de você expandir a sua carteira, o seu relacionamento, criar network e entregar mais valor para os seus clientes. Assim, todo mundo constrói uma relação de ganha-ganha. Aqui na Eleva, debatemos esse tema de Hub de Negócios tanto no nosso Hub Eleva, Síndicos de Alta Performance, no WhatsApp, quanto por e-mail e no nosso blog. Se você se interessou, comenta aqui 'Hub de Negócio' que eu te mando no direct um formulário para você preencher e começar a receber esses conteúdos, e quem sabe até fazer parte do nosso Hub de Parceiros."
+[Giuliano caminhando]
+
+"Se você presta algum tipo de serviço para condomínio, seja como executivo, síndico ou prestador de serviço, tenho um convite para te fazer."
+
+[pausa]
+
+"Talvez você já saiba, ou talvez não, da importância de estar rodeado de um hub de parceiros que te auxiliam nas diversas demandas do condomínio, de forma a expandir sua carteira, seu relacionamento, e criar um network que entrega mais valor para os seus clientes, numa relação ganha-ganha."
+
+[retoma o caminhar]
+
+"Aqui na Eleva, dentro do guarda-chuva do Eleva Group, temos justamente o Hub de Negócios, onde desenvolvemos exatamente esses pontos."
+
+[para, olha para a câmera]
+
+"Se você gostaria de saber mais informações, ou se interessa em aplicar para ser um parceiro do nosso Hub de Negócios, comente: Hub de Negócios, que vamos enviar todas as informações no seu direct, para que você possa aplicar e saber em detalhes como participar."
 
 **Duração estimada:** 40-45 segundos
 **CTA:** "Clica e entra para o Hub de Negócios"
-
-**Automação de direct (gatilho: comentário "Hub de Negócio"):** pede os dados da pessoa (nome, e-mail, WhatsApp, função), para receber conteúdos e mostrar interesse em fazer parte do Hub de Parceiros.
