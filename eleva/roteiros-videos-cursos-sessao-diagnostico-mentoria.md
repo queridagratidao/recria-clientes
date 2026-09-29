@@ -173,7 +173,7 @@ Comente "MENTORIA" 👇 ou acesse pelo link da bio.
 
 [Giuliano caminhando, tom reflexivo]
 
-"Sabe qual é a diferença entre o síndico que gerencia 3 condomínios com dificuldade e o que gerencia 20 com tranquilidade?"
+"Síndico. Sabe qual é a diferença entre o síndico que gerencia 3 condomínios com dificuldade e o que gerencia 20 com tranquilidade?"
 
 [pausa, olha para a câmera]
 
@@ -206,7 +206,7 @@ Comente "MENTORIA" 👇 ou acesse pelo link da bio.
 
 [Caminhando, tom de quem vai revelar algo que pouca gente sabe]
 
-"Deixa eu te contar uma coisa que muda completamente como você enxerga esse mercado."
+"Fornecedor. Deixa eu te contar uma coisa que muda completamente como você enxerga esse mercado."
 
 "Um síndico profissional não administra um condomínio. Ele administra uma carteira. Pode ser 10, 20, até 50 condomínios."
 
@@ -237,7 +237,7 @@ Comente "MENTORIA" 👇 ou acesse pelo link da bio.
 
 [Giuliano caminhando]
 
-"Você já pensou em se tornar síndico profissional? É uma das profissões que mais cresce no Brasil, remunerada, com demanda real e crescente, mas que exige método para você entrar com segurança."
+"Futuro síndico. Você já pensou em se tornar síndico profissional? É uma das profissões que mais cresce no Brasil, remunerada, com demanda real e crescente, mas que exige método para você entrar com segurança."
 
 [para, olha para a câmera]
 
