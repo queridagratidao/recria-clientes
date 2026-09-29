@@ -11,7 +11,8 @@ LINK_MANUAL = '[link do Manual Estratégias Atraentes que Vendem]'
 POSTS = {'benefit':'DRnAVTjEuN7','anna':'DQnMPomjtdl','vo':'DCotzX-xDfR','friday':'DRhcD58iGrs','inconf':'DdUofvNTq8P','burga':'DChVeNXthTk'}
 
 # Preencher antes de enviar (links e @ dos perfis dos exemplos)
-LINK_RECRIA_ADS = 'agenciarecria.com.br/lista-espera-curso'
+LINK_RECRIA_ADS = '[link do Recria Ads]'
+LINK_RECRIA_ADS_URL = 'https://www.agenciarecria.com.br/'  # TROCAR pelo link do Recria Ads quando o curso estiver no ar
 LINK_CONSULTORIA = 'agenciarecria.com.br/diagnostico-recria'
 LINK_TRAFEGO = 'agenciarecria.com.br/#servicos'
 HANDLES = {
@@ -55,6 +56,7 @@ td{padding:11px 12px;border-bottom:1px solid #e1d5ba;vertical-align:top;line-hei
 td:first-child{font-weight:600;color:#5a4412;width:26%}
 .grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:18px 22px}
 .ex{text-decoration:none;display:block}
+.ex .btn{display:block;font-size:17px;color:#0b0b0b;background:#C9A24E;text-decoration:none;padding:5px 10px;border-radius:3px;margin-top:6px;width:fit-content}
 .ex u{display:block;font-size:17px;color:#0b0b0b;background:#C9A24E;text-decoration:none;padding:5px 10px;border-radius:3px;margin-top:6px;width:fit-content}
 .ex img{width:100%;height:225px;object-fit:cover;border-radius:6px;border:2px solid #C9A24E}
 .ex b{display:block;font-family:'Playfair Display';font-size:23px;margin:8px 0 2px;color:#E4C988}
@@ -97,7 +99,7 @@ page('light', '''<div class="kick">Passo a passo</div><h1 style="margin-bottom:1
 <tr><td>Semana da Black</td><td>Fundo de funil: oferta, oferta, oferta. Últimas peças, escassez real, urgência. Acesso antecipado para a lista VIP.</td></tr>
 <tr><td>Pós-Black</td><td>Giftback e comunicação pós-compra para gerar recompra e não despencar em dezembro.</td></tr></table>''', 4)
 
-ex = lambda k, title, desc, cat: f'<a class="ex" href="https://www.instagram.com/p/{POSTS[k]}/"><img src="{img(D / (k + ".jpg"))}"><b>{title}</b><span>{desc}</span><i>{cat} · {HANDLES[k]}</i><u>▶ Assistir no Instagram</u></a>'
+ex = lambda k, title, desc, cat: f'<div class="ex"><a href="https://www.instagram.com/p/{POSTS[k]}/"><img src="{img(D / (k + ".jpg"))}"></a><b>{title}</b><span>{desc}</span><i>{cat} · {HANDLES[k]}</i><a class="btn" href="https://www.instagram.com/p/{POSTS[k]}/">▶ Assistir no Instagram</a></div>'
 page('dark', f'''<div class="kick">Inspiração</div><h1 style="font-size:48px;margin-bottom:12px">Exemplos de criativos <em class="g">para se inspirar</em></h1><p style="font-size:21px;margin-bottom:16px">Toque em cada exemplo para assistir ao vídeo no perfil da marca.</p>
 <div class="grid">
 {ex('benefit','Desejo antes do preço','Os produtos "caem do céu" direto na sacola. Gera desejo sem falar de desconto.','E-commerce')}
@@ -110,8 +112,8 @@ page('dark', f'''<div class="kick">Inspiração</div><h1 style="font-size:48px;m
 
 page('light', f'''<div class="kick">Criatividade que vende</div><h1>Oferta, sim. <em class="g">Mas com criatividade.</em></h1>
 <p>Repare: todos esses exemplos são anúncios de oferta. Mas nenhum é aquela oferta sem graça. Eles usam <b>humor, surpresa, expectativa e criatividade</b> para chamar a atenção antes de mostrar o desconto.</p>
-<p>E dá para ir além: criar anúncios com <b>cara de conteúdo</b>, que o público quer assistir, como os que você vê no nosso feed.</p>
-<div class="cta"><div class="t">Quer aprender isso em detalhes?</div><p>No <b>Recria Ads</b>, ensinamos a criar anúncios de oferta criativos e anúncios com cara de conteúdo, inspirados em <b>neuromarketing, neurociência e comportamento do consumidor</b>. Um método construído em mais de 10 anos de marketing, atendendo empresas de nichos como banheiras e moda.</p><p style="font-size:22px">O curso abre em breve. Entre na lista de espera:</p><a class="l" href="https://www.agenciarecria.com.br/lista-espera-curso/?utm_source=checklist_black">{LINK_RECRIA_ADS}</a></div>''', 6)
+<p>E dá para ir além: criar conteúdos e anúncios com <b>cara de conteúdo</b>, que o público de fato quer assistir.</p>
+<div class="cta"><div class="t">Quer aprender isso em detalhes?</div><p>No <b>Recria Ads</b>, ensinamos a criar anúncios sem cara de anúncio, utilizando <b>neuromarketing, neurociência e comportamento do consumidor aplicados às vendas</b>. Um método construído em mais de 10 anos de experiência em marketing, atendendo de pequenas a grandes empresas, inclusive marcas conhecidas dos nichos de banheiras e de moda.</p><p style="font-size:22px">Quer saber mais sobre o Recria Ads? Clique no botão abaixo:</p><a class="l" href="{LINK_RECRIA_ADS_URL}">Quero conhecer o Recria Ads</a></div>''', 6)
 
 page('dark', '''<div class="kick">Base e relacionamento</div><h1>A sua base é o seu <em class="g">atalho</em></h1>
 <p>Quem já comprou de você é quem mais compra na Black. E sai muito mais barato do que conquistar um cliente novo no período mais caro do ano.</p>
@@ -182,15 +184,11 @@ page('dark', '''<div class="kick">Depois da Black</div><h1>A Black não termina 
 page('light', '''<div class="kick">Para concluir</div><h1>Começou agora? <em class="g">Ainda dá tempo.</em></h1>
 <p>Se você está começando a se preparar em outubro, já está um pouco atrasada. Mas ainda dá para fazer acontecer: siga o calendário, ative as campanhas o quanto antes e trabalhe a sua base.</p>
 <p>E para o ano que vem: <b>a Black Friday começa em agosto</b>, se não antes. É quando o público começa a ser aquecido. Quanto mais cedo você atrai, mais barato fica vender, e menos você depende de cliente novo no período mais caro e disputado do ano.</p>
-<div class="box">Comece 2027 com o calendário de ações de marketing do ano inteiro pronto. A próxima Black agradece.</div>
-''', 14)
-
-page('dark', '''<div class="kick">Presentes para você</div><h1>Para continuar a sua <em class="g">jornada de estudo</em></h1>
-<p>Separamos alguns presentes para você seguir aprendendo, sem custo nenhum.</p>
-<div class="cta"><div class="t">Aulão de Marketing para Negócios</div><p>Por que o seu marketing não funciona e o seu comercial não converte como deveria? 10 anos de experiência em marketing e comercial, em uma única aula. <b>Totalmente gratuito.</b></p><a class="l" href="https://www.agenciarecria.com.br/aula-mkt-para-negocios/?utm_source=checklist_black">▶ Clique aqui para assistir</a></div>
-<div class="cta" style="margin-top:22px"><div class="t">Sessão estratégica gratuita</div><p>Uma conversa para entender o momento do seu negócio e qual é o próximo passo para vender mais.</p><a class="l" href="https://www.agenciarecria.com.br/sessao-estrategica/?utm_source=checklist_black">Quero agendar a minha sessão</a></div>
-<p style="margin-top:34px;font-family:'Playfair Display';font-style:italic;font-size:30px;color:#E4C988">Com carinho,<br>Amanda, CEO da Agência Recria</p>
-<p style="font-size:23px;color:#d9d3c7">Agência Recria · @agencia.recria · @amandarecria</p>''', 15)
+<div class="box">Comece 2027 com o calendário de ações de marketing do ano inteiro pronto. O seu próximo ano, e também a próxima Black Friday, agradecem.</div>
+<p style="font-size:25px">E se quiser a ajuda da Agência Recria, conheça todos os nossos serviços em <a style="color:#9a7424;font-weight:600" href="https://www.agenciarecria.com.br/?utm_source=checklist_black#servicos">agenciarecria.com.br</a></p>
+<p style="margin-top:12px;font-family:'Playfair Display';font-style:italic;font-size:28px;color:#9a7424;margin-bottom:4px">Com carinho,<br>Amanda, CEO da Agência Recria</p>
+<p style="font-size:21px;color:#5a4412">@agencia.recria · @amandarecria</p>
+<div class="cta" style="margin-top:14px;padding:22px 28px"><div class="t" style="font-size:28px">🎁 Mais um presente para você</div><p style="font-size:22px">Para você dar continuidade aos seus estudos: um <b>aulão de Marketing para Negócios</b>, totalmente gratuito. Clique no link abaixo e bons estudos!</p><a class="l" href="https://www.agenciarecria.com.br/aula-mkt-para-negocios/?utm_source=checklist_black">▶ Assistir ao aulão gratuito</a></div>''', 14)
 
 html = f'<!doctype html><html><head><meta charset="utf-8"><title>Checklist Black Friday 2026 · Agência Recria</title><style>{CSS}</style></head><body>{"".join(pages)}</body></html>'
 out = pathlib.Path('/home/user/recria-clientes/agencia-recria/presentes/Checklist Black Friday 2026 - Agencia Recria.pdf')
