@@ -193,7 +193,7 @@ page('light', '''<div class="kick">Para concluir</div><h1>Começou agora? <em cl
 <div class="cta" style="margin-top:14px;padding:22px 28px"><div class="t" style="font-size:28px">🎁 Mais um presente para você</div><p style="font-size:22px">Para você dar continuidade aos seus estudos: um <b>aulão de Marketing para Negócios</b>, totalmente gratuito. Clique no link abaixo e bons estudos!</p><a class="l" href="https://www.agenciarecria.com.br/aula-mkt-para-negocios/?utm_source=checklist_black">▶ Assistir ao aulão gratuito</a></div>''', 14)
 
 html = f'<!doctype html><html><head><meta charset="utf-8"><title>Checklist Black Friday 2026 · Agência Recria</title><style>{CSS}</style></head><body>{"".join(pages)}</body></html>'
-out = pathlib.Path('/home/user/recria-clientes/agencia-recria/presentes/Checklist Black Friday 2026 - Agencia Recria.pdf')
+out = pathlib.Path('/home/user/recria-clientes/agencia-recria/iscas-digitais/Checklist Black Friday 2026 - Agencia Recria.pdf')
 out.parent.mkdir(parents=True, exist_ok=True)
 with sync_playwright() as p:
     br = p.chromium.launch(executable_path='/opt/pw-browsers/chromium-1194/chrome-linux/chrome')
