@@ -5,7 +5,10 @@ D = pathlib.Path(__file__).parent
 S = D.parent
 FONTS = (S / 'c1/fonts_embedded.css').read_text()
 img = lambda p, m='image/jpeg': f"data:{m};base64," + base64.b64encode(pathlib.Path(p).read_bytes()).decode()
-LOGO = img(S / 'c1/logo.png', 'image/png')
+LOGO = img(D / 'logo_icone.png', 'image/png')
+LOGO_FULL = img(D / 'logo_sem_tagline.png', 'image/png')
+LINK_MANUAL = '[link do Manual Estratégias Atraentes que Vendem]'
+POSTS = {'benefit':'DRnAVTjEuN7','anna':'DQnMPomjtdl','vo':'DCotzX-xDfR','friday':'DRhcD58iGrs','inconf':'DdUofvNTq8P','burga':'DChVeNXthTk'}
 
 # Preencher antes de enviar (links e @ dos perfis dos exemplos)
 LINK_RECRIA_ADS = 'agenciarecria.com.br/lista-espera-curso'
@@ -23,7 +26,7 @@ body{font-family:'Lora',serif}
 .pg{width:1080px;height:1350px;position:relative;padding:150px 90px 120px;overflow:hidden;page-break-after:always;display:flex;flex-direction:column}
 .dark{background:radial-gradient(ellipse at 15% 0%,#2a2214 0%,#0b0b0b 55%),#0b0b0b;color:#fff}
 .light{background:#F6F2EA;color:#111}
-.logo{position:absolute;top:50px;left:80px;height:84px}
+.logo{position:absolute;top:50px;left:80px;height:70px}
 .foot{position:absolute;bottom:44px;left:90px;right:90px;display:flex;justify-content:space-between;font-size:20px;opacity:.7}
 .dark .foot{color:#E4C988}.light .foot{color:#8a6d2c}
 .kick{font-weight:600;font-size:23px;letter-spacing:.18em;text-transform:uppercase;color:#C9A24E;margin-bottom:18px}
@@ -49,8 +52,10 @@ table{width:100%;border-collapse:collapse;font-size:22px;margin-top:6px}
 th{text-align:left;background:#0b0b0b;color:#E4C988;padding:12px 12px;font-family:'Playfair Display';font-size:22px}
 td{padding:11px 12px;border-bottom:1px solid #e1d5ba;vertical-align:top;line-height:1.38;color:#2a2a2a}
 td:first-child{font-weight:600;color:#5a4412;width:26%}
-.grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:22px}
-.ex img{width:100%;height:290px;object-fit:cover;border-radius:6px;border:2px solid #C9A24E}
+.grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:18px 22px}
+.ex{text-decoration:none;display:block}
+.ex u{display:block;font-size:17px;color:#0b0b0b;background:#C9A24E;text-decoration:none;padding:5px 10px;border-radius:3px;margin-top:6px;width:fit-content}
+.ex img{width:100%;height:225px;object-fit:cover;border-radius:6px;border:2px solid #C9A24E}
 .ex b{display:block;font-family:'Playfair Display';font-size:23px;margin:8px 0 2px;color:#E4C988}
 .ex span{font-size:18px;line-height:1.35;color:#d9d3c7;display:block}
 .ex i{font-size:17px;color:#C9A24E}
@@ -61,26 +66,28 @@ def page(cls, body, n):
     pages.append(f'<div class="pg {cls}"><img class="logo" src="{LOGO}">{body}<div class="foot"><span>Checklist Black Friday 2026 · Agência Recria</span><span>{n:02d}</span></div></div>')
 
 # 1 capa
-pages.append(f'''<div class="pg dark" style="justify-content:center;padding-top:0"><img class="logo" style="position:static;height:170px;align-self:flex-start;margin-bottom:70px" src="{LOGO}">
+pages.append(f'''<div class="pg dark" style="justify-content:center;padding-top:0"><img style="height:190px;align-self:flex-start;margin-bottom:70px" src="{LOGO_FULL}">
 <div class="kick" style="font-size:28px">Presente Agência Recria</div>
 <h1 style="font-size:92px;line-height:1.02">Checklist<br><em class="g">Black Friday 2026</em></h1>
-<p style="font-size:34px;max-width:820px">O passo a passo para aquecer o seu público, preparar as suas campanhas e vender mais no período mais disputado do ano.</p>
+<p style="font-size:34px;max-width:820px">O passo a passo para atrair e aquecer o seu público, preparar as suas campanhas e vender muito mais no período mais disputado do ano.</p>
 <div style="width:180px;height:3px;background:#C9A24E;margin:30px 0"></div>
 <p style="font-size:24px;color:#E4C988">@agencia.recria × @amandarecria</p></div>''')
 
-page('light', '''<div class="kick">Antes de tudo</div><h1>Por que começar <em class="g">agora?</em></h1>
-<p><b>Anúncio é leilão.</b> Em novembro, todas as empresas disputam o mesmo espaço, algumas o mês inteiro, outras só a semana da Black. Quanto maior a disputa, mais caro fica aparecer.</p>
+page('light', '''<div class="kick">Antes de tudo</div><h1>Por que começar <em class="g">o quanto antes?</em></h1>
+<p><b>Anúncio é leilão.</b> Em novembro, todas as empresas disputam o mesmo espaço, algumas o mês inteiro, outras só a semana da Black. Quanto maior a disputa, mais caro fica aparecer. <b>Se você deixar para novembro, tudo fica mais caro</b>: aparecer, receber cliques e vender.</p>
 <p><b>Toda campanha passa por uma fase de aprendizado</b>, que costuma levar de 7 a 15 dias. Quanto mais cedo ela começa, mais dados tem sobre quem de fato compra de você, e com custo menor.</p>
 <p><b>Desconto não vende sozinho.</b> Quem nunca ouviu falar de você não compra só porque viu um "50% off". O público precisa ser aquecido antes.</p>
 <div class="box">A meta: ativar as campanhas até o dia 20 de outubro, para que até o fim de novembro tudo já esteja fluindo.</div>''', 2)
 
-page('dark', '''<div class="kick">O funil</div><h1>Topo, meio e fundo: <em class="g">o que fazer em cada etapa</em></h1>
+page('dark', f'''<div class="kick">O funil</div><h1>Topo, meio e fundo: <em class="g">o que fazer em cada etapa</em></h1>
 <h2>Topo · atrair</h2><p>Conteúdo que gera identificação e alcança quem ainda não conhece você: dores, curiosidades, bastidores, tendências, humor. Objetivo: <b>ser visto e lembrado</b>.</p>
 <h2>Meio · engajar e nutrir</h2><p>Demonstração, como funciona, comparação, prova social, depoimentos, antes e depois. Objetivo: <b>aumentar o nível de consciência e gerar desejo</b>.</p>
 <h2>Fundo · vender</h2><p>Oferta clara, quebra de objeções, bônus, garantia, contagem regressiva, escassez real. Objetivo: <b>converter</b>.</p>
-<div class="box">Formatos que funcionam: estático, carrossel, vídeo curto, antes e depois, depoimento, bastidor, "unboxing". O melhor depende do seu negócio.</div>''', 3)
+<div class="box">Formatos que funcionam: estático, carrossel, vídeo curto, antes e depois, depoimento, bastidor, "unboxing". O melhor depende do seu negócio.</div>
+<p style="font-size:23px;margin-top:6px">Explicamos em detalhes como trabalhar cada etapa do funil, com neurociência e comportamento do consumidor, no <b>Manual Estratégias Atraentes que Vendem</b>: <span style="color:#E4C988">{LINK_MANUAL}</span></p>''', 3)
 
-page('light', '''<div class="kick">Passo a passo</div><h1>O calendário até a <em class="g">Black Friday</em></h1>
+page('light', '''<div class="kick">Passo a passo</div><h1 style="margin-bottom:14px">O calendário até a <em class="g">Black Friday</em></h1>
+<p style="font-size:24px">Está vendo este conteúdo de outubro em diante? Isto é o que ainda dá para fazer. <b>Quanto antes você começar, melhor.</b></p>
 <table><tr><th>Quando</th><th>O que fazer</th></tr>
 <tr><td>Até 20/10</td><td>Campanhas ativas para o público frio. Pixel e API de conversões conferidos. Oferta da Black decidida.</td></tr>
 <tr><td>Fim de outubro</td><td>Topo de funil: identificação, conexão, prova social, demonstração. Começar a gerar expectativa: "vem aí a nossa melhor Black".</td></tr>
@@ -89,21 +96,21 @@ page('light', '''<div class="kick">Passo a passo</div><h1>O calendário até a <
 <tr><td>Semana da Black</td><td>Fundo de funil: oferta, oferta, oferta. Últimas peças, escassez real, urgência. Acesso antecipado para a lista VIP.</td></tr>
 <tr><td>Pós-Black</td><td>Giftback e comunicação pós-compra para gerar recompra e não despencar em dezembro.</td></tr></table>''', 4)
 
-ex = lambda k, title, desc, cat: f'<div class="ex"><img src="{img(D / (k + ".jpg"))}"><b>{title}</b><span>{desc}</span><i>{cat} · {HANDLES[k]}</i></div>'
-page('dark', f'''<div class="kick">Inspiração</div><h1 style="font-size:50px;margin-bottom:22px">Exemplos de criativos <em class="g">para se inspirar</em></h1>
+ex = lambda k, title, desc, cat: f'<a class="ex" href="https://www.instagram.com/p/{POSTS[k]}/"><img src="{img(D / (k + ".jpg"))}"><b>{title}</b><span>{desc}</span><i>{cat} · {HANDLES[k]}</i><u>▶ Assistir no Instagram</u></a>'
+page('dark', f'''<div class="kick">Inspiração</div><h1 style="font-size:48px;margin-bottom:12px">Exemplos de criativos <em class="g">para se inspirar</em></h1><p style="font-size:21px;margin-bottom:16px">Toque em cada exemplo para assistir ao vídeo no perfil da marca.</p>
 <div class="grid">
 {ex('benefit','Desejo antes do preço','Os produtos "caem do céu" direto na sacola. Gera desejo sem falar de desconto.','E-commerce')}
 {ex('anna','A equipe aquecendo','Cada funcionária num canto da loja, "aquecendo para a nossa maior Black da história".','Loja física / negócio local')}
 {ex('vo','Teaser elegante','Uma sacola passando de mão em mão e "Black Friday is coming". Sem preço, só expectativa.','Marca premium / estética')}
-{ex('friday','Oferta em forma de cardápio','Uma marca de moda transformou as ofertas num "menu": a cloche levanta e aparece o cardápio da Black.','Moda · ideia ótima para alimentação')}
+{ex('friday','Oferta em forma de cardápio','Uma marca de moda transformou as ofertas num "cardápio" servido na mesa.','Moda · ótima ideia para alimentação')}
 {ex('inconf','A Black vira evento','"Não é só mais uma promoçãozinha": uma Black com nome, data e personalidade.','Infoproduto / serviços')}
 {ex('burga','Contagem regressiva','"Ready? 18/11, 18h." Gera expectativa com data e hora marcadas.','Qualquer negócio')}
 </div>''', 5)
 
-page('light', f'''<div class="kick">Anúncio sem cara de anúncio</div><h1>Venda com leveza, <em class="g">sem parecer que está vendendo</em></h1>
-<p>Repare que nenhum dos exemplos anteriores começa gritando desconto. Todos atraem pela história, pela curiosidade ou pelo desejo, e só depois apresentam a oferta.</p>
-<p>Todas as etapas do funil podem ser trabalhadas assim: de forma descontraída, com conteúdos e anúncios que o público <b>quer</b> assistir.</p>
-<div class="cta"><div class="t">Quer aprender isso em detalhes?</div><p>No <b>Recria Ads</b>, ensinamos passo a passo a criar conteúdos e anúncios sem cara de anúncio, para vender com leveza e naturalidade, sem parecer aquele vendedor chato.</p><p style="font-size:22px">O curso abre em breve. Entre na lista de espera:</p><a class="l" href="https://www.agenciarecria.com.br/lista-espera-curso/?utm_source=checklist_black">{LINK_RECRIA_ADS}</a></div>''', 6)
+page('light', f'''<div class="kick">Criatividade que vende</div><h1>Oferta, sim. <em class="g">Mas com criatividade.</em></h1>
+<p>Repare: todos esses exemplos são anúncios de oferta. Mas nenhum é aquela oferta sem graça. Eles usam <b>humor, surpresa, expectativa e criatividade</b> para chamar a atenção antes de mostrar o desconto.</p>
+<p>E dá para ir além: criar anúncios com <b>cara de conteúdo</b>, que o público quer assistir, como os que você vê no nosso feed.</p>
+<div class="cta"><div class="t">Quer aprender isso em detalhes?</div><p>No <b>Recria Ads</b>, ensinamos a criar anúncios de oferta criativos e anúncios com cara de conteúdo, inspirados em <b>neuromarketing, neurociência e comportamento do consumidor</b>. Um método construído em mais de 10 anos de marketing, atendendo empresas de nichos como banheiras e moda.</p><p style="font-size:22px">O curso abre em breve. Entre na lista de espera:</p><a class="l" href="https://www.agenciarecria.com.br/lista-espera-curso/?utm_source=checklist_black">{LINK_RECRIA_ADS}</a></div>''', 6)
 
 page('dark', '''<div class="kick">Base e relacionamento</div><h1>A sua base é o seu <em class="g">atalho</em></h1>
 <p>Quem já comprou de você é quem mais compra na Black. E sai muito mais barato do que conquistar um cliente novo no período mais caro do ano.</p>
