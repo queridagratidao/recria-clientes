@@ -9,7 +9,7 @@ b.cover('Presente Agência Recria', 'Direcional de<br><em class="g">Marketing e 
 b.page('light', '''<div class="kick">Por que isso importa</div><h1>Muitos negócios param <em class="g">no meio do caminho</em></h1>
 <div class="stat"><div><strong>6 em 10</strong><span>empresas fecham as portas em até 5 anos de atividade</span></div><div><strong>29%</strong><span>dos MEIs encerram as atividades em até 5 anos</span></div></div>
 <p class="src">Fontes: IBGE, Demografia das Empresas; Sebrae, Sobrevivência de Empresas (2020).</p>
-<p>Quase nunca é por falta de esforço. Na maioria das vezes, o negócio cresce no improviso: sem saber quem é o cliente ideal, sem canal próprio de comunicação, vendendo sempre para gente nova e esquecendo quem já comprou.</p>
+<p>Quase nunca é por falta de esforço. Na maioria das vezes, o negócio cresce no improviso: sem saber quem é o cliente ideal, sem canal próprio de comunicação, vendendo sempre para clientes novos e esquecendo quem já comprou.</p>
 <div class="box">A boa notícia: o básico bem feito já coloca você à frente da maior parte do mercado.</div>''')
 
 b.page('dark', '''<div class="kick">Pilar 1</div><h1>Presença digital: <em class="g">ser encontrado</em></h1>

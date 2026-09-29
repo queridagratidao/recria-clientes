@@ -9,7 +9,7 @@ b.cover('Presente Agência Recria', 'Venda sem<br><em class="g">parecer chato</e
 
 b.page('light', '''<div class="kick">Por que isso funciona</div><h1>Todo mundo pula anúncio. <em class="g">Inclusive você.</em></h1>
 <p>O anúncio com cara de anúncio é ignorado, e o custo para comprar atenção só sobe. As marcas que mais vendem hoje trocaram a interrupção pela história.</p>
-<p><b>O cérebro odeia história sem final.</b> Quando uma história começa e desperta interesse, a mente só sossega quando sabe como ela termina. É por isso que a novela acaba no ápice, e é por isso que a gente assiste até o fim um vídeo que parece conteúdo.</p>
+<p><b>O cérebro odeia história sem final.</b> Quando uma história começa e desperta interesse, a mente só sossega quando sabe como ela termina. É por isso que a novela acaba no ápice, e é por isso que assistimos até o fim um vídeo que parece conteúdo.</p>
 <div class="box">A lógica: a situação chama atenção, a história prende e gera identificação, e o produto entra como desejo ou solução.</div>''')
 
 b.page('dark', '''<div class="kick">A estrutura</div><h1>Os 5 passos de um anúncio <em class="g">sem cara de anúncio</em></h1>
@@ -22,7 +22,7 @@ b.page('dark', '''<div class="kick">A estrutura</div><h1>Os 5 passos de um anún
 <div class="box" style="margin-top:16px">Exemplo: a Toyota com @sarahafonseca. "Passou na faculdade, ganhou um carro?" O pai se safa com uma resposta genial, e o Yaris Cross entra como o desejo da história.</div>''')
 
 b.page('light', '''<div class="kick">Quem vai aparecer?</div><h1>3 caminhos, <em class="g">qualquer orçamento</em></h1>
-<h2>1. Você, a dona do negócio</h2>
+<h2>1. Você, dono(a) do negócio</h2>
 <p>Ninguém conta a história do seu negócio melhor do que você. Bastidores, rotina, decisões, erros e acertos geram confiança.</p>
 <h2>2. A sua equipe</h2>
 <p>Funcionárias que topam aparecer humanizam a marca. Como a loja que mostrou cada colaboradora "aquecendo para a maior Black da história".</p>
@@ -36,9 +36,9 @@ b.page('dark', '''<div class="kick">Microinfluenciadores</div><h1>Seguidor não 
 <h2>O que observar antes de fechar</h2>
 <ul>
 <li class="ck">Os comentários são de pessoas reais, com conversa, ou só emojis?</li>
-<li class="ck">O público dela é o seu público (região, idade, interesse)?</li>
-<li class="ck">Ela já indicou outros produtos? Como o público reagiu?</li>
-<li class="ck">Os valores dela combinam com os da sua marca?</li>
+<li class="ck">O público desse perfil é o seu público (região, idade, interesse)?</li>
+<li class="ck">O perfil já indicou outros produtos? Como o público reagiu?</li>
+<li class="ck">Os valores desse perfil combinam com os da sua marca?</li>
 <li class="ck">Os stories têm visualizações consistentes?</li>
 </ul>''')
 
@@ -56,12 +56,12 @@ b.page('dark', '''<div class="kick">O briefing</div><h1>O que combinar <em class
 <li class="ck">Objetivo: gerar desejo, apresentar um produto, levar para a loja?</li>
 <li class="ck">A mensagem principal, em uma frase</li>
 <li class="ck">O que <b>não</b> pode faltar (produto, benefício, cupom, CTA)</li>
-<li class="ck">O que ela pode fazer do jeito dela: o tom e a história precisam ser dela</li>
+<li class="ck">O que pode ser feito do jeito do(a) criador(a): o tom e a história precisam ser dele(a)</li>
 <li class="ck">Formato, duração e datas de postagem</li>
 <li class="ck">Uso do conteúdo em anúncios (e por quanto tempo)</li>
 <li class="ck">Marcação da marca e a sinalização de publicidade (#publi)</li>
 </ul>
-<div class="box">Roteiro engessado mata a naturalidade. Dê a direção e deixe a criadora contar do jeito dela.</div>''')
+<div class="box">Roteiro engessado mata a naturalidade. Dê a direção e deixe o(a) criador(a) contar do jeito dele(a).</div>''')
 
 b.page('light', '''<div class="kick">Inspiração</div><h1>Ganchos para <em class="g">adaptar ao seu negócio</em></h1>
 <table><tr><th>Negócio</th><th>Gancho</th></tr>

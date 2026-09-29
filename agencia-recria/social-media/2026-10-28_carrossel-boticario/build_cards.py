@@ -123,7 +123,7 @@ cards.append(page('dark', '''
 <li>Tem a ver com o que eu vendo?</li>
 <li>Consigo provar com ação, não só com post?</li>
 <li>Consigo sustentar por meses, não por um dia?</li>
-<li>Estou preparada para quem discordar?</li>
+<li>Estou preparado(a) para quem discordar?</li>
 </ol>
 <div class="next">Poucas causas, bem defendidas, valem mais que todas as pautas do momento.</div>''', 8))
 
@@ -140,7 +140,7 @@ cards.append(page('light', '''
 cards.append(page('dark', '''
 <h1 style="font-size:50px;margin-bottom:22px">Quer descobrir o melhor posicionamento <em class="g">para o momento do seu negócio?</em></h1>
 <div class="box"><small>COMENTE:</small><strong>DIAGNÓSTICO</strong></div>
-<p style="font-size:27px">E receba um presente direto no seu direct: um <b>direcional de marketing e negócios</b> da Agência Recria. 🎁 E, se você já estiver pronta para dar um passo além, te apresentamos o Diagnóstico Recria, a nossa consultoria online personalizada para o seu negócio.</p>
+<p style="font-size:27px">E receba um presente direto no seu direct: um <b>direcional de marketing e negócios</b> da Agência Recria. 🎁 E, se você já estiver pronto(a) para dar um passo além, te apresentamos o Diagnóstico Recria, a nossa consultoria online personalizada para o seu negócio.</p>
 <p style="font-size:26px;font-style:italic;color:var(--gold2);margin-bottom:0">Quer aprender a criar conteúdos e anúncios sem cara de anúncio? Comente <b style="color:var(--gold2)">RECRIA ADS</b> e receba um presente e todas as informações sobre o nosso curso.</p>''', 10))
 
 out = D / 'out'; out.mkdir(exist_ok=True)

@@ -184,7 +184,7 @@ page('dark', '''<div class="kick">Depois da Black</div><h1>A Black não termina 
 <div class="box">A venda da Black é o começo do relacionamento, não o fim.</div>''', 13)
 
 page('light', '''<div class="kick">Para concluir</div><h1>Começou agora? <em class="g">Ainda dá tempo.</em></h1>
-<p>Se você está começando a se preparar em outubro, já está um pouco atrasada. Mas ainda dá para fazer acontecer: siga o calendário, ative as campanhas o quanto antes e trabalhe a sua base.</p>
+<p>Se você está começando a se preparar em outubro, já está um pouco atrasado(a). Mas ainda dá para fazer acontecer: siga o calendário, ative as campanhas o quanto antes e trabalhe a sua base.</p>
 <p>E para o ano que vem: <b>a Black Friday começa em agosto</b>, se não antes. É quando o público começa a ser aquecido. Quanto mais cedo você atrai, mais barato fica vender, e menos você depende de cliente novo no período mais caro e disputado do ano.</p>
 <div class="box">Comece 2027 com o calendário de ações de marketing do ano inteiro pronto. O seu próximo ano, e também a próxima Black Friday, agradecem.</div>
 <p style="font-size:25px">E se quiser a ajuda da Agência Recria, conheça todos os nossos serviços em <a style="color:#9a7424;font-weight:600" href="https://www.agenciarecria.com.br/?utm_source=checklist_black#servicos">agenciarecria.com.br</a></p>
@@ -193,7 +193,7 @@ page('light', '''<div class="kick">Para concluir</div><h1>Começou agora? <em cl
 <div class="cta" style="margin-top:14px;padding:22px 28px"><div class="t" style="font-size:28px">🎁 Mais um presente para você</div><p style="font-size:22px">Para você dar continuidade aos seus estudos: um <b>aulão de Marketing para Negócios</b>, totalmente gratuito. Clique no link abaixo e bons estudos!</p><a class="l" href="https://www.agenciarecria.com.br/aula-mkt-para-negocios/?utm_source=checklist_black">▶ Assistir ao aulão gratuito</a></div>''', 14)
 
 html = f'<!doctype html><html><head><meta charset="utf-8"><title>Checklist Black Friday 2026 · Agência Recria</title><style>{CSS}</style></head><body>{"".join(pages)}</body></html>'
-out = pathlib.Path('/home/user/recria-clientes/agencia-recria/iscas-digitais/Checklist Black Friday 2026 - Agencia Recria.pdf')
+out = pathlib.Path('/home/user/recria-clientes/agencia-recria/presentes/Checklist Black Friday 2026 - Agencia Recria.pdf')
 out.parent.mkdir(parents=True, exist_ok=True)
 with sync_playwright() as p:
     br = p.chromium.launch(executable_path='/opt/pw-browsers/chromium-1194/chrome-linux/chrome')
