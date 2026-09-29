@@ -8,9 +8,9 @@ img = lambda p, m='image/jpeg': f"data:{m};base64," + base64.b64encode(pathlib.P
 LOGO = img(S / 'c1/logo.png', 'image/png')
 
 # Preencher antes de enviar (links e @ dos perfis dos exemplos)
-LINK_RECRIA_ADS = '[link do Recria Ads]'
-LINK_CONSULTORIA = '[link para aplicar para a consultoria]'
-LINK_TRAFEGO = '[link do serviço de gestão de tráfego]'
+LINK_RECRIA_ADS = 'agenciarecria.com.br/lista-espera-curso'
+LINK_CONSULTORIA = 'agenciarecria.com.br/diagnostico-recria'
+LINK_TRAFEGO = 'agenciarecria.com.br/pacote-mkt-inicial'
 HANDLES = {
     'benefit': '@benefitcosmetics', 'anna': '@anna_couto', 'vo': '@viomedspa',
     'friday': '@milla', 'inconf': '@tamarateixeira', 'burga': '@burgaofficial',
@@ -43,6 +43,7 @@ li.ck:before{content:'☐';background:none;width:auto;height:auto;top:-1px;color
 .cta{background:#C9A24E;color:#0b0b0b;border-radius:6px;padding:30px 34px;margin-top:12px}
 .cta .t{font-family:'Playfair Display';font-weight:700;font-size:36px;line-height:1.2;margin-bottom:10px}
 .cta p{color:#1a1a1a!important;font-size:25px;margin-bottom:10px}
+.cta a.l{text-decoration:none}
 .cta .l{font-weight:600;font-size:25px;background:#0b0b0b;color:#E4C988;display:inline-block;padding:10px 18px;border-radius:4px}
 table{width:100%;border-collapse:collapse;font-size:22px;margin-top:6px}
 th{text-align:left;background:#0b0b0b;color:#E4C988;padding:12px 12px;font-family:'Playfair Display';font-size:22px}
@@ -102,7 +103,7 @@ page('dark', f'''<div class="kick">Inspiração</div><h1 style="font-size:50px;m
 page('light', f'''<div class="kick">Anúncio sem cara de anúncio</div><h1>Venda com leveza, <em class="g">sem parecer que está vendendo</em></h1>
 <p>Repare que nenhum dos exemplos anteriores começa gritando desconto. Todos atraem pela história, pela curiosidade ou pelo desejo, e só depois apresentam a oferta.</p>
 <p>Todas as etapas do funil podem ser trabalhadas assim: de forma descontraída, com conteúdos e anúncios que o público <b>quer</b> assistir.</p>
-<div class="cta"><div class="t">Quer aprender isso em detalhes?</div><p>No <b>Recria Ads</b>, ensinamos passo a passo a criar conteúdos e anúncios sem cara de anúncio, para vender com leveza e naturalidade, sem parecer aquele vendedor chato.</p><span class="l">{LINK_RECRIA_ADS}</span></div>''', 6)
+<div class="cta"><div class="t">Quer aprender isso em detalhes?</div><p>No <b>Recria Ads</b>, ensinamos passo a passo a criar conteúdos e anúncios sem cara de anúncio, para vender com leveza e naturalidade, sem parecer aquele vendedor chato.</p><p style="font-size:22px">O curso abre em breve. Entre na lista de espera:</p><a class="l" href="https://www.agenciarecria.com.br/lista-espera-curso/?utm_source=checklist_black">{LINK_RECRIA_ADS}</a></div>''', 6)
 
 page('dark', '''<div class="kick">Base e relacionamento</div><h1>A sua base é o seu <em class="g">atalho</em></h1>
 <p>Quem já comprou de você é quem mais compra na Black. E sai muito mais barato do que conquistar um cliente novo no período mais caro do ano.</p>
@@ -138,7 +139,7 @@ page('dark', '''<div class="kick">Parte técnica</div><h1>Checklist <em class="g
 
 page('light', f'''<div class="kick">Um olhar para o seu negócio</div><h1>Cada negócio pede <em class="g">uma estratégia</em></h1>
 <p>Um e-commerce, uma loja de bairro, um restaurante e um infoprodutor não fazem a mesma Black Friday. A oferta, o canal e o público mudam tudo.</p>
-<div class="cta"><div class="t">Quer um direcional para o seu negócio?</div><p>Na <b>Consultoria Recria</b>, entendemos o seu negócio e os seus objetivos, mapeamos os gargalos, mostramos as alavancas de crescimento e entregamos tudo documentado depois de uma reunião online.</p><span class="l">{LINK_CONSULTORIA}</span></div>''', 10)
+<div class="cta"><div class="t">Quer um direcional para o seu negócio?</div><p>No <b>Diagnóstico Recria</b>, entendemos o seu negócio e os seus objetivos, mapeamos os gargalos, mostramos as alavancas de crescimento e entregamos tudo documentado depois de uma reunião online.</p><a class="l" href="https://www.agenciarecria.com.br/diagnostico-recria/?utm_source=checklist_black">{LINK_CONSULTORIA}</a></div>''', 10)
 
 page('dark', '''<div class="kick">Oferta e operação</div><h1>Antes de <em class="g">abrir as vendas</em></h1>
 <ul>
@@ -158,7 +159,7 @@ page('light', f'''<div class="kick">Tráfego pago</div><h1>As métricas que <em 
 <tr><td>CPA</td><td>Quanto custa cada venda (ou cada lead).</td></tr>
 <tr><td>ROAS</td><td>Quanto volta de faturamento para cada real investido.</td></tr></table>
 <p style="margin-top:18px">Ler essas métricas e ajustar as campanhas todos os dias faz diferença, na Black e no ano inteiro.</p>
-<div class="cta" style="margin-top:6px"><div class="t">Quer alguém cuidando das suas campanhas o ano todo?</div><p>Na gestão de tráfego da Agência Recria, planejamos, criamos e gerenciamos os seus anúncios, com acompanhamento de perto, não só na Black Friday.</p><span class="l">{LINK_TRAFEGO}</span></div>''', 12)
+<div class="cta" style="margin-top:6px"><div class="t">Quer alguém cuidando das suas campanhas o ano todo?</div><p>Com o pacote de marketing da Agência Recria, você tem uma equipe cuidando de <b>tráfego pago</b> (Google e Instagram), <b>social media</b>, <b>site ou página de vendas</b> e <b>treinamento do time comercial</b>, o ano inteiro. A partir de R$ 1.500/mês.</p><a class="l" href="https://www.agenciarecria.com.br/pacote-mkt-inicial/?utm_source=checklist_black">{LINK_TRAFEGO}</a></div>''', 12)
 
 page('dark', '''<div class="kick">Depois da Black</div><h1>A Black não termina <em class="g">no último dia</em></h1>
 <ul>
@@ -174,6 +175,7 @@ page('light', '''<div class="kick">Para concluir</div><h1>Começou agora? <em cl
 <p>Se você está começando a se preparar em outubro, já está um pouco atrasada. Mas ainda dá para fazer acontecer: siga o calendário, ative as campanhas o quanto antes e trabalhe a sua base.</p>
 <p>E para o ano que vem: <b>a Black Friday começa em agosto</b>, se não antes. É quando o público começa a ser aquecido. Quanto mais cedo você atrai, mais barato fica vender, e menos você depende de cliente novo no período mais caro e disputado do ano.</p>
 <div class="box">Comece 2027 com o calendário de ações de marketing do ano inteiro pronto. A próxima Black agradece.</div>
+<p style="font-size:24px">Quer ver todos os nossos serviços? <a style="color:#9a7424;font-weight:600" href="https://www.agenciarecria.com.br/#servicos">agenciarecria.com.br</a></p>
 <p style="margin-top:10px;color:#9a7424;font-style:italic">Com carinho, Agência Recria · @agencia.recria · @amandarecria</p>''', 14)
 
 html = f'<!doctype html><html><head><meta charset="utf-8"><title>Checklist Black Friday 2026 · Agência Recria</title><style>{CSS}</style></head><body>{"".join(pages)}</body></html>'
