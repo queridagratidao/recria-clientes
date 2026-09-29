@@ -22,9 +22,10 @@ AULAO_URL = 'https://www.agenciarecria.com.br/aula-mkt-para-negocios/'
 def _diag(k): return [
     (f'{k} · Resposta no comentário', 'Enviamos um presente no seu direct! 🎁'),
     (f'{k} · Mensagem 1 (botão: Quero o meu presente)', 'Oi, [Nome]! Que bom te ver por aqui. Separamos um presente para você olhar para o seu negócio com outros olhos: o Direcional de Marketing e Negócios da Agência Recria. Quer receber?'),
-    (f'{k} · Mensagem 2', 'Aqui está: o Direcional de Marketing e Negócios, com os pilares que separam os negócios que crescem dos que ficam pelo caminho e um autodiagnóstico para você fazer agora. 🎁 [PDF: Direcional de Marketing e Negocios - Agencia Recria]'),
+    (f'{k} · Mensagem 2', 'Aqui está: o Direcional de Marketing e Negócios, com os pilares que separam os negócios que crescem daqueles que estagnam e um autodiagnóstico para você fazer agora. 🎁 [PDF: Direcional de Marketing e Negocios - Agencia Recria]'),
     (f'{k} · Mensagem 3', 'E se você já estiver pronto(a) para dar um passo além: no Diagnóstico Recria, a nossa consultoria online personalizada, entendemos o seu negócio e os seus objetivos, mapeamos os gargalos e mostramos as alavancas de crescimento. Você recebe tudo documentado depois da reunião. No momento, com condição especial de R$ 67 por sessão. [Botão: Quero o meu diagnóstico → ' + DIAG_URL + ']'),
-    (f'{k} · Mensagem 4 (23h depois, se não clicou)', 'Oi, [Nome]! Conseguiu ver o seu Direcional? A condição especial do Diagnóstico Recria pode mudar a qualquer momento. Se preferir que cuidemos do seu marketing, conheça também os nossos serviços. E, para continuar estudando, deixamos um aulão gratuito de Marketing para Negócios. [Botão: Diagnóstico → ' + DIAG_URL + '] [Botão: Serviços → ' + SERV_URL + '] [Botão: Aulão gratuito → ' + AULAO_URL + ']'),
+    (f'{k} · Mensagem 4 (23h depois, se não clicou)', 'Oi, [Nome]! Conseguiu ver o seu Direcional? O que achou?\n\nAlém disso, a condição especial do Diagnóstico Recria pode mudar a qualquer momento. O preço por sessão costuma ficar acima de R$ 100, então corre para aproveitar! [Botão: Quero meu diagnóstico → ' + DIAG_URL + ']'),
+    (f'{k} · Mensagem 5 (23h depois da Mensagem 4)', 'Se preferir que cuidemos do seu marketing, conheça também todos os nossos serviços tocando no botão. [Botão: Serviços Recria → ' + SERV_URL + ']'),
 ]
 AUTO_STD = {
  'CONSULTORIA': _diag('CONSULTORIA'),
@@ -32,16 +33,17 @@ AUTO_STD = {
  'RECRIA ADS': [
     ('RECRIA ADS · Resposta no comentário', 'Enviamos um presente no seu direct! 🎁'),
     ('RECRIA ADS · Mensagem 1 (botão: Quero o meu presente)', 'Oi, [Nome]! Que bom te ver por aqui. Separamos um presente para você aprender a vender sem parecer aquele vendedor chato: o checklist para criar conteúdos e anúncios sem cara de anúncio. Quer receber?'),
-    ('RECRIA ADS · Mensagem 2', 'Aqui está: o checklist Venda sem Parecer Chato, com a estrutura dos anúncios sem cara de anúncio, como escolher e remunerar microinfluenciadores e ganchos para o seu negócio. 🎁 [PDF: Checklist Venda sem Parecer Chato - Agencia Recria]'),
+    ('RECRIA ADS · Mensagem 2', 'Aqui está: o checklist Venda sem Parecer Chato, com a estrutura dos anúncios sem cara de anúncio e ganchos para usar nos conteúdos do seu negócio. 🎁 [PDF: Checklist Venda sem Parecer Chato - Agencia Recria]'),
     ('RECRIA ADS · Mensagem 3', 'E, se você estiver pronto(a) para dar o próximo passo, conheça o Recria Ads: o nosso curso aprofundado de criação de conteúdos e anúncios para vender com leveza e naturalidade, sem parecer aquele vendedor chato, mesmo que o seu negócio esteja começando. Por R$ 97 em até 12x. [Botão: Quero conhecer o Recria Ads → link]'),
-    ('RECRIA ADS · Mensagem 4 (23h depois, se não clicou)', 'Oi, [Nome]! Conseguiu ver o seu checklist? Se preferir um direcional personalizado para o seu negócio, toque em DIAGNÓSTICO. E, para continuar estudando, deixamos um aulão gratuito de Marketing para Negócios. [Botão: DIAGNÓSTICO] [Botão: Aulão gratuito → ' + AULAO_URL + ']'),
+    ('RECRIA ADS · Mensagem 4 (23h depois, se não clicou)', 'Oi, [Nome]! Conseguiu ver o seu checklist? Gostou?\n\nSe preferir um direcional personalizado para o seu negócio, toque no botão DIAGNÓSTICO. [Botão: DIAGNÓSTICO]'),
  ],
  'CHECKLIST': [
     ('CHECKLIST · Resposta no comentário', 'Enviamos um presente no seu direct! 🎁'),
     ('CHECKLIST · Mensagem 1 (botão: Quero o meu presente)', 'Oi, [Nome]! Que bom te ver por aqui. Separamos um presente para você vender mais na Black Friday: o checklist completo de preparação. Quer receber?'),
     ('CHECKLIST · Mensagem 2', 'Aqui está: o Checklist Black Friday 2026, com o calendário até a Black, exemplos de criativos, a régua de WhatsApp e e-mail e tudo o que precisa estar pronto. 🎁 [PDF: Checklist Black Friday 2026 - Agencia Recria]'),
-    ('CHECKLIST · Mensagem 3', 'E se preferir que cuidemos disso para você: na Agência Recria, fazemos a gestão do seu tráfego pago (gestão de anúncios) no Google e no Instagram, do aquecimento do público à semana da Black. [Botão: Conhecer os serviços → ' + SERV_URL + ']'),
-    ('CHECKLIST · Mensagem 4 (23h depois, se não clicou)', 'Oi, [Nome]! Quanto mais cedo as campanhas começam, mais barato fica vender na Black. Enquanto estiver disponível, o nosso pacote inicial reúne tráfego pago, social media, site e treinamento comercial por R$ 1.500/mês. Se você já tem alguém cuidando dos anúncios e só quer um direcional, toque em DIAGNÓSTICO. [Botão: Pacote inicial → ' + PACOTE_URL + '] [Botão: DIAGNÓSTICO]'),
+    ('CHECKLIST · Mensagem 3', 'E se preferir que cuidemos disso para você: na Agência Recria, fazemos a gestão de redes sociais e de tráfego pago (gestão de anúncios), o ano todo, inclusive na Black. Toque no botão para saber mais! [Botão: Conhecer os serviços → ' + SERV_URL + ']'),
+    ('CHECKLIST · Mensagem 4 (23h depois, se não clicou)', 'Oi, [Nome]! Espero que esteja gostando do seu checklist! Quanto mais cedo as campanhas começam, mais barato fica vender na Black Friday.\n\nAlém disso, te convido a conhecer o nosso pacote inicial de marketing enquanto a condição especial ainda estiver disponível: ele reúne tráfego pago, social media, criação de site e treinamento comercial, tudo isso por apenas R$ 1.500/mês. Toque no botão para saber mais! [Botão: Pacote inicial → ' + PACOTE_URL + ']'),
+    ('CHECKLIST · Mensagem 5 (23h depois da Mensagem 4)', 'Agora, se você já tem alguém cuidando dos anúncios e só quer um direcional personalizado para o seu negócio, toque no botão: DIAGNÓSTICO. [Botão: DIAGNÓSTICO]'),
  ],
 }
 def auto_for(*kws): return [m for k in kws for m in AUTO_STD[k]]
@@ -125,7 +127,7 @@ td:first-child{width:30%;font-weight:600;color:#5a4412}
 h2{font-family:'Playfair Display';font-size:14pt;margin:22px 0 8px;color:#0b0b0b;break-after:avoid}
 .auto{break-before:page}
 .leg{white-space:pre-wrap;background:#F6F2EA;border-left:4px solid #C9A24E;padding:16px 18px;font-size:11.5pt}
-.msg{margin-bottom:10px;page-break-inside:avoid}
+.msg{white-space:pre-line;margin-bottom:10px;page-break-inside:avoid}
 .msg b{display:block;color:#5a4412;font-size:10pt}
 .foot{margin-top:24px;font-size:9pt;color:#999}
 """

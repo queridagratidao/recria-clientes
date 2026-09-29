@@ -15,7 +15,7 @@ doc=f'''<!doctype html><html><head><meta charset="utf-8"><title>Automações pad
 .head{{display:flex;justify-content:space-between;align-items:center;border-bottom:2px solid #C9A24E;padding-bottom:10px;margin-bottom:14px}}
 .head img{{height:54px;background:#0b0b0b;padding:8px 12px;border-radius:4px}} h1{{font-family:'Playfair Display';font-size:22pt;margin:0 0 6px}}
 h2{{font-family:'Playfair Display';font-size:15pt;margin:22px 0 4px;color:#0b0b0b;break-after:avoid}} .d{{color:#9a7424;font-style:italic;margin:0 0 10px}}
-.msg{{margin-bottom:10px;padding:8px 12px;background:#F6F2EA;border-left:3px solid #C9A24E;page-break-inside:avoid}} .msg b{{display:block;color:#5a4412;font-size:9.5pt}}
+.msg{{white-space:pre-line;margin-bottom:10px;padding:8px 12px;background:#F6F2EA;border-left:3px solid #C9A24E;page-break-inside:avoid}} .msg b{{display:block;color:#5a4412;font-size:9.5pt}}
 .intro{{background:#0b0b0b;color:#E4C988;padding:12px 16px;border-radius:4px}}</style></head><body>
 <div class="head"><img src="{LOGO}"><div style="text-align:right;font-size:9pt;color:#8a6d2c;letter-spacing:.08em">AGÊNCIA RECRIA<br>AUTOMAÇÕES DO INSTAGRAM</div></div>
 <h1>Automações padrão por palavra-chave</h1>
