@@ -237,7 +237,7 @@ Comente "MENTORIA" 👇 ou acesse pelo link da bio.
 
 [Giuliano caminhando]
 
-"Futuro síndico. Você já pensou em se tornar síndico profissional? É uma das profissões que mais cresce no Brasil, remunerada, com demanda real e crescente, mas que exige método para você entrar com segurança."
+"Você já pensou em se tornar síndico profissional? É uma das profissões que mais cresce no Brasil, remunerada, com demanda real e crescente, mas que exige método para você entrar com segurança."
 
 [para, olha para a câmera]
 
