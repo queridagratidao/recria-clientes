@@ -112,8 +112,9 @@ cards.append(page('dark', '''
 cards.append(page('light', '''
 <div class="kick">Quando falta coerência</div>
 <h1 style="font-size:52px">Levantar uma bandeira que você não sustenta custa caro.</h1>
-<p style="font-size:28px">Em abril de 2023, a cerveja Bud Light fez uma ação com uma influenciadora que não conversava com o seu público central. Veio o boicote. E a marca, em vez de sustentar a escolha, recuou, e desagradou os dois lados.</p>
-<p style="font-size:28px">As vendas caíram mais de 25% em poucas semanas, e em junho ela perdeu o posto de cerveja mais vendida dos EUA, que ocupava havia mais de 20 anos.</p>
+<p style="font-size:27px">Em abril de 2023, a cerveja Bud Light fez uma ação com uma influenciadora que parte do seu público central rejeitou. Veio o boicote. E a marca, em vez de sustentar a escolha, recuou: afastou executivos de marketing e disse que "nunca quis fazer parte de uma discussão que divide as pessoas". Acabou desagradando os dois lados.</p>
+<p style="font-size:27px">As vendas caíram cerca de 25%, e em junho ela perdeu o posto de cerveja mais vendida dos EUA, que ocupava desde 2001.</p>
+<p style="font-size:18px;color:#8a6d2c;margin-bottom:10px">Fontes: CBS News, NBC News e dados Nielsen/Bump Williams (2023)</p>
 <div class="next" style="font-size:28px">O problema não é se posicionar. É se posicionar sem coerência e sem sustentação.</div>''', 7))
 
 cards.append(page('dark', '''

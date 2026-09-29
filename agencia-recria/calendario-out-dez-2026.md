@@ -36,7 +36,7 @@
 ## Dados para você conferir antes de publicar
 - **Minidramas (carrossel 6):** Comfort × Bridgerton (70 mi views, +18% de participação de mercado), San Pellegrino (780 mi impressões), Crocs (20 mi views). Vieram da referência da vinci.society, e eu não consegui confirmar na fonte original.
 - **Liquid Death (carrossel 7):** vendas de US$ 2,8 mi para US$ 333 mi e US$ 1,6 mi captados. Vêm do vídeo do Gabriel Leopoldo e do resumo de IA do Google.
-- **Bud Light (carrossel 4):** queda de cerca de 25% nas vendas em 2023 e perda do posto de mais vendida nos EUA, conforme reportado na época.
+- **Bud Light (carrossel 4):** ✅ verificado. Abril de 2023, ação com Dylan Mulvaney; queda de ~24,5% nas vendas (Nielsen/Bump Williams, 4 semanas até 03/06/2023); Modelo Especial passou a Bud Light, líder desde 2001; CEO Brendan Whitworth: "nunca quisemos fazer parte de uma discussão que divide as pessoas"; executivos de marketing afastados. Fontes: CBS News, NBC News, Rolling Stone.
 - **Carrossel 8:** tirei o dado dos "65% a menos de diversidade nos roteiros", porque não achei o estudo. No lugar entrou a reportagem de 2024 sobre roteiros de streaming e o estudo do efeito Flynn reverso (PNAS, 2018).
 
 ## Padrões de produção definidos
