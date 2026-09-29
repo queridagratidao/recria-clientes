@@ -46,3 +46,4 @@
 - **Destaques em cards claros:** caixa preta com texto dourado.
 # Padrão de linguagem
 - Público misto: usar formas neutras como pronto(a), preparado(a), atrasado(a), dono(a), criador(a).
+- **Automações:** mensagens padronizadas por palavra-chave (CONSULTORIA/DIAGNÓSTICO, RECRIA ADS, CHECKLIST), sem citar post específico. Ver `Automacoes padrao - Agencia Recria.pdf`.
