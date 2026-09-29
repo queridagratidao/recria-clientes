@@ -5,12 +5,14 @@ Resposta no comentário: "Enviamos um presente no seu direct! 🎁" (com variaç
 
 Os botões de Opções renovam a janela de 24h da Meta. Se a pessoa não tocar em nenhum botão, o fluxo para ali.
 
+Para atualizar o e-book sem trocar o link: Drive → Gerenciar versões → Enviar nova versão.
+
 ## Dia 0
 1. **Boas-vindas:** Oi, {name}! Que bom te ver por aqui. Separamos um presente para você olhar para o seu negócio com outros olhos: o Direcional de Marketing e Negócios da Agência Recria. Quer receber? [Eu quero]
-2. **Mensagem:** Perfeito! Para te enviar o presente e avisar quando tivermos novidades e condições especiais, me conta aqui rapidinho.
-3. **Captura de Dados:** WhatsApp + e-mail
-4. **Mensagem:** Aqui está: o Direcional de Marketing e Negócios, com os pilares que separam os negócios que crescem daqueles que estagnam e um autodiagnóstico para você fazer agora. Toque no botão abaixo para baixá-lo. 🎁
-5. **Documento:** Direcional de Marketing e Negócios (PDF)
+2. **Captura de Dados** (WhatsApp + e-mail), com o texto: Perfeito! Para te enviar o presente e avisar quando tivermos novidades e condições especiais, me conta rapidinho 👇
+3. **Mensagem:** Aqui está: o Direcional de Marketing e Negócios e um autodiagnóstico para você fazer agora. 🎁
+4. **Botão Link:** Toque no botão abaixo para baixá-lo 👇 [Toque aqui e baixe seu e-book] → PDF no Google Drive ("Qualquer pessoa com o link", Leitor)
+5. (não usar o nó Documento: o Instagram abre o PDF por um link temporário da Meta, com aviso de "link fora do Facebook")
 6. **Espera:** 23 horas
 
 ## Dia 1
