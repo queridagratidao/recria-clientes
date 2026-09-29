@@ -76,11 +76,11 @@ Comente "SESSÃO" 👇 ou acesse pelo link da bio.
 
 [para, olha para a câmera]
 
-"Foi por isso que eu criei o Diagnóstico Empresarial da Eleva: um mapeamento do seu negócio para você enxergar, com clareza, todos os pontos que estão travando o seu crescimento, e entender quais são as possíveis alavancas para contornar isso tudo."
+"Foi por isso que eu criei o Diagnóstico Empresarial da Eleva: um mapeamento do seu negócio para você enxergar, com clareza, os pontos que estão travando o seu crescimento, e entender quais são as possíveis alavancas para contornar esses gargalos."
 
 [retoma o caminhar]
 
-"Se você quer saber mais informações de tudo que eu entrego nesse diagnóstico, comente aqui: DIAGNÓSTICO, que eu vou enviar todos os detalhes no seu direct. Ou, se preferir, clique no nosso link da bio."
+"Se você quer saber mais informações sobre esse Diagnóstico Empresarial, comente: DIAGNÓSTICO, que eu vou enviar todos os detalhes no seu direct. Ou, se preferir, clique no nosso link da bio para mais informações."
 
 **Duração estimada:** 40-45 segundos
 **CTA:** "Clica e mapeia seu negócio"
@@ -91,7 +91,7 @@ Você sabe exatamente onde o seu negócio está perdendo dinheiro agora?
 
 A maioria dos empresários do ramo sente que tem algo travando a operação, mas não consegue apontar exatamente o quê. E o tempo vai passando, deixando dinheiro na mesa.
 
-O Diagnóstico Empresarial da Eleva mapeia o seu negócio com clareza, mostrando todos os pontos que estão travando o crescimento e as alavancas para contornar isso.
+O Diagnóstico Empresarial da Eleva mapeia o seu negócio com clareza, mostrando os pontos que estão travando o crescimento e as alavancas para contornar esses gargalos.
 
 Comente "DIAGNÓSTICO" 👇 ou acesse pelo link da bio.
 
@@ -115,7 +115,7 @@ Comente "DIAGNÓSTICO" 👇 ou acesse pelo link da bio.
 
 [para, olha para a câmera]
 
-"Se você quer saber em detalhes como funciona a mentoria, comente: MENTORIA, que eu vou enviar todos os detalhes no seu direct. Ou, se preferir, acesse pelo link da bio."
+"Se você quer saber mais detalhes de como funciona a mentoria, comente: MENTORIA, e então eu vou te enviar todos esses detalhes no seu direct. Ou, se preferir, acesse pelo link da bio."
 
 **Duração estimada:** 40-45 segundos
 **CTA:** "Clica e entra para a mentoria"
@@ -276,7 +276,7 @@ Comente "MENTORIA" 👇 ou acesse pelo link da bio.
 
 [para, olha para a câmera]
 
-"Se você gostaria de saber mais informações, ou se interessa em aplicar para ser um parceiro do nosso Hub de Negócios, comente: Hub de Negócios, que vamos enviar todas as informações no seu direct, para que você possa aplicar e saber em detalhes como participar."
+"Se você gostaria de saber mais informações, ou tem interesse em aplicar para ser um parceiro do nosso Hub de Negócios, comente: Hub de Negócios, que vamos enviar todas as informações no seu direct."
 
 **Duração estimada:** 40-45 segundos
 **CTA:** "Clica e entra para o Hub de Negócios"
