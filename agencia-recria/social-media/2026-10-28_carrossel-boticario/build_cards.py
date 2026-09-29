@@ -66,7 +66,7 @@ cards.append(f'''<!doctype html><html><head><meta charset="utf-8"><style>{CSS}
 .rule{{width:170px;height:3px;background:var(--gold);margin:22px 0 0}}
 </style></head><body><div class="cover"><div class="shade"></div><img class="logo" src="{LOGO}">
 <div class="txt"><div class="ck">Marketing de causa + inimigo em comum</div><div class="t1">A ciência estudou apenas o corpo masculino. <em>O Boticário decidiu corrigir isso.</em></div><div class="rule"></div>
-<div class="sub">Como a marca usou a credibilidade da <b>Mari Krüger</b> para se diferenciar no mercado da beleza e cativar o público feminino →</div></div>
+<div class="sub">Como a marca usou a credibilidade da <b>Mari Krüger</b> para se diferenciar no mercado da beleza e cativar ainda mais o público feminino →</div></div>
 <div class="foot" style="color:var(--gold2)"><span>@agencia.recria &nbsp;×&nbsp; @amandarecria</span><span>01 / {TOTAL:02d}</span></div></div></body></html>''')
 
 cards.append(page('dark', '''<div class="side">
