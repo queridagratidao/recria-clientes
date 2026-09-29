@@ -2,7 +2,7 @@
 **RECRIA Marketing, 29/09/2026**
 **Cliente:** Eleva
 
-**Formato de todos:** vertical, até 1 min, gravado para anúncio. Giuliano pode gravar caminhando dentro do escritório da Eleva, em ambiente aberto, ou em algum condomínio. Se tiver dificuldade de falar caminhando, pode gravar parado, ou fazer alguns takes caminhando e outros parado.
+**Formato de todos:** vertical, até 1 min, gravado para anúncio. Giuliano pode gravar caminhando dentro do escritório da Strategia (vamos nos encontrar lá), em ambiente aberto, ou em algum condomínio. Se tiver dificuldade de falar caminhando, pode gravar parado, ou fazer alguns takes caminhando e outros parado.
 
 ## Lógica de automação por palavra-chave (resumo)
 
