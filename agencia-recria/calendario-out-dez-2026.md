@@ -44,3 +44,5 @@
 - **Collab:** o gerenciador não permite adicionar o collab ao programar. Após a publicação, adicionar @amandarecria como collab manualmente.
 - **Tom de voz:** "nós" (fizemos, criamos, explicamos), nunca "a gente".
 - **Destaques em cards claros:** caixa preta com texto dourado.
+# Padrão de linguagem
+- Público misto: usar formas neutras como pronto(a), preparado(a), atrasado(a), dono(a), criador(a).
