@@ -92,8 +92,8 @@ O resultado: identificação, comunidade nos comentários e uma marca com décad
 
 Nesse carrossel mostramos por que funcionou, por que não é oportunismo e as 5 perguntas para responder antes de levantar qualquer bandeira no seu negócio.
 
-👉 Quer descobrir o posicionamento certo para o seu negócio? Comente DIAGNÓSTICO e receba o Direcional de Marketing e Negócios da Agência Recria. 🎁
-👉 Quer aprender a criar conteúdos e anúncios sem cara de anúncio? Comente RECRIA ADS e receba o checklist. 🎁
+👉 Quer descobrir o melhor posicionamento para o momento do seu negócio? Comente DIAGNÓSTICO e receba no seu direct um direcional de marketing e negócios da Agência Recria. 🎁
+👉 Quer aprender a criar conteúdos e anúncios sem cara de anúncio? Comente RECRIA ADS e receba um presente e todas as informações sobre o nosso curso. 🎁
 
 📌 Créditos do vídeo: @marikrugerb e @grupoboticario""",
          auto=[
