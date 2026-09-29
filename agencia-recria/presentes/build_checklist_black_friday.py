@@ -13,7 +13,7 @@ POSTS = {'benefit':'DRnAVTjEuN7','anna':'DQnMPomjtdl','vo':'DCotzX-xDfR','friday
 # Preencher antes de enviar (links e @ dos perfis dos exemplos)
 LINK_RECRIA_ADS = 'agenciarecria.com.br/lista-espera-curso'
 LINK_CONSULTORIA = 'agenciarecria.com.br/diagnostico-recria'
-LINK_TRAFEGO = 'agenciarecria.com.br/pacote-mkt-inicial'
+LINK_TRAFEGO = 'agenciarecria.com.br/#servicos'
 HANDLES = {
     'benefit': '@benefitcosmetics', 'anna': '@anna_couto', 'vo': '@viomedspa',
     'friday': '@milla', 'inconf': '@tamarateixeira', 'burga': '@burgaofficial',
@@ -47,6 +47,7 @@ li.ck:before{content:'☐';background:none;width:auto;height:auto;top:-1px;color
 .cta .t{font-family:'Playfair Display';font-weight:700;font-size:36px;line-height:1.2;margin-bottom:10px}
 .cta p{color:#1a1a1a!important;font-size:25px;margin-bottom:10px}
 .cta a.l{text-decoration:none}
+.cta b{color:#0b0b0b!important}
 .cta .l{font-weight:600;font-size:25px;background:#0b0b0b;color:#E4C988;display:inline-block;padding:10px 18px;border-radius:4px}
 table{width:100%;border-collapse:collapse;font-size:22px;margin-top:6px}
 th{text-align:left;background:#0b0b0b;color:#E4C988;padding:12px 12px;font-family:'Playfair Display';font-size:22px}
@@ -166,7 +167,7 @@ page('light', f'''<div class="kick">Tráfego pago</div><h1>As métricas que <em 
 <tr><td>CPA</td><td>Quanto custa cada venda (ou cada lead).</td></tr>
 <tr><td>ROAS</td><td>Quanto volta de faturamento para cada real investido.</td></tr></table>
 <p style="margin-top:18px">Ler essas métricas e ajustar as campanhas todos os dias faz diferença, na Black e no ano inteiro.</p>
-<div class="cta" style="margin-top:6px"><div class="t">Quer alguém cuidando das suas campanhas o ano todo?</div><p>Com o pacote de marketing da Agência Recria, você tem uma equipe cuidando de <b>tráfego pago</b> (Google e Instagram), <b>social media</b>, <b>site ou página de vendas</b> e <b>treinamento do time comercial</b>, o ano inteiro. A partir de R$ 1.500/mês.</p><a class="l" href="https://www.agenciarecria.com.br/pacote-mkt-inicial/?utm_source=checklist_black">{LINK_TRAFEGO}</a></div>''', 12)
+<div class="cta" style="margin-top:6px"><div class="t">Quer alguém cuidando das suas campanhas o ano todo?</div><p>Na Agência Recria, cuidamos das suas campanhas de <b>tráfego pago</b> no Google e no Instagram o ano inteiro, não só na Black Friday. Veja o serviço de tráfego pago e todos os nossos serviços:</p><a class="l" href="https://www.agenciarecria.com.br/?utm_source=checklist_black#servicos">{LINK_TRAFEGO}</a></div>''', 12)
 
 page('dark', '''<div class="kick">Depois da Black</div><h1>A Black não termina <em class="g">no último dia</em></h1>
 <ul>
@@ -182,8 +183,14 @@ page('light', '''<div class="kick">Para concluir</div><h1>Começou agora? <em cl
 <p>Se você está começando a se preparar em outubro, já está um pouco atrasada. Mas ainda dá para fazer acontecer: siga o calendário, ative as campanhas o quanto antes e trabalhe a sua base.</p>
 <p>E para o ano que vem: <b>a Black Friday começa em agosto</b>, se não antes. É quando o público começa a ser aquecido. Quanto mais cedo você atrai, mais barato fica vender, e menos você depende de cliente novo no período mais caro e disputado do ano.</p>
 <div class="box">Comece 2027 com o calendário de ações de marketing do ano inteiro pronto. A próxima Black agradece.</div>
-<p style="font-size:24px">Quer ver todos os nossos serviços? <a style="color:#9a7424;font-weight:600" href="https://www.agenciarecria.com.br/#servicos">agenciarecria.com.br</a></p>
-<p style="margin-top:10px;color:#9a7424;font-style:italic">Com carinho, Agência Recria · @agencia.recria · @amandarecria</p>''', 14)
+''', 14)
+
+page('dark', '''<div class="kick">Presentes para você</div><h1>Para continuar a sua <em class="g">jornada de estudo</em></h1>
+<p>Separamos alguns presentes para você seguir aprendendo, sem custo nenhum.</p>
+<div class="cta"><div class="t">Aulão de Marketing para Negócios</div><p>Por que o seu marketing não funciona e o seu comercial não converte como deveria? 10 anos de experiência em marketing e comercial, em uma única aula. <b>Totalmente gratuito.</b></p><a class="l" href="https://www.agenciarecria.com.br/aula-mkt-para-negocios/?utm_source=checklist_black">▶ Clique aqui para assistir</a></div>
+<div class="cta" style="margin-top:22px"><div class="t">Sessão estratégica gratuita</div><p>Uma conversa para entender o momento do seu negócio e qual é o próximo passo para vender mais.</p><a class="l" href="https://www.agenciarecria.com.br/sessao-estrategica/?utm_source=checklist_black">Quero agendar a minha sessão</a></div>
+<p style="margin-top:34px;font-family:'Playfair Display';font-style:italic;font-size:30px;color:#E4C988">Com carinho,<br>Amanda, CEO da Agência Recria</p>
+<p style="font-size:23px;color:#d9d3c7">Agência Recria · @agencia.recria · @amandarecria</p>''', 15)
 
 html = f'<!doctype html><html><head><meta charset="utf-8"><title>Checklist Black Friday 2026 · Agência Recria</title><style>{CSS}</style></head><body>{"".join(pages)}</body></html>'
 out = pathlib.Path('/home/user/recria-clientes/agencia-recria/presentes/Checklist Black Friday 2026 - Agencia Recria.pdf')
