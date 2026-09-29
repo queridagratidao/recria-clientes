@@ -8,7 +8,7 @@ LOGO = 'data:image/png;base64,' + base64.b64encode((S / 'c1/logo.png').read_byte
 
 CONSULT = [
     ('Resposta no comentário', 'Enviamos no seu direct! 📩'),
-    ('Mensagem 2 (após o clique)', 'Funciona assim: em uma reunião online, entendemos o seu negócio e os seus objetivos, mapeamos os gargalos que estão travando o seu crescimento e mostramos as alavancas que podem fazer diferença. Depois da reunião, você recebe tudo documentado, para saber exatamente o que fazer. E, como prometido, aqui está o seu presente: [presente]. 🎁'),
+    ('Mensagem 2 (após o clique)', 'Funciona assim: em uma reunião online, entendemos o seu negócio e os seus objetivos, mapeamos os gargalos que estão travando o seu crescimento e mostramos as alavancas que podem fazer diferença. Depois da reunião, você recebe tudo documentado, para saber exatamente o que fazer. E, como prometido, aqui está o seu presente: o Direcional de Marketing e Negócios da Agência Recria. 🎁 [PDF: Direcional de Marketing e Negocios - Agencia Recria]'),
     ('Mensagem 3', 'Para agendar a sua reunião, é só clicar no botão abaixo e escolher o melhor horário. [Botão: Quero agendar → link]'),
     ('Mensagem 4 (23h depois, se não agendou)', 'Oi, [Nome]! Passando para lembrar que as vagas da agenda são limitadas. Se ficou alguma dúvida sobre a consultoria, é só responder aqui que explicamos. 😊'),
 ]
@@ -48,7 +48,7 @@ Nesse carrossel explicamos a estratégia por trás desse anúncio, por que o cé
          auto=[
             ('RECRIA ADS · Resposta no comentário', 'Enviamos no seu direct! 📩'),
             ('RECRIA ADS · Mensagem 1 (botão: Quero o presente)', 'Oi, [Nome]! Vimos que o anúncio da Toyota te inspirou. Quer receber o passo a passo para criar conteúdos e anúncios sem cara de anúncio para o seu negócio?'),
-            ('RECRIA ADS · Mensagem 2', 'Aqui está o seu presente: o passo a passo para criar conteúdos e anúncios sem cara de anúncio. 🎁 [PDF]'),
+            ('RECRIA ADS · Mensagem 2', 'Aqui está o seu presente: o checklist Venda sem Parecer Chato, o passo a passo para criar conteúdos e anúncios sem cara de anúncio. 🎁 [PDF: Checklist Venda sem Parecer Chato - Agencia Recria]'),
             ('RECRIA ADS · Mensagem 3', 'E, se você está pronta para dar o próximo passo, conheça o Recria Ads: o nosso curso aprofundado de criação de conteúdos e anúncios para vender com leveza e naturalidade, sem parecer aquele vendedor chato, mesmo que o seu negócio esteja começando. Por R$ 97 em até 12x. [Botão: Quero conhecer o Recria Ads → link]'),
             ('RECRIA ADS · Mensagem 4 (23h depois, se não clicou)', 'Oi, [Nome]! Conseguiu ver o seu presente? Se preferir um direcional personalizado para o seu negócio, é só tocar no botão: CONSULTORIA aqui que explicamos como funciona.'),
             ('CONSULTORIA · Mensagem 1 (botão: Quero saber)', 'Oi, [Nome]! Vimos que você quer um olhar mais de perto para o seu negócio. Quer saber como funciona a consultoria da Agência Recria?'),
@@ -68,7 +68,7 @@ Nesse carrossel mostramos como aquecer o seu público, a sequência de conteúdo
          auto=[
             ('CHECKLIST · Resposta no comentário', 'Enviamos no seu direct! 📩'),
             ('CHECKLIST · Mensagem 1 (botão: Quero o checklist)', 'Oi, [Nome]! Vimos que você quer se preparar para vender mais nesta Black Friday. Quer receber o checklist completo?'),
-            ('CHECKLIST · Mensagem 2', 'Aqui está o seu presente: o Checklist Black Friday 2026, com o calendário até a Black, exemplos de criativos, a régua de WhatsApp e e-mail e tudo o que precisa estar pronto. 🎁 [PDF do checklist]'),
+            ('CHECKLIST · Mensagem 2', 'Aqui está o seu presente: o Checklist Black Friday 2026, com o calendário até a Black, exemplos de criativos, a régua de WhatsApp e e-mail e tudo o que precisa estar pronto. 🎁 [PDF: Checklist Black Friday 2026 - Agencia Recria]'),
             ('CHECKLIST · Mensagem 3', 'E se preferir que cuidemos disso para você: na Agência Recria, fazemos a gestão do seu tráfego pago (gestão de anúncios) no Google e no Instagram, do aquecimento do público à semana da Black. Toque no botão para conhecer os nossos serviços. [Botão: Conhecer os serviços → https://www.agenciarecria.com.br/#servicos]'),
             ('CHECKLIST · Mensagem 4 (23h depois, se não clicou)', 'Oi, [Nome]! Quanto mais cedo as campanhas começam, mais barato fica vender na Black. Enquanto estiver disponível, o nosso pacote inicial reúne tráfego pago, social media, site e treinamento comercial por R$ 1.500/mês. Se você já tem alguém cuidando dos anúncios e só quer um direcional, toque em DIAGNÓSTICO. [Botão: Pacote inicial → https://www.agenciarecria.com.br/pacote-mkt-inicial/] [Botão: DIAGNÓSTICO]'),
             ('DIAGNÓSTICO · Resposta no comentário', 'Enviamos no seu direct! 📩'),
@@ -77,36 +77,36 @@ Nesse carrossel mostramos como aquecer o seu público, a sequência de conteúdo
             ('DIAGNÓSTICO · Mensagem 3', 'Para garantir o seu Diagnóstico Recria, é só tocar no botão abaixo. [Botão: Quero o meu diagnóstico → https://www.agenciarecria.com.br/diagnostico-recria/]'),
             ('DIAGNÓSTICO · Mensagem 4 (23h depois, se não clicou)', 'Oi, [Nome]! Passando para lembrar que as vagas da agenda são limitadas, e a Black está chegando. Se ficou alguma dúvida sobre o Diagnóstico Recria, é só responder aqui que explicamos. 😊'),
             ('RECRIA ADS · Mensagem 1 (botão: Quero o presente)', 'Oi, [Nome]! Vimos que você quer vender com leveza, sem parecer aquele vendedor chato. Quer receber o passo a passo para criar conteúdos e anúncios sem cara de anúncio?'),
-            ('RECRIA ADS · Mensagem 2', 'Aqui está o seu presente: o passo a passo para criar conteúdos e anúncios sem cara de anúncio. 🎁 [PDF]'),
+            ('RECRIA ADS · Mensagem 2', 'Aqui está o seu presente: o checklist Venda sem Parecer Chato, o passo a passo para criar conteúdos e anúncios sem cara de anúncio. 🎁 [PDF: Checklist Venda sem Parecer Chato - Agencia Recria]'),
             ('RECRIA ADS · Mensagem 3', 'E, se você está pronta para dar o próximo passo, conheça o Recria Ads: o nosso curso aprofundado de criação de conteúdos e anúncios para vender com leveza e naturalidade, sem parecer aquele vendedor chato, mesmo que o seu negócio esteja começando. Por R$ 97 em até 12x. [Botão: Quero conhecer o Recria Ads → link]'),
             ('RECRIA ADS · Mensagem 4 (23h depois, se não clicou)', 'Oi, [Nome]! Conseguiu ver o seu presente? Se preferir um direcional personalizado para o seu negócio, é só tocar no botão: DIAGNÓSTICO. [Botão: DIAGNÓSTICO]'),
          ]),
-    dict(folder='2026-10-28_carrossel-boticario', nome='Post 28.10 - Boticario - legenda e automacao.pdf', post='Post 28.10', data='Quarta-feira, 28/10/2026', titulo='Boticário × Mari Krüger: a ciência estudou o corpo errado',
-         arquivos='card-01.png, card-02-video.mp4, card-03-video.mp4, card-04-video.mp4, card-05.png a card-10.png', palavras='RECRIA ADS e DIAGNÓSTICO',
-         marcar='Collab: @agencia.recria × @amandarecria (adicionar após publicar) · Marcar no post: @grupoboticario e @[perfil da Mari Krüger]',
-         legenda="""A ciência estudou o corpo errado. E o Grupo Boticário transformou isso em posicionamento. 🔬
+    dict(folder='2026-10-28_carrossel-boticario', nome='Post 28.10 - Boticario - legenda e automacao.pdf', post='Post 28.10', data='Quarta-feira, 28/10/2026', titulo='Boticário × Mari Krüger: a ciência estudou apenas o corpo masculino',
+         arquivos='card-01.png, card-02-video.mp4 (58s), card-03-video.mp4 (47s), card-04-video.mp4 (27s), card-05.png a card-10.png', palavras='DIAGNÓSTICO e RECRIA ADS',
+         marcar='Collab: @agencia.recria × @amandarecria (adicionar após publicar) · Marcar no post: @grupoboticario e @marikrugerb',
+         legenda="""A ciência estudou apenas o corpo masculino. E o Grupo Boticário decidiu corrigir isso. 🔬
 
-Por muito tempo, o corpo do homem foi o padrão das pesquisas. O Grupo Boticário criou um centro de pesquisa dedicado ao corpo da mulher e chamou a Mari Krüger, que ensina ciência com humor, para mostrar isso numa série.
+Por muito tempo, o corpo do homem foi o padrão das pesquisas. O Grupo Boticário criou o Centro de Pesquisa da Mulher e chamou a @marikrugerb, que ensina ciência com humor, para mostrar isso numa série.
 
 O resultado: identificação, comunidade nos comentários e uma marca com décadas de mercado se diferenciando de novo.
 
 Nesse carrossel mostramos por que funcionou, por que não é oportunismo e as 5 perguntas para responder antes de levantar qualquer bandeira no seu negócio.
 
-👉 Comente RECRIA ADS e receba um passo a passo para criar conteúdos e anúncios sem cara de anúncio. 🎁
-👉 Quer um direcional para o seu negócio? Comente DIAGNÓSTICO.
+👉 Quer descobrir o posicionamento certo para o seu negócio? Comente DIAGNÓSTICO e receba o Direcional de Marketing e Negócios da Agência Recria. 🎁
+👉 Quer aprender a criar conteúdos e anúncios sem cara de anúncio? Comente RECRIA ADS e receba o checklist. 🎁
 
-📌 Créditos do vídeo: @grupoboticario e @[perfil da Mari Krüger]""",
+📌 Créditos do vídeo: @marikrugerb e @grupoboticario""",
          auto=[
-            ('RECRIA ADS · Resposta no comentário', 'Enviamos no seu direct! 📩'),
-            ('RECRIA ADS · Mensagem 1 (botão: Quero o presente)', 'Oi, [Nome]! Vimos que você gostou de como o Boticário se posicionou. Quer receber o passo a passo para criar conteúdos e anúncios sem cara de anúncio para o seu negócio?'),
-            ('RECRIA ADS · Mensagem 2', 'Aqui está o seu presente: o passo a passo para criar conteúdos e anúncios sem cara de anúncio. 🎁 [PDF]'),
-            ('RECRIA ADS · Mensagem 3', 'E, se você está pronta para dar o próximo passo, conheça o Recria Ads: o nosso curso aprofundado de criação de conteúdos e anúncios para vender com leveza e naturalidade, sem parecer aquele vendedor chato, mesmo que o seu negócio esteja começando. Por R$ 97 em até 12x. [Botão: Quero conhecer o Recria Ads → link]'),
-            ('RECRIA ADS · Mensagem 4 (23h depois, se não clicou)', 'Oi, [Nome]! Conseguiu ver o seu presente? Se preferir um direcional personalizado para o seu negócio, é só tocar no botão: DIAGNÓSTICO. [Botão: DIAGNÓSTICO]'),
             ('DIAGNÓSTICO · Resposta no comentário', 'Enviamos no seu direct! 📩'),
-            ('DIAGNÓSTICO · Mensagem 1 (botão: Quero saber)', 'Oi, [Nome]! Vimos que você quer posicionar o seu negócio de um jeito criativo e coerente, como o Boticário fez. Quer saber como funciona o Diagnóstico Recria?'),
-            ('DIAGNÓSTICO · Mensagem 2', 'Funciona assim: em uma reunião online, entendemos o seu negócio e os seus objetivos, mapeamos os gargalos que estão travando o seu crescimento e mostramos as alavancas que podem fazer diferença, inclusive no posicionamento da sua marca. Depois da reunião, você recebe tudo documentado, para saber exatamente o que fazer.'),
-            ('DIAGNÓSTICO · Mensagem 3', 'Para garantir o seu Diagnóstico Recria, é só tocar no botão abaixo. [Botão: Quero o meu diagnóstico → https://www.agenciarecria.com.br/diagnostico-recria/]'),
-            ('DIAGNÓSTICO · Mensagem 4 (23h depois, se não clicou)', 'Oi, [Nome]! Passando para lembrar que as vagas da agenda são limitadas. Se ficou alguma dúvida sobre o Diagnóstico Recria, é só responder aqui que explicamos. 😊'),
+            ('DIAGNÓSTICO · Mensagem 1 (botão: Quero o direcional)', 'Oi, [Nome]! Vimos que você quer posicionar o seu negócio de forma criativa e coerente, como o Boticário fez. Quer receber o Direcional de Marketing e Negócios da Agência Recria?'),
+            ('DIAGNÓSTICO · Mensagem 2', 'Aqui está o seu presente: o Direcional de Marketing e Negócios, com os pilares que separam os negócios que crescem dos que ficam pelo caminho e um autodiagnóstico para você fazer agora. 🎁 [PDF: Direcional de Marketing e Negocios - Agencia Recria]'),
+            ('DIAGNÓSTICO · Mensagem 3', 'E se quiser que olhemos o seu negócio de perto: no Diagnóstico Recria, em uma reunião online, entendemos o seu negócio e os seus objetivos, mapeamos os gargalos e mostramos as alavancas de crescimento, inclusive de posicionamento. Você recebe tudo documentado. No momento, com condição especial de R$ 67 por sessão. [Botão: Quero o meu diagnóstico → https://www.agenciarecria.com.br/diagnostico-recria/]'),
+            ('DIAGNÓSTICO · Mensagem 4 (23h depois, se não clicou)', 'Oi, [Nome]! Conseguiu ver o Direcional? A condição especial do Diagnóstico Recria pode mudar a qualquer momento. Se ficou alguma dúvida, é só responder aqui que explicamos. 😊'),
+            ('RECRIA ADS · Resposta no comentário', 'Enviamos no seu direct! 📩'),
+            ('RECRIA ADS · Mensagem 1 (botão: Quero o checklist)', 'Oi, [Nome]! Vimos que você quer vender sem parecer aquele vendedor chato. Quer receber o checklist para criar conteúdos e anúncios sem cara de anúncio?'),
+            ('RECRIA ADS · Mensagem 2', 'Aqui está o seu presente: o checklist Venda sem Parecer Chato, com a estrutura dos anúncios sem cara de anúncio, como escolher e remunerar microinfluenciadores e ganchos para o seu negócio. 🎁 [PDF: Checklist Venda sem Parecer Chato - Agencia Recria]'),
+            ('RECRIA ADS · Mensagem 3', 'E, se você está pronta para dar o próximo passo, conheça o Recria Ads: o nosso curso aprofundado de criação de conteúdos e anúncios para vender com leveza e naturalidade, sem parecer aquele vendedor chato, mesmo que o seu negócio esteja começando. Por R$ 97 em até 12x. [Botão: Quero conhecer o Recria Ads → link]'),
+            ('RECRIA ADS · Mensagem 4 (23h depois, se não clicou)', 'Oi, [Nome]! Conseguiu ver o seu checklist? Se preferir um direcional personalizado para o seu negócio, é só tocar no botão: DIAGNÓSTICO. [Botão: DIAGNÓSTICO]'),
          ]),
 ]
 
