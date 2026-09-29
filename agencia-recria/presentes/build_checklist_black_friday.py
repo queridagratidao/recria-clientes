@@ -161,15 +161,17 @@ page('dark', '''<div class="kick">Oferta e operação</div><h1>Antes de <em clas
 </ul>
 <div class="box">Não seja a "Black Fraude": subir o preço antes para "dar 50%" depois é a famosa metade do dobro. O cliente pesquisa histórico de preço, e a reputação que você perde vale mais que a venda de um dia.</div>''', 11)
 
-page('light', f'''<div class="kick">Tráfego pago</div><h1>As métricas que <em class="g">você precisa acompanhar</em></h1>
+page('light', f'''<div class="kick">Tráfego pago</div><h1 style="font-size:48px;margin-bottom:18px">As métricas que <em class="g">você precisa acompanhar</em></h1>
 <table><tr><th>Métrica</th><th>O que mostra</th></tr>
-<tr><td>CPM</td><td>Quanto custa aparecer mil vezes. Sobe muito na semana da Black.</td></tr>
-<tr><td>CTR</td><td>Quantas pessoas clicam depois de ver o anúncio. Mede o poder do criativo.</td></tr>
-<tr><td>CPC</td><td>Quanto custa cada clique.</td></tr>
-<tr><td>CPA</td><td>Quanto custa cada venda (ou cada lead).</td></tr>
-<tr><td>ROAS</td><td>Quanto volta de faturamento para cada real investido.</td></tr></table>
-<p style="margin-top:18px">Ler essas métricas e ajustar as campanhas todos os dias faz diferença, na Black e no ano inteiro.</p>
-<div class="cta" style="margin-top:6px"><div class="t">Quer alguém cuidando das suas campanhas o ano todo?</div><p>Na Agência Recria, cuidamos das suas campanhas de <b>tráfego pago</b> no Google e no Instagram o ano inteiro, não só na Black Friday. Veja o serviço de tráfego pago e todos os nossos serviços:</p><a class="l" href="https://www.agenciarecria.com.br/?utm_source=checklist_black#servicos">{LINK_TRAFEGO}</a></div>''', 12)
+<tr><td style="padding:7px 12px;font-size:20px">CPM</td><td style="padding:7px 12px;font-size:20px">Quanto custa aparecer mil vezes. Sobe muito na semana da Black.</td></tr>
+<tr><td style="padding:7px 12px;font-size:20px">CTR</td><td style="padding:7px 12px;font-size:20px">Quantas pessoas clicam depois de ver o anúncio. Mede o poder do criativo.</td></tr>
+<tr><td style="padding:7px 12px;font-size:20px">CPC</td><td style="padding:7px 12px;font-size:20px">Quanto custa cada clique.</td></tr>
+<tr><td style="padding:7px 12px;font-size:20px">CPA</td><td style="padding:7px 12px;font-size:20px">Quanto custa cada venda (ou cada lead).</td></tr>
+<tr><td style="padding:7px 12px;font-size:20px">ROAS</td><td style="padding:7px 12px;font-size:20px">Quanto volta de faturamento para cada real investido.</td></tr></table>
+<p style="margin-top:14px;font-size:24px;margin-bottom:10px">Ler essas métricas e ajustar as campanhas todos os dias faz diferença, na Black e no ano inteiro.</p>
+<div class="cta" style="margin-top:6px;padding:24px 30px"><div class="t" style="font-size:31px">Quer alguém cuidando das suas campanhas o ano todo?</div><p style="font-size:22px">Na Agência Recria, cuidamos das suas campanhas de <b>tráfego pago</b> no Google e no Instagram o ano inteiro, não só na Black Friday. Veja o serviço de tráfego pago e todos os nossos serviços:</p><a class="l" href="https://www.agenciarecria.com.br/?utm_source=checklist_black#servicos">{LINK_TRAFEGO}</a>
+<p style="font-size:22px;margin-top:16px"><b>Aproveite enquanto está disponível:</b> o nosso <b>pacote inicial</b> reúne tráfego pago (Google e Instagram), social media, site ou página de vendas e treinamento do time comercial por <b>R$ 1.500/mês</b>. É uma oferta por tempo limitado: se o link não abrir, o pacote já saiu do ar.</p>
+<a class="l" href="https://www.agenciarecria.com.br/pacote-mkt-inicial/?utm_source=checklist_black">Quero o pacote inicial</a></div>''', 12)
 
 page('dark', '''<div class="kick">Depois da Black</div><h1>A Black não termina <em class="g">no último dia</em></h1>
 <ul>
