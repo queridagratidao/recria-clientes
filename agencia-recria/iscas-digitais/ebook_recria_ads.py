@@ -74,10 +74,11 @@ b.page('light', '''<div class="kick">Inspiração</div><h1>Ganchos para <em clas
 <tr><td>Doceria</td><td>"Minha mãe sempre dizia que bolo de verdade tem que ter…"</td></tr></table>
 <p style="margin-top:12px">Repare: nenhum começa falando do produto. Todos começam por uma situação.</p>''')
 
-b.page('dark', f'''<div class="kick">Quer ir além?</div><h1>Aprofundamos tudo isso <em class="g">no Recria Ads</em></h1>
-<p>Neste checklist você viu o caminho. No <b>Recria Ads</b>, ensinamos passo a passo a criar conteúdos e anúncios sem cara de anúncio, com você, com a sua equipe ou com microinfluenciadores, utilizando <b>neuromarketing, neurociência e comportamento do consumidor aplicados às vendas</b>.</p>
-<p>Um método construído em mais de 10 anos de experiência em marketing, atendendo de pequenas a grandes empresas, inclusive marcas conhecidas dos nichos de banheiras e de moda.</p>
-<div class="cta"><div class="t">Recria Ads</div><p>Vender todo dia, com leveza e naturalidade, sem parecer aquele vendedor chato.</p><a class="l" href="{LINK_RECRIA_ADS}?utm_source={UTM}">Quero conhecer o Recria Ads</a></div>''')
+b.page('dark', f'''<div class="kick">Quer ir além?</div><h1 style="font-size:50px">Aprofundamos tudo isso <em class="g">no Recria Ads</em></h1>
+<p style="font-size:24px">Neste checklist você já recebeu um passo a passo que vai fazer uma diferença gigantesca no seu negócio e na sua criação de conteúdo.</p>
+<p style="font-size:24px">Mas, se quiser se aprofundar ainda mais, o <b>Recria Ads</b> traz mais insights, ideias de calendário e de conteúdos para stories e feed, e vários tipos de gravação: reels, carrossel e post estático, seja com você, com a sua equipe ou com influenciadores.</p>
+<p style="font-size:24px">Um universo de possibilidades que serve desde a <b>eupresa</b>, a empresa de uma pessoa só, até grandes empresas que querem treinar o seu marketing interno.</p>
+<div class="cta" style="padding:22px 28px"><div class="t" style="font-size:28px">Aprenda de uma vez por todas</div><p style="font-size:21px">A fazer conteúdos e anúncios sem cara de anúncio, sem parecer aquele vendedor chato, vendendo com leveza e naturalidade, com <b>neurociência, neuromarketing e comportamento do consumidor aplicados às vendas</b>. Tudo estruturado com base em mais de 10 anos de experiência em marketing, atendendo de pequenas a grandes empresas: nichos de banheiras, moda, negócios locais e consultorias.</p><a class="l" href="{LINK_RECRIA_ADS}?utm_source={UTM}">Quero conhecer o Recria Ads</a></div>''')
 
 b.page('light', '''<div class="kick">Antes de publicar</div><h1>Checklist <em class="g">final</em></h1>
 <ul>
