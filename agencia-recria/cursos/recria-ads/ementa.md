@@ -48,21 +48,21 @@ Cada módulo termina com uma tarefa que preenche uma parte do Plano de 30 dias.
 
 ## Módulo 3: Estratégia antes do conteúdo
 1. 🎥 Quem é o seu cliente e o seu posicionamento
-2. 🎥 Níveis de consciência e funil: com verba, um conteúdo por nível
-3. 🖥️ Com pouca verba: os três níveis num só carrossel
+2. 🖥️ Níveis de consciência e funil: com verba, um conteúdo por nível
+3. 🖥️ Com pouca verba: os três níveis num só carrossel (montado ao vivo no Canva)
 
 ## Módulo 4: Ganchos e copy
 1. 🎥 Os 2 primeiros segundos e os tipos de gancho
-2. 🎥 Copy para legenda, carrossel e roteiro + CTA
-3. 🖥️ Ganchos com IA + 📎 banco de ganchos por nicho
+2. 🎙️ Copy para legenda, carrossel e roteiro + CTA
+3. 💻 Ganchos com IA + 📎 banco de ganchos por nicho
 
 ## Módulo 5: Sem cara de anúncio
 1. 🎥 A estrutura em 5 passos
 2. 🔎 Toyota × Sarah Fonseca
 3. 🔎 Boticário × Mari Krüger, com o contraponto Bud Light
 4. 🔎 Liquid Death
-5. 🔎 Dove e as pessoas reais: influenciadoras e anúncio sem cara de anúncio (+ outros casos a checar)
-6. 🎥 Trend e marketing de oportunidade: quando usar e quando queima o filme
+5. 🔎 Dove e a beleza real (Retratos da Real Beleza, 2013)
+6. 🎙️ Trend e marketing de oportunidade: quando usar e quando queima o filme
 
 ## Módulo 6: Os dois calendários (conteúdo e anúncios) com IA
 1. 🎥 Dois calendários, dois objetivos: por que separar o calendário de conteúdo do calendário de anúncios
@@ -74,7 +74,7 @@ Cada módulo termina com uma tarefa que preenche uma parte do Plano de 30 dias.
 
 ## Módulo 7: Rotina e plano
 1. 🎥 Quantos posts cabem na sua vida e a semana de criação
-2. 🖥️ Montando o seu plano de 30 dias
+2. 💻 Montando o seu Plano de 30 dias (com 5W2H)
 3. 🎥 Próximos passos: convite para a Comunidade Recria
 4. 📎 Acervo Recria (5 livros + 10 referências de criativos para modelar; o acervo completo fica na Comunidade Recria)
 

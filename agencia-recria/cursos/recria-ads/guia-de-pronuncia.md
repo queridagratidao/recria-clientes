@@ -27,6 +27,9 @@ A sílaba em MAIÚSCULAS é a mais forte. Todas as pronúncias são aproximadas,
 | Chip e Dan Heath | TCHÍP e DÉN RÍTH (o "th" quase como um "f" suave) | Ideias que Colam |
 | Martin Lindstrom | MÁR-tin LÍNDS-trom | A Lógica do Consumo |
 | Chris Voss | CRÍS VÓS | Negocie como se sua Vida Dependesse Disso |
+| Eugene Schwartz | iu-DJÍN SHUÓRTS | (níveis de consciência) |
+| Mike Cessario | MÁIC se-SÁ-rio | (fundador da Liquid Death) |
+| Gil Zamora | GÍL za-MÔ-ra | (desenhista do Dove Retratos da Real Beleza) |
 | Carl Jung | CÁRL IÚNG | (arquétipos) |
 | Margaret Mark e Carol Pearson | MÁR-ga-ret MÁRK e CÉ-rol PÍR-son | O Herói e o Fora da Lei |
 | Disney Institute | DÍZ-ni ÍNS-ti-tiut | O Jeito Disney de Encantar os Clientes |

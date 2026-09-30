@@ -77,10 +77,10 @@ def docx(md, title, sub, out):
 R=BASE/'roteiros-completos'
 DOCS=[
  ('Roteiros - Modulos 0 a 2', ''.join((R/f).read_text()+'\n\n' for f in ['00-legenda.md','01-modulo-0.md','02-modulo-1.md','03-modulo-2.md']), 'Roteiros de gravação: Módulos 0, 1 e 2'),
+ ('Roteiros - Modulos 3 a 7', ''.join((R/f).read_text()+'\n\n' for f in ['00b-legenda-modulos-3-a-7.md','04-modulo-3.md','05-modulo-4.md','06-modulo-5.md','07-modulo-6.md','08-modulo-7.md']), 'Roteiros de gravação: Módulos 3, 4, 5, 6 e 7'),
  ('Video de vendas e pagina de vendas', (BASE/'pagina-de-vendas.md').read_text(), 'Roteiro do vídeo de vendas (VSL) e textos da página'),
  ('Copies dos anuncios', (BASE/'criativos/copies-dos-anuncios.md').read_text(), 'Textos dos anúncios, públicos e roteiros de Reels'),
  ('Guia de pronuncia dos autores', (BASE/'guia-de-pronuncia.md').read_text(), 'Como falar o nome de cada autor'),
- ('Modulo 6 - Os dois calendarios', (BASE/'roteiros/modulo-6.md').read_text(), 'Estrutura das aulas: calendário de conteúdo e de anúncios'),
  ('Ementa do curso', (BASE/'ementa.md').read_text(), 'Estrutura completa, liberação e preços'),
 ]
 for name, md, sub in DOCS:
