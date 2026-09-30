@@ -86,9 +86,11 @@ Quarta: os materiais, como fichas e prompts, ficam anexados nas próprias aulas.
 
 Quinta: toda aula termina com um momento chamado "Como adaptar", em que eu mostro como aplicar aquele conteúdo em diferentes tipos de negócio. Na próxima aula, você vai descobrir qual é o seu cenário.
 
-E tem mais uma coisa: nós temos um grupo de avisos no WhatsApp. Lá eu aviso quando um módulo novo for liberado e compartilho bastidores e conteúdos extras. O link está aqui embaixo da aula. Entra lá.
+E tem mais: você vai fazer parte do grupo do WhatsApp da turma. Ele é aberto semanalmente para dúvidas, e é lá que eu também compartilho conteúdos novos, bastidores e interações com a turma. É um a mais que eu preparei para você. O link está aqui embaixo da aula.
 
-Se tiver dúvidas sobre alguma aula, deixa nos comentários da própria aula. Eu leio e respondo.
+E, se tiver dúvidas sobre alguma aula, você também pode deixar nos comentários da própria aula. Você tem todo o suporte meu e da minha equipe.
+
+E uma coisa importante: você tem 1 ano de acesso ao Recria Ads. Seguindo 10 minutos por dia, você termina em cerca de um mês. E ainda tem mais 11 meses para rever, consultar e reconsultar as aulas sempre que precisar.
 
 E o nosso combinado final: não maratone e não busque perfeição. Feito é melhor do que perfeito.
 
@@ -104,7 +106,8 @@ Te vejo na próxima aula.
 5. Aprende → aplica → evolui
 6. Em cerca de 1 mês: tudo condensado, aprofundado e aplicado
 7. 5 dicas: caderno "Meu Recria Ads" · computador · 1,25x · materiais anexados · "Como adaptar"
-8. Grupo de avisos no WhatsApp
+8. Grupo do WhatsApp da turma + suporte nos comentários
+9. 1 ano de acesso: termina em 1 mês, e mais 11 meses para rever
 9. Combinado: não maratone · feito é melhor do que perfeito
 
 ---

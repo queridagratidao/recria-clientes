@@ -24,7 +24,7 @@ A mesma mensagem aparece na página, no vídeo e na aula 0.2:
 "E eu não quero te empurrar mais um curso para você acumular. Eu te peço só 10 minutos por dia. Uma aula por dia. A cada semana, um módulo novo é liberado, com atividades práticas. Você aprende, aplica no seu negócio no dia seguinte e só depois segue. Nada de obesidade mental, de consumir conteúdo e não aplicar nada. Em cerca de um mês, você termina o curso com tudo aplicado: conteúdo sem cara de anúncio, o seu calendário pronto e o seu Plano de 30 dias."
 
 **7. Oferta e garantia (2min50 a 3min20)**
-"E já no primeiro dia você recebe um bônus: um prompt que gera 30 ideias de conteúdo para o seu negócio. Neste exato momento, o Recria Ads está pelo valor que aparece aqui na sua tela, e você pode parcelar em até 12 vezes. E você tem 7 dias de garantia: se não for para você, eu devolvo o seu dinheiro."
+"E já no primeiro dia você recebe um bônus: um prompt que gera 30 ideias de conteúdo para o seu negócio. Neste exato momento, o Recria Ads está pelo valor que aparece aqui na sua tela, e você pode parcelar em até 12 vezes. Você tem 1 ano de acesso, ganha desconto nos próximos cursos da Recria e tem 7 dias de garantia: se não for para você, eu devolvo o seu dinheiro."
 *Na edição: o preço entra como um cartão na tela, por cima do vídeo. Se o preço mudar, troca só o cartão, sem regravar.*
 
 **8. Chamada (3min20 a 3min40)**
@@ -79,8 +79,10 @@ A mesma mensagem aparece na página, no vídeo e na aula 0.2:
 
 8. **Bônus:**
    - 🎁 prompt "Meu mês de conteúdo" (30 ideias no primeiro dia)
-   - 📚 Mini Biblioteca Recria
-   - 📲 grupo de avisos e bastidores no WhatsApp
+   - 📚 Acervo Recria
+   - 📲 grupo do WhatsApp da turma (aberto semanalmente para dúvidas, com conteúdos novos e interações)
+   - 🎟️ desconto nos próximos cursos da Recria
+   - ⏳ 1 ano de acesso: termina em cerca de 1 mês e ainda tem 11 meses para rever
 
 9. **Quem é a Amanda:** foto, a história, mais de 10 anos, os nichos atendidos.
 
@@ -93,6 +95,6 @@ A mesma mensagem aparece na página, no vídeo e na aula 0.2:
     - **Não gosto de aparecer.** Você aprende estratégias com equipe, mãos, bastidores e influenciadores.
     - **Tenho pouco orçamento.** Há estratégias para quem tem R$ 0 de anúncio.
     - **Como recebo as aulas?** Pela Hotmart. Na compra, você recebe os primeiros 3 módulos e o bônus. Depois, um módulo novo por semana.
-    - **Por quanto tempo tenho acesso?** [definir na Hotmart]
+    - **Por quanto tempo tenho acesso?** 1 ano. Seguindo 10 minutos por dia, você termina em cerca de 1 mês e ainda tem mais 11 meses para rever e consultar as aulas.
 
 13. **Chamada final:** "Daqui a um mês, você pode estar no mesmo lugar ou com tudo aplicado no seu negócio." [Botão]

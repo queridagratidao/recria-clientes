@@ -52,6 +52,16 @@ car=[('d','<p class="n">RECRIA ADS</p><h1>Você posta todo dia e <em>ninguém co
 ('l','<h2>E dá para fazer <em>no seu negócio.</em></h2><p>Com o seu celular. Com o orçamento que você tem. Em 10 minutos por dia.</p>'),
 ('d','<p class="n">RECRIA ADS</p><h2>Aprenda a criar conteúdos e anúncios <em>sem cara de anúncio.</em></h2><p>A metodologia da Agência Recria, aberta pela primeira vez.</p><div class="cta">Toque em Saiba mais</div>')]
 for i,(cls,body) in enumerate(car,1): C[f'carrossel-card-{i:02d}']=card(cls,body,'',f'{i:02d}/07')
+
+FEED=pathlib.Path('/home/user/recria-clientes/agencia-recria/cursos/recria-ads/criativos/feed'); FEED.mkdir(exist_ok=True)
+CTA='<div class="box">Comente <b style="font-style:normal;color:#fff">RECRIA ADS</b> e receba um presente no seu direct. 🎁</div>'
+CTAL='<div class="box">Comente <b style="font-style:normal;color:#fff">RECRIA ADS</b> e receba um presente no seu direct. 🎁</div>'
+FD={}
+for i,(cls,body) in enumerate(car[:6],1): FD[f'feed-carrossel-card-{i:02d}']=card(cls,body,'',f'{i:02d}/07')
+FD['feed-carrossel-card-07']=card('d','<h2>Quer aprender a criar conteúdos e anúncios <em>sem cara de anúncio?</em></h2><p>Em 10 minutos por dia, com a metodologia da Agência Recria.</p>'+CTA,'','07/07')
+FD['feed-post-qual-voce-pararia']=card('l','<h2>Qual você <em>pararia para ler?</em></h2><div class="post"><small>POST A</small>🔥 PROMOÇÃO IMPERDÍVEL! 20% OFF só hoje!!! Corre!!!</div><div class="post"><small>POST B</small>"A cliente entrou aqui dizendo que já tinha tentado de tudo. E saiu chorando de alegria…"</div>'+CTAL,'')
+FD['feed-post-checklist-cara-de-anuncio']=card('l','<h2>O seu conteúdo tem <em>cara de anúncio</em> se:</h2><ul><li>Começa falando do produto</li><li>Tem preço no primeiro segundo</li><li>Usa "imperdível" e "corre"</li><li>Ninguém comenta</li><li>Nem você pararia para ver</li></ul>'+CTAL,'')
+FD['feed-post-todo-mundo-pula-anuncio']=card('d','<h1>Todo mundo pula anúncio. <em>Inclusive você.</em></h1><p>Mas todo mundo para por uma boa história.</p>'+CTA,'')
 with sync_playwright() as p:
     b=p.chromium.launch(executable_path='/opt/pw-browsers/chromium-1194/chrome-linux/chrome')
     pg=b.new_page(viewport={'width':1080,'height':1350})
@@ -61,5 +71,9 @@ with sync_playwright() as p:
         ov=pg.evaluate("()=>{const c=document.querySelector('.c');return c.scrollHeight>c.clientHeight+2}")
         if ov: print('OVERFLOW',k)
         pg.screenshot(path=str(OUT/f'{k}.png'))
+    for k,h in FD.items():
+        pg.set_content(f'<html><head><meta charset="utf-8"><style>{CSS}</style></head><body>{h}</body></html>'); pg.evaluate('document.fonts.ready'); pg.wait_for_timeout(150)
+        if pg.evaluate("()=>{const c=document.querySelector('.c');return c.scrollHeight>c.clientHeight+2}"): print('OVERFLOW',k)
+        pg.screenshot(path=str(FEED/f'{k}.png'))
     b.close()
-print(len(C))
+print(len(C),len(FD))

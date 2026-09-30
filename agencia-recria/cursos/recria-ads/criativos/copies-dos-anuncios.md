@@ -1,5 +1,19 @@
 # Recria Ads · Copies dos anúncios
 
+## Plano para começar com pouco orçamento (recomendado)
+1. **Primeiro, no feed (orgânico + impulsionar para engajamento):** os posts da pasta `feed/` terminam com "Comente RECRIA ADS". A automação do Youze entrega o presente e oferece o curso. Impulsionar para engajamento costuma sair bem mais barato do que uma campanha de vendas, e cada comentário ainda aumenta o alcance.
+2. **Depois, quando as primeiras vendas entrarem:** os anúncios diretos para a página (as campanhas 1 e 2 abaixo) e o remarketing (campanha 3).
+
+## Posts para o feed (pasta feed/)
+| Post | Legenda |
+|---|---|
+| Carrossel "Você posta todo dia e ninguém compra?" (7 cards) | Você posta todo dia e ninguém compra? Não é o algoritmo. É o jeito como o cérebro de quem rola o feed funciona. Arrasta até o fim. 👉 Comente RECRIA ADS e receba um presente no seu direct: o passo a passo para criar conteúdos e anúncios sem cara de anúncio. 🎁 |
+| Post "Qual você pararia para ler?" | Seja sincero(a): A ou B? 👇 Me conta nos comentários. E, se quiser aprender a criar o post B todo santo dia, comente RECRIA ADS que eu te mando um presente no direct. 🎁 |
+| Post "O seu conteúdo tem cara de anúncio se" | Quantos você marcou? 👀 Se foram 2 ou mais, o seu conteúdo está com cara de anúncio, e todo mundo aprendeu a pular anúncio. Comente RECRIA ADS e receba no direct o passo a passo para virar esse jogo. 🎁 |
+| Post "Todo mundo pula anúncio. Inclusive você." | Você pula. Eu pulo. Todo mundo pula. Mas todo mundo para por uma boa história. Comente RECRIA ADS e receba um presente no seu direct. 🎁 |
+
+Dica: poste o carrossel primeiro. Ele tende a gerar mais comentários e salvamentos. Os posts únicos funcionam melhor como reforço, ao longo das semanas seguintes.
+
 Todos levam para a página de vendas. As imagens estão nesta pasta (1080×1350). Para stories e reels (9:16), redimensione no Canva.
 
 ## Campanha 1 · Público frio (quem ainda não conhece)

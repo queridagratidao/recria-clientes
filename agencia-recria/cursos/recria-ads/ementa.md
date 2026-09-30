@@ -28,7 +28,7 @@ Cada módulo termina com uma tarefa que preenche uma parte do Plano de 30 dias.
 
 ## Módulo 0: Comece aqui
 1. 🎥 Boas-vindas: quem sou eu e o que é o Recria Ads
-2. 🎥 Comece por aqui: como o curso funciona, a liberação semanal com atividades, como assistir e o grupo de avisos no WhatsApp
+2. 🎥 Comece por aqui: como o curso funciona, a liberação semanal com atividades, como assistir o grupo do WhatsApp da turma e o acesso de 1 ano
 3. 🖥️ O seu cenário (📎 Ficha "Meu cenário") + 🎁 Bônus vitória rápida: prompt "Meu mês de conteúdo" (usa a Ficha Meu cenário e gera 30 ideias de conteúdo para o negócio)
 
 ## Módulo 1: A mente de quem compra
@@ -70,16 +70,20 @@ Cada módulo termina com uma tarefa que preenche uma parte do Plano de 30 dias.
 1. 🎥 Quantos posts cabem na sua vida e a semana de criação
 2. 🖥️ Montando o seu plano de 30 dias
 3. 🎥 Próximos passos: convite para a Comunidade Recria
-4. 📎 Mini Biblioteca Recria (degustação: 5 livros + 10 referências de criativos para modelar)
+4. 📎 Acervo Recria (5 livros + 10 referências de criativos para modelar; o acervo completo fica na Comunidade Recria)
 
 ## Comunidade Recria
 Trilhas: Recria Ads (incluso), Posicionamento e negócio, Marketing e comportamento (livros), Diferenciação e criatividade, Comercial, Rebrand, Storytelling avançado, Comunidade e relacionamento, IA sem ficar fake, Gravação, Tráfego pago, aulas com convidados.
 Ritmo: 1 aula nova por semana (gravar 5 por semana para manter estoque). Abrir com pelo menos 2 meses de aulas prontas.
-Biblioteca Recria completa (livros, materiais, insights, referências de criativos) é exclusiva da comunidade e alimentada continuamente.
+Acervo Recria completo (livros, materiais, insights, referências de criativos) é exclusiva da comunidade e alimentada continuamente.
 Preço sugerido (fundadores): mensal R$ 47 · anual R$ 297 (12x de R$ 24,75 sem juros) · compradores do Recria Ads: anual por R$ 247 (12x de R$ 20,58 sem juros).
 
-## Grupo de avisos no WhatsApp (alunos do Recria Ads)
-- Criar uma Comunidade do WhatsApp e usar o grupo de avisos: só os administradores enviam mensagens, e os números dos membros ficam ocultos entre si.
-- Nome sugerido: "Recria Ads | Avisos e bastidores", para não confundir com a Comunidade Recria paga.
-- Uso: aviso de módulo liberado, lembrete das atividades, bastidores, conteúdos extras. Dúvidas vão nos comentários das aulas na Hotmart.
+## Grupo do WhatsApp da turma (um a mais)
+- Formato: Comunidade do WhatsApp, para que os alunos não vejam os números uns dos outros. Na comunicação, chamar só de "grupo do WhatsApp da turma".
+- Aberto semanalmente para dúvidas; também recebe conteúdos novos, bastidores e interações.
+- Suporte principal: comentários de cada aula na Hotmart, com a Amanda e a equipe.
+
+## Acesso e vantagens
+- 1 ano de acesso: termina em cerca de 1 mês e ainda tem 11 meses para rever e consultar.
+- Quem compra o Recria Ads ganha desconto nos próximos cursos da Recria.
 - O link do grupo vai na página de obrigado da Hotmart e na aula 0.2.
