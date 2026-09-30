@@ -21,28 +21,29 @@
 **Fechamento:** "Antes de começar, a próxima aula mostra como aproveitar o curso ao máximo. Não pule essa."
 
 ## Aula 0.2 · Comece por aqui: como o curso funciona
-**Formato:** 🖥️ tela + voz (tour pela área de membros da Hotmart) · **Duração:** 6 a 8 min
+**Formato:** 🎥 câmera + slide · **Duração:** 6 a 8 min
+
+**Abertura (fala):** "Antes de qualquer conteúdo, eu quero te mostrar como aproveitar este curso de verdade. Porque assistir não muda nada. Aplicar, sim."
 
 **Blocos:**
-1. **Como o curso está organizado:**
-   - Módulo 0 + 7 módulos;
-   - mostrar na tela a lista de módulos e o cronograma de liberação.
-2. **Por que a liberação é semanal:**
-   - "Um módulo novo a cada 7 dias. Não é para te segurar, é para você ter tempo de aplicar."
-   - Conteúdo sem prática vira só informação. Com prática, vira resultado.
-3. **Como assistir:**
+1. **Um módulo por semana:** "A cada 7 dias, um módulo novo é liberado, sempre acompanhado de atividades práticas."
+2. **Por que não liberar tudo de uma vez:** "Ninguém aprende maratonando dez aulas seguidas. Você assiste, esquece metade e não aplica nada. Aqui você assiste, faz a atividade, aplica no seu negócio e só depois segue. É isso que condensa o conhecimento."
+3. **Pequenas vitórias:** cada atividade é uma pequena vitória no seu negócio real. Semana a semana, você evolui na prática, e no último módulo junta tudo no seu Plano de 30 dias.
+4. **Como assistir:**
    - uma aula por dia, de uns 10 minutos;
    - aulas de tela, de preferência no computador;
    - pode acelerar para 1,25x;
-   - tenha um caderno ou documento "Meu Recria Ads" para as anotações.
-4. **As atividades práticas:**
-   - toda aula termina com uma tarefa;
-   - cada tarefa preenche uma parte do seu Plano de 30 dias;
-   - no último módulo, você junta tudo e sai com o plano pronto.
-5. **Onde estão os materiais:** mostrar na tela a aba de materiais (ficha, prompts, bancos, calendários).
-6. **Os 6 cenários:** toda aula termina com o bloco "Como adaptar". Descubra o seu na próxima aula.
-7. **Dúvidas:** comente embaixo de cada aula. Eu leio e respondo.
+   - tenha um caderno ou documento "Meu Recria Ads".
+5. **Materiais:** fichas, prompts e bancos ficam anexados nas próprias aulas.
+6. **Os 6 cenários:** toda aula termina com o bloco "Como adaptar".
+7. **O grupo de avisos no WhatsApp:** "Lá eu aviso quando um módulo novo for liberado e compartilho bastidores e conteúdos extras." Dúvidas sobre as aulas vão nos comentários de cada aula.
 8. **O combinado:** "Não maratone, não busque perfeição. Feito é melhor do que perfeito."
+
+**Slides:**
+1. Um módulo por semana + atividades
+2. Assistir → aplicar → evoluir
+3. Como assistir
+4. O grupo de avisos no WhatsApp
 
 **Fechamento:** "Agora sim: bora descobrir o seu cenário e sair com 30 ideias de conteúdo, hoje mesmo."
 

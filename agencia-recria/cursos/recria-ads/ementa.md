@@ -27,7 +27,7 @@ Cada módulo termina com uma tarefa que preenche uma parte do Plano de 30 dias.
 
 ## Módulo 0: Comece aqui
 1. 🎥 Boas-vindas: quem sou eu e o que é o Recria Ads
-2. 🖥️ Comece por aqui: como o curso funciona, a liberação semanal, como assistir, as atividades práticas e onde ficam os materiais
+2. 🎥 Comece por aqui: como o curso funciona, a liberação semanal com atividades, como assistir e o grupo de avisos no WhatsApp
 3. 🖥️ O seu cenário (📎 Ficha "Meu cenário") + 🎁 Bônus vitória rápida: prompt "Meu mês de conteúdo" (usa a Ficha Meu cenário e gera 30 ideias de conteúdo para o negócio)
 
 ## Módulo 1: A mente de quem compra
@@ -76,3 +76,9 @@ Trilhas: Recria Ads (incluso), Posicionamento e negócio, Marketing e comportame
 Ritmo: 1 aula nova por semana (gravar 5 por semana para manter estoque). Abrir com pelo menos 2 meses de aulas prontas.
 Biblioteca Recria completa (livros, materiais, insights, referências de criativos) é exclusiva da comunidade e alimentada continuamente.
 Preço sugerido (fundadores): mensal R$ 47 · anual R$ 297 (12x de R$ 24,75 sem juros) · compradores do Recria Ads: anual por R$ 247 (12x de R$ 20,58 sem juros).
+
+## Grupo de avisos no WhatsApp (alunos do Recria Ads)
+- Criar uma Comunidade do WhatsApp e usar o grupo de avisos: só os administradores enviam mensagens, e os números dos membros ficam ocultos entre si.
+- Nome sugerido: "Recria Ads | Avisos e bastidores", para não confundir com a Comunidade Recria paga.
+- Uso: aviso de módulo liberado, lembrete das atividades, bastidores, conteúdos extras. Dúvidas vão nos comentários das aulas na Hotmart.
+- O link do grupo vai na página de obrigado da Hotmart e na aula 0.2.
