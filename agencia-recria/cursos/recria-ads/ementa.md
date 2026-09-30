@@ -17,17 +17,17 @@ Cada módulo termina com uma tarefa que preenche uma parte do Plano de 30 dias.
 ## Liberação (drip na Hotmart, contada a partir da compra)
 | Dia | Libera | Gravado até (turma de 14/10) |
 |---|---|---|
-| 0 | Módulos 0, 1, 2 + bônus (9 aulas) | 13/10 |
+| 0 | Módulos 0, 1, 2 + bônus (10 aulas) | 13/10 |
 | 7 | Módulo 3 | 20/10 |
 | 14 | Módulo 4 | 27/10 |
 | 21 | Módulo 5 | 03/11 |
 | 28 | Módulos 6 e 7 | 10/11 |
 
-26 aulas de 8 a 12 min (cerca de 4h) + materiais.
+28 aulas de 8 a 12 min (cerca de 4h) + materiais.
 
 ## Módulo 0: Comece aqui
 1. 🎥 Boas-vindas + 📎 Ficha "Meu cenário"
-2. 🎁 Bônus vitória rápida: prompt de calendário + 10 ganchos prontos
+2. 🎁 Bônus vitória rápida: prompt "Meu mês de conteúdo" (usa a Ficha Meu cenário e gera 30 ideias de conteúdo para o negócio)
 
 ## Módulo 1: A mente de quem compra
 1. 🎥 Como o cérebro decide (e por que a emoção vem antes)
@@ -39,6 +39,7 @@ Cada módulo termina com uma tarefa que preenche uma parte do Plano de 30 dias.
 1. 🎥 Por que as histórias prendem desde as cavernas
 2. 🎥 O cliente como herói + a história sem final (Zeigarnik)
 3. 🎥 As histórias que todo negócio tem
+4. 🎥 Tudo vira conteúdo: documente a sua vida e o seu negócio, em qualquer cenário
 
 ## Módulo 3: Estratégia antes do conteúdo
 1. 🎥 Quem é o seu cliente e o seu posicionamento
@@ -55,7 +56,8 @@ Cada módulo termina com uma tarefa que preenche uma parte do Plano de 30 dias.
 2. 🔎 Toyota × Sarah Fonseca
 3. 🔎 Boticário × Mari Krüger, com o contraponto Bud Light
 4. 🔎 Liquid Death
-5. 🎥 Trend e marketing de oportunidade: quando usar e quando queima o filme
+5. 🔎 Dove e as pessoas reais: influenciadoras e anúncio sem cara de anúncio (+ outros casos a checar)
+6. 🎥 Trend e marketing de oportunidade: quando usar e quando queima o filme
 
 ## Módulo 6: Calendário com IA
 1. 🖥️ Como eu monto o calendário
@@ -66,8 +68,10 @@ Cada módulo termina com uma tarefa que preenche uma parte do Plano de 30 dias.
 1. 🎥 Quantos posts cabem na sua vida e a semana de criação
 2. 🖥️ Montando o seu plano de 30 dias
 3. 🎥 Próximos passos: convite para a Comunidade Recria
+4. 📎 Mini Biblioteca Recria (degustação: 5 livros + 10 referências de criativos para modelar)
 
 ## Comunidade Recria
 Trilhas: Recria Ads (incluso), Posicionamento e negócio, Marketing e comportamento (livros), Diferenciação e criatividade, Comercial, Rebrand, Storytelling avançado, Comunidade e relacionamento, IA sem ficar fake, Gravação, Tráfego pago, aulas com convidados.
 Ritmo: 1 aula nova por semana (gravar 5 por semana para manter estoque). Abrir com pelo menos 2 meses de aulas prontas.
-Preço sugerido (fundadores): mensal R$ 47 · anual R$ 397 · compradores do Recria Ads: anual por R$ 300 (o curso vira desconto).
+Biblioteca Recria completa (livros, materiais, insights, referências de criativos) é exclusiva da comunidade e alimentada continuamente.
+Preço sugerido (fundadores): mensal R$ 47 · anual R$ 297 (12x de R$ 24,75 sem juros) · compradores do Recria Ads: anual por R$ 197.
