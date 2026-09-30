@@ -29,7 +29,7 @@
 1. **Reciprocidade:** o presente (e-book) antes de qualquer oferta
 2. **Compromisso e coerência:** comentar a palavra-chave é um pequeno "sim" que leva a outros
 3. **Prova social:** o Case CRM ("R$ 1,2 milhão sem tráfego pago")
-4. **Afeição:** gostamos de quem se parece com a gente. Por isso, bastidores e rosto humano.
+4. **Afeição:** gostamos de quem se parece conosco. Por isso, bastidores e rosto humano.
 5. **Autoridade:** os anos de experiência e os casos analisados
 6. **Escassez:** só vale se for verdadeira ("a condição especial pode mudar")
 7. **Unidade:** "nós, donos de pequenos negócios", o senso de grupo

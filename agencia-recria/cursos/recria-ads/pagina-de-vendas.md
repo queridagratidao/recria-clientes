@@ -28,7 +28,7 @@ A mesma mensagem aparece na página, no vídeo e na aula 0.2:
 *Na edição: o preço entra como um cartão na tela, por cima do vídeo. Se o preço mudar, troca só o cartão, sem regravar.*
 
 **8. Chamada (3min20 a 3min40)**
-"Se você quer vender todo dia sem parecer vendedor chato, clica no botão aqui embaixo. A gente se vê na primeira aula."
+"Se você quer vender todo dia sem parecer vendedor chato, clica no botão aqui embaixo. Nos vemos na primeira aula."
 
 ## Estrutura da página
 
