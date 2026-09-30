@@ -17,17 +17,18 @@ Cada módulo termina com uma tarefa que preenche uma parte do Plano de 30 dias.
 ## Liberação (drip na Hotmart, contada a partir da compra)
 | Dia | Libera | Gravado até (turma de 14/10) |
 |---|---|---|
-| 0 | Módulos 0, 1, 2 + bônus (10 aulas) | 13/10 |
+| 0 | Módulos 0, 1, 2 + bônus (11 aulas) | 13/10 |
 | 7 | Módulo 3 | 20/10 |
 | 14 | Módulo 4 | 27/10 |
 | 21 | Módulo 5 | 03/11 |
 | 28 | Módulos 6 e 7 | 10/11 |
 
-28 aulas de 8 a 12 min (cerca de 4h) + materiais.
+29 aulas de 8 a 12 min (cerca de 4h) + materiais.
 
 ## Módulo 0: Comece aqui
-1. 🎥 Boas-vindas + 📎 Ficha "Meu cenário"
-2. 🎁 Bônus vitória rápida: prompt "Meu mês de conteúdo" (usa a Ficha Meu cenário e gera 30 ideias de conteúdo para o negócio)
+1. 🎥 Boas-vindas: quem sou eu e o que é o Recria Ads
+2. 🖥️ Comece por aqui: como o curso funciona, a liberação semanal, como assistir, as atividades práticas e onde ficam os materiais
+3. 🖥️ O seu cenário (📎 Ficha "Meu cenário") + 🎁 Bônus vitória rápida: prompt "Meu mês de conteúdo" (usa a Ficha Meu cenário e gera 30 ideias de conteúdo para o negócio)
 
 ## Módulo 1: A mente de quem compra
 1. 🎥 Como o cérebro decide (e por que a emoção vem antes)

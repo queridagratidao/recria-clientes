@@ -6,7 +6,7 @@
 **Abertura (fala):** "Olhe para a roupa que você está usando agora. Você consegue explicar, com argumentos, por que escolheu essa peça e não outra? Provavelmente não. E isso não é defeito seu: é assim que o cérebro humano funciona."
 
 **Blocos:**
-1. **Rápido e Devagar (Daniel Kahneman, Nobel de Economia):**
+1. **Rápido e Devagar (Daniel Kahneman (CÁ-nê-man), Nobel de Economia):**
    - Sistema 1: rápido, automático, emocional
    - Sistema 2: lento, analítico, cansativo
    - A maior parte das nossas decisões passa primeiro pelo Sistema 1.
@@ -23,7 +23,7 @@
 ## Aula 1.2 · Gatilhos sem manipulação
 **Formato:** 🖥️ voz + tela (dissecando o funil real da Recria) · **Duração:** 10 a 12 min
 
-**Base:** *As Armas da Persuasão* (Robert Cialdini): os 7 princípios da influência.
+**Base:** *As Armas da Persuasão* (Robert Cialdini (tchal-DÍ-ni)): os 7 princípios da influência.
 
 **Na tela, cada princípio com um exemplo real, a maioria do nosso próprio funil:**
 1. **Reciprocidade:** o presente (e-book) antes de qualquer oferta
@@ -44,13 +44,13 @@
 **Blocos:**
 1. **Oferta direta:** "compre agora, R$ 99". Funciona com quem já está pronto(a), que é a minoria.
 2. **Oferta indireta:** o produto aparece dentro de uma situação, de uma história ou de um resultado, e a pessoa pensa "eu quero isso".
-3. **A equação de valor (Alex Hormozi):** as pessoas desejam mais quando percebem:
+3. **A equação de valor (Alex Hormozi (rôr-MÔU-zi)):** as pessoas desejam mais quando percebem:
    - um resultado maior;
    - mais chance de dar certo;
    - menos tempo;
    - menos esforço.
    O conteúdo pode mostrar cada um desses pontos sem precisar dizer "compre".
-4. **A impressão de aumento (Wallace Wattles, *A Ciência de Ficar Rico*, 1910):** toda pessoa que tiver contato com você deve sair com mais valor do que deu. Aplicado ao conteúdo: cada post precisa deixar algo para quem viu, mesmo que essa pessoa nunca compre. É assim que se constrói desejo.
+4. **A impressão de aumento (Wallace Wattles (UÓ-tous), *A Ciência de Ficar Rico*, 1910):** toda pessoa que tiver contato com você deve sair com mais valor do que deu. Aplicado ao conteúdo: cada post precisa deixar algo para quem viu, mesmo que essa pessoa nunca compre. É assim que se constrói desejo.
 5. **O Jeito Disney de Encantar os Clientes:** a Disney pensa em cada ponto de contato como parte do espetáculo. No Instagram, o direct, o comentário e o story também são "palco".
 6. **Exemplos por nicho:**
    - a doceria não diz "bolo R$ 60"; mostra a cena de aniversário;

@@ -8,24 +8,45 @@
 
 **Blocos:**
 1. **Quem sou eu:** Amanda, CEO da Agência Recria. Mais de 10 anos em marketing, atendendo de pequenas a grandes empresas: banheiras, moda, negócios locais, consultorias.
-2. **O que é o Recria Ads:** conteúdo e anúncio sem cara de anúncio, com neurociência, storytelling e estratégia aplicados às vendas.
-3. **Com o que você sai:** estratégia, ganchos, estruturas de conteúdo, calendário feito com IA e o seu plano de 30 dias.
-4. **Como funciona:**
-   - 1 módulo novo por semana;
-   - toda aula tem o bloco "Como adaptar" para 6 cenários;
-   - toda semana tem uma tarefa, e as tarefas montam o seu plano.
-5. **O combinado:** "Não maratone. Assista, faça a tarefa e aplique. É assim que o conteúdo vira resultado."
+2. **Por que eu criei o Recria Ads:** o que eu mais vejo são donos(as) de negócio competentes que não conseguem vender pelo Instagram sem parecer chatos.
+3. **O que é o Recria Ads:** conteúdo e anúncio sem cara de anúncio, com neurociência, storytelling e estratégia aplicados às vendas.
+4. **Com o que você sai:** estratégia, ganchos, estruturas de conteúdo, calendário feito com IA e o seu plano de 30 dias.
 
 **Slides:**
 1. Recria Ads: venda sem parecer vendedor chato
 2. Quem sou eu (foto + 3 números/fatos)
-3. Com o que você sai (5 ícones)
-4. Os 6 cenários
-5. Como funciona: módulos semanais + tarefas
+3. O que é o Recria Ads
+4. Com o que você sai (5 ícones)
 
-**Fechamento:** "Na próxima aula você vai descobrir o seu cenário e sair com 30 ideias de conteúdo para o seu negócio. Hoje mesmo."
+**Fechamento:** "Antes de começar, a próxima aula mostra como aproveitar o curso ao máximo. Não pule essa."
 
-## Aula 0.2 · O seu cenário + 30 ideias de conteúdo hoje
+## Aula 0.2 · Comece por aqui: como o curso funciona
+**Formato:** 🖥️ tela + voz (tour pela área de membros da Hotmart) · **Duração:** 6 a 8 min
+
+**Blocos:**
+1. **Como o curso está organizado:**
+   - Módulo 0 + 7 módulos;
+   - mostrar na tela a lista de módulos e o cronograma de liberação.
+2. **Por que a liberação é semanal:**
+   - "Um módulo novo a cada 7 dias. Não é para te segurar, é para você ter tempo de aplicar."
+   - Conteúdo sem prática vira só informação. Com prática, vira resultado.
+3. **Como assistir:**
+   - uma aula por dia, de uns 10 minutos;
+   - aulas de tela, de preferência no computador;
+   - pode acelerar para 1,25x;
+   - tenha um caderno ou documento "Meu Recria Ads" para as anotações.
+4. **As atividades práticas:**
+   - toda aula termina com uma tarefa;
+   - cada tarefa preenche uma parte do seu Plano de 30 dias;
+   - no último módulo, você junta tudo e sai com o plano pronto.
+5. **Onde estão os materiais:** mostrar na tela a aba de materiais (ficha, prompts, bancos, calendários).
+6. **Os 6 cenários:** toda aula termina com o bloco "Como adaptar". Descubra o seu na próxima aula.
+7. **Dúvidas:** comente embaixo de cada aula. Eu leio e respondo.
+8. **O combinado:** "Não maratone, não busque perfeição. Feito é melhor do que perfeito."
+
+**Fechamento:** "Agora sim: bora descobrir o seu cenário e sair com 30 ideias de conteúdo, hoje mesmo."
+
+## Aula 0.3 · O seu cenário + 30 ideias de conteúdo hoje
 **Formato:** 🖥️ tela + voz · **Duração:** 10 a 12 min
 
 **Na tela:**

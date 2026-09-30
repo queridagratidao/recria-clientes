@@ -7,7 +7,7 @@
 
 **Blocos:**
 1. **Pinturas rupestres:** as cenas mais antigas que conhecemos já contam uma história (caçadores e animais). *Checar data e fonte antes de gravar.*
-2. **Sapiens (Harari):** o ser humano coopera em grande escala porque acredita nas mesmas histórias. Marcas também são histórias em que as pessoas escolhem acreditar.
+2. **Sapiens (Harari (ra-RÁ-ri)):** o ser humano coopera em grande escala porque acredita nas mesmas histórias. Marcas também são histórias em que as pessoas escolhem acreditar.
 3. **Dado × história:**
    - "Nosso bolo usa ingredientes selecionados." (a pessoa esquece)
    - "A receita é da minha avó, que fazia esse bolo todo domingo…" (a pessoa sente)
@@ -28,14 +28,14 @@
 **Formato:** 🖥️ voz + tela (slides e análise de um carrossel) · **Duração:** 10 a 12 min
 
 **Blocos:**
-1. **A jornada do herói (Campbell), simplificada:**
+1. **A jornada do herói (Campbell (CÂM-bel)), simplificada:**
    - uma pessoa comum;
    - um problema;
    - encontra um guia;
    - enfrenta o desafio;
    - se transforma.
-2. **O erro mais comum:** a marca se colocar como herói ("nós somos os melhores"). **StoryBrand (Donald Miller):** o herói é o cliente. A marca é o guia, como o mestre Yoda.
-3. **A história sem final (efeito Zeigarnik):**
+2. **O erro mais comum:** a marca se colocar como herói ("nós somos os melhores"). **StoryBrand (Donald Miller (MÍ-ler)):** o herói é o cliente. A marca é o guia, como o mestre Yoda.
+3. **A história sem final (efeito Zeigarnik (zei-GÁR-nik)):**
    - Bluma Zeigarnik observou que garçons lembravam os pedidos ainda não pagos e esqueciam os já pagos;
    - o cérebro não sossega com o que ficou aberto;
    - é por isso que a novela acaba no ápice.
@@ -75,7 +75,7 @@
 **Formato:** 🖥️ tela do celular + voz (mostrando na prática) · **Duração:** 10 min
 
 **Blocos:**
-1. **"Mostre seu Trabalho!" (Austin Kleon):** você não precisa ser genial, precisa ser visível. Documentar é mais fácil do que criar do zero.
+1. **"Mostre seu Trabalho!" (Austin Kleon (KLÍ-on)):** você não precisa ser genial, precisa ser visível. Documentar é mais fácil do que criar do zero.
 2. **O método de capturar sem parar a rotina:**
    - um álbum "Conteúdo" no celular;
    - uma nota "Banco de ideias";
