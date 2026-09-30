@@ -23,10 +23,10 @@
 ## Aula 0.2 · Comece por aqui: como o curso funciona
 **Formato:** 🎥 câmera + slide · **Duração:** 6 a 8 min
 
-**Abertura (fala):** "Antes de qualquer conteúdo, eu quero te mostrar como aproveitar este curso de verdade. Porque assistir não muda nada. Aplicar, sim."
+**Abertura (fala):** "Eu sei que você é dono(a) de negócio e não tem tempo sobrando. Então o único compromisso que eu te peço aqui é este: 10 minutos por dia. É o tempo de uma aula. E é o suficiente para você consumir o curso e já ter resultado, porque aqui você não vai só assistir. Você vai assistir e aplicar."
 
 **Blocos:**
-1. **O compromisso de 10 minutos:** "Eu sei que você é dono(a) de negócio e não tem tempo sobrando. Por isso, eu te peço uma coisa só: separe na sua agenda um compromisso diário de 10 minutos. É o suficiente para uma aula por dia."
+1. **Por que 10 minutos funcionam:** "Dez minutos por dia, todos os dias, valem mais do que cinco horas num domingo que nunca chega. Coloque na agenda como um compromisso com o seu negócio: pode ser no café da manhã, antes de abrir a loja, no intervalo do almoço."
 2. **Um módulo por semana:** a cada 7 dias, um módulo novo é liberado, sempre com atividades práticas.
 3. **Nada de obesidade mental:** "Ninguém aprende maratonando dez aulas seguidas. Consumir conteúdo sem aplicar é obesidade mental: você enche a cabeça e não muda nada no negócio. Aqui é diferente: você assiste, faz a atividade, aplica no seu negócio no dia seguinte e só depois segue."
 4. **Aprende e aplica, toda semana:** cada atividade é uma pequena vitória no seu negócio real. Semana a semana, você evolui na prática.

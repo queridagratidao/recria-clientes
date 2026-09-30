@@ -18,21 +18,23 @@ A mesma mensagem aparece na página, no vídeo e na aula 0.2:
 "Eu sou a Amanda, CEO da Agência Recria. Há mais de 10 anos eu faço isso por empresas de todos os tamanhos: de banheiras a moda, de negócios locais a consultorias. E agora eu decidi abrir o meu método."
 
 **5. O que é o Recria Ads (1min35 a 2min15)**
-"O Recria Ads é o curso para você aprender a criar conteúdos e anúncios sem cara de anúncio e vender sem parecer aquele vendedor chato. Com neurociência, storytelling, ganchos, estratégia e IA para montar o seu calendário. E tudo adaptado ao seu cenário: seja você uma eupresa, um negócio local, um e-commerce ou uma empresa maior."
+"No Recria Ads, eu vou abrir para você a metodologia da Agência Recria, a mesma que hoje só os nossos clientes têm acesso. Você vai aprender a criar conteúdos e anúncios sem cara de anúncio, usando neurociência, jornada do consumidor e muito mais do que eu sintetizei em mais de 10 anos de prática. Tudo adaptado ao seu cenário: seja você uma eupresa, um negócio local, um e-commerce ou uma empresa maior."
 
 **6. Como funciona (2min15 a 2min50)**
 "E eu não quero te empurrar mais um curso para você acumular. Eu te peço só 10 minutos por dia. Uma aula por dia. A cada semana, um módulo novo é liberado, com atividades práticas. Você aprende, aplica no seu negócio no dia seguinte e só depois segue. Nada de obesidade mental, de consumir conteúdo e não aplicar nada. Em cerca de um mês, você termina o curso com tudo aplicado: conteúdo sem cara de anúncio, o seu calendário pronto e o seu Plano de 30 dias."
 
 **7. Oferta e garantia (2min50 a 3min20)**
-"E já no primeiro dia você recebe um bônus: um prompt que gera 30 ideias de conteúdo para o seu negócio. O Recria Ads custa R$ 97, em até 12 vezes. E você tem 7 dias de garantia: se não for para você, devolvemos o seu dinheiro."
+"E já no primeiro dia você recebe um bônus: um prompt que gera 30 ideias de conteúdo para o seu negócio. Neste exato momento, o Recria Ads está pelo valor que aparece aqui na sua tela, e você pode parcelar em até 12 vezes. E você tem 7 dias de garantia: se não for para você, eu devolvo o seu dinheiro."
+*Na edição: o preço entra como um cartão na tela, por cima do vídeo. Se o preço mudar, troca só o cartão, sem regravar.*
 
 **8. Chamada (3min20 a 3min40)**
 "Se você quer vender todo dia sem parecer vendedor chato, clica no botão aqui embaixo. A gente se vê na primeira aula."
 
 ## Estrutura da página
 
-1. **Título:** Venda todo dia sem parecer aquele vendedor chato.
-   **Subtítulo:** Aprenda a criar conteúdos e anúncios sem cara de anúncio, em apenas 10 minutos por dia, e em cerca de um mês tenha tudo aplicado no seu negócio.
+1. **Sobretítulo:** RECRIA ADS
+   **Título:** Aprenda a criar conteúdos e anúncios sem cara de anúncio
+   **Subtítulo:** Em apenas 10 minutos por dia, em cerca de 1 mês você vai ter tudo aplicado no seu negócio e vai aprender a vender todo santo dia sem parecer aquele vendedor chato.
    [Vídeo] [Botão: Quero entrar no Recria Ads]
 
 2. **Você se reconhece?**
@@ -42,6 +44,8 @@ A mesma mensagem aparece na página, no vídeo e na aula 0.2:
    - Você não tem tempo sobrando para "estudar marketing".
 
 3. **A virada:** as pessoas pulam anúncio, mas param para uma boa história. É isso que você vai aprender a fazer.
+
+3b. **O "uau":** "Eu vou abrir para você a metodologia da Agência Recria. A mesma que hoje só os nossos clientes da agência têm acesso, agora para você aplicar no seu negócio." Neurociência, jornada do consumidor e muito mais, sintetizados em mais de 10 anos de prática.
 
 4. **Como funciona: 10 minutos por dia**
    - 🕙 1 aula por dia, de cerca de 10 minutos
@@ -80,7 +84,7 @@ A mesma mensagem aparece na página, no vídeo e na aula 0.2:
 
 9. **Quem é a Amanda:** foto, a história, mais de 10 anos, os nichos atendidos.
 
-10. **Investimento:** R$ 97 ou em até 12x. [Botão]
+10. **Investimento:** R$ 97 ou em até 12x. [Botão] (na página o preço aparece escrito; só no vídeo ele fica no cartão)
 
 11. **Garantia de 7 dias.**
 
