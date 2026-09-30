@@ -74,4 +74,4 @@ Cada módulo termina com uma tarefa que preenche uma parte do Plano de 30 dias.
 Trilhas: Recria Ads (incluso), Posicionamento e negócio, Marketing e comportamento (livros), Diferenciação e criatividade, Comercial, Rebrand, Storytelling avançado, Comunidade e relacionamento, IA sem ficar fake, Gravação, Tráfego pago, aulas com convidados.
 Ritmo: 1 aula nova por semana (gravar 5 por semana para manter estoque). Abrir com pelo menos 2 meses de aulas prontas.
 Biblioteca Recria completa (livros, materiais, insights, referências de criativos) é exclusiva da comunidade e alimentada continuamente.
-Preço sugerido (fundadores): mensal R$ 47 · anual R$ 297 (12x de R$ 24,75 sem juros) · compradores do Recria Ads: anual por R$ 197.
+Preço sugerido (fundadores): mensal R$ 47 · anual R$ 297 (12x de R$ 24,75 sem juros) · compradores do Recria Ads: anual por R$ 247 (12x de R$ 20,58 sem juros).
