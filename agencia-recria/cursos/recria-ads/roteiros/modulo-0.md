@@ -1,7 +1,7 @@
 # Recria Ads · Módulo 0: Comece aqui
 
 ## Aula 0.1 · Boas-vindas: o que muda a partir de hoje
-**Formato:** 🎥 câmera + slide · **Duração:** 5 a 7 min
+**Formato:** 🎥 câmera + slide · **Duração:** cerca de 4 min (máximo 10)
 
 **Abertura (fala):**
 "Você já sentiu que posta, posta, e quase ninguém compra? Ou que, na hora em que fala do produto, as pessoas somem? Isso não é falta de esforço. É que o jeito de vender mudou. Hoje as pessoas pulam anúncio, mas param para assistir uma boa história. E é exatamente isso que você vai aprender aqui: a vender todo dia sem parecer aquele vendedor chato."
@@ -21,7 +21,7 @@
 **Fechamento:** "Antes de começar, a próxima aula mostra como aproveitar o curso ao máximo. Não pule essa."
 
 ## Aula 0.2 · Comece por aqui: como o curso funciona
-**Formato:** 🎥 câmera + slide · **Duração:** 6 a 8 min
+**Formato:** 🎥 câmera + slide · **Duração:** cerca de 5 min (máximo 10)
 
 **Abertura (fala):** "Eu sei que você é dono(a) de negócio e não tem tempo sobrando. Então o único compromisso que eu te peço aqui é este: 10 minutos por dia. É o tempo de uma aula. E é o suficiente para você consumir o curso e já ter resultado, porque aqui você não vai só assistir. Você vai assistir e aplicar."
 
@@ -33,7 +33,7 @@
 5. **Reforço do que foi prometido:** "Em cerca de um mês, você vai estar com tudo o que aprendeu aqui condensado, aprofundado e aplicado no seu negócio: conteúdo sem cara de anúncio, o calendário pronto e o seu Plano de 30 dias. Pronto(a) para engajar mais e vender sem parecer vendedor chato."
 6. **Como assistir:** aulas de tela, de preferência no computador; pode acelerar para 1,25x; tenha um caderno ou documento "Meu Recria Ads".
 7. **Materiais:** fichas, prompts e bancos ficam anexados nas próprias aulas.
-8. **Os 6 cenários:** toda aula termina com o bloco "Como adaptar".
+8. **Os 7 cenários:** toda aula termina com o bloco "Como adaptar".
 9. **O grupo do WhatsApp da turma:** aberto semanalmente para dúvidas, com conteúdos novos, bastidores e interações. Um a mais. Dúvidas também nos comentários de cada aula, com o suporte da Amanda e da equipe. **1 ano de acesso:** termina em cerca de 1 mês, e ainda tem mais 11 meses para rever. Dúvidas sobre as aulas vão nos comentários de cada aula.
 10. **O combinado:** "Não maratone, não busque perfeição. Feito é melhor do que perfeito."
 
@@ -47,11 +47,11 @@
 **Fechamento:** "Agora sim: bora descobrir o seu cenário e sair com 30 ideias de conteúdo, hoje mesmo."
 
 ## Aula 0.3 · O seu cenário + 30 ideias de conteúdo hoje
-**Formato:** 🖥️ tela + voz · **Duração:** 10 a 12 min
+**Formato:** 🖥️ tela + voz · **Duração:** cerca de 8 min (máximo 10)
 
 **Na tela:**
 1. Abrir a Ficha "Meu cenário" e preencher um exemplo ao vivo (sugestão: uma doceria de bairro).
-2. Mostrar os 6 cenários e em qual o exemplo se encaixa.
+2. Mostrar os 7 cenários e em qual o exemplo se encaixa.
 3. Abrir o ChatGPT (ou Claude), colar o prompt "Meu mês de conteúdo" com a ficha preenchida.
 4. Ler o resultado com olhar crítico: "o que eu manteria, o que eu cortaria e por quê".
 5. Salvar as ideias num documento ou nas notas do celular.
@@ -75,7 +75,7 @@
 10. O tom de voz da marca em 3 palavras
 11. Datas importantes do seu negócio (sazonalidade, datas comerciais, aniversário da marca)
 12. O seu objetivo principal nos próximos 90 dias
-13. O seu cenário: 1. Eupresa · 2. Negócio local · 3. E-commerce · 4. Empresa média · 5. Empresa grande · 6. Serviços e consultoria (B2B)
+13. O seu cenário: 1. Eupresa · 2. Negócio local · 3. E-commerce · 4. Empresa média · 5. Empresa grande · 6. Serviços e consultoria (B2B) · 7. Negócio digital
 
 ## 🎁 Bônus: prompt "Meu mês de conteúdo"
 ```

@@ -5,13 +5,16 @@
 **Promessa:** aprenda a vender todo dia sem parecer aquele vendedor chato e saia com a estratégia, o calendário de conteúdo e o de anúncios prontos para o seu negócio.
 
 Formatos: 🎥 câmera + slide · 🖥️ tela + voz · 🔎 análise de caso · 📎 material
-Toda aula termina com o bloco "Como adaptar" para os 6 cenários:
+Toda aula termina com o bloco "Como adaptar" para os 7 cenários:
 1. Eupresa
 2. Negócio local
 3. E-commerce
 4. Empresa média
 5. Empresa grande / marketing interno
 6. Serviços e consultoria (B2B)
+7. Negócio digital (infoprodutos, cursos, mentorias, consultorias e serviços entregues online)
+
+Negócios de educação, saúde e bem-estar com espaço físico (escola, clínica, academia, consultório) entram em Negócio local. A versão 100% online deles entra em Negócio digital.
 
 Cada módulo termina com uma tarefa que preenche uma parte do Plano de 30 dias.
 
@@ -24,7 +27,7 @@ Cada módulo termina com uma tarefa que preenche uma parte do Plano de 30 dias.
 | 21 | Módulo 5 | 03/11 |
 | 28 | Módulos 6 e 7 | 10/11 |
 
-29 aulas de 8 a 12 min (cerca de 4h) + materiais.
+29 aulas de no máximo 10 min cada (cerca de 3 horas no total) + materiais. Regra: se uma aula passar de 10 minutos, ela vira duas.
 
 ## Módulo 0: Comece aqui
 1. 🎥 Boas-vindas: quem sou eu e o que é o Recria Ads
@@ -64,7 +67,7 @@ Cada módulo termina com uma tarefa que preenche uma parte do Plano de 30 dias.
 ## Módulo 6: Calendário com IA
 1. 🖥️ Como eu monto o calendário
 2. 🖥️ O prompt-mestre
-3. 🖥️ Montando juntos + 📎 calendários prontos para os 6 cenários
+3. 🖥️ Montando juntos + 📎 calendários prontos para os 7 cenários
 
 ## Módulo 7: Rotina e plano
 1. 🎥 Quantos posts cabem na sua vida e a semana de criação

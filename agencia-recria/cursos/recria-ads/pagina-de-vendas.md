@@ -48,7 +48,7 @@ A mesma mensagem aparece na página, no vídeo e na aula 0.2:
 3b. **O "uau":** "Eu vou abrir para você a metodologia da Agência Recria. A mesma que hoje só os nossos clientes da agência têm acesso, agora para você aplicar no seu negócio." Neurociência, jornada do consumidor e muito mais, sintetizados em mais de 10 anos de prática.
 
 4. **Como funciona: 10 minutos por dia**
-   - 🕙 1 aula por dia, de cerca de 10 minutos
+   - 🕙 1 aula por dia, de no máximo 10 minutos
    - 📅 1 módulo novo por semana, com atividades práticas
    - ✅ Aprende e aplica: pequenas vitórias toda semana, sem obesidade mental
    - 🏁 Em cerca de 1 mês: tudo condensado, aprofundado e aplicado no seu negócio
@@ -70,6 +70,7 @@ A mesma mensagem aparece na página, no vídeo e na aula 0.2:
    - empresa média
    - empresa grande
    - serviços e consultoria
+   - negócio digital (infoprodutos, mentorias, consultorias e serviços online)
 
 7. **Com o que você sai:**
    - conteúdo sem cara de anúncio

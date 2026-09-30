@@ -3,7 +3,7 @@
 ---
 
 ## Aula 1.1 · Como o cérebro decide
-**Formato:** 🎥 Câmera + slide · **Duração:** cerca de 8 min
+**Formato:** 🎥 Câmera + slide · **Duração:** cerca de 6 min (máximo 10)
 
 **[SLIDE 1: A mente de quem compra]**
 
@@ -77,7 +77,9 @@ No e-commerce, mostra o produto na vida real de quem usa, não só no fundo bran
 
 Na empresa média ou grande, use as pessoas da equipe e a causa da marca.
 
-E, em serviços e consultoria, conte a transformação do cliente: como ele estava antes e como está agora.
+Em serviços e consultoria, conte a transformação do cliente: como ele estava antes e como está agora.
+
+E, no negócio digital, onde o cliente não entra na sua loja, o seu Sistema 1 são os bastidores e os resultados de alunos e clientes. Mostre a pessoa por trás da tela.
 
 **[SLIDE 9: Atividade]**
 
@@ -92,7 +94,7 @@ Anota no seu "Meu Recria Ads". Na próxima aula, nós vamos falar de gatilhos. E
 ---
 
 ## Aula 1.2 · Gatilhos sem manipulação
-**Formato:** 🖥️ Voz + Canva · **Duração:** cerca de 10 min
+**Formato:** 🖥️ Voz + Canva · **Duração:** cerca de 6 min (máximo 10)
 
 **Para montar no Canva:** uma página por princípio, com o print real correspondente da Recria (comentário com palavra-chave, mensagem da automação, card do Case CRM etc.).
 
@@ -171,7 +173,7 @@ Na próxima aula, você vai entender por que gerar desejo vende mais do que faze
 ---
 
 ## Aula 1.3 · Desejo antes da oferta
-**Formato:** 🎙️ Só câmera (teleprompter) · **Duração:** cerca de 8 min
+**Formato:** 🎙️ Só câmera (teleprompter) · **Duração:** cerca de 6 min (máximo 10)
 
 Existem dois jeitos de vender no Instagram.
 
@@ -228,7 +230,7 @@ Na próxima aula, eu vou te mostrar um caso real de uma marca gigante que fez ex
 ---
 
 ## Aula 1.4 · Burger King × Dragon Ball: a memória afetiva que vende
-**Formato:** 🖥️ Voz + Canva · **Duração:** cerca de 7 min
+**Formato:** 🖥️ Voz + Canva · **Duração:** cerca de 5 min (máximo 10)
 
 **Para montar no Canva:** prints das notícias e de posts públicos da campanha (com crédito da fonte na tela). Não usar o logo do Burger King como destaque.
 

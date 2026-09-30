@@ -1,7 +1,7 @@
 # Recria Ads · Módulo 1: A mente de quem compra
 
 ## Aula 1.1 · Como o cérebro decide (e por que a emoção vem antes)
-**Formato:** 🎥 câmera + slide · **Duração:** 8 a 10 min
+**Formato:** 🎥 câmera + slide · **Duração:** cerca de 6 min (máximo 10)
 
 **Abertura (fala):** "Olhe para a roupa que você está usando agora. Você consegue explicar, com argumentos, por que escolheu essa peça e não outra? Provavelmente não. E isso não é defeito seu: é assim que o cérebro humano funciona."
 
@@ -16,12 +16,12 @@
    - depois entregue ao Sistema 2: prova, preço, garantia, detalhes.
    - O erro mais comum é abrir o post com a ficha técnica.
 4. **Exemplo:** a clínica que abre com "Tecnologia de última geração" × a que abre com "Eu evitava tirar foto de perfil há 3 anos…"
-5. **Como adaptar aos 6 cenários** (slide).
+5. **Como adaptar aos 7 cenários** (slide).
 
 **Tarefa:** pegue 3 posts antigos seus e responda: eles falam primeiro com o Sistema 1 ou com o Sistema 2?
 
 ## Aula 1.2 · Gatilhos sem manipulação
-**Formato:** 🖥️ voz + tela (dissecando o funil real da Recria) · **Duração:** 10 a 12 min
+**Formato:** 🖥️ voz + tela (dissecando o funil real da Recria) · **Duração:** cerca de 6 min (máximo 10)
 
 **Base:** *As Armas da Persuasão* (Robert Cialdini (tchal-DÍ-ni)): os 7 princípios da influência.
 
@@ -39,7 +39,7 @@
 **Tarefa:** escolha 3 princípios e escreva como cada um pode aparecer no seu negócio esta semana.
 
 ## Aula 1.3 · Desejo antes da oferta: oferta direta × oferta indireta
-**Formato:** 🎥 câmera + slide · **Duração:** 8 a 10 min
+**Formato:** 🎥 câmera + slide · **Duração:** cerca de 6 min (máximo 10)
 
 **Blocos:**
 1. **Oferta direta:** "compre agora, R$ 99". Funciona com quem já está pronto(a), que é a minoria.
@@ -59,7 +59,7 @@
 **Tarefa:** transforme uma oferta direta sua numa oferta indireta.
 
 ## Aula 1.4 · Burger King × Dragon Ball: a memória afetiva que vende
-**Formato:** 🔎 análise de caso (voz + tela) · **Duração:** 8 a 10 min
+**Formato:** 🔎 análise de caso (voz + tela) · **Duração:** cerca de 5 min (máximo 10)
 
 **Fatos (checados):**
 - Setembro de 2026: o Burger King lançou no Brasil uma coleção de Dragon Ball Super, em parceria com a Toei Animation.

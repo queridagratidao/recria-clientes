@@ -8,14 +8,15 @@ b.page('light','''<div class="kick">O compromisso</div><h1>10 minutos por dia <e
 <li><b>Aprende → aplica → evolui.</b> Assista, faça a atividade, aplique no dia seguinte e só depois siga.</li>
 <li><b>Em cerca de 1 mês:</b> tudo condensado, aprofundado e aplicado no seu negócio.</li></ul>
 <div class="box">Obesidade mental é encher a cabeça de conteúdo e não mudar nada no negócio. Aqui, cada aula vira ação.</div>''')
-b.page('dark','''<div class="kick">Os 6 cenários</div><h1>Em qual <em class="g">você está?</em></h1>
+b.page('dark','''<div class="kick">Os 7 cenários</div><h1>Em qual <em class="g">você está?</em></h1>
 <table><tr><th>Cenário</th><th>Quem é</th></tr>
 <tr><td>1. Eupresa</td><td>A empresa de uma pessoa só: você faz tudo</td></tr>
-<tr><td>2. Negócio local</td><td>Loja, restaurante, clínica, salão, com público da sua cidade</td></tr>
+<tr><td>2. Negócio local</td><td>Tem espaço físico: loja, restaurante, salão, escola, clínica, academia, consultório</td></tr>
 <tr><td>3. E-commerce</td><td>Vende online e entrega em vários lugares</td></tr>
 <tr><td>4. Empresa média</td><td>Tem equipe, alguma verba e já pensa em influenciadores</td></tr>
 <tr><td>5. Empresa grande</td><td>Tem time de marketing interno</td></tr>
-<tr><td>6. Serviços e consultoria</td><td>Vende conhecimento, atendimento, transformação</td></tr></table>
+<tr><td>6. Serviços e consultoria</td><td>Atende outras empresas: conhecimento, atendimento, transformação</td></tr>
+<tr><td>7. Negócio digital</td><td>Infoprodutos, cursos, mentorias, consultorias e serviços entregues online</td></tr></table>
 <p style="margin-top:18px">Toda aula termina com o bloco <b>"Como adaptar"</b> para o seu cenário.</p>''')
 b.page('light','''<div class="kick">Checklist da semana 1</div><h1>Antes de ir para o <em class="g">Módulo 1</em></h1>
 <ul><li class="ck">Coloquei os 10 minutos diários na minha agenda</li>

@@ -13,22 +13,26 @@ Liberados no dia da compra · gravar até 13/10 · 11 aulas
 
 **Como gravar a tela:** no Canva, use o botão "Apresentar e gravar". No computador, o Loom ou a gravação de tela do próprio Windows (Win + Alt + R) resolvem.
 
+**Na aula 0.3 (tela):** pause a gravação enquanto a IA gera a resposta e preencha a ficha de forma rápida, só com o exemplo. Assim a aula fica dentro dos 10 minutos.
+
 **Leia como se estivesse conversando.** Pode trocar palavras pelas suas. Os textos são um apoio, não uma prisão.
 
 ## Ordem de gravação sugerida (grave por formato, não por aula)
 1. **Dia 1 (câmera):** 0.1 🎥 · 0.2 🎙️ · 1.1 🎥 · 1.3 🎙️ · 2.1 🎥 · 2.3 🎙️
 2. **Dia 2 (tela):** 0.3 💻 · 1.2 🖥️ · 1.4 🖥️ · 2.2 🖥️ · 2.4 🖥️
 
+**Regra: nenhuma aula passa de 10 minutos.** Se uma aula crescer na gravação, ela vira duas.
+
 | Aula | Formato | Duração |
 |---|---|---|
-| 0.1 Boas-vindas | 🎥 | 5 min |
-| 0.2 Comece por aqui | 🎙️ | 6 min |
-| 0.3 O seu cenário + 30 ideias | 💻 | 10 min |
-| 1.1 Como o cérebro decide | 🎥 | 8 min |
-| 1.2 Gatilhos sem manipulação | 🖥️ | 10 min |
-| 1.3 Desejo antes da oferta | 🎙️ | 8 min |
-| 1.4 Burger King × Dragon Ball | 🖥️ | 7 min |
-| 2.1 Por que as histórias prendem | 🎥 | 8 min |
-| 2.2 O cliente é o herói + a história sem final | 🖥️ | 9 min |
-| 2.3 As histórias que todo negócio tem | 🎙️ | 8 min |
-| 2.4 Tudo vira conteúdo | 🖥️ | 8 min |
+| 0.1 Boas-vindas | 🎥 | 4 min |
+| 0.2 Comece por aqui | 🎙️ | 5 min |
+| 0.3 O seu cenário + 30 ideias | 💻 | 8 min |
+| 1.1 Como o cérebro decide | 🎥 | 6 min |
+| 1.2 Gatilhos sem manipulação | 🖥️ | 6 min |
+| 1.3 Desejo antes da oferta | 🎙️ | 6 min |
+| 1.4 Burger King × Dragon Ball | 🖥️ | 5 min |
+| 2.1 Por que as histórias prendem | 🎥 | 6 min |
+| 2.2 O cliente é o herói + a história sem final | 🖥️ | 7 min |
+| 2.3 As histórias que todo negócio tem | 🎙️ | 6 min |
+| 2.4 Tudo vira conteúdo | 🖥️ | 6 min |

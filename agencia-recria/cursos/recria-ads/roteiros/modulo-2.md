@@ -1,7 +1,7 @@
 # Recria Ads · Módulo 2: Storytelling
 
 ## Aula 2.1 · Por que as histórias prendem desde as cavernas
-**Formato:** 🎥 câmera + slide · **Duração:** 8 a 10 min
+**Formato:** 🎥 câmera + slide · **Duração:** cerca de 6 min (máximo 10)
 
 **Abertura (fala):** "Muito antes de existir escrita, dinheiro ou Instagram, o ser humano já contava histórias. Nas paredes das cavernas, em volta da fogueira. Não era passatempo: era assim que o grupo aprendia o que era perigoso, onde havia comida, em quem confiar."
 
@@ -12,7 +12,7 @@
    - "Nosso bolo usa ingredientes selecionados." (a pessoa esquece)
    - "A receita é da minha avó, que fazia esse bolo todo domingo…" (a pessoa sente)
 4. **Os 3 elementos de toda história:** personagem, conflito e transformação.
-5. **Como adaptar aos 6 cenários:**
+5. **Como adaptar aos 7 cenários:**
    - Eupresa: a sua trajetória
    - Negócio local: o bairro e os clientes
    - E-commerce: quem usa o produto
@@ -20,12 +20,12 @@
    - Empresa grande: a causa
    - Serviços: a transformação do cliente
 
-**Slides:** caverna → fogueira → dado × história → personagem, conflito, transformação → 6 cenários
+**Slides:** caverna → fogueira → dado × história → personagem, conflito, transformação → 7 cenários
 
 **Tarefa:** escreva 3 histórias reais do seu negócio, em uma frase cada.
 
 ## Aula 2.2 · O cliente é o herói + a história sem final
-**Formato:** 🖥️ voz + tela (slides e análise de um carrossel) · **Duração:** 10 a 12 min
+**Formato:** 🖥️ voz + tela (slides e análise de um carrossel) · **Duração:** cerca de 7 min (máximo 10)
 
 **Blocos:**
 1. **A jornada do herói (Campbell (CÂM-bel)), simplificada:**
@@ -53,7 +53,7 @@
 **Tarefa:** reescreva uma das suas 3 histórias com o cliente como herói e um loop aberto na primeira frase.
 
 ## Aula 2.3 · As histórias que todo negócio tem
-**Formato:** 🎥 câmera + slide · **Duração:** 8 a 10 min
+**Formato:** 🎥 câmera + slide · **Duração:** cerca de 6 min (máximo 10)
 
 **Fala-chave:** "'Mas o meu negócio não tem história.' Tem, sim. Você só está acostumado(a) demais com ela."
 
@@ -72,7 +72,7 @@
 **Tarefa:** montar o seu Banco de Histórias, com uma história para cada um dos 8 tipos.
 
 ## Aula 2.4 · Tudo vira conteúdo: documente a sua vida e o seu negócio
-**Formato:** 🖥️ tela do celular + voz (mostrando na prática) · **Duração:** 10 min
+**Formato:** 🖥️ tela do celular + voz (mostrando na prática) · **Duração:** cerca de 6 min (máximo 10)
 
 **Blocos:**
 1. **"Mostre seu Trabalho!" (Austin Kleon (KLÍ-on)):** você não precisa ser genial, precisa ser visível. Documentar é mais fácil do que criar do zero.
@@ -86,7 +86,7 @@
    - O que o cliente me perguntou?
    - O que ninguém vê?
 4. **Na tela:** pegar um momento banal (por exemplo, abrir a loja de manhã) e transformar em 3 conteúdos: um story, um reels e um carrossel. Mostrar a montagem no celular ou no Canva.
-5. **Como adaptar aos 6 cenários:**
+5. **Como adaptar aos 7 cenários:**
    - dono(a) que não gosta de aparecer: mãos e processo;
    - equipe: rodízio de quem grava;
    - empresa grande: um "repórter interno".

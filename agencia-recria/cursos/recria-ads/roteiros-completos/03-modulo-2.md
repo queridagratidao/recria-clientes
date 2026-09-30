@@ -3,7 +3,7 @@
 ---
 
 ## Aula 2.1 · Por que as histórias prendem desde as cavernas
-**Formato:** 🎥 Câmera + slide · **Duração:** cerca de 8 min
+**Formato:** 🎥 Câmera + slide · **Duração:** cerca de 6 min (máximo 10)
 
 **[SLIDE 1: Storytelling · por que as histórias prendem]**
 
@@ -69,7 +69,9 @@ Na empresa média, a equipe: quem faz, quem atende, quem está por trás.
 
 Na empresa grande, a causa. O que a marca defende.
 
-E em serviços e consultoria, a transformação do cliente: como ele chegou e como saiu.
+Em serviços e consultoria, a transformação do cliente: como ele chegou e como saiu.
+
+E no negócio digital, a jornada do aluno ou do cliente: onde ele estava quando te encontrou e aonde chegou. E também a sua própria jornada, porque quem compra um produto digital compra, antes de tudo, a pessoa que está por trás dele.
 
 **[SLIDE 8: Atividade]**
 
@@ -84,7 +86,7 @@ Na próxima aula, eu vou te mostrar quem deve ser o herói da sua história. E, 
 ---
 
 ## Aula 2.2 · O cliente é o herói + a história sem final
-**Formato:** 🖥️ Voz + Canva · **Duração:** cerca de 9 min
+**Formato:** 🖥️ Voz + Canva · **Duração:** cerca de 7 min (máximo 10)
 
 **Para montar no Canva:** as páginas com os textos abaixo + os cards do carrossel do Case CRM (07/10), para a análise.
 
@@ -171,7 +173,7 @@ Na próxima aula, eu vou provar que o seu negócio tem muito mais histórias do 
 ---
 
 ## Aula 2.3 · As histórias que todo negócio tem
-**Formato:** 🎙️ Só câmera (teleprompter) · **Duração:** cerca de 8 min
+**Formato:** 🎙️ Só câmera (teleprompter) · **Duração:** cerca de 6 min (máximo 10)
 
 "Amanda, mas o meu negócio não tem história."
 
@@ -231,7 +233,7 @@ E, na próxima aula, eu vou te ensinar a nunca mais ficar sem história: documen
 ---
 
 ## Aula 2.4 · Tudo vira conteúdo
-**Formato:** 🖥️ Voz + Canva (com vídeos e fotos do seu celular) · **Duração:** cerca de 8 min
+**Formato:** 🖥️ Voz + Canva (com vídeos e fotos do seu celular) · **Duração:** cerca de 6 min (máximo 10)
 
 **Para montar no Canva:** as páginas abaixo + 3 tomadas reais gravadas no celular de um momento comum (ex.: abrindo a agência/escritório de manhã): plano aberto, detalhe e rosto. Na tela 7, mostrar as 3 tomadas viradas em story, reels e carrossel.
 
@@ -289,7 +291,9 @@ E, se você não gosta de aparecer, tudo bem. Grava as suas mãos trabalhando, o
 
 Se você tem equipe, faz um rodízio de quem grava na semana. Cada semana, uma pessoa fica responsável por registrar os bastidores.
 
-E, se é uma empresa grande, vale ter um "repórter interno": alguém que documenta o que acontece nos bastidores da empresa.
+Se é uma empresa grande, vale ter um "repórter interno": alguém que documenta o que acontece nos bastidores da empresa.
+
+E, no negócio digital, o bastidor é ouro: a gravação de uma aula, a preparação de uma mentoria, a mensagem de um aluno que teve resultado.
 
 **[TELA 10: Atividade · documentar 7 dias]**
 

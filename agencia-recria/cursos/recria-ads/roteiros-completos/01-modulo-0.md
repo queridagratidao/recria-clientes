@@ -3,7 +3,7 @@
 ---
 
 ## Aula 0.1 · Boas-vindas
-**Formato:** 🎥 Câmera + slide · **Duração:** cerca de 5 min
+**Formato:** 🎥 Câmera + slide · **Duração:** cerca de 4 min (máximo 10)
 
 **[SLIDE 1: RECRIA ADS · Venda sem parecer aquele vendedor chato]**
 
@@ -50,7 +50,7 @@ Te vejo lá.
 ---
 
 ## Aula 0.2 · Comece por aqui
-**Formato:** 🎙️ Só câmera (teleprompter) · **Duração:** cerca de 6 min
+**Formato:** 🎙️ Só câmera (teleprompter) · **Duração:** cerca de 5 min (máximo 10)
 
 Eu sei que você é dono ou dona de negócio. E eu sei que você não tem tempo sobrando.
 
@@ -113,7 +113,7 @@ Te vejo na próxima aula.
 ---
 
 ## Aula 0.3 · O seu cenário + 30 ideias de conteúdo hoje
-**Formato:** 💻 Voz + tela do computador · **Duração:** cerca de 10 min
+**Formato:** 💻 Voz + tela do computador · **Duração:** cerca de 8 min (máximo 10)
 
 **O que preparar antes de gravar:**
 1. Ficha "Meu cenário" aberta (Google Docs ou Canva)
@@ -139,16 +139,17 @@ Pergunta 4: as 3 frases que você mais ouve dos clientes. Essa é ouro, porque �
 
 E assim você vai até a pergunta 12.
 
-**[TELA: os 6 cenários]**
+**[TELA: os 7 cenários]**
 
-A pergunta 13 é o seu cenário. Nós temos seis:
+A pergunta 13 é o seu cenário. Nós temos sete:
 
 1. Eupresa: a empresa de uma pessoa só, em que você faz tudo.
-2. Negócio local: loja, restaurante, clínica, salão, com público da sua cidade.
+2. Negócio local: tudo o que tem um espaço físico e atende o público da sua cidade. Loja, restaurante, salão, e também escola, clínica, academia e consultório.
 3. E-commerce: você vende online e entrega em vários lugares.
 4. Empresa média: tem equipe, tem alguma verba e já pensa em influenciadores.
 5. Empresa grande: tem time de marketing interno.
-6. Serviços e consultoria: você vende conhecimento, atendimento, transformação.
+6. Serviços e consultoria: você atende outras empresas e vende conhecimento, atendimento, transformação.
+7. Negócio digital: você vende pela internet algo que é entregue online. Cursos, mentorias, e-books, consultorias e serviços feitos à distância.
 
 A Doce Afeto é um negócio local. Qual é o seu? Anota.
 
