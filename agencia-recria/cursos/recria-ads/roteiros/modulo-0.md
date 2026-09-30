@@ -26,26 +26,23 @@
 **Abertura (fala):** "Antes de qualquer conteúdo, eu quero te mostrar como aproveitar este curso de verdade. Porque assistir não muda nada. Aplicar, sim."
 
 **Blocos:**
-1. **Um módulo por semana:** "A cada 7 dias, um módulo novo é liberado, sempre acompanhado de atividades práticas."
-2. **Por que não liberar tudo de uma vez:** "Ninguém aprende maratonando dez aulas seguidas. Você assiste, esquece metade e não aplica nada. Aqui você assiste, faz a atividade, aplica no seu negócio e só depois segue. É isso que condensa o conhecimento."
-3. **Pequenas vitórias:** cada atividade é uma pequena vitória no seu negócio real. Semana a semana, você evolui na prática, e no último módulo junta tudo no seu Plano de 30 dias.
-4. **Como assistir:**
-   - uma aula por dia, de uns 10 minutos;
-   - aulas de tela, de preferência no computador;
-   - pode acelerar para 1,25x;
-   - tenha um caderno ou documento "Meu Recria Ads".
-5. **Materiais:** fichas, prompts e bancos ficam anexados nas próprias aulas.
-6. **Os 6 cenários:** toda aula termina com o bloco "Como adaptar".
-7. **O grupo de avisos no WhatsApp:** "Lá eu aviso quando um módulo novo for liberado e compartilho bastidores e conteúdos extras." Dúvidas sobre as aulas vão nos comentários de cada aula.
-8. **O combinado:** "Não maratone, não busque perfeição. Feito é melhor do que perfeito."
-9. **A promessa:** "Seguindo uma aula por dia, em 5 semanas você termina o Recria Ads sabendo o passo a passo completo e com o seu calendário e o seu Plano de 30 dias prontos para aplicar no seu negócio."
+1. **O compromisso de 10 minutos:** "Eu sei que você é dono(a) de negócio e não tem tempo sobrando. Por isso, eu te peço uma coisa só: separe na sua agenda um compromisso diário de 10 minutos. É o suficiente para uma aula por dia."
+2. **Um módulo por semana:** a cada 7 dias, um módulo novo é liberado, sempre com atividades práticas.
+3. **Nada de obesidade mental:** "Ninguém aprende maratonando dez aulas seguidas. Consumir conteúdo sem aplicar é obesidade mental: você enche a cabeça e não muda nada no negócio. Aqui é diferente: você assiste, faz a atividade, aplica no seu negócio no dia seguinte e só depois segue."
+4. **Aprende e aplica, toda semana:** cada atividade é uma pequena vitória no seu negócio real. Semana a semana, você evolui na prática.
+5. **Reforço do que foi prometido:** "Em cerca de um mês, você vai estar com tudo o que aprendeu aqui condensado, aprofundado e aplicado no seu negócio: conteúdo sem cara de anúncio, o calendário pronto e o seu Plano de 30 dias. Pronto(a) para engajar mais e vender sem parecer vendedor chato."
+6. **Como assistir:** aulas de tela, de preferência no computador; pode acelerar para 1,25x; tenha um caderno ou documento "Meu Recria Ads".
+7. **Materiais:** fichas, prompts e bancos ficam anexados nas próprias aulas.
+8. **Os 6 cenários:** toda aula termina com o bloco "Como adaptar".
+9. **O grupo de avisos no WhatsApp:** "Lá eu aviso quando um módulo novo for liberado e compartilho bastidores e conteúdos extras." Dúvidas sobre as aulas vão nos comentários de cada aula.
+10. **O combinado:** "Não maratone, não busque perfeição. Feito é melhor do que perfeito."
 
 **Slides:**
-1. Um módulo por semana + atividades
-2. Assistir → aplicar → evoluir
-3. Como assistir
+1. O compromisso: 10 minutos por dia
+2. Um módulo por semana + atividades
+3. Nada de obesidade mental: aprende → aplica → evolui
 4. O grupo de avisos no WhatsApp
-5. Em 5 semanas: passo a passo + calendário + Plano de 30 dias
+5. Em cerca de 1 mês: passo a passo + calendário + Plano de 30 dias
 
 **Fechamento:** "Agora sim: bora descobrir o seu cenário e sair com 30 ideias de conteúdo, hoje mesmo."
 
