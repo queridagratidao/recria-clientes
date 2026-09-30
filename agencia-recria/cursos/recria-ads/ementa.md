@@ -33,7 +33,7 @@ Cada módulo termina com uma tarefa que preenche uma parte do Plano de 30 dias.
 1. 🎥 Como o cérebro decide (e por que a emoção vem antes)
 2. 🎥 Gatilhos sem manipulação (pitada de Cialdini)
 3. 🎥 Desejo antes da oferta: oferta direta × indireta
-4. 🔎 Burger King e a memória afetiva de Dragon Ball Z
+4. 🔎 Burger King × Dragon Ball: a memória afetiva que vende
 
 ## Módulo 2: Storytelling
 1. 🎥 Por que as histórias prendem desde as cavernas
