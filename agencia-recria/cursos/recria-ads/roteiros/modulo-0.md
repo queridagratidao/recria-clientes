@@ -38,12 +38,14 @@
 6. **Os 6 cenários:** toda aula termina com o bloco "Como adaptar".
 7. **O grupo de avisos no WhatsApp:** "Lá eu aviso quando um módulo novo for liberado e compartilho bastidores e conteúdos extras." Dúvidas sobre as aulas vão nos comentários de cada aula.
 8. **O combinado:** "Não maratone, não busque perfeição. Feito é melhor do que perfeito."
+9. **A promessa:** "Seguindo uma aula por dia, em 5 semanas você termina o Recria Ads sabendo o passo a passo completo e com o seu calendário e o seu Plano de 30 dias prontos para aplicar no seu negócio."
 
 **Slides:**
 1. Um módulo por semana + atividades
 2. Assistir → aplicar → evoluir
 3. Como assistir
 4. O grupo de avisos no WhatsApp
+5. Em 5 semanas: passo a passo + calendário + Plano de 30 dias
 
 **Fechamento:** "Agora sim: bora descobrir o seu cenário e sair com 30 ideias de conteúdo, hoje mesmo."
 

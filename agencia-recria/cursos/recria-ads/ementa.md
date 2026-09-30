@@ -1,6 +1,7 @@
 # Recria Ads: conteúdos e anúncios sem cara de anúncio
 
 **Plataforma:** Hotmart · **Preço:** R$ 97 (até 12x) · **Garantia:** 7 dias
+**Duração:** 5 semanas, seguindo 1 aula por dia (29 aulas; os últimos módulos são liberados no dia 28).
 **Promessa:** aprenda a vender todo dia sem parecer aquele vendedor chato e saia com a estratégia, o calendário de conteúdo e o de anúncios prontos para o seu negócio.
 
 Formatos: 🎥 câmera + slide · 🖥️ tela + voz · 🔎 análise de caso · 📎 material
