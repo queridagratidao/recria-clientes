@@ -60,7 +60,7 @@ A mesma mensagem aparece na página, no vídeo e na aula 0.2:
    - Estratégia
    - Ganchos e copy
    - Sem cara de anúncio (com análises de casos reais)
-   - Calendário com IA
+   - Os dois calendários com IA: conteúdo do feed e anúncios
    - Rotina e o seu Plano de 30 dias
 
 6. **Para qualquer cenário:**
@@ -81,7 +81,7 @@ A mesma mensagem aparece na página, no vídeo e na aula 0.2:
 8. **Bônus:**
    - 🎁 prompt "Meu mês de conteúdo" (30 ideias no primeiro dia)
    - 📚 Acervo Recria
-   - 📲 grupo do WhatsApp da turma (aberto semanalmente para dúvidas, com conteúdos novos e interações)
+   - 📲 grupo do WhatsApp do curso (grupo fechado com conteúdos novos e bastidores, aberto semanalmente para dúvidas e interações)
    - 🎟️ desconto nos próximos cursos da Recria
    - ⏳ 1 ano de acesso: termina em cerca de 1 mês e ainda tem 11 meses para rever
 

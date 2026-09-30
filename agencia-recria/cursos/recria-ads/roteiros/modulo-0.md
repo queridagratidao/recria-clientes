@@ -34,14 +34,14 @@
 6. **Como assistir:** aulas de tela, de preferência no computador; pode acelerar para 1,25x; tenha um caderno ou documento "Meu Recria Ads".
 7. **Materiais:** fichas, prompts e bancos ficam anexados nas próprias aulas.
 8. **Os 7 cenários:** toda aula termina com o bloco "Como adaptar".
-9. **O grupo do WhatsApp da turma:** aberto semanalmente para dúvidas, com conteúdos novos, bastidores e interações. Um a mais. Dúvidas também nos comentários de cada aula, com o suporte da Amanda e da equipe. **1 ano de acesso:** termina em cerca de 1 mês, e ainda tem mais 11 meses para rever. Dúvidas sobre as aulas vão nos comentários de cada aula.
+9. **O grupo do WhatsApp do curso:** aberto semanalmente para dúvidas, com conteúdos novos, bastidores e interações. Um a mais. Dúvidas também nos comentários de cada aula, com o suporte da Amanda e da equipe. **1 ano de acesso:** termina em cerca de 1 mês, e ainda tem mais 11 meses para rever. Dúvidas sobre as aulas vão nos comentários de cada aula.
 10. **O combinado:** "Não maratone, não busque perfeição. Feito é melhor do que perfeito."
 
 **Slides:**
 1. O compromisso: 10 minutos por dia
 2. Um módulo por semana + atividades
 3. Nada de obesidade mental: aprende → aplica → evolui
-4. O grupo do WhatsApp da turma + suporte + 1 ano de acesso
+4. O grupo do WhatsApp do curso + suporte + 1 ano de acesso
 5. Em cerca de 1 mês: passo a passo + calendário + Plano de 30 dias
 
 **Fechamento:** "Agora sim: bora descobrir o seu cenário e sair com 30 ideias de conteúdo, hoje mesmo."

@@ -80,8 +80,9 @@ DOCS=[
  ('Video de vendas e pagina de vendas', (BASE/'pagina-de-vendas.md').read_text(), 'Roteiro do vídeo de vendas (VSL) e textos da página'),
  ('Copies dos anuncios', (BASE/'criativos/copies-dos-anuncios.md').read_text(), 'Textos dos anúncios, públicos e roteiros de Reels'),
  ('Guia de pronuncia dos autores', (BASE/'guia-de-pronuncia.md').read_text(), 'Como falar o nome de cada autor'),
+ ('Modulo 6 - Os dois calendarios', (BASE/'roteiros/modulo-6.md').read_text(), 'Estrutura das aulas: calendário de conteúdo e de anúncios'),
  ('Ementa do curso', (BASE/'ementa.md').read_text(), 'Estrutura completa, liberação e preços'),
 ]
 for name, md, sub in DOCS:
-    title=name.replace('Modulos','Módulos').replace('Video','Vídeo').replace('pagina','página').replace('anuncios','anúncios').replace('pronuncia','pronúncia')
+    title=name.replace('Modulos','Módulos').replace('Video','Vídeo').replace('pagina','página').replace('anuncios','anúncios').replace('pronuncia','pronúncia').replace('Modulo 6','Módulo 6').replace('calendarios','calendários')
     pdf(md, title, sub, OUT/f'{name}.pdf'); docx(md, title, sub, OUT/f'{name}.docx'); print('ok', name)

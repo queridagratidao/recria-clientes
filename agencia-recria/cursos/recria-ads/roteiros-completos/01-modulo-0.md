@@ -86,7 +86,7 @@ Quarta: os materiais, como fichas e prompts, ficam anexados nas próprias aulas.
 
 Quinta: toda aula termina com um momento chamado "Como adaptar", em que eu mostro como aplicar aquele conteúdo em diferentes tipos de negócio. Na próxima aula, você vai descobrir qual é o seu cenário.
 
-E tem mais: você vai fazer parte do grupo do WhatsApp da turma. Ele é aberto semanalmente para dúvidas, e é lá que eu também compartilho conteúdos novos, bastidores e interações com a turma. É um a mais que eu preparei para você. O link está aqui embaixo da aula.
+E tem mais: você vai fazer parte do grupo do WhatsApp do curso. É um grupo fechado, em que eu e a minha equipe compartilhamos conteúdos novos, bastidores e avisos. E, normalmente uma vez por semana, ele é aberto para dúvidas e interações. É um a mais que eu preparei para você. O link está aqui embaixo da aula.
 
 E, se tiver dúvidas sobre alguma aula, você também pode deixar nos comentários da própria aula. Você tem todo o suporte meu e da minha equipe.
 
@@ -106,7 +106,7 @@ Te vejo na próxima aula.
 5. Aprende → aplica → evolui
 6. Em cerca de 1 mês: tudo condensado, aprofundado e aplicado
 7. 5 dicas: caderno "Meu Recria Ads" · computador · 1,25x · materiais anexados · "Como adaptar"
-8. Grupo do WhatsApp da turma + suporte nos comentários
+8. Grupo do WhatsApp do curso + suporte nos comentários
 9. 1 ano de acesso: termina em 1 mês, e mais 11 meses para rever
 9. Combinado: não maratone · feito é melhor do que perfeito
 

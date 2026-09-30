@@ -1,7 +1,7 @@
 # Recria Ads: conteúdos e anúncios sem cara de anúncio
 
 **Plataforma:** Hotmart · **Preço:** R$ 97 (até 12x) · **Garantia:** 7 dias
-**Duração:** 5 semanas, seguindo 1 aula por dia (29 aulas; os últimos módulos são liberados no dia 28).
+**Duração:** 5 semanas, seguindo 1 aula por dia (32 aulas; os últimos módulos são liberados no dia 28).
 **Promessa:** aprenda a vender todo dia sem parecer aquele vendedor chato e saia com a estratégia, o calendário de conteúdo e o de anúncios prontos para o seu negócio.
 
 Formatos: 🎥 câmera + slide · 🖥️ tela + voz · 🔎 análise de caso · 📎 material
@@ -27,11 +27,11 @@ Cada módulo termina com uma tarefa que preenche uma parte do Plano de 30 dias.
 | 21 | Módulo 5 | 03/11 |
 | 28 | Módulos 6 e 7 | 10/11 |
 
-29 aulas de no máximo 10 min cada (cerca de 3 horas no total) + materiais. Regra: se uma aula passar de 10 minutos, ela vira duas.
+32 aulas de no máximo 10 min cada (cerca de 3h30 no total) + materiais. Regra: se uma aula passar de 10 minutos, ela vira duas.
 
 ## Módulo 0: Comece aqui
 1. 🎥 Boas-vindas: quem sou eu e o que é o Recria Ads
-2. 🎥 Comece por aqui: como o curso funciona, a liberação semanal com atividades, como assistir o grupo do WhatsApp da turma e o acesso de 1 ano
+2. 🎥 Comece por aqui: como o curso funciona, a liberação semanal com atividades, como assistir o grupo do WhatsApp do curso e o acesso de 1 ano
 3. 🖥️ O seu cenário (📎 Ficha "Meu cenário") + 🎁 Bônus vitória rápida: prompt "Meu mês de conteúdo" (usa a Ficha Meu cenário e gera 30 ideias de conteúdo para o negócio)
 
 ## Módulo 1: A mente de quem compra
@@ -64,10 +64,13 @@ Cada módulo termina com uma tarefa que preenche uma parte do Plano de 30 dias.
 5. 🔎 Dove e as pessoas reais: influenciadoras e anúncio sem cara de anúncio (+ outros casos a checar)
 6. 🎥 Trend e marketing de oportunidade: quando usar e quando queima o filme
 
-## Módulo 6: Calendário com IA
-1. 🖥️ Como eu monto o calendário
-2. 🖥️ O prompt-mestre
-3. 🖥️ Montando juntos + 📎 calendários prontos para os 7 cenários
+## Módulo 6: Os dois calendários (conteúdo e anúncios) com IA
+1. 🎥 Dois calendários, dois objetivos: por que separar o calendário de conteúdo do calendário de anúncios
+2. 🖥️ Calendário de conteúdo do feed: os objetivos (engajar, atrair novos seguidores, vender) e o funil em conteúdos diferentes (topo, meio e fundo)
+3. 🖥️ Topo, meio e fundo no mesmo conteúdo: quando fazer e como distribuir no calendário
+4. 💻 Montando o calendário de conteúdo com IA (prompt-mestre de conteúdo)
+5. 🎥 Calendário de anúncios: dark post × anúncio que também vai para o feed, e a CTA certa para cada um
+6. 💻 Montando o calendário de anúncios com IA (prompt-mestre de anúncios) + 📎 calendários prontos para os 7 cenários
 
 ## Módulo 7: Rotina e plano
 1. 🎥 Quantos posts cabem na sua vida e a semana de criação
@@ -76,14 +79,24 @@ Cada módulo termina com uma tarefa que preenche uma parte do Plano de 30 dias.
 4. 📎 Acervo Recria (5 livros + 10 referências de criativos para modelar; o acervo completo fica na Comunidade Recria)
 
 ## Comunidade Recria
+Proposta: a escola de marketing, negócio, conteúdo e comercial para quem quer reinventar e recriar o próprio negócio. A essência do que a Agência Recria aplica, condensada com o conhecimento de grandes pensadores.
+
+Temas que entram:
+- documentar a rotina, e decidir o que expor e o que não expor da vida pessoal
+- social content, o novo social media
+- dados e indicadores do negócio (quais números acompanhar)
+- esteira de produtos (da oferta de entrada ao produto principal)
+- comercial e vendas
+- posicionamento, rebrand e reinvenção do negócio
+
 Trilhas: Recria Ads (incluso), Posicionamento e negócio, Marketing e comportamento (livros), Diferenciação e criatividade, Comercial, Rebrand, Storytelling avançado, Comunidade e relacionamento, IA sem ficar fake, Gravação, Tráfego pago, aulas com convidados.
 Ritmo: 1 aula nova por semana (gravar 5 por semana para manter estoque). Abrir com pelo menos 2 meses de aulas prontas.
 Acervo Recria completo (livros, materiais, insights, referências de criativos) é exclusiva da comunidade e alimentada continuamente.
 Preço sugerido (fundadores): mensal R$ 47 · anual R$ 297 (12x de R$ 24,75 sem juros) · compradores do Recria Ads: anual por R$ 247 (12x de R$ 20,58 sem juros).
 
-## Grupo do WhatsApp da turma (um a mais)
-- Formato: Comunidade do WhatsApp, para que os alunos não vejam os números uns dos outros. Na comunicação, chamar só de "grupo do WhatsApp da turma".
-- Aberto semanalmente para dúvidas; também recebe conteúdos novos, bastidores e interações.
+## Grupo do WhatsApp do curso (um a mais)
+- Formato: Comunidade do WhatsApp, para que os alunos não vejam os números uns dos outros. Na comunicação, chamar só de "grupo do WhatsApp do curso".
+- Grupo fechado na maior parte do tempo (só a Amanda e a equipe postam conteúdos novos, bastidores e avisos). Normalmente uma vez por semana, é aberto para dúvidas e interações.
 - Suporte principal: comentários de cada aula na Hotmart, com a Amanda e a equipe.
 
 ## Acesso e vantagens

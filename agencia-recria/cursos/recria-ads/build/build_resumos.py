@@ -8,7 +8,7 @@ b.page('light','''<div class="kick">O compromisso</div><h1>10 minutos por dia <e
 <li><b>Aprende → aplica → evolui.</b> Assista, faça a atividade, aplique no dia seguinte e só depois siga.</li>
 <li><b>Em cerca de 1 mês:</b> tudo condensado, aprofundado e aplicado no seu negócio.</li></ul>
 <div class="box">Obesidade mental é encher a cabeça de conteúdo e não mudar nada no negócio. Aqui, cada aula vira ação.</div>''')
-b.page('dark','''<div class="kick">Os 7 cenários</div><h1>Em qual <em class="g">você está?</em></h1>
+b.page('dark','''<div class="kick">Os 6 cenários</div><h1>Em qual <em class="g">você está?</em></h1>
 <table><tr><th>Cenário</th><th>Quem é</th></tr>
 <tr><td>1. Eupresa</td><td>A empresa de uma pessoa só: você faz tudo</td></tr>
 <tr><td>2. Negócio local</td><td>Tem espaço físico: loja, restaurante, salão, escola, clínica, academia, consultório</td></tr>
@@ -21,7 +21,7 @@ b.page('dark','''<div class="kick">Os 7 cenários</div><h1>Em qual <em class="g"
 b.page('light','''<div class="kick">Checklist da semana 1</div><h1>Antes de ir para o <em class="g">Módulo 1</em></h1>
 <ul><li class="ck">Coloquei os 10 minutos diários na minha agenda</li>
 <li class="ck">Criei o meu caderno ou documento "Meu Recria Ads"</li>
-<li class="ck">Entrei no grupo do WhatsApp da turma</li>
+<li class="ck">Entrei no grupo do WhatsApp do curso</li>
 <li class="ck">Preenchi a minha Ficha "Meu cenário"</li>
 <li class="ck">Gerei as minhas 30 ideias de conteúdo com o prompt</li>
 <li class="ck">Marquei as 5 ideias favoritas</li>
