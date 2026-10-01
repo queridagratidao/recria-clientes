@@ -6,6 +6,13 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="estilo.css">
+<!-- ===================== CONFIGURAÇÃO (cole os links aqui) =====================
+  VIDEO:    link do vídeo de vendas (YouTube, Vimeo ou o link de incorporação do Panda Video)
+  CHECKOUT: link do checkout da Hotmart (ex.: https://pay.hotmart.com/XXXXXXXX)
+  Enquanto estiverem vazios, o vídeo mostra um espaço reservado e os botões levam até o preço.
+=============================================================================== -->
+<script>window.RECRIA={VIDEO:"",CHECKOUT:""};</script>
+
 </head><body>
 
 <!-- 1. TOPO -->
@@ -14,8 +21,8 @@
 <div class="kick">Recria Ads</div>
 <h1>Aprenda a criar conteúdos e anúncios <em>sem cara de anúncio</em></h1>
 <p style="font-size:20px;max-width:760px;margin:0 auto">Em apenas 10 minutos por dia, em cerca de 1 mês você vai ter tudo aplicado no seu negócio e vai aprender a vender todo santo dia sem parecer aquele vendedor chato.</p>
-<div class="video">▶ VÍDEO DE VENDAS (VSL)<br>inserir o vídeo aqui</div>
-<a class="btn" href="#oferta">Quero entrar no Recria Ads</a>
+<div class="video" id="vsl">▶ Vídeo de vendas<br>(em breve)</div>
+<a class="btn" href="#oferta" data-checkout>Quero entrar no Recria Ads</a>
 </div></section>
 
 <!-- 2. DORES -->
@@ -110,7 +117,7 @@
 <div class="v">R$ 97</div>
 <p style="margin-top:10px">ou em até 12x no cartão</p>
 <p style="font-size:15px;color:#b8ad96">1 ano de acesso · bônus · desconto nos próximos cursos da Recria</p>
-<a class="btn" href="#CHECKOUT_HOTMART" style="margin-top:16px">Quero entrar no Recria Ads</a>
+<a class="btn" href="#oferta" data-checkout style="margin-top:16px">Quero entrar no Recria Ads</a>
 <p style="font-size:14px;margin-top:16px;color:#b8ad96">Na compra, você recebe os Módulos 0, 1 e 2 e o bônus. Depois, um módulo novo por semana.</p>
 </div>
 </div></section>
@@ -136,8 +143,17 @@
 <!-- 12. CHAMADA FINAL -->
 <section class="dark"><div class="wrap center">
 <h2>Daqui a 1 mês, você pode estar no mesmo lugar, <em>ou com tudo aplicado no seu negócio.</em></h2>
-<a class="btn" href="#CHECKOUT_HOTMART">Quero entrar no Recria Ads</a>
+<a class="btn" href="#oferta" data-checkout>Quero entrar no Recria Ads</a>
 </div></section>
 
 <footer>Recria Ads · Agência Recria · @agencia.recria × @amandarecria</footer>
+<script>
+(function(){var c=window.RECRIA||{};
+if(c.CHECKOUT){document.querySelectorAll('a[data-checkout]').forEach(function(a){a.href=c.CHECKOUT;a.target="_blank";a.rel="noopener";});}
+if(c.VIDEO){var v=c.VIDEO,src=v,m;
+ if((m=v.match(/(?:youtu\.be\/|v=|embed\/|shorts\/)([\w-]{11})/)))src="https://www.youtube.com/embed/"+m[1]+"?rel=0";
+ else if((m=v.match(/vimeo\.com\/(\d+)/)))src="https://player.vimeo.com/video/"+m[1];
+ var box=document.getElementById("vsl");box.innerHTML='<iframe src="'+src+'" style="width:100%;height:100%;border:0;border-radius:8px" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Vídeo de vendas do Recria Ads"></iframe>';box.style.padding="0";}
+})();
+</script>
 </body></html>

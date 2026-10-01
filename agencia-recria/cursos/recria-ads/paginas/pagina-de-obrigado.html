@@ -5,6 +5,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="estilo.css">
+<!-- ===================== CONFIGURAÇÃO (cole os links aqui) =====================
+  SALA:     link de acesso dos alunos na Hotmart (confirmar; padrão: https://consumer.hotmart.com)
+  WHATSAPP: link de convite do grupo do WhatsApp do curso
+=============================================================================== -->
+<script>window.RECRIA={SALA:"https://consumer.hotmart.com",WHATSAPP:""};</script>
+
 </head><body>
 <section class="dark"><div class="wrap center">
 <img class="logo" src="logo-recria-sem-tagline.png" alt="Agência Recria">
@@ -20,11 +26,11 @@
 <div class="passo"><div class="n">1</div><div><h3>Acesse a sua sala de aula</h3>
 <p>Você vai receber no seu e-mail (o mesmo usado na compra) o acesso ao Recria Ads, enviado pela Hotmart. Não achou? Confira o spam e a aba Promoções.</p>
 <p>Se preferir, entre direto pelo botão abaixo com o seu e-mail e a sua senha da Hotmart:</p>
-<a class="btn" href="https://consumer.hotmart.com" target="_blank" rel="noopener">Acessar a sala de aula</a></div></div>
+<a class="btn" id="btn-sala" href="https://consumer.hotmart.com" target="_blank" rel="noopener">Acessar a sala de aula</a></div></div>
 
 <div class="passo"><div class="n">2</div><div><h3>Entre no grupo do WhatsApp do curso</h3>
 <p>É um grupo fechado, em que eu e a minha equipe compartilhamos conteúdos novos, bastidores e avisos. Normalmente uma vez por semana, ele abre para dúvidas e interações. Mais um canal de suporte e dúvidas, além da sala de aula virtual.</p>
-<a class="btn" href="#LINK_GRUPO_WHATSAPP" target="_blank" rel="noopener">Entrar no grupo do WhatsApp</a></div></div>
+<a class="btn" id="btn-whats" href="#" target="_blank" rel="noopener">Entrar no grupo do WhatsApp</a></div></div>
 
 <div class="passo"><div class="n">3</div><div><h3>Marque os seus 10 minutos na agenda</h3>
 <p>Esse é o único compromisso que eu te peço: 10 minutos por dia, uma aula por dia. Escolha agora o seu horário.</p></div></div>
@@ -45,4 +51,10 @@
 <p style="color:var(--ouro2);margin-top:26px">Comece pela aula 0.1. Nos vemos lá!<br>Amanda, CEO da Agência Recria</p>
 </div></section>
 <footer>Recria Ads · Agência Recria · @agencia.recria × @amandarecria</footer>
+<script>
+(function(){var c=window.RECRIA||{};
+var s=document.getElementById("btn-sala"); if(c.SALA)s.href=c.SALA;
+var w=document.getElementById("btn-whats"); if(c.WHATSAPP){w.href=c.WHATSAPP;}else{w.style.opacity=".55";w.textContent="Link do grupo em breve";w.removeAttribute("href");}
+})();
+</script>
 </body></html>
