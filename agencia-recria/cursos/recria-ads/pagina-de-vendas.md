@@ -78,12 +78,14 @@ A mesma mensagem aparece na página, no vídeo e na aula 0.2:
    - o calendário pronto
    - o Plano de 30 dias
 
-8. **Bônus:**
-   - 🎁 prompt "Meu mês de conteúdo" (30 ideias no primeiro dia)
-   - 📚 Acervo Recria
-   - 📲 grupo do WhatsApp do curso (grupo fechado com conteúdos novos e bastidores, aberto semanalmente para dúvidas e interações)
-   - 🎟️ desconto nos próximos cursos da Recria
-   - ⏳ 1 ano de acesso: termina em cerca de 1 mês e ainda tem 11 meses para rever
+8. **Bônus exclusivos (com ancoragem de valor):**
+   - 🎁 Prompt "Meu mês de conteúdo" (30 ideias no primeiro dia): valor R$ 197
+   - 📚 Acervo Recria: valor R$ 297
+   - 📲 Grupo do WhatsApp do curso: valor R$ 47
+   - 🎁 Bônus surpresa (e-books e materiais complementares em PDF): valor R$ 197
+   - 🎟️ Desconto nos próximos cursos da Recria: valor inestimável
+   - **Total em bônus: R$ 738 + desconto inestimável. Tudo incluso no Recria Ads.**
+   - Também: 1 ano de acesso (termina em cerca de 1 mês e ainda tem 11 meses para rever)
 
 9. **Quem é a Amanda:** foto, a história, mais de 10 anos, os nichos atendidos.
 
