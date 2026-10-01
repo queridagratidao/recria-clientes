@@ -86,7 +86,7 @@ Quarta: os materiais, como fichas e prompts, ficam anexados nas próprias aulas.
 
 Quinta: toda aula termina com um momento chamado "Como adaptar", em que eu mostro como aplicar aquele conteúdo em diferentes tipos de negócio. Na próxima aula, você vai descobrir qual é o seu cenário.
 
-E tem mais: você vai fazer parte do grupo do WhatsApp do curso. É um grupo fechado, em que eu e a minha equipe compartilhamos conteúdos novos, bastidores e avisos. E, normalmente uma vez por semana, ele é aberto para dúvidas e interações. É um a mais que eu preparei para você. O link está aqui embaixo da aula.
+E tem mais: você vai fazer parte do grupo do WhatsApp do curso. É um grupo fechado, em que eu e a minha equipe compartilhamos conteúdos novos, bastidores e avisos. E, normalmente uma vez por semana, ele é aberto para dúvidas e interações. É mais um canal de suporte e dúvidas, além da sala de aula virtual. O link está aqui embaixo da aula.
 
 E, se tiver dúvidas sobre alguma aula, você também pode deixar nos comentários da própria aula. Você tem todo o suporte meu e da minha equipe.
 

@@ -94,7 +94,7 @@ Ritmo: 1 aula nova por semana (gravar 5 por semana para manter estoque). Abrir c
 Acervo Recria completo (livros, materiais, insights, referências de criativos) é exclusiva da comunidade e alimentada continuamente.
 Preço sugerido (fundadores): mensal R$ 47 · anual R$ 297 (12x de R$ 24,75 sem juros) · compradores do Recria Ads: anual por R$ 247 (12x de R$ 20,58 sem juros).
 
-## Grupo do WhatsApp do curso (um a mais)
+## Grupo do WhatsApp do curso (mais um canal de suporte e dúvidas, além da sala de aula virtual)
 - Formato: Comunidade do WhatsApp, para que os alunos não vejam os números uns dos outros. Na comunicação, chamar só de "grupo do WhatsApp do curso".
 - Grupo fechado na maior parte do tempo (só a Amanda e a equipe postam conteúdos novos, bastidores e avisos). Normalmente uma vez por semana, é aberto para dúvidas e interações.
 - Suporte principal: comentários de cada aula na Hotmart, com a Amanda e a equipe.
