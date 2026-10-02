@@ -91,7 +91,9 @@ Preencham o formulário, vocês só têm a ganhar. Aproveitem muito o conteúdo 
 6. Desafios enfrentados neste ano
 7. O que projeta para o próximo ano
 8. Dúvidas ou dores atuais que não sabe como resolver
-9. Mensagem final: agradecimento, avisando que nos próximos dias a pessoa também vai ter acesso a novidades sobre o portal do síndico que a Eleva está desenvolvendo
+9. Mensagem final (texto da tela de confirmação do Google Forms):
+
+> Obrigado por responder! Suas respostas foram recebidas com muito carinho, e vamos usá-las para trazer conteúdos cada vez mais personalizados para você. Em breve, você também vai ter acesso a novidades sobre o portal do síndico que a Eleva está desenvolvendo.
 
 ---
 
