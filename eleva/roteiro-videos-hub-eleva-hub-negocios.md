@@ -1,67 +1,88 @@
-# Roteiro de Vídeos — Hub Eleva e Hub de Negócios
-**RECRIA Marketing, 25/09/2026**
+# Roteiro de Vídeos — Comunidade Eleva e Hub de Negócios
+**RECRIA Marketing, atualizado em 02/10/2026**
 **Cliente:** Eleva
 
 ## Contexto
 
-A partir de agora, a Sessão Estratégica fica em stand-by (só é retomada quando o Giuliano achar necessário) e a campanha de compra de carteiras imobiliárias é pausada hoje, 25/09. O foco passa a ser 100% em crescimento de perfil: levar o máximo de seguidores e pessoas interessadas para o Instagram e para o Hub Eleva, para que a compra aconteça de forma proativa, sem a Eleva precisar ir atrás.
+O foco atual é 100% em crescimento de perfil: levar o máximo de seguidores e pessoas interessadas para o Instagram e para a comunidade Eleva, Síndicos de Alta Performance, para que a compra aconteça de forma proativa, sem a Eleva precisar ir atrás.
 
-Para isso, seguem 4 vídeos para o Giuliano gravar neste fim de semana, todos em formato vertical (estilo Stories/Reels).
+**Importante:** nenhum dos roteiros abaixo menciona datas, já que o lançamento do portal ainda não tem data fechada. Usar sempre expressões como "nos próximos dias" ou "em breve".
+
+**Mudança de nome:** a comunidade no WhatsApp deixou de se chamar "Hub Eleva, Síndicos de Alta Performance" e passa a se chamar **"Eleva, Síndicos de Alta Performance"**, para não confundir com o Hub de Negócios, que é uma frente separada dentro do guarda-chuva da Eleva (ao lado da Eleva Expansão Estratégica e da Eleva Seguros), reunindo parcerias comerciais com comissão entre profissionais do setor.
+
+**Sobre o portal do síndico:** a Eleva está desenvolvendo um portal exclusivo para síndicos, que vai facilitar a gestão, a eficiência, a prestação de contas, assembleias, relação com conselheiros e administradoras. Vai existir um período de teste gratuito para quem quiser experimentar a plataforma. Quem for parceiro do Hub de Negócios tem acesso gratuito ao portal durante todo o tempo em que fizer parte do Hub, enquanto quem não participar do Hub de Negócios tem apenas o período de teste gratuito, mais curto.
+
+Para isso, seguem 4 vídeos para o Giuliano gravar, todos em formato vertical (estilo Stories/Reels).
 
 ---
 
-## Vídeo 1 — Aviso no Hub Eleva (WhatsApp)
+## Vídeo 1 — Aviso na comunidade Eleva (WhatsApp)
 
-**Onde postar:** grupo do WhatsApp, Hub Eleva Síndicos de Alta Performance
+**Onde postar:** grupo do WhatsApp, Eleva Síndicos de Alta Performance
 **Formato:** vertical, estilo Stories
+**Tom:** spoiler, "vem coisa aí"
 
 **Fala:**
 
-"Oi, pessoal! Aqui é o Giuliano, fundador da Eleva. Passando aqui no Hub Eleva, Síndicos de Alta Performance, para avisar vocês que vem novidade por aí. Estamos desenvolvendo um portal que vai te ajudar muito no seu dia a dia como síndico, com vários conteúdos de valor. E quem está aqui no grupo vai ter acesso a esse portal de maneira gratuita. Ou seja, continue no grupo que você só tem a ganhar. Nos próximos dias, trago mais informações para vocês. No mais, aproveitem todo o nosso conteúdo. Um abraço!"
+"Oi, pessoal! Aqui é o Giuliano, fundador da Eleva. Passando aqui na nossa comunidade, Eleva Síndicos de Alta Performance, para avisar: vem novidade por aí."
+
+"Estamos desenvolvendo um portal feito exclusivamente para síndicos, que vai facilitar muito a sua gestão. Eficiência no dia a dia, prestação de contas, assembleias, relação com conselheiros e administradoras, tudo isso vai ficar mais simples."
+
+"Vai ter um período gratuito para você testar a plataforma e ver se faz sentido para você. E quem for parceiro do nosso Hub de Negócios tem acesso gratuito ao portal durante todo o tempo em que fizer parte do Hub."
+
+"Se quiser saber mais sobre as vantagens e benefícios de participar do Hub de Negócios, fale comigo no privado através do WhatsApp da Eleva."
+
+🔗 [WhatsApp da Eleva]
+
+"Nos próximos dias, trago mais informações para vocês. No mais, aproveitem todo o nosso conteúdo. Um abraço!"
 
 ---
 
-## Vídeo 2 — Convite para o Hub Eleva (Instagram)
+## Vídeo 2 — Convite para a comunidade Eleva (Instagram)
 
 **Onde postar:** Instagram, Reels
 **Formato:** vertical, convite
 
 **Fala:**
 
-"Olá, pessoal! Sou o Giuliano Spolavori, fundador da Eleva. Estou passando aqui para te fazer um convite. Se você é síndico e ainda não faz parte do nosso Hub Eleva, Síndicos de Alta Performance, lá no WhatsApp, você está perdendo tempo. É uma comunidade totalmente gratuita. E nos próximos dias, por lá, vou liberar acesso, só para quem faz parte do grupo, a um portal que estamos desenvolvendo, com muito conteúdo de valor que vai facilitar a sua vida no seu dia a dia de síndico. Porque eu sei que é uma rotina corrida. Então, ali vamos centralizar várias informações que vão te auxiliar na sua gestão, para você conseguir entregar cada vez mais valor para a sua carteira de condomínios. Se você se interessou, entre no nosso Hub Eleva através do link da bio."
+"Olá, pessoal! Sou o Giuliano Spolavori, fundador da Eleva. Estou passando aqui para te fazer um convite. Se você é síndico e ainda não faz parte da nossa comunidade, Eleva Síndicos de Alta Performance, lá no WhatsApp, você está perdendo tempo. É uma comunidade totalmente gratuita."
+
+"E em breve, por lá, vou contar mais sobre um portal que estamos desenvolvendo, exclusivo para síndicos, com conteúdo de valor que vai facilitar a sua vida no seu dia a dia de gestão, prestação de contas, assembleias e relação com conselheiros e administradoras. Vai ter período gratuito para testar, e quem for parceiro do nosso Hub de Negócios tem acesso gratuito enquanto fizer parte do Hub."
+
+"Se você se interessou, entre na nossa comunidade através do link da bio."
 
 **Legenda do post:**
 
-Você é síndico e ainda não faz parte do nosso Hub Eleva, Síndicos de Alta Performance?
+Você é síndico e ainda não faz parte da nossa comunidade, Eleva Síndicos de Alta Performance?
 
 Uma comunidade gratuita, no WhatsApp, com conteúdo semanal para o seu dia a dia de gestão.
 
-E em breve, só para quem estiver no grupo, vamos liberar acesso a um portal com muito conteúdo de valor para facilitar a sua rotina como síndico.
+Em breve, contamos mais sobre um portal exclusivo para síndicos que estamos desenvolvendo, com período gratuito para testar.
 
 Entra pelo link da bio! 👇
 
 ---
 
-## Vídeo 3 — Pergunta para o Hub Eleva (WhatsApp)
+## Vídeo 3 — Pergunta para a comunidade Eleva (WhatsApp)
 
-**Onde postar:** grupo do WhatsApp, Hub Eleva Síndicos de Alta Performance
+**Onde postar:** grupo do WhatsApp, Eleva Síndicos de Alta Performance
 **Formato:** vertical, estilo Stories
 
 **Fala:**
 
-"Giuliano Spolavori aqui, passando para entender como está sendo, para você, a sua experiência no nosso grupo, na nossa comunidade Hub Eleva, Síndicos de Alta Performance. Quero entender como está sendo esse ano para você: a sua gestão, a sua carteira, se teve crescimento, se você está se sentindo estagnado. Quero entender também quais são as suas principais dúvidas e dores, o que está te deixando meio perdido, sem saber como resolver. Então, tanto para entender o seu cenário neste ano de 2026, o quanto você cresceu, o que gostaria de crescer, quanto as suas principais dúvidas e dores. Então, preencham o formulário que vamos enviar aqui no grupo. Vamos ler com muito carinho, e eu vou trazer, junto com a minha equipe, conteúdo nas próximas semanas te ajudando a evoluir nesses pontos que vocês comentarem. Aproveitem muito os conteúdos aqui da nossa comunidade. Um abraço!"
+"Giuliano Spolavori aqui, passando para entender como está sendo, para você, a sua experiência na nossa comunidade, Eleva Síndicos de Alta Performance. Quero entender como está sendo esse ano para você: a sua gestão, a sua carteira, se teve crescimento, se você está se sentindo estagnado. Quero entender também quais são as suas principais dúvidas e dores, o que está te deixando meio perdido, sem saber como resolver. Então, tanto para entender o seu cenário, o quanto você cresceu, o que gostaria de crescer, quanto as suas principais dúvidas e dores. Então, preencham o formulário que vamos enviar aqui no grupo. Vamos ler com muito carinho, e eu vou trazer, junto com a minha equipe, conteúdo nas próximas semanas te ajudando a evoluir nesses pontos que vocês comentarem. Aproveitem muito os conteúdos aqui da nossa comunidade. Um abraço!"
 
 **Logo abaixo, enviar o link do formulário (Google Forms) com os campos:**
 
 1. Nome
 2. E-mail
 3. WhatsApp
-4. Confirma se faz parte do Hub Eleva
-5. Como tem sido a evolução em 2026
+4. Confirma se faz parte da comunidade Eleva
+5. Como tem sido a evolução neste ano
 6. Desafios enfrentados neste ano
-7. O que projeta para 2027
+7. O que projeta para o próximo ano
 8. Dúvidas ou dores atuais que não sabe como resolver
-9. Mensagem final: agradecimento, avisando que nos próximos dias a pessoa também vai ter acesso ao portal do síndico que a Eleva está desenvolvendo
+9. Mensagem final: agradecimento, avisando que nos próximos dias a pessoa também vai ter acesso a novidades sobre o portal do síndico que a Eleva está desenvolvendo
 
 ---
 
@@ -72,7 +93,7 @@ Entra pelo link da bio! 👇
 
 **Fala:**
 
-"Se você presta algum tipo de serviço para condomínio, seja como executivo, síndico ou prestador de serviço, entenda que estar rodeado de um hub de parceiros que te auxiliam nas diversas demandas do condomínio é uma das formas mais fáceis de você expandir a sua carteira, o seu relacionamento, criar network e entregar mais valor para os seus clientes. Assim, todo mundo constrói uma relação de ganha-ganha. Aqui na Eleva, debatemos esse tema de Hub de Negócios tanto no nosso Hub Eleva, Síndicos de Alta Performance, no WhatsApp, quanto por e-mail e no nosso blog. Se você se interessou, comenta aqui 'Hub de Negócios' que eu te mando no direct um formulário para você preencher e começar a receber esses conteúdos, e quem sabe até fazer parte do nosso Hub de Parceiros."
+"Se você presta algum tipo de serviço para condomínio, seja como executivo, síndico ou prestador de serviço, entenda que estar rodeado de um hub de parceiros que te auxiliam nas diversas demandas do condomínio é uma das formas mais fáceis de você expandir a sua carteira, o seu relacionamento, criar network e entregar mais valor para os seus clientes. Assim, todo mundo constrói uma relação de ganha-ganha. Aqui na Eleva, dentro do guarda-chuva do Eleva Group, temos justamente o Hub de Negócios, onde desenvolvemos exatamente esses pontos. Se você se interessou, comenta aqui 'Hub de Negócios' que eu te mando no direct um formulário para você preencher e começar a receber esses conteúdos, e quem sabe até fazer parte do nosso Hub de Parceiros."
 
 **Legenda do post:**
 
@@ -90,7 +111,7 @@ Comenta "Hub de Negócios" aqui embaixo que eu te mando no direct um formulário
 >
 > 🔗 [link do formulário]
 >
-> E se você é síndico, também deixo aqui o convite para participar do nosso Hub Eleva, Síndicos de Alta Performance, no WhatsApp, uma comunidade gratuita com conteúdo semanal para o seu dia a dia de gestão.
+> E se você é síndico, também deixo aqui o convite para participar da nossa comunidade, Eleva Síndicos de Alta Performance, no WhatsApp, uma comunidade gratuita com conteúdo semanal para o seu dia a dia de gestão.
 >
 > 🔗 [link do grupo do WhatsApp]
 >
@@ -102,7 +123,7 @@ Comenta "Hub de Negócios" aqui embaixo que eu te mando no direct um formulário
 
 | Vídeo | Canal | Formato |
 |---|---|---|
-| 1 | Hub Eleva (WhatsApp) | Vertical, Stories |
+| 1 | Comunidade Eleva (WhatsApp) | Vertical, Stories |
 | 2 | Instagram | Reels, convite |
-| 3 | Hub Eleva (WhatsApp) | Vertical, Stories |
+| 3 | Comunidade Eleva (WhatsApp) | Vertical, Stories |
 | 4 | Instagram | Reels |
