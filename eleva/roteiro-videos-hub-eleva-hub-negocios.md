@@ -81,7 +81,11 @@ Para isso, preencham o formulário que vamos enviar aqui no grupo, logo abaixo d
 
 Preencham o formulário, vocês só têm a ganhar. Aproveitem muito o conteúdo aqui da nossa comunidade. Um abraço!"
 
-**Logo abaixo, enviar o link do formulário (Google Forms) com os campos:**
+**Logo abaixo, enviar o link do formulário (Google Forms):**
+
+🔗 https://forms.gle/6yViYCZwH3QtzgKEA
+
+**Campos do formulário:**
 
 1. Nome
 2. E-mail
