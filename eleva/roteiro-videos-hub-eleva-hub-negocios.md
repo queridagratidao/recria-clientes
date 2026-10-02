@@ -28,13 +28,13 @@ Para isso, seguem 4 vídeos para o Giuliano gravar, todos em formato vertical (e
 
 "Estamos desenvolvendo um portal feito exclusivamente para síndicos, que vai facilitar muito a sua gestão. Eficiência no dia a dia, prestação de contas, assembleias, relação com conselheiros e administradoras, tudo isso vai ficar mais simples."
 
-"Vai ter um período gratuito para você testar a plataforma e ver se faz sentido para você. E quem for parceiro do nosso Hub de Negócios tem acesso gratuito ao portal durante todo o tempo em que fizer parte do Hub."
+"Teremos um período gratuito para você testar a plataforma e ver se faz sentido para você. E quem for parceiro do nosso Hub de Negócios terá acesso gratuito ao portal durante todo o tempo que fizer parte do Hub."
 
-"Se quiser saber mais sobre as vantagens e benefícios de participar do Hub de Negócios, clica no link que vamos enviar abaixo desse vídeo. Ele vai te direcionar para uma conversa no privado com o WhatsApp da Eleva, e lá a gente te passa todas as informações."
+"Se quiser saber mais sobre as vantagens e benefícios de participar do Hub de Negócios, toque no link que vamos enviar abaixo desse vídeo. Ele vai te direcionar para uma conversa no privado com o WhatsApp da Eleva, e lá iremos te passar todas as informações."
 
 🔗 https://wa.me/555193630953
 
-"Nos próximos dias, trago mais informações para vocês. No mais, aproveitem todo o nosso conteúdo. Um abraço!"
+"Nos próximos dias, trarei mais informações para vocês. No mais, aproveitem todo o nosso conteúdo aqui da comunidade. Um abraço!"
 
 ---
 
