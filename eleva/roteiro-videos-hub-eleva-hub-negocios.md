@@ -75,7 +75,13 @@ Comenta "COMUNIDADE" 👇 ou entra direto pelo link da bio!
 
 **Fala:**
 
-"Giuliano Spolavori aqui, passando para entender como está sendo, para você, a sua experiência na nossa comunidade, Eleva Síndicos de Alta Performance. Quero entender como está sendo esse ano para você: a sua gestão, a sua carteira, se teve crescimento, se você está se sentindo estagnado. Quero entender também quais são as suas principais dúvidas e dores, o que está te deixando meio perdido, sem saber como resolver. Então, tanto para entender o seu cenário, o quanto você cresceu, o que gostaria de crescer, quanto as suas principais dúvidas e dores. Então, preencham o formulário que vamos enviar aqui no grupo. Vamos ler com muito carinho, e eu vou trazer, junto com a minha equipe, conteúdo nas próximas semanas te ajudando a evoluir nesses pontos que vocês comentarem. Aproveitem muito os conteúdos aqui da nossa comunidade. Um abraço!"
+"Giuliano Spolavori aqui, passando para entender como está sendo, para você, a sua experiência na nossa comunidade, Eleva Síndicos de Alta Performance.
+
+Quero entender como está sendo esse ano para você: a sua gestão, a sua carteira, se teve crescimento, se você está se sentindo estagnado. E também quais são as suas principais dúvidas e dores, o que está te deixando meio perdido, sem saber como resolver.
+
+Para isso, preencham o formulário que vamos enviar aqui no grupo, logo abaixo deste vídeo. Vamos ler com muito carinho cada resposta, e eu vou trazer para cá, junto com a minha equipe, conteúdos nas próximas semanas e meses que vão te ajudar a evoluir exatamente nos pontos que vocês preencherem. O formulário é para que a gente consiga ajudar vocês de uma forma mais personalizada.
+
+Preencham o formulário, vocês só têm a ganhar. Aproveitem muito o conteúdo aqui da nossa comunidade. Um abraço!"
 
 **Logo abaixo, enviar o link do formulário (Google Forms) com os campos:**
 
