@@ -108,7 +108,13 @@ Preencham o formulário, vocês só têm a ganhar. Aproveitem muito o conteúdo 
 
 **Fala:**
 
-"Se você presta algum tipo de serviço para condomínio, seja como executivo, síndico ou prestador de serviço, entenda que estar rodeado de um hub de parceiros que te auxiliam nas diversas demandas do condomínio é uma das formas mais fáceis de você expandir a sua carteira, o seu relacionamento, criar network e entregar mais valor para os seus clientes. Assim, todo mundo constrói uma relação de ganha-ganha. Aqui na Eleva, dentro do guarda-chuva do Eleva Group, temos justamente o Hub de Negócios, onde desenvolvemos exatamente esses pontos. Se você se interessou, comenta aqui 'Hub de Negócios' que eu te mando no direct um formulário para você preencher e começar a receber esses conteúdos, e quem sabe até fazer parte do nosso Hub de Parceiros."
+"Se você presta algum tipo de serviço para condomínio, seja como executivo, síndico ou prestador de serviço, entenda que estar rodeado de um hub de parceiros que te auxiliam nas diversas demandas do condomínio é uma das formas mais fáceis de você expandir a sua carteira, o seu relacionamento, criar network e entregar mais valor para os seus clientes.
+
+Assim, todo mundo constrói uma relação de ganha-ganha.
+
+Aqui na Eleva, dentro do guarda-chuva do Eleva Group, temos justamente o Hub de Negócios, onde desenvolvemos exatamente esses pontos.
+
+Se você se interessou, comenta aqui 'Hub de Negócios' que eu te mando no direct um formulário para você preencher e começar a receber esses conteúdos, e quem sabe até fazer parte do nosso Hub de Parceiros."
 
 **Legenda do post:**
 
@@ -144,3 +150,17 @@ Textos curtos e diretos: a pessoa clica no botão, vai para a página, preenche 
 
 > Oi, [nome], tudo bem? Que bom que você se interessou em saber mais e quem sabe participar do nosso Hub de Negócios. Toque no link abaixo para saber mais informações e aplicar para fazer parte do Hub, caso você deseje. Um abraço!
 > 🔗 [link do formulário]
+
+**Sugestão de campos para o formulário (Google Forms) do Hub de Negócios:**
+
+1. Nome
+2. WhatsApp
+3. E-mail
+4. Você é: síndico / fornecedor ou prestador de serviço para condomínio / executivo de administradora
+5. Tem interesse em fazer parte de uma rede de network com relação ganha-ganha no ramo condominial?
+6. Tem interesse em ter vantagens e benefícios através dessa parceria?
+7. Aceita receber atualizações do mercado condominial, novidades e lançamentos da Eleva por e-mail e WhatsApp?
+
+**Mensagem final (texto da tela de confirmação):**
+
+> Obrigado por se cadastrar! Em breve, a nossa equipe entrará em contato por e-mail ou WhatsApp para trazer mais detalhes e explicar melhor sobre a parceria.
