@@ -119,11 +119,59 @@ Comenta "Hub de Negócios" aqui embaixo que eu te mando no direct um formulário
 
 ---
 
+## Carrossel — Lançamento do Portal do Síndico (Instagram)
+
+**Onde postar:** Instagram, carrossel
+**Estrutura:** gancho/headline que atrai → desenvolve a ideia gerando identificação → mostra a solução (o portal) → avisa que está em lançamento, com CTA
+
+**Slide 1 — Gancho:**
+
+"O síndico que mais cresce não é o que trabalha mais. É o que tem menos coisa passando pela cabeça dele."
+
+**Slide 2 — Identificação:**
+
+"Prestação de contas, assembleia, conselho, administradora, cada um puxando pra um lado, e tudo dependendo da sua memória e das suas planilhas."
+
+**Slide 3 — Identificação (continuação):**
+
+"E quando alguma coisa passa batido, quem segura a cobrança é você."
+
+**Slide 4 — Ponte para a solução:**
+
+"E se existisse um lugar só, pensado especificamente para a rotina do síndico, que organiza tudo isso?"
+
+**Slide 5 — Solução:**
+
+"Estamos desenvolvendo o Portal do Síndico da Eleva. Feito para facilitar a sua gestão, a sua prestação de contas, as suas assembleias e a sua relação com conselheiros e administradoras."
+
+**Slide 6 — Lançamento:**
+
+"Já estamos em fase de lançamento, com período gratuito para você testar."
+
+**Slide 7 — CTA:**
+
+"Comenta 'PORTAL' que eu te mando todas as informações no direct, ou se preferir, acessa pelo link da bio."
+
+**Legenda do post:**
+
+O síndico que mais cresce não é o que trabalha mais, é o que tem menos coisa passando pela cabeça dele.
+
+Prestação de contas, assembleia, conselho, administradora, cada um puxando pra um lado, tudo dependendo da sua memória. E quando algo passa batido, quem segura a cobrança é você.
+
+Estamos lançando o Portal do Síndico da Eleva, feito para facilitar sua gestão, sua prestação de contas, suas assembleias e sua relação com conselheiros e administradoras. Com período gratuito para testar.
+
+Comenta "PORTAL" 👇 ou acessa pelo link da bio.
+
+**Automação de direct (gatilho: comentário "PORTAL"):** enviar todas as informações sobre o Portal do Síndico e o período de teste gratuito, com destaque para o acesso estendido de quem for parceiro do Hub de Negócios.
+
+---
+
 ## Resumo de onde cada peça vai
 
-| Vídeo | Canal | Formato |
+| Peça | Canal | Formato |
 |---|---|---|
-| 1 | Comunidade Eleva (WhatsApp) | Vertical, Stories |
-| 2 | Instagram | Reels, convite |
-| 3 | Comunidade Eleva (WhatsApp) | Vertical, Stories |
-| 4 | Instagram | Reels |
+| Vídeo 1 | Comunidade Eleva (WhatsApp) | Vertical, Stories |
+| Vídeo 2 | Instagram | Reels, convite |
+| Vídeo 3 | Comunidade Eleva (WhatsApp) | Vertical, Stories |
+| Vídeo 4 | Instagram | Reels |
+| Carrossel | Instagram | Carrossel, 7 slides |
