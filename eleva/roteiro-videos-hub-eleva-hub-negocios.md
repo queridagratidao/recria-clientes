@@ -30,7 +30,7 @@ Para isso, seguem 4 vídeos para o Giuliano gravar, todos em formato vertical (e
 
 "Vai ter um período gratuito para você testar a plataforma e ver se faz sentido para você. E quem for parceiro do nosso Hub de Negócios tem acesso gratuito ao portal durante todo o tempo em que fizer parte do Hub."
 
-"Se quiser saber mais sobre as vantagens e benefícios de participar do Hub de Negócios, fale comigo no privado através do WhatsApp da Eleva."
+"Se quiser saber mais sobre as vantagens e benefícios de participar do Hub de Negócios, clica no link que vamos enviar abaixo desse vídeo. Ele vai te direcionar para uma conversa no privado com o WhatsApp da Eleva, e lá a gente te passa todas as informações."
 
 🔗 https://wa.me/555193630953
 
