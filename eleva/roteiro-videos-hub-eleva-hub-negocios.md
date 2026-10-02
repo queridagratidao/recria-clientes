@@ -151,7 +151,13 @@ Textos curtos e diretos: a pessoa clica no botão, vai para a página, preenche 
 > Oi, [nome], tudo bem? Que bom que você se interessou em saber mais e quem sabe participar do nosso Hub de Negócios. Toque no link abaixo para saber mais informações e aplicar para fazer parte do Hub, caso você deseje. Um abraço!
 > 🔗 [link do formulário]
 
-**Sugestão de campos para o formulário (Google Forms) do Hub de Negócios:**
+**Sugestão de título e descrição (Google Forms) do Hub de Negócios:**
+
+Título: "Hub de Negócios Eleva — Cadastro de Parceiros"
+
+Descrição: "Preencha seus dados para saber mais sobre o Hub de Negócios da Eleva, uma rede de parceiros do ramo condominial com relação ganha-ganha. Leva menos de 2 minutos."
+
+**Campos do formulário:**
 
 1. Nome
 2. WhatsApp
