@@ -49,7 +49,12 @@ Para isso, seguem 4 vídeos para o Giuliano gravar, todos em formato vertical (e
 
 "E tem um motivo a mais para você entrar agora: estamos desenvolvendo um portal exclusivo para síndicos, com conteúdo de valor que vai facilitar a sua vida no seu dia a dia de gestão, prestação de contas, assembleias e relação com conselheiros e administradoras. E quem estiver na nossa comunidade vai ficar sabendo em primeira mão, antes de qualquer outro canal, assim que o portal for lançado, com período gratuito para testar."
 
-"Se você se interessou, entre na nossa comunidade através do link da bio."
+"Se você se interessou, comenta: COMUNIDADE, que eu te mando o link no direct, ou se preferir, entre direto através do link da bio."
+
+**Duração estimada:** 40-45 segundos
+**CTA:** "Clica no link e entra para a comunidade"
+
+**Automação de direct (gatilho: comentário "COMUNIDADE"):** enviar o link de entrada da comunidade Eleva Síndicos de Alta Performance no WhatsApp.
 
 **Legenda do post:**
 
@@ -59,7 +64,7 @@ Uma comunidade gratuita, no WhatsApp, com conteúdo semanal para o seu dia a dia
 
 E tem um motivo a mais para entrar agora: estamos desenvolvendo um portal exclusivo para síndicos, e quem está na comunidade fica sabendo em primeira mão, antes de qualquer outro canal, assim que lançar, com período gratuito para testar.
 
-Entra pelo link da bio! 👇
+Comenta "COMUNIDADE" 👇 ou entra direto pelo link da bio!
 
 ---
 
