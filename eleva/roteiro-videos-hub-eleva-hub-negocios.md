@@ -138,7 +138,7 @@ Textos curtos e diretos: a pessoa clica no botão, vai para a página, preenche 
 **Vídeo 2 — gatilho: comentário "COMUNIDADE"**
 
 > Oi, [nome], tudo bem? Que bom que você quer fazer parte da comunidade Eleva lá no WhatsApp. Para participar, basta clicar no link abaixo. Nos vemos na comunidade. Um abraço!
-> 🔗 [link do grupo do WhatsApp]
+> 🔗 https://chat.whatsapp.com/IPCOutpwO2rLJF2KmP99t9
 
 **Vídeo 4 — gatilho: comentário "Hub de Negócios"**
 
