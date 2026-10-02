@@ -32,7 +32,7 @@ Para isso, seguem 4 vídeos para o Giuliano gravar, todos em formato vertical (e
 
 "Se quiser saber mais sobre as vantagens e benefícios de participar do Hub de Negócios, fale comigo no privado através do WhatsApp da Eleva."
 
-🔗 [WhatsApp da Eleva]
+🔗 https://wa.me/555193630953
 
 "Nos próximos dias, trago mais informações para vocês. No mais, aproveitem todo o nosso conteúdo. Um abraço!"
 
