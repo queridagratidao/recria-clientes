@@ -77,7 +77,7 @@ Comenta "COMUNIDADE" 👇 ou entra direto pelo link da bio!
 
 Quero entender como está sendo esse ano para você: a sua gestão, a sua carteira, se teve crescimento, se você está se sentindo estagnado. E também quais são as suas principais dúvidas e dores, o que está te deixando meio perdido, sem saber como resolver.
 
-Para isso, preencham o formulário que vamos enviar aqui no grupo, logo abaixo deste vídeo. Vamos ler com muito carinho cada resposta, e eu vou trazer para cá, junto com a minha equipe, conteúdos nas próximas semanas e meses que vão te ajudar a evoluir exatamente nos pontos que vocês preencherem. O formulário é para que a gente consiga ajudar vocês de uma forma mais personalizada.
+Para isso, preencham o formulário que vamos enviar aqui no grupo, logo abaixo deste vídeo. Vamos ler com muito carinho cada resposta, e eu vou trazer para cá, junto com a minha equipe, conteúdos nas próximas semanas e meses que vão te ajudar a evoluir exatamente nos pontos que vocês preencherem. Ou seja, o formulário é para que consigamos entregar conteúdos cada vez mais personalizados para vocês.
 
 Preencham o formulário, vocês só têm a ganhar. Aproveitem muito o conteúdo aqui da nossa comunidade. Um abraço!"
 
