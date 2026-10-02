@@ -101,7 +101,7 @@ def meta_bar(time, channel, tipo, accent):
 def post_card(time, channel, tipo, formato, headline, subheadline, cta,
               legenda=None, ancoragem=None, persona=None, hashtags=None, origem=None,
               cards=None, card_final=None, observacao=None, cenario=None,
-              label_legenda="LEGENDA:", acoes=None, roteiro=None):
+              label_legenda="LEGENDA:", acoes=None, roteiro=None, trechos=None):
     """Returns a LIST of flowables for one post (not a single monolithic table), so
     long carrosséis can break across pages instead of overflowing a single table cell."""
     accent = CH_COLOR.get(channel, NAVY)
@@ -131,6 +131,7 @@ def post_card(time, channel, tipo, formato, headline, subheadline, cta,
             body_flow.append(Spacer(1, 0.12*cm))
         body_flow.append(P("**LEGENDA DO POST:** " + legenda, fontSize=9, leading=12.8, spaceAfter=5, **indent))
     else:
+        roteiro = roteiro or trechos
         if headline:
             body_flow.append(P("**HEADLINE:** " + headline, fontSize=10, leading=13.5, spaceAfter=4, **indent))
         if roteiro:

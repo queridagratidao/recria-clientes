@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Plano B Reels - Segunda quinzena de setembro</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Nunito:ital,wght@0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+<style>
+
+  @page { size: A4; margin: 0; }
+  :root{
+    --rosa-claro:#fbeef7;
+    --lilas-claro:#f2e6f7;
+    --branco:#ffffff;
+    --magenta:#9c1256;
+    --magenta-escuro:#6e0e3d;
+    --roxo-profundo:#5a1042;
+    --rosa-bonus:#f3d2ec;
+    --texto:#3a2233;
+    --texto-claro:#6b4b60;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{ font-family:'Nunito',sans-serif; color:var(--texto); background:#fff; }
+  .page{
+    width:210mm; min-height:297mm; padding:16mm 18mm 22mm 18mm; position:relative;
+    page-break-after:always; background:linear-gradient(180deg,var(--lilas-claro) 0%, #fff 40%);
+  }
+  .page:last-child{page-break-after:auto;}
+  .flower{ text-align:center; font-size:22px; color:var(--magenta); margin-bottom:6px;}
+  .capa{ display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; min-height:265mm;}
+  .capa h1{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--roxo-profundo); font-size:2.3rem; line-height:1.25; margin-bottom:14px;}
+  .capa .sub{ color:var(--magenta); font-weight:600; font-size:1.1rem; margin-bottom:30px;}
+  .capa .mes-badge{ background:var(--magenta); color:#fff; font-family:'Quicksand',sans-serif; font-weight:700; padding:10px 26px; border-radius:999px; font-size:1rem; margin-bottom:40px;}
+  .capa .lista-semanas{ text-align:left; background:#fff; border-radius:16px; padding:24px 30px; box-shadow:0 4px 18px rgba(90,16,66,.08); max-width:420px;}
+  .capa .lista-semanas li{ margin-bottom:10px; font-size:.95rem; color:var(--texto);}
+  .capa .lista-semanas b{ color:var(--magenta-escuro);}
+  h2.titulo-semana{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:1.55rem; color:var(--roxo-profundo); text-align:center; margin-bottom:4px;}
+  p.subtitulo-semana{ text-align:center; color:var(--magenta); font-weight:600; font-size:.92rem; margin-bottom:18px;}
+  .tag-formato{ display:block; text-align:center; margin:0 auto 20px auto; background:var(--rosa-bonus); color:var(--magenta-escuro); font-weight:700; font-size:.78rem; padding:5px 16px; border-radius:999px; width:fit-content;}
+  .whatsapp-box{
+    background:#fff; border:1.5px solid var(--rosa-bonus); border-radius:14px; padding:18px 20px; margin-bottom:22px;
+    box-shadow:0 3px 12px rgba(90,16,66,.06);
+  }
+  .whatsapp-box .label{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--magenta); font-size:.78rem; text-transform:uppercase; letter-spacing:.03em; margin-bottom:8px; display:block;}
+  .whatsapp-box p{ font-size:.87rem; line-height:1.55; margin-bottom:8px;}
+  .whatsapp-box .link{ color:var(--magenta-escuro); font-weight:700; font-size:.85rem;}
+  h3.secao{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--magenta-escuro); font-size:1.05rem; margin:16px 0 6px 0;}
+  p.corpo{ font-size:.9rem; line-height:1.6; margin-bottom:10px;}
+  .box-conexao{
+    background:var(--rosa-claro); border-left:4px solid var(--magenta); border-radius:8px; padding:12px 16px; font-size:.86rem; line-height:1.55; margin-bottom:16px; color:var(--texto);
+  }
+  .exercicio-box{
+    background:var(--rosa-claro); border-radius:12px; padding:18px 20px; margin-top:14px;
+    break-inside:avoid; page-break-inside:avoid;
+  }
+  .exercicio-box .titulo-ex{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--magenta); font-size:1rem; margin-bottom:10px;}
+  .exercicio-box p.pergunta{ font-size:.88rem; margin-bottom:6px; font-weight:600;}
+  .linha-escrever{ border-bottom:1px solid var(--rosa-bonus); height:22px; margin-bottom:6px;}
+  .frase-guardar{
+    background:var(--magenta); color:#fff; border-radius:12px; padding:14px 18px; font-family:'Quicksand',sans-serif; font-weight:600; font-size:.92rem; text-align:center; margin-top:18px; line-height:1.4;
+    break-inside:avoid; page-break-inside:avoid;
+  }
+  .roteiro-box{
+    background:var(--rosa-claro); border-radius:12px; padding:18px 20px; margin-top:8px; margin-bottom:14px;
+    break-inside:avoid; page-break-inside:avoid;
+  }
+  .roteiro-box p{ font-size:.9rem; line-height:1.65; font-style:italic; color:var(--texto);}
+  .plano-b{ background:#fff; border:1.5px dashed var(--rosa-bonus); border-radius:12px; padding:14px 18px; font-size:.85rem; line-height:1.5; color:var(--texto-claro); break-inside:avoid; page-break-inside:avoid;}
+  .plano-b .label{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--magenta); display:block; margin-bottom:6px; font-size:.82rem;}
+  .enquete-box{ background:var(--rosa-claro); border-radius:12px; padding:16px 20px; margin-top:6px;}
+  .enquete-box .opcao{ font-size:.88rem; margin-bottom:6px; font-weight:600;}
+  .resumo-item{ display:flex; gap:10px; margin-bottom:12px; font-size:.9rem; line-height:1.5;}
+  .resumo-item .bullet{ color:var(--magenta); font-weight:700; flex-shrink:0;}
+  .rodape{
+    position:absolute; bottom:10mm; left:18mm; right:18mm; text-align:center; font-size:.72rem; color:var(--texto-claro); border-top:1px solid var(--rosa-bonus); padding-top:8px; line-height:1.5;
+  }
+  .rodape b{ color:var(--magenta);}
+  .fechamento, .fechamento-inline{ text-align:center; font-family:'Quicksand',sans-serif; font-weight:600; color:var(--magenta-escuro); font-size:.92rem; margin-top:18px; display:block;}
+  .material-ref{
+    background:var(--lilas-claro); border:1.5px dashed var(--roxo-profundo); border-radius:12px; padding:14px 18px; font-size:.86rem; line-height:1.55; color:var(--texto); margin-bottom:16px;
+  }
+  .material-ref b{ color:var(--roxo-profundo); }
+  .recesso{
+    background:#fff; border-radius:16px; padding:26px 26px; text-align:center; box-shadow:0 4px 18px rgba(90,16,66,.08); max-width:440px; margin:0 auto;
+  }
+  .recesso p{ font-size:.92rem; line-height:1.6; margin-bottom:10px; color:var(--texto);}
+
+  .campo{ font-size:.9rem; line-height:1.6; margin-bottom:10px;}
+  .campo b{ color:var(--magenta-escuro);}
+  .legenda-box{ background:var(--rosa-claro); border-radius:12px; padding:16px 20px; margin-top:10px; font-size:.88rem; line-height:1.6;}
+
+</style>
+</head>
+<body>
+<div class="page capa">
+  <div class="flower">✿</div>
+  <span class="mes-badge">PLANO B · REELS</span>
+  <h1>Segunda Quinzena<br>de Setembro</h1>
+  <p class="sub">Caso a Camila não consiga gravar na viagem</p>
+  <div class="lista-semanas"><ul style="list-style:none;">
+    <li>✿ <b>18/09:</b> situação hipotética (Joana)</li>
+    <li>✿ <b>25/09:</b> situação hipotética (Aline)</li>
+    <li>✿ <b>30/09:</b> apego evitativo, pergunta de opinião</li>
+  </ul></div>
+</div>
+<div class="page">
+  <div class="flower">✿</div>
+  <h2 class="titulo-semana">18/09 (SEX)</h2>
+  <p class="subtitulo-semana">Post de texto (Plano B do Reel)</p>
+  <h3 class="secao">Copy do criativo</h3>
+  <p class="campo"><b>Headline:</b> No começo do relacionamento, ela achava que tinha muita sorte. O namorado sempre sabia exatamente o que dizer.</p>
+  <p class="campo"><b>Subheadline:</b> Mas, com o tempo, toda conversa, de algum jeito, voltava pra ele, ignorando completamente quando o assunto era ela. Continue na legenda.</p>
+  <h3 class="secao">Legenda do post</h3>
+  <div class="legenda-box">Deixa eu te contar a história da Joana (nome fictício, é um caso que acontece com muita frequência, e achei importante trazer esse tema pro feed). No começo do relacionamento, ela achava que tinha muita sorte: o namorado sempre sabia exatamente o que dizer, elogiava tudo nela, dizia que ela era diferente de todo mundo. Só que, com o tempo, ela percebeu um padrão: toda conversa, de algum jeito, voltava pra ele. Os problemas dela nunca eram tão importantes quanto os dele. E quando ela discordava de alguma coisa, ele fazia ela se sentir culpada por isso. Ela não sabia nomear o que estava sentindo, só sabia que, cada vez mais, se sentia pequena, e que se policiava antes de expressar qualquer necessidade. Isso é um padrão comum em relacionamentos com traços narcisistas: idealização intensa no começo, seguida de uma dinâmica onde as necessidades da outra pessoa deixam de importar, e qualquer tentativa de se posicionar é tratada como drama ou exagero. Ela levou um tempo pra reconhecer isso, porque, de fora, o relacionamento até parecia bom, ele não era agressivo na forma como a gente costuma imaginar. Reconstruir a confiança na própria percepção, entender que sentir que algo está errado, mesmo sem provas óbvias, também é uma informação válida, foi o que fez ela conseguir reconhecer esses sinais muito mais cedo, e principalmente, confiar em si mesma de novo. Se você se identificou com essa situação e quer melhorar os seus relacionamentos, venha para a Comunidade Donas de Si, uma comunidade totalmente gratuita no WhatsApp, organizada através do meu direcionamento como psicóloga, exclusiva para mulheres. Comente DONAS DE SI que eu te envio o convite no seu direct, ou, se preferir, acesse pelo link da bio.</div>
+  <p class="campo" style="margin-top:12px;"><b>Hashtags:</b> #RelacionamentoNarcisista #SaúdeEmocional #JornadaAmeSe</p>
+  <div class="rodape">
+    <b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria
+  </div>
+
+</div>
+<div class="page">
+  <div class="flower">✿</div>
+  <h2 class="titulo-semana">25/09 (SEX), fechamento do mês</h2>
+  <p class="subtitulo-semana">Post de texto (Plano B do Reel)</p>
+  <h3 class="secao">Copy do criativo</h3>
+  <p class="campo"><b>Headline:</b> Ela sabia, há tempos, que aquele relacionamento não fazia bem. E mesmo assim, não conseguia sair.</p>
+  <p class="campo"><b>CTA:</b> Continua na legenda...</p>
+  <h3 class="secao">Legenda do post</h3>
+  <div class="legenda-box">Deixa eu te contar a história da Aline (nome fictício, é um caso que acontece com muita frequência, e achei importante trazer esse tema pro feed). Ela sabia, há tempos, que aquele relacionamento não fazia bem. As brigas eram constantes, ela vivia ansiosa, e as pessoas mais próximas já tinham comentado a mudança nela. Mesmo assim, ela não conseguia sair. Não era falta de clareza, ela sabia exatamente o que estava errado. O que faltava era coragem, e um medo enorme do que viria depois: ficar sozinha, ter que recomeçar, ou não saber quem ela era fora daquela relação. Isso é mais comum do que parece: às vezes a gente permanece num lugar que não faz bem, não porque não vê o problema, mas porque o medo do vazio depois é maior que o desconforto de ficar. O primeiro passo costuma ser trabalhar justamente esse medo, entender de onde ele vem, muitas vezes de uma história antiga de abandono ou de instabilidade, antes mesmo de falar sobre o relacionamento em si. Porque não adianta só ter coragem quando o medo de base nunca foi trabalhado, a pessoa sai de um relacionamento assim e, sem entender a raiz, corre o risco de repetir o padrão no próximo. E isso resume um pouco tudo que a gente conversou esse mês por aqui: relacionamento com o outro, relacionamento com a família, relacionamento com você mesma. No fundo, é sempre sobre os mesmos padrões se repetindo em contextos diferentes. Se você se sentiu identificada, ou se essa situação te tocou de alguma forma, venha para a Comunidade Donas de Si, uma comunidade totalmente gratuita no WhatsApp, organizada através do meu direcionamento como psicóloga, exclusiva para mulheres. Comente DONAS DE SI que eu te envio o convite no seu direct, ou, se preferir, acesse pelo link da bio.</div>
+  <p class="campo" style="margin-top:12px;"><b>Hashtags:</b> #Relacionamentos #SaúdeEmocional #JornadaAmeSe</p>
+  <div class="rodape">
+    <b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria
+  </div>
+
+</div>
+<div class="page">
+  <div class="flower">✿</div>
+  <h2 class="titulo-semana">30/09 (QUA)</h2>
+  <p class="subtitulo-semana">Post de texto (Plano B do Reel)</p>
+  <h3 class="secao">Copy do criativo</h3>
+  <p class="campo"><b>Headline:</b> Ele se aproxima rápido, tudo parece incrível. Mas assim que a relação começa a ficar séria de verdade, ele perde o interesse e some.</p>
+  <p class="campo"><b>Subheadline:</b> Isso também é um padrão, e tem nome. Continua na legenda.</p>
+  <h3 class="secao">Legenda do post</h3>
+  <div class="legenda-box">Existe um padrão em que ele se aproxima rápido, se envolve intensamente, e assim que a relação começa a ficar séria de verdade, alguma coisa interna dispara um alarme de perigo. E, ao invés de falar sobre isso, ele evita, arruma um motivo pra brigar, ou se afasta aos poucos. Isso tem nome: apego evitativo. Não costuma ser falta de interesse, é medo de intimidade, de depender de alguém, de se abrir de verdade e, talvez, se machucar depois. Muita gente com esse padrão nem percebe que tem, só sente um desconforto crescente quando alguém chega perto demais, e interpreta esse desconforto como falta de sintonia com a pessoa, quando na verdade é um mecanismo de proteção antigo. Reconhecer isso, seja em você ou em alguém que você se relaciona, é o primeiro passo pra parar de sabotar relações que poderiam dar certo. Você se reconhece nisso, ou conhece alguém que se encaixa nesse padrão? Deixa aqui a sua opinião nos comentários.</div>
+  <p class="campo" style="margin-top:12px;"><b>Hashtags:</b> #ApegoEvitativo #Autoconhecimento #JornadaAmeSe</p>
+  <div class="rodape">
+    <b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria
+  </div>
+
+</div>
+</body>
+</html>

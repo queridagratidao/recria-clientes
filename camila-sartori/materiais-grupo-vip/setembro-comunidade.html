@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Setembro - Comunidade Donas de Si</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Nunito:ital,wght@0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+<style>
+  @page { size: A4; margin: 0; }
+  :root{
+    --rosa-claro:#fbeef7;
+    --lilas-claro:#f2e6f7;
+    --branco:#ffffff;
+    --magenta:#9c1256;
+    --magenta-escuro:#6e0e3d;
+    --roxo-profundo:#5a1042;
+    --rosa-bonus:#f3d2ec;
+    --texto:#3a2233;
+    --texto-claro:#6b4b60;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    font-family:'Nunito',sans-serif;
+    color:var(--texto);
+    background:#fff;
+  }
+  .page{
+    width:210mm;
+    min-height:297mm;
+    padding:16mm 18mm 22mm 18mm;
+    position:relative;
+    page-break-after:always;
+    background:linear-gradient(180deg,var(--lilas-claro) 0%, #fff 40%);
+  }
+  .page:last-child{page-break-after:auto;}
+  .flower{ text-align:center; font-size:22px; color:var(--magenta); margin-bottom:6px;}
+  .capa{ display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; min-height:265mm;}
+  .capa h1{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--roxo-profundo); font-size:2.3rem; line-height:1.25; margin-bottom:14px;}
+  .capa .sub{ color:var(--magenta); font-weight:600; font-size:1.1rem; margin-bottom:30px;}
+  .capa .mes-badge{ background:var(--magenta); color:#fff; font-family:'Quicksand',sans-serif; font-weight:700; padding:10px 26px; border-radius:999px; font-size:1rem; margin-bottom:40px;}
+  .capa .lista-semanas{ text-align:left; background:#fff; border-radius:16px; padding:24px 30px; box-shadow:0 4px 18px rgba(90,16,66,.08); max-width:420px;}
+  .capa .lista-semanas li{ margin-bottom:10px; font-size:.95rem; color:var(--texto);}
+  .capa .lista-semanas b{ color:var(--magenta-escuro);}
+  h2.titulo-semana{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:1.55rem; color:var(--roxo-profundo); text-align:center; margin-bottom:4px;}
+  p.subtitulo-semana{ text-align:center; color:var(--magenta); font-weight:600; font-size:.92rem; margin-bottom:18px;}
+  .tag-formato{ display:block; text-align:center; margin:0 auto 20px auto; background:var(--rosa-bonus); color:var(--magenta-escuro); font-weight:700; font-size:.78rem; padding:5px 16px; border-radius:999px; width:fit-content;}
+  .whatsapp-box{
+    background:#fff; border:1.5px solid var(--rosa-bonus); border-radius:14px; padding:18px 20px; margin-bottom:22px;
+    box-shadow:0 3px 12px rgba(90,16,66,.06);
+  }
+  .whatsapp-box .label{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--magenta); font-size:.78rem; text-transform:uppercase; letter-spacing:.03em; margin-bottom:8px; display:block;}
+  .whatsapp-box p{ font-size:.87rem; line-height:1.55; margin-bottom:8px;}
+  .whatsapp-box .link{ color:var(--magenta-escuro); font-weight:700; font-size:.85rem;}
+  h3.secao{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--magenta-escuro); font-size:1.05rem; margin:16px 0 6px 0;}
+  p.corpo{ font-size:.9rem; line-height:1.6; margin-bottom:10px;}
+  .box-conexao{
+    background:var(--rosa-claro); border-left:4px solid var(--magenta); border-radius:8px; padding:12px 16px; font-size:.86rem; line-height:1.55; margin-bottom:16px; color:var(--texto);
+  }
+  .exercicio-box{
+    background:var(--rosa-claro); border-radius:12px; padding:18px 20px; margin-top:14px;
+    break-inside:avoid; page-break-inside:avoid;
+  }
+  .material-ref{
+    background:var(--lilas-claro); border:1.5px dashed var(--roxo-profundo); border-radius:12px; padding:14px 18px; font-size:.86rem; line-height:1.55; color:var(--texto); margin-bottom:16px;
+  }
+  .material-ref b{ color:var(--roxo-profundo); }
+  .exercicio-box .titulo-ex{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--magenta); font-size:1rem; margin-bottom:10px;}
+  .exercicio-box p.pergunta{ font-size:.88rem; margin-bottom:6px; font-weight:600;}
+  .linha-escrever{ border-bottom:1px solid var(--rosa-bonus); height:22px; margin-bottom:6px;}
+  .frase-guardar{
+    background:var(--magenta); color:#fff; border-radius:12px; padding:14px 18px; font-family:'Quicksand',sans-serif; font-weight:600; font-size:.92rem; text-align:center; margin-top:18px; line-height:1.4;
+  }
+  .roteiro-box{
+    background:var(--rosa-claro); border-radius:12px; padding:18px 20px; margin-top:8px; margin-bottom:14px;
+    break-inside:avoid; page-break-inside:avoid;
+  }
+  .roteiro-box p{ font-size:.9rem; line-height:1.65; font-style:italic; color:var(--texto);}
+  .plano-b{ background:#fff; border:1.5px dashed var(--rosa-bonus); border-radius:12px; padding:14px 18px; font-size:.85rem; line-height:1.5; color:var(--texto-claro); break-inside:avoid; page-break-inside:avoid;}
+  .plano-b .label{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--magenta); display:block; margin-bottom:6px; font-size:.82rem;}
+  .enquete-box{ background:var(--rosa-claro); border-radius:12px; padding:16px 20px; margin-top:6px;}
+  .enquete-box .opcao{ font-size:.88rem; margin-bottom:6px; font-weight:600;}
+  .resumo-item{ display:flex; gap:10px; margin-bottom:12px; font-size:.9rem; line-height:1.5;}
+  .resumo-item .bullet{ color:var(--magenta); font-weight:700; flex-shrink:0;}
+  .rodape{
+    position:absolute; bottom:10mm; left:18mm; right:18mm; text-align:center; font-size:.72rem; color:var(--texto-claro); border-top:1px solid var(--rosa-bonus); padding-top:8px; line-height:1.5;
+  }
+  .rodape b{ color:var(--magenta);}
+  .fechamento{ text-align:center; font-family:'Quicksand',sans-serif; font-weight:600; color:var(--magenta-escuro); font-size:.92rem; margin-top:18px;}
+</style>
+</head>
+<body>
+
+<!-- CAPA -->
+<div class="page capa">
+  <div class="flower">✿</div>
+  <span class="mes-badge">SETEMBRO · COMUNIDADE DONAS DE SI</span>
+  <h1>Os 4 Pilares da<br>Autoestima</h1>
+  <p class="sub">Autoconceito · Autoimagem · Autorreforço · Autoeficácia</p>
+  <div class="lista-semanas">
+    <ul style="list-style:none;">
+      <li>✿ <b>Semana 1:</b> Autoconceito (PDF teórico)</li>
+      <li>✿ <b>Semana 2:</b> Autoimagem (PDF prático)</li>
+      <li>✿ <b>Semana 3:</b> Autorreforço (vídeo/áudio)</li>
+      <li>✿ <b>Semana 4:</b> Autoeficácia (interação)</li>
+      <li>✿ <b>Semana 5:</b> Resumão do mês</li>
+    </ul>
+  </div>
+</div>
+
+<!-- MENSAGEM DE ABERTURA -->
+<div class="page">
+  <div class="flower">✿</div>
+  <h2 class="titulo-semana">Mensagem de Abertura do Mês</h2>
+  <p class="subtitulo-semana">Enviar junto com o conteúdo da Semana 1</p>
+  <div class="whatsapp-box">
+    <span class="label">Textinho de apoio (WhatsApp)</span>
+    <p>Bom dia, mulheres donas de si! 🌸</p>
+    <p>Esse mês a gente vai mergulhar nos 4 pilares que sustentam a autoestima, como você fala consigo mesma, como você se vê, como você se trata, e o quanto você confia na sua própria capacidade.</p>
+    <p>Vamos entender de onde vêm essas crenças, e começar, juntas, a construir uma relação mais gentil com você mesma.</p>
+    <p>Bora começar? Segue o primeiro conteúdo da semana 👇</p>
+  </div>
+  <div class="rodape">
+    <b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria
+  </div>
+</div>
+
+<!-- SEMANA 1 -->
+<div class="page">
+  <div class="flower">✿</div>
+  <h2 class="titulo-semana">Semana 1 (31/08–06/09)</h2>
+  <p class="subtitulo-semana">Autoconceito</p>
+  <span class="tag-formato">PDF TEÓRICO</span>
+
+  <div class="whatsapp-box">
+    <span class="label">Textinho de apoio (WhatsApp)</span>
+    <p>Bom dia, mulheres donas de si! 💕</p>
+    <p>Você sabia que a forma como você fala consigo mesma quando erra alguma coisa diz muito mais sobre você do que sobre o erro em si?</p>
+    <p>Preparei um material pra gente entender como essa voz interna crítica se forma, de onde ela vem, e como começar a tratar você com o mesmo cuidado que trata quem você ama.</p>
+    <p>📎 Segue o PDF completo:</p>
+    <p>Se esse tema te tocou e você quer ir além, a Comunidade AME-SE tem um módulo inteiro sobre isso (Módulo 4, Fortalecendo sua autoestima), com muito mais profundidade, por 12x de R$16,24 (ou R$157 à vista).</p>
+    <p class="link">🔗 curso-ame-se.camilasartori.com.br</p>
+    <p>Boa leitura! 💕</p>
+  </div>
+
+  <div class="material-ref">
+    📎 <b>Material de apoio (PDF em arquivo separado):</b> pegar o conteúdo do arquivo <b>Setembro · Semana 1 · Autoconceito.pdf</b> para enviar junto com o texto acima.
+  </div>
+
+  <div class="rodape">
+    <b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria
+  </div>
+</div>
+
+<!-- SEMANA 2 -->
+<div class="page">
+  <div class="flower">✿</div>
+  <h2 class="titulo-semana">Semana 2 (07–13/09)</h2>
+  <p class="subtitulo-semana">Autoimagem</p>
+  <span class="tag-formato">PDF PRÁTICO</span>
+
+  <div class="whatsapp-box">
+    <span class="label">Textinho de apoio (WhatsApp)</span>
+    <p>Boa tarde, mulheres donas de si! 🌸</p>
+    <p>Você já reparou como a gente é capaz de apontar um "defeito" no espelho que ninguém além de nós enxerga?</p>
+    <p>Essa semana o material é sobre autoimagem: de onde vem o padrão de beleza que você aprendeu a usar contra si mesma, e como parar de se comparar com um ideal que nem existe de verdade.</p>
+    <p>📎 Segue o PDF com o exercício da semana:</p>
+    <p>Quer se aprofundar? Na Comunidade AME-SE a gente trabalha isso com muito mais calma e profundidade, por 12x de R$16,24 (ou R$157 à vista).</p>
+    <p class="link">🔗 curso-ame-se.camilasartori.com.br</p>
+    <p>Bom exercício! 💕</p>
+  </div>
+
+  <div class="material-ref">
+    📎 <b>Material de apoio (PDF em arquivo separado):</b> pegar o conteúdo do arquivo <b>Setembro · Semana 2 · Autoimagem.pdf</b> para enviar junto com o texto acima.
+  </div>
+
+  <div class="rodape">
+    <b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria
+  </div>
+</div>
+
+<!-- SEMANA 3 -->
+<div class="page">
+  <div class="flower">✿</div>
+  <h2 class="titulo-semana">Semana 3 (14–20/09)</h2>
+  <p class="subtitulo-semana">Autorreforço</p>
+  <span class="tag-formato">VÍDEO / ÁUDIO DA CAMILA</span>
+
+  <div class="whatsapp-box">
+    <span class="label">Textinho de apoio (WhatsApp)</span>
+    <p>Boa tarde, mulheres donas de si! 🌸</p>
+    <p>Quando foi a última vez que você se parabenizou por alguma coisa, mesmo pequena, sem esperar que alguém mais fizesse isso primeiro?</p>
+    <p>Gravei um vídeo rapidinho sobre isso, solta o play:</p>
+    <p>[vídeo/áudio]</p>
+    <p>Se esse assunto te tocou, na Comunidade AME-SE eu aprofundo isso e muito mais, por 12x de R$16,24 (ou R$157 à vista).</p>
+    <p class="link">🔗 curso-ame-se.camilasartori.com.br</p>
+    <p>Boa reflexão! 💕</p>
+  </div>
+
+  <h3 class="secao">Roteiro (vídeo até 90s, ou áudio)</h3>
+  <div class="roteiro-box">
+    <p>"Deixa eu te perguntar uma coisa, quando foi a última vez que você se parabenizou por alguma coisa, sem esperar que alguém mais fizesse isso primeiro?</p>
+    <p style="margin-top:8px;">Lá no nosso material sobre insegurança emocional a gente falou sobre a origem das nossas crenças. Pois é, a forma como a gente se recompensa, ou não se recompensa, também vem de lá.</p>
+    <p style="margin-top:8px;">Muita gente foi educada acreditando que se elogiar é feio, é arrogância. Mas isso não é verdade, elogiar a si mesma, em voz baixa, no seu próprio tempo, é um dos jeitos mais simples de fortalecer sua autoestima.</p>
+    <p style="margin-top:8px;">E não é só sobre elogio, é também sobre se permitir descansar, se dar um presente, dizer não pra alguma obrigação de vez em quando sem se sentir culpada.</p>
+    <p style="margin-top:8px;">Autocuidado não é luxo, é manutenção. Essa semana, eu te convido a fazer um teste, quando fizer alguma coisa bem feita, mesmo pequena, para e fala pra você mesma, muito bem, eu consegui. Só isso."</p>
+  </div>
+
+  <div class="plano-b">
+    <span class="label">Plano B, se não der pra gravar vídeo ou áudio</span>
+    Mandar a mesma mensagem em formato de texto, escrita em primeira pessoa, como se fosse a Camila falando diretamente no grupo. O conteúdo é idêntico ao roteiro acima, só sem o vídeo.
+  </div>
+
+  <div class="rodape">
+    <b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria
+  </div>
+</div>
+
+<!-- SEMANA 4 -->
+<div class="page">
+  <div class="flower">✿</div>
+  <h2 class="titulo-semana">Semana 4 (21–27/09)</h2>
+  <p class="subtitulo-semana">Autoeficácia</p>
+  <span class="tag-formato">INTERAÇÃO</span>
+
+  <div class="whatsapp-box">
+    <span class="label">Textinho de apoio (WhatsApp)</span>
+    <p>Oi, mulheres donas de si! 💌</p>
+    <p>Hoje abri uma caixinha de perguntas lá no Instagram sobre esse tema: você costuma acreditar que vai dar certo antes mesmo de tentar, ou já se pega pensando "não vou conseguir" antes de começar?</p>
+    <p>Manda sua resposta lá 👉 [link do story]</p>
+    <p>Nos próximos dias eu volto aqui no grupo pra comentar as respostas. 💕</p>
+    <p>Boa reflexão! 💕</p>
+  </div>
+
+  <div class="plano-b">
+    <span class="label">Plano B, enquete nativa do WhatsApp (se não der pra fazer caixinha no Instagram)</span>
+  </div>
+  <div class="enquete-box">
+    <p class="pergunta">🗳️ Enquete: Quando você tem que fazer algo novo ou desafiador, o que mais passa pela sua cabeça?</p>
+    <p class="opcao">🅰️ Eu consigo, só preciso tentar</p>
+    <p class="opcao">🅱️ Provavelmente não vou dar conta</p>
+    <p class="opcao">🅲️ Depende do dia, varia muito</p>
+  </div>
+
+  <div class="rodape">
+    <b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria
+  </div>
+</div>
+
+<!-- SEMANA 5, RESUMÃO -->
+<div class="page">
+  <div class="flower">✿</div>
+  <h2 class="titulo-semana">Semana 5 (28/09–04/10)</h2>
+  <p class="subtitulo-semana">Resumão do Mês</p>
+
+  <div class="whatsapp-box">
+    <span class="label">Textinho de apoio (WhatsApp)</span>
+    <p>📚 Resumão de Setembro, mulheres donas de si</p>
+    <p>Esse mês a gente mergulhou nos 4 pilares da autoestima. Foi assim que caminhamos:</p>
+
+    <div class="resumo-item"><span class="bullet">✿</span><span><b>Semana 1, Autoconceito:</b> como a voz interna crítica se forma e como tratá-la com mais gentileza</span></div>
+    <div class="resumo-item"><span class="bullet">✿</span><span><b>Semana 2, Autoimagem:</b> a relação com o próprio corpo, e como parar de se comparar com um padrão que não existe</span></div>
+    <div class="resumo-item"><span class="bullet">✿</span><span><b>Semana 3, Autorreforço:</b> aprender a se elogiar, se premiar, e se permitir descansar sem culpa</span></div>
+    <div class="resumo-item"><span class="bullet">✿</span><span><b>Semana 4, Autoeficácia:</b> a confiança de que você é capaz, mesmo diante do novo</span></div>
+
+    <p style="margin-top:10px;">📎 Preparei esse resumão pra quem quer voltar e refazer as atividades com calma, é só rolar aqui nas conversas ou salvar o PDF.</p>
+    <p>Lembrando que todo esse material, junto com vídeos e conteúdos ainda mais aprofundados sobre esses temas, está disponível de forma organizada e completa dentro da Comunidade AME-SE, lá dá pra estudar no seu ritmo, sem precisar procurar entre as conversas do grupo. Se você quiser saber mais, clique no link 👇</p>
+    <p class="link">🔗 curso-ame-se.camilasartori.com.br</p>
+    <p>Se você tiver qualquer dúvida ou quiser saber mais detalhes sobre a Comunidade AME-SE, sobre terapia particular comigo ou sobre esse grupo, me chama no privado.</p>
+    <p class="fechamento">Ótimo mês pra todas nós! 💕</p>
+  </div>
+
+  <div class="rodape">
+    <b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria
+  </div>
+</div>
+
+</body>
+</html>
