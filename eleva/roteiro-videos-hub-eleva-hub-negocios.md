@@ -149,7 +149,7 @@ Textos curtos e diretos: a pessoa clica no botão, vai para a página, preenche 
 **Vídeo 4 — gatilho: comentário "Hub de Negócios"**
 
 > Oi, [nome], tudo bem? Que bom que você se interessou em saber mais e quem sabe participar do nosso Hub de Negócios. Toque no link abaixo para saber mais informações e aplicar para fazer parte do Hub, caso você deseje. Um abraço!
-> 🔗 [link do formulário]
+> 🔗 https://forms.gle/fvhzJ3Y1vJEyoy5s5
 
 **Sugestão de título e descrição (Google Forms) do Hub de Negócios:**
 
