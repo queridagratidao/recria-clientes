@@ -47,7 +47,7 @@ Para isso, seguem 4 vídeos para o Giuliano gravar, todos em formato vertical (e
 
 "Olá, pessoal! Sou o Giuliano Spolavori, fundador da Eleva. Estou passando aqui para te fazer um convite. Se você é síndico e ainda não faz parte da nossa comunidade, Eleva Síndicos de Alta Performance, lá no WhatsApp, você está perdendo tempo. É uma comunidade totalmente gratuita."
 
-"E em breve, por lá, vou contar mais sobre um portal que estamos desenvolvendo, exclusivo para síndicos, com conteúdo de valor que vai facilitar a sua vida no seu dia a dia de gestão, prestação de contas, assembleias e relação com conselheiros e administradoras. Vai ter período gratuito para testar, e quem for parceiro do nosso Hub de Negócios tem acesso gratuito enquanto fizer parte do Hub."
+"E tem um motivo a mais para você entrar agora: estamos desenvolvendo um portal exclusivo para síndicos, com conteúdo de valor que vai facilitar a sua vida no seu dia a dia de gestão, prestação de contas, assembleias e relação com conselheiros e administradoras. E quem estiver na nossa comunidade vai ficar sabendo em primeira mão, antes de qualquer outro canal, assim que o portal for lançado, com período gratuito para testar."
 
 "Se você se interessou, entre na nossa comunidade através do link da bio."
 
@@ -57,7 +57,7 @@ Você é síndico e ainda não faz parte da nossa comunidade, Eleva Síndicos de
 
 Uma comunidade gratuita, no WhatsApp, com conteúdo semanal para o seu dia a dia de gestão.
 
-Em breve, contamos mais sobre um portal exclusivo para síndicos que estamos desenvolvendo, com período gratuito para testar.
+E tem um motivo a mais para entrar agora: estamos desenvolvendo um portal exclusivo para síndicos, e quem está na comunidade fica sabendo em primeira mão, antes de qualquer outro canal, assim que lançar, com período gratuito para testar.
 
 Entra pelo link da bio! 👇
 
