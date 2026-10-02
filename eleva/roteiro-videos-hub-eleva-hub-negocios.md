@@ -116,12 +116,12 @@ Comenta "Hub de Negócios" aqui embaixo que eu te mando no direct um formulário
 
 ## Resumo de onde cada peça vai
 
-| Peça | Canal | Formato |
-|---|---|---|
-| Vídeo 1 | Comunidade Eleva (WhatsApp) | Vertical, Stories |
-| Vídeo 2 | Instagram | Reels, convite |
-| Vídeo 3 | Comunidade Eleva (WhatsApp) | Vertical, Stories |
-| Vídeo 4 | Instagram | Reels |
+| Peça | Canal | Formato | Automação |
+|---|---|---|---|
+| Vídeo 1 | Comunidade Eleva (WhatsApp) | Vertical, Stories | Não, link direto no vídeo |
+| Vídeo 2 | Instagram | Reels, convite | Sim, gatilho "COMUNIDADE" |
+| Vídeo 3 | Comunidade Eleva (WhatsApp) | Vertical, Stories | Não, link do formulário direto no grupo |
+| Vídeo 4 | Instagram | Reels | Sim, gatilho "Hub de Negócios" |
 
 ---
 
@@ -131,10 +131,10 @@ Textos curtos e diretos: a pessoa clica no botão, vai para a página, preenche 
 
 **Vídeo 2 — gatilho: comentário "COMUNIDADE"**
 
-> Oi! Aqui está o link para entrar na nossa comunidade:
+> Oi, tudo bem? Que bom que você quer fazer parte! Aqui está o link para entrar na nossa comunidade:
 > 🔗 [link do grupo do WhatsApp]
 
 **Vídeo 4 — gatilho: comentário "Hub de Negócios"**
 
-> Oi! Aqui está o link para você se cadastrar e saber mais sobre o Hub de Negócios:
+> Oi, tudo bem? Vi seu interesse no Hub de Negócios. Aqui está o link para você se cadastrar e saber mais:
 > 🔗 [link do formulário]
