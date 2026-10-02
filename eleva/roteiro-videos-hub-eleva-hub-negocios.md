@@ -131,10 +131,10 @@ Textos curtos e diretos: a pessoa clica no botão, vai para a página, preenche 
 
 **Vídeo 2 — gatilho: comentário "COMUNIDADE"**
 
-> Oi, tudo bem? Que bom que você quer fazer parte! Aqui está o link para entrar na nossa comunidade:
+> Oi, [nome], tudo bem? Que bom que você quer fazer parte da comunidade Eleva lá no WhatsApp. Para participar, basta clicar no link abaixo. Nos vemos na comunidade. Um abraço!
 > 🔗 [link do grupo do WhatsApp]
 
 **Vídeo 4 — gatilho: comentário "Hub de Negócios"**
 
-> Oi, tudo bem? Vi seu interesse no Hub de Negócios. Aqui está o link para você se cadastrar e saber mais:
+> Oi, [nome], tudo bem? Que bom que você se interessou em saber mais e quem sabe participar do nosso Hub de Negócios. Toque no link abaixo para saber mais informações e aplicar para fazer parte do Hub, caso você deseje. Um abraço!
 > 🔗 [link do formulário]
