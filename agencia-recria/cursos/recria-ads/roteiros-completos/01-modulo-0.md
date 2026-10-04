@@ -5,7 +5,7 @@
 ## Aula 0.1 · Boas-vindas
 **Formato:** 🎥 Câmera + slide · **Duração:** cerca de 4 min (máximo 10)
 
-**[SLIDE 1: RECRIA ADS · Venda sem parecer aquele vendedor chato]**
+**▶ PÁGINA 1 do slide** · RECRIA ADS · Venda sem parecer aquele vendedor chato
 
 Oi! Seja muito bem-vindo, seja muito bem-vinda ao Recria Ads.
 
@@ -17,7 +17,7 @@ Hoje as pessoas pulam anúncio. Você pula, eu pulo, todo mundo pula. Mas essas 
 
 E é exatamente isso que você vai aprender aqui: a criar conteúdos e anúncios sem cara de anúncio, e a vender todo dia sem parecer aquele vendedor chato.
 
-**[SLIDE 2: Quem sou eu · Amanda · CEO da Agência Recria · +10 anos em marketing]**
+**▶ PÁGINA 2 do slide** · Quem sou eu · Amanda · CEO da Agência Recria · +10 anos em marketing
 
 Deixa eu me apresentar. Eu sou a Amanda, CEO da Agência Recria.
 
@@ -27,7 +27,7 @@ E, ao longo desses anos, uma coisa me incomodava muito: eu via donos e donas de 
 
 Foi por isso que eu criei o Recria Ads.
 
-**[SLIDE 3: O que é o Recria Ads · a metodologia da Agência Recria, aberta para você]**
+**▶ PÁGINA 3 do slide** · O que é o Recria Ads · a metodologia da Agência Recria, aberta para você
 
 Aqui eu vou abrir para você a metodologia que nós usamos na Agência Recria. A mesma que hoje só os nossos clientes têm acesso.
 
@@ -35,44 +35,62 @@ Você vai entender como as pessoas decidem uma compra, como contar histórias qu
 
 E tudo isso adaptado à sua realidade. Não importa se você é uma eupresa, a empresa de uma pessoa só, se tem um negócio local, um e-commerce ou uma empresa maior. Toda aula vai ter um momento para você adaptar o conteúdo ao seu cenário.
 
-**[SLIDE 4: Com o que você sai · conteúdo sem cara de anúncio · ganchos · estratégia · calendário com IA · Plano de 30 dias]**
+**▶ PÁGINA 4 do slide** · Com o que você sai · conteúdo sem cara de anúncio · ganchos · estratégia · calendário com IA · Plano de 30 dias
 
 E com o que você sai daqui?
 
 Você sai sabendo criar conteúdo sem cara de anúncio. Sai com um banco de ganchos. Sai com a sua estratégia clara. Sai com o seu calendário de conteúdo montado com ajuda da inteligência artificial. E sai com o seu Plano de 30 dias pronto para aplicar.
 
+**▶ PÁGINA 5 do slide** · Próxima aula: como aproveitar o curso de verdade
+
 Mas, antes de começar, a próxima aula é muito importante. Eu vou te explicar como este curso funciona e como aproveitar ele de verdade. Não pula essa, tá?
 
 Te vejo lá.
 
-**🅱️ Plano B (se não der para aparecer):** grave como 🖥️ Voz + Canva. Os mesmos textos dos [SLIDE] viram as páginas do Canva, e você lê o mesmo roteiro narrando. A entrega fica igual.
+**🅱️ Plano B (se não der para aparecer):** grave como 🖥️ Voz + Canva. Use os slides desta aula no Canva e leia o mesmo roteiro, passando a página em cada ▶ PÁGINA. A entrega fica igual.
 
 ---
 
 ## Aula 0.2 · Comece por aqui
 **Formato:** 🎙️ Só câmera (teleprompter) · **Duração:** cerca de 5 min (máximo 10)
 
+**▶ PÁGINA 1 do slide** · Comece por aqui
+
 Eu sei que você é dono ou dona de negócio. E eu sei que você não tem tempo sobrando.
+
+**▶ PÁGINA 2 do slide** · 10 minutos por dia
 
 Então o único compromisso que eu te peço aqui é este: 10 minutos por dia.
 
 É o tempo de uma aula. E é o suficiente para você consumir este curso e já ter resultado. Porque aqui você não vai só assistir. Você vai assistir e aplicar.
 
+**▶ PÁGINA 3 do slide** · Coloque na sua agenda
+
 Dez minutos por dia, todos os dias, valem muito mais do que cinco horas num domingo que nunca chega. Então eu te peço: pega a sua agenda agora e coloca esses 10 minutos como um compromisso com o seu negócio. Pode ser no café da manhã, antes de abrir a loja, no intervalo do almoço. O horário você escolhe. O importante é ser todo dia.
+
+**▶ PÁGINA 4 do slide** · 1 módulo novo por semana
 
 Agora deixa eu te explicar como o curso funciona.
 
 A cada semana, um módulo novo é liberado. E cada módulo vem acompanhado de atividades práticas.
 
+**▶ PÁGINA 5 do slide** · Obesidade mental
+
 E eu fiz assim de propósito. Sabe por quê? Porque ninguém aprende maratonando dez aulas seguidas. Nós assistimos, achamos tudo incrível, e dois dias depois esquecemos metade. E, pior, não aplicamos nada.
 
 Isso tem nome: obesidade mental. É encher a cabeça de conteúdo e não mudar nada no negócio.
+
+**▶ PÁGINA 6 do slide** · Aprende, aplica, evolui
 
 Aqui é diferente. Você assiste a aula, faz a atividade, aplica no seu negócio no dia seguinte e só depois segue para a próxima. Aprende e aplica. Aprende e aplica.
 
 Cada atividade é uma pequena vitória no seu negócio real. E, semana a semana, você vai evoluindo na prática.
 
+**▶ PÁGINA 7 do slide** · Em cerca de 1 mês
+
 E aonde isso te leva? Em cerca de um mês, você vai estar com tudo o que aprendeu aqui condensado, aprofundado e aplicado no seu negócio. Conteúdo sem cara de anúncio, o seu calendário pronto e o seu Plano de 30 dias. Pronto ou pronta para engajar mais e vender sem parecer vendedor chato.
+
+**▶ PÁGINA 8 do slide** · Dicas
 
 Algumas dicas práticas para você aproveitar melhor:
 
@@ -86,11 +104,15 @@ Quarta: os materiais, como fichas e prompts, ficam anexados nas próprias aulas.
 
 Quinta: toda aula termina com um momento chamado "Como adaptar", em que eu mostro como aplicar aquele conteúdo em diferentes tipos de negócio. Na próxima aula, você vai descobrir qual é o seu cenário.
 
+**▶ PÁGINA 9 do slide** · Suporte
+
 E tem mais: você vai fazer parte do grupo do WhatsApp do curso. É um grupo fechado, em que eu e a minha equipe compartilhamos conteúdos novos, bastidores e avisos. E, normalmente uma vez por semana, ele é aberto para dúvidas e interações. É mais um canal de suporte e dúvidas, além da sala de aula virtual. O link está aqui embaixo da aula.
 
 E, se tiver dúvidas sobre alguma aula, você também pode deixar nos comentários da própria aula. Você tem todo o suporte meu e da minha equipe.
 
 E uma coisa importante: você tem 1 ano de acesso ao Recria Ads. Seguindo 10 minutos por dia, você termina em cerca de um mês. E ainda tem mais 11 meses para rever, consultar e reconsultar as aulas sempre que precisar.
+
+**▶ PÁGINA 10 do slide** · Não maratone
 
 E o nosso combinado final: não maratone e não busque perfeição. Feito é melhor do que perfeito.
 
@@ -98,17 +120,7 @@ Agora sim. Bora descobrir o seu cenário e sair daqui, hoje mesmo, com 30 ideias
 
 Te vejo na próxima aula.
 
-**🅱️ Plano B (se não der para aparecer):** grave como 🖥️ Voz + Canva, lendo o mesmo texto. Páginas do Canva, na ordem da fala:
-1. O compromisso: 10 minutos por dia
-2. Coloque na agenda: café da manhã, antes de abrir, intervalo do almoço
-3. 1 módulo por semana + atividades práticas
-4. Obesidade mental: encher a cabeça e não aplicar nada
-5. Aprende → aplica → evolui
-6. Em cerca de 1 mês: tudo condensado, aprofundado e aplicado
-7. 5 dicas: caderno "Meu Recria Ads" · computador · 1,25x · materiais anexados · "Como adaptar"
-8. Grupo do WhatsApp do curso + suporte nos comentários
-9. 1 ano de acesso: termina em 1 mês, e mais 11 meses para rever
-9. Combinado: não maratone · feito é melhor do que perfeito
+**🅱️ Plano B (se não der para aparecer):** grave como 🖥️ Voz + Canva com os slides desta aula, lendo o mesmo texto e passando a página em cada ▶ PÁGINA.
 
 ---
 
@@ -121,7 +133,11 @@ Te vejo na próxima aula.
 3. O prompt "Meu mês de conteúdo" copiado
 4. Exemplo que você vai preencher: **Doce Afeto, uma doceria de bairro** (fictícia)
 
-**[TELA: a Ficha "Meu cenário" aberta]**
+**🖥️ Mude para a tela: a Ficha "Meu cenário" aberta**
+
+**▶ PÁGINA 1 do slide** · Capa: O seu cenário + 30 ideias hoje
+
+*(Fale a abertura com o slide na tela e, em "Esta aqui é a Ficha", mude para a ficha.)*
 
 Nesta aula nós vamos fazer duas coisas. Primeiro, você vai descobrir qual é o seu cenário. E depois você vai sair daqui com 30 ideias de conteúdo para o seu negócio. Hoje mesmo.
 
@@ -139,7 +155,7 @@ Pergunta 4: as 3 frases que você mais ouve dos clientes. Essa é ouro, porque �
 
 E assim você vai até a pergunta 12.
 
-**[TELA: os 7 cenários]**
+**▶ PÁGINA 2 do slide** · Os 7 cenários (volte para os slides)
 
 A pergunta 13 é o seu cenário. Nós temos sete:
 
@@ -153,7 +169,7 @@ A pergunta 13 é o seu cenário. Nós temos sete:
 
 A Doce Afeto é um negócio local. Qual é o seu? Anota.
 
-**[TELA: Claude ou ChatGPT aberto]**
+**🖥️ Mude para a tela: Claude ou ChatGPT aberto**
 
 Agora vem a parte legal. Eu vou abrir a inteligência artificial. Aqui eu estou usando o [Claude/ChatGPT], mas funciona com qualquer um.
 
@@ -167,13 +183,15 @@ Olha só o que ela devolveu: uma tabela com o dia, o formato, o tema, a primeira
 
 **[Ler 3 ou 4 ideias em voz alta e comentar]**
 
+**▶ PÁGINA 3 do slide** · A regra de ouro (volte para os slides)
+
 Agora presta atenção, porque essa parte é a mais importante: a IA não conhece o seu negócio. Quem conhece é você.
 
 Então eu não vou aceitar tudo. Vou olhar com olho crítico. Esta aqui eu manteria, porque é um bastidor real e as pessoas adoram ver o bolo sendo montado. Esta aqui eu cortaria, porque ficou genérica, poderia ser de qualquer doceria do Brasil. E esta aqui eu ajustaria, trocando o exemplo por uma história que realmente aconteceu na loja.
 
 Quanto melhor a sua ficha, melhor a resposta. Se a resposta veio genérica, volta na ficha e coloca mais detalhes.
 
-**[TELA: a atividade]**
+**▶ PÁGINA 4 do slide** · Atividade
 
 A sua atividade de hoje:
 1. Preenche a sua Ficha "Meu cenário".

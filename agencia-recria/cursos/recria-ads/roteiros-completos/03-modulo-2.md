@@ -5,13 +5,13 @@
 ## Aula 2.1 · Por que as histórias prendem desde as cavernas
 **Formato:** 🎥 Câmera + slide · **Duração:** cerca de 6 min (máximo 10)
 
-**[SLIDE 1: Storytelling · por que as histórias prendem]**
+**▶ PÁGINA 1 do slide** · Storytelling · por que as histórias prendem
 
 Muito antes de existir escrita, dinheiro ou Instagram, o ser humano já contava histórias.
 
 Em volta da fogueira, nas paredes das cavernas. E não era passatempo. Era assim que o grupo aprendia o que era perigoso, onde tinha comida e em quem dava para confiar. Quem ouvia a história sobrevivia melhor.
 
-**[SLIDE 2: Imagem da pintura de Leang Karampuang · Sulawesi, Indonésia · pelo menos 51.200 anos · Fonte: revista Nature, 2024]**
+**▶ PÁGINA 2 do slide** · Imagem da pintura de Leang Karampuang · Sulawesi, Indonésia · pelo menos 51.200 anos · Fonte: revista Nature, 2024
 
 Olha isso. Esta é uma pintura encontrada numa caverna na Indonésia, na ilha de Sulawesi. Em 2024, cientistas publicaram na revista *Nature* que ela tem pelo menos 51.200 anos.
 
@@ -19,7 +19,7 @@ E sabe o que ela mostra? Três figuras humanas interagindo com um porco selvagem
 
 Ou seja: há mais de 50 mil anos, o ser humano já sentia necessidade de contar histórias.
 
-**[SLIDE 3: Yuval Noah Harari · Sapiens]**
+**▶ PÁGINA 3 do slide** · Yuval Noah Harari · Sapiens
 
 O historiador Yuval Noah Harari (iu-VÁL NÔ-a ra-RÁ-ri), no livro *Sapiens*, defende uma ideia muito interessante: o ser humano conseguiu cooperar em grupos enormes, com milhões de pessoas que nem se conhecem, porque acredita nas mesmas histórias. Países, religiões, o próprio dinheiro: tudo isso funciona porque muitas pessoas acreditam na mesma história.
 
@@ -27,11 +27,11 @@ E sabe o que mais funciona assim? As marcas.
 
 Uma marca é uma história em que as pessoas escolhem acreditar. Ninguém paga mais caro por um tênis só pelo tecido. Paga pela história que aquela marca conta, e pela história que a pessoa quer contar sobre si mesma usando aquele tênis.
 
-**[SLIDE 4: Dado × história]**
+**▶ PÁGINA 4 do slide** · Dado × história
 
 Agora olha como isso aparece no dia a dia.
 
-**[SLIDE 5: "Nosso bolo usa ingredientes selecionados." × "A receita é da minha avó, que fazia esse bolo todo domingo…"]**
+**▶ PÁGINA 5 do slide** · "Nosso bolo usa ingredientes selecionados." × "A receita é da minha avó, que fazia esse bolo todo domingo…"
 
 Imagina duas docerias.
 
@@ -43,7 +43,7 @@ A primeira frase é um dado. A pessoa lê e esquece.
 
 A segunda é uma história. A pessoa sente. Talvez lembre da própria avó. E, quando você sente, você lembra. Lembra da aula 1.1: a emoção decide.
 
-**[SLIDE 6: Toda história tem 3 elementos · personagem · conflito · transformação]**
+**▶ PÁGINA 6 do slide** · Toda história tem 3 elementos · personagem · conflito · transformação
 
 E o que faz uma história ser uma história? Três elementos.
 
@@ -55,7 +55,7 @@ E terceiro, uma transformação. Como a situação terminou? O que mudou? O que 
 
 Personagem, conflito e transformação. Guarda isso.
 
-**[SLIDE 7: Como adaptar ao seu cenário]**
+**▶ PÁGINA 7 do slide** · Como adaptar ao seu cenário
 
 E no seu cenário?
 
@@ -73,7 +73,7 @@ Em serviços e consultoria, a transformação do cliente: como ele chegou e como
 
 E no negócio digital, a jornada do aluno ou do cliente: onde ele estava quando te encontrou e aonde chegou. E também a sua própria jornada, porque quem compra um produto digital compra, antes de tudo, a pessoa que está por trás dele.
 
-**[SLIDE 8: Atividade]**
+**▶ PÁGINA 8 do slide** · Atividade
 
 A sua atividade: escreve 3 histórias reais do seu negócio, em uma frase cada. Só uma frase. Com personagem, conflito e transformação.
 
@@ -81,7 +81,7 @@ Por exemplo: "A cliente chegou dizendo que já tinha tentado de tudo para o cabe
 
 Na próxima aula, eu vou te mostrar quem deve ser o herói da sua história. E, spoiler: não é você.
 
-**🅱️ Plano B (se não der para aparecer):** grave como 🖥️ Voz + Canva. Os mesmos textos dos [SLIDE] viram as páginas do Canva, e você lê o mesmo roteiro narrando. A entrega fica igual.
+**🅱️ Plano B (se não der para aparecer):** grave como 🖥️ Voz + Canva. Use os slides desta aula no Canva e leia o mesmo roteiro, passando a página em cada ▶ PÁGINA. A entrega fica igual.
 
 ---
 
@@ -90,11 +90,11 @@ Na próxima aula, eu vou te mostrar quem deve ser o herói da sua história. E, 
 
 **Para montar no Canva:** as páginas com os textos abaixo + os cards do carrossel do Case CRM (07/10), para a análise.
 
-**[TELA 1: Quem é o herói da sua história?]**
+**▶ PÁGINA 1 do slide** · Quem é o herói da sua história?
 
 Nesta aula nós vamos ver duas ideias que mudam completamente a forma como você conta histórias no seu negócio.
 
-**[TELA 2: A jornada do herói · Joseph Campbell · uma pessoa comum → um problema → encontra um guia → enfrenta o desafio → se transforma]**
+**▶ PÁGINA 2 do slide** · A jornada do herói · Joseph Campbell · uma pessoa comum → um problema → encontra um guia → enfrenta o desafio → se transforma
 
 A primeira vem de um estudioso chamado Joseph Campbell (DJÔU-zef CÂM-bel). Ele analisou mitos e histórias de várias culturas e percebeu que muitas delas seguem a mesma estrutura, que ficou conhecida como a jornada do herói.
 
@@ -102,7 +102,7 @@ De forma bem simplificada: uma pessoa comum enfrenta um problema, encontra um gu
 
 Pensa em Star Wars. Luke é um rapaz comum, numa fazenda. Surge um problema enorme. Ele encontra um mestre, o Obi-Wan, e depois o Yoda. Enfrenta o desafio. E sai transformado.
 
-**[TELA 3: O erro mais comum: a marca como herói · "Somos os melhores" · "Somos líderes" · "Nossa qualidade é incomparável"]**
+**▶ PÁGINA 3 do slide** · O erro mais comum: a marca como herói · "Somos os melhores" · "Somos líderes" · "Nossa qualidade é incomparável"
 
 Agora vem o erro que eu mais vejo nos negócios: a marca se coloca como heroína da história.
 
@@ -110,7 +110,7 @@ Agora vem o erro que eu mais vejo nos negócios: a marca se coloca como heroína
 
 O problema é que ninguém quer ouvir a história de outra pessoa sendo heroína. Cada um quer ser o herói da própria história.
 
-**[TELA 4: StoryBrand · Donald Miller · o cliente é o herói, a marca é o guia]**
+**▶ PÁGINA 4 do slide** · StoryBrand · Donald Miller · o cliente é o herói, a marca é o guia
 
 Quem organizou isso muito bem foi o Donald Miller (DÓ-nald MÍ-ler), no livro *StoryBrand*. A ideia dele é: o herói é o cliente. A sua marca é o guia.
 
@@ -120,7 +120,7 @@ Então, em vez de "somos os melhores", você diz: "Você está cansada de tal pr
 
 O cliente no centro. Você do lado, guiando.
 
-**[TELA 5: A história sem final · o efeito Zeigarnik]**
+**▶ PÁGINA 5 do slide** · A história sem final · o efeito Zeigarnik
 
 A segunda ideia desta aula é uma das minhas preferidas.
 
@@ -128,13 +128,13 @@ Existe um efeito chamado efeito Zeigarnik (zei-GÁR-nik), por causa de uma psic�
 
 Ela foi estudar isso e percebeu que o cérebro guarda melhor o que ficou aberto, o que ficou incompleto. Ele não sossega enquanto não fecha.
 
-**[TELA 6: Por isso a novela acaba no ápice]**
+**▶ PÁGINA 6 do slide** · Por isso a novela acaba no ápice
 
 É por isso que a novela acaba no ápice. É por isso que a série termina o episódio com um suspense. Você PRECISA saber o que acontece depois.
 
 E você pode usar isso no seu conteúdo.
 
-**[TELA 7: Na prática · abra um "loop" no começo e feche no final]**
+**▶ PÁGINA 7 do slide** · Na prática · abra um "loop" no começo e feche no final
 
 Na prática funciona assim: você abre uma pergunta no começo e só responde no final.
 
@@ -144,23 +144,23 @@ No carrossel, a capa promete e o último card entrega.
 
 E você pode fazer séries: parte 1 e parte 2. "Amanhã eu conto o que aconteceu."
 
-**[TELA 8: Análise · carrossel Case CRM · capa]**
+**▶ PÁGINA 8 do slide** · Análise · carrossel Case CRM · capa
 
 Deixa eu te mostrar isso no nosso próprio carrossel.
 
 Este é o carrossel do Case CRM, aqui do perfil da Recria. Olha a capa: "R$ 1,2 milhão sem tráfego pago". Isso abre um loop enorme. A pessoa pensa: "Como assim? Como é possível?" E ela precisa passar para o próximo card.
 
-**[TELA 9: cards do meio]**
+**▶ PÁGINA 9 do slide** · cards do meio
 
 Nos cards do meio, nós construímos a história. Tem personagem: o negócio. Tem conflito: o que estava travando. E cada card vai revelando uma parte, sempre deixando um pouco para o próximo.
 
-**[TELA 10: último card]**
+**▶ PÁGINA 10 do slide** · último card
 
 E, no final, o loop é fechado: a pessoa entende como aconteceu. E, só depois de entregar, vem o convite para a ação.
 
 Repara: o cliente é o herói da história. A Recria aparece como guia. E a curiosidade leva a pessoa até o fim.
 
-**[TELA 11: Atividade]**
+**▶ PÁGINA 11 do slide** · Atividade
 
 A sua atividade: pega uma das 3 histórias que você escreveu na aula passada e reescreve com duas mudanças.
 
@@ -175,11 +175,17 @@ Na próxima aula, eu vou provar que o seu negócio tem muito mais histórias do 
 ## Aula 2.3 · As histórias que todo negócio tem
 **Formato:** 🎙️ Só câmera (teleprompter) · **Duração:** cerca de 6 min (máximo 10)
 
+**▶ PÁGINA 1 do slide** · Capa
+
 "Amanda, mas o meu negócio não tem história."
 
 Eu ouço isso toda semana. E eu sempre respondo a mesma coisa: tem, sim. Você só está acostumado ou acostumada demais com ela.
 
+**▶ PÁGINA 2 do slide** · "O meu negócio não tem história." Tem, sim.
+
 O que para você é rotina, para o seu cliente é novidade. O que para você é óbvio, para ele é curiosidade.
+
+**▶ PÁGINA 3 do slide** · As 8 histórias
 
 Então eu vou te passar agora 8 tipos de história que todo negócio tem. Todo. Pode ser uma borracharia, uma nutricionista, uma loja de roupas ou uma consultoria.
 
@@ -199,6 +205,8 @@ A sétima é a do dia a dia. A rotina que o cliente nunca vê. A abertura da loj
 
 E a oitava é a do inimigo. Todo negócio combate alguma coisa. Pode ser o atendimento ruim, o "sempre foi assim", a desinformação do seu setor, a promessa milagrosa. Quando você mostra o que combate, você mostra o que defende.
 
+**▶ PÁGINA 4 do slide** · Exemplos
+
 Deixa eu te dar três exemplos para você ver como isso funciona na prática.
 
 Uma borracharia. Parece o negócio menos "instagramável" do mundo, né? Mas pensa: o pneu que furou numa estrada à noite e o borracheiro que atendeu uma família que estava indo para o casamento da filha. Isso é uma história do cliente. Ou o erro mais comum que as pessoas cometem com a calibragem. Isso é autoridade. Ou o bastidor de como se conserta um pneu. Isso prende.
@@ -209,6 +217,8 @@ Uma loja de roupas. O vestido que uma mãe comprou para a formatura da filha, e 
 
 Percebe? A história já existe. Você só precisa começar a enxergar.
 
+**▶ PÁGINA 5 do slide** · Atividade
+
 E a sua atividade desta aula vai te ajudar exatamente com isso. Você vai montar o seu Banco de Histórias.
 
 Abre o seu "Meu Recria Ads" e escreve os 8 tipos: origem, porquê, bastidor, erro, cliente, equipe, dia a dia e inimigo. E, para cada um, anota pelo menos uma história real do seu negócio. Uma frase já basta.
@@ -217,18 +227,7 @@ Esse banco vai ser um tesouro. Sempre que você não souber o que postar, é só
 
 E, na próxima aula, eu vou te ensinar a nunca mais ficar sem história: documentando a sua vida e o seu negócio.
 
-**🅱️ Plano B (se não der para aparecer):** grave como 🖥️ Voz + Canva, lendo o mesmo texto. Páginas do Canva, na ordem da fala:
-1. "O meu negócio não tem história." Tem, sim.
-2. 1. Origem
-3. 2. O porquê
-4. 3. Bastidor
-5. 4. O erro
-6. 5. O cliente
-7. 6. A equipe
-8. 7. O dia a dia
-9. 8. O inimigo
-10. Exemplos: borracharia · nutricionista · loja de roupas
-11. Atividade: o seu Banco de Histórias
+**🅱️ Plano B (se não der para aparecer):** grave como 🖥️ Voz + Canva com os slides desta aula, lendo o mesmo texto e passando a página em cada ▶ PÁGINA.
 
 ---
 
@@ -237,7 +236,7 @@ E, na próxima aula, eu vou te ensinar a nunca mais ficar sem história: documen
 
 **Para montar no Canva:** as páginas abaixo + 3 tomadas reais gravadas no celular de um momento comum (ex.: abrindo a agência/escritório de manhã): plano aberto, detalhe e rosto. Na tela 7, mostrar as 3 tomadas viradas em story, reels e carrossel.
 
-**[TELA 1: Tudo vira conteúdo · documente a sua vida e o seu negócio]**
+**▶ PÁGINA 1 do slide** · Tudo vira conteúdo · documente a sua vida e o seu negócio
 
 Uma das maiores dificuldades de quem tem negócio é: "eu não tenho tempo de criar conteúdo".
 
@@ -245,31 +244,31 @@ E eu entendo. Parar tudo para inventar um conteúdo do zero cansa mesmo.
 
 Mas e se você não precisasse criar? E se você só precisasse documentar?
 
-**[TELA 2: Austin Kleon · Mostre seu Trabalho!]**
+**▶ PÁGINA 2 do slide** · Austin Kleon · Mostre seu Trabalho!
 
 Existe um livro que eu adoro, chamado *Mostre seu Trabalho!*, do Austin Kleon (ÓS-tin KLÍ-on). E uma das ideias dele é esta: você não precisa ser genial. Você precisa ser visível.
 
 Documentar é muito mais fácil do que criar do zero. O seu negócio já está acontecendo todos os dias. Você só precisa registrar.
 
-**[TELA 3: O método de capturar sem parar a rotina]**
+**▶ PÁGINA 3 do slide** · O método de capturar sem parar a rotina
 
 E como fazer isso sem parar a rotina? Eu uso três coisas simples.
 
-**[TELA 4: 1. Um álbum "Conteúdo" no celular]**
+**▶ PÁGINA 4 do slide** · 1. Um álbum "Conteúdo" no celular
 
 Primeira: cria um álbum no celular chamado "Conteúdo". Tudo o que você fotografar ou filmar que possa virar post vai direto para lá. Assim você não perde nada no meio de milhares de fotos.
 
-**[TELA 5: 2. Uma nota "Banco de ideias"]**
+**▶ PÁGINA 5 do slide** · 2. Uma nota "Banco de ideias"
 
 Segunda: uma nota no celular chamada "Banco de ideias". Surgiu uma pergunta de cliente, uma situação engraçada, uma reflexão no trânsito? Anota na hora. A ideia que você não anota, você perde.
 
-**[TELA 6: 3. As 3 tomadas: plano aberto · detalhe · rosto]**
+**▶ PÁGINA 6 do slide** · 3. As 3 tomadas: plano aberto · detalhe · rosto
 
 E terceira: sempre que acontecer um momento interessante, grava 3 tomadas rápidas. Um plano aberto, mostrando o ambiente. Um detalhe: as mãos, o produto, um objeto. E um rosto: a sua reação ou a de alguém da equipe.
 
 São 15 segundos. E, com essas três tomadas, você consegue montar vários conteúdos diferentes.
 
-**[TELA 7: Um momento comum → 3 conteúdos · story · reels · carrossel]**
+**▶ PÁGINA 7 do slide** · Um momento comum → 3 conteúdos · story · reels · carrossel
 
 Olha só. Eu gravei um momento completamente comum: [descrever o momento real gravado, ex.: eu abrindo a agência de manhã].
 
@@ -277,7 +276,7 @@ Com as três tomadas, isso virou um story: "Bom dia! Começando mais um dia aqui
 
 Um momento, três conteúdos. E eu não precisei criar nada do zero.
 
-**[TELA 8: As 4 perguntas que transformam um momento comum em conteúdo]**
+**▶ PÁGINA 8 do slide** · As 4 perguntas que transformam um momento comum em conteúdo
 
 E como saber se um momento pode virar conteúdo? Eu faço 4 perguntas:
 
@@ -285,7 +284,7 @@ O que deu errado? O que me surpreendeu? O que o cliente me perguntou? O que ning
 
 Se a resposta de qualquer uma for interessante, tem conteúdo ali.
 
-**[TELA 9: Como adaptar ao seu cenário]**
+**▶ PÁGINA 9 do slide** · Como adaptar ao seu cenário
 
 E, se você não gosta de aparecer, tudo bem. Grava as suas mãos trabalhando, o produto, o processo. Dá para fazer muito conteúdo sem mostrar o rosto.
 
@@ -295,7 +294,7 @@ Se é uma empresa grande, vale ter um "repórter interno": alguém que documenta
 
 E, no negócio digital, o bastidor é ouro: a gravação de uma aula, a preparação de uma mentoria, a mensagem de um aluno que teve resultado.
 
-**[TELA 10: Atividade · documentar 7 dias]**
+**▶ PÁGINA 10 do slide** · Atividade · documentar 7 dias
 
 A sua atividade é a mais prática de todo o módulo: durante os próximos 7 dias, documenta o seu negócio. Pelo menos um momento por dia, guardado no álbum "Conteúdo".
 

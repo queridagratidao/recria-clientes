@@ -2,13 +2,16 @@
 
 Liberados no dia da compra · gravar até 13/10 · 11 aulas
 
+## Como usar com os slides
+Cada aula tem o seu PDF de slides (pasta "slides"). No roteiro, toda vez que aparecer **▶ PÁGINA N do slide**, passe para a página N. O número de marcações de cada aula é igual ao número de páginas do PDF daquela aula.
+
 ## Os 4 formatos
 
 | Ícone | Formato | Como gravar |
 |---|---|---|
-| 🎥 | **Câmera + slide** | Você na câmera, lendo o teleprompter. As marcações **[SLIDE]** indicam quando o slide aparece ao seu lado na edição. |
+| 🎥 | **Câmera + slide** | Você na câmera, lendo o teleprompter. As marcações **▶ PÁGINA** indicam quando passar para a próxima página do slide. |
 | 🎙️ | **Só câmera (teleprompter)** | Você na câmera, conversando. Sem slide. É a aula mais rápida de gravar. |
-| 🖥️ | **Voz + Canva** | Você não aparece. Abre a apresentação no Canva em tela cheia, grava a tela e narra. As marcações **[TELA]** dizem o que está escrito em cada página do Canva. |
+| 🖥️ | **Voz + Canva** | Você não aparece. Abre a apresentação no Canva em tela cheia, grava a tela e narra. As marcações **▶ PÁGINA** indicam quando passar a página no Canva. |
 | 💻 | **Voz + tela do computador** | Você não aparece. Grava a tela usando a IA (Claude ou ChatGPT) de verdade e narra. |
 
 **Como gravar a tela:** no Canva, use o botão "Apresentar e gravar". No computador, o Loom ou a gravação de tela do próprio Windows (Win + Alt + R) resolvem.
