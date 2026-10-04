@@ -197,7 +197,7 @@ A sua atividade de hoje:
 1. Preenche a sua Ficha "Meu cenário".
 2. Gera as suas 30 ideias com o prompt.
 3. Marca as 5 que você mais gostou.
-4. Guarda tudo no seu "Meu Recria Ads", porque nós vamos voltar nessas ideias no Módulo 6, quando montarmos o seu calendário.
+4. Copie a tabela que a IA gerou e cole no seu "Meu Recria Ads", num documento ou numa planilha. Guarde também a sua ficha preenchida, porque nós vamos voltar nessas ideias no Módulo 6, quando montarmos o seu calendário.
 
 E, se quiser, posta uma dessas ideias ainda esta semana. Essa é a sua primeira pequena vitória.
 
