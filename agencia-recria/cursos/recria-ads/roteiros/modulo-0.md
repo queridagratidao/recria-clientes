@@ -70,7 +70,7 @@
 5. Por que as pessoas compram de você e não do concorrente?
 6. Quem pode aparecer nos conteúdos: você, equipe, clientes, influenciadores?
 7. Quanto você pode investir em anúncios por mês: nada / até R$ 300 / R$ 300 a R$ 1.000 / mais de R$ 1.000
-8. Quantas horas por semana você tem para conteúdo?
+8. Quantas horas por semana você consegue dedicar a criar conteúdo (pensar, escrever, gravar, editar e postar)?
 9. Em quais redes você está e em quais formatos se sente à vontade (vídeo, foto, texto, voz)?
 10. O tom de voz da marca em 3 palavras
 11. Datas importantes do seu negócio (sazonalidade, datas comerciais, aniversário da marca)
@@ -89,7 +89,7 @@ Regras:
 - Considere as datas comerciais de [MÊS] que fazem sentido para o meu negócio.
 - Use a linguagem do meu cliente e o tom de voz da marca.
 - Evite clichês como "você sabia?" e "dica do dia".
-- Eu tenho [X] horas por semana. Marque com ⭐ as ideias prioritárias que cabem nesse tempo.
+- Tenho [X] horas por semana para criar conteúdo (pensar, gravar, editar e postar). Marque com ⭐ as ideias prioritárias que cabem nesse tempo.
 
 Para cada ideia, entregue em tabela:
 dia | formato (reels, carrossel, stories ou post) | tema | primeira frase para prender a atenção | o que mostrar | objetivo (atrair, conectar ou vender)

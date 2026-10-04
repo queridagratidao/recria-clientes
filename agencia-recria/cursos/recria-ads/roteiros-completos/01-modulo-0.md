@@ -175,7 +175,7 @@ Agora vem a parte legal. Eu vou abrir a inteligência artificial. Aqui eu estou 
 
 Eu vou colar o prompt "Meu mês de conteúdo", que também está anexado aqui na aula. Olha: ele diz para a IA agir como uma estrategista de conteúdo, pede 30 ideias para o mês e tem algumas regras. Nada de cara de anúncio. Misturar bastidor, história, conteúdo educativo, prova e oferta indireta. Usar a linguagem do cliente. E evitar clichês como "você sabia?".
 
-No lugar do mês, eu coloco o mês atual. No lugar das horas, eu coloco quanto tempo a Doce Afeto tem por semana: 3 horas. E, no final, eu colo a ficha inteira.
+No lugar do mês, eu coloco o mês atual. No lugar das horas, eu coloco quanto tempo a dona da Doce Afeto consegue dedicar, por semana, para criar conteúdo: pensar, gravar, editar e postar. No caso dela, 3 horas. Repara que não é o tempo de cuidar de todo o marketing, é o tempo de produzir conteúdo. É isso que faz a IA sugerir uma quantidade de posts que cabe na sua rotina. E, no final, eu colo a ficha inteira.
 
 **[Colar e enviar. Esperar a resposta.]**
 

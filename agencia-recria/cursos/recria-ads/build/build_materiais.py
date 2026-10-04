@@ -19,7 +19,7 @@ b.render(OUT+'Aula 0.2 - Meu compromisso.pdf')
 # 0.3
 b=book('0.3','Ficha <em class="g">Meu cenário</em>','+ o prompt "Meu mês de conteúdo" para gerar 30 ideias hoje.')
 qs=['O que você vende e qual o preço médio?','Onde você vende: loja física, online ou os dois? Qual cidade?','Quem é o seu cliente: o que deseja, o que teme, o que o faz desistir de comprar?','Como o seu cliente fala: 3 frases que você mais ouve dele','Por que as pessoas compram de você e não do concorrente?','Quem pode aparecer nos conteúdos: você, equipe, clientes, influenciadores?','Quanto pode investir em anúncios por mês? (nada / até R$ 300 / R$ 300 a R$ 1.000 / mais de R$ 1.000)']
-qs2=['Quantas horas por semana você tem para conteúdo?','Em quais redes está e com quais formatos se sente à vontade (vídeo, foto, texto, voz)?','O tom de voz da marca em 3 palavras','Datas importantes do seu negócio (sazonalidade, datas comerciais, aniversário da marca)','O seu objetivo principal nos próximos 90 dias','O seu cenário: 1. Eupresa · 2. Negócio local · 3. E-commerce · 4. Empresa média · 5. Empresa grande · 6. Serviços e consultoria · 7. Negócio digital']
+qs2=['Quantas horas por semana você consegue dedicar a criar conteúdo (pensar, escrever, gravar, editar e postar)?','Em quais redes está e com quais formatos se sente à vontade (vídeo, foto, texto, voz)?','O tom de voz da marca em 3 palavras','Datas importantes do seu negócio (sazonalidade, datas comerciais, aniversário da marca)','O seu objetivo principal nos próximos 90 dias','O seu cenário: 1. Eupresa · 2. Negócio local · 3. E-commerce · 4. Empresa média · 5. Empresa grande · 6. Serviços e consultoria · 7. Negócio digital']
 b.page('light','<div class="kick">Ficha "Meu cenário" · parte 1</div>'+''.join(f'<div class="q" style="font-size:23px">{i+1}. {q}</div>{lines(2 if i!=2 else 3)}' for i,q in enumerate(qs)))
 b.page('light','<div class="kick">Ficha "Meu cenário" · parte 2</div>'+''.join(f'<div class="q" style="font-size:23px">{i+8}. {q}</div>{lines(2)}' for i,q in enumerate(qs2)))
 b.page('dark','''<div class="kick">🎁 Bônus · prompt "Meu mês de conteúdo"</div><h1 style="font-size:44px">Copie, cole na IA e <em class="g">complete os colchetes</em></h1>
@@ -33,7 +33,7 @@ Regras:
 - Considere as datas comerciais de [MÊS] que fazem sentido para o meu negócio.
 - Use a linguagem do meu cliente e o tom de voz da marca.
 - Evite clichês como "você sabia?" e "dica do dia".
-- Tenho [X] horas por semana. Marque com ⭐ as prioritárias que cabem nesse tempo.
+- Tenho [X] horas por semana para criar conteúdo (pensar, gravar, editar e postar). Marque com ⭐ as prioritárias que cabem nesse tempo.
 
 Entregue em tabela: dia | formato | tema | primeira frase para prender a atenção | o que mostrar | objetivo (atrair, conectar ou vender)
 
