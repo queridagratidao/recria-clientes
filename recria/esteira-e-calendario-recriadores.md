@@ -1,0 +1,133 @@
+# RECRIA · Esteira de produtos + Calendário do grupo Recriadores (outubro/2026)
+
+> Rascunho v1 para aprovação. Baseado no calendário de WhatsApp da Camila Sartori (quarta = repost com ida além, sexta = exclusivo).
+> Itens marcados com **(confirmar)** são suposições minhas.
+
+---
+
+## 1. Esteira de produtos
+
+| Degrau | Produto | Preço | Papel na esteira |
+|---|---|---|---|
+| **0 · Isca** | Checklist de revisão do Instagram (DM automática) | Grátis | Captura o contato e leva para o grupo |
+| **0 · Grupo** | WhatsApp **Recriadores** (formato comunidade, membros ocultos) | Grátis | Aquece e vende indiretamente |
+| **1 · Low ticket** | E-book Calendário com IA (questionário + prompt) | R$8 | Primeiro "sim" |
+| | E-book Negócio local no digital (ex.: casa de ração) | R$10 | |
+| | E-book Esteira de produtos | R$12 | |
+| | E-book 100+ ideias de low ticket | R$15 | |
+| | Curso **Estratégia Atraente que Vende (Express)**, em vídeo | R$15 | Já existe: melhorar página de vendas e materiais |
+| | **Manual com Estratégias Atraentes que Vendem** (PDF) | R$47 | Já existe: novo layout e página de vendas |
+| | Consultoria (sessão com questionário, documento direcional e reunião opcional) | R$67 | Porta de entrada para os serviços |
+| **2 · Curso de entrada alta** | **Recria Ads** | R$97 | Em desenvolvimento |
+| **3 · Médio ticket** | **Comunidade na Hotmart** (área de membros com vários cursos) | R$47/mês · anual R$27 ou R$37/mês equivalente | Recorrência |
+| **4 · High ticket** | Social media (1 post/semana, sem gestão) | a partir de R$1.000 | |
+| | Tráfego pago (1 canal) | a partir de R$1.500 (2 canais: R$2.000) | |
+| | Gestão de redes sociais | a partir de R$2.500 | |
+| | Pacote inicial (social + tráfego + site + treinamento comercial) | R$1.500 | |
+| | Mentoria | R$5.000 em até 12x | |
+
+Observação: o pacote inicial de R$1.500 custa o mesmo que o tráfego pago sozinho. Vale deixar claro na proposta o que ele inclui, para não parecer que social media, site e treinamento saem de graça.
+
+### Nome da comunidade paga (Hotmart)
+
+| Opção | Comentário |
+|---|---|
+| **Recria Club** (recomendo) | Curto, soa como assinatura, combina com preço de streaming. Subtítulo: "negócio, marketing e posicionamento". |
+| Comunidade Recria | Direto, mas genérico. |
+| Comunidade Recria Business | Descreve o tema, mas "Business" é pesado para o público de negócio local. |
+| Recriadores Club | Une com o nome do grupo gratuito (Recriadores), então o grupo vira a porta de entrada do Club. |
+
+A lógica de nomes seria: **Recriadores** (grátis, WhatsApp) → **Recria Club** (pago, Hotmart).
+
+### Preço da comunidade
+
+Como a Recria ainda não é conhecida, sugiro **anual a R$27/mês (R$324/ano) como preço de fundadores, por tempo limitado**, subindo para R$37/mês (R$444/ano) depois. O mensal fica em R$47. R$27 dá 43% de desconto sobre o mensal, o que empurra a decisão para o anual.
+
+---
+
+## 2. Ritmo do grupo Recriadores
+
+- **Quarta**: repost do carrossel que sai no Instagram da Recria + texto de chamada + **atividade prática em PDF** para ir além. **Sem vender.**
+- **Sexta**: conteúdo **exclusivo** (texto, áudio, enquete, passo a passo, trecho de aula). Termina com a ponte: "isso eu desenvolvo no [produto], por R$X: link".
+- **Segunda (interno, não vai para o grupo)**: lembrete para cobrar compradores da semana anterior que ainda não enviaram o formulário da consultoria.
+- **A partir de novembro**: encontro online mensal, se houver gente suficiente no grupo, e aulas curtas exclusivas.
+
+Regra de ouro das pontes de sexta: só indicar produto que **já esteja no ar**. A tabela abaixo prevê a data de lançamento de cada e-book. Se algum atrasar, troco a ponte da sexta correspondente para o Express (R$15) ou o Manual (R$47).
+
+---
+
+## 3. Calendário · outubro/2026
+
+### Semana 1 · 05 a 09/10
+
+**SEG 05/10 · Boas-vindas (fixar a mensagem no grupo)**
+> Oi, Recriadores! Aqui a gente fala de negócio, marketing e posicionamento sem enrolação. Toda **quarta** eu trago o carrossel da semana com uma atividade prática para você aplicar. Toda **sexta** tem um conteúdo exclusivo só para este grupo. Aproveite e se apresente: qual é o seu negócio e o que você mais quer melhorar nele hoje?
+
+**QUA 07/10 · Repost do carrossel (tema sugerido, confirmar com o carrossel real: "Seu negócio vende uma coisa só? Esse é o risco")**
+- Texto de chamada: *Recriadores, se o seu negócio depende de uma única fonte de renda, qualquer mudança no mercado vira susto. O carrossel de hoje mostra por onde começar a diversificar, no link abaixo 👇🏻*
+- Repost: carrossel do Instagram, mesma arte e legenda.
+- Atividade em PDF, **"Mapa das minhas fontes de renda"**: 1 página, onde a pessoa lista o que vende hoje e 3 coisas que poderia ensinar, entregar ou vender no digital.
+
+**SEX 09/10 · Exclusivo (texto) · ponte: curso Estratégia Atraente que Vende, Express (R$15)**
+> Recriadores, uma verdade de quem vive de marketing: o cliente não compra o que você faz, compra o que ele entende que resolve o problema dele. Teste hoje: abra seu perfil e pergunte a você mesmo, em 5 segundos, quem eu atendo e o que ele ganha? Se a resposta não saltar, o problema não é falta de post, é de estratégia.
+> Eu desenvolvo isso passo a passo no curso **Estratégia Atraente que Vende, Express**, em vídeo e bem direto, por R$15: [link]
+
+### Semana 2 · 12 a 16/10
+
+**SEG 12/10** · feriado. Lembrete interno: cobrar compradores da semana anterior sem formulário.
+
+**QUA 14/10 · Repost do carrossel (tema sugerido: "O que você vende × o que o cliente compra")**
+- Texto de chamada: *Recriadores, você vende o que você faz ou o que o cliente quer? O carrossel de hoje mostra a diferença, no link abaixo 👇🏻*
+- Atividade em PDF, **"Reescreva sua oferta"**: preencher "Eu ajudo [quem] a [resultado] sem [dor]" para 3 serviços ou produtos.
+
+**SEX 16/10 · Exclusivo (passo a passo) · ponte: e-book Calendário com IA (R$8), lançamento previsto 16/10**
+> Recriadores, planejar o mês de conteúdo não precisa levar o domingo inteiro. Passo a passo rápido: 1) anote 5 dores do seu cliente; 2) transforme cada dor em um tema; 3) distribua os temas em carrossel, post estático e reel.
+> Para ir além, lancei um e-book em que você responde a um questionário, joga o prompt pronto na sua IA e recebe o calendário do mês personalizado pro seu negócio. Custa R$8: [link]
+
+### Semana 3 · 19 a 23/10
+
+**SEG 19/10** · lembrete interno (compradores sem formulário).
+
+**QUA 21/10 · Repost do carrossel (tema sugerido: "Conteúdo que vende não é conteúdo que grita")**
+- Texto de chamada: *Recriadores, postar todo dia e não vender nada tem explicação. O carrossel de hoje mostra onde a conta não fecha, no link abaixo 👇🏻*
+- Atividade em PDF, **"Auditoria de 5 posts"**: tabela para marcar, em cada post, se tem dor, solução e chamada para ação.
+
+**SEX 23/10 · Exclusivo (áudio de 2 min) · ponte: e-book Esteira de produtos (R$12), lançamento previsto 23/10**
+> Roteiro do áudio: "Recriadores, hoje o assunto é esteira. Quem vende uma coisa só depende de o cliente comprar de novo. Quem tem esteira oferece um produto baratinho, depois um intermediário e depois o principal. O cliente sobe de degrau porque confia. Para você montar a sua, lancei o e-book Esteira de produtos, por R$12: [link]"
+
+### Semana 4 · 26 a 30/10
+
+**SEG 26/10** · lembrete interno (compradores sem formulário).
+
+**QUA 28/10 · Repost do carrossel (tema sugerido: "Quanto cobrar pelo seu produto de entrada")**
+- Texto de chamada: *Recriadores, cobrar barato demais também afasta cliente. O carrossel de hoje mostra como pensar o preço de entrada, no link abaixo 👇🏻*
+- Atividade em PDF, **"Calculadora de preço de entrada"**: custo, tempo, margem e preço sugerido.
+
+**SEX 30/10 · Exclusivo (enquete + texto) · ponte: e-book 100+ ideias de low ticket (R$15), lançamento previsto 30/10**
+- Enquete: "Qual produto de entrada você mais pensa em criar? Checklist / E-book / Mini-curso / Planilha / Consultoria rápida".
+- Texto: *Recriadores, vi o resultado da enquete. Para quem ainda está sem ideia, juntei mais de 100 ideias de produtos de entrada num e-book de R$15: [link]*
+
+### Novembro (previsão)
+- 1º encontro online do grupo (se houver gente suficiente).
+- Entram na rota: e-book Negócio local no digital (R$10), Recria Ads (R$97) e abertura do Recria Club (Hotmart).
+- Checklist de revisão do Instagram continua como isca de entrada por DM automática.
+
+---
+
+## 4. Ordem de produção sugerida (para cumprir as datas)
+
+1. **Esta semana:** mensagem de boas-vindas, carrossel de quarta, PDF de atividade da quarta (Mapa das fontes de renda), configuração do anúncio para o grupo.
+2. **Até 16/10:** e-book Calendário com IA (R$8) + página de vendas.
+3. **Até 23/10:** e-book Esteira de produtos (R$12).
+4. **Até 30/10:** e-book 100+ ideias de low ticket (R$15).
+5. Em paralelo: novo layout do Manual (R$47) e páginas de vendas do Manual e do Express.
+6. Questionário e Thank You Page da consultoria, com o prompt do documento direcional.
+
+---
+
+## 5. Pontos para confirmar
+
+1. O anúncio dessa semana é para o **grupo gratuito Recriadores** (via isca do checklist)? Eu assumi que sim, já que o Recria Club na Hotmart ainda não existe.
+2. Os temas de quarta são **sugestões minhas**. Me mande os temas reais dos carrosséis de outubro e eu reescrevo as chamadas e as atividades.
+3. As datas de lançamento dos e-books (16, 23 e 30/10) são viáveis? Senão, deslizo as pontes de sexta.
+4. Você quer o mesmo formato da Camila (docx e pdf)? Gero depois que você aprovar o conteúdo.
