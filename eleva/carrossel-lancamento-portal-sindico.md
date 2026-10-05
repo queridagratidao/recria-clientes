@@ -79,7 +79,7 @@ Quer ser um dos primeiros a receber esse acesso gratuito? Comente "PORTAL" 👇 
 
 "Uma comunidade gratuita, no WhatsApp, com conteúdos semanais para te ajudar no seu dia a dia e na sua gestão como síndico."
 
-"Comente: 'GRUPO' e receba o convite no seu direct ou acesse pelo link da bio."
+"Comente: 'COMUNIDADE' e receba o convite no seu direct ou acesse pelo link da bio."
 
 **Legenda do post:**
 
@@ -87,9 +87,25 @@ Você é síndico e ainda não faz parte da nossa comunidade, Eleva Síndicos de
 
 Uma comunidade gratuita, no WhatsApp, com conteúdo semanal para o seu dia a dia de gestão.
 
-Comente "GRUPO" 👇 e receba o convite no direct, ou acesse direto pelo link da bio.
+Comente "COMUNIDADE" 👇 e receba o convite no direct, ou acesse direto pelo link da bio.
 
-**Automação de direct (gatilho: comentário "GRUPO"):**
+**Automação de direct (gatilho: comentário "COMUNIDADE"):**
 
 > Oi, [nome], tudo bem? Que bom que você quer fazer parte da comunidade Eleva lá no WhatsApp. Para participar, basta clicar no link abaixo. Nos vemos na comunidade. Um abraço!
 > 🔗 https://chat.whatsapp.com/IPCOutpwO2rLJF2KmP99t9
+
+**Arquivo:** `post-estatico-convite-grupo-whatsapp.png`
+
+---
+
+## Versão Stories — Convite para a comunidade Eleva
+
+**Onde postar:** Instagram, Stories (1080x1920)
+
+**Texto da imagem:** igual à versão feed, com o CTA adaptado para resposta de Stories:
+
+"Responda este story com 'COMUNIDADE' e receba o convite no seu direct, ou acesse pelo link da bio."
+
+**Automação:** gatilho pela resposta ao Stories com a palavra "COMUNIDADE", mesmo texto e link da automação acima.
+
+**Arquivo:** `story-convite-grupo-whatsapp.png`
