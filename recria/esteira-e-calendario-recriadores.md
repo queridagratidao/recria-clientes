@@ -23,7 +23,7 @@
 | **4 · High ticket** | Social media (1 post/semana, sem gestão) | a partir de R$1.000 | |
 | | Tráfego pago (1 canal) | a partir de R$1.500 (2 canais: R$2.000) | |
 | | Gestão de redes sociais | a partir de R$2.500 | |
-| | Pacote inicial (social + tráfego + site + treinamento comercial) | R$1.500 | |
+| | Pacote inicial: tráfego pago básico, social media básico (4 posts por mês, entregues para o cliente programar; a Recria não acessa nem posta no perfil), site e treinamento comercial (curso gravado + reunião online para tirar dúvidas depois) | R$1.500 | |
 | | Mentoria | R$5.000 em até 12x | |
 
 Observação: o pacote inicial de R$1.500 custa o mesmo que o tráfego pago sozinho. Vale deixar claro na proposta o que ele inclui, para não parecer que social media, site e treinamento saem de graça.
@@ -37,38 +37,62 @@ Observação: o pacote inicial de R$1.500 custa o mesmo que o tráfego pago sozi
 
 **E-book 100+ ideias de low ticket:** misturar os segmentos em partes equilibradas (cerca de 20 ideias cada): pequenos negócios e negócios locais, médias empresas, grandes empresas, negócios digitais (infoprodutos, serviços e mentorias) e e-commerce.
 
+### Catálogo de low tickets (v2, com as novas ideias)
+
+| # | Produto | Preço | Quem é | Status |
+|---|---|---|---|---|
+| 1 | Como criar seu calendário de conteúdo (do jeito manual: pilares, 30 dias e planilha) | R$5 | Porta de entrada da trilha de conteúdo | A fazer |
+| 2 | Calendário de Conteúdo com IA (questionário + prompt) | R$8 | Quem já sabe montar manualmente e quer automatizar | **v1 pronto** |
+| 3 | Como usar IA para criar imagens e montar posts estáticos e carrosséis (Gemini, ChatGPT e Claude) | R$8 a R$10 | Pós-calendário: produzir as peças | A fazer |
+| 4 | Manual de Identidade Visual da sua marca (diretrizes, cores, logo, Canva grátis) | R$15 | Dar identidade às peças | A fazer |
+| 5 | Negócio local no digital (como criar produto digital para negócio físico) | R$10 | Início da trilha de produto | A fazer |
+| 6 | Esteira de produtos | R$12 | Organizar a oferta | A fazer |
+| 7 | 100+ ideias de low ticket (pequeno, médio e grande negócio, digital e e-commerce) | R$15 | O primeiro produto de entrada | A fazer |
+| 8 | Como criar um produto de médio ticket | R$17 | Subir o degrau | A fazer |
+| 9 | Como criar um produto high ticket e o momento certo | R$22 | Subir de novo | A fazer |
+| 10 | Manual de estrutura de negócio (marketing, comercial, RH, financeiro, o que terceirizar) | R$27 | Para quem quer montar a casa | A fazer |
+| 11 | Prospecção ativa sem anúncio (listas com IA, mensagens por WhatsApp e Direct, sem API) | R$67 | O mais caro: gera cliente na hora | A fazer (curso ou e-book completo) |
+
 ### Mapa de upsells (a oferta no fim de cada produto)
 
-Regra: cada produto termina com **uma** oferta, o próximo degrau lógico, e nunca duas ao mesmo tempo. Os dois caminhos de entrada (conteúdo e negócio local) convergem na Esteira de produtos.
+Regra: cada produto termina com **uma** oferta, o próximo degrau lógico. A trilha principal é de e-books, em ordem crescente de dificuldade; os cursos (Express, Manual, Recria Ads) entram como order bump e como oferta lateral nas sextas do grupo.
 
 | Produto | Termina oferecendo | Por que faz sentido |
 |---|---|---|
-| Mini-guia de calendário (R$5) | E-book Calendário com IA (R$8) | Mesmo tema, com automação |
-| **E-book Calendário com IA (R$8)** | **E-book Esteira de produtos (R$12)** | "Seu conteúdo está planejado. E o que você vai vender?" (já escrito no e-book) |
-| E-book Negócio local no digital (R$10) | E-book Esteira de produtos (R$12) | Depois de ver que dá para ter produto digital, ele quer a esteira inteira |
-| E-book Esteira de produtos (R$12) | E-book 100+ ideias de low ticket (R$15) | Esteira montada pede o primeiro produto de entrada |
-| E-book 100+ ideias de low ticket (R$15) | Curso Express Estratégia Atraente (R$15) | Já tem a ideia, agora precisa saber vender o produto |
-| Curso Express (R$15) | Manual de Narrativas (R$47) | Aprendeu a estratégia, agora aprende o que dizer |
-| Manual de Narrativas (R$47) | Recria Ads (R$97) | Das narrativas para o anúncio sem cara de anúncio |
-| Recria Ads (R$97) | Recria Club (R$47/mês, Hotmart) | Continuidade, com novos cursos e comunidade |
-| Recria Club | Consultoria (R$67) | Quem quer ajuda sobre o próprio caso |
-| Consultoria (R$67) | Pacotes e serviços da agência | O documento direcional termina com o pitch: fazer sozinho, mais sessões ou contratar a Recria |
+| 1. Calendário manual (R$5) | 2. Calendário com IA (R$8) | "Agora que você sabe fazer sozinho, direcione uma IA e monte 30 dias em minutos" |
+| 2. Calendário com IA (R$8) | 3. Imagens e posts com IA (R$10) | Já tem o plano, agora produz as peças |
+| 3. Imagens e posts com IA | 4. Manual de Identidade Visual (R$15) | Posts consistentes precisam de identidade |
+| 4. Identidade visual | 5. Negócio local no digital (R$10) | Marca pronta, agora diversifica a renda |
+| 5. Negócio local no digital | 6. Esteira de produtos (R$12) | Vai querer a esteira inteira |
+| 6. Esteira de produtos | 7. 100+ ideias de low ticket (R$15) | Esteira montada pede o primeiro produto |
+| 7. 100+ ideias | 8. Produto de médio ticket (R$17) | O degrau seguinte da esteira |
+| 8. Médio ticket | 9. High ticket (R$22) | O degrau seguinte |
+| 9. High ticket | 10. Estrutura de negócio (R$27) | Para sustentar um produto caro, o negócio precisa de estrutura |
+| 10. Estrutura de negócio | 11. Prospecção ativa (R$67) | Estrutura pronta, agora trazer clientes sem anúncio |
+| 11. Prospecção ativa | Comunidade Recria Business (R$47/mês) | Continuidade e cursos de posicionamento, negócio, marketing e comercial |
+| Comunidade | Consultoria (R$67) | Ajuda sobre o caso específico |
+| Consultoria | Pacotes e serviços da agência | O documento direcional termina com: fazer sozinho, mais sessões ou contratar a Recria |
 
-Os order bumps seguem a mesma lógica (curso Express no Manual, e-book de 100+ ideias como 2º bump), descritos na seção acima.
+**Ofertas laterais (cursos):** Curso Express (R$15) como bump no Manual e no e-book 100+ ideias; Manual de Narrativas (R$47) e Recria Ads (R$97) nas sextas do grupo e no pós-compra do Express.
 
-### Produção dos low tickets (status)
+### Produção dos low tickets (ordem sugerida)
 
-| E-book | Preço | Status | Upsell | Prazo sugerido |
-|---|---|---|---|---|
-| Calendário de Conteúdo com IA | R$8 | **v1 pronto** (25 páginas, `ebooks/calendario-com-ia/`) | Esteira | 16/10 |
-| Esteira de produtos | R$12 | A fazer | 100+ ideias | 23/10 |
-| 100+ ideias de low ticket | R$15 | A fazer | Curso Express | 30/10 |
-| Negócio local no digital | R$10 | A fazer | Esteira | Novembro |
-| Mini-guia R$5 | R$5 | A fazer | Calendário com IA | A definir |
+| Ordem | E-book | Prazo sugerido |
+|---|---|---|
+| 1 | Calendário com IA (R$8) | Pronto (v1) |
+| 2 | Calendário manual (R$5): é o mais curto e abre a trilha | 12/10 |
+| 3 | Imagens e posts com IA (R$10) | 19/10 |
+| 4 | Esteira de produtos (R$12) | 26/10 |
+| 5 | 100+ ideias de low ticket (R$15) | 02/11 |
+| 6 | Identidade visual (R$15), Negócio local (R$10) | Novembro |
+| 7 | Médio ticket (R$17), High ticket (R$22), Estrutura (R$27) | Dezembro |
+| 8 | Prospecção ativa (R$67) | Dezembro, com cuidado jurídico (veja a análise) |
 
-Cada e-book ganha uma LP em `agenciarecria.com.br/[nome]`, no mesmo padrão das páginas do Manual e do Express, assim que o produto e o checkout existirem na Hotmart.
+Cada e-book ganha uma LP em `agenciarecria.com.br/[nome]`, no padrão das páginas do Manual e do Express, quando o produto e o checkout existirem na Hotmart.
 
-### Nome da comunidade paga (Hotmart)
+### Nome da comunidade paga (Hotmart): decidido, **Comunidade Recria Business**
+
+Cursos dentro: posicionamento, negócio, marketing e comercial. (As opções que avaliei antes, para registro:)
 
 | Opção | Comentário |
 |---|---|
