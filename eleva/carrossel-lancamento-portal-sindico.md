@@ -87,7 +87,7 @@ Você é síndico e ainda não faz parte da nossa comunidade, Eleva Síndicos de
 
 Uma comunidade gratuita, no WhatsApp, com conteúdo semanal para o seu dia a dia de gestão.
 
-Comenta "GRUPO" 👇 que você recebe o convite no direct, ou acesse direto pelo link da bio.
+Comente "GRUPO" 👇 e receba o convite no direct, ou acesse direto pelo link da bio.
 
 **Automação de direct (gatilho: comentário "GRUPO"):**
 
