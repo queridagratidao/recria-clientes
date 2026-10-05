@@ -11,7 +11,7 @@
 |---|---|---|---|
 | **0 · Isca** | Checklist de revisão do Instagram (DM automática) | Grátis | Captura o contato e leva para o grupo |
 | **0 · Grupo** | WhatsApp **Recriadores** (formato comunidade, membros ocultos) | Grátis | Aquece e vende indiretamente |
-| **1 · Low ticket** | E-book Calendário com IA (questionário + prompt) | R$8 | Primeiro "sim" |
+| **1 · Low ticket** | Recria Calendário com IA (questionário + prompt) | R$8 | Primeiro "sim" |
 | | E-book Negócio local no digital (ex.: casa de ração) | R$10 | |
 | | E-book Esteira de produtos | R$12 | |
 | | E-book 100+ ideias de low ticket | R$15 | |
@@ -39,7 +39,7 @@ Observação: o pacote inicial de R$1.500 custa o mesmo que o tráfego pago sozi
 
 ### Catálogo de low tickets (v3)
 
-**Família de nomes:** Recria Calendário, Recria Calendário com IA, Recria Post, Recria Reels e Recria MIV (sugestão para o Recria MIV, para manter o padrão).
+**Família de nomes:** Recria Calendário, Recria Calendário com IA, Recria Post, Recria Reels e Recria MIV. Lógica: "Recria + o que a pessoa vai recriar"; o MIV leva a sigla explicada no subtítulo (Manual de Identidade Visual).
 
 Todos os produtos terminam com uma oferta "com preço bem acessível" (sem mostrar valor no PDF; o preço é testado na página de venda). Nenhum produto passa de R$100.
 
@@ -150,7 +150,7 @@ Regra de ouro das pontes de sexta: só indicar produto que **já esteja no ar**.
 - Texto de chamada: *Recriadores, você vende o que você faz ou o que o cliente quer? O carrossel de hoje mostra a diferença, no link abaixo 👇🏻*
 - Atividade em PDF, **"Reescreva sua oferta"**: preencher "Eu ajudo [quem] a [resultado] sem [dor]" para 3 serviços ou produtos.
 
-**SEX 16/10 · Exclusivo (passo a passo) · ponte: e-book Calendário com IA (R$8), lançamento previsto 16/10**
+**SEX 16/10 · Exclusivo (passo a passo) · ponte: Recria Calendário com IA (R$8), lançamento previsto 16/10**
 > Recriadores, planejar o mês de conteúdo não precisa levar o domingo inteiro. Passo a passo rápido: 1) anote 5 dores do seu cliente; 2) transforme cada dor em um tema; 3) distribua os temas em carrossel, post estático e reel.
 > Para ir além, lancei um e-book em que você responde a um questionário, joga o prompt pronto na sua IA e recebe o calendário do mês personalizado pro seu negócio. Custa R$8: [link]
 
