@@ -39,12 +39,14 @@ Observação: o pacote inicial de R$1.500 custa o mesmo que o tráfego pago sozi
 
 ### Catálogo de low tickets (v3)
 
+**Família de nomes:** Calendário Recria, Calendário Recria IA, Recria Post, Recria Reels e Recria MIV (sugestão para o Guia MIV, para manter o padrão).
+
 Todos os produtos terminam com uma oferta "com preço bem acessível" (sem mostrar valor no PDF; o preço é testado na página de venda). Nenhum produto passa de R$100.
 
 | # | Produto | Preço | Quem é | Status |
 |---|---|---|---|---|
-| 1 | Como criar seu calendário de conteúdo (do jeito manual: funil, objetivos, gatilhos, pilares, 30 dias, CTAs e planilha de bônus) | R$5 | Porta de entrada da trilha de conteúdo | **v1 pronto** (19 páginas + planilha) |
-| 2 | Calendário de Conteúdo com IA (questionário + prompts de feed e de stories) | R$8 | Quem já sabe montar manualmente e quer automatizar | **v2 pronto** (31 páginas) |
+| 1 | **Calendário Recria**: como criar seu calendário de conteúdo em 5 passos (funil, objetivos, gatilhos, pilares, 30 dias, CTAs e planilha de bônus) | R$5 | Porta de entrada da trilha de conteúdo | **v1 pronto** (19 páginas + planilha) |
+| 2 | **Calendário Recria IA**: como criar o calendário usando IA (questionário + prompts de feed e de stories) | R$8 | Quem já sabe montar manualmente e quer automatizar | **v2 pronto** (31 páginas) |
 | 3 | **Recria Post**: posts estáticos e carrosséis com ferramentas gratuitas (Canva) e IA (Gemini, ChatGPT, Claude), do prompt da imagem ao layout | R$10 | Criar as peças | A fazer |
 | 4 | **Recria Reels**: vídeos curtos com CapCut, Clipchamp e Canva, IA para legendar e criar imagens | R$10 a R$12 | Criar os vídeos | A fazer |
 | 5 | **Guia MIV**: manual de identidade visual da sua marca com IA (diretrizes, cores, logo, Canva grátis) | R$15 | Dar identidade às peças | A fazer |
@@ -58,12 +60,12 @@ Todos os produtos terminam com uma oferta "com preço bem acessível" (sem mostr
 
 ### Mapa de upsells (a oferta no fim de cada produto)
 
-Regra: cada produto termina oferecendo o próximo degrau lógico. O calendário com IA (R$8) abre um **leque de três** produtos lado a lado, porque depois de ter os textos o cliente precisa criar as peças.
+Regra: cada produto termina oferecendo o próximo degrau lógico. O Calendário Recria IA (R$8) abre um **leque de três** produtos lado a lado, porque depois de ter os textos o cliente precisa criar as peças.
 
 | Produto | Termina oferecendo | Por que faz sentido |
 |---|---|---|
-| 1. Calendário manual (R$5) | 2. Calendário com IA | "Agora que você sabe fazer sozinho, direcione uma IA" |
-| 2. Calendário com IA (R$8) | **3 cartões lado a lado:** Recria Post, Recria Reels e Guia MIV | Textos prontos, falta criar as peças e ter identidade |
+| 1. Calendário Recria (R$5) | 2. Calendário Recria IA | "Agora que você sabe fazer sozinho, direcione uma IA" |
+| 2. Calendário Recria IA (R$8) | **3 cartões lado a lado:** Recria Post, Recria Reels e Guia MIV | Textos prontos, falta criar as peças e ter identidade |
 | 3. Recria Post | 4. Recria Reels (e Guia MIV, se ainda não comprou) | Do estático para o vídeo |
 | 4. Recria Reels | 5. Guia MIV | Padronizar a identidade das peças |
 | 5. Guia MIV | 6. Negócio local no digital | Conteúdo, peças e marca prontos: hora de diversificar a renda |
@@ -83,8 +85,8 @@ Regra: cada produto termina oferecendo o próximo degrau lógico. O calendário 
 
 | Ordem | E-book | Prazo sugerido |
 |---|---|---|
-| 1 | Calendário com IA (R$8) | Pronto (v2) |
-| 2 | Calendário manual (R$5) | Pronto (v1) |
+| 1 | Calendário Recria IA (R$8) | Pronto (v2) |
+| 2 | Calendário Recria (R$5) | Pronto (v1) |
 | 3 | Recria Post (R$10) | 19/10 |
 | 4 | Recria Reels (R$10 a R$12) | 26/10 |
 | 5 | Guia MIV (R$15) | 02/11 |
