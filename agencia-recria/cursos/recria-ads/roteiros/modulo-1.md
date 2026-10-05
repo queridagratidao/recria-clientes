@@ -20,7 +20,7 @@
 
 **Tarefa:** pegue 3 posts antigos seus e responda: eles falam primeiro com o Sistema 1 ou com o Sistema 2?
 
-## Aula 1.2 · Gatilhos sem manipulação
+## Aula 1.2 · Gatilhos sem manipulação (dividida em 1.2.1 e 1.2.2: princípios 1 a 4 na parte 1; 5 a 7 e o fechamento na parte 2)
 **Formato:** 🖥️ voz + tela (dissecando o funil real da Recria) · **Duração:** cerca de 6 min (máximo 10)
 
 **Base:** *As Armas da Persuasão* (Robert Cialdini (tchal-DÍ-ni)): os 7 princípios da influência.
