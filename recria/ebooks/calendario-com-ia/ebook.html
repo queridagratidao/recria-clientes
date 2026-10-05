@@ -170,12 +170,12 @@ Pare aqui e espere eu confirmar ou corrigir.</div>
 
 <div class="dica"><b>Confira com atenção.</b> Leia o diagnóstico e corrija o que estiver errado antes de seguir. É aqui que a IA aprende o seu negócio de verdade.</div>
 
-<h2>Etapa 2 · O calendário</h2>
+<h2>Etapa 2 · O calendário do feed</h2>
 <p>Depois de confirmar o diagnóstico, envie o prompt abaixo na mesma conversa:</p>
-<div class="prompt"><span class="rot">Copie e cole</span>Perfeito. Agora monte o calendário de conteúdo completo de [mês e ano], seguindo estas regras:
+<div class="prompt"><span class="rot">Copie e cole · Feed</span>Perfeito. Agora monte o calendário de conteúdo do feed de [mês e ano], seguindo estas regras:
 
 FORMATO DA ENTREGA
-Uma tabela com estas colunas: Data | Dia da semana | Rede | Formato | Pilar | Etapa do funil (Descobrir, Considerar ou Decidir) | Tema | Gancho (a primeira frase, escrita por completo) | Resumo do conteúdo em 2 linhas | Chamada para ação | Stories do dia (tipo e gancho) | Observação de produção.
+Uma tabela com estas colunas: Data | Dia da semana | Rede | Formato | Pilar | Etapa do funil (Descobrir, Considerar ou Decidir) | Objetivo (vender, comentar, compartilhar, salvar, marcar alguém ou seguir) | Tema | Gancho (a primeira frase, escrita por completo) | Resumo do conteúdo em 2 linhas | Chamada para ação (escrita por completo) | Observação de produção.
 
 REGRAS
 1. Respeite a frequência que informei: [resposta 17] posts por semana.
@@ -185,12 +185,31 @@ REGRAS
 5. Escreva ganchos simples, concretos, emocionais e com história. Evite clichês como "você sabia?".
 6. Distribua os temas entre Descobrir, Considerar e Decidir.
 7. Encaixe as datas do mês que informei, sem forçar datas que não tenham relação com o meu negócio.
-8. Termine cada carrossel com um slide de resumo ou próximo passo, e cada vídeo com uma chamada para ação clara.
-9. Para cada dia, sugira também um conteúdo de stories, com o tipo (enquete, caixa de perguntas, bastidor, prova social, mito ou verdade, convite) e o gancho escrito por completo.
+8. Cada post tem UMA chamada para ação, coerente com o objetivo do post.
+9. Termine cada carrossel com um slide de resumo ou próximo passo.
 10. Use o tom de voz que informei e evite o que pedi para evitar.
 11. Marque dois dias do mês como "livre, espaço para novidade".
 
 Ao final, entregue um resumo com a contagem de posts por pilar e por formato.</div>
+
+<h2>Etapa 3 · O plano de stories</h2>
+<p>Com o calendário do feed aprovado, peça os stories em um prompt só para eles. Assim a IA dedica a atenção inteira a um formato que tem a sua própria lógica:</p>
+<div class="prompt"><span class="rot">Copie e cole · Stories</span>Ótimo. Agora monte o plano de stories de [mês e ano], com base no calendário do feed aprovado e no diagnóstico do meu negócio.
+
+FORMATO DA ENTREGA
+Uma tabela com: Data | Tipo de stories (enquete, caixa de perguntas, mito ou verdade, bastidor, prova social, dica rápida, contagem regressiva, pergunta do cliente, convite) | Gancho do primeiro story (escrito por completo) | Sequência em 3 a 5 stories (uma linha para cada story) | Interação (figurinha de enquete, caixa de perguntas, link, resposta no Direct) | Chamada para ação.
+
+REGRAS
+1. Planeje stories para [5] dias por semana, incluindo dias sem post no feed.
+2. Nos dias de post no feed, use os stories para chamar para o post e reforçar o tema.
+3. Nos demais dias, alterne bastidor, prova social, enquete e conversa.
+4. Toda sequência segue: gancho, conteúdo e convite.
+5. Inclua uma enquete ou caixa de perguntas por semana para gerar ideias de conteúdo.
+6. Use o tom de voz que informei. Nada de promessas que eu não possa cumprir.
+
+Ao final, liste 5 ganchos extras de stories para os dias de improviso.</div>
+
+<div class="dica"><b>Prefere tudo em um prompt só?</b> É possível centralizar. No prompt do feed (etapa 2), acrescente à lista de colunas: "Stories do dia (tipo, gancho do primeiro story e chamada para ação)" e inclua a regra: "Para cada dia, sugira também um conteúdo de stories, com sequência de 3 a 5 stories, no formato gancho, conteúdo e convite". A IA entrega feed e stories na mesma tabela. O resultado fica mais enxuto, enquanto os prompts separados dão stories mais completos.</div>
 
 </section>
 
@@ -231,8 +250,18 @@ Ao final, entregue um resumo com a contagem de posts por pilar e por formato.</d
 <div class="prompt"><span class="rot">Roteiro de vídeo curto</span>Escreva o roteiro de um vídeo de 30 a 45 segundos para o post do dia [data]. Traga: gancho dos 3 primeiros segundos, desenvolvimento em 3 blocos curtos, chamada para ação e indicação de cena (o que aparece na tela em cada bloco).</div>
 <div class="prompt"><span class="rot">Legenda</span>Escreva 3 opções de legenda para o post do dia [data]: uma curta, uma média e uma com história. Termine com uma pergunta que convide ao comentário.</div>
 <div class="prompt"><span class="rot">Stories</span>Crie uma sequência de 5 stories para o dia [data], com enquete ou caixinha de perguntas no segundo story e um convite para falar comigo no último.</div>
-<h2>A regra do último slide</h2>
-<p>Em carrosséis e vídeos, a parte final é onde a pessoa decide se salva, compartilha ou clica. Guias de boas práticas de Instagram repetem a recomendação: termine com um resumo que valha a pena salvar ou com um próximo passo claro. Nunca deixe o conteúdo acabar "no ar".</p>
+<h2>A regra do último slide (e da chamada para ação)</h2>
+<p>Em carrosséis e vídeos, a parte final é onde a pessoa decide se salva, compartilha ou clica. Termine sempre com <b>uma única chamada para ação (CTA)</b>, escolhida de acordo com o objetivo do post. Nunca deixe o conteúdo acabar "no ar".</p>
+<table class="compacta">
+<tr><th>Objetivo</th><th>Quando usar</th><th>Exemplos de CTA</th></tr>
+<tr><td><b>Vender</b></td><td>Posts do pilar Vender e provas fortes</td><td>"Chame no WhatsApp e peça o seu" · "Toque no link da bio e garanta a sua vaga" · "Responda EU QUERO no Direct e eu envio os detalhes"</td></tr>
+<tr><td><b>Comentar</b></td><td>Quando você quer conversa e ideias de conteúdo</td><td>"Qual é a sua maior dúvida sobre [tema]? Responda nos comentários" · "Você já passou por isso? Conta para mim aqui embaixo" · "Comente QUERO e eu te mando o material"</td></tr>
+<tr><td><b>Compartilhar</b></td><td>Conteúdo útil que merece chegar a mais gente</td><td>"Envie para alguém que precisa ver isso hoje" · "Compartilhe nos seus stories e marque a gente" · "Manda para aquele amigo que sempre [situação]"</td></tr>
+<tr><td><b>Salvar</b></td><td>Passo a passo, listas e checklists</td><td>"Salve este post para consultar depois" · "Guarde para a hora de [tarefa]" · "Salve e volte aqui quando precisar"</td></tr>
+<tr><td><b>Marcar alguém</b></td><td>Conteúdos de identificação e de humor leve</td><td>"Marque aqui a pessoa que precisa ler isso" · "Marque o amigo que também [situação]" · "Marque quem vai com você nesse [evento]"</td></tr>
+<tr><td><b>Seguir</b></td><td>Posts de topo, para atrair gente nova</td><td>"Siga para ver uma dica como essa toda semana" · "Siga e ative o sininho para não perder a próxima"</td></tr>
+</table>
+<div class="dica"><b>Três regras:</b> uma CTA por post (quem recebe três pedidos não faz nenhum), CTA que combina com o objetivo (não peça compra em um post de topo), e CTA específica ("responda EU QUERO" funciona melhor do que "me chama"). Peça apenas depois de entregar valor.</div>
 <h2>Stories: ideias e ganchos</h2>
 <p>Enquanto o feed atrai, os stories aproximam. Eles são o lugar de falar de forma rápida e informal, e de converter conversa em mensagem. Use sequências curtas de 3 a 5 stories: gancho, conteúdo e convite.</p>
 <table class="compacta">
@@ -247,7 +276,7 @@ Ao final, entregue um resumo com a contagem de posts por pilar e por formato.</d
 <tr><td>Pergunta do cliente</td><td>"Me perguntaram isso hoje e vale para todo mundo"</td><td>Responder objeções</td></tr>
 <tr><td>Convite</td><td>"Quer saber mais? Me chama no Direct com a palavra [PALAVRA]"</td><td>Levar para a conversa</td></tr>
 </table>
-<div class="dica"><b>Dica:</b> peça ao seu calendário uma ideia de stories por dia (o prompt da etapa 2 já faz isso). Se o dia for corrido, um único story com enquete já mantém a conversa viva.</div>
+<div class="dica"><b>Dica:</b> use o prompt de stories da etapa 3 para receber o plano do mês. Se o dia for corrido, um único story com enquete já mantém a conversa viva.</div>
 </section>
 
 <section class="cap">
@@ -382,14 +411,13 @@ RESULTADOS: [cole aqui alcance, salvamentos, compartilhamentos, cliques e mensag
 
 <!-- UPSELL -->
 <section class="upsell">
-<div class="kick">Seu calendário está pronto. E agora?</div>
-<h1>Planejar o que postar é metade do caminho. <em>A outra metade é saber o que vender.</em></h1>
-<p>Um calendário cheio de bons conteúdos atrai atenção. Mas atenção só vira dinheiro quando existe um caminho de compra claro: um produto simples para o primeiro "sim" e outros para quem quer ir além.</p>
-<div class="oferta">
-<div class="kick">Próximo passo</div>
-<h3>Conheça mais sobre a esteira de produtos</h3>
-<p>Aprenda a montar a sua esteira, com ofertas de entrada, intermediárias e premium, para diversificar a renda e vender mais para a mesma audiência que você está construindo. Com um preço bem acessível para você.</p>
-<a class="btn" href="LINK-ESTEIRA">Quero montar a minha esteira</a>
+<div class="kick">Seus textos estão prontos. E agora?</div>
+<h1>Agora é hora de criar as peças. <em>Quais são os seus próximos passos?</em></h1>
+<p>Com o calendário e os textos prontos, falta transformá-los em posts, carrosséis e vídeos. Dá para fazer isso com ferramentas gratuitas e IA, do jeito manual ou automatizado.</p>
+<div class="cards3">
+<div class="c"><h3>Recria Post</h3><p>Aprenda a fazer posts estáticos e carrosséis com ferramentas gratuitas e IA: do prompt da imagem ao layout pronto.</p><p><i>Preço bem acessível.</i></p><a class="btn" href="LINK-POST">Quero conhecer</a></div>
+<div class="c"><h3>Recria Reels</h3><p>Aprenda a editar vídeos curtos com CapCut, Clipchamp e Canva, e use IA para legendar e criar imagens.</p><p><i>Preço bem acessível.</i></p><a class="btn" href="LINK-REELS">Quero conhecer</a></div>
+<div class="c"><h3>Guia MIV</h3><p>Ainda não tem os direcionais da sua marca? Crie o seu manual de identidade visual com IA: cores, posicionamento e padrão para as peças.</p><p><i>Preço bem acessível.</i></p><a class="btn" href="LINK-MIV">Quero conhecer</a></div>
 </div>
 <div class="oferta" style="margin-top:4mm">
 <div class="kick">Comunidade gratuita</div>
