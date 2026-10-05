@@ -45,6 +45,8 @@ Todos os produtos terminam com uma oferta "com preço bem acessível" (sem mostr
 
 **Regra de copy (geral):** tudo o que divulga um produto (capa, cartões de upsell, página de venda, posts do grupo) fala de forma **vaga**. Nada que ensine a pessoa a fazer sozinha sem comprar: sem o questionário, sem o método, sem os nomes das ferramentas. O "como" é o valor de dentro do e-book.
 
+**Regra de conteúdo:** o e-book de um degrau não pode ensinar o que o degrau seguinte vende. No Recria Calendário com IA, os prompts de produção das peças (carrossel, roteiro de vídeo, legenda) ficam de fora, porque são o conteúdo do Recria Post e do Recria Reels. No meio do e-book há chamadas separadas para cada produto (onde entra cada um) e, no final, um resumo dos três mais o grupo Recriadores.
+
 **Regra de copy (ferramentas):** não citar ferramentas específicas (Canva, CapCut, Clipchamp, Gemini, ChatGPT etc.) na capa nem na página de venda dos guias. Dizer "ferramentas gratuitas e pagas". As ferramentas e o passo a passo são o valor dentro do guia. O Recria MIV também não leva "com IA" no nome.
 
 | # | Produto | Preço | Quem é | Status |
