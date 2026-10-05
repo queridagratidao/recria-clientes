@@ -28,6 +28,15 @@
 
 Observação: o pacote inicial de R$1.500 custa o mesmo que o tráfego pago sozinho. Vale deixar claro na proposta o que ele inclui, para não parecer que social media, site e treinamento saem de graça.
 
+### Order bumps (checkout da Hotmart)
+
+| Produto | Bump 1 | Bump 2 |
+|---|---|---|
+| **Manual de Narrativas (R$47)** | Curso Express Estratégia Atraente Que Vende, +R$15 | E-book "Como criar um low ticket, +100 ideias" (valor sugerido +R$12), quando estiver pronto |
+| **Curso Express (R$15)** | Combo 1 (R$12): mapas e materiais complementares | Trocar o Combo 2 por outro low ticket já existente, para não entregar o Manual por um preço baixo demais |
+
+**E-book 100+ ideias de low ticket:** misturar os segmentos em partes equilibradas (cerca de 20 ideias cada): pequenos negócios e negócios locais, médias empresas, grandes empresas, negócios digitais (infoprodutos, serviços e mentorias) e e-commerce.
+
 ### Nome da comunidade paga (Hotmart)
 
 | Opção | Comentário |
