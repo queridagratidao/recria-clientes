@@ -1,5 +1,5 @@
-# Carrossel — Lançamento do Portal do Síndico
-**RECRIA Marketing, 02/10/2026**
+# Carrossel do Portal do Síndico e Convite para o Grupo
+**RECRIA Marketing, atualizado em 05/10/2026**
 **Cliente:** Eleva
 
 **Onde postar:** Instagram, carrossel
@@ -45,7 +45,7 @@
 
 **Slide 7 — CTA:**
 
-"Acesse pelo link da bio e saiba mais."
+"Comenta 'PORTAL' que avisamos você assim que lançar, ou acesse pelo link da bio."
 
 ---
 
@@ -57,4 +57,35 @@ Prestação de contas, assembleia, conselho, administradora, cada um puxando pra
 
 Por isso estamos desenvolvendo o Portal do Síndico da Eleva, feito para facilitar sua gestão do início ao fim, em breve, com período gratuito para testar.
 
-Acesse pelo link da bio e saiba mais. 👇
+Comenta "PORTAL" 👇 ou acesse pelo link da bio.
+
+**Automação de direct (gatilho: comentário "PORTAL"):** avisar que a pessoa será notificada assim que o portal for lançado, com acesso ao período gratuito de teste.
+
+---
+
+# Imagem estática — Convite para o grupo Eleva, Síndicos de Alta Performance
+
+**Onde postar:** Instagram, feed (imagem estática)
+**Quem produz:** Amanda
+**Layout:** mesma identidade visual do carrossel acima, para manter consistência.
+
+**Texto da imagem:**
+
+"Você é síndico e ainda não faz parte da nossa comunidade, Eleva Síndicos de Alta Performance?"
+
+"Uma comunidade gratuita, no WhatsApp, com conteúdo semanal para o seu dia a dia de gestão."
+
+"Comenta 'GRUPO' ou acesse pelo link da bio."
+
+**Legenda do post:**
+
+Você é síndico e ainda não faz parte da nossa comunidade, Eleva Síndicos de Alta Performance?
+
+Uma comunidade gratuita, no WhatsApp, com conteúdo semanal para o seu dia a dia de gestão.
+
+Comenta "GRUPO" 👇 que você recebe o convite no direct, ou acesse direto pelo link da bio.
+
+**Automação de direct (gatilho: comentário "GRUPO"):**
+
+> Oi, [nome], tudo bem? Que bom que você quer fazer parte da comunidade Eleva lá no WhatsApp. Para participar, basta clicar no link abaixo. Nos vemos na comunidade. Um abraço!
+> 🔗 https://chat.whatsapp.com/IPCOutpwO2rLJF2KmP99t9
