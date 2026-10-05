@@ -41,8 +41,8 @@ Observação: o pacote inicial de R$1.500 custa o mesmo que o tráfego pago sozi
 
 | # | Produto | Preço | Quem é | Status |
 |---|---|---|---|---|
-| 1 | Como criar seu calendário de conteúdo (do jeito manual: pilares, 30 dias e planilha) | R$5 | Porta de entrada da trilha de conteúdo | A fazer |
-| 2 | Calendário de Conteúdo com IA (questionário + prompt) | R$8 | Quem já sabe montar manualmente e quer automatizar | **v1 pronto** |
+| 1 | Como criar seu calendário de conteúdo (do jeito manual: funil, objetivos, gatilhos, pilares, 30 dias e planilha) | R$5 | Porta de entrada da trilha de conteúdo | **v1 pronto** (19 páginas + planilha) |
+| 2 | Calendário de Conteúdo com IA (questionário + prompt) | R$8 | Quem já sabe montar manualmente e quer automatizar | **v2 pronto** (29 páginas) |
 | 3 | Como usar IA para criar imagens e montar posts estáticos e carrosséis (Gemini, ChatGPT e Claude) | R$8 a R$10 | Pós-calendário: produzir as peças | A fazer |
 | 4 | Manual de Identidade Visual da sua marca (diretrizes, cores, logo, Canva grátis) | R$15 | Dar identidade às peças | A fazer |
 | 5 | Negócio local no digital (como criar produto digital para negócio físico) | R$10 | Início da trilha de produto | A fazer |
@@ -79,8 +79,8 @@ Regra: cada produto termina com **uma** oferta, o próximo degrau lógico. A tri
 
 | Ordem | E-book | Prazo sugerido |
 |---|---|---|
-| 1 | Calendário com IA (R$8) | Pronto (v1) |
-| 2 | Calendário manual (R$5): é o mais curto e abre a trilha | 12/10 |
+| 1 | Calendário com IA (R$8) | Pronto (v2) |
+| 2 | Calendário manual (R$5): é o mais curto e abre a trilha | Pronto (v1) |
 | 3 | Imagens e posts com IA (R$10) | 19/10 |
 | 4 | Esteira de produtos (R$12) | 26/10 |
 | 5 | 100+ ideias de low ticket (R$15) | 02/11 |
