@@ -70,7 +70,7 @@ Regra: cada produto termina oferecendo o próximo degrau lógico. O Recria Calen
 
 | Produto | Termina oferecendo | Por que faz sentido |
 |---|---|---|
-| 1. Recria Calendário de Conteúdos (R$5) | 2. Recria Calendário com IA | "Agora que você sabe fazer sozinho, direcione uma IA" |
+| 1. Recria Calendário de Conteúdos (R$5) | 2. Recria Calendário com IA **e, lado a lado, o leque** Recria MIV, Recria Post e Recria Reels | Quem não quer IA no calendário também vê os três guias das peças; o cartão do Calendário com IA fica no topo |
 | 2. Recria Calendário com IA (R$8) | **3 cartões lado a lado, nesta ordem:** 1. Recria MIV, 2. Recria Post, 3. Recria Reels | Primeiro a identidade (tom de voz, cores, tipografia), depois as peças. O e-book tem uma página para ajustar o calendário ao MIV |
 | 3. Recria MIV | 4. Recria Post | Identidade definida, agora criar as peças com a cara da marca |
 | 4. Recria Post | 5. Recria Reels | Do estático para o vídeo |

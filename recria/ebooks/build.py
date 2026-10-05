@@ -17,7 +17,7 @@ head = html.split("<body>")[0]
 full = ('<style>@page{margin:0;background:#0b0b0b;@bottom-center{content:none}}'
         'html,body{background:#0b0b0b}'
         'section{margin:0!important;height:209.5mm!important;overflow:hidden;break-after:avoid!important;break-before:avoid!important}'
-        '.upsell{padding:16mm 14mm!important}.cover{padding:16mm 14mm!important}</style>')
+        '.upsell{padding:12mm 14mm!important}.cover{padding:16mm 14mm!important}</style>')
 js = pathlib.Path(__file__).parent / "_base" / "pdf.js"
 pdfs = []
 for name, content in (("cover", cover), ("body", body), ("upsell", upsell)):
