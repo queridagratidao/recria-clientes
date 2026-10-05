@@ -1,0 +1,60 @@
+/* Base visual dos e-books Recria: capa preta e dourada, miolo creme */
+@font-face{font-family:'Lora';font-weight:400;font-style:normal;src:url(fonts/lora-latin-400-normal.woff2)}
+@font-face{font-family:'Lora';font-weight:400;font-style:italic;src:url(fonts/lora-latin-400-italic.woff2)}
+@font-face{font-family:'Lora';font-weight:600;font-style:normal;src:url(fonts/lora-latin-600-normal.woff2)}
+@font-face{font-family:'Lora';font-weight:600;font-style:italic;src:url(fonts/lora-latin-600-italic.woff2)}
+@font-face{font-family:'Playfair Display';font-weight:700;font-style:normal;src:url(fonts/playfair-display-latin-700-normal.woff2)}
+@font-face{font-family:'Playfair Display';font-weight:700;font-style:italic;src:url(fonts/playfair-display-latin-700-italic.woff2)}
+:root{--preto:#0b0b0b;--ouro:#C9A24E;--ouro2:#E4C988;--ouro-t:#8a6416;--creme:#F6F0E2;--txt:#2b2415}
+@page{size:148mm 210mm;margin:16mm 14mm 18mm;background:var(--creme);@bottom-center{content:counter(page);font-family:'Lora',serif;font-size:9pt;color:#8a7a52}}
+@page plain{@bottom-center{content:none}}
+*{box-sizing:border-box}
+html{counter-reset:page 1}
+html{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{margin:0;font-family:'Lora',Georgia,serif;font-size:10.8pt;line-height:1.55;color:var(--txt);background:var(--creme)}
+h1,h2,h3{font-family:'Playfair Display',Georgia,serif;line-height:1.15;color:var(--preto);margin:0}
+h1{font-size:25pt;margin-bottom:6mm}
+h2{font-size:15pt;margin:7mm 0 3mm;break-after:avoid}
+h3{font-size:12pt;margin:5mm 0 2mm;break-after:avoid}
+em{color:var(--ouro-t)}
+p{margin:0 0 3mm}
+ul,ol{margin:0 0 3mm;padding-left:5mm}
+li{margin-bottom:1.1mm}
+.kick{font-size:8pt;letter-spacing:.2em;text-transform:uppercase;color:var(--ouro-t);font-weight:600;margin-bottom:3mm}
+.cap{break-before:page}
+.cover{height:209mm;background:radial-gradient(ellipse at 50% 0%,#2a2214 0%,#0b0b0b 65%),#0b0b0b;color:#fff;text-align:center;padding:16mm 14mm;display:flex;flex-direction:column;justify-content:space-between;align-items:center;overflow:hidden}
+.cover img{height:62mm;margin:-10mm 0 -14mm}
+.cover .tag{font-size:8pt;letter-spacing:.25em;text-transform:uppercase;color:var(--ouro)}
+.cover h1{color:#fff;font-size:30pt;margin:6mm 0}
+.cover h1 em{color:var(--ouro2)}
+.cover p{color:#e9e4da;font-size:11pt}
+.cover .preco{border:1px solid var(--ouro);padding:2.5mm 6mm;color:var(--ouro2);font-size:9.5pt;letter-spacing:.1em}
+.box{background:var(--preto);color:var(--ouro2);padding:5mm 6mm;border-left:2mm solid var(--ouro);font-family:'Playfair Display',serif;font-style:italic;font-size:12pt;line-height:1.35;margin:5mm 0;break-inside:avoid}
+.dica{background:#fff;border:.3mm solid #d9c394;border-left:1.6mm solid var(--ouro);padding:3.5mm 5mm;margin:4mm 0;font-size:10pt;break-inside:avoid}
+.dica b{color:var(--ouro-t)}
+.alerta{background:#fbeee8;border-left:1.6mm solid #b5523b;padding:3.5mm 5mm;margin:4mm 0;font-size:10pt;break-inside:avoid}
+.prompt{background:var(--preto);color:#f3ecd9;border-radius:2mm;padding:3.5mm 4.5mm;margin:3mm 0;font-family:'Courier New',monospace;font-size:7.6pt;line-height:1.38;white-space:pre-wrap;border-top:1.2mm solid var(--ouro);break-inside:avoid}
+.prompt .rot{display:block;font-family:'Lora',serif;font-size:7pt;letter-spacing:.18em;text-transform:uppercase;color:var(--ouro);margin-bottom:1.5mm}
+table{width:100%;border-collapse:collapse;margin:2mm 0 4mm;font-size:8.6pt;break-inside:avoid}
+th{background:var(--preto);color:var(--ouro2);text-align:left;padding:2mm 2.5mm;font-weight:600}
+td{border-bottom:.25mm solid #d9c394;padding:1.5mm 2.2mm;vertical-align:top;background:#fff}
+.passos{display:grid;grid-template-columns:1fr 1fr 1fr;gap:3mm;margin:5mm 0}
+.passo{background:#fff;border-top:1.2mm solid var(--ouro);padding:4mm;text-align:center;font-size:9.5pt}
+.passo .n{font-family:'Playfair Display',serif;font-size:22pt;color:var(--ouro-t);line-height:1}
+.q{margin-bottom:3.2mm;break-inside:avoid}
+.q .l{font-size:9.6pt;font-weight:600}
+.q .r{border-bottom:.3mm solid #b9a671;height:6.5mm}
+.q .r2{border-bottom:.3mm solid #b9a671;height:6.5mm;margin-top:.5mm}
+.check li{list-style:none;margin-left:-5mm}
+.check li:before{content:'☐ ';color:var(--ouro-t)}
+.upsell{background:var(--preto);color:#fff;padding:14mm 14mm 10mm;height:209mm;overflow:hidden;font-size:10pt;line-height:1.45}
+.upsell h1{font-size:19pt;margin-bottom:4mm}
+.upsell .oferta{padding:4mm;margin:4mm 0}
+.upsell h1,.upsell h2,.upsell h3{color:#fff}
+.upsell em{color:var(--ouro2)}
+.upsell p,.upsell li{color:#e9e4da}
+.upsell .kick{color:var(--ouro)}
+.upsell .oferta{border:1px solid var(--ouro);padding:5mm;margin:5mm 0;background:rgba(201,162,78,.07)}
+.upsell .oferta h3{color:var(--ouro2);margin-top:0}
+.upsell .btn{display:inline-block;background:var(--ouro);color:var(--preto);font-weight:600;padding:3mm 6mm;border-radius:1.5mm;text-decoration:none;margin-top:2mm}
+.peq{font-size:8.5pt;color:#6b5f3e}
