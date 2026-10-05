@@ -61,7 +61,7 @@ Prestação de contas, assembleia, conselho, administradora, diversas responsabi
 
 Por isso estamos desenvolvendo o Portal do Síndico da Eleva, feito para facilitar sua gestão do início ao fim, com acesso cortesia para você experimentar.
 
-Quer ser um dos primeiros a receber esse acesso gratuito? Comente "PORTAL" 👇 que vamos te avisar e passar o acesso no seu direct.
+Quer ser um dos primeiros a receber esse acesso gratuito? Comente "PORTAL" 👇 e então, vamos te avisar e passar o acesso no seu direct.
 
 **Automação de direct (gatilho: comentário "PORTAL"):** avisar que a pessoa será notificada assim que o portal for lançado, com acesso ao período gratuito de teste.
 
@@ -75,11 +75,11 @@ Quer ser um dos primeiros a receber esse acesso gratuito? Comente "PORTAL" 👇 
 
 **Texto da imagem:**
 
-"Você é síndico e ainda não faz parte da nossa comunidade, Eleva Síndicos de Alta Performance?"
+"Você é síndico e ainda não faz parte da nossa comunidade: Eleva - Síndicos de Alta Performance?"
 
-"Uma comunidade gratuita, no WhatsApp, com conteúdo semanal para o seu dia a dia de gestão."
+"Uma comunidade gratuita, no WhatsApp, com conteúdos semanais para te ajudar no seu dia a dia e na sua gestão como síndico."
 
-"Comenta 'GRUPO' ou acesse pelo link da bio."
+"Comente: 'GRUPO' e receba o convite no seu direct ou acesse pelo link da bio."
 
 **Legenda do post:**
 
