@@ -39,7 +39,7 @@ Observação: o pacote inicial de R$1.500 custa o mesmo que o tráfego pago sozi
 
 ### Catálogo de low tickets (v3)
 
-**Família de nomes:** Calendário Recria, Calendário Recria 2.0 (com IA), Recria Post, Recria Reels e Recria MIV (sugestão para o Guia MIV, para manter o padrão).
+**Família de nomes:** Calendário Recria, Calendário Recria 2.0 (com IA), Recria Post, Recria Reels e Recria MIV (sugestão para o Recria MIV, para manter o padrão).
 
 Todos os produtos terminam com uma oferta "com preço bem acessível" (sem mostrar valor no PDF; o preço é testado na página de venda). Nenhum produto passa de R$100.
 
@@ -49,7 +49,7 @@ Todos os produtos terminam com uma oferta "com preço bem acessível" (sem mostr
 | 2 | **Calendário Recria 2.0**: passo a passo para a IA criar o seu calendário (questionário + prompts de feed e de stories) | R$8 | Quem já sabe montar manualmente e quer automatizar | **v2 pronto** (31 páginas) |
 | 3 | **Recria Post**: posts estáticos e carrosséis com ferramentas gratuitas (Canva) e IA (Gemini, ChatGPT, Claude), do prompt da imagem ao layout | R$10 | Criar as peças | A fazer |
 | 4 | **Recria Reels**: vídeos curtos com CapCut, Clipchamp e Canva, IA para legendar e criar imagens | R$10 a R$12 | Criar os vídeos | A fazer |
-| 5 | **Guia MIV**: manual de identidade visual da sua marca com IA (diretrizes, cores, logo, Canva grátis) | R$15 | Dar identidade às peças | A fazer |
+| 5 | **Recria MIV**: guia passo a passo para desenvolver o seu Manual de Identidade Visual (MIV) com IA (diretrizes, cores, logo, Canva grátis) | R$15 | Dar identidade às peças | A fazer |
 | 6 | Negócio local no digital (produto digital para negócio físico) | R$10 | Início da trilha de produto | A fazer |
 | 7 | Esteira de produtos | R$12 | Organizar a oferta | A fazer |
 | 8 | 100+ ideias de low ticket (pequeno, médio e grande negócio, digital e e-commerce) | R$15 | O primeiro produto de entrada | A fazer |
@@ -65,10 +65,10 @@ Regra: cada produto termina oferecendo o próximo degrau lógico. O Calendário 
 | Produto | Termina oferecendo | Por que faz sentido |
 |---|---|---|
 | 1. Calendário Recria (R$5) | 2. Calendário Recria 2.0 | "Agora que você sabe fazer sozinho, direcione uma IA" |
-| 2. Calendário Recria 2.0 (R$8) | **3 cartões lado a lado:** Recria Post, Recria Reels e Guia MIV | Textos prontos, falta criar as peças e ter identidade |
-| 3. Recria Post | 4. Recria Reels (e Guia MIV, se ainda não comprou) | Do estático para o vídeo |
-| 4. Recria Reels | 5. Guia MIV | Padronizar a identidade das peças |
-| 5. Guia MIV | 6. Negócio local no digital | Conteúdo, peças e marca prontos: hora de diversificar a renda |
+| 2. Calendário Recria 2.0 (R$8) | **3 cartões lado a lado:** Recria Post, Recria Reels e Recria MIV | Textos prontos, falta criar as peças e ter identidade |
+| 3. Recria Post | 4. Recria Reels (e Recria MIV, se ainda não comprou) | Do estático para o vídeo |
+| 4. Recria Reels | 5. Recria MIV | Padronizar a identidade das peças |
+| 5. Recria MIV | 6. Negócio local no digital | Conteúdo, peças e marca prontos: hora de diversificar a renda |
 | 6. Negócio local no digital | 7. Esteira de produtos | Vai querer a esteira inteira |
 | 7. Esteira de produtos | 8. 100+ ideias de low ticket | Esteira montada pede o primeiro produto |
 | 8. 100+ ideias | 9. Médio ticket | O degrau seguinte da esteira |
@@ -89,7 +89,7 @@ Regra: cada produto termina oferecendo o próximo degrau lógico. O Calendário 
 | 2 | Calendário Recria (R$5) | Pronto (v1) |
 | 3 | Recria Post (R$10) | 19/10 |
 | 4 | Recria Reels (R$10 a R$12) | 26/10 |
-| 5 | Guia MIV (R$15) | 02/11 |
+| 5 | Recria MIV (R$15) | 02/11 |
 | 6 | Negócio local (R$10), Esteira (R$12), 100+ ideias (R$15) | Novembro |
 | 7 | Médio ticket (R$17), High ticket (R$22), Estrutura (R$27) | Dezembro |
 | 8 | Prospecção ativa (R$67), com cuidado jurídico | Dezembro |
