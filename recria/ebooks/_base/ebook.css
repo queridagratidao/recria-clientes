@@ -24,7 +24,7 @@ li{margin-bottom:1.1mm}
 .cap{break-before:page}
 .cover{height:209mm;background:radial-gradient(ellipse at 50% 0%,#2a2214 0%,#0b0b0b 65%),#0b0b0b;color:#fff;text-align:center;padding:16mm 14mm;display:flex;flex-direction:column;justify-content:space-between;align-items:center;overflow:hidden}
 .cover img{height:40mm;margin:-4mm 0 -8mm}
-.cover .tag{font-size:8pt;letter-spacing:.25em;text-transform:uppercase;color:var(--ouro)}
+.cover .tag{font-size:8pt;letter-spacing:.25em;text-transform:uppercase;color:var(--ouro);margin-bottom:7mm}
 .cover h1{color:#fff;font-size:34pt;margin:0 0 6mm}
 .cover h1 em{color:var(--ouro2)}
 .cover p{color:#e9e4da;font-size:11pt}

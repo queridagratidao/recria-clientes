@@ -27,8 +27,8 @@ wb = Workbook()
 # --- Leia primeiro
 ws = wb.active; ws.title = "Leia primeiro"
 linhas = [
- ("RECRIA CALENDÁRIO · PLANILHA", True),
- ("Bônus do e-book Recria Calendário", False),
+ ("RECRIA CALENDÁRIO DE CONTEÚDOS · PLANILHA", True),
+ ("Bônus do e-book Recria Calendário de Conteúdos", False),
  ("", False),
  ("Como usar", True),
  ("1. Aba Cliente: escreva as dores, os desejos, as objeções e as perguntas do seu cliente.", False),
@@ -168,5 +168,5 @@ for i in range(9, 12):
     for c in range(1, 8): ws.cell(row=i, column=c).border = border
 larguras(ws, {"A": 16, "B": 12, "C": 14, "D": 36, "E": 16, "F": 30, "G": 34, "H": 20})
 
-wb.save("planilha-recria-calendario.xlsx")
-print("ok planilha-recria-calendario.xlsx")
+wb.save("planilha-recria-calendario-de-conteudos.xlsx")
+print("ok planilha-recria-calendario-de-conteudos.xlsx")
