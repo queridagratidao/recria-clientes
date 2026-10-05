@@ -43,7 +43,9 @@ Observação: o pacote inicial de R$1.500 custa o mesmo que o tráfego pago sozi
 
 Todos os produtos terminam com uma oferta "com preço bem acessível" (sem mostrar valor no PDF; o preço é testado na página de venda). Nenhum produto passa de R$100.
 
-**Regra de copy:** não citar ferramentas específicas (Canva, CapCut, Clipchamp, Gemini, ChatGPT etc.) na capa nem na página de venda dos guias. Dizer "ferramentas gratuitas e pagas". As ferramentas e o passo a passo são o valor dentro do guia. O Recria MIV também não leva "com IA" no nome.
+**Regra de copy (geral):** tudo o que divulga um produto (capa, cartões de upsell, página de venda, posts do grupo) fala de forma **vaga**. Nada que ensine a pessoa a fazer sozinha sem comprar: sem o questionário, sem o método, sem os nomes das ferramentas. O "como" é o valor de dentro do e-book.
+
+**Regra de copy (ferramentas):** não citar ferramentas específicas (Canva, CapCut, Clipchamp, Gemini, ChatGPT etc.) na capa nem na página de venda dos guias. Dizer "ferramentas gratuitas e pagas". As ferramentas e o passo a passo são o valor dentro do guia. O Recria MIV também não leva "com IA" no nome.
 
 | # | Produto | Preço | Quem é | Status |
 |---|---|---|---|---|
