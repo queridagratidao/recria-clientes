@@ -52,8 +52,8 @@ Todos os produtos terminam com uma oferta "com preço bem acessível" (sem mostr
 | 1 | **Recria Calendário de Conteúdos**: como criar seu calendário de conteúdos em 5 passos (funil, objetivos, gatilhos, pilares, 30 dias, CTAs e planilha de bônus) | R$5 | Porta de entrada da trilha de conteúdo | **v1 pronto** (19 páginas + planilha) |
 | 2 | **Recria Calendário com IA**: passo a passo para instruir a IA a criar o calendário de conteúdos mensais (questionário + prompts de feed e de stories). O questionário não aparece na capa: é parte do valor | R$8 | Quem já sabe montar manualmente e quer automatizar | **v2 pronto** (31 páginas) |
 | 3 | **Recria MIV**: guia passo a passo para desenvolver o seu manual de identidade visual (MIV): logo, cores, tipografia e muito mais | R$15 | Definir tom de voz e identidade **antes** das peças | A fazer |
-| 4 | **Recria Post**: recrie a forma de criar posts estáticos e carrosséis, usando ferramentas gratuitas e pagas, já com a identidade | R$10 | Criar as peças | A fazer |
-| 5 | **Recria Reels**: recrie a forma de criar vídeos curtos, usando ferramentas gratuitas e pagas | R$10 a R$12 | Criar os vídeos | A fazer |
+| 4 | **Recria Post**: aprenda a criar posts estáticos e carrosséis usando ferramentas gratuitas e IA (o guia não depende de a pessoa ter o MIV) | R$10 | Criar as peças | A fazer |
+| 5 | **Recria Reels**: aprenda a criar e editar os seus Reels com ferramentas gratuitas e IA | R$10 a R$12 | Criar os vídeos | A fazer |
 | 6 | Negócio local no digital (produto digital para negócio físico) | R$10 | Início da trilha de produto | A fazer |
 | 7 | Esteira de produtos | R$12 | Organizar a oferta | A fazer |
 | 8 | 100+ ideias de low ticket (pequeno, médio e grande negócio, digital e e-commerce) | R$15 | O primeiro produto de entrada | A fazer |
