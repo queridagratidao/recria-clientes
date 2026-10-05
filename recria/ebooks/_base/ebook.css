@@ -38,8 +38,8 @@ li{margin-bottom:1.1mm}
 table{width:100%;border-collapse:collapse;margin:2mm 0 4mm;font-size:8.6pt;break-inside:avoid}
 th{background:var(--preto);color:var(--ouro2);text-align:left;padding:2mm 2.5mm;font-weight:600}
 td{border-bottom:.25mm solid #d9c394;padding:1.5mm 2.2mm;vertical-align:top;background:#fff}
-.passos{display:grid;grid-template-columns:1fr 1fr 1fr;gap:3mm;margin:5mm 0}
-.passo{background:#fff;border-top:1.2mm solid var(--ouro);padding:4mm;text-align:center;font-size:9.5pt}
+.passos{display:grid;grid-template-columns:1fr 1fr 1fr;gap:3mm;margin:4mm 0;break-inside:avoid}
+.passo{background:#fff;border-top:1.2mm solid var(--ouro);padding:3mm;text-align:center;font-size:8.8pt;break-inside:avoid}
 .passo .n{font-family:'Playfair Display',serif;font-size:22pt;color:var(--ouro-t);line-height:1}
 .q{margin-bottom:3.2mm;break-inside:avoid}
 .q .l{font-size:9.6pt;font-weight:600}
@@ -58,3 +58,6 @@ td{border-bottom:.25mm solid #d9c394;padding:1.5mm 2.2mm;vertical-align:top;back
 .upsell .oferta h3{color:var(--ouro2);margin-top:0}
 .upsell .btn{display:inline-block;background:var(--ouro);color:var(--preto);font-weight:600;padding:3mm 6mm;border-radius:1.5mm;text-decoration:none;margin-top:2mm}
 .peq{font-size:8.5pt;color:#6b5f3e}
+table.compacta{font-size:8.1pt;break-inside:auto}
+table.compacta td,table.compacta th{padding:1.05mm 2mm}
+tr{break-inside:avoid}
