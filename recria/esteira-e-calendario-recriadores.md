@@ -53,16 +53,17 @@ Todos os produtos terminam com uma oferta "com preço bem acessível" (sem mostr
 |---|---|---|---|---|
 | 1 | **Recria Calendário de Conteúdos**: como criar seu calendário de conteúdos em 5 passos (funil, objetivos, gatilhos, pilares, 30 dias, CTAs e planilha de bônus) | R$5 | Porta de entrada da trilha de conteúdo | **v1 pronto** (19 páginas + planilha) |
 | 2 | **Recria Calendário com IA**: passo a passo para instruir a IA a criar o calendário de conteúdos mensais (questionário + prompts de feed e de stories). O questionário não aparece na capa: é parte do valor | R$8 | Quem já sabe montar manualmente e quer automatizar | **v2 pronto** (31 páginas) |
-| 3 | **Recria MIV**: guia passo a passo para desenvolver o seu manual de identidade visual (MIV): logo, cores, tipografia e muito mais | R$15 | Definir tom de voz e identidade **antes** das peças | A fazer |
-| 4 | **Recria Post**: aprenda a criar posts estáticos e carrosséis usando ferramentas gratuitas e IA (o guia não depende de a pessoa ter o MIV) | R$10 | Criar as peças | A fazer |
-| 5 | **Recria Reels**: aprenda a criar e editar os seus Reels com ferramentas gratuitas e IA | R$10 a R$12 | Criar os vídeos | A fazer |
+| 3 | **Recria MIV**: guia passo a passo para desenvolver o seu manual de identidade visual (MIV): logo, cores, tipografia e muito mais | R$15 | Definir tom de voz e identidade **antes** das peças | **v1 pronto** (34 páginas) |
+| 4 | **Recria Post**: aprenda a criar posts estáticos e carrosséis usando ferramentas gratuitas e IA (o guia não depende de a pessoa ter o MIV) | R$10 | Criar as peças | **v1 pronto** (24 páginas) |
+| 5 | **Recria Reels**: aprenda a criar e editar os seus Reels com ferramentas gratuitas e IA | R$10 a R$12 | Criar os vídeos | **v1 pronto** (21 páginas) |
 | 6 | Negócio local no digital (produto digital para negócio físico) | R$10 | Início da trilha de produto | A fazer |
 | 7 | Esteira de produtos | R$12 | Organizar a oferta | A fazer |
 | 8 | 100+ ideias de low ticket (pequeno, médio e grande negócio, digital e e-commerce) | R$15 | O primeiro produto de entrada | A fazer |
 | 9 | Como criar um produto de médio ticket | R$17 | Subir o degrau | A fazer |
 | 10 | Como criar um produto high ticket e o momento certo | R$22 | Subir de novo | A fazer |
 | 11 | Manual de estrutura de negócio (marketing, comercial, RH, financeiro, o que terceirizar) | R$27 | Para quem quer montar a casa | A fazer |
-| 12 | Prospecção ativa sem anúncio (listas com IA, mensagens por WhatsApp e Direct, sem API; com parte de LGPD e limites) | R$67 | O mais caro: gera cliente na hora | A fazer |
+| 12 | **E-book para direcionar o time comercial** (follow-up, rotina e acompanhamento; depois, um curso focado em time comercial) | R$27 a R$47 (a definir) | Estruturar o comercial | A fazer |
+| 13 | Prospecção ativa sem anúncio (listas com IA, mensagens por WhatsApp e Direct, sem API; com parte de LGPD e limites) | R$67 | O mais caro: gera cliente na hora | A fazer |
 
 ### Mapa de upsells (a oferta no fim de cada produto)
 
@@ -207,3 +208,11 @@ Regra de ouro das pontes de sexta: só indicar produto que **já esteja no ar**.
 2. Os temas de quarta são **sugestões minhas**. Me mande os temas reais dos carrosséis de outubro e eu reescrevo as chamadas e as atividades.
 3. As datas de lançamento dos e-books (16, 23 e 30/10) são viáveis? Senão, deslizo as pontes de sexta.
 4. Você quer o mesmo formato da Camila (docx e pdf)? Gero depois que você aprovar o conteúdo.
+
+
+### Rodapé de upsell padrão dos novos e-books (Post e Reels)
+
+1. Cartões lado a lado: Recria MIV, Recria Calendário e o guia que a pessoa ainda não tem (Post ou Reels).
+2. Recria Ads: curso mais aprofundado, com exercícios, para criar conteúdos **sem cara de anúncio**, de acordo com a atualidade.
+3. Grupo Recriadores (gratuito).
+4. Segunda página: Comunidade Recria Business (cursos de negócio, marketing, comercial, novidades do segmento, posicionamento), Consultoria (personalizado), Mentoria (acompanhamento passo a passo) e Serviços da Recria (estruturação de negócio, tráfego pago, social media e pacote inicial).

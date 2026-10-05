@@ -7,16 +7,17 @@ d = pathlib.Path(__file__).parent / sys.argv[1]
 out = d / sys.argv[2]
 html = (d / "ebook.html").read_text(encoding="utf-8")
 def pop(cls):
-    m = re.search(r'<section class="%s">.*?</section>' % cls, html, re.S)
-    return m.group(0) if m else None
+    ms = re.findall(r'<section class="%s">.*?</section>' % cls, html, re.S)
+    return "\n".join(ms) if ms else None
 cover, upsell = pop("cover"), pop("upsell")
 body = html
-for blk in (cover, upsell):
-    if blk: body = body.replace(blk, "")
+for cls in ("cover", "upsell"):
+    for blk in re.findall(r'<section class="%s">.*?</section>' % cls, html, re.S):
+        body = body.replace(blk, "")
 head = html.split("<body>")[0]
 full = ('<style>@page{margin:0;background:#0b0b0b;@bottom-center{content:none}}'
         'html,body{background:#0b0b0b}'
-        'section{margin:0!important;height:209.5mm!important;overflow:hidden;break-after:avoid!important;break-before:avoid!important}'
+        'section{margin:0!important;height:209.5mm!important;overflow:hidden;break-after:page!important;break-before:avoid!important}section:last-child{break-after:auto!important}'
         '.upsell{padding:12mm 14mm!important}.cover{padding:16mm 14mm!important}</style>')
 js = pathlib.Path(__file__).parent / "_base" / "pdf.js"
 pdfs = []

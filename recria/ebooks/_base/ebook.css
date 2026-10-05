@@ -72,3 +72,33 @@ tr{break-inside:avoid}
 .chamada h3{color:var(--ouro2);margin:0 0 2mm}
 .chamada p{color:#e9e4da;margin:0 0 3mm}
 .chamada .btn{display:inline-block;background:var(--ouro);color:var(--preto);font-weight:600;padding:2.5mm 5mm;border-radius:1.5mm;text-decoration:none}
+
+/* ===== componentes extras (MIV, Post, Reels) ===== */
+.swatches{display:flex;gap:2mm;margin:3mm 0 4mm;break-inside:avoid}
+.sw{flex:1;min-height:15mm;border-radius:1.2mm;padding:1.5mm 2mm;font-size:7pt;line-height:1.25;display:flex;flex-direction:column;justify-content:flex-end;border:.2mm solid rgba(0,0,0,.12)}
+.cols2{display:grid;grid-template-columns:1fr 1fr;gap:4mm;margin:3mm 0;break-inside:avoid}
+.cols2 .b{background:#fff;border:.3mm solid #d9c394;padding:3mm 4mm;font-size:9.4pt}
+.cols2 .b h3{font-size:10.5pt;margin:0 0 1.5mm}
+.sim{border-left:1.4mm solid #4f8a4f}.nao{border-left:1.4mm solid #b5523b}
+.wire{display:grid;gap:1.5mm;margin:2mm 0}
+.wf{background:#fff;border:.3mm solid #b9a671;position:relative;font-size:6.5pt;color:#6b5f3e;text-align:center}
+.mini{font-size:8.4pt}
+.rodape{font-size:8.5pt;color:#6b5f3e}
+
+.mslides{display:flex;gap:1.2mm;align-items:center}
+.ms{width:11mm;height:14mm;border:.3mm solid #b9a671;background:#fff;font-size:5.4pt;display:flex;align-items:center;justify-content:center;text-align:center;line-height:1.1;padding:.4mm;color:#6b5f3e}
+.ms.cap{background:#0b0b0b;color:#E4C988;border-color:#0b0b0b;break-before:auto}
+.ms.cta{background:#C9A24E;color:#0b0b0b;border-color:#C9A24E;break-before:auto}
+.frame{width:34mm;height:42.5mm;border:.4mm solid #2b2415;position:relative;margin:1mm 0;background:#fff;font-size:6pt;color:#6b5f3e}
+.frame .safe{position:absolute;inset:4mm 4.2mm;border:.3mm dashed #b5523b}
+.frame .lbl{position:absolute;bottom:.8mm;left:0;right:0;text-align:center}
+.tl{display:flex;margin:3mm 0 4mm;border:.3mm solid #b9a671;break-inside:avoid}
+.tl div{padding:2mm 1mm;font-size:7.4pt;text-align:center;line-height:1.2;color:#2b2415;background:#fff;border-right:.3mm solid #b9a671}
+.tl div:last-child{border-right:0}
+.tl .g{background:#0b0b0b;color:#E4C988}.tl .c{background:#C9A24E}
+.tl small{display:block;font-size:6.4pt;opacity:.8}
+.flow{break-before:auto}
+.flow>.kick:first-child{margin-top:7mm}
+h1{break-after:avoid}
+.prompt,.alerta,.dica,.cols2,.chamada{break-inside:avoid}
+.kick{break-after:avoid}
