@@ -16,19 +16,21 @@
 
 "O síndico que mais cresce não é o que trabalha mais. É aquele que sabe gerir melhor suas demandas e o seu tempo."
 
-"Se esse é o seu caso, arrasta para o lado 👉"
+"E agora, essa gestão ficou mais fácil >>"
 
 **Slide 2 — Dor:**
 
-"Prestação de contas, assembleia, conselho, administradora, cada um puxando pra um lado, e tudo dependendo da sua memória e das suas planilhas."
+"Prestação de contas, assembleia, conselho, administradora, diversas responsabilidades, e tudo dependendo da sua memória e das suas planilhas."
 
 **Slide 3 — Dor (continuação):**
 
-"E quando alguma coisa passa batido, quem segura a cobrança é você."
+"E quando algum ponto passa despercebido, quem precisa lidar com a cobrança é você."
 
 **Slide 4 — Solução:**
 
 "Por isso estamos desenvolvendo o Portal do Síndico da Eleva. Feito para facilitar a sua gestão do início ao fim."
+
+"E você terá acesso cortesia para experimentar..."
 
 **Slide 5 — Funcionalidades:**
 
@@ -41,11 +43,13 @@
 
 **Slide 6 — Lançamento:**
 
-"Em breve, com período gratuito para você testar."
+"Quer ser um dos primeiros a receber o acesso gratuito para você testar na sua gestão?"
 
 **Slide 7 — CTA:**
 
-"Comenta 'PORTAL' que avisamos você assim que lançar, ou acesse pelo link da bio."
+"Comente: PORTAL
+
+Vamos te avisar e passar o acesso no seu direct."
 
 ---
 
@@ -53,11 +57,11 @@
 
 O síndico que mais cresce não é o que trabalha mais, é aquele que sabe gerir melhor suas demandas e o seu tempo.
 
-Prestação de contas, assembleia, conselho, administradora, cada um puxando pra um lado, tudo dependendo da sua memória. E quando algo passa batido, quem segura a cobrança é você.
+Prestação de contas, assembleia, conselho, administradora, diversas responsabilidades, tudo dependendo da sua memória. E quando algum ponto passa despercebido, quem precisa lidar com a cobrança é você.
 
-Por isso estamos desenvolvendo o Portal do Síndico da Eleva, feito para facilitar sua gestão do início ao fim, em breve, com período gratuito para testar.
+Por isso estamos desenvolvendo o Portal do Síndico da Eleva, feito para facilitar sua gestão do início ao fim, com acesso cortesia para você experimentar.
 
-Comenta "PORTAL" 👇 ou acesse pelo link da bio.
+Quer ser um dos primeiros a receber esse acesso gratuito? Comente "PORTAL" 👇 que vamos te avisar e passar o acesso no seu direct.
 
 **Automação de direct (gatilho: comentário "PORTAL"):** avisar que a pessoa será notificada assim que o portal for lançado, com acesso ao período gratuito de teste.
 
