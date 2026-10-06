@@ -238,9 +238,13 @@ Na próxima aula, eu vou te mostrar um caso real de uma marca gigante que fez ex
 ---
 
 ## Aula 1.4 · Burger King × Dragon Ball: a memória afetiva que vende
-**Formato:** 🖥️ Voz + Canva · **Duração:** cerca de 9 min (máximo 10)
+**Formato:** 🖥️ Voz + Canva · **Duração:** cerca de 9 a 10 min (máximo 10)
 
 **Para montar no Canva:** prints das notícias e de posts públicos da campanha (com crédito da fonte na tela). Não usar o logo do Burger King como destaque.
+
+**Vídeos desta aula** (pasta "slides/videos-aula-1.4"): no Canva, coloque cada vídeo por cima da capa com o ▶ que está no slide.
+- **Vídeo 1 · anúncio oficial do Burger King** (13 segundos) · página 3 · deixe tocar com som.
+- **Vídeo 2 · a experiência completa** (34 segundos) · página 5 · deixe rodar sem som enquanto você narra.
 
 **▶ PÁGINA 1 do slide** · Burger King × Dragon Ball · a memória afetiva que vende
 
@@ -252,7 +256,15 @@ Em setembro de 2026, o Burger King lançou no Brasil uma coleção de Dragon Bal
 
 Foram seis bonecos colecionáveis: o Goku e o Vegeta, cada um em duas versões, o Piccolo e o Bills. Eles vinham no combo King Jr., o combo infantil, e num combo temático. E, pela lei brasileira, também podiam ser comprados separadamente, de acordo com o estoque de cada loja.
 
-**▶ PÁGINA 3 do slide** · Para quem é, de verdade?
+**▶ PÁGINA 3 do slide** · Vídeo 1 · o anúncio oficial · a coleção completa
+
+Olha o anúncio que o Burger King fez para a coleção.
+
+**[▶ Soltar o vídeo 1, com som, 13 segundos]**
+
+Repara: o Goku, o Vegeta, os dois na versão de cabelo azul, o Super Saiyajin Blue, o Piccolo e o Bills. Quem assistiu sabe o nome de cada um sem precisar ler.
+
+**▶ PÁGINA 4 do slide** · Para quem é, de verdade?
 
 Agora eu te pergunto: para quem é essa campanha?
 
@@ -260,7 +272,17 @@ No papel, é um combo infantil. Mas quem você acha que correu atrás desses bon
 
 O adulto de 30 e poucos anos. Aquele que cresceu assistindo Dragon Ball na TV, depois da escola. Que brincava de soltar Kamehameha no recreio.
 
-**▶ PÁGINA 4 do slide** · Não é hambúrguer. É a volta à infância.
+**▶ PÁGINA 5 do slide** · Vídeo 2 · a experiência completa · por que mexe com quem tem 30+
+
+E agora olha esse vídeo, mostrando a experiência completa.
+
+**[▶ Soltar o vídeo 2, sem som, e narrar por cima]**
+
+Olha os detalhes. A caixa com o Goku e o Vegeta. Os bonecos saindo um por um. As bolinhas do lanche, que lembram as esferas do dragão. E, no final, a coroa com o cabelo do Goku, primeiro o preto e depois o azul.
+
+Não é só um brinde. É a pessoa vestindo o personagem que ela assistia na TV depois da escola. Cada detalhe foi pensado para levar quem tem 30 e poucos anos de volta para aquela época.
+
+**▶ PÁGINA 6 do slide** · Não é hambúrguer. É a volta à infância.
 
 E aqui está a grande sacada: o Burger King não está vendendo hambúrguer. Está vendendo a volta à infância.
 
@@ -268,7 +290,7 @@ Isso é memória afetiva. Quando algo nos lembra de um momento feliz do passado,
 
 A pessoa não pensa "preciso de um hambúrguer". Ela pensa "eu PRECISO do Goku".
 
-**▶ PÁGINA 5 do slide** · 6 bonecos = mais vendas · leva os 6 de uma vez (ticket maior) × volta várias vezes (recorrência)
+**▶ PÁGINA 7 do slide** · 6 bonecos = mais vendas · leva os 6 de uma vez (ticket maior) × volta várias vezes (recorrência)
 
 E repara no segundo detalhe: são seis bonecos. Não é um.
 
@@ -278,19 +300,19 @@ Mas olha que interessante: nos dois casos, o Burger King ganha. Quem leva os sei
 
 Colecionável é uma estratégia antiga e continua funcionando muito bem. Ninguém quer ficar com a coleção incompleta.
 
-**▶ PÁGINA 6 do slide** · O público faz o marketing
+**▶ PÁGINA 8 do slide** · O público faz o marketing
 
 E o terceiro detalhe: quem compra posta. Foto da coleção, vídeo abrindo o boneco, stories "consegui o Vegeta!".
 
 O público faz o marketing de graça. E cada post desses é prova social, lembra da aula 1.2?
 
-**▶ PÁGINA 7 do slide** · Memória afetiva não é só infância
+**▶ PÁGINA 9 do slide** · Memória afetiva não é só infância
 
 "Tá, Amanda, mas e se o meu cliente não liga para desenho animado?"
 
 Memória afetiva não é só infância. É qualquer lembrança que carrega uma emoção boa. E ela entra pelos sentidos e pelos momentos marcantes da vida. Vou te mostrar os dois caminhos.
 
-**▶ PÁGINA 8 do slide** · Pelos 5 sentidos · paladar · olfato · tato · audição · visão
+**▶ PÁGINA 10 do slide** · Pelos 5 sentidos · paladar · olfato · tato · audição · visão
 
 O primeiro caminho: os cinco sentidos.
 
@@ -306,7 +328,7 @@ E a visão: uma estética de outra época, como as fotos de câmera antiga e as 
 
 E, no Instagram, você também ativa os sentidos: com um vídeo bem de perto da calda escorrendo, com o som do crocante, ou com uma legenda que descreve o cheiro.
 
-**▶ PÁGINA 9 do slide** · Pelos momentos marcantes · a primeira casa · o casamento e a formatura · aquela viagem · os rituais de família · a adolescência · as datas do ano
+**▶ PÁGINA 11 do slide** · Pelos momentos marcantes · a primeira casa · o casamento e a formatura · aquela viagem · os rituais de família · a adolescência · as datas do ano
 
 O segundo caminho: os momentos marcantes da vida, de qualquer idade.
 
@@ -322,17 +344,15 @@ A adolescência: as músicas, as roupas, as séries. Uma loja de roupas pode cri
 
 E as datas do ano: a festa junina, o Natal, a volta às aulas. Toda data comercial tem uma memória afetiva junto.
 
-**▶ PÁGINA 10 do slide** · Como adaptar ao seu negócio
+**▶ PÁGINA 12 do slide** · Como adaptar ao seu negócio
 
 "Tá, Amanda, mas eu não sou o Burger King. Eu não tenho parceria com a Toei."
 
 E você não precisa. A estratégia é a mesma em qualquer tamanho. A pergunta é: qual memória boa o seu cliente tem que combina com o que você vende?
 
-Uma doceria pode trazer de volta o doce que vendia na porta da escola. Um restaurante pode ter o "prato da casa da vó". Uma consultoria pode usar referências de filmes ou séries que o público ama para explicar conceitos.
-
 E dá para usar o colecionável também: um cartão fidelidade com carimbos temáticos, uma série de embalagens diferentes, uma coleção limitada.
 
-**▶ PÁGINA 11 do slide** · Atividade
+**▶ PÁGINA 13 do slide** · Atividade
 
 A sua atividade: liste 3 memórias afetivas do seu público. Pode ser da infância, de um sentido, como um cheiro ou um sabor, ou de um momento marcante da vida. E, para cada uma, escreva uma ideia de conteúdo ou de ação para o seu negócio.
 
