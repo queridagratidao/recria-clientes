@@ -1,7 +1,7 @@
 # Recria Ads: conteúdos e anúncios sem cara de anúncio
 
 **Plataforma:** Hotmart · **Preço:** R$ 97 (até 12x) · **Garantia:** 7 dias
-**Duração:** 5 semanas, seguindo 1 aula por dia (33 aulas; os últimos módulos são liberados no dia 28).
+**Duração:** 5 semanas, seguindo 1 aula por dia (32 aulas; os últimos módulos são liberados no dia 28).
 **Promessa:** aprenda a vender todo dia sem parecer aquele vendedor chato e saia com a estratégia, o calendário de conteúdo e o de anúncios prontos para o seu negócio.
 
 Formatos: 🎥 câmera + slide · 🖥️ tela + voz · 🔎 análise de caso · 📎 material
@@ -21,13 +21,13 @@ Cada módulo termina com uma tarefa que preenche uma parte do Plano de 30 dias.
 ## Liberação (drip na Hotmart, contada a partir da compra)
 | Dia | Libera | Gravado até (turma de 14/10) |
 |---|---|---|
-| 0 | Módulos 0, 1, 2 + bônus (12 aulas) | 13/10 |
+| 0 | Módulos 0, 1, 2 + bônus (11 aulas) | 13/10 |
 | 7 | Módulo 3 | 20/10 |
 | 14 | Módulo 4 | 27/10 |
 | 21 | Módulo 5 | 03/11 |
 | 28 | Módulos 6 e 7 | 10/11 |
 
-33 aulas de no máximo 10 min cada (cerca de 3h30 no total) + materiais. Regra: se uma aula passar de 10 minutos, ela vira duas.
+32 aulas de no máximo 10 min cada (cerca de 3h30 no total) + materiais. Regra: se uma aula passar de 10 minutos, ela vira duas.
 
 ## Módulo 0: Comece aqui
 1. 🎥 Boas-vindas: quem sou eu e o que é o Recria Ads
@@ -35,11 +35,10 @@ Cada módulo termina com uma tarefa que preenche uma parte do Plano de 30 dias.
 3. 🖥️ O seu cenário (📎 Ficha "Meu cenário") + 🎁 Bônus vitória rápida: prompt "Meu mês de conteúdo" (usa a Ficha Meu cenário e gera 30 ideias de conteúdo para o negócio)
 
 ## Módulo 1: A mente de quem compra
-- 1.1 🎥 Como o cérebro decide (e por que a emoção vem antes)
-- 1.2.1 🖥️ Gatilhos sem manipulação, parte 1 (pitada de Cialdini): reciprocidade, compromisso, prova social e afeição
-- 1.2.2 🖥️ Gatilhos sem manipulação, parte 2: autoridade, escassez, unidade + gatilho não é truque (📎 Mapa dos 7 princípios)
-- 1.3 🎥 Desejo antes da oferta: oferta direta × indireta
-- 1.4 🔎 Burger King × Dragon Ball: a memória afetiva que vende
+1. 🎥 Como o cérebro decide (e por que a emoção vem antes)
+2. 🎥 Gatilhos sem manipulação (pitada de Cialdini)
+3. 🎥 Desejo antes da oferta: oferta direta × indireta
+4. 🔎 Burger King × Dragon Ball: a memória afetiva que vende
 
 ## Módulo 2: Storytelling
 1. 🎥 Por que as histórias prendem desde as cavernas

@@ -93,12 +93,12 @@ Anota no seu "Meu Recria Ads". Na próxima aula, nós vamos falar de gatilhos. E
 
 ---
 
-## Aula 1.2.1 · Gatilhos sem manipulação (parte 1)
-**Formato:** 🖥️ Voz + Canva · **Duração:** cerca de 6 a 7 min (máximo 10)
+## Aula 1.2 · Gatilhos sem manipulação
+**Formato:** 🖥️ Voz + Canva · **Duração:** cerca de 6 min (máximo 10)
 
-**Para montar no Canva:** use o PDF "Slides Aula 1.2.1". Cada princípio tem o print real correspondente da Recria.
+**Para montar no Canva:** uma página por princípio, com o print real correspondente da Recria (comentário com palavra-chave, mensagem da automação, card do Case CRM etc.).
 
-**▶ PÁGINA 1 do slide** · Gatilhos sem manipulação · parte 1
+**▶ PÁGINA 1 do slide** · Gatilhos sem manipulação · Robert Cialdini · As Armas da Persuasão
 
 Você já deve ter ouvido falar em gatilhos mentais. E talvez tenha até um pé atrás com isso, porque parece coisa de manipulação.
 
@@ -108,9 +108,7 @@ Quem organizou isso melhor foi o psicólogo Robert Cialdini (RÓ-bert tchal-DÍ-
 
 E eu vou te mostrar cada um deles funcionando no nosso próprio funil, aqui da Recria. Porque, se você está aqui, provavelmente passou por ele.
 
-Nesta primeira parte, vamos ver os 4 primeiros princípios. E, na próxima aula, os outros 3.
-
-**▶ PÁGINA 2 do slide** · 1. Reciprocidade
+**▶ PÁGINA 2 do slide** · 1. Reciprocidade · print: o e-book de presente
 
 O primeiro é a reciprocidade. Quando alguém nos dá algo, sentimos vontade de retribuir.
 
@@ -118,44 +116,25 @@ Repara: antes de te oferecer qualquer coisa, nós te demos um presente, o e-book
 
 No seu negócio pode ser uma dica gratuita, uma amostra, um conteúdo que resolve um problema pequeno.
 
-**▶ PÁGINA 3 do slide** · 2. Compromisso e coerência
+**▶ PÁGINA 3 do slide** · 2. Compromisso e coerência · print: comentário com a palavra-chave
 
 O segundo é compromisso e coerência. Quando a pessoa dá um pequeno "sim", ela tende a continuar dizendo "sim", para ser coerente consigo mesma.
 
 Comentar uma palavra-chave é um pequeno "sim". Depois vem outro: "Quer receber?", "Eu quero". Cada passo pequeno torna o próximo mais natural.
 
-**▶ PÁGINA 4 do slide** · 3. Prova social
+**▶ PÁGINA 4 do slide** · 3. Prova social · print: capa do Case CRM
 
 O terceiro é a prova social. Quando estamos em dúvida, olhamos o que as outras pessoas estão fazendo.
 
 Aqui, o Case CRM: um negócio que faturou 1,2 milhão de reais sem tráfego pago. Depoimentos, resultados de clientes, fila na porta, comentários: tudo isso é prova social.
 
-**▶ PÁGINA 5 do slide** · 4. Afeição
+**▶ PÁGINA 5 do slide** · 4. Afeição · print: foto de bastidor
 
 O quarto é a afeição. Nós compramos de quem gostamos. E gostamos de quem se parece conosco, de quem é gentil, de quem mostra quem é.
 
 É por isso que bastidor funciona. É por isso que mostrar o rosto funciona. As pessoas não se conectam com logotipos. Elas se conectam com pessoas.
 
-**▶ PÁGINA 6 do slide** · Na parte 2
-
-Esses foram os 4 primeiros: reciprocidade, compromisso, prova social e afeição.
-
-Antes de ir para a próxima aula, pensa em qual desses você já usa no seu negócio sem perceber. Anota no seu "Meu Recria Ads".
-
-Na parte 2, você vai conhecer os outros 3 princípios, e o mais importante: a linha que você nunca deve cruzar.
-
----
-
-## Aula 1.2.2 · Gatilhos sem manipulação (parte 2)
-**Formato:** 🖥️ Voz + Canva · **Duração:** cerca de 6 a 7 min (máximo 10)
-
-**Para montar no Canva:** use o PDF "Slides Aula 1.2.2".
-
-**▶ PÁGINA 1 do slide** · Gatilhos sem manipulação · parte 2
-
-Na aula anterior, você viu os 4 primeiros princípios de Cialdini (tchal-DÍ-ni): reciprocidade, compromisso, prova social e afeição. Agora vamos aos outros 3.
-
-**▶ PÁGINA 2 do slide** · 5. Autoridade
+**▶ PÁGINA 6 do slide** · 5. Autoridade · print: análise da Toyota
 
 O quinto é a autoridade. Confiamos em quem demonstra conhecimento.
 
@@ -163,7 +142,7 @@ E autoridade não é dizer "eu sou especialista". É mostrar. Quando nós analis
 
 No seu negócio: explica o porquê das coisas. Por que você usa aquele ingrediente, por que aquele procedimento, por que aquela técnica.
 
-**▶ PÁGINA 3 do slide** · 6. Escassez
+**▶ PÁGINA 7 do slide** · 6. Escassez · print: "a condição especial pode mudar a qualquer momento"
 
 O sexto é a escassez. Damos mais valor ao que é limitado.
 
@@ -171,19 +150,19 @@ Mas presta atenção: escassez só vale se for verdadeira. Vagas limitadas, esto
 
 Escassez falsa, tipo "últimas unidades" quando não é verdade, destrói a confiança. E ainda pode ser ilegal, porque fere o Código de Defesa do Consumidor.
 
-**▶ PÁGINA 4 do slide** · 7. Unidade
+**▶ PÁGINA 8 do slide** · 7. Unidade · "nós, donos de pequenos negócios"
 
 E o sétimo é a unidade. Confiamos em quem faz parte do nosso grupo.
 
 Quando eu falo "nós, donos de negócio", eu estou dizendo: eu sou como você, eu entendo o que você vive. Isso cria pertencimento.
 
-**▶ PÁGINA 5 do slide** · Gatilho não é truque
+**▶ PÁGINA 9 do slide** · Gatilho não é truque
 
 Repara que nenhum desses princípios é mentira. É só organizar a comunicação do jeito que o cérebro já funciona.
 
 A linha que você nunca cruza é inventar: prova falsa, escassez falsa, depoimento inventado. Isso não é marketing, é enganação.
 
-**▶ PÁGINA 6 do slide** · Atividade
+**▶ PÁGINA 10 do slide** · Atividade
 
 A sua atividade: escolhe 3 desses 7 princípios e escreve como cada um pode aparecer no seu negócio esta semana. Um exemplo concreto para cada um.
 

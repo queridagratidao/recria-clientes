@@ -1,6 +1,6 @@
 # Recria Ads · Roteiros completos (Módulos 0, 1 e 2)
 
-Liberados no dia da compra · gravar até 13/10 · 12 aulas
+Liberados no dia da compra · gravar até 13/10 · 11 aulas
 
 ## Como usar com os slides
 Cada aula tem o seu PDF de slides (pasta "slides"). No roteiro, toda vez que aparecer **▶ PÁGINA N do slide**, passe para a página N. O número de marcações de cada aula é igual ao número de páginas do PDF daquela aula.
@@ -22,7 +22,7 @@ Cada aula tem o seu PDF de slides (pasta "slides"). No roteiro, toda vez que apa
 
 ## Ordem de gravação sugerida (grave por formato, não por aula)
 1. **Dia 1 (câmera):** 0.1 🎥 · 0.2 🎙️ · 1.1 🎥 · 1.3 🎙️ · 2.1 🎥 · 2.3 🎙️
-2. **Dia 2 (tela):** 0.3 💻 · 1.2.1 🖥️ · 1.2.2 🖥️ · 1.4 🖥️ · 2.2 🖥️ · 2.4 🖥️
+2. **Dia 2 (tela):** 0.3 💻 · 1.2 🖥️ · 1.4 🖥️ · 2.2 🖥️ · 2.4 🖥️
 
 **Regra: nenhuma aula passa de 10 minutos.** Se uma aula crescer na gravação, ela vira duas.
 
@@ -32,8 +32,7 @@ Cada aula tem o seu PDF de slides (pasta "slides"). No roteiro, toda vez que apa
 | 0.2 Comece por aqui | 🎙️ | 5 min |
 | 0.3 O seu cenário + 30 ideias | 💻 | 8 min |
 | 1.1 Como o cérebro decide | 🎥 | 6 min |
-| 1.2.1 Gatilhos sem manipulação (parte 1) | 🖥️ | 7 min |
-| 1.2.2 Gatilhos sem manipulação (parte 2) | 🖥️ | 7 min |
+| 1.2 Gatilhos sem manipulação | 🖥️ | 6 min |
 | 1.3 Desejo antes da oferta | 🎙️ | 6 min |
 | 1.4 Burger King × Dragon Ball | 🖥️ | 5 min |
 | 2.1 Por que as histórias prendem | 🎥 | 6 min |
