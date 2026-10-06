@@ -34,7 +34,7 @@ Cada aula tem o seu PDF de slides (pasta "slides"). No roteiro, toda vez que apa
 | 1.1 Como o cérebro decide | 🎥 | 6 min |
 | 1.2 Gatilhos sem manipulação | 🖥️ | 6 min |
 | 1.3 Desejo antes da oferta | 🎙️ | 6 min |
-| 1.4 Burger King × Dragon Ball | 🖥️ | 5 min |
+| 1.4 Burger King × Dragon Ball | 🖥️ | 9 min |
 | 2.1 Por que as histórias prendem | 🎥 | 6 min |
 | 2.2 O cliente é o herói + a história sem final | 🖥️ | 7 min |
 | 2.3 As histórias que todo negócio tem | 🎙️ | 6 min |

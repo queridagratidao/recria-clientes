@@ -238,7 +238,7 @@ Na próxima aula, eu vou te mostrar um caso real de uma marca gigante que fez ex
 ---
 
 ## Aula 1.4 · Burger King × Dragon Ball: a memória afetiva que vende
-**Formato:** 🖥️ Voz + Canva · **Duração:** cerca de 5 min (máximo 10)
+**Formato:** 🖥️ Voz + Canva · **Duração:** cerca de 9 min (máximo 10)
 
 **Para montar no Canva:** prints das notícias e de posts públicos da campanha (com crédito da fonte na tela). Não usar o logo do Burger King como destaque.
 
@@ -250,7 +250,7 @@ Agora vamos para um caso real.
 
 Em setembro de 2026, o Burger King lançou no Brasil uma coleção de Dragon Ball Super, em parceria com a Toei Animation (TÔ-ei), o estúdio da animação.
 
-Foram seis bonecos colecionáveis: Goku, Vegeta, as versões Super Saiyajin Deus dos dois, o Piccolo e o Bills. Eles vinham no combo King Jr., o combo infantil, e num combo temático. E, pela lei brasileira, também podiam ser comprados separadamente.
+Foram seis bonecos colecionáveis: o Goku e o Vegeta, cada um em duas versões, o Piccolo e o Bills. Eles vinham no combo King Jr., o combo infantil, e num combo temático. E, pela lei brasileira, também podiam ser comprados separadamente, de acordo com o estoque de cada loja.
 
 **▶ PÁGINA 3 do slide** · Para quem é, de verdade?
 
@@ -268,11 +268,15 @@ Isso é memória afetiva. Quando algo nos lembra de um momento feliz do passado,
 
 A pessoa não pensa "preciso de um hambúrguer". Ela pensa "eu PRECISO do Goku".
 
-**▶ PÁGINA 5 do slide** · 6 bonecos = 6 visitas
+**▶ PÁGINA 5 do slide** · 6 bonecos = mais vendas · leva os 6 de uma vez (ticket maior) × volta várias vezes (recorrência)
 
 E repara no segundo detalhe: são seis bonecos. Não é um.
 
-Quem quer a coleção completa volta seis vezes. Isso transforma uma compra em recorrência. Colecionável é uma estratégia antiga, e continua funcionando muito bem.
+E aqui tem um ponto importante: quem quiser pode levar os seis de uma vez, fazendo seis pedidos ou comprando os bonecos separados no balcão. Não precisa voltar seis vezes.
+
+Mas olha que interessante: nos dois casos, o Burger King ganha. Quem leva os seis de uma vez aumenta o ticket, ou seja, gasta muito mais numa única compra do que gastaria num lanche. E quem vai comprando aos poucos volta várias vezes, e isso é recorrência. E, se o boneco que a pessoa quer acabou naquela loja, ela volta outro dia ou vai atrás em outra unidade.
+
+Colecionável é uma estratégia antiga e continua funcionando muito bem. Ninguém quer ficar com a coleção incompleta.
 
 **▶ PÁGINA 6 do slide** · O público faz o marketing
 
@@ -280,19 +284,57 @@ E o terceiro detalhe: quem compra posta. Foto da coleção, vídeo abrindo o bon
 
 O público faz o marketing de graça. E cada post desses é prova social, lembra da aula 1.2?
 
-**▶ PÁGINA 7 do slide** · Como adaptar ao seu negócio
+**▶ PÁGINA 7 do slide** · Memória afetiva não é só infância
+
+"Tá, Amanda, mas e se o meu cliente não liga para desenho animado?"
+
+Memória afetiva não é só infância. É qualquer lembrança que carrega uma emoção boa. E ela entra pelos sentidos e pelos momentos marcantes da vida. Vou te mostrar os dois caminhos.
+
+**▶ PÁGINA 8 do slide** · Pelos 5 sentidos · paladar · olfato · tato · audição · visão
+
+O primeiro caminho: os cinco sentidos.
+
+O paladar: o bolo que a mãe fazia, ou aquele prato que você comeu numa viagem e nunca mais esqueceu. Um restaurante pode contar a história do prato que nasceu numa viagem. Uma doceria pode ter "o bolo de domingo".
+
+O olfato: o cheiro é um dos atalhos mais rápidos para a memória. As lojas de perfumaria, como O Boticário, perfumam a entrada, e quem passa na porta sente o cheiro da marca. A padaria que tira o pão do forno no fim da tarde faz a mesma coisa. Um salão, uma clínica, uma pousada ou uma loja de roupas podem ter um aroma próprio, que o cliente reconhece de olhos fechados.
+
+O tato: a textura do tecido que o cliente toca na loja, a toalha macia do hotel, a embalagem caprichada, com papel de seda e laço. O toque faz a pessoa lembrar da experiência.
+
+A audição: a música que tocava na formatura, no casamento, nas festas da adolescência. Uma playlist da loja ou um som no vídeo podem levar o cliente de volta para aquele momento.
+
+E a visão: uma estética de outra época, como as fotos de câmera antiga e as cores dos anos 90 ou 2000.
+
+E, no Instagram, você também ativa os sentidos: com um vídeo bem de perto da calda escorrendo, com o som do crocante, ou com uma legenda que descreve o cheiro.
+
+**▶ PÁGINA 9 do slide** · Pelos momentos marcantes · a primeira casa · o casamento e a formatura · aquela viagem · os rituais de família · a adolescência · as datas do ano
+
+O segundo caminho: os momentos marcantes da vida, de qualquer idade.
+
+A primeira casa: uma imobiliária ou uma loja de móveis pode falar do cheiro de casa nova e da primeira noite no próprio canto.
+
+O casamento e a formatura: um fotógrafo, um buffet ou um salão de beleza trabalham com essa memória o tempo todo.
+
+Aquela viagem: uma agência de turismo, um restaurante ou uma loja de decoração podem trazer de volta o lugar que o cliente nunca esqueceu.
+
+Os rituais de família: o café da tarde na casa da vó, o almoço de domingo, a ceia de Natal.
+
+A adolescência: as músicas, as roupas, as séries. Uma loja de roupas pode criar uma coleção com a estética dos anos 2000.
+
+E as datas do ano: a festa junina, o Natal, a volta às aulas. Toda data comercial tem uma memória afetiva junto.
+
+**▶ PÁGINA 10 do slide** · Como adaptar ao seu negócio
 
 "Tá, Amanda, mas eu não sou o Burger King. Eu não tenho parceria com a Toei."
 
-E você não precisa. A estratégia é a mesma em qualquer tamanho. A pergunta é: qual era o desenho, a música, o doce, a novela ou a brincadeira da infância do seu cliente?
+E você não precisa. A estratégia é a mesma em qualquer tamanho. A pergunta é: qual memória boa o seu cliente tem que combina com o que você vende?
 
-Uma loja de roupas pode criar uma coleção com a estética dos anos 2000. Uma doceria pode trazer de volta o doce que vendia na porta da escola. Um restaurante pode ter o "prato da casa da vó". Uma consultoria pode usar referências de filmes ou séries que o público ama para explicar conceitos.
+Uma doceria pode trazer de volta o doce que vendia na porta da escola. Um restaurante pode ter o "prato da casa da vó". Uma consultoria pode usar referências de filmes ou séries que o público ama para explicar conceitos.
 
 E dá para usar o colecionável também: um cartão fidelidade com carimbos temáticos, uma série de embalagens diferentes, uma coleção limitada.
 
-**▶ PÁGINA 8 do slide** · Atividade
+**▶ PÁGINA 11 do slide** · Atividade
 
-A sua atividade: lista 3 memórias afetivas do seu público. O que ele assistia, ouvia, comia ou fazia na infância ou na adolescência. E, para cada uma, escreve uma ideia de conteúdo ou de ação para o seu negócio.
+A sua atividade: liste 3 memórias afetivas do seu público. Pode ser da infância, de um sentido, como um cheiro ou um sabor, ou de um momento marcante da vida. E, para cada uma, escreva uma ideia de conteúdo ou de ação para o seu negócio.
 
 E, com isso, você fechou o Módulo 1. Agora você já entende como a mente de quem compra funciona.
 
