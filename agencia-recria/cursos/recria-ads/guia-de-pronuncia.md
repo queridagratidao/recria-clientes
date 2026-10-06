@@ -34,5 +34,6 @@ A sílaba em MAIÚSCULAS é a mais forte. Todas as pronúncias são aproximadas,
 | Margaret Mark e Carol Pearson | MÁR-ga-ret MÁRK e CÉ-rol PÍR-son | O Herói e o Fora da Lei |
 | Disney Institute | DÍZ-ni ÍNS-ti-tiut | O Jeito Disney de Encantar os Clientes |
 | Toei Animation | TÔ-ei a-ni-MÊI-shan | (Dragon Ball) |
+| Leang Karampuang · Sulawesi | lê-ANG ka-ram-PU-ang · su-la-UÊ-si | (a caverna da pintura de 51.200 anos, aula 2.1) |
 
 **Dica:** se travar em algum nome, fale pelo livro: "o autor de *Rápido e Devagar*". Funciona do mesmo jeito.

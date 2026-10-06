@@ -13,7 +13,7 @@ Em volta da fogueira, nas paredes das cavernas. E não era passatempo. Era assim
 
 **▶ PÁGINA 2 do slide** · Imagem da pintura de Leang Karampuang · Sulawesi, Indonésia · pelo menos 51.200 anos · Fonte: revista Nature, 2024
 
-Olha isso. Esta é uma pintura encontrada numa caverna na Indonésia, na ilha de Sulawesi. Em 2024, cientistas publicaram na revista *Nature* que ela tem pelo menos 51.200 anos.
+Olha isso. Esta é uma pintura encontrada numa caverna na Indonésia, na ilha de Sulawesi (su-la-UÊ-si). Em 2024, cientistas publicaram na revista *Nature* que ela tem pelo menos 51.200 anos.
 
 E sabe o que ela mostra? Três figuras humanas interagindo com um porco selvagem. Não é só um desenho de um animal. É uma cena. É uma história. É a mais antiga arte narrativa que conhecemos.
 
