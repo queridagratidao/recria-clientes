@@ -14,7 +14,7 @@
 | **1 · Low ticket** | Recria Calendário com IA (questionário + prompt) | R$8 | Primeiro "sim" |
 | | E-book Negócio local no digital (ex.: casa de ração) | R$10 | |
 | | E-book Esteira de produtos | R$12 | |
-| | E-book 100+ ideias de low ticket | R$15 | |
+| | E-book mais de 100 ideias de low ticket | R$15 | |
 | | Curso **Estratégia Atraente que Vende (Express)**, em vídeo | R$15 | Já existe: melhorar página de vendas e materiais |
 | | **Manual com Estratégias Atraentes que Vendem** (PDF) | R$47 | Já existe: novo layout e página de vendas |
 | | Consultoria (sessão com questionário, documento direcional e reunião opcional) | R$67 | Porta de entrada para os serviços |
@@ -35,7 +35,7 @@ Observação: o pacote inicial de R$1.500 custa o mesmo que o tráfego pago sozi
 | **Manual de Narrativas (R$47)** | Curso Express Estratégia Atraente Que Vende, +R$15 | E-book "Como criar um low ticket, +100 ideias" (valor sugerido +R$12), quando estiver pronto |
 | **Curso Express (R$15)** | Combo 1 (R$12): mapas e materiais complementares | Trocar o Combo 2 por outro low ticket já existente, para não entregar o Manual por um preço baixo demais |
 
-**E-book 100+ ideias de low ticket:** misturar os segmentos em partes equilibradas (cerca de 20 ideias cada): pequenos negócios e negócios locais, médias empresas, grandes empresas, negócios digitais (infoprodutos, serviços e mentorias) e e-commerce.
+**E-book mais de 100 ideias de low ticket:** misturar os segmentos em partes equilibradas (cerca de 20 ideias cada): pequenos negócios e negócios locais, médias empresas, grandes empresas, negócios digitais (infoprodutos, serviços e mentorias) e e-commerce.
 
 ### Catálogo de low tickets (v3)
 
@@ -58,7 +58,7 @@ Todos os produtos terminam com uma oferta "com preço bem acessível" (sem mostr
 | 5 | **Recria Reels**: aprenda a criar e editar os seus Reels com ferramentas gratuitas e IA | R$10 a R$12 | Criar os vídeos | **v1 pronto** (21 páginas) |
 | 6 | Negócio local no digital (produto digital para negócio físico) | R$10 | Início da trilha de produto | **v1 pronto** (19 páginas) |
 | 7 | Esteira de produtos | R$12 | Organizar a oferta | **v1 pronto** (17 páginas) |
-| 8 | 100+ ideias de low ticket (105 ideias: pequeno/local, médio, grande, digital e e-commerce) | R$15 | O primeiro produto de entrada | **v1 pronto** (18 páginas) |
+| 8 | mais de 100 ideias de low ticket (105 ideias: pequeno/local, médio, grande, digital e e-commerce) | R$15 | O primeiro produto de entrada | **v1 pronto** (18 páginas) |
 | 9 | Como criar um produto de médio ticket | R$17 | Subir o degrau | A fazer |
 | 10 | Como criar um produto high ticket e o momento certo | R$22 | Subir de novo | A fazer |
 | 11 | Manual de estrutura de negócio (marketing, comercial, RH, financeiro, o que terceirizar) | R$27 | Para quem quer montar a casa | A fazer |
@@ -77,8 +77,8 @@ Regra: cada produto termina oferecendo o próximo degrau lógico. O Recria Calen
 | 4. Recria Post | 5. Recria Reels | Do estático para o vídeo |
 | 5. Recria Reels | 6. Negócio local no digital | Conteúdo, peças e marca prontos: hora de diversificar a renda |
 | 6. Negócio local no digital | 7. Esteira de produtos | Vai querer a esteira inteira |
-| 7. Esteira de produtos | 8. 100+ ideias de low ticket | Esteira montada pede o primeiro produto |
-| 8. 100+ ideias | 9. Médio ticket | O degrau seguinte da esteira |
+| 7. Esteira de produtos | 8. mais de 100 ideias de low ticket | Esteira montada pede o primeiro produto |
+| 8. mais de 100 ideias | 9. Médio ticket | O degrau seguinte da esteira |
 | 9. Médio ticket | 10. High ticket | O degrau seguinte |
 | 10. High ticket | 11. Estrutura de negócio | Para sustentar um produto caro, o negócio precisa de estrutura |
 | 11. Estrutura de negócio | 12. Prospecção ativa | Estrutura pronta, agora trazer clientes sem anúncio |
@@ -86,7 +86,7 @@ Regra: cada produto termina oferecendo o próximo degrau lógico. O Recria Calen
 | Comunidade | Consultoria (R$67) | Ajuda sobre o caso específico |
 | Consultoria | Pacotes e serviços da agência | O documento direcional termina com: fazer sozinho, mais sessões ou contratar a Recria |
 
-**Ofertas laterais (cursos):** Curso Express como bump no Manual e no e-book 100+ ideias; Manual de Narrativas e Recria Ads nas sextas do grupo e no pós-compra do Express. Todo e-book também convida para o grupo gratuito Recriadores.
+**Ofertas laterais (cursos):** Curso Express como bump no Manual e no e-book mais de 100 ideias; Manual de Narrativas e Recria Ads nas sextas do grupo e no pós-compra do Express. Todo e-book também convida para o grupo gratuito Recriadores.
 
 ### Produção dos low tickets (ordem e prazos sugeridos)
 
@@ -97,7 +97,7 @@ Regra: cada produto termina oferecendo o próximo degrau lógico. O Recria Calen
 | 3 | Recria MIV (R$15) | 19/10 |
 | 4 | Recria Post (R$10) | 26/10 |
 | 5 | Recria Reels (R$10 a R$12) | 02/11 |
-| 6 | Negócio local (R$10), Esteira (R$12), 100+ ideias (R$15) | Novembro |
+| 6 | Negócio local (R$10), Esteira (R$12), mais de 100 ideias (R$15) | Novembro |
 | 7 | Médio ticket (R$17), High ticket (R$22), Estrutura (R$27) | Dezembro |
 | 8 | Prospecção ativa (R$67), com cuidado jurídico | Dezembro |
 
@@ -180,7 +180,7 @@ Regra de ouro das pontes de sexta: só indicar produto que **já esteja no ar**.
 - Texto de chamada: *Recriadores, cobrar barato demais também afasta cliente. O carrossel de hoje mostra como pensar o preço de entrada, no link abaixo 👇🏻*
 - Atividade em PDF, **"Calculadora de preço de entrada"**: custo, tempo, margem e preço sugerido.
 
-**SEX 30/10 · Exclusivo (enquete + texto) · ponte: e-book 100+ ideias de low ticket (R$15), lançamento previsto 30/10**
+**SEX 30/10 · Exclusivo (enquete + texto) · ponte: e-book mais de 100 ideias de low ticket (R$15), lançamento previsto 30/10**
 - Enquete: "Qual produto de entrada você mais pensa em criar? Checklist / E-book / Mini-curso / Planilha / Consultoria rápida".
 - Texto: *Recriadores, vi o resultado da enquete. Para quem ainda está sem ideia, juntei mais de 100 ideias de produtos de entrada num e-book de R$15: [link]*
 
@@ -196,7 +196,7 @@ Regra de ouro das pontes de sexta: só indicar produto que **já esteja no ar**.
 1. **Esta semana:** mensagem de boas-vindas, carrossel de quarta, PDF de atividade da quarta (Mapa das fontes de renda), configuração do anúncio para o grupo.
 2. **Até 16/10:** e-book Calendário com IA (R$8) + página de vendas.
 3. **Até 23/10:** e-book Esteira de produtos (R$12).
-4. **Até 30/10:** e-book 100+ ideias de low ticket (R$15).
+4. **Até 30/10:** e-book mais de 100 ideias de low ticket (R$15).
 5. Em paralelo: novo layout do Manual (R$47) e páginas de vendas do Manual e do Express.
 6. Questionário e Thank You Page da consultoria, com o prompt do documento direcional.
 
@@ -234,6 +234,6 @@ Regra de ouro das pontes de sexta: só indicar produto que **já esteja no ar**.
 
 | Negócio local no digital (R$10) | **v1 pronto** (19 p.) | `ebooks/negocio-local/` |
 | Esteira de produtos (R$12) | **v1 pronto** (17 p.) | `ebooks/esteira-produtos/` |
-| 100+ ideias de low ticket (R$15) | **v1 pronto** (18 p.) | `ebooks/ideias-low-ticket/` |
+| mais de 100 ideias de low ticket (R$15) | **v1 pronto** (18 p.) | `ebooks/ideias-low-ticket/` |
 
-**Upsells aplicados:** Negócio local → Esteira · Esteira → 100+ ideias · 100+ ideias → Curso Express (link do checkout já aplicado). Todos terminam com Recria Ads, grupo Recriadores e a página de Comunidade, Consultoria, Mentoria e Serviços.
+**Upsells aplicados:** Negócio local → Esteira · Esteira → mais de 100 ideias · mais de 100 ideias → Curso Express (link do checkout já aplicado). Todos terminam com Recria Ads, grupo Recriadores e a página de Comunidade, Consultoria, Mentoria e Serviços.
