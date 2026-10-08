@@ -107,3 +107,5 @@ h1{break-after:avoid}
 .check{margin-bottom:2mm}
 
 .q{margin-bottom:2.4mm}
+tr:first-child{break-after:avoid}
+tr:nth-child(2){break-before:avoid}

@@ -56,9 +56,9 @@ Todos os produtos terminam com uma oferta "com preço bem acessível" (sem mostr
 | 3 | **Recria MIV**: guia passo a passo para desenvolver o seu manual de identidade visual (MIV): logo, cores, tipografia e muito mais | R$15 | Definir tom de voz e identidade **antes** das peças | **v1 pronto** (34 páginas) |
 | 4 | **Recria Post**: aprenda a criar posts estáticos e carrosséis usando ferramentas gratuitas e IA (o guia não depende de a pessoa ter o MIV) | R$10 | Criar as peças | **v1 pronto** (24 páginas) |
 | 5 | **Recria Reels**: aprenda a criar e editar os seus Reels com ferramentas gratuitas e IA | R$10 a R$12 | Criar os vídeos | **v1 pronto** (21 páginas) |
-| 6 | Negócio local no digital (produto digital para negócio físico) | R$10 | Início da trilha de produto | A fazer |
-| 7 | Esteira de produtos | R$12 | Organizar a oferta | A fazer |
-| 8 | 100+ ideias de low ticket (pequeno, médio e grande negócio, digital e e-commerce) | R$15 | O primeiro produto de entrada | A fazer |
+| 6 | Negócio local no digital (produto digital para negócio físico) | R$10 | Início da trilha de produto | **v1 pronto** (19 páginas) |
+| 7 | Esteira de produtos | R$12 | Organizar a oferta | **v1 pronto** (17 páginas) |
+| 8 | 100+ ideias de low ticket (105 ideias: pequeno/local, médio, grande, digital e e-commerce) | R$15 | O primeiro produto de entrada | **v1 pronto** (18 páginas) |
 | 9 | Como criar um produto de médio ticket | R$17 | Subir o degrau | A fazer |
 | 10 | Como criar um produto high ticket e o momento certo | R$22 | Subir de novo | A fazer |
 | 11 | Manual de estrutura de negócio (marketing, comercial, RH, financeiro, o que terceirizar) | R$27 | Para quem quer montar a casa | A fazer |
@@ -231,3 +231,9 @@ Regra de ouro das pontes de sexta: só indicar produto que **já esteja no ar**.
 | LP do Manual e do Express | publicadas em agenciarecria.com.br | repositório do site |
 
 **Links:** todos os botões dos e-books usam marcadores (`LINK-GRUPO`, `LINK-MIV`...). Para trocar, edite `ebooks/links.json` e rode `python3 build-all.py` dentro de `recria/ebooks`. O link do grupo Recriadores será colocado quando o grupo estiver criado.
+
+| Negócio local no digital (R$10) | **v1 pronto** (19 p.) | `ebooks/negocio-local/` |
+| Esteira de produtos (R$12) | **v1 pronto** (17 p.) | `ebooks/esteira-produtos/` |
+| 100+ ideias de low ticket (R$15) | **v1 pronto** (18 p.) | `ebooks/ideias-low-ticket/` |
+
+**Upsells aplicados:** Negócio local → Esteira · Esteira → 100+ ideias · 100+ ideias → Curso Express (link do checkout já aplicado). Todos terminam com Recria Ads, grupo Recriadores e a página de Comunidade, Consultoria, Mentoria e Serviços.
