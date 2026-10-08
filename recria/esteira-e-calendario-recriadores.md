@@ -7,24 +7,33 @@
 
 ## 1. Esteira de produtos
 
-| Degrau | Produto | Preço | Papel na esteira |
-|---|---|---|---|
-| **0 · Isca** | Checklist de revisão do Instagram (DM automática) | Grátis | Captura o contato e leva para o grupo |
-| **0 · Grupo** | WhatsApp **Recriadores** (formato comunidade, membros ocultos) | Grátis | Aquece e vende indiretamente |
-| **1 · Low ticket** | Recria Calendário com IA (questionário + prompt) | R$8 | Primeiro "sim" |
-| | E-book Negócio local no digital (ex.: casa de ração) | R$10 | |
-| | E-book Esteira de produtos | R$12 | |
-| | E-book mais de 100 ideias de low ticket | R$15 | |
-| | Curso **Estratégia Atraente que Vende (Express)**, em vídeo | R$15 | Já existe: melhorar página de vendas e materiais |
-| | **Manual com Estratégias Atraentes que Vendem** (PDF) | R$47 | Já existe: novo layout e página de vendas |
-| | Consultoria (sessão com questionário, documento direcional e reunião opcional) | R$67 | Porta de entrada para os serviços |
-| **2 · Curso de entrada alta** | **Recria Ads** | R$97 | Em desenvolvimento |
-| **3 · Médio ticket** | **Comunidade na Hotmart** (área de membros com vários cursos) | R$47/mês · anual R$27 ou R$37/mês equivalente | Recorrência |
-| **4 · High ticket** | Social media (1 post/semana, sem gestão) | a partir de R$1.000 | |
-| | Tráfego pago (1 canal) | a partir de R$1.500 (2 canais: R$2.000) | |
-| | Gestão de redes sociais | a partir de R$2.500 | |
-| | Pacote inicial: tráfego pago básico, social media básico (4 posts por mês, entregues para o cliente programar; a Recria não acessa nem posta no perfil), site e treinamento comercial (curso gravado + reunião online para tirar dúvidas depois) | R$1.500 | |
-| | Mentoria | R$5.000 em até 12x | |
+| Degrau | Produto | Preço | Situação | Papel na esteira |
+|---|---|---|---|---|
+| **0 · Isca** | Checklist de Revisão do Instagram | Grátis | PDF pronto; página de captura criada | Captura nome, WhatsApp e e-mail e leva ao grupo |
+| | Autodiagnóstico de negócio | Grátis | **Já no ar** | Mostra onde o negócio trava |
+| | Checklist/isca da Black Friday | Grátis | **Já no ar** | Isca sazonal |
+| | Grupo Recriadores (WhatsApp) | Grátis | No ar | Aquece e vende indiretamente |
+| | Aulão "por que o seu marketing não funciona" | Grátis | **Já no ar** | Leva ao Diagnóstico |
+| **1 · Entrada** | E-book Recria Calendário de Conteúdos | R$5 | PDF e página prontos | Primeiro "sim" |
+| | E-book Recria Calendário com IA | R$8 | PDF e página prontos | Calendário em minutos |
+| | E-book Recria Negócio Local no Digital | R$10 | PDF e página prontos | Negócio físico no digital |
+| | E-book Recria Post | R$10 (provisório) | PDF e página prontos | Criar posts |
+| | E-book Recria Reels | R$12 (provisório) | PDF e página prontos | Criar vídeos |
+| | E-book Recria Esteira de Produtos | R$12 | PDF e página prontos | Organizar a oferta |
+| | E-book Recria MIV | R$15 | PDF e página prontos | Identidade visual |
+| | E-book Recria Mais de 100 Ideias de Low Ticket | R$15 | PDF e página prontos | O primeiro produto de entrada |
+| | Curso Express (Estratégia Atraente Que Vende) | R$15 | **Já no ar** (checkout com combos) | Entrada em vídeo |
+| **2 · Subindo a esteira (e-books)** | E-book Recria Médio Ticket | R$17 | Em criação | Subir um degrau |
+| | E-book Recria High Ticket | R$27 | Em criação | O momento certo do premium |
+| | E-book Recria Manual de Estrutura de Negócio | R$37 | Em criação | Montar a casa |
+| | E-book Manual de Narrativas Atraentes Que Vendem | R$47 | **Já no ar** | Intermediário |
+| **3 · Intermediário** | Diagnóstico Recria (consultoria online individual) | R$67 | **Já no ar** | Porta para serviços e mentoria |
+| | Recria Ads (curso) | R$97 | Gravando; lançamento 14/10 | Curso aprofundado |
+| **4 · Recorrência** | Comunidade Recria Business (inclui aulas de comercial e prospecção ativa) | R$47/mês ou R$358,80/ano | Página pronta | Retenção |
+| **5 · Premium** | Serviços da Recria (social media, tráfego, pacote inicial) | a partir de R$1.000 a R$1.500 | No ar | Feito pela agência |
+| | Mentoria Recria | R$5.000 em até 12x | Página pronta (Hotmart) | Topo da esteira |
+
+Mudanças em relação à versão anterior: o treinamento comercial e a prospecção ativa deixam de ser e-books e entram como **aulas dentro da Comunidade Recria Business**; os e-books novos sobem de preço de 17 em 17 e de 10 em 10 até o Manual (R$47).
 
 Observação: o pacote inicial de R$1.500 custa o mesmo que o tráfego pago sozinho. Vale deixar claro na proposta o que ele inclui, para não parecer que social media, site e treinamento saem de graça.
 
@@ -122,7 +131,9 @@ Como a Recria ainda não é conhecida, sugiro **anual a R$27/mês (R$324/ano) co
 
 ---
 
-## 2. Ritmo do grupo Recriadores
+> **Atenção:** o ritmo do grupo (seção 2) e o calendário (seção 3) abaixo são da v1 (quarta e sexta). O calendário vigente, com **segunda e sexta**, está em `calendario-grupo-recriadores-v2.md`.
+
+## 2. Ritmo do grupo Recriadores (v1, substituído)
 
 - **Quarta**: repost do carrossel que sai no Instagram da Recria + texto de chamada + **atividade prática em PDF** para ir além. **Sem vender.**
 - **Sexta**: conteúdo **exclusivo** (texto, áudio, enquete, passo a passo, trecho de aula). Termina com a ponte: "isso eu desenvolvo no [produto], por R$X: link".
