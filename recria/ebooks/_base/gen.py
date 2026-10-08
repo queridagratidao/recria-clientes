@@ -67,14 +67,14 @@ def final1(kick, h1, intro, destaque, cards):
 </section>
 
 '''
-def final2():
+def final2(mentoria=True):
     def o(k, t, x, l): return oferta(k, t, x, l, "Quero conhecer", "1.6mm").replace('padding:2.5mm 4mm','padding:2mm 4mm')
     return f'''<section class="upsell">
 <div class="kick">Quer ir além?</div>
 <h1 style="font-size:15pt;margin-bottom:1mm">Cresça <em>mês a mês</em> junto com a Recria.</h1>
 {o("Comunidade paga","Comunidade Recria Business","Quer crescer mês a mês junto com a Recria? Participe da comunidade, com vários cursos: negócio, marketing, comercial, novidades do segmento, posicionamento e como recriar o seu negócio em vários níveis.","LINK-COMUNIDADE")}
 {o("Consultoria","Diagnóstico Recria","Quer algo personalizado para o seu negócio? Conheça o Diagnóstico Recria, a nossa consultoria online individual para descobrir os gargalos das suas vendas.","LINK-CONSULTORIA")}
-{o("Acompanhamento","Mentoria","Quer uma estrutura, com alguém que pegue na sua mão e ajude você em cada etapa? Conheça a nossa mentoria.","LINK-MENTORIA")}
+{(o("Acompanhamento","Mentoria","Quer uma estrutura, com alguém que pegue na sua mão e ajude você em cada etapa? Conheça a nossa mentoria.","LINK-MENTORIA") if mentoria else "")}
 {o("Feito para você","Serviços da Recria","Quer que a gente faça por você? Conheça os serviços da Recria: estruturação de negócio, tráfego pago, social media e pacote inicial.","LINK-SERVICOS")}
 </section>
 
