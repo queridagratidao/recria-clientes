@@ -1,7 +1,7 @@
 {
   "_como_usar": "Cole o link de cada produto no valor correspondente (deixe vazio os que ainda não existem) e rode: python3 build-all.py",
   "links": {
-    "LINK-GRUPO": "",
+    "LINK-GRUPO": "https://chat.whatsapp.com/Dh1nhxW4POm2h0Z6iPXkIV",
     "LINK-CALENDARIO": "",
     "LINK-CALENDARIO-IA": "",
     "LINK-MIV": "",
@@ -20,7 +20,9 @@
     "LINK-CONSULTORIA": "",
     "LINK-MENTORIA": "",
     "LINK-SERVICOS": "",
-    "LINK-CHECKLIST": ""
+    "LINK-CHECKLIST": "",
+    "LINK-EXPRESS": "https://pay.hotmart.com/V83075845Y",
+    "LINK-MANUAL": "https://pay.hotmart.com/V82947349N"
   },
   "_nomes": {
     "LINK-GRUPO": "Grupo Recriadores (WhatsApp)",
@@ -42,6 +44,8 @@
     "LINK-CONSULTORIA": "Consultoria",
     "LINK-MENTORIA": "Mentoria",
     "LINK-SERVICOS": "Serviços da Recria",
-    "LINK-CHECKLIST": "Checklist de revisão do Instagram (isca grátis)"
+    "LINK-CHECKLIST": "Checklist de revisão do Instagram (isca grátis)",
+    "LINK-EXPRESS": "Curso Express Estratégia Atraente (R$15)",
+    "LINK-MANUAL": "Manual de Narrativas Atraentes (R$47)"
   }
 }
