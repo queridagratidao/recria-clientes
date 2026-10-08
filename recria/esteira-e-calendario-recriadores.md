@@ -216,3 +216,18 @@ Regra de ouro das pontes de sexta: só indicar produto que **já esteja no ar**.
 2. Recria Ads: curso mais aprofundado, com exercícios, para criar conteúdos **sem cara de anúncio**, de acordo com a atualidade.
 3. Grupo Recriadores (gratuito).
 4. Segunda página: Comunidade Recria Business (cursos de negócio, marketing, comercial, novidades do segmento, posicionamento), Consultoria (personalizado), Mentoria (acompanhamento passo a passo) e Serviços da Recria (estruturação de negócio, tráfego pago, social media e pacote inicial).
+
+
+### Status geral dos materiais (08/10)
+
+| Material | Status | Pasta |
+|---|---|---|
+| Checklist de revisão do Instagram (isca grátis) | **v1 pronto** (11 páginas) | `ebooks/checklist-instagram/` |
+| Recria Calendário de Conteúdos (R$5) + planilha | pronto | `ebooks/calendario-manual/` |
+| Recria Calendário com IA (R$8) | pronto | `ebooks/calendario-com-ia/` |
+| Recria MIV (R$15) | v1 pronto | `ebooks/recria-miv/` |
+| Recria Post (R$10) | v1 pronto | `ebooks/recria-post/` |
+| Recria Reels (R$10 a R$12) | v1 pronto | `ebooks/recria-reels/` |
+| LP do Manual e do Express | publicadas em agenciarecria.com.br | repositório do site |
+
+**Links:** todos os botões dos e-books usam marcadores (`LINK-GRUPO`, `LINK-MIV`...). Para trocar, edite `ebooks/links.json` e rode `python3 build-all.py` dentro de `recria/ebooks`. O link do grupo Recriadores será colocado quando o grupo estiver criado.

@@ -102,3 +102,8 @@ tr{break-inside:avoid}
 h1{break-after:avoid}
 .prompt,.alerta,.dica,.cols2,.chamada{break-inside:avoid}
 .kick{break-after:avoid}
+
+.check li{break-inside:avoid}
+.check{margin-bottom:2mm}
+
+.q{margin-bottom:2.4mm}

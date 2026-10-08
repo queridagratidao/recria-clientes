@@ -6,6 +6,12 @@ import re, subprocess, sys, pathlib
 d = pathlib.Path(__file__).parent / sys.argv[1]
 out = d / sys.argv[2]
 html = (d / "ebook.html").read_text(encoding="utf-8")
+import json
+_lk = pathlib.Path(__file__).parent / "links.json"
+if _lk.exists():
+    for k, v in json.loads(_lk.read_text(encoding="utf-8")).get("links", {}).items():
+        if v.strip():
+            html = html.replace('href="%s"' % k, 'href="%s"' % v.strip())
 def pop(cls):
     ms = re.findall(r'<section class="%s">.*?</section>' % cls, html, re.S)
     return "\n".join(ms) if ms else None
