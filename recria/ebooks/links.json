@@ -17,12 +17,13 @@
     "LINK-PROSPECCAO": "",
     "LINK-ADS": "",
     "LINK-COMUNIDADE": "",
-    "LINK-CONSULTORIA": "",
+    "LINK-CONSULTORIA": "https://www.agenciarecria.com.br/diagnostico-recria/",
     "LINK-MENTORIA": "",
-    "LINK-SERVICOS": "",
+    "LINK-SERVICOS": "https://www.agenciarecria.com.br/#servicos",
     "LINK-CHECKLIST": "",
     "LINK-EXPRESS": "https://pay.hotmart.com/V83075845Y",
-    "LINK-MANUAL": "https://pay.hotmart.com/V82947349N"
+    "LINK-MANUAL": "https://pay.hotmart.com/V82947349N",
+    "LINK-AULAO": "https://www.agenciarecria.com.br/aula-mkt-para-negocios/"
   },
   "_nomes": {
     "LINK-GRUPO": "Grupo Recriadores (WhatsApp)",
@@ -41,11 +42,12 @@
     "LINK-PROSPECCAO": "Prospecção ativa (R$67)",
     "LINK-ADS": "Curso Recria Ads (R$97)",
     "LINK-COMUNIDADE": "Comunidade Recria Business",
-    "LINK-CONSULTORIA": "Consultoria",
+    "LINK-CONSULTORIA": "Diagnóstico Recria (consultoria online)",
     "LINK-MENTORIA": "Mentoria",
-    "LINK-SERVICOS": "Serviços da Recria",
+    "LINK-SERVICOS": "Serviços da Recria (site da agência)",
     "LINK-CHECKLIST": "Checklist de revisão do Instagram (isca grátis)",
     "LINK-EXPRESS": "Curso Express Estratégia Atraente (R$15)",
-    "LINK-MANUAL": "Manual de Narrativas Atraentes (R$47)"
+    "LINK-MANUAL": "Manual de Narrativas Atraentes (R$47)",
+    "LINK-AULAO": "Aulão gratuito (aula-mkt-para-negocios)"
   }
 }

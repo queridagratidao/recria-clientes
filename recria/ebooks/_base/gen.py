@@ -68,12 +68,12 @@ def final1(kick, h1, intro, destaque, cards):
 
 '''
 def final2():
-    def o(k, t, x, l): return oferta(k, t, x, l, "Quero conhecer", "3mm").replace('padding:2.5mm 4mm','padding:3mm 4mm')
+    def o(k, t, x, l): return oferta(k, t, x, l, "Quero conhecer", "1.6mm").replace('padding:2.5mm 4mm','padding:2mm 4mm')
     return f'''<section class="upsell">
 <div class="kick">Quer ir além?</div>
-<h1 style="font-size:17pt">Cresça <em>mês a mês</em> junto com a Recria.</h1>
-{o("Comunidade","Comunidade Recria Business","Quer crescer mês a mês junto com a Recria? Participe da comunidade, com vários cursos: negócio, marketing, comercial, novidades do segmento, posicionamento e como recriar o seu negócio em vários níveis.","LINK-COMUNIDADE")}
-{o("Personalizado","Consultoria","Quer algo personalizado para o seu negócio? Conheça as nossas consultorias.","LINK-CONSULTORIA")}
+<h1 style="font-size:15pt;margin-bottom:1mm">Cresça <em>mês a mês</em> junto com a Recria.</h1>
+{o("Comunidade paga","Comunidade Recria Business","Quer crescer mês a mês junto com a Recria? Participe da comunidade, com vários cursos: negócio, marketing, comercial, novidades do segmento, posicionamento e como recriar o seu negócio em vários níveis.","LINK-COMUNIDADE")}
+{o("Consultoria","Diagnóstico Recria","Quer algo personalizado para o seu negócio? Conheça o Diagnóstico Recria, a nossa consultoria online individual para descobrir os gargalos das suas vendas.","LINK-CONSULTORIA")}
 {o("Acompanhamento","Mentoria","Quer uma estrutura, com alguém que pegue na sua mão e ajude você em cada etapa? Conheça a nossa mentoria.","LINK-MENTORIA")}
 {o("Feito para você","Serviços da Recria","Quer que a gente faça por você? Conheça os serviços da Recria: estruturação de negócio, tráfego pago, social media e pacote inicial.","LINK-SERVICOS")}
 </section>
@@ -86,4 +86,6 @@ def leituras(itens, aviso):
 </section>
 
 '''
-def tail(): return "</body></html>\n"
+THANKS = '<section class="upsell">\n<div class="kick">Obrigada por chegar até aqui</div>\n<h1 style="font-size:17pt">Um presente para você: <em>o aulão gratuito.</em></h1>\n<p>Obrigada por ler este material até o fim. Espero, de coração, que ele ajude você a dar o próximo passo no seu negócio.</p>\n<div class="oferta" style="margin-top:3mm;padding:3mm 4mm">\n<div class="kick" style="margin-bottom:1mm">Presente</div>\n<h3 style="margin:0 0 1mm">Aulão: por que o seu marketing não funciona e o seu comercial não converte como deveria?</h3>\n<p style="margin-bottom:2mm;font-size:9.4pt">Uma aula gratuita, com 10 anos de experiência em marketing e comercial, para mostrar o que quase ninguém conta. Mesmo que você não queira comprar nenhum produto agora, assista: é o melhor próximo passo.</p>\n<a class="btn" href="LINK-AULAO" style="padding:2mm 4mm;font-size:9pt">Quero assistir ao aulão</a>\n</div>\n<p style="margin-top:5mm;font-size:9.4pt">Depois da aula, se quiser aplicar tudo ao seu caso, conheça o <a href="LINK-CONSULTORIA" style="color:#E4C988">Diagnóstico Recria</a>, a nossa consultoria online individual.</p>\n<p style="margin-top:6mm;font-family:\'Playfair Display\',serif;font-style:italic;color:#E4C988;font-size:12pt">Com carinho,<br>Amanda Moraes, Agência Recria</p>\n</section>\n\n'
+def thanks(): return THANKS
+def tail(): return thanks() + "</body></html>\n"
