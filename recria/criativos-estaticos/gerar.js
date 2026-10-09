@@ -19,9 +19,9 @@ h1 em{color:#E4C988}
 .f{margin-top:26px;text-align:center;font-size:24px;letter-spacing:.2em;color:#9d927c}
 `;
 const items=JSON.parse(fs.readFileSync(D+'/criativos.json','utf8'));
-function html(it){const [n,k,h,s,p,c]=it;const t=h.replace(/<[^>]*>/g,"").length;const SIZE=t<40?112:t<58?98:t<75?84:74;
+function html(it){const [n,k,h,s,p,c]=it;const t=h.replace(/<[^>]*>/g,"").length;const SIZE=t<40?112:t<58?98:t<75?84:t<100?74:66;
  const css=CSS.replace("@@SIZE@@",SIZE);
- return `<!doctype html><meta charset="utf-8"><style>${css}</style><div class="c"><img class="ic" src="${ICON}"><div class="k">${k}</div><h1>${h}</h1><div class="s" style="font-size:${s.length>200?31:s.length>150?34:37}px">${s}</div><div class="b">${p?`<div class="p">${p}</div>`:''}<div class="cta">${c}</div><div class="f">AGENCIARECRIA.COM.BR</div></div></div>`;}
+ return `<!doctype html><meta charset="utf-8"><style>${css}</style><div class="c"><img class="ic" src="${ICON}"><div class="k">${k}</div><h1>${h}</h1><div class="s" style="font-size:${s.length>200?31:s.length>150?34:37}px">${s}</div><div class="b">${p?`<div class="p">${p}</div>`:''}<div class="cta">${c}</div></div></div>`;}
 (async()=>{fs.mkdirSync(D+'/png',{recursive:true});const b=await chromium.launch({executablePath:'/opt/pw-browsers/chromium'});
 const pg=await b.newPage({viewport:{width:1080,height:1350}});
 for(const it of items){fs.writeFileSync(D+'/_t.html',html(it));await pg.goto('file://'+D+'/_t.html');await pg.evaluate(()=>document.fonts.ready);await pg.waitForTimeout(300);await pg.screenshot({path:D+'/png/'+it[0]+'.png'});}
