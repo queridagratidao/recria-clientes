@@ -1,6 +1,6 @@
 # Mensagem para o Giuliano — WhatsApp (09/10/2026)
 
-Giu, boa tarde! Segue tudo o que ficou organizado para a nossa reunião, já salvo no Drive:
+Giu, boa tarde! Segue tudo o que ficou organizado para a nossa reunião, já salvo no Drive, Eleva MKT:
 
 1. Calendário de ações de marketing proposto para o restante de 2026 e para 2027:
 https://drive.google.com/drive/folders/1t1DlefJyeLXRZq4f8capeIHVY9Hge2lw?usp=drive_link
