@@ -9,9 +9,11 @@
 
 O Portal do Síndico é o motor de receita recorrente e a principal porta de entrada de leads qualificados. A autoridade do Giuliano (ElevaCast, Instagram, comunidade) alimenta o portal, e o portal alimenta as outras frentes. Cada pessoa que testa o portal vira um contato que pode, mais adiante, comprar curso, diagnóstico, mentoria, seguro ou entrar no Hub — por conta própria, pelo link da bio ou pelas automações.
 
-**Não há venda ativa em nenhum momento deste calendário.** Não estamos fazendo tráfego pago para ofertas pagas, nem abordagem comercial direta. O marketing é só autoridade, audiência, relacionamento e cadastro gratuito no teste do portal. Tudo que é oferta — cursos, sessão estratégica, diagnóstico, mentoria, seguros — fica disponível no link da bio e nas automações, para quem quiser comprar por conta própria.
+**Não há venda direta em nenhum momento deste calendário.** O marketing é autoridade, audiência, relacionamento e cadastro no teste do portal. Tudo que é oferta — cursos, sessão estratégica, diagnóstico, mentoria, seguros — fica disponível no link da bio e nas automações, para quem quiser comprar por conta própria, sem abordagem comercial direta.
 
-**Papel de cada canal:** o conteúdo educa e gera confiança; o cadastro no portal é o único convite explícito; o link da bio e as automações cuidam do resto. O Giuliano aparece como referência no dia a dia do síndico, e quem se interessar por outras frentes encontra o caminho sozinho.
+A exceção é a **campanha de lançamento do Portal do Síndico**, com verba paga separada rodando por cerca de 30 dias tanto na Meta quanto no Google (ver detalhes no mês de outubro, abaixo). Ela não é venda direta, mas uma **venda indireta**: o objetivo é cadastro no teste grátis de 60 dias, para a pessoa só decidir pela compra depois de usar a plataforma. Fora dessa campanha de lançamento, o Always On de engajamento no Instagram segue no ritmo atual, sem aumento de investimento.
+
+**Papel de cada canal:** o conteúdo educa e gera confiança; o cadastro no portal é o convite explícito, tanto no orgânico quanto na campanha paga de lançamento; o link da bio e as automações cuidam do resto. O Giuliano aparece como referência no dia a dia do síndico, e quem se interessar por outras frentes encontra o caminho sozinho.
 
 ---
 
@@ -41,7 +43,9 @@ O Portal do Síndico é o motor de receita recorrente e a principal porta de ent
 
 Foco: fazer as pessoas conhecerem o portal e testarem. Sem falar em preço.
 
-- **Semana de 6 a 11:** teaser do portal no Instagram, e-mail de lançamento, acesso antecipado e convite pessoal do Giuliano na comunidade do WhatsApp.
+**Campanha paga de lançamento (Meta + Google Ads):** a partir da data de lançamento (dia 13 ou dia 20 de outubro, a confirmar), entra uma campanha paga com verba separada do Always On, rodando por cerca de 30 dias nos dois canais. É campanha de **cadastro**, não de venda direta — leva a pessoa a se cadastrar no teste grátis de 60 dias, para decidir pela compra depois de usar a plataforma (venda indireta). A estrutura de Google Ads já está detalhada em documento à parte; a versão Meta segue a mesma lógica de objetivo de cadastro, com os criativos do carrossel e do convite à comunidade já aprovados como ponto de partida.
+
+- **Semana de 6 a 11:** teaser do portal no Instagram, e-mail de lançamento, acesso antecipado e convite pessoal do Giuliano na comunidade do WhatsApp. Ajustar o início exato da campanha paga para a semana da data de lançamento confirmada (13 ou 20/10).
 - **Semana de 12 a 18:** demonstração curta do portal em Reels. Dia 12 (Dia das Crianças) — conteúdo sobre segurança em playground e áreas comuns. Dia 12 também é Dia do Corretor de Seguros — gancho educativo sobre seguro condominial, sem oferta.
 - **Semana de 19 a 25:** episódio do ElevaCast sobre o portal, com cortes ao longo da semana.
 - **Semana de 26 a 31:** primeiros depoimentos dos testadores e e-mail de lembrete.
