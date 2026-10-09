@@ -22,9 +22,9 @@ Por isso, esta estrutura já vem pronta com o nome do produto, para ser ativada 
 
 ## 2. Objetivo da campanha
 
-Gerar cadastros qualificados no teste grátis de 60 dias, não venda direta. A campanha é de **geração de leads/cadastro**, alinhada com a meta de conversão descrita na medição: "a pessoa começa o teste grátis". Entra no ar só quando o portal estiver com acesso liberado de verdade — a captação antecipada/lista de espera é feita apenas pelo orgânico.
+Gerar cadastros qualificados no teste grátis de 60 dias, não venda direta. No Google Ads, a campanha é do tipo **Pesquisa com objetivo de geração de leads**, mas atua na prática como campanha de cadastro: a pessoa entra no site e se cadastra para usar a ferramenta, com o lance otimizado para esse evento de cadastro. Entra no ar só quando o portal estiver com acesso liberado de verdade — a captação antecipada/lista de espera é feita apenas pelo orgânico.
 
-**Sobre existir "campanha de cadastro" no Google, como na Meta:** o Google Ads não tem um objetivo com esse nome específico (lá a Meta chama de "Cadastros"/"Leads"), mas o resultado é o mesmo. A campanha de Pesquisa leva a pessoa para a página do portal normalmente, e o lance é otimizado para a **conversão de cadastro** (o evento "começar teste grátis", já configurado na medição) em vez de ser otimizado para cliques ou para uma venda. Ou seja: funciona como campanha de cadastro, só que no Google isso é feito escolhendo a conversão certa como meta de otimização, e não escolhendo um "tipo de campanha" chamado cadastro.
+A conversão em cliente pagante, de fato, só acontece depois dos 60 dias de teste, por automação interna e pelos alertas que a pessoa recebe ao longo do período — depois que a própria plataforma gera valor para ela e ela decide continuar usando. Isso não é algo rastreado dentro do Google Ads; a plataforma acompanha só o cadastro inicial.
 
 ---
 
@@ -53,6 +53,8 @@ Com uma verba desse tamanho, não compensa pulverizar em vários grupos de anún
 - "controle de obrigações do condomínio", "prazos de manutenção predial", "AVCB extintor vencimento condomínio"
 - "prestação de contas condomínio", "sistema financeiro para condomínio", "orçamento condomínio online"
 - "sistema para administradora de condomínios", "gestão de carteira de condomínios", "software para administradora de condomínio"
+- "extintor vencido condomínio", "teste de estanqueidade gás condomínio", "manutenção preventiva gerador condomínio", "limpeza caixa d'água condomínio obrigatoriedade"
+- "relatório de conformidade condomínio", "alerta de vencimento condomínio", "cotação de orçamento para condomínio", "obrigações legais do condomínio prazo"
 
 Não ficou claro se existe muito volume de busca para termos do tipo "como organizar as demandas/prazos do condomínio" — são mais uma aposta de cauda longa (comportamento de busca de quem ainda nem sabe que existe um software para isso) do que um termo consolidado; vale testar com orçamento baixo e cortar se não performar.
 
@@ -79,11 +81,32 @@ Estimativas aproximadas com base no comportamento típico desse nicho, para orie
 | gestão de carteira de condomínios | 10–100 | Público profissional/administradoras |
 | como organizar as demandas do condomínio | 10–100 ou menos | Cauda muito longa, volume incerto, testar com cautela |
 | como organizar os prazos do condomínio | 10–100 ou menos | Mesma observação acima |
+| extintor vencido condomínio | 10–100 | Extraída do próprio painel do portal, intenção bem específica |
+| teste de estanqueidade gás condomínio | 10–100 ou menos | Extraída do painel, termo técnico, volume provavelmente baixo |
+| manutenção preventiva gerador condomínio | 10–100 | Extraída do painel |
+| limpeza caixa d'água condomínio obrigatoriedade | 10–100 | Extraída do painel |
+| relatório de conformidade condomínio | 10–100 ou menos | Extraída dos blocos de funcionalidade do site |
+| alerta de vencimento condomínio | 10–100 | Extraída dos blocos de funcionalidade do site |
+| cotação de orçamento para condomínio | 10–100 | Extraída dos blocos de funcionalidade do site |
+| obrigações legais do condomínio prazo | 10–100 | Extraída dos blocos de funcionalidade do site |
 | portal do síndico | — (marca própria) | Monitorar depois que a campanha de autoridade/orgânico rodar; tende a crescer com o reconhecimento do nome |
 
 **Como priorizar o orçamento:** concentrar o investimento nos termos de maior volume e intenção direta (sistema para síndico, programa de gestão de condomínio, aplicativo para síndico, software de gestão para condomínio), com uma fatia menor nos termos de cauda longa, que custam menos por clique e tendem a converter melhor por já virem com a dor bem definida — e cortar rápido os termos de cauda longa que não gerarem clique relevante nos primeiros dias, já que a verba é curta.
 
 **Sobre Performance Max:** com uma verba desse tamanho, não compensa abrir uma segunda campanha em outro formato — ela competiria pelo mesmo orçamento e tornaria mais lento o aprendizado de ambas. Fica só a campanha de Pesquisa.
+
+**Palavras-chave extraídas do próprio site do portal (a partir dos prints que a Amanda já passou):** a página mostra, no painel de exemplo, itens específicos de prazo e manutenção (extintor, teste de estanqueidade do gás, manutenção preventiva do gerador, limpeza de caixa d'água) e os quatro blocos de funcionalidade (obrigações do condomínio, avisos e alertas, orçamentos, relatório de conformidade). Dá para transformar isso em mais algumas palavras-chave de cauda longa, prováveis buscas de quem já tem esse problema específico:
+
+- "extintor vencido condomínio"
+- "teste de estanqueidade gás condomínio"
+- "manutenção preventiva gerador condomínio"
+- "limpeza caixa d'água condomínio obrigatoriedade"
+- "relatório de conformidade condomínio"
+- "alerta de vencimento condomínio"
+- "cotação de orçamento para condomínio"
+- "obrigações legais do condomínio prazo"
+
+Mesma lógica das outras palavras de cauda longa: volume provavelmente baixo, mas intenção muito qualificada — vale incluir no grupo e cortar o que não performar.
 
 ---
 
@@ -104,6 +127,7 @@ Estimativas aproximadas com base no comportamento típico desse nicho, para orie
 - **Conversão principal:** cadastro concluído no teste grátis (evento no portal.elevags.com.br), alinhada ao que já foi pedido na medição.
 - **Conversão secundária:** envio do formulário de contato da página de destino, marcada como secundária para não competir na otimização de lance com o cadastro.
 - Campanha só entra no ar depois do print confirmando "Gravando conversões" para as duas, conforme o próprio pedido do Giuliano.
+- **Instalação das tags:** a parte técnica fica com a Amanda — ela entra direto no Webflow, cadastra os eventos de conversão por lá e vincula ao Google Ads, para puxar os eventos de cadastro e os demais.
 
 ---
 
@@ -123,6 +147,6 @@ Estimativas aproximadas com base no comportamento típico desse nicho, para orie
 
 ## 8. Próximos passos
 
-1. Validar com a agência/equipe técnica se a medição de conversões já está "Gravando conversões".
+1. Amanda cadastra os eventos de conversão no Webflow e vincula ao Google Ads, e valida se a medição já está "Gravando conversões".
 2. Conferir os volumes de busca reais no Planejador de Palavras-chave do Google Ads e ajustar a lista antes de publicar.
 3. Aguardar o portal estar com acesso totalmente ativo (a antecipação segue só no orgânico) para publicar a campanha única de Pesquisa, com o orçamento de R$ 1.500 distribuído pelos ~30 dias (duas quinzenas, outubro e novembro).
