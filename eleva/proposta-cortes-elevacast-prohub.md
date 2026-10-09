@@ -10,7 +10,7 @@ Retorno da ProHub sobre os valores de captação/edição e de cortes do ElevaCa
 
 A ProHub já é responsável há vários anos pela **captação e edição do ElevaCast** (episódio bruto, de até 1h por gravação). Hoje a Eleva paga o valor promocional já aplicado à conta: **R$ 900,00 por episódio editado** — quando são gravados 2 episódios na mesma sessão, fica **R$ 1.800,00**.
 
-A ficha técnica da ProHub lista um bônus de 5 cortes verticais editados por episódio, mas esse bônus não está sendo usado — quem sempre cuidou de **todos** os cortes (e também do upload do episódio completo no YouTube e no Spotify) é a empresa do René, que atende a Eleva através do Alexandre (primo do Giuliano). O problema: o René está entregando com muito atraso — mais de 30 dias, enquanto a ProHub entrega em até 15. É esse ponto que precisa de uma decisão agora.
+A ficha técnica da ProHub lista um bônus de 5 cortes verticais editados por episódio, mas esse bônus não está sendo usado — quem sempre cuidou de **todos** os cortes (e também do upload do episódio completo no YouTube e no Spotify) é a empresa do Alexandre (primo do Giuliano), na qual a Eleva é atendida pelo René. O problema: o René está entregando com muito atraso — mais de 30 dias, enquanto a ProHub entrega em até 15. É esse ponto que precisa de uma decisão agora.
 
 ---
 
