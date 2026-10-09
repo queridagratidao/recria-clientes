@@ -35,19 +35,19 @@ Cada oferta paga aparece **separada por persona** (síndico, executivo, forneced
 
 **1.** Vídeo em destaque — ElevaCast (episódio mais recente)
 **2.** Portal do Síndico *(assim que lançar — fica no topo, à frente dos cursos)*
-**3.** Cursos Eleva — para síndico, executivo e fornecedor *(catálogo centralizado)*
-**4.** Mentoria Eleva para Síndico
-**5.** Mentoria Eleva para Executivo
-**6.** Mentoria Eleva para Fornecedor
-**7.** Diagnóstico Eleva para Síndico
-**8.** Diagnóstico Eleva para Executivo
-**9.** Diagnóstico Eleva para Fornecedor
+**3.** Cursos Eleva — para síndico e fornecedor *(catálogo centralizado)*
+**4.** Diagnóstico Eleva para Síndico
+**5.** Diagnóstico Eleva para Executivo
+**6.** Diagnóstico Eleva para Fornecedor
+**7.** Mentoria Eleva para Síndico
+**8.** Mentoria Eleva para Executivo
+**9.** Mentoria Eleva para Fornecedor
 **10.** Lista de espera — avise-me sobre cursos e ofertas da Eleva, com antecedência e desconto
 **11.** Conheça a Corretora de Seguros da Eleva
 **12.** Participe do Hub de Negócios da Eleva
 **13.** Participe da Comunidade Eleva no WhatsApp, focada em síndico
 **14.** Conheça o canal do YouTube (ElevaCast)
-**15.** Conheça o canal do Spotify (ElevaCast — é podcast, não precisa dizer "Spotify da Eleva")
+**15.** Conheça o canal do Spotify da Eleva
 **16.** Leia os artigos do blog da Eleva
 **17.** Artigo em destaque — post mais recente do blog
 **18.** Cadastre-se na newsletter da Eleva e receba conteúdos exclusivos
@@ -59,7 +59,9 @@ Cada oferta paga aparece **separada por persona** (síndico, executivo, forneced
 
 ## Por que separar mentoria e diagnóstico por persona
 
-São ofertas de valor agregado — vale garantir que a pessoa certa veja exatamente a oferta feita para ela, em vez de cair numa página genérica e precisar escolher sozinha. Curso continua centralizado porque é catálogo único, sem essa necessidade de segmentação.
+São ofertas de valor agregado — vale garantir que a pessoa certa veja exatamente a oferta feita para ela, em vez de cair numa página genérica e precisar escolher sozinha. Curso continua centralizado porque é catálogo único, sem essa necessidade de segmentação, e é oferecido só para síndico e fornecedor.
+
+A ordem entre diagnóstico e mentoria segue a lógica de entrega e preço: o diagnóstico é mais barato e vem antes, a mentoria é o passo seguinte, de maior valor.
 
 ## Outras observações
 
