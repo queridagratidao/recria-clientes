@@ -80,8 +80,10 @@ Mesmo nos meses em que entrega os cortes de um episódio, o Giuliano já sai com
 - Novembro: gravação dos 2 episódios com a ProHub.
 - Dezembro: Amanda entrega os cortes do episódio 1.
 - Janeiro: Amanda entrega os cortes do episódio 2.
-- Janeiro e fevereiro (meses sem episódio novo de podcast): Amanda usa o mesmo valor mensal para cortar as lives, ou editar outros materiais — vídeos extras que o Giuliano gravar em casa, por exemplo, ou apoiar na captação desses vídeos.
+- Fevereiro (mês sem episódio novo de podcast): Amanda usa o mesmo valor mensal para cortes das lives que ocorrerem no YouTube e no Instagram, editando materiais extras — vídeos que o Giuliano gravar em casa, por exemplo, ou apoio na captação desses vídeos, para anúncios e para o feed.
 - Março: volta o ciclo com a próxima gravação de episódios.
+
+Ou seja: dois meses a Amanda entrega edição de episódios, um mês edita materiais extras.
 
 ---
 
