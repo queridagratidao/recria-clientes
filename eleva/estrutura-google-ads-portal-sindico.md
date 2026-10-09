@@ -135,11 +135,16 @@ Mesma lógica das outras palavras de cauda longa: volume provavelmente baixo, ma
 |---|---|
 | Medição instalada e validada (conversões "Gravando") | Antes de qualquer veiculação |
 | Portal do Síndico com acesso totalmente liberado (fora da fase de antecipação/lista de espera) | Antes de publicar os anúncios |
-| Ok final do Giuliano para ativar | Gatilho de início |
-| Veiculação — 1ª metade | ~15 dias, a partir do dia 13 ou 20/10 (data de lançamento) |
+| **Prazo para o Giuliano aprovar a estratégia (Google e Meta)** | **Até o dia 12/10** |
+| Configuração da campanha no Google Ads | ~3 dias úteis após a aprovação (configuração mais demorada) |
+| Configuração da campanha na Meta | ~2 dias úteis após a aprovação |
+| **Tudo no ar (Google e Meta)** | Aprovando até 12/10, o previsto é estar tudo ativo até **15–16/10**, semana que vem |
+| Veiculação — 1ª metade | ~15 dias, a partir da ativação |
 | Revisão de desempenho e ajuste de lance | Na virada de outubro para novembro |
 | Veiculação — 2ª metade | ~15 dias, seguindo em novembro |
 | Relatório de resultados (cadastros gerados, CPA, CTR) | Ao fim da janela de orçamento (~30 dias corridos no total) |
+
+*Se a aprovação vier mais perto do lançamento do portal (13 ou 20/10) em vez de hoje, o prazo desliza na mesma proporção: configuração do Google em ~3 dias úteis, Meta em ~2 dias úteis, contados a partir da data real de aprovação.*
 
 ---
 
