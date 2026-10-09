@@ -23,8 +23,8 @@ https://drive.google.com/drive/folders/1TDydxTiyZXnT9fD5QKm62zD74Gip1xDf?usp=dri
 7. Estratégia sugerida para as campanhas de anúncios no Instagram, para o lançamento do portal:
 [LINK DA PASTA]
 
-8. Post estático de lançamento, "é hoje", na mesma identidade visual do carrossel de antecipação, já pronto para publicar assim que a data for confirmada:
-[LINK DA PASTA]
+8. Post estático de lançamento, "é hoje", na mesma identidade visual do carrossel de antecipação, já pronto para postarmos no dia 13 ou no dia 20, quando for o lançamento oficial:
+https://drive.google.com/drive/folders/1osIiXxOJLoSeDnSrmaAi9vG7hudH4Rg6?usp=drive_link
 
 Também já atualizei o nome da comunidade no WhatsApp: tirei o "Hub" e ficou apenas Comunidade Eleva, Síndicos de Alta Performance.
 
