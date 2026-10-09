@@ -70,10 +70,18 @@
   h2.cap-titulo{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:1.7rem; color:var(--roxo-profundo); text-align:center; margin-bottom:22px; line-height:1.3;}
   p.par{ font-size:.95rem; line-height:1.75; margin-bottom:14px; color:var(--texto);}
   h3.sub-titulo{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:1.1rem; color:var(--magenta-escuro); margin:20px 0 10px 0;}
+  .bloco-secao{ margin-bottom:22px; page-break-inside:avoid;}
   ul.lista-pontos{ list-style:none; margin-bottom:14px;}
   ul.lista-pontos li{ display:flex; gap:10px; margin-bottom:10px; font-size:.93rem; line-height:1.6;}
   ul.lista-pontos li .bullet{ color:var(--magenta); flex-shrink:0; font-weight:700;}
   .destaque-box{ background:var(--magenta); color:#fff; border-radius:14px; padding:20px 26px; margin:22px 0; font-family:'Quicksand',sans-serif; font-weight:600; font-size:1.05rem; text-align:center; line-height:1.45;}
+  .cta-capitulo-wrap{ text-align:center; margin-top:18px; padding:18px; background:var(--rosa-claro); border-radius:14px;}
+  .cta-capitulo-wrap p{ margin-bottom:12px; font-size:.9rem;}
+  .btn-capitulo{ display:inline-block; background:var(--magenta); color:#fff; font-family:'Quicksand',sans-serif; font-weight:700; padding:12px 28px; border-radius:999px; text-decoration:none; font-size:.92rem;}
+
+  .pitch-page .separador-secao{ width:100%; max-width:420px; border-top:1px solid rgba(255,255,255,.25); margin:30px 0;}
+  .pitch-page .secao-pitch{ max-width:520px;}
+  .pitch-page .tag-mini-topo{ font-size:.72rem; letter-spacing:.05em; text-transform:uppercase; opacity:.8; font-weight:700; margin-bottom:10px;}
   .caixa-conexao{ background:var(--rosa-claro); border-left:4px solid var(--magenta); border-radius:8px; padding:14px 18px; font-size:.88rem; line-height:1.6; margin:16px 0; color:var(--texto);}
   .exercicio-cap{ background:var(--rosa-claro); border-radius:14px; padding:20px 24px; margin-top:20px;}
   .exercicio-cap .tit{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--magenta); font-size:1.02rem; margin-bottom:10px;}
@@ -141,7 +149,7 @@
   <div class="sumario">
     <div class="flower">✿</div>
     <h2>Sumário</h2>
-    <div class="sumario-item"><span>Quem estará com você nessa jornada</span><b>4</b></div><div class="sumario-item"><span>Introdução: por que reconhecer o padrão já é meio caminho andado</span><b>5</b></div><div class="sumario-item"><span>Como funciona o teste</span><b>6</b></div><div class="sumario-item"><span>O teste: 6 perguntas rápidas</span><b>7</b></div><div class="sumario-item"><span>Contando o resultado</span><b>9</b></div><div class="sumario-item"><span>Seu resultado, pergunta por pergunta</span><b>10</b></div><div class="sumario-item"><span>Seu próximo passo</span><b>12</b></div>
+    <div class="sumario-item"><span>Quem estará com você nessa jornada</span><b>4</b></div><div class="sumario-item"><span>Introdução: por que reconhecer o padrão já é meio caminho andado</span><b>5</b></div><div class="sumario-item"><span>Como funciona o teste</span><b>6</b></div><div class="sumario-item"><span>O teste: perguntas 1 a 3</span><b>7</b></div><div class="sumario-item"><span>O teste: perguntas 4 a 6</span><b>8</b></div><div class="sumario-item"><span>Contando o resultado</span><b>9</b></div><div class="sumario-item"><span>Seu resultado: letras A, B e C</span><b>10</b></div><div class="sumario-item"><span>Seu resultado: letras D, E e F</span><b>11</b></div><div class="sumario-item"><span>Seu próximo passo</span><b>12</b></div>
   </div>
 
 </div>
@@ -165,14 +173,17 @@
 
 <div class="page ">
 <span class="cap-tag">Capítulo 2</span>
-<h2 class="cap-titulo">O teste: 6 perguntas rápidas</h2>
+<h2 class="cap-titulo">O teste: perguntas 1 a 3</h2>
+<div class="bloco-secao">
 <h3 class="sub-titulo">1. Você comete um erro no trabalho. O que mais passa pela sua cabeça?</h3>
 <p class="par">A) "Que incompetente, eu deveria ter percebido antes."</p>
 <p class="par">B) "E se isso afastar as pessoas de mim?"</p>
 <p class="par">C) Lembro, na hora, de quando era cobrada por qualquer deslize em casa.</p>
 <p class="par">D) Fico incomodada se um colega faz melhor do que eu na mesma tarefa.</p>
-<p class="par">E) Eu me policio pra não "incomodar" ninguém com isso.</p>
+<p class="par">E) Eu me policio para não "incomodar" ninguém com isso.</p>
 <p class="par">F) Percebo que essa reação se repete em quase toda área da minha vida.</p>
+</div>
+<div class="bloco-secao">
 <h3 class="sub-titulo">2. Alguém importante demora a te responder uma mensagem. Você...</h3>
 <p class="par">A) Pensa: "eu devo ter feito alguma coisa errada."</p>
 <p class="par">B) Fica ansiosa, manda outra mensagem, ou já imagina que a pessoa vai sumir.</p>
@@ -180,6 +191,8 @@
 <p class="par">D) Já começa a imaginar cenários de desinteresse ou traição.</p>
 <p class="par">E) Acha que, no fundo, talvez não mereça tanta atenção assim.</p>
 <p class="par">F) Reconhece esse mesmo padrão de insegurança em várias áreas da vida.</p>
+</div>
+<div class="bloco-secao">
 <h3 class="sub-titulo">3. Você recebe um elogio sincero. Sua primeira reação é...</h3>
 <p class="par">A) "Ah, foi sorte" ou "qualquer uma faria isso."</p>
 <p class="par">B) Fico feliz, mas logo penso que a pessoa pode mudar de ideia sobre mim.</p>
@@ -187,27 +200,39 @@
 <p class="par">D) Fico com medo de perder esse reconhecimento para outra pessoa.</p>
 <p class="par">E) Me sinto desconfortável, como se não merecesse.</p>
 <p class="par">F) Noto que desconfio de elogios em quase todas as relações, não só numa.</p>
+</div><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 2</span>
+<h2 class="cap-titulo">O teste: perguntas 4 a 6</h2>
+<div class="bloco-secao">
 <h3 class="sub-titulo">4. Pensando num relacionamento amoroso recente ou atual...</h3>
-<p class="par">A) Me cobro demais pra ser "boa o suficiente" pro parceiro.</p>
+<p class="par">A) Me cobro demais para ser "boa o suficiente" para o parceiro.</p>
 <p class="par">B) Ou me agarro demais, ou me afasto antes de me machucar.</p>
 <p class="par">C) Repito, sem perceber, padrões que vi em casa quando criança.</p>
 <p class="par">D) Sinto um ciúme forte, às vezes sem motivo real concreto.</p>
-<p class="par">E) Aceito menos atenção do que gostaria, só pra manter a relação.</p>
+<p class="par">E) Aceito menos atenção do que gostaria, só para manter a relação.</p>
 <p class="par">F) Vejo que esse padrão se repete em várias das minhas relações, não só amorosas.</p>
+</div>
+<div class="bloco-secao">
 <h3 class="sub-titulo">5. Alguém pede sua ajuda ou atenção. O que normalmente acontece?</h3>
-<p class="par">A) Faço na hora, mesmo cansada, pra não parecer "ruim".</p>
+<p class="par">A) Faço na hora, mesmo cansada, para não parecer "ruim".</p>
 <p class="par">B) Tenho medo de decepcionar e a pessoa se afastar de mim.</p>
 <p class="par">C) Faço porque sempre fui a que cuida dos outros, desde criança.</p>
 <p class="par">D) Fico incomodada achando que a pessoa está "mais perto" de outra pessoa.</p>
 <p class="par">E) Faço, mas raramente peço o mesmo de volta.</p>
 <p class="par">F) Reconheço que isso é só mais um exemplo de um padrão bem maior na minha vida.</p>
+</div>
+<div class="bloco-secao">
 <h3 class="sub-titulo">6. Quando penso no motivo de eu repetir certos erros, acho que é porque...</h3>
 <p class="par">A) Sou dura demais comigo mesma.</p>
 <p class="par">B) Tenho medo de abandono, ou de me machucar de novo.</p>
 <p class="par">C) Vem de como fui tratada quando era criança.</p>
 <p class="par">D) É insegurança disfarçada de ciúme ou necessidade de controle.</p>
 <p class="par">E) Eu não me valorizo o suficiente.</p>
-<p class="par">F) É um padrão único, que aparece em praticamente tudo que eu faço.</p><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+<p class="par">F) É um padrão único, que aparece em praticamente tudo que eu faço.</p>
+</div><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
 </div>
 
 <div class="page ">
@@ -233,42 +258,69 @@
 
 <div class="page ">
 <span class="cap-tag">Capítulo 4</span>
-<h2 class="cap-titulo">Seu resultado, letra por letra</h2>
+<h2 class="cap-titulo">Seu resultado: letras A, B e C</h2>
+<div class="bloco-secao">
 <h3 class="sub-titulo">Maioria A: a relação com você mesma</h3>
-<p class="par">Seu padrão predominante aparece na forma como você fala, e se trata, consigo mesma. A voz crítica interna é a protagonista aqui.</p>
-<p class="par">Próximo passo sugerido: o e-book "Seu Maior Inimigo no Amor é Você Mesma" (R$12), o primeiro passo pra entender de onde vem essa voz e começar a mudar o diálogo interno.</p>
+<p class="par">Seu padrão predominante é a relação com você mesma: a forma como você fala, e se trata, consigo mesma. A voz interna crítica é a protagonista aqui.</p>
+<p class="par">A nossa sugestão para você se aprofundar nesse ponto, e conseguir melhorar a relação com você mesma, é através do nosso e-book "Seu Maior Inimigo no Amor é Você Mesma". Nesse exato momento, ele está custando apenas R$12. Ele vai te ajudar a entender de onde vem essa voz, e como começar a mudar esse diálogo interno.</p>
+</div>
+<div class="bloco-secao">
 <h3 class="sub-titulo">Maioria B: padrões de apego no amor</h3>
-<p class="par">Seu padrão predominante aparece nas relações amorosas, entre se agarrar demais ou se afastar antes de ser machucada.</p>
-<p class="par">Próximo passo sugerido: o e-book "Ele Chegou, Você Se Encantou, Ele Sumiu..." (R$27), pra entender apego ansioso e evitativo, e como se proteger.</p>
+<p class="par">Seu padrão predominante aparece nas relações amorosas: entre se agarrar demais, ou se afastar antes de ser machucada.</p>
+<p class="par">A nossa sugestão para você se aprofundar nesse ponto, e entender melhor esses padrões de apego, é através do nosso e-book "Ele Chegou, Você Se Encantou, Ele Sumiu...". Nesse exato momento, ele está custando apenas R$27. Ele vai te ajudar a reconhecer apego ansioso e evitativo, e a se proteger desses padrões no futuro.</p>
+</div>
+<div class="bloco-secao">
 <h3 class="sub-titulo">Maioria C: a ferida da família de origem</h3>
 <p class="par">Seu padrão predominante tem raiz em como você foi tratada quando criança, e ainda aparece hoje nas suas relações.</p>
-<p class="par">Próximo passo sugerido: o e-book "A Ferida Que Sua Família Deixou" (R$37), pra entender essa origem e parar de repeti-la sem perceber.</p>
+<p class="par">A nossa sugestão para você se aprofundar nesse ponto, e entender de onde vem essa herança, é através do nosso e-book "A Ferida Que Sua Família Deixou". Nesse exato momento, ele está custando apenas R$37. Ele vai te ajudar a entender essa origem, e a parar de repeti-la sem perceber.</p>
+</div><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 4</span>
+<h2 class="cap-titulo">Seu resultado: letras D, E e F</h2>
+<div class="bloco-secao">
 <h3 class="sub-titulo">Maioria D: ciúme e necessidade de controle</h3>
 <p class="par">Seu padrão predominante aparece como insegurança disfarçada de ciúme, ou necessidade de controlar o outro.</p>
-<p class="par">Próximo passo sugerido: o e-book "Seu Ciúme Não É Amor, É Medo Disfarçado" (R$47), pra construir mais segurança emocional de dentro pra fora.</p>
+<p class="par">A nossa sugestão para você se aprofundar nesse ponto, e construir mais segurança emocional, é através do nosso e-book "Seu Ciúme Não É Amor, É Medo Disfarçado". Nesse exato momento, ele está custando apenas R$47. Ele vai te ajudar a entender de onde vem esse medo, e a construir relações mais tranquilas.</p>
+</div>
+<div class="bloco-secao">
 <h3 class="sub-titulo">Maioria E: autovalorização e aceitar menos do que merece</h3>
 <p class="par">Seu padrão predominante aparece em aceitar menos atenção e reciprocidade do que você realmente merece nas relações.</p>
-<p class="par">Próximo passo sugerido: o e-book "Pare de Se Diminuir para Ser Amada" (R$67), pra aprender a reconhecer, e exigir, reciprocidade de verdade.</p>
+<p class="par">A nossa sugestão para você se aprofundar nesse ponto, e aprender a reconhecer seu valor, é através do nosso e-book "Pare de Se Diminuir para Ser Amada". Nesse exato momento, ele está custando apenas R$67. Ele vai te ajudar a reconhecer, e a exigir, reciprocidade de verdade.</p>
+</div>
+<div class="bloco-secao">
 <h3 class="sub-titulo">Maioria F, ou empate entre várias letras: um padrão que atravessa tudo</h3>
 <p class="par">Seu padrão predominante não fica só numa área, ele atravessa família, amizade, trabalho e amor ao mesmo tempo.</p>
-<p class="par">Próximo passo sugerido: o e-book "Por Que Isso Sempre Acontece Comigo?" (R$97), o mais completo da coleção, pra entender como esse mesmo padrão aparece em todas as áreas da sua vida.</p><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+<p class="par">A nossa sugestão para você se aprofundar nesse ponto, e entender a raiz comum por trás de tudo isso, é através do nosso e-book "Por Que Isso Sempre Acontece Comigo?", o mais completo da coleção. Nesse exato momento, ele está custando apenas R$97. Ele vai te ajudar a enxergar como esse mesmo padrão aparece em todas as áreas da sua vida.</p>
+</div><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
 </div>
 
 <div class="page ">
 <span class="cap-tag">Conclusão</span>
 <h2 class="cap-titulo">Seu próximo passo</h2>
 <p class="par">Esse teste não é um diagnóstico fechado, é um convite para prestar mais atenção em como você se trata, e em como você permite ser tratada.</p>
-<p class="par">Seja qual for a letra que mais apareceu para você, o importante é: reconhecer o padrão já é o primeiro passo para começar a mudá-lo.</p><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+<p class="par">Seja qual for a letra que mais apareceu para você, o importante é: reconhecer o padrão já é o primeiro passo para começar a mudá-lo.</p>
+<p class="par">Para ter certezas sobre o seu caso específico, o caminho mais seguro é sempre uma terapia individual, com uma psicóloga.</p>
+<p class="par"><div class="cta-capitulo-wrap"><p>Caso você deseje conhecer mais sobre o trabalho da Camila como psicóloga, toque no botão abaixo.</p><a class="btn-capitulo" href="https://wa.me/5551994003418?text=Oi%2C%20vim%20pelo%20teste%20gratuito%20e%20quero%20saber%20mais%20sobre%20atendimento%20com%20a%20Camila" target="_blank" rel="noopener">Falar com a Camila no WhatsApp</a></div></p><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
 </div>
 
 <div class="page pitch-page">
 
   <div class="flower" style="color:#fff;">✿</div>
-  
-  <h2 class="tit-comunidade">Quer trabalhar todos os seus pilares de autoconhecimento e relacionamentos, e ainda ter uma mentoria em grupo com a Camila?</h2>
-  <p>Então você precisa conhecer a Comunidade AME-SE: um espaço fechado e seguro com vários cursos de autoconhecimento, e mentoria em grupo com a Camila lá dentro.</p><p>E se você quiser continuar essa jornada de graça por enquanto, também te convidamos para a Comunidade Donas de Si, nosso grupo gratuito no WhatsApp, com conteúdo semanal sobre os mesmos temas desse teste.</p><p>Aproveite 7 dias grátis na Comunidade AME-SE para experimentar, e parcele em até 12x no cartão.</p>
-  <a class="cta-btn" href="https://curso-ame-se.camilasartori.com.br">Conheça mais sobre a comunidade, clique aqui</a>
-  <div class="preco-tag">7 dias grátis · 12x R$16,24</div>
+  <div class="secao-pitch">
+    <div class="tag-mini-topo">Comunidade AME-SE</div>
+    <h2 class="tit-comunidade">Quer trabalhar todos os seus pilares de autoconhecimento e relacionamentos, e ainda ter uma mentoria em grupo com a Camila?</h2>
+    <p>Então você precisa conhecer a Comunidade AME-SE: um espaço fechado e seguro com vários cursos de autoconhecimento, e mentoria em grupo com a Camila lá dentro.</p>
+    <a class="cta-btn" href="https://curso-ame-se.camilasartori.com.br">Conheça mais sobre a comunidade, clique aqui</a>
+    <div class="preco-tag">7 dias grátis · 12x R$16,24</div>
+  </div>
+  <div class="separador-secao"></div>
+  <div class="secao-pitch">
+    <div class="tag-mini-topo">Grupo VIP Donas de Si · gratuito</div>
+    <p>Se você quiser continuar essa jornada de graça por enquanto, ou não puder fazer esse investimento agora, te convidamos a conhecer também o nosso Grupo VIP no WhatsApp, Donas de Si: um grupo gratuito, exclusivo para mulheres, com conteúdos semanais sobre autoconhecimento e relacionamentos.</p>
+    <a class="cta-btn" href="https://chat.whatsapp.com/KitgsdMiNesF0Qq876MTTz">Entrar no Grupo VIP, clique aqui</a>
+  </div>
 
 </div>
 
