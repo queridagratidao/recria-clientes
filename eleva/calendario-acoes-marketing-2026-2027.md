@@ -7,33 +7,44 @@
 
 ## Lógica geral
 
-O Portal do Síndico é o motor de receita recorrente e a principal porta de entrada de leads qualificados. A autoridade do Giuliano (ElevaCast, Instagram, comunidade) alimenta o portal, e o portal alimenta as outras frentes. Cada pessoa que testa o portal vira um contato que pode, mais adiante, comprar curso, diagnóstico, mentoria, seguro ou entrar no Hub — por conta própria, pelo link da bio ou pelas automações.
+O Portal do Síndico é o motor de receita recorrente e a principal porta de entrada de leads qualificados. A autoridade do Giuliano (ElevaCast, Instagram, LinkedIn, comunidade) alimenta o portal, e o portal alimenta as outras frentes (expansão estratégica/cursos, Hub de Negócios, Corretora de Seguros).
 
-**Não há venda direta em nenhum momento deste calendário.** O marketing é autoridade, audiência, relacionamento e cadastro no teste do portal. Tudo que é oferta — cursos, sessão estratégica, diagnóstico, mentoria, seguros — fica disponível no link da bio e nas automações, para quem quiser comprar por conta própria, sem abordagem comercial direta.
+O calendário abaixo é o ritmo editorial do feed e da comunidade. Em paralelo a ele, rodam campanhas pontuais que não têm calendário fixo, ativadas conforme o momento:
 
-A exceção é a **campanha de lançamento do Portal do Síndico**, com verba paga separada rodando por cerca de 30 dias tanto na Meta quanto no Google (ver detalhes no mês de outubro, abaixo). Ela não é venda direta, mas uma **venda indireta**: o objetivo é cadastro no teste grátis de 60 dias, para a pessoa só decidir pela compra depois de usar a plataforma. Fora dessa campanha de lançamento, o Always On de engajamento no Instagram segue no ritmo atual, sem aumento de investimento.
+- **Campanha de cadastro do Portal do Síndico** (Meta + Google) — detalhada no mês de outubro, abaixo.
+- **Compra de carteira imobiliária**, pontual, com abordagem direta por WhatsApp.
+- **Venda direta de curso/diagnóstico/mentoria**, sem padrão fixo, a critério do Giuliano conforme o período.
 
-**Papel de cada canal:** o conteúdo educa e gera confiança; o cadastro no portal é o convite explícito, tanto no orgânico quanto na campanha paga de lançamento; o link da bio e as automações cuidam do resto. O Giuliano aparece como referência no dia a dia do síndico, e quem se interessar por outras frentes encontra o caminho sozinho.
+Nenhuma dessas três está ativa o tempo todo — podem ligar e desligar conforme a necessidade do momento, mas é bom ter a observação registrada para não se perder no planejamento.
 
 ---
 
 ## Rotina fixa, o ano todo
 
-- **ElevaCast** com cortes distribuídos nas redes sociais.
-- **Conteúdo semanal na comunidade do WhatsApp** (Eleva, Síndicos de Alta Performance), intercalando cortes do podcast, artigos do blog e dicas práticas.
-- **E-mail mensal** para a base.
-- **Always On de engajamento no Instagram**, com as postagens existentes, sem aumento de investimento.
-- **Calendário editorial mensal** com quatro temas rotativos: dor do síndico, bastidor do portal, caso ou depoimento, e conteúdo de autoridade.
+- **Instagram:** cerca de 5 postagens por semana, intercalando carrossel com cortes de episódios do ElevaCast (podcast). Os temas dos carrosséis trabalham as dores do síndico, do executivo e, pontualmente, do fornecedor (que também é cliente em potencial de curso, diagnóstico e mentoria).
+- **LinkedIn:** 1 postagem por semana.
+- **Comunidade Eleva no WhatsApp:** conteúdo semanal intercalando cortes de podcast, episódios do Spotify da Eleva, artigos do blog e outros materiais práticos.
+- **Always On de engajamento no Instagram:** R$ 25/dia impulsionando o conteúdo voltado ao público síndico, e R$ 25/dia impulsionando o conteúdo voltado ao público executivo/administradora — sempre a partir do que já sai organicamente no feed.
+- **Vídeos do Giuliano para produção**, todo mês:
+  - 1 a 2 vídeos para o Instagram (o quanto ele conseguir gravar), usados em stories e no feed.
+  - 1 vídeo exclusivo por mês para a comunidade do WhatsApp.
 
 ---
 
-## Datas confirmadas que ancoram o calendário
+## Datas que fazem sentido para o perfil
 
-- **Dia do Síndico — 30 de agosto.** Em 2026 a data já passou; a grande ação fica para 30/08/2027 (segunda-feira).
-- **Temporada de assembleias — março a novembro.** Pico de conteúdo nesse período.
-- **Black Friday — 27/11/2026 e 26/11/2027.** Sem promoção ou desconto; o conteúdo lembra que o teste gratuito está aberto.
+Sem postagem institucional de data comemorativa ("feliz dia tal"). Datas só entram como **gancho de conteúdo**, puxando para uma dor ou tema real do síndico/executivo/fornecedor. As que não tiverem gancho claro ficam de fora.
 
-> Datas de feriados e comemorativas abaixo foram organizadas de memória — vale conferir cada uma antes de agendar a publicação.
+- **Dia da Mulher (8/3):** gancho para falar com síndicas seguidoras.
+- **Dia do Trabalhador (1/5):** gancho para valorizar porteiro e zelador — nunca "feliz dia", e sim algo como "hoje é o Dia do Trabalhador: você se sente valorizado na sua gestão? E quem te ajuda no dia a dia, você valoriza também?".
+- **Dia das Mães (9/5):** homenagem simples, só nos stories.
+- **Dia do Meio Ambiente (5/6):** gancho sobre gestão ambiental do condomínio, coleta seletiva e redução de custo.
+- **Dia do Síndico (30/8):** data própria do público, com destaque no feed — avaliar um vídeo do Giuliano parabenizando os síndicos.
+- **Data do fornecedor/prestador de serviço**, se existir uma data reconhecida — levantar e usar da mesma forma.
+- **Setembro Amarelo:** gancho para falar sobre estresse e saúde mental do síndico.
+- **Datas do executivo/administrador/CEO:** levantar as datas reconhecidas desse público (por exemplo, Dia do Administrador, Dia do Empreendedor) para ter ganchos equivalentes aos do síndico — hoje o calendário está mais carregado de datas voltadas ao síndico, vale equilibrar com o público executivo também. Confirmar as datas antes de agendar.
+
+Fora dessas, nenhuma outra data comemorativa entra no perfil (sem Dia das Crianças, Páscoa, Dia da Água, Dia do Contador, Dia do Advogado, Dia do Corretor de Imóveis, Dia Nacional do Seguro, Black Friday).
 
 ---
 
@@ -45,146 +56,144 @@ Foco: fazer as pessoas conhecerem o portal e testarem. Sem falar em preço.
 
 **Campanha paga de lançamento (Meta + Google Ads):** a partir da data de lançamento (dia 13 ou dia 20 de outubro, a confirmar), entra uma campanha paga com verba separada do Always On, rodando por cerca de 30 dias nos dois canais. É campanha de **cadastro**, não de venda direta — leva a pessoa a se cadastrar no teste grátis de 60 dias, para decidir pela compra depois de usar a plataforma (venda indireta). A estrutura de Google Ads já está detalhada em documento à parte; a versão Meta segue a mesma lógica de objetivo de cadastro, com os criativos do carrossel e do convite à comunidade já aprovados como ponto de partida.
 
-- **Semana de 6 a 11:** teaser do portal no Instagram, e-mail de lançamento, acesso antecipado e convite pessoal do Giuliano na comunidade do WhatsApp. Ajustar o início exato da campanha paga para a semana da data de lançamento confirmada (13 ou 20/10).
-- **Semana de 12 a 18:** demonstração curta do portal em Reels. Dia 12 (Dia das Crianças) — conteúdo sobre segurança em playground e áreas comuns. Dia 12 também é Dia do Corretor de Seguros — gancho educativo sobre seguro condominial, sem oferta.
-- **Semana de 19 a 25:** episódio do ElevaCast sobre o portal, com cortes ao longo da semana.
-- **Semana de 26 a 31:** primeiros depoimentos dos testadores e e-mail de lembrete.
+- **Dia 12/10:** carrossel de antecipação do portal no feed (o que já produzimos).
+- **Dia do lançamento (13 ou 20/10):** post estático "é hoje", no mesmo layout visual do carrossel — "Está no ar o Portal do Síndico! Teste grátis por tempo de cortesia. Comente 'PORTAL' ou acesse o link da bio."
+- Junto com o lançamento, chamada para a pessoa entrar também no grupo/comunidade Eleva no WhatsApp.
+- Sem ElevaCast novo em outubro — a próxima edição é em novembro. Nela, falar que "lançamos recentemente o Portal do Síndico", com acesso de cortesia pelo período de teste, disponível no link da bio.
+- Ainda não temos depoimentos reais (inscrições não abriram). Em vez disso, pedir para síndicos parceiros testarem o portal e darem retorno/prova social, para usar como conteúdo nas semanas seguintes.
 
-**Jornada automática do teste de 60 dias** (estruturar nas automações):
-boas-vindas e onboarding no dia 1 → estímulo a uma ação-chave no dia 7 → dica de uso no dia 30 → informação transparente sobre plano e valor perto do dia 45 → lembretes antes do fim do período. A informação sobre cobrança precisa ser clara desde o início, para não gerar surpresa.
+## Novembro de 2026 — Benefícios do portal e comunidade
 
-Coletar depoimentos curtos em vídeo dos primeiros testadores — viram conteúdo dos meses seguintes.
+Foco geral de outubro e novembro: bastante conteúdo orgânico sobre os benefícios do portal e convite ao cadastro, reforçado pelo Always On de engajamento.
 
-## Novembro de 2026 — Prova social e mais cadastros
+- **ElevaCast:** último episódio (ou dois, ainda em análise) do ano, gravado em novembro — o material já é pensado para alimentar as redes em janeiro e fevereiro de 2027, já que a próxima gravação só acontece em março.
+- **1ª semana de novembro:** post sobre quanto tempo em média o portal economiza do síndico, com toda a entrega que ele faz.
+- **2ª semana de novembro:** post chamando para testar e já se preparar para uma gestão 2027 mais eficiente, com menos imprevistos.
+- Seguem os cortes de podcast e o ritmo normal do feed e da comunidade.
 
-- Conteúdo orgânico com depoimentos dos testadores, cortes do ElevaCast e posts mostrando o portal em uso.
-- Episódio do ElevaCast com um síndico usuário do portal contando a experiência real.
-- **Feriados de 2/11 (Finados) e 20/11 (Consciência Negra):** conteúdo sobre regras para feriadão, visitantes e uso de áreas comuns.
-- Assembleias de novembro/dezembro tratam de previsão orçamentária, reajuste da taxa e eleição de síndico — série em quatro partes, "Previsão orçamentária sem briga", cobrindo o mês inteiro.
-- **Semana da Black Friday (27/11):** conteúdo sobre o que renegociar com fornecedores antes de fechar o orçamento do ano seguinte, com lembrete discreto de que o teste do portal está aberto — sem promoção.
-- Última semana: prepara o verão, com conteúdo sobre caixa d'água, para-raios, dedetização e impermeabilização.
-- Ritmo semanal da comunidade continua, intercalando cortes, artigos e dicas sobre o dia a dia.
+## Dezembro de 2026 — Ritmo mais tranquilo
 
-## Dezembro de 2026 — Acompanhamento e retrospectiva
-
-Os primeiros testadores chegam ao fim dos 60 dias — prioridade no **acompanhamento**, não na divulgação.
-
-- Mensagens automáticas segmentadas por nível de uso (quem usou bastante vs. quem quase não entrou).
-- Áudio ou mensagem pessoal do Giuliano para os usuários mais engajados.
-- Registrar motivos de quem não seguiu usando — orienta produto e conteúdo de 2027.
-- Conteúdo do mês: prestação de contas, previsão orçamentária e assembleias.
-- Duas dores reais: **13º e férias dos funcionários**, e **prestação de contas do ano** — um episódio e um carrossel sobre cada.
-- Regras para festas de fim de ano no salão, e cuidado com mudanças e visitas.
-- **Dia 14 — Dia Nacional do Seguro:** conteúdo sobre renovação de apólice condominial.
-- Episódio e e-mail de retrospectiva do ano, com anúncio de que 2027 traz o Kit Assembleia (ver fevereiro/2027).
-- Última semana do ano: reduzir o ritmo, mantendo só o conteúdo semanal da comunidade.
+- **1ª semana de dezembro:** post sobre as vantagens do portal, chamando a pessoa para aderir.
+- **2ª semana de dezembro:** mais um post relacionado ao portal (a definir o tema em conjunto).
+- Depois disso, o portal só volta a ser pauta em janeiro — para não cansar o público.
+- Resto do mês mais tranquilo, com mais cortes de podcast. Sem falar de 13º, férias, festas de fim de ano ou retrospectiva institucional.
 
 ---
 
 # 2027
 
-## Primeiro trimestre — Constância e retenção
+## Janeiro a março — Ritmo semanal fixo
 
-Trimestre de consistência. Janeiro acompanha a segunda leva de testadores (quem entrou em novembro começa a pagar). A partir daí, o conteúdo ajuda quem já é assinante a aproveitar melhor o portal (tutoriais, casos de uso, novidades), sustentando a retenção. Os cadastros continuam via conteúdo orgânico e base de e-mails.
+**Cadência semanal:** terça-feira = carrossel, quinta-feira = post estático, demais dias (segunda, quarta, sexta) = cortes de podcast.
 
-As outras frentes aparecem **como conteúdo, não como oferta.** O ElevaCast pode trazer episódios sobre gestão, liderança e relacionamento com moradores, conectando naturalmente com treinamento e mentoria. Sobre seguros: conteúdos educativos sobre o seguro condominial obrigatório, como revisar a apólice e erros comuns em sinistros — com chamada discreta para o link da bio.
+**Intercalando as personas a cada post**, por exemplo:
+- Semana 1 — terça: carrossel síndico · quinta: estático executivo
+- Semana 2 — terça: carrossel fornecedor · quinta: estático síndico
+- Semana 3 — terça: carrossel executivo · quinta: estático fornecedor
+- (repete o ciclo)
 
 ### Janeiro de 2027
-- Mês do planejamento: calendário anual de manutenções do síndico (elevador, extintores, AVCB, limpeza de caixa d'água), com modelo para baixar.
-- Chuvas e dengue como tema de prevenção.
-- Reajuste de funcionários — depende do dissídio da categoria na região; conteúdo explicando como calcular.
-- Última semana: teaser do Kit Assembleia.
+Mês de preparação para o ano. Foco em curso e portal.
+- Curso de recolocação profissional / formação de síndico.
+- Curso "Multiplicar Vendas" (fornecedor, mas também serve às outras frentes).
+- Portal do Síndico, retomando o convite ao teste.
+- Pode fazer ponte com o conceito do **Kit Assembleia** — a pessoa já se organizando para o início da temporada de assembleias.
 
 ### Fevereiro de 2027
-- **Carnaval em 9/2** — primeira semana mais leve, com conteúdo evergreen e cortes reaproveitados.
-- A partir da segunda quinzena: lançamento do **Kit Assembleia** (modelo de edital de convocação, checklist de pauta, roteiro de condução e modelo de ata), liberado no cadastro do teste do portal, sem venda. Se o portal tiver funções de comunicados/assembleias, mostrar em demonstrações curtas; se não tiver, o kit funciona como ponte.
-- Série "Assembleia sem estresse", abrindo a temporada.
-- Concentrar os conteúdos mais fortes em janeiro e na segunda quinzena de fevereiro, já que o Carnaval derruba a atenção.
+Introduz diagnóstico e mentoria para as três personas (síndico, executivo, fornecedor), seguindo o funil: o curso é a ponta de entrada, e quanto mais a pessoa quer personalização e acompanhamento da Eleva, mais caminha para diagnóstico e mentoria.
+- Diagnóstico Eleva (3 personas).
+- Mentoria Eleva (3 personas).
+- Portal do Síndico, mantendo a preparação do início do ano: revisão de apólice, organização das contas, preparação para assembleias.
+- **Dia da Mulher (8/3, já na virada para março):** gancho para síndicas.
 
-### Março de 2027 — Mês mais forte de conteúdo
-Começa o pico de assembleias.
-- Semana 1: como convocar e montar a pauta.
-- Semana 2: documentos e prestação de contas.
-- Semana 3: como conduzir a assembleia e lidar com moradores difíceis.
-- Semana 4: ata e pós-assembleia.
-- **Dia 8 — Dia da Mulher:** homenagem às síndicas, com entrevista de uma delas no ElevaCast.
-- **Dia 22 — Dia da Água:** conteúdo sobre consumo, rateio e hidrômetros individuais.
-- **Páscoa (28/3):** regras para feriado prolongado.
+### Março de 2027
+Começa o pico de novos contratos e assembleias para mudança de síndico — aprofundar esse tópico. Também introduz Hub de Negócios e Corretora de Seguros como conteúdo (sem oferta comercial ainda).
+- **Assembleia** como tema central do mês.
+- Hub de Negócios — primeira menção.
+- Corretora de Seguros — primeira menção.
+- Portal do Síndico segue em pauta.
 
-## Segundo trimestre — Autoridade em escala e apresentação do Hub
-
-Foco em ampliar o alcance orgânico.
-
-### Abril de 2027
-- Assembleias seguem, com foco em inadimplência e fundo de reserva.
-- **Dia 25 — Dia do Contador:** episódio com um contador de condomínios, conectando naturalmente com o Hub.
-- Feriado de 21/4: conteúdo de regras de feriado.
-
-### Maio de 2027
-- **Dia 1º — Dia do Trabalhador:** valorização de porteiros, zeladores e faxineiros, com depoimentos de síndicos e dicas de gestão de equipe.
-- **Dia das Mães (9/5):** homenagem leve às moradoras e síndicas.
-- Tema técnico do mês: obras e manutenção aprovadas em assembleia (orçamento, três cotações, acompanhamento).
-
-### Junho de 2027
-- Convivência e festas juninas no condomínio: regras, barulho e responsabilidade civil.
-- **Dia 5 — Meio Ambiente:** coleta seletiva e redução de custos.
-- Fechamento do semestre: balancete semestral e revisão do orçamento.
-
-**Ideias para ampliar alcance no trimestre:** convidados no ElevaCast (síndicos, administradores, especialistas, fornecedores), séries de cortes por tema, parcerias de conteúdo com outros perfis do setor — convidados novos trazem audiência nova sem custo de mídia.
-
-**Hub de Negócios:** apresentar primeiro à comunidade e depois ao público, com os parceiros iniciais aparecendo em entrevistas e conteúdos, em vez de lançamento comercial. Como há comissão envolvida em recomendações a síndicos, deixar as regras claras e públicas, e validar o desenho com um advogado.
-
-**Corretora de Seguros:** produzir material de apoio (guias, checklists, vídeos curtos) que administradoras e síndicos possam compartilhar livremente.
-
-## Terceiro trimestre — Integração das frentes
-
-### Julho de 2027
-- Férias escolares aumentam movimento de crianças, piscina e áreas de lazer — e conflitos também. Série sobre uso seguro dos espaços comuns, responsabilidade do condomínio e regimento interno.
-- Balanço de seis meses de uso do portal, com depoimentos.
-
-### Agosto de 2027 — Mês do Síndico (ação micro mais forte do ano)
-Três ondas:
-- **16 a 29/8:** teaser, convite para moradores mandarem homenagens, coleta de histórias de síndicos.
-- **Semana do dia 30 (Dia do Síndico):** homenagem em vídeo do Giuliano, episódio especial do ElevaCast, mural digital com mensagens de moradores, presente gratuito (o próprio Kit Assembleia ou um guia exclusivo) — convite de teste do portal como único chamado.
-- **Semana seguinte:** cortes das melhores histórias e agradecimento na comunidade e no e-mail.
-- **Dia 11 — Dia do Advogado:** episódio com advogado condominial.
-- **Dia 27 — Dia do Corretor de Imóveis:** conexão educativa com a frente imobiliária.
-
-### Setembro de 2027
-- **Setembro Amarelo:** saúde mental e estresse do síndico — episódio sensível, conteúdo sobre limites e divisão de tarefas, com cuidado e, se possível, um profissional convidado.
-- **Primavera (22/9):** manutenção de jardim e áreas verdes.
-- Assembleias seguem, com foco em eleição e mandato.
-
-A comunicação do trimestre passa a mostrar a **Eleva como ecossistema** — conteúdo, portal, Hub e seguros como partes de uma mesma jornada, com histórias reais de síndicos que passaram por mais de uma frente. O portal ganha comunicação específica para quem tem vários condomínios e para administradoras, com conteúdo sobre gestão em escala. Se a base estiver madura, avaliar um programa de indicação entre usuários.
-
-## Quarto trimestre — Consolidação
-
-### Outubro de 2027
-- Aniversário de um ano do portal: retrospectiva com números reais, depoimentos e bastidores.
-- Dia 12: Dia das Crianças e Dia do Corretor de Seguros — histórias de sinistros reais (anonimizadas).
-
-### Novembro e dezembro de 2027
-- Novembro: última temporada de assembleias do ano (previsão orçamentária e eleição), com a série do ano anterior atualizada. Black Friday em 26/11, mesma lógica sem promoção.
-- Dezembro: repete o ciclo de 13º, férias, festas, Dia Nacional do Seguro (14/12) e retrospectiva do ano.
-
-No último mês, análise completa de resultados por frente (cadastros, ativação, retenção, crescimento de audiência e vendas espontâneas pelo link da bio e automações), para decidir onde focar em 2028.
+**Temporada de assembleias (março a novembro):** falar do tema em meses alternados — **março, maio, julho, setembro, outubro e novembro** — para manter o assunto presente o ano todo sem repetir toda semana.
 
 ---
 
-## Cadência semanal sugerida
+## Lives mensais, a partir de março de 2027
 
-- 1 corte do ElevaCast
-- 1 carrossel ou Reels do tema da semana
-- Stories com caixinha de perguntas dos síndicos (que viram conteúdo)
-- Envio semanal na comunidade do WhatsApp, intercalando corte, artigo e dica
-- E-mail mensal consolidando o tema do mês e o convite ao teste do portal
+Uma live por mês (tema e convidado a validar com o Giuliano). Fica disponível por uma semana no feed e depois sai do ar, permanecendo arquivada só dentro do portal/curso, para os alunos assistirem. Avaliar cortes a partir de cada live para alimentar o feed.
 
-Quando um tema gerar muita pergunta nas caixinhas, transformar em episódio do ElevaCast.
+| Mês | Tema/convidado sugerido |
+|---|---|
+| Março | Portal do Síndico — relembrar o lançamento do fim de 2026 |
+| Abril | Hub de Negócios |
+| Maio | Corretora de Seguros |
+| Junho | Executivos / mentoria |
+| Julho | Síndico (período de férias) e fornecedores (se preparando para o 2º semestre) |
+| Agosto | Depoimento de cliente, se já houver algum disponível |
+| Setembro | Saúde mental do síndico (Setembro Amarelo) |
+| Outubro | Síndico e administradora — final de ano, o que fizeram e o que falta fechar |
+| Novembro | Fechamento do ano (convidado a definir) |
+| Dezembro | Retrospectiva do ano e preparação para o próximo |
 
 ---
 
-## Métricas de acompanhamento
+## Casos reais — abril a novembro de 2027
 
-Como não há venda ativa, as métricas principais são: crescimento de seguidores e inscritos, alcance dos cortes, cadastros no portal, ativação no teste (uso na primeira semana), conversão após os 60 dias, retenção (segundo e terceiro mês de pagamento) e cliques no link da bio.
+A partir de abril, o Giuliano conta um caso real por mês, sem citar nomes (ex.: "chegou uma imobiliária assim, assado…", "chegou um síndico com essa situação, e foi assim que resolvemos…"). Intercalando as personas: síndico, executivo, fornecedor, síndico, executivo, fornecedor — ao longo de 8 meses (abril a novembro).
 
-A cada fim de trimestre, uma reunião curta para decidir o que acelerar, manter ou cortar com base nesses números.
+## Prova social em vídeo — abril, junho, agosto e outubro de 2027
+
+Pedir ao Giuliano, nesses quatro meses, pelo menos um vídeo de um conhecido falando bem da Eleva, para ter conteúdo de prova social pronto nesses períodos.
+
+---
+
+## Temas por mês — abril a dezembro de 2027
+
+### Abril
+Segue o ritmo de persona + assembleia quando o mês cair no rodízio (abril não está na lista de meses de assembleia — foco no caso real do mês e no Hub de Negócios, que estreou em março).
+
+### Maio
+- **Dia do Trabalhador (1/5):** gancho de valorização de porteiro/zelador.
+- **Dia das Mães (9/5):** homenagem simples nos stories.
+- **Assembleia** no rodízio do mês.
+- Corretora de Seguros em pauta (live do mês).
+
+### Junho
+- **Dia do Meio Ambiente (5/6):** gestão ambiental, coleta seletiva, redução de custo no condomínio.
+- **Carrossel grande apresentando todas as frentes do Eleva Group** (curso/diagnóstico/mentoria, Corretora de Seguros, Hub de Negócios, Portal do Síndico, comunidade gratuita no WhatsApp) — a essa altura tudo já estará funcionando. Fixar esse carrossel no topo do feed depois de publicado.
+
+### Julho
+- Preparar o condomínio para as férias escolares: segurança em playground e áreas comuns, antecipar possíveis conflitos com moradores por causa do maior movimento de crianças.
+- **Assembleia** no rodízio do mês.
+- Live do mês fala com síndico (férias) e fornecedor (preparação para o 2º semestre).
+
+### Agosto
+- **Dia do Síndico (30/8):** destaque do mês, parabenizando os síndicos — avaliar vídeo do Giuliano.
+- Gancho de meio de ano: "já passou metade do ano, como está a sua carteira?" — puxando para curso, mentoria e diagnóstico, com retrospectiva pessoal do síndico/executivo e incentivo a já se preparar para o próximo ciclo (Portal, Hub, etc.).
+
+### Setembro
+- **Setembro Amarelo:** estresse e saúde mental do síndico, como lidar melhor com a rotina.
+- **Inverno:** aumento da conta de luz nos condomínios — como o síndico pode se antecipar, montando um fundo de reserva específico para isso.
+- **Assembleia** no rodízio do mês.
+
+### Outubro
+- **Assembleia** no rodízio do mês, com foco na reta final — fechar os últimos contratos/condomínios antes do fim do ano.
+- Aniversário de um ano do portal (lançado em outubro de 2026) — avaliar retrospectiva curta.
+
+### Novembro
+- **Assembleia** no rodízio do mês, mesma lógica de reta final do ano.
+- Live de fechamento do ano.
+
+### Dezembro
+- Sem falar de férias, festas de fim de ano ou 13º.
+- Gancho: aproveitar o período mais tranquilo (menos demanda do condomínio) para estudar e se desenvolver — puxando para curso, diagnóstico ou mentoria.
+- Live de retrospectiva do ano e preparação para o próximo.
+
+---
+
+## Pendências para fechar com o Giuliano
+
+1. Confirmar a data exata do lançamento do portal (13 ou 20/10).
+2. Validar o calendário de convidados e temas das lives mensais a partir de março/2027.
+3. Levantar datas comemorativas reconhecidas do público executivo/administrador/CEO, para equilibrar com as datas já usadas do síndico.
+4. Confirmar se existe uma data reconhecida de fornecedor/prestador de serviço para usar como gancho.
+5. Organizar a agenda de gravação dos vídeos mensais (1–2 para Instagram, 1 exclusivo para a comunidade do WhatsApp) e da live mensal a partir de março.
