@@ -38,7 +38,7 @@ A ProHub reservou as seguintes opções, para a primeira quinzena de novembro (2
 | Episódio de entrevista no E1 (preço de tabela) | R$ 1.100,00 | R$ 1.500,00 |
 | **Valor já praticado com a Eleva** | **R$ 800,00** | **R$ 900,00** |
 
-Inclui: gravação de até 60 min por episódio + 30 min extras de estúdio, edição posterior simples, operação técnica especializada. Identidade (logotipo, vinheta, GC, thumbnail) entregue junto da primeira edição. **Na prática, hoje:** a ProHub cuida só da gravação e da entrega do episódio editado bruto — o upload no YouTube/Spotify e todos os cortes ficam por conta do René.
+Inclui: gravação de até 60 min por episódio + 30 min extras de estúdio, edição posterior simples, operação técnica especializada. **Na prática, hoje:** a ProHub cuida só da gravação e da entrega do episódio bruto editado e sem cortes — o upload no YouTube e todos os cortes ficam por conta do René.
 
 **Prazos da ProHub:** primeira entrega (episódio editado + identidade completa) em 15 dias; episódios seguintes em 7 dias; cortes em 5 dias após o envio dos tempos pelo cliente.
 
