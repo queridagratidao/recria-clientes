@@ -410,8 +410,8 @@ Formato: e-book em PDF, com acesso imediato. Garantia de 7 dias.
 - **Formato:** E-book (PDF) · **Idioma:** Português (Brasil)
 - **Categoria sugerida:** Negócios e Carreira (ou Marketing e Vendas)
 - **Preço (pagamento único):** R$ 17,00 · **Garantia:** 7 dias
-- **Arquivo para enviar:** ebook-recria-medio-ticket.pdf
-- **Página de vendas:** https://www.agenciarecria.com.br/medio-ticket/
+- **Arquivo para enviar:** ebook-recria-medium-ticket.pdf
+- **Página de vendas:** https://www.agenciarecria.com.br/medium-ticket/
 - **Página de obrigado:** https://www.agenciarecria.com.br/obrigado-ebook/
 - **Descrição curta:** Aprenda a subir um degrau na sua esteira com um produto de valor intermediário, para vender mais para quem já confia em você, seja o seu negócio físico ou digital.
 
