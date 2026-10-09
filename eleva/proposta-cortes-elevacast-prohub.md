@@ -90,4 +90,5 @@ Ou seja: dois meses a Amanda entrega edição de episódios, um mês edita mater
 ## 6. Decisão do Giuliano
 
 1. Os cortes adicionais ficam com a **ProHub** (R$ 1.600 ou R$ 2.400 por episódio, conforme a quantidade), ou
-2. Os cortes ficam com a **Amanda**, com acréscimo mensal de R$ 1.500,00 no contrato da RECRIA a serem pagos a partir de dezembro de 2026.
+2. Os cortes ficam com a **Amanda**, com acréscimo mensal de R$ 1.500,00 no contrato da RECRIA a serem pagos a partir de dezembro de 2026, ou
+3. Deixar como está, com o **Rene**.
