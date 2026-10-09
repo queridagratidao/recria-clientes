@@ -10,7 +10,7 @@ Retorno da ProHub sobre os valores de captação/edição e de cortes do ElevaCa
 
 A ProHub já é responsável há vários anos pela **captação e edição do ElevaCast** (episódio bruto, de até 1h por gravação). Hoje a Eleva paga o valor promocional já aplicado à conta: **R$ 900,00 por episódio editado** — quando são gravados 2 episódios na mesma sessão, fica **R$ 1.800,00**.
 
-A ficha técnica da ProHub lista um bônus de 5 cortes verticais editados por episódio, mas esse bônus não está sendo usado — quem sempre cuidou de **todos** os cortes (e também do upload do episódio completo no YouTube e no Spotify) é a empresa do Alexandre (primo do Giuliano), na qual a Eleva é atendida pelo René. O problema: o René está entregando com muito atraso — mais de 30 dias, enquanto a ProHub entrega em até 15. É esse ponto que precisa de uma decisão agora.
+A ficha técnica da ProHub lista um bônus de 5 cortes verticais editados por episódio, mas esse bônus não está sendo usado — quem sempre cuidou de **todos** os cortes (e também do upload do episódio completo no YouTube e no Spotify) é a empresa do Alexandre (primo do Giuliano), na qual a Eleva é atendida pelo Rene. O problema: o Rene está entregando com muito atraso — mais de 30 dias, enquanto a ProHub entrega em até 15. É esse ponto que precisa de uma decisão agora.
 
 ---
 
@@ -38,7 +38,7 @@ A ProHub reservou as seguintes opções, para a primeira quinzena de novembro (2
 | Episódio de entrevista no E1 (preço de tabela) | R$ 1.100,00 | R$ 1.500,00 |
 | **Valor já praticado com a Eleva** | **R$ 800,00** | **R$ 900,00** |
 
-Inclui: gravação de até 60 min por episódio + 30 min extras de estúdio, edição posterior simples, operação técnica especializada. **Na prática, hoje:** a ProHub cuida só da gravação e da entrega do episódio bruto editado e sem cortes — o upload no YouTube e todos os cortes ficam por conta do René.
+Inclui: gravação de até 60 min por episódio + 30 min extras de estúdio, edição posterior simples, operação técnica especializada. **Na prática, hoje:** a ProHub cuida só da gravação e da entrega do episódio bruto editado e sem cortes — o upload no YouTube e todos os cortes ficam por conta do Rene.
 
 **Prazos da ProHub:** primeira entrega (episódio editado + identidade completa) em 15 dias; episódios seguintes em 7 dias; cortes em 5 dias após o envio dos tempos pelo cliente.
 
