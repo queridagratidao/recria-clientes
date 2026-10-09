@@ -93,9 +93,7 @@ Estimativas aproximadas com base no comportamento típico desse nicho, para orie
 
 **Como priorizar o orçamento:** concentrar o investimento nos termos de maior volume e intenção direta (sistema para síndico, programa de gestão de condomínio, aplicativo para síndico, software de gestão para condomínio), com uma fatia menor nos termos de cauda longa, que custam menos por clique e tendem a converter melhor por já virem com a dor bem definida — e cortar rápido os termos de cauda longa que não gerarem clique relevante nos primeiros dias, já que a verba é curta.
 
-**Sobre Performance Max:** com uma verba desse tamanho, não compensa abrir uma segunda campanha em outro formato — ela competiria pelo mesmo orçamento e tornaria mais lento o aprendizado de ambas. Fica só a campanha de Pesquisa.
-
-**Palavras-chave extraídas do próprio site do portal (a partir dos prints que a Amanda já passou):** a página mostra, no painel de exemplo, itens específicos de prazo e manutenção (extintor, teste de estanqueidade do gás, manutenção preventiva do gerador, limpeza de caixa d'água) e os quatro blocos de funcionalidade (obrigações do condomínio, avisos e alertas, orçamentos, relatório de conformidade). Dá para transformar isso em mais algumas palavras-chave de cauda longa, prováveis buscas de quem já tem esse problema específico:
+**Para testarmos também: Palavras-chave extraídas do próprio site do portal:** a página mostra, no painel de exemplo, itens específicos de prazo e manutenção (extintor, teste de estanqueidade do gás, manutenção preventiva do gerador, limpeza de caixa d'água) e os quatro blocos de funcionalidade (obrigações do condomínio, avisos e alertas, orçamentos, relatório de conformidade). Dá para transformar isso em mais algumas palavras-chave de cauda longa, prováveis buscas de quem já tem esse problema específico:
 
 - "extintor vencido condomínio"
 - "teste de estanqueidade gás condomínio"
