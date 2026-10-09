@@ -34,6 +34,10 @@ Fico no aguardo do seu retorno também sobre:
 
 Ainda estou pesquisando uma empresa para terceirizarmos o nosso comercial, assim que eu tiver retorno te aviso.
 
-Minha sugestão de postagem, enquanto aguardo o seu retorno: hoje ainda à noite, posto o convite para a comunidade do WhatsApp; na próxima segunda, dia 12, o carrossel de antecipação do portal. Se o lançamento for confirmado para o dia 13, já deixo pronto o post estático de "é hoje, lançamos o portal" para esse dia — senão, esse post fica para o dia 20.
+Minha sugestão de postagem, enquanto aguardo o seu retorno:
 
-Fico no aguardo do seu retorno para seguirmos.
+- Hoje ainda à noite: posto o convite para a comunidade do WhatsApp.
+- Na próxima segunda, dia 12: o carrossel de antecipação do portal.
+- No dia do lançamento (13, 15 ou 20, o que for confirmado): já deixo pronto o post estático de "é hoje, lançamos o portal" para esse dia.
+
+Fico no aguardo do seu retorno, e também podemos conversar melhor na nossa reunião às 15h.
