@@ -20,11 +20,17 @@ https://drive.google.com/drive/folders/1liFz4ORmTd3XCGUTUmt13pDxspdkLgkE?usp=dri
 6. Situação com a ProHub: quanto eles estão cobrando, o que eles entregam, o que não entregam, e as datas sugeridas para novembro, para já nos organizarmos para a próxima edição do ElevaCast:
 https://drive.google.com/drive/folders/1TDydxTiyZXnT9fD5QKm62zD74Gip1xDf?usp=drive_link
 
+7. Estratégia sugerida para as campanhas de anúncios no Instagram, para o lançamento do portal:
+[LINK DA PASTA]
+
+8. Post estático de lançamento, "é hoje", na mesma identidade visual do carrossel de antecipação, já pronto para publicar assim que a data for confirmada:
+[LINK DA PASTA]
+
 Também já atualizei o nome da comunidade no WhatsApp: tirei o "Hub" e ficou apenas Comunidade Eleva, Síndicos de Alta Performance.
 
 Fico no aguardo do seu retorno também sobre:
 
-- A estratégia sugerida para o Instagram, para o lançamento do portal.
+- O orçamento disponível para a campanha de Instagram, para fecharmos a estratégia de mídia paga.
 - Se você já conseguiu gravar os vídeos que estavam pendentes.
 - Se você vai conseguir, no dia 15 de outubro (próxima quinta-feira), gravar os outros vídeos lá na Strategia.
 - Se o lançamento do portal vai ser no dia 13 ou no dia 20 de outubro.
