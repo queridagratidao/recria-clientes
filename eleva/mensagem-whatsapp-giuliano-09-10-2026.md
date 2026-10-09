@@ -38,6 +38,6 @@ Minha sugestão de postagem, enquanto aguardo o seu retorno:
 
 - Hoje ainda à noite: posto o convite para a comunidade do WhatsApp.
 - Na próxima segunda, dia 12: o carrossel de antecipação do portal.
-- No dia do lançamento (13, 15 ou 20, o que for confirmado): já deixo pronto o post estático de "é hoje, lançamos o portal" para esse dia.
+- No dia do lançamento (13 ou 20 de outubro, o que for confirmado): já deixo pronto o post estático de "é hoje, lançamos o portal" para esse dia.
 
 Fico no aguardo do seu retorno, e também podemos conversar melhor na nossa reunião às 15h.
