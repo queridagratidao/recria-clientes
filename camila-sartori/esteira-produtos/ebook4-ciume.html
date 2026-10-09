@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Seu Ciúme Não É Amor, É Medo Disfarçado</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Nunito:ital,wght@0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+<style>
+
+  @page { size: A4; margin: 0; }
+  :root{
+    --rosa-claro:#fbeef7;
+    --lilas-claro:#f2e6f7;
+    --branco:#ffffff;
+    --magenta:#9c1256;
+    --magenta-escuro:#6e0e3d;
+    --roxo-profundo:#5a1042;
+    --rosa-bonus:#f3d2ec;
+    --texto:#3a2233;
+    --texto-claro:#6b4b60;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{ font-family:'Nunito',sans-serif; color:var(--texto); background:#fff; }
+  .page{
+    width:210mm; min-height:297mm; padding:16mm 18mm 22mm 18mm; position:relative;
+    page-break-after:always; background:linear-gradient(180deg,var(--lilas-claro) 0%, #fff 40%);
+  }
+  .page:last-child{page-break-after:auto;}
+  .flower{ text-align:center; font-size:22px; color:var(--magenta); margin-bottom:6px;}
+  .capa{ display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; min-height:265mm;}
+  .capa h1{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--roxo-profundo); font-size:2.3rem; line-height:1.25; margin-bottom:14px;}
+  .capa .sub{ color:var(--magenta); font-weight:600; font-size:1.1rem; margin-bottom:30px;}
+  .capa .mes-badge{ background:var(--magenta); color:#fff; font-family:'Quicksand',sans-serif; font-weight:700; padding:10px 26px; border-radius:999px; font-size:1rem; margin-bottom:40px;}
+  .capa .lista-semanas{ text-align:left; background:#fff; border-radius:16px; padding:24px 30px; box-shadow:0 4px 18px rgba(90,16,66,.08); max-width:420px;}
+  .capa .lista-semanas li{ margin-bottom:10px; font-size:.95rem; color:var(--texto);}
+  .capa .lista-semanas b{ color:var(--magenta-escuro);}
+  h2.titulo-semana{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:1.55rem; color:var(--roxo-profundo); text-align:center; margin-bottom:4px;}
+  p.subtitulo-semana{ text-align:center; color:var(--magenta); font-weight:600; font-size:.92rem; margin-bottom:18px;}
+  .tag-formato{ display:block; text-align:center; margin:0 auto 20px auto; background:var(--rosa-bonus); color:var(--magenta-escuro); font-weight:700; font-size:.78rem; padding:5px 16px; border-radius:999px; width:fit-content;}
+  h3.secao{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--magenta-escuro); font-size:1.05rem; margin:16px 0 6px 0;}
+  p.corpo{ font-size:.9rem; line-height:1.6; margin-bottom:10px;}
+  .fechamento, .fechamento-inline{ text-align:center; font-family:'Quicksand',sans-serif; font-weight:600; color:var(--magenta-escuro); font-size:.92rem; margin-top:18px; display:block;}
+  .rodape{
+    position:absolute; bottom:10mm; left:18mm; right:18mm; text-align:center; font-size:.72rem; color:var(--texto-claro); border-top:1px solid var(--rosa-bonus); padding-top:8px; line-height:1.5;
+  }
+  .rodape b{ color:var(--magenta);}
+
+  .capa-ebook{ display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; min-height:297mm; background:linear-gradient(160deg,var(--roxo-profundo) 0%, var(--magenta) 100%); color:#fff;}
+  .capa-ebook .flower{ font-size:30px; color:#fff; margin-bottom:10px;}
+  .capa-ebook .tag{ background:rgba(255,255,255,.18); padding:8px 22px; border-radius:999px; font-weight:700; font-size:.85rem; margin-bottom:34px; letter-spacing:.03em;}
+  .capa-ebook h1{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:2.5rem; line-height:1.22; margin-bottom:18px; max-width:600px;}
+  .capa-ebook .subt{ font-size:1.05rem; font-weight:600; max-width:480px; line-height:1.5; margin-bottom:40px; color:var(--rosa-claro);}
+  .capa-ebook .autora{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:1rem; margin-top:10px;}
+  .capa-ebook .autora .sub{ font-weight:400; font-size:.82rem; color:var(--rosa-claro); margin-top:4px;}
+
+  .sumario h2{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:1.6rem; color:var(--roxo-profundo); margin-bottom:22px; text-align:center;}
+  .sumario-item{ display:flex; justify-content:space-between; align-items:baseline; padding:12px 0; border-bottom:1px dashed var(--rosa-bonus); font-size:.98rem; color:var(--texto);}
+  .sumario-item b{ color:var(--magenta-escuro);}
+
+  .cap-tag{ display:block; text-align:center; color:var(--magenta); font-weight:700; font-size:.78rem; letter-spacing:.05em; margin-bottom:8px; text-transform:uppercase;}
+  h2.cap-titulo{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:1.7rem; color:var(--roxo-profundo); text-align:center; margin-bottom:22px; line-height:1.3;}
+  p.par{ font-size:.95rem; line-height:1.75; margin-bottom:14px; color:var(--texto);}
+  h3.sub-titulo{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:1.1rem; color:var(--magenta-escuro); margin:20px 0 10px 0;}
+  ul.lista-pontos{ list-style:none; margin-bottom:14px;}
+  ul.lista-pontos li{ display:flex; gap:10px; margin-bottom:10px; font-size:.93rem; line-height:1.6;}
+  ul.lista-pontos li .bullet{ color:var(--magenta); flex-shrink:0; font-weight:700;}
+  .destaque-box{ background:var(--magenta); color:#fff; border-radius:14px; padding:20px 26px; margin:22px 0; font-family:'Quicksand',sans-serif; font-weight:600; font-size:1.05rem; text-align:center; line-height:1.45;}
+  .caixa-conexao{ background:var(--rosa-claro); border-left:4px solid var(--magenta); border-radius:8px; padding:14px 18px; font-size:.88rem; line-height:1.6; margin:16px 0; color:var(--texto);}
+  .exercicio-cap{ background:var(--rosa-claro); border-radius:14px; padding:20px 24px; margin-top:20px;}
+  .exercicio-cap .tit{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--magenta); font-size:1.02rem; margin-bottom:10px;}
+  .exercicio-cap p.pergunta{ font-size:.9rem; font-weight:600; margin-bottom:6px;}
+  .linha{ border-bottom:1px solid var(--rosa-bonus); height:20px; margin-bottom:6px;}
+
+  .pitch-page{ background:linear-gradient(160deg,var(--roxo-profundo) 0%, var(--magenta) 100%); color:#fff; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; min-height:297mm;}
+  .pitch-page h2{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:1.7rem; margin-bottom:16px; max-width:560px; line-height:1.3;}
+  .pitch-page p{ font-size:.95rem; line-height:1.65; max-width:500px; margin-bottom:14px; color:var(--rosa-claro);}
+  .pitch-page .cta-btn{ background:#fff; color:var(--magenta-escuro); font-family:'Quicksand',sans-serif; font-weight:700; padding:14px 34px; border-radius:999px; margin-top:16px; font-size:1rem;}
+  .pitch-page .preco-tag{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:.85rem; background:rgba(255,255,255,.18); padding:6px 18px; border-radius:999px; margin-top:20px;}
+
+  .pagina-num{ position:absolute; bottom:8mm; right:18mm; font-size:.72rem; color:var(--texto-claro);}
+  .rodape-ebook{ position:absolute; bottom:10mm; left:18mm; right:18mm; text-align:center; font-size:.68rem; color:var(--texto-claro); border-top:1px solid var(--rosa-bonus); padding-top:6px;}
+
+</style>
+</head>
+<body>
+<div class="page capa-ebook">
+
+  <div class="flower">✿</div>
+  <span class="tag">E-BOOK · RELACIONAMENTO AMOROSO</span>
+  <h1>Seu Ciúme Não É<br>Amor, É Medo Disfarçado</h1>
+  <p class="subt">Como parar de ser uma parceira ansiosa, ciumenta e possessiva nos relacionamentos, e se tornar uma pessoa segura de si, tranquila, com relacionamentos saudáveis e duradouros</p>
+  <div class="autora">Camila Sartori<div class="sub">Psicóloga · Terapia do Esquema e TCC</div></div>
+
+</div>
+
+<div class="page ">
+
+  <div class="sumario">
+    <div class="flower">✿</div>
+    <h2>Sumário</h2>
+    <div class="sumario-item"><span>Introdução: o ciúme que dói mais em quem sente</span><b>4</b></div><div class="sumario-item"><span>Ciúme como sintoma de insegurança, não de amor</span><b>5</b></div><div class="sumario-item"><span>Apego ansioso na prática</span><b>6</b></div><div class="sumario-item"><span>A necessidade de controle: de onde ela vem</span><b>7</b></div><div class="sumario-item"><span>Como o ciúme sabota relações boas</span><b>8</b></div><div class="sumario-item"><span>A diferença entre perceber um sinal real e projetar um medo antigo</span><b>9</b></div><div class="sumario-item"><span>Exercício: autorregulação emocional</span><b>10</b></div><div class="sumario-item"><span>Construindo segurança de dentro pra fora</span><b>11</b></div><div class="sumario-item"><span>O que muda quando você se torna uma pessoa segura de si</span><b>12</b></div><div class="sumario-item"><span>Seu próximo passo</span><b>13</b></div>
+  </div>
+
+</div>
+
+<div class="page ">
+<span class="cap-tag">Introdução</span>
+<h2 class="cap-titulo">O ciúme que dói mais em quem sente</h2>
+<p class="par">Esse e-book vai te encarar de frente, sem julgamento, mas sem rodeios: o ciúme excessivo e a insegurança possessiva não são provas de amor. São sintomas de medo.</p>
+<p class="par">Se você já perdeu noites de sono verificando o celular de alguém, se já se sentiu mal por não conseguir confiar mesmo sem motivo real, ou se já afastou alguém bom por causa de um ciúme que você mesma sabia ser desproporcional, esse material é pra você.</p><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 1</span>
+<h2 class="cap-titulo">Ciúme como sintoma de insegurança, não de amor</h2>
+<p class="par">Existe uma crença popular perigosa: "quem ama, sente ciúme". Na prática, o ciúme excessivo tem muito mais a ver com o quanto você confia em si mesma do que com o quanto você ama o outro.</p>
+<p class="par">Uma pessoa segura de si também sente ciúme ocasionalmente, isso é humano. A diferença está na intensidade, na frequência, e no quanto esse sentimento controla o seu comportamento.</p>
+<p class="par">Quando o ciúme vira rotina, ele para de ser sobre o parceiro e passa a ser sobre uma insegurança que já existia antes dele.</p>
+<div class="destaque-box">Ciúme não é amor, é medo. E medo se trabalha, não se alimenta.</div><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 2</span>
+<h2 class="cap-titulo">Apego ansioso na prática</h2>
+<p class="par">O ciúme excessivo costuma andar junto com o apego ansioso: a necessidade de reafirmação constante, a insegurança quando o parceiro demora pra responder, o desconforto forte sempre que você não está por perto de quem ama.</p>
+<p class="par">Na prática, isso aparece como checar o celular do parceiro, interpretar qualquer mudança de rotina como sinal de traição, ou precisar de confirmações repetidas do tipo "você me ama mesmo?".</p>
+<p class="par">Reconhecer esse padrão em você, sem se culpar por isso, é o primeiro passo pra começar a mudar.</p><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 3</span>
+<h2 class="cap-titulo">A necessidade de controle: de onde ela vem</h2>
+<p class="par">A necessidade de controlar o parceiro, saber onde está, com quem está, o que está fazendo, geralmente nasce de uma tentativa (ineficaz) de reduzir a ansiedade de uma possível perda.</p>
+<p class="par">O problema é que controle nunca elimina a insegurança de verdade, ele só a alivia temporariamente, e volta mais forte na próxima vez.</p>
+<p class="par">Muitas vezes essa necessidade de controle tem raiz em experiências antigas de instabilidade ou traição, seja vivida ou testemunhada, que ensinaram que baixar a guarda é perigoso.</p><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 4</span>
+<h2 class="cap-titulo">Como o ciúme sabota relações boas</h2>
+<p class="par">Parceiros que são tratados com desconfiança constante, mesmo sem terem feito nada, tendem a se afastar emocionalmente com o tempo, cansados de provar algo que nunca é suficiente.</p>
+<p class="par">Isso cria uma profecia que se autorrealiza: o medo de perder alguém, não tratado, acaba afastando exatamente essa pessoa.</p>
+<p class="par">Relações boas pedem confiança, não vigilância. E confiança se constrói primeiro dentro de você, não na checagem do comportamento do outro.</p><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 5</span>
+<h2 class="cap-titulo">A diferença entre perceber um sinal real e projetar um medo antigo</h2>
+<p class="par">Nem todo desconforto é ciúme infundado. Às vezes existem sinais reais de que algo está errado numa relação, e ignorá-los também não é saudável.</p>
+<p class="par">A diferença está em perguntar: esse desconforto nasce de algo que a pessoa realmente fez, agora, nesta relação? Ou ele aparece mesmo sem nenhum comportamento concreto, só pela ausência física ou pelo silêncio?</p>
+<p class="par">Aprender a diferenciar sinal real de projeção antiga é uma das habilidades mais importantes pra ter relações mais tranquilas.</p><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 6</span>
+<h2 class="cap-titulo">Exercício: autorregulação emocional</h2>
+<p class="par">Da próxima vez que sentir o ciúme subindo, tente esse exercício antes de agir.</p>
+<div class="exercicio-cap">
+<div class="tit">Hora de Exercitar</div>
+<p class="pergunta">O que exatamente aconteceu agora que disparou esse sentimento? Descreva o fato, sem interpretação.</p>
+<div class="linha"></div><div class="linha"></div><div class="linha"></div>
+<p class="pergunta" style="margin-top:14px;">Esse fato, sozinho, prova alguma coisa? Ou é a sua interpretação dele que está gerando o medo?</p>
+<div class="linha"></div><div class="linha"></div><div class="linha"></div>
+<p class="pergunta" style="margin-top:14px;">Respire fundo três vezes antes de agir. O que você faria se não estivesse com medo nesse momento?</p>
+<div class="linha"></div><div class="linha"></div><div class="linha"></div>
+</div><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 7</span>
+<h2 class="cap-titulo">Construindo segurança de dentro pra fora</h2>
+<p class="par">Segurança emocional não vem de controlar o outro, vem de fortalecer a relação que você tem com você mesma, aquela que trabalhamos desde o início desse e-book.</p>
+<p class="par">Práticas simples ajudam: respiração antes de reagir, nomear o que você sente antes de agir por impulso, e lembrar que um pensamento ansioso não é, automaticamente, um fato.</p>
+<p class="par">Com o tempo, e com prática, é possível trocar a vigilância constante por uma confiança genuína, tanto em você quanto na relação.</p><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 8</span>
+<h2 class="cap-titulo">O que muda quando você se torna uma pessoa segura de si</h2>
+<p class="par">Relações deixam de ser um campo de prova constante. Você para de interpretar silêncio como abandono, e passa a interpretar como só isso mesmo: silêncio.</p>
+<p class="par">Parceiros se sentem mais confortáveis sendo eles mesmos perto de você, o que, paradoxalmente, aproxima mais do que qualquer controle jamais conseguiria.</p>
+<p class="par">E o mais importante: você passa a escolher relações pela conexão real, não pela necessidade de preencher um vazio de insegurança.</p>
+<div class="destaque-box">Relacionamentos saudáveis e duradouros nascem de duas pessoas seguras, não de uma pessoa controlando a outra.</div><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Conclusão</span>
+<h2 class="cap-titulo">Seu próximo passo</h2>
+<p class="par">Trabalhar o ciúme excessivo não é sobre reprimir o que você sente, é sobre entender de onde ele vem, pra parar de deixá-lo decidir suas relações.</p><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page pitch-page">
+
+  <div class="flower" style="color:#fff;">✿</div>
+  <h2>Quer construir essa segurança com acompanhamento?</h2>
+  <p>Na Comunidade AME-SE, um espaço fechado e seguro com vários cursos pra você se desenvolver e se aprofundar no autoconhecimento, a gente trabalha regulação emocional e relacionamentos amorosos mais saudáveis, com exercícios práticos e mentoria em grupo comigo.</p><p>São 7 dias grátis pra você experimentar, e o valor do acesso anual sai mais barato que uma pizza por mês.</p><p>Te espero lá.</p>
+  <div class="cta-btn">curso-ame-se.camilasartori.com.br</div>
+  <div class="preco-tag">7 dias grátis · 12x R$16,24</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Proposta - Esteira de Produtos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Nunito:ital,wght@0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+<style>
+
+  @page { size: A4; margin: 0; }
+  :root{
+    --rosa-claro:#fbeef7;
+    --lilas-claro:#f2e6f7;
+    --branco:#ffffff;
+    --magenta:#9c1256;
+    --magenta-escuro:#6e0e3d;
+    --roxo-profundo:#5a1042;
+    --rosa-bonus:#f3d2ec;
+    --texto:#3a2233;
+    --texto-claro:#6b4b60;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{ font-family:'Nunito',sans-serif; color:var(--texto); background:#fff; }
+  .page{
+    width:210mm; min-height:297mm; padding:16mm 18mm 22mm 18mm; position:relative;
+    page-break-after:always; background:linear-gradient(180deg,var(--lilas-claro) 0%, #fff 40%);
+  }
+  .page:last-child{page-break-after:auto;}
+  .flower{ text-align:center; font-size:22px; color:var(--magenta); margin-bottom:6px;}
+  .capa{ display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; min-height:265mm;}
+  .capa h1{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--roxo-profundo); font-size:2.3rem; line-height:1.25; margin-bottom:14px;}
+  .capa .sub{ color:var(--magenta); font-weight:600; font-size:1.1rem; margin-bottom:30px;}
+  .capa .mes-badge{ background:var(--magenta); color:#fff; font-family:'Quicksand',sans-serif; font-weight:700; padding:10px 26px; border-radius:999px; font-size:1rem; margin-bottom:40px;}
+  .capa .lista-semanas{ text-align:left; background:#fff; border-radius:16px; padding:24px 30px; box-shadow:0 4px 18px rgba(90,16,66,.08); max-width:420px;}
+  .capa .lista-semanas li{ margin-bottom:10px; font-size:.95rem; color:var(--texto);}
+  .capa .lista-semanas b{ color:var(--magenta-escuro);}
+  h2.titulo-semana{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:1.55rem; color:var(--roxo-profundo); text-align:center; margin-bottom:4px;}
+  p.subtitulo-semana{ text-align:center; color:var(--magenta); font-weight:600; font-size:.92rem; margin-bottom:18px;}
+  .tag-formato{ display:block; text-align:center; margin:0 auto 20px auto; background:var(--rosa-bonus); color:var(--magenta-escuro); font-weight:700; font-size:.78rem; padding:5px 16px; border-radius:999px; width:fit-content;}
+  h3.secao{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--magenta-escuro); font-size:1.05rem; margin:16px 0 6px 0;}
+  p.corpo{ font-size:.9rem; line-height:1.6; margin-bottom:10px;}
+  .fechamento, .fechamento-inline{ text-align:center; font-family:'Quicksand',sans-serif; font-weight:600; color:var(--magenta-escuro); font-size:.92rem; margin-top:18px; display:block;}
+  .rodape{
+    position:absolute; bottom:10mm; left:18mm; right:18mm; text-align:center; font-size:.72rem; color:var(--texto-claro); border-top:1px solid var(--rosa-bonus); padding-top:8px; line-height:1.5;
+  }
+  .rodape b{ color:var(--magenta);}
+
+  .produto-card{ background:#fff; border-radius:16px; padding:22px 26px; margin-bottom:18px; box-shadow:0 4px 18px rgba(90,16,66,.08); border-left:6px solid var(--magenta); break-inside:avoid; page-break-inside:avoid;}
+  .produto-card .topo{ display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:8px;}
+  .produto-card .preco{ font-family:'Quicksand',sans-serif; font-weight:700; color:#fff; background:var(--magenta); padding:6px 16px; border-radius:999px; font-size:1rem;}
+  .produto-card .formato{ font-size:.75rem; font-weight:700; color:var(--magenta-escuro); background:var(--rosa-bonus); padding:4px 12px; border-radius:999px;}
+  .produto-card h3{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--roxo-profundo); font-size:1.2rem; margin-bottom:4px;}
+  .produto-card .dominio{ color:var(--magenta); font-weight:700; font-size:.85rem; margin-bottom:10px;}
+  .produto-card p{ font-size:.87rem; line-height:1.5; margin-bottom:8px;}
+  .produto-card .base{ font-size:.78rem; font-style:italic; color:var(--texto-claro); border-top:1px dashed var(--rosa-bonus); padding-top:8px; margin-top:8px;}
+  .produto-card .base b{ color:var(--magenta-escuro); font-style:normal;}
+  .funil-box{ background:var(--rosa-claro); border-radius:14px; padding:18px 22px; margin-bottom:16px; font-size:.87rem; line-height:1.6;}
+  .funil-box b{ color:var(--magenta-escuro);}
+  .seta{ text-align:center; font-size:1.2rem; color:var(--magenta); margin:2px 0;}
+  .diferenca-box{ background:var(--roxo-profundo); color:#fff; border-radius:14px; padding:18px 22px; margin-bottom:16px; font-size:.87rem; line-height:1.6;}
+  .diferenca-box b{ color:var(--rosa-bonus);}
+
+</style>
+</head>
+<body>
+<div class="page capa">
+  <div class="flower">✿</div>
+  <span class="mes-badge">PROPOSTA · ESTEIRA DE PRODUTOS</span>
+  <h1>Do Gratuito ao<br>Curso Completo</h1>
+  <p class="sub">6 e-books + Comunidade AME-SE · cobrindo todas as frentes de relacionamento</p>
+  <div class="lista-semanas"><ul style="list-style:none;">
+    <li>✿ <b>R$12:</b> Seu Maior Inimigo no Amor é Você Mesma</li>
+    <li>✿ <b>R$27:</b> Ele Chegou, Você Se Encantou, Ele Sumiu...</li>
+    <li>✿ <b>R$37:</b> A Ferida Que Sua Família Deixou</li>
+    <li>✿ <b>R$47:</b> Seu Ciúme Não É Amor, É Medo</li>
+    <li>✿ <b>R$67:</b> Pare de Se Diminuir pra Ser Amada</li>
+    <li>✿ <b>R$97:</b> Por Que Isso Sempre Acontece Comigo?</li>
+    <li>✿ <b>R$157:</b> Comunidade AME-SE (curso completo)</li>
+  </ul></div>
+</div>
+<div class="page">
+  <div class="flower">✿</div>
+  <h2 class="titulo-semana">Como a esteira funciona</h2>
+  <div class="funil-box">
+    <p><b>Grupo VIP / Comunidade Donas de Si (gratuito, WhatsApp)</b> → gera confiança e autoridade toda semana.</p>
+    <div class="seta">↓</div>
+    <p><b>6 e-books, de R$12 a R$97</b> → cada um ataca uma dor específica e cada vez mais profunda, em ordem crescente de preço e de densidade de conteúdo. Ficam fixados no link da bio e podem ser oferecidos no grupo gratuito ou em anúncio próprio.</p>
+    <div class="seta">↓</div>
+    <p><b>Comunidade AME-SE, R$157 (ou 12x R$16,24)</b> → o destino final: onde a pessoa deixa de só entender os padrões e começa a transformá-los de verdade, com acompanhamento.</p>
+  </div>
+  <div class="diferenca-box">
+    <p><b>Por que isso não compete com o curso, e sim alimenta ele:</b></p>
+    <p>Os e-books entregam <b>consciência</b>: a pessoa lê, se reconhece nos padrões, e sai com um primeiro exercício pra começar sozinha. Já a Comunidade AME-SE entrega <b>transformação acompanhada</b>: aulas em vídeo, atividades práticas guiadas passo a passo, e mentoria em grupo com a Camila e outras mulheres. Um e-book é um mapa. A comunidade é a jornada guiada por quem entende do assunto.</p>
+    <p>Os 6 e-books também entram dentro da Comunidade AME-SE como material complementar/bônus, sem custo extra pra quem já é assinante, reforçando o valor percebido do curso.</p>
+    <p>Todos os 6 e-books fecham com um convite direto pra Comunidade AME-SE na última página, reforçando a esteira em cada venda.</p>
+  </div>
+  <div class="rodape">
+    <b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria
+  </div>
+
+</div>
+<div class="page">
+  <div class="flower">✿</div>
+  <h2 class="titulo-semana">Os 7 Produtos</h2>
+  <p class="subtitulo-semana">Detalhamento de cada um</p>
+  <div class="produto-card">
+    <div class="topo">
+      <h3 style="margin-bottom:0;">Seu Maior Inimigo no Amor é Você Mesma</h3>
+      <span class="preco">R$12</span>
+    </div>
+    <span class="formato">E-BOOK · ~15-20 PÁGINAS</span>
+    <p class="dominio" style="font-style:italic; font-weight:400;">O primeiro passo pra se conhecer e se apaixonar por você mesma, pra depois construir relacionamentos saudáveis com os outros</p>
+    <p class="dominio">Relacionamento consigo mesma</p>
+    <p>Um e-book curto, pra ser consumido rápido, que expõe sem rodeios como a voz interna crítica sabota sua autoimagem todos os dias, e como quebrar esse ciclo. Trabalha a base, a relação com você mesma, antes de qualquer outra relação. Entrada de impulso, baixo risco.</p>
+    <p><b>O que entra:</b> O que é autoconceito e como ele se forma; a armadilha da autocrítica e da autorrotulação; exercícios rápidos de autoimagem; um convite gentil ao próximo passo.</p>
+    <p class="base">Base: Apaixone-se por si mesmo + PDFs de autoestima de setembro (Comunidade Donas de Si).</p>
+  </div>
+  <div class="produto-card">
+    <div class="topo">
+      <h3 style="margin-bottom:0;">Ele Chegou, Você Se Encantou, Ele Sumiu, e Você Nem Entendeu o Porquê</h3>
+      <span class="preco">R$27</span>
+    </div>
+    <span class="formato">E-BOOK · ~25-30 PÁGINAS</span>
+    <p class="dominio" style="font-style:italic; font-weight:400;">Os sinais que toda mulher ignora ao conhecer alguém com apego ansioso ou evitativo, e como você pode identificar e se proteger</p>
+    <p class="dominio">Relacionamento amoroso</p>
+    <p>Um e-book sobre os padrões mais comuns (e mais buscados no Instagram dela): love bombing, ghosting, apego ansioso e evitativo, idealização. O mais 'compartilhável', pensado pra viralizar organicamente.</p>
+    <p><b>O que entra:</b> Como reconhecer, logo no início, os sinais de apego ansioso e evitativo em quem você está conhecendo; love bombing: paixão real x armadilha; idealização x realidade; guia de autoproteção.</p>
+    <p class="base">Base: Armadilhas da Química Amorosa + conteúdos de outubro (Comunidade Donas de Si e Instagram).</p>
+  </div>
+  <div class="produto-card">
+    <div class="topo">
+      <h3 style="margin-bottom:0;">A Ferida Que Sua Família Deixou</h3>
+      <span class="preco">R$37</span>
+    </div>
+    <span class="formato">E-BOOK · ~25-30 PÁGINAS</span>
+    <p class="dominio" style="font-style:italic; font-weight:400;">E que te influencia até hoje. Aprenda a identificar e lidar com pais ou parentes narcisistas, ou ainda com relações pouco saudáveis: como identificar, se proteger e conviver de maneira saudável sem que essas pessoas te afetem</p>
+    <p class="dominio">Relacionamento com a família</p>
+    <p>Sobre crescer perto de um pai ou mãe narcisista, ou simplesmente pouco disponível emocionalmente, e como essa herança se repete hoje nas suas relações, na autoestima e na forma como você se cobra.</p>
+    <p><b>O que entra:</b> Como reconhecer traços narcisistas na própria criação; a diferença entre culpar os pais e entender a raiz; como esse padrão se repete em amizades e relacionamentos amorosos; exercícios de ressignificação.</p>
+    <p class="base">Base: Reinvente Sua Vida, Jeffrey Young (terapia do esquema) + conteúdos de setembro sobre família narcisista.</p>
+  </div>
+  <div class="produto-card">
+    <div class="topo">
+      <h3 style="margin-bottom:0;">Seu Ciúme Não É Amor, É Medo Disfarçado</h3>
+      <span class="preco">R$47</span>
+    </div>
+    <span class="formato">E-BOOK · ~30-35 PÁGINAS</span>
+    <p class="dominio" style="font-style:italic; font-weight:400;">Como parar de ser uma parceira ansiosa, ciumenta e possessiva nos relacionamentos, e se tornar uma pessoa segura de si, tranquila, com relacionamentos saudáveis e duradouros</p>
+    <p class="dominio">Relacionamento amoroso</p>
+    <p>Encara de frente o ciúme excessivo e a insegurança possessiva, sem julgamento, mas sem rodeios: de onde vem, por que não é prova de amor, e como parar de sabotar relações boas por causa de um medo antigo.</p>
+    <p><b>O que entra:</b> Ciúme como sintoma de insegurança, não de amor; apego ansioso na prática; como reduzir a necessidade de controle e reafirmação constante; exercícios de autorregulação emocional.</p>
+    <p class="base">Base: Reinvente Sua Vida (esquema de Abandono) + Sua História de Amor.</p>
+  </div>
+  <div class="produto-card">
+    <div class="topo">
+      <h3 style="margin-bottom:0;">Pare de Se Diminuir pra Ser Amada</h3>
+      <span class="preco">R$67</span>
+    </div>
+    <span class="formato">E-BOOK · ~35-40 PÁGINAS</span>
+    <p class="dominio" style="font-style:italic; font-weight:400;">Aprenda a se conhecer mais, se valorizar, e assim atrair parceiros à altura do seu valor</p>
+    <p class="dominio">Relacionamento amoroso</p>
+    <p>Diferente do e-book de R$12 (que trabalha a relação com você mesma de forma geral), aqui o foco é aplicado: por que mulheres inseguras aceitam relações desiguais, e como parar de se diminuir especificamente na hora de escolher, e de se manter, com um parceiro.</p>
+    <p><b>O que entra:</b> Autovalorização como base da escolha de parceiro; sinais de que você está se diminuindo numa relação; como parar de aceitar menos do que merece; exercícios práticos de autovalorização.</p>
+    <p class="base">Base: Apaixone-se por si mesmo + Guia Prático sobre Insegurança.</p>
+  </div>
+  <div class="produto-card">
+    <div class="topo">
+      <h3 style="margin-bottom:0;">Por Que Isso Sempre Acontece Comigo?</h3>
+      <span class="preco">R$97</span>
+    </div>
+    <span class="formato">E-BOOK · ~45-55 PÁGINAS</span>
+    <p class="dominio" style="font-style:italic; font-weight:400;">Entendendo os padrões que você repete consigo mesma, no amor, na família, no trabalho e com os amigos, e como resolver isso de uma vez por todas</p>
+    <p class="dominio">Família · Amizade · Trabalho · Amor</p>
+    <p>O mais completo dos e-books: um mapa de autodiagnóstico pra reconhecer, sozinha, como o mesmo padrão aprendido na infância se repete em TODAS as áreas da vida. Entrega consciência e um primeiro exercício em cada área, não o acompanhamento guiado do curso.</p>
+    <p><b>O que entra:</b> Como um padrão aparece em família, amizade, trabalho e amor ao mesmo tempo; o conceito de 'armadilhas de vida' (esquemas); exercícios de autorregistro por área; um plano de ação inicial de 30 dias.</p>
+    <p class="base">Base: Reinvente Sua Vida, Jeffrey Young (terapia do esquema) + Sua História de Amor + Guia Prático sobre Insegurança.</p>
+  </div>
+  <div class="produto-card">
+    <div class="topo">
+      <h3 style="margin-bottom:0;">Comunidade AME-SE</h3>
+      <span class="preco">R$157</span>
+    </div>
+    <span class="formato">COMUNIDADE · VÁRIOS CURSOS · 12x R$16,24</span>
+    <p class="dominio" style="font-style:italic; font-weight:400;">Um espaço fechado e seguro, com vários cursos pra você se desenvolver e se aprofundar no autoconhecimento: cursos de relacionamento consigo mesma e com os outros (amor, família, trabalho, amigos), com acompanhamento e mentoria em grupo junto com a Camila, psicóloga e criadora da comunidade</p>
+    <p class="dominio">Todas as áreas, com acompanhamento</p>
+    <p>Uma comunidade, não um curso único: dentro dela ficam os 5 módulos completos (Autoconhecimento na Prática, Confiando em Si, Cuidando das Suas Emoções, Fortalecendo sua Autoestima, Amando-se), cada um com suas próprias aulas em vídeo e atividades práticas guiadas, além de mentoria em grupo com a psicóloga Camila, criadora da comunidade, e os 6 e-books acima inclusos como bônus.</p>
+    <p><b>O que entra:</b> Já estruturado e em funcionamento, com 7 dias grátis pra experimentar.</p>
+    <p class="base">Produto já existente, ponto final da esteira.</p>
+  </div>
+  <div class="rodape">
+    <b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria
+  </div>
+
+</div>
+</body>
+</html>

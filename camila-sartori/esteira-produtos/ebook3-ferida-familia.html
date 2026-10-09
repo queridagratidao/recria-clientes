@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>A Ferida Que Sua Família Deixou</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Nunito:ital,wght@0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+<style>
+
+  @page { size: A4; margin: 0; }
+  :root{
+    --rosa-claro:#fbeef7;
+    --lilas-claro:#f2e6f7;
+    --branco:#ffffff;
+    --magenta:#9c1256;
+    --magenta-escuro:#6e0e3d;
+    --roxo-profundo:#5a1042;
+    --rosa-bonus:#f3d2ec;
+    --texto:#3a2233;
+    --texto-claro:#6b4b60;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{ font-family:'Nunito',sans-serif; color:var(--texto); background:#fff; }
+  .page{
+    width:210mm; min-height:297mm; padding:16mm 18mm 22mm 18mm; position:relative;
+    page-break-after:always; background:linear-gradient(180deg,var(--lilas-claro) 0%, #fff 40%);
+  }
+  .page:last-child{page-break-after:auto;}
+  .flower{ text-align:center; font-size:22px; color:var(--magenta); margin-bottom:6px;}
+  .capa{ display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; min-height:265mm;}
+  .capa h1{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--roxo-profundo); font-size:2.3rem; line-height:1.25; margin-bottom:14px;}
+  .capa .sub{ color:var(--magenta); font-weight:600; font-size:1.1rem; margin-bottom:30px;}
+  .capa .mes-badge{ background:var(--magenta); color:#fff; font-family:'Quicksand',sans-serif; font-weight:700; padding:10px 26px; border-radius:999px; font-size:1rem; margin-bottom:40px;}
+  .capa .lista-semanas{ text-align:left; background:#fff; border-radius:16px; padding:24px 30px; box-shadow:0 4px 18px rgba(90,16,66,.08); max-width:420px;}
+  .capa .lista-semanas li{ margin-bottom:10px; font-size:.95rem; color:var(--texto);}
+  .capa .lista-semanas b{ color:var(--magenta-escuro);}
+  h2.titulo-semana{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:1.55rem; color:var(--roxo-profundo); text-align:center; margin-bottom:4px;}
+  p.subtitulo-semana{ text-align:center; color:var(--magenta); font-weight:600; font-size:.92rem; margin-bottom:18px;}
+  .tag-formato{ display:block; text-align:center; margin:0 auto 20px auto; background:var(--rosa-bonus); color:var(--magenta-escuro); font-weight:700; font-size:.78rem; padding:5px 16px; border-radius:999px; width:fit-content;}
+  h3.secao{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--magenta-escuro); font-size:1.05rem; margin:16px 0 6px 0;}
+  p.corpo{ font-size:.9rem; line-height:1.6; margin-bottom:10px;}
+  .fechamento, .fechamento-inline{ text-align:center; font-family:'Quicksand',sans-serif; font-weight:600; color:var(--magenta-escuro); font-size:.92rem; margin-top:18px; display:block;}
+  .rodape{
+    position:absolute; bottom:10mm; left:18mm; right:18mm; text-align:center; font-size:.72rem; color:var(--texto-claro); border-top:1px solid var(--rosa-bonus); padding-top:8px; line-height:1.5;
+  }
+  .rodape b{ color:var(--magenta);}
+
+  .capa-ebook{ display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; min-height:297mm; background:linear-gradient(160deg,var(--roxo-profundo) 0%, var(--magenta) 100%); color:#fff;}
+  .capa-ebook .flower{ font-size:30px; color:#fff; margin-bottom:10px;}
+  .capa-ebook .tag{ background:rgba(255,255,255,.18); padding:8px 22px; border-radius:999px; font-weight:700; font-size:.85rem; margin-bottom:34px; letter-spacing:.03em;}
+  .capa-ebook h1{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:2.5rem; line-height:1.22; margin-bottom:18px; max-width:600px;}
+  .capa-ebook .subt{ font-size:1.05rem; font-weight:600; max-width:480px; line-height:1.5; margin-bottom:40px; color:var(--rosa-claro);}
+  .capa-ebook .autora{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:1rem; margin-top:10px;}
+  .capa-ebook .autora .sub{ font-weight:400; font-size:.82rem; color:var(--rosa-claro); margin-top:4px;}
+
+  .sumario h2{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:1.6rem; color:var(--roxo-profundo); margin-bottom:22px; text-align:center;}
+  .sumario-item{ display:flex; justify-content:space-between; align-items:baseline; padding:12px 0; border-bottom:1px dashed var(--rosa-bonus); font-size:.98rem; color:var(--texto);}
+  .sumario-item b{ color:var(--magenta-escuro);}
+
+  .cap-tag{ display:block; text-align:center; color:var(--magenta); font-weight:700; font-size:.78rem; letter-spacing:.05em; margin-bottom:8px; text-transform:uppercase;}
+  h2.cap-titulo{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:1.7rem; color:var(--roxo-profundo); text-align:center; margin-bottom:22px; line-height:1.3;}
+  p.par{ font-size:.95rem; line-height:1.75; margin-bottom:14px; color:var(--texto);}
+  h3.sub-titulo{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:1.1rem; color:var(--magenta-escuro); margin:20px 0 10px 0;}
+  ul.lista-pontos{ list-style:none; margin-bottom:14px;}
+  ul.lista-pontos li{ display:flex; gap:10px; margin-bottom:10px; font-size:.93rem; line-height:1.6;}
+  ul.lista-pontos li .bullet{ color:var(--magenta); flex-shrink:0; font-weight:700;}
+  .destaque-box{ background:var(--magenta); color:#fff; border-radius:14px; padding:20px 26px; margin:22px 0; font-family:'Quicksand',sans-serif; font-weight:600; font-size:1.05rem; text-align:center; line-height:1.45;}
+  .caixa-conexao{ background:var(--rosa-claro); border-left:4px solid var(--magenta); border-radius:8px; padding:14px 18px; font-size:.88rem; line-height:1.6; margin:16px 0; color:var(--texto);}
+  .exercicio-cap{ background:var(--rosa-claro); border-radius:14px; padding:20px 24px; margin-top:20px;}
+  .exercicio-cap .tit{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--magenta); font-size:1.02rem; margin-bottom:10px;}
+  .exercicio-cap p.pergunta{ font-size:.9rem; font-weight:600; margin-bottom:6px;}
+  .linha{ border-bottom:1px solid var(--rosa-bonus); height:20px; margin-bottom:6px;}
+
+  .pitch-page{ background:linear-gradient(160deg,var(--roxo-profundo) 0%, var(--magenta) 100%); color:#fff; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; min-height:297mm;}
+  .pitch-page h2{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:1.7rem; margin-bottom:16px; max-width:560px; line-height:1.3;}
+  .pitch-page p{ font-size:.95rem; line-height:1.65; max-width:500px; margin-bottom:14px; color:var(--rosa-claro);}
+  .pitch-page .cta-btn{ background:#fff; color:var(--magenta-escuro); font-family:'Quicksand',sans-serif; font-weight:700; padding:14px 34px; border-radius:999px; margin-top:16px; font-size:1rem;}
+  .pitch-page .preco-tag{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:.85rem; background:rgba(255,255,255,.18); padding:6px 18px; border-radius:999px; margin-top:20px;}
+
+  .pagina-num{ position:absolute; bottom:8mm; right:18mm; font-size:.72rem; color:var(--texto-claro);}
+  .rodape-ebook{ position:absolute; bottom:10mm; left:18mm; right:18mm; text-align:center; font-size:.68rem; color:var(--texto-claro); border-top:1px solid var(--rosa-bonus); padding-top:6px;}
+
+</style>
+</head>
+<body>
+<div class="page capa-ebook">
+
+  <div class="flower">✿</div>
+  <span class="tag">E-BOOK · RELACIONAMENTO COM A FAMÍLIA</span>
+  <h1>A Ferida Que Sua<br>Família Deixou</h1>
+  <p class="subt">E que te influencia até hoje. Aprenda a identificar e lidar com pais ou parentes narcisistas, ou com relações pouco saudáveis: como identificar, se proteger e conviver de maneira saudável sem que essas pessoas te afetem</p>
+  <div class="autora">Camila Sartori<div class="sub">Psicóloga · Terapia do Esquema e TCC</div></div>
+
+</div>
+
+<div class="page ">
+
+  <div class="sumario">
+    <div class="flower">✿</div>
+    <h2>Sumário</h2>
+    <div class="sumario-item"><span>Introdução: a voz que você carrega desde pequena</span><b>4</b></div><div class="sumario-item"><span>O que são traços narcisistas, e por que são difíceis de nomear</span><b>5</b></div><div class="sumario-item"><span>Como reconhecer isso na própria criação</span><b>6</b></div><div class="sumario-item"><span>Culpar os pais x entender a raiz</span><b>7</b></div><div class="sumario-item"><span>Como esse padrão se repete hoje</span><b>8</b></div><div class="sumario-item"><span>Em amizades</span><b>9</b></div><div class="sumario-item"><span>Em relacionamentos amorosos</span><b>10</b></div><div class="sumario-item"><span>Exercício: ressignificando a herança</span><b>11</b></div><div class="sumario-item"><span>Como se proteger sem romper o vínculo (se for possível)</span><b>12</b></div><div class="sumario-item"><span>Seu próximo passo</span><b>13</b></div>
+  </div>
+
+</div>
+
+<div class="page ">
+<span class="cap-tag">Introdução</span>
+<h2 class="cap-titulo">A voz que você carrega desde pequena</h2>
+<p class="par">Tem gente que carrega até hoje a voz de um pai ou de uma mãe dizendo que nunca era o suficiente.</p>
+<p class="par">Crescer perto de um pai ou mãe narcisista, ou simplesmente muito centrado nas próprias necessidades e pouco disponível emocionalmente, deixa marcas que não aparecem em fotografia de família.</p>
+<p class="par">Esse e-book não é sobre culpar ninguém. É sobre entender de onde vieram certas crenças, pra você parar de repeti-las sem perceber.</p><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 1</span>
+<h2 class="cap-titulo">O que são traços narcisistas, e por que são difíceis de nomear</h2>
+<p class="par">Traços narcisistas aparecem quando alguém, de um jeito sutil ou não, sempre faz tudo girar em torno de si, coloca a própria necessidade acima da sua o tempo todo, e ainda te faz sentir culpada quando você se posiciona.</p>
+<p class="par">O mais difícil é que, muitas vezes, a gente nem reconhece isso como um problema, porque aprendeu a viver assim, e acha que é assim que toda relação familiar funciona.</p>
+<p class="par">Como esse padrão vem de dentro de casa, ele raramente é reconhecido como um problema por quem está dentro dele.</p><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 2</span>
+<h2 class="cap-titulo">Como reconhecer isso na própria criação</h2>
+<p class="par">É a sensação de nunca ter feito por merecer o amor recebido, de precisar se esforçar demais pra ser vista, de sentir que os próprios sentimentos incomodam os outros.</p>
+<p class="par">Outros sinais: elogios condicionados a desempenho, comparação constante com irmãos ou outras crianças, e a sensação de que suas conquistas nunca eram suficientes pra gerar orgulho genuíno.</p>
+<p class="par">Conviver perto de traços narcisistas deixa marcas silenciosas: a dificuldade de confiar no que você sente, e um cansaço que parece não ter explicação.</p>
+<div class="caixa-conexao">Se você já se perguntou 'por que eu sempre sinto que preciso fazer mais pra merecer atenção', essa pergunta provavelmente nasceu muito antes da vida adulta.</div><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 3</span>
+<h2 class="cap-titulo">Culpar os pais x entender a raiz</h2>
+<p class="par">Entender essa raiz não é sobre culpar os pais. É sobre entender de onde vieram certas crenças, pra parar de repeti-las sem perceber.</p>
+<p class="par">Muitos pais com traços narcisistas também carregam suas próprias feridas, aprendidas em suas próprias infâncias. Isso não anula o impacto que causaram em você, mas ajuda a tirar o peso de um julgamento que não leva a lugar nenhum.</p>
+<p class="par">O trabalho aqui não é julgar o passado, é entender o padrão pra construir um presente diferente.</p><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 4</span>
+<h2 class="cap-titulo">Como esse padrão se repete hoje</h2>
+<p class="par">Esse padrão não fica só na infância. Ele se repete depois, na forma como a pessoa se cobra, na dificuldade de acreditar que merece coisas boas, e na escolha (muitas vezes repetida) de relações parecidas.</p>
+<p class="par">Reconhecer esse padrão nas suas relações atuais, família, amizade ou amor, é o primeiro passo pra interromper o ciclo.</p><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 5</span>
+<h2 class="cap-titulo">Em amizades</h2>
+<p class="par">Amizades marcadas pelo mesmo padrão costumam ter uma pessoa que sempre precisa de mais atenção, enquanto a sua necessidade fica em segundo plano.</p>
+<p class="par">Você pode perceber isso quando sente que precisa se policiar antes de compartilhar uma conquista, com medo da reação da outra pessoa, ou quando sempre acaba sendo quem cede primeiro.</p><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 6</span>
+<h2 class="cap-titulo">Em relacionamentos amorosos</h2>
+<p class="par">É comum repetir, sem perceber, o mesmo tipo de dinâmica aprendida em casa: idealização intensa no começo, seguida de uma relação onde suas necessidades deixam de importar, e qualquer tentativa de se posicionar é tratada como drama ou exagero.</p>
+<p class="par">Reconhecer esse padrão no presente é o que permite escolher diferente da próxima vez.</p><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 7</span>
+<h2 class="cap-titulo">Exercício: ressignificando a herança</h2>
+<p class="par">Esse exercício te ajuda a separar o que você aprendeu do que você quer continuar carregando.</p>
+<div class="exercicio-cap">
+<div class="tit">Hora de Exercitar</div>
+<p class="pergunta">Que frase ou mensagem você ouviu repetidamente na infância sobre o seu valor ou comportamento?</p>
+<div class="linha"></div><div class="linha"></div><div class="linha"></div>
+<p class="pergunta" style="margin-top:14px;">Essa frase ainda aparece hoje, de alguma forma, na sua voz interna ou nas suas relações? Como?</p>
+<div class="linha"></div><div class="linha"></div><div class="linha"></div>
+<p class="pergunta" style="margin-top:14px;">O que você gostaria de acreditar sobre si mesma, no lugar dessa frase?</p>
+<div class="linha"></div><div class="linha"></div><div class="linha"></div>
+</div><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 8</span>
+<h2 class="cap-titulo">Como se proteger sem romper o vínculo (se for possível)</h2>
+<p class="par">Colocar limites claros, mesmo com familiares, não é falta de amor, é autopreservação. Isso pode significar reduzir o tempo de exposição, não entrar em certos assuntos, ou simplesmente parar de buscar uma validação que talvez nunca venha do jeito que você espera.</p>
+<p class="par">Em alguns casos, o afastamento é a única opção saudável. Em outros, é possível manter o vínculo com limites mais claros. Não existe uma resposta única, e isso também não é fraqueza, é cuidado consigo mesma.</p>
+<div class="destaque-box">Reconhecer esse padrão não é sobre culpar ninguém. É sobre parar de repeti-lo sem perceber.</div><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Conclusão</span>
+<h2 class="cap-titulo">Seu próximo passo</h2>
+<p class="par">A ferida que sua família deixou não precisa ser a história que se repete pra sempre. Reconhecer essa origem é o primeiro passo pra escrever um padrão diferente, em casa, nas amizades e no amor.</p><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page pitch-page">
+
+  <div class="flower" style="color:#fff;">✿</div>
+  <h2>Quer trabalhar essa ferida com acompanhamento?</h2>
+  <p>Na Comunidade AME-SE, um espaço fechado e seguro com vários cursos pra você se desenvolver e se aprofundar no autoconhecimento, a gente trabalha relacionamento com a família, com você mesma e com os outros, com exercícios práticos e mentoria em grupo comigo.</p><p>São 7 dias grátis pra você experimentar, e o valor do acesso anual sai mais barato que uma pizza por mês.</p><p>Te espero lá.</p>
+  <div class="cta-btn">curso-ame-se.camilasartori.com.br</div>
+  <div class="preco-tag">7 dias grátis · 12x R$16,24</div>
+
+</div>
+
+</body>
+</html>

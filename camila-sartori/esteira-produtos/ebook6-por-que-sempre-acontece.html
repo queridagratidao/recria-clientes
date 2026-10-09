@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Por Que Isso Sempre Acontece Comigo?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Nunito:ital,wght@0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+<style>
+
+  @page { size: A4; margin: 0; }
+  :root{
+    --rosa-claro:#fbeef7;
+    --lilas-claro:#f2e6f7;
+    --branco:#ffffff;
+    --magenta:#9c1256;
+    --magenta-escuro:#6e0e3d;
+    --roxo-profundo:#5a1042;
+    --rosa-bonus:#f3d2ec;
+    --texto:#3a2233;
+    --texto-claro:#6b4b60;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{ font-family:'Nunito',sans-serif; color:var(--texto); background:#fff; }
+  .page{
+    width:210mm; min-height:297mm; padding:16mm 18mm 22mm 18mm; position:relative;
+    page-break-after:always; background:linear-gradient(180deg,var(--lilas-claro) 0%, #fff 40%);
+  }
+  .page:last-child{page-break-after:auto;}
+  .flower{ text-align:center; font-size:22px; color:var(--magenta); margin-bottom:6px;}
+  .capa{ display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; min-height:265mm;}
+  .capa h1{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--roxo-profundo); font-size:2.3rem; line-height:1.25; margin-bottom:14px;}
+  .capa .sub{ color:var(--magenta); font-weight:600; font-size:1.1rem; margin-bottom:30px;}
+  .capa .mes-badge{ background:var(--magenta); color:#fff; font-family:'Quicksand',sans-serif; font-weight:700; padding:10px 26px; border-radius:999px; font-size:1rem; margin-bottom:40px;}
+  .capa .lista-semanas{ text-align:left; background:#fff; border-radius:16px; padding:24px 30px; box-shadow:0 4px 18px rgba(90,16,66,.08); max-width:420px;}
+  .capa .lista-semanas li{ margin-bottom:10px; font-size:.95rem; color:var(--texto);}
+  .capa .lista-semanas b{ color:var(--magenta-escuro);}
+  h2.titulo-semana{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:1.55rem; color:var(--roxo-profundo); text-align:center; margin-bottom:4px;}
+  p.subtitulo-semana{ text-align:center; color:var(--magenta); font-weight:600; font-size:.92rem; margin-bottom:18px;}
+  .tag-formato{ display:block; text-align:center; margin:0 auto 20px auto; background:var(--rosa-bonus); color:var(--magenta-escuro); font-weight:700; font-size:.78rem; padding:5px 16px; border-radius:999px; width:fit-content;}
+  h3.secao{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--magenta-escuro); font-size:1.05rem; margin:16px 0 6px 0;}
+  p.corpo{ font-size:.9rem; line-height:1.6; margin-bottom:10px;}
+  .fechamento, .fechamento-inline{ text-align:center; font-family:'Quicksand',sans-serif; font-weight:600; color:var(--magenta-escuro); font-size:.92rem; margin-top:18px; display:block;}
+  .rodape{
+    position:absolute; bottom:10mm; left:18mm; right:18mm; text-align:center; font-size:.72rem; color:var(--texto-claro); border-top:1px solid var(--rosa-bonus); padding-top:8px; line-height:1.5;
+  }
+  .rodape b{ color:var(--magenta);}
+
+  .capa-ebook{ display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; min-height:297mm; background:linear-gradient(160deg,var(--roxo-profundo) 0%, var(--magenta) 100%); color:#fff;}
+  .capa-ebook .flower{ font-size:30px; color:#fff; margin-bottom:10px;}
+  .capa-ebook .tag{ background:rgba(255,255,255,.18); padding:8px 22px; border-radius:999px; font-weight:700; font-size:.85rem; margin-bottom:34px; letter-spacing:.03em;}
+  .capa-ebook h1{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:2.5rem; line-height:1.22; margin-bottom:18px; max-width:600px;}
+  .capa-ebook .subt{ font-size:1.05rem; font-weight:600; max-width:480px; line-height:1.5; margin-bottom:40px; color:var(--rosa-claro);}
+  .capa-ebook .autora{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:1rem; margin-top:10px;}
+  .capa-ebook .autora .sub{ font-weight:400; font-size:.82rem; color:var(--rosa-claro); margin-top:4px;}
+
+  .sumario h2{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:1.6rem; color:var(--roxo-profundo); margin-bottom:22px; text-align:center;}
+  .sumario-item{ display:flex; justify-content:space-between; align-items:baseline; padding:12px 0; border-bottom:1px dashed var(--rosa-bonus); font-size:.98rem; color:var(--texto);}
+  .sumario-item b{ color:var(--magenta-escuro);}
+
+  .cap-tag{ display:block; text-align:center; color:var(--magenta); font-weight:700; font-size:.78rem; letter-spacing:.05em; margin-bottom:8px; text-transform:uppercase;}
+  h2.cap-titulo{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:1.7rem; color:var(--roxo-profundo); text-align:center; margin-bottom:22px; line-height:1.3;}
+  p.par{ font-size:.95rem; line-height:1.75; margin-bottom:14px; color:var(--texto);}
+  h3.sub-titulo{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:1.1rem; color:var(--magenta-escuro); margin:20px 0 10px 0;}
+  ul.lista-pontos{ list-style:none; margin-bottom:14px;}
+  ul.lista-pontos li{ display:flex; gap:10px; margin-bottom:10px; font-size:.93rem; line-height:1.6;}
+  ul.lista-pontos li .bullet{ color:var(--magenta); flex-shrink:0; font-weight:700;}
+  .destaque-box{ background:var(--magenta); color:#fff; border-radius:14px; padding:20px 26px; margin:22px 0; font-family:'Quicksand',sans-serif; font-weight:600; font-size:1.05rem; text-align:center; line-height:1.45;}
+  .caixa-conexao{ background:var(--rosa-claro); border-left:4px solid var(--magenta); border-radius:8px; padding:14px 18px; font-size:.88rem; line-height:1.6; margin:16px 0; color:var(--texto);}
+  .exercicio-cap{ background:var(--rosa-claro); border-radius:14px; padding:20px 24px; margin-top:20px;}
+  .exercicio-cap .tit{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--magenta); font-size:1.02rem; margin-bottom:10px;}
+  .exercicio-cap p.pergunta{ font-size:.9rem; font-weight:600; margin-bottom:6px;}
+  .linha{ border-bottom:1px solid var(--rosa-bonus); height:20px; margin-bottom:6px;}
+
+  .pitch-page{ background:linear-gradient(160deg,var(--roxo-profundo) 0%, var(--magenta) 100%); color:#fff; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; min-height:297mm;}
+  .pitch-page h2{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:1.7rem; margin-bottom:16px; max-width:560px; line-height:1.3;}
+  .pitch-page p{ font-size:.95rem; line-height:1.65; max-width:500px; margin-bottom:14px; color:var(--rosa-claro);}
+  .pitch-page .cta-btn{ background:#fff; color:var(--magenta-escuro); font-family:'Quicksand',sans-serif; font-weight:700; padding:14px 34px; border-radius:999px; margin-top:16px; font-size:1rem;}
+  .pitch-page .preco-tag{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:.85rem; background:rgba(255,255,255,.18); padding:6px 18px; border-radius:999px; margin-top:20px;}
+
+  .pagina-num{ position:absolute; bottom:8mm; right:18mm; font-size:.72rem; color:var(--texto-claro);}
+  .rodape-ebook{ position:absolute; bottom:10mm; left:18mm; right:18mm; text-align:center; font-size:.68rem; color:var(--texto-claro); border-top:1px solid var(--rosa-bonus); padding-top:6px;}
+
+</style>
+</head>
+<body>
+<div class="page capa-ebook">
+
+  <div class="flower">✿</div>
+  <span class="tag">E-BOOK · FAMÍLIA · AMIZADE · TRABALHO · AMOR</span>
+  <h1>Por Que Isso Sempre<br>Acontece Comigo?</h1>
+  <p class="subt">Entendendo os padrões que você repete consigo mesma, no amor, na família, no trabalho e com os amigos, e como resolver isso de uma vez por todas</p>
+  <div class="autora">Camila Sartori<div class="sub">Psicóloga · Terapia do Esquema e TCC</div></div>
+
+</div>
+
+<div class="page ">
+
+  <div class="sumario">
+    <div class="flower">✿</div>
+    <h2>Sumário</h2>
+    <div class="sumario-item"><span>Introdução: o fio que conecta tudo</span><b>4</b></div><div class="sumario-item"><span>O conceito de armadilhas de vida</span><b>5</b></div><div class="sumario-item"><span>Como um padrão nasce ainda na infância</span><b>6</b></div><div class="sumario-item"><span>O padrão na relação com você mesma</span><b>7</b></div><div class="sumario-item"><span>O padrão na família</span><b>8</b></div><div class="sumario-item"><span>O padrão nas amizades</span><b>9</b></div><div class="sumario-item"><span>O padrão no trabalho</span><b>10</b></div><div class="sumario-item"><span>O padrão no amor</span><b>11</b></div><div class="sumario-item"><span>Por que isso 'sempre' acontece com você</span><b>12</b></div><div class="sumario-item"><span>Exercício: autorregistro por área</span><b>13</b></div><div class="sumario-item"><span>O que realmente muda um padrão</span><b>14</b></div><div class="sumario-item"><span>Plano de ação de 30 dias</span><b>15</b></div><div class="sumario-item"><span>Seu próximo passo</span><b>16</b></div>
+  </div>
+
+</div>
+
+<div class="page ">
+<span class="cap-tag">Introdução</span>
+<h2 class="cap-titulo">O fio que conecta tudo</h2>
+<p class="par">Você já reparou que, de alguma forma, os mesmos tipos de conflito aparecem na sua vida, só que com roupagens diferentes? Na família de um jeito, no trabalho de outro, no amor de outro ainda, mas sempre com uma sensação de déjà vu?</p>
+<p class="par">Isso não é coincidência, e não é falta de sorte. É um padrão, aprendido ainda na infância, que se repete em diferentes áreas da vida porque a raiz dele é uma só: como você aprendeu, muito cedo, a entender seu próprio valor e seu lugar nas relações.</p>
+<p class="par">Esse e-book é o mais completo dessa coleção: um mapa pra você reconhecer, sozinha, como esse mesmo padrão aparece em cada área da sua vida, e um primeiro passo prático em cada uma delas.</p><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 1</span>
+<h2 class="cap-titulo">O conceito de armadilhas de vida</h2>
+<p class="par">Jeffrey Young, criador da terapia do esquema e autor de Reinvente Sua Vida, chama de "armadilhas de vida" os padrões emocionais que aprendemos na infância, e que continuam ativos na vida adulta, mesmo quando já não fazem mais sentido.</p>
+<p class="par">Uma armadilha de vida não é um defeito de caráter. É uma crença profunda sobre você mesma, ou sobre como as relações funcionam, formada antes que você tivesse ferramentas pra questioná-la.</p>
+<p class="par">O mais importante de entender: essas armadilhas não aparecem só numa área da vida. Elas atravessam família, amizade, trabalho e amor, porque todas essas relações são filtradas pela mesma crença de base.</p><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 2</span>
+<h2 class="cap-titulo">Como um padrão nasce ainda na infância</h2>
+<p class="par">Crianças não nascem sabendo seu próprio valor, elas aprendem isso através de como são tratadas. Se o cuidado foi inconsistente, se a crítica foi dura, se o afeto foi condicionado a comportamento, a criança aprende uma lição sobre si mesma, e sobre o mundo.</p>
+<p class="par">Essa lição, repetida ao longo dos anos, vira uma crença automática: "eu preciso me esforçar pra ser amada", "meus sentimentos incomodam", "eu não posso confiar que as pessoas vão ficar".</p>
+<p class="par">Na vida adulta, essas crenças deixam de parecer pensamentos e passam a parecer fatos. É por isso que, mesmo sabendo racionalmente que algo não faz sentido, a gente continua agindo de acordo com elas.</p><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 3</span>
+<h2 class="cap-titulo">O padrão na relação com você mesma</h2>
+<p class="par">O primeiro lugar onde toda armadilha de vida aparece é na relação com você mesma: na voz crítica interna, na forma como você interpreta seus próprios erros, e no quanto você acredita merecer coisas boas.</p>
+<p class="par">Se a crença de base é "eu preciso ser perfeita pra ter valor", isso vai aparecer em autocrítica excessiva. Se a crença é "meus sentimentos não importam", isso vai aparecer como dificuldade de identificar o que você sente.</p><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 4</span>
+<h2 class="cap-titulo">O padrão na família</h2>
+<p class="par">Na família, o padrão aparece na forma como você ainda busca aprovação, na dificuldade de colocar limites com pais ou parentes, ou na repetição de papéis antigos, mesmo já sendo adulta.</p>
+<p class="par">Muitas vezes, voltar pra casa da família de origem é como voltar a vestir uma roupa antiga: os mesmos padrões de comunicação, os mesmos gatilhos, mesmo depois de anos de distância física.</p><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 5</span>
+<h2 class="cap-titulo">O padrão nas amizades</h2>
+<p class="par">Nas amizades, o padrão aparece em quem você escolhe se aproximar, no quanto você se permite pedir ajuda, e em como você reage quando sente que está sendo deixada de lado.</p>
+<p class="par">É comum repetir, nas amizades, o mesmo papel que você aprendeu em casa: a que sempre cuida, a que nunca incomoda, a que desaparece no grupo pra não gerar atrito.</p><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 6</span>
+<h2 class="cap-titulo">O padrão no trabalho</h2>
+<p class="par">No trabalho, o padrão aparece na dificuldade de pedir reconhecimento, no medo de errar na frente dos outros, ou na tendência de assumir responsabilidade além do que seria justo, só pra não desapontar ninguém.</p>
+<p class="par">Também aparece em como você reage a críticas de chefes ou colegas: como uma informação pontual, ou como uma confirmação de uma crença antiga sobre não ser boa o suficiente.</p><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 7</span>
+<h2 class="cap-titulo">O padrão no amor</h2>
+<p class="par">No amor, o padrão costuma aparecer com mais intensidade do que em qualquer outra área, porque relações amorosas reativam, de forma mais direta, as primeiras experiências de apego que tivemos.</p>
+<p class="par">Se você já se perguntou por que sempre se envolve com o mesmo "tipo" de pessoa, mesmo prometendo a si mesma que seria diferente dessa vez, essa é a armadilha de vida se manifestando na escolha de parceiros.</p>
+<div class="caixa-conexao">Os e-books anteriores dessa coleção aprofundam cada uma dessas áreas separadamente. Esse aqui te mostra o quadro completo.</div><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 8</span>
+<h2 class="cap-titulo">Por que isso 'sempre' acontece com você</h2>
+<p class="par">A resposta curta: porque você não está escolhendo essas situações conscientemente. Sua mente, treinada por anos, reconhece certos padrões como "familiares" e, de forma automática, se sente atraída ou confortável com eles, mesmo quando machucam.</p>
+<p class="par">A boa notícia é que esse automatismo pode ser interrompido. O primeiro passo não é mudar o comportamento direto, é reconhecer o padrão em ação, em tempo real, o que já cria uma pausa entre o gatilho e a resposta automática.</p><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 9</span>
+<h2 class="cap-titulo">Exercício: autorregistro por área</h2>
+<p class="par">Esse exercício te ajuda a mapear como o mesmo padrão aparece em diferentes áreas da sua vida.</p>
+<div class="exercicio-cap">
+<div class="tit">Hora de Exercitar</div>
+<p class="pergunta">Pense num conflito recente em família, no trabalho, e no amor. O que esses três momentos têm em comum?</p>
+<div class="linha"></div><div class="linha"></div><div class="linha"></div><div class="linha"></div>
+<p class="pergunta" style="margin-top:14px;">Qual crença sobre você mesma parece estar por trás desse padrão (ex: "eu preciso me esforçar pra ser aceita")?</p>
+<div class="linha"></div><div class="linha"></div><div class="linha"></div>
+<p class="pergunta" style="margin-top:14px;">Em qual dessas áreas você sente mais vontade de mudar primeiro?</p>
+<div class="linha"></div><div class="linha"></div>
+</div><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 10</span>
+<h2 class="cap-titulo">O que realmente muda um padrão</h2>
+<p class="par">Não é força de vontade sozinha, e não é só entender a origem do padrão, embora isso ajude. O que muda um padrão, de verdade, é a repetição de uma resposta diferente, no momento em que o gatilho aparece.</p>
+<p class="par">Isso leva tempo, e normalmente é mais fácil com apoio: alguém que ajude a identificar o padrão em tempo real, e que ofereça ferramentas práticas pra treinar a resposta nova.</p><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 11</span>
+<h2 class="cap-titulo">Plano de ação de 30 dias</h2>
+<p class="par">Semana 1: observe, sem mudar nada ainda. Anote toda vez que perceber o padrão agindo, em qualquer área.</p>
+<p class="par">Semana 2: escolha UMA área pra focar (a que você marcou no exercício do Capítulo 9).</p>
+<p class="par">Semana 3: pratique uma resposta diferente nessa área, mesmo que pequena, toda vez que o gatilho aparecer.</p>
+<p class="par">Semana 4: revise o que mudou, o que ainda é difícil, e decida se quer continuar sozinha ou buscar acompanhamento mais próximo.</p><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Conclusão</span>
+<h2 class="cap-titulo">Seu próximo passo</h2>
+<p class="par">Você não está louca, nem exagerando, nem fadada a repetir isso pra sempre. Você está carregando um padrão aprendido, e padrões aprendidos podem ser reaprendidos.</p>
+<p class="par">Esse e-book te deu o mapa completo. O próximo passo é a jornada guiada, com acompanhamento, pra realmente transformar o que você já consegue enxergar.</p><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page pitch-page">
+
+  <div class="flower" style="color:#fff;">✿</div>
+  <h2>Você já tem o mapa. Agora vem a jornada guiada.</h2>
+  <p>Na Comunidade AME-SE, um espaço fechado e seguro com vários cursos pra você se desenvolver e se aprofundar no autoconhecimento, a gente vai além do mapa: aulas em vídeo, atividades práticas guiadas, e mentoria em grupo comigo, pra transformar esses padrões de verdade, em todas as áreas da sua vida.</p><p>São 7 dias grátis pra você experimentar, e o valor do acesso anual sai mais barato que uma pizza por mês.</p><p>Te espero lá.</p>
+  <div class="cta-btn">curso-ame-se.camilasartori.com.br</div>
+  <div class="preco-tag">7 dias grátis · 12x R$16,24</div>
+
+</div>
+
+</body>
+</html>

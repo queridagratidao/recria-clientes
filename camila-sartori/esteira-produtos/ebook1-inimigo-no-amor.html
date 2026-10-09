@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Seu Maior Inimigo no Amor é Você Mesma</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Nunito:ital,wght@0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+<style>
+
+  @page { size: A4; margin: 0; }
+  :root{
+    --rosa-claro:#fbeef7;
+    --lilas-claro:#f2e6f7;
+    --branco:#ffffff;
+    --magenta:#9c1256;
+    --magenta-escuro:#6e0e3d;
+    --roxo-profundo:#5a1042;
+    --rosa-bonus:#f3d2ec;
+    --texto:#3a2233;
+    --texto-claro:#6b4b60;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{ font-family:'Nunito',sans-serif; color:var(--texto); background:#fff; }
+  .page{
+    width:210mm; min-height:297mm; padding:16mm 18mm 22mm 18mm; position:relative;
+    page-break-after:always; background:linear-gradient(180deg,var(--lilas-claro) 0%, #fff 40%);
+  }
+  .page:last-child{page-break-after:auto;}
+  .flower{ text-align:center; font-size:22px; color:var(--magenta); margin-bottom:6px;}
+  .capa{ display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; min-height:265mm;}
+  .capa h1{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--roxo-profundo); font-size:2.3rem; line-height:1.25; margin-bottom:14px;}
+  .capa .sub{ color:var(--magenta); font-weight:600; font-size:1.1rem; margin-bottom:30px;}
+  .capa .mes-badge{ background:var(--magenta); color:#fff; font-family:'Quicksand',sans-serif; font-weight:700; padding:10px 26px; border-radius:999px; font-size:1rem; margin-bottom:40px;}
+  .capa .lista-semanas{ text-align:left; background:#fff; border-radius:16px; padding:24px 30px; box-shadow:0 4px 18px rgba(90,16,66,.08); max-width:420px;}
+  .capa .lista-semanas li{ margin-bottom:10px; font-size:.95rem; color:var(--texto);}
+  .capa .lista-semanas b{ color:var(--magenta-escuro);}
+  h2.titulo-semana{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:1.55rem; color:var(--roxo-profundo); text-align:center; margin-bottom:4px;}
+  p.subtitulo-semana{ text-align:center; color:var(--magenta); font-weight:600; font-size:.92rem; margin-bottom:18px;}
+  .tag-formato{ display:block; text-align:center; margin:0 auto 20px auto; background:var(--rosa-bonus); color:var(--magenta-escuro); font-weight:700; font-size:.78rem; padding:5px 16px; border-radius:999px; width:fit-content;}
+  h3.secao{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--magenta-escuro); font-size:1.05rem; margin:16px 0 6px 0;}
+  p.corpo{ font-size:.9rem; line-height:1.6; margin-bottom:10px;}
+  .fechamento, .fechamento-inline{ text-align:center; font-family:'Quicksand',sans-serif; font-weight:600; color:var(--magenta-escuro); font-size:.92rem; margin-top:18px; display:block;}
+  .rodape{
+    position:absolute; bottom:10mm; left:18mm; right:18mm; text-align:center; font-size:.72rem; color:var(--texto-claro); border-top:1px solid var(--rosa-bonus); padding-top:8px; line-height:1.5;
+  }
+  .rodape b{ color:var(--magenta);}
+
+  .capa-ebook{ display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; min-height:297mm; background:linear-gradient(160deg,var(--roxo-profundo) 0%, var(--magenta) 100%); color:#fff;}
+  .capa-ebook .flower{ font-size:30px; color:#fff; margin-bottom:10px;}
+  .capa-ebook .tag{ background:rgba(255,255,255,.18); padding:8px 22px; border-radius:999px; font-weight:700; font-size:.85rem; margin-bottom:34px; letter-spacing:.03em;}
+  .capa-ebook h1{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:2.5rem; line-height:1.22; margin-bottom:18px; max-width:600px;}
+  .capa-ebook .subt{ font-size:1.05rem; font-weight:600; max-width:480px; line-height:1.5; margin-bottom:40px; color:var(--rosa-claro);}
+  .capa-ebook .autora{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:1rem; margin-top:10px;}
+  .capa-ebook .autora .sub{ font-weight:400; font-size:.82rem; color:var(--rosa-claro); margin-top:4px;}
+
+  .sumario h2{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:1.6rem; color:var(--roxo-profundo); margin-bottom:22px; text-align:center;}
+  .sumario-item{ display:flex; justify-content:space-between; align-items:baseline; padding:12px 0; border-bottom:1px dashed var(--rosa-bonus); font-size:.98rem; color:var(--texto);}
+  .sumario-item b{ color:var(--magenta-escuro);}
+
+  .cap-tag{ display:block; text-align:center; color:var(--magenta); font-weight:700; font-size:.78rem; letter-spacing:.05em; margin-bottom:8px; text-transform:uppercase;}
+  h2.cap-titulo{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:1.7rem; color:var(--roxo-profundo); text-align:center; margin-bottom:22px; line-height:1.3;}
+  p.par{ font-size:.95rem; line-height:1.75; margin-bottom:14px; color:var(--texto);}
+  h3.sub-titulo{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:1.1rem; color:var(--magenta-escuro); margin:20px 0 10px 0;}
+  ul.lista-pontos{ list-style:none; margin-bottom:14px;}
+  ul.lista-pontos li{ display:flex; gap:10px; margin-bottom:10px; font-size:.93rem; line-height:1.6;}
+  ul.lista-pontos li .bullet{ color:var(--magenta); flex-shrink:0; font-weight:700;}
+  .destaque-box{ background:var(--magenta); color:#fff; border-radius:14px; padding:20px 26px; margin:22px 0; font-family:'Quicksand',sans-serif; font-weight:600; font-size:1.05rem; text-align:center; line-height:1.45;}
+  .caixa-conexao{ background:var(--rosa-claro); border-left:4px solid var(--magenta); border-radius:8px; padding:14px 18px; font-size:.88rem; line-height:1.6; margin:16px 0; color:var(--texto);}
+  .exercicio-cap{ background:var(--rosa-claro); border-radius:14px; padding:20px 24px; margin-top:20px;}
+  .exercicio-cap .tit{ font-family:'Quicksand',sans-serif; font-weight:700; color:var(--magenta); font-size:1.02rem; margin-bottom:10px;}
+  .exercicio-cap p.pergunta{ font-size:.9rem; font-weight:600; margin-bottom:6px;}
+  .linha{ border-bottom:1px solid var(--rosa-bonus); height:20px; margin-bottom:6px;}
+
+  .pitch-page{ background:linear-gradient(160deg,var(--roxo-profundo) 0%, var(--magenta) 100%); color:#fff; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; min-height:297mm;}
+  .pitch-page h2{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:1.7rem; margin-bottom:16px; max-width:560px; line-height:1.3;}
+  .pitch-page p{ font-size:.95rem; line-height:1.65; max-width:500px; margin-bottom:14px; color:var(--rosa-claro);}
+  .pitch-page .cta-btn{ background:#fff; color:var(--magenta-escuro); font-family:'Quicksand',sans-serif; font-weight:700; padding:14px 34px; border-radius:999px; margin-top:16px; font-size:1rem;}
+  .pitch-page .preco-tag{ font-family:'Quicksand',sans-serif; font-weight:700; font-size:.85rem; background:rgba(255,255,255,.18); padding:6px 18px; border-radius:999px; margin-top:20px;}
+
+  .pagina-num{ position:absolute; bottom:8mm; right:18mm; font-size:.72rem; color:var(--texto-claro);}
+  .rodape-ebook{ position:absolute; bottom:10mm; left:18mm; right:18mm; text-align:center; font-size:.68rem; color:var(--texto-claro); border-top:1px solid var(--rosa-bonus); padding-top:6px;}
+
+</style>
+</head>
+<body>
+<div class="page capa-ebook">
+
+  <div class="flower">✿</div>
+  <span class="tag">E-BOOK · RELACIONAMENTO CONSIGO MESMA</span>
+  <h1>Seu Maior Inimigo<br>no Amor é Você Mesma</h1>
+  <p class="subt">O primeiro passo pra se conhecer e se apaixonar por você mesma, pra depois construir relacionamentos saudáveis com os outros</p>
+  <div class="autora">Camila Sartori<div class="sub">Psicóloga · Terapia do Esquema e TCC</div></div>
+
+</div>
+
+<div class="page ">
+
+  <div class="sumario">
+    <div class="flower">✿</div>
+    <h2>Sumário</h2>
+    <div class="sumario-item"><span>Introdução: a relação que vem antes de todas as outras</span><b>4</b></div><div class="sumario-item"><span>O que é autoconceito, e por que ele decide tudo</span><b>5</b></div><div class="sumario-item"><span>De onde vem a sua voz crítica interna</span><b>6</b></div><div class="sumario-item"><span>A armadilha da autocrítica cruel</span><b>7</b></div><div class="sumario-item"><span>A armadilha da autorrotulação</span><b>8</b></div><div class="sumario-item"><span>Tudo ou nada: o pensamento que apaga suas conquistas</span><b>9</b></div><div class="sumario-item"><span>Autoimagem: a forma como você se vê</span><b>10</b></div><div class="sumario-item"><span>Exercício: mapeando sua voz crítica</span><b>11</b></div><div class="sumario-item"><span>Construindo uma nova voz interna</span><b>12</b></div><div class="sumario-item"><span>Seu próximo passo</span><b>13</b></div>
+  </div>
+
+</div>
+
+<div class="page ">
+<span class="cap-tag">Introdução</span>
+<h2 class="cap-titulo">A relação que vem antes de todas as outras</h2>
+<p class="par">Antes de qualquer relacionamento amoroso, antes de qualquer amizade, antes de qualquer vínculo familiar, existe uma relação que você carrega desde que nasceu: a relação com você mesma.</p>
+<p class="par">É essa relação que decide, nos bastidores, como você permite ser tratada pelos outros, o que você acha que merece, e até onde você vai antes de dizer chega.</p>
+<p class="par">Esse e-book não é sobre autoestima no sentido raso de "se achar incrível o tempo todo". É sobre entender, com honestidade, como você fala consigo mesma todos os dias, e como essa voz interna, mais do que qualquer parceiro, amigo ou familiar, é quem mais te acompanha.</p>
+<p class="par">Se você já percebeu que é mais gentil com os outros do que consigo mesma, esse material foi escrito pra você.</p><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 1</span>
+<h2 class="cap-titulo">O que é autoconceito, e por que ele decide tudo</h2>
+<p class="par">Autoconceito é o conjunto de crenças que você tem sobre si mesma: o que você acha que é capaz de fazer, o tipo de pessoa que você acredita ser, e o valor que você acredita ter.</p>
+<p class="par">A parte mais importante disso é que autoconceito não é fato, é interpretação. Ele foi construído ao longo da sua vida, a partir de experiências, comentários que você ouviu, comparações que fizeram com você, e da forma como você foi corrigida quando criança.</p>
+<p class="par">Isso significa duas coisas, uma difícil e uma boa. A difícil: se o seu autoconceito foi moldado por experiências negativas, ele pode estar distorcido, te fazendo acreditar em coisas sobre você que não são verdade. A boa: exatamente por ser aprendido, ele pode ser reaprendido.</p>
+<div class="caixa-conexao">Repare: quando alguém te elogia e você logo pensa 'ah, mas foi sorte' ou 'qualquer um faria isso', isso é o seu autoconceito filtrando a realidade pra confirmar o que você já acredita sobre si mesma.</div><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 2</span>
+<h2 class="cap-titulo">De onde vem a sua voz crítica interna</h2>
+<p class="par">Quase ninguém nasce se criticando. Essa voz foi aprendida, geralmente ainda na infância, repetindo o jeito como você foi corrigida por figuras de autoridade: pais, professores, cuidadores.</p>
+<p class="par">Se o erro, na sua casa, era seguido de punição, vergonha ou decepção visível, seu cérebro aprendeu a se antecipar a isso: criticar você mesma antes que alguém precisasse fazer isso, como uma forma (ineficaz, mas compreensível) de proteção.</p>
+<p class="par">O problema é que, décadas depois, essa voz continua ativa, mesmo quando não há mais ninguém te punindo por errar. Você mesma assumiu o papel.</p>
+<div class="destaque-box">Você não nasceu se criticando. Você aprendeu. E o que se aprende, pode ser desaprendido.</div><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 3</span>
+<h2 class="cap-titulo">A armadilha da autocrítica cruel</h2>
+<p class="par">Existe uma diferença enorme entre autocrítica construtiva e autocrítica cruel, e a maioria das pessoas nunca aprendeu a diferenciar as duas.</p>
+<p class="par">A autocrítica construtiva é pontual: ela fala sobre o que você fez. "Eu me enganei nessa conta" é um exemplo. Ela aponta um erro específico, sem generalizar quem você é.</p>
+<p class="par">A autocrítica cruel é generalizada: ela fala sobre quem você é. "Eu sou burra" não corrige nada, só machuca. Ela transforma um evento pontual em uma sentença permanente sobre o seu valor.</p>
+<p class="par">Pergunte-se sempre: eu estou falando sobre o que eu fiz, ou sobre quem eu sou? A primeira abre espaço pra corrigir. A segunda só fecha portas.</p><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 4</span>
+<h2 class="cap-titulo">A armadilha da autorrotulação</h2>
+<p class="par">Autorrotulação é o hábito de resumir você mesma a um rótulo fixo, baseado em um comportamento específico. Trocar "eu me comportei mal" por "eu sou má" parece uma mudança pequena, mas muda tudo.</p>
+<p class="par">Rótulos como sempre, nunca, tudo, nada, não deixam espaço pra exceção. E você, como qualquer ser humano, é cheia de exceções: dias bons e ruins, acertos e erros, momentos de coragem e momentos de medo.</p>
+<p class="par">Quando você se rotula de forma fixa, você passa a agir de acordo com esse rótulo, mesmo quando ele não reflete a realidade daquele momento específico.</p>
+<div class="destaque-box">"Eu me comportei de um jeito que não gostei" é diferente de "eu sou assim". Você não é o seu pior dia.</div><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 5</span>
+<h2 class="cap-titulo">Tudo ou nada: o pensamento que apaga suas conquistas</h2>
+<p class="par">Se você pensa em termos de "sucesso ou fracasso", sem meio-termo, toda conquista parcial vira invisível aos seus próprios olhos.</p>
+<p class="par">Esse tipo de pensamento é especialmente cruel porque ele te rouba o direito de comemorar o progresso. Se não foi perfeito, pra essa mentalidade, é como se não tivesse acontecido.</p>
+<p class="par">A vida real, porém, é feita de aproximações, não de extremos. Reconhecer isso é um dos primeiros passos pra parar de se cobrar por um padrão que nem existe de verdade.</p><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 6</span>
+<h2 class="cap-titulo">Autoimagem: a forma como você se vê</h2>
+<p class="par">Autoimagem é a percepção que você tem do seu próprio corpo e da sua própria aparência, e ela é moldada pelas mesmas forças que moldam o autoconceito: comparação, crítica recebida, e padrões culturais que mudam de época pra época.</p>
+<p class="par">A mente tem o hábito de aumentar o que te incomoda e apagar o resto. Um "defeito" pequeno, aos seus próprios olhos, pode virar a única coisa que você enxerga no espelho, mesmo que ninguém mais perceba aquilo.</p>
+<p class="par">Comparar-se com padrões inatingíveis, redes sociais, filtros, edições, é uma comparação injusta desde o início: você está competindo com uma versão que nem é real.</p>
+<div class="caixa-conexao">Você não precisa achar seu corpo perfeito pra tratá-lo com respeito. O respeito vem antes da admiração, não depois.</div><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 7</span>
+<h2 class="cap-titulo">Exercício: mapeando sua voz crítica</h2>
+<p class="par">Esse exercício é simples, mas revelador. Ele vai te ajudar a enxergar, com clareza, como sua voz interna crítica funciona no dia a dia.</p>
+<div class="exercicio-cap">
+<div class="tit">Hora de Exercitar</div>
+<p class="pergunta">Anote os pensamentos que passam pela sua cabeça quando você se sente insegura ou erra alguma coisa:</p>
+<div class="linha"></div><div class="linha"></div><div class="linha"></div><div class="linha"></div>
+<p class="pergunta" style="margin-top:14px;">Agora releia: esses pensamentos falam sobre uma conduta específica, ou viraram um rótulo sobre quem você é?</p>
+<div class="linha"></div><div class="linha"></div><div class="linha"></div>
+<p class="pergunta" style="margin-top:14px;">Se uma amiga tivesse te contado a mesma situação, o que você diria pra ela?</p>
+<div class="linha"></div><div class="linha"></div><div class="linha"></div>
+</div><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Capítulo 8</span>
+<h2 class="cap-titulo">Construindo uma nova voz interna</h2>
+<p class="par">Mudar o diálogo interno não é sobre "pensar positivo" de forma forçada. É sobre aprender, aos poucos, a se tratar com o mesmo cuidado que você oferece a quem você ama.</p>
+<p class="par">Um bom começo prático: toda vez que perceber a voz crítica surgindo, pergunte-se o que você diria a uma amiga na mesma situação, e tente dizer isso a si mesma, mesmo que ainda pareça estranho no início.</p>
+<p class="par">Isso não muda da noite pro dia. Mas cada vez que você escolhe responder com gentileza em vez de crueldade, você está reeducando essa voz, um pouco de cada vez.</p>
+<div class="destaque-box">Sua segurança não precisa da aprovação de ninguém pra ser válida. Nem mesmo da sua versão mais exigente.</div><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page ">
+<span class="cap-tag">Conclusão</span>
+<h2 class="cap-titulo">Seu próximo passo</h2>
+<p class="par">Se você chegou até aqui, já deu um passo que muita gente nunca dá: parou pra observar como fala consigo mesma, em vez de só viver no piloto automático dessa voz.</p>
+<p class="par">Esse é só o começo. Autoconceito e autoimagem são a base, mas a forma como você se relaciona com você mesma também aparece em como você se permite ser amada, em como você lida com suas emoções, e em como você escolhe (ou aceita) as pessoas ao seu redor.</p>
+<p class="par">Na próxima página, eu te conto onde continuar essa jornada.</p><div class="rodape-ebook"><b>@psicamilasartori</b> · curso-ame-se.camilasartori.com.br · Material criado pela Agência Recria</div>
+</div>
+
+<div class="page pitch-page">
+
+  <div class="flower" style="color:#fff;">✿</div>
+  <h2>Esse foi só o primeiro passo</h2>
+  <p>Na Comunidade AME-SE, um espaço fechado e seguro com vários cursos pra você se desenvolver e se aprofundar no autoconhecimento, a gente continua essa jornada: relacionamento consigo mesma, no amor, na família, no trabalho e com os amigos, com exercícios práticos e mentoria em grupo comigo.</p><p>São 7 dias grátis pra você experimentar, e o valor do acesso anual sai mais barato que uma pizza por mês.</p><p>Te espero lá.</p>
+  <div class="cta-btn">curso-ame-se.camilasartori.com.br</div>
+  <div class="preco-tag">7 dias grátis · 12x R$16,24</div>
+
+</div>
+
+</body>
+</html>
