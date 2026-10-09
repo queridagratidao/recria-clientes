@@ -46,7 +46,7 @@ Inclui: gravação de até 60 min por episódio + 30 min extras de estúdio, edi
 
 ## 4. Se a ProHub também fizer os cortes adicionais
 
-Valor passado pela Ingrid (ProHub) para cortes além dos 5 já inclusos, no formato vertical, até 90s, legendado, sem inserção de identidade:
+Valor passado pela Ingrid (ProHub) para cortes, no formato vertical, até 90s, legendado, sem inserção de identidade:
 
 | Cortes adicionais | Valor |
 |---|---|
