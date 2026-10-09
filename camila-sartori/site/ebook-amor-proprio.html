@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seu Maior Inimigo no Amor é Você Mesma. | Camila Sartori</title>
+<meta name="description" content="O primeiro passo para se conhecer e se apaixonar por você mesma, para depois construir relacionamentos saudáveis com os outros.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Nunito:ital,wght@0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --rosa-claro:#fbeef7;
+    --lilas-claro:#f2e6f7;
+    --branco:#ffffff;
+    --magenta:#9c1256;
+    --magenta-escuro:#6e0e3d;
+    --roxo-profundo:#5a1042;
+    --rosa-bonus:#f3d2ec;
+    --texto:#3a2233;
+    --texto-claro:#6b4b60;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:'Nunito',sans-serif;color:var(--texto);line-height:1.6;background:var(--branco);overflow-x:hidden;}
+  h1,h2,h3,.brand{font-family:'Quicksand',sans-serif;}
+  img{max-width:100%;display:block;}
+  .container{max-width:900px;margin:0 auto;padding:0 24px;}
+  section{padding:70px 0;}
+  .center{text-align:center;}
+  .btn{display:inline-block;background:var(--magenta);color:#fff;font-family:'Quicksand',sans-serif;font-weight:700;font-size:1.05rem;padding:16px 36px;border-radius:40px;text-decoration:none;border:none;cursor:pointer;box-shadow:0 8px 20px rgba(156,18,86,.25);transition:transform .15s ease;}
+  .btn:hover{transform:translateY(-2px);}
+  .btn-outline{background:transparent;border:2px solid #fff;color:#fff;box-shadow:none;}
+  .cta-center{text-align:center;margin-top:20px;}
+
+  .hero{background:linear-gradient(160deg,var(--roxo-profundo) 0%, var(--magenta) 100%);color:#fff;padding:60px 0 70px;}
+  .hero .tag{display:inline-block;background:rgba(255,255,255,.18);padding:8px 22px;border-radius:999px;font-weight:700;font-size:.85rem;margin-bottom:26px;letter-spacing:.03em;}
+  .hero h1{text-align:center;font-size:2.3rem;line-height:1.25;margin-bottom:18px;max-width:700px;margin-left:auto;margin-right:auto;}
+  .hero .subtitle{text-align:center;font-weight:600;font-size:1.1rem;color:var(--rosa-claro);max-width:620px;margin:0 auto 30px;}
+  .hero p{text-align:center;max-width:620px;margin:0 auto 20px;font-size:1rem;color:var(--rosa-claro);}
+  .hero .preco-linha{text-align:center;font-family:'Quicksand',sans-serif;font-weight:700;font-size:1.3rem;margin:24px 0 18px;}
+  .hero .preco-linha .de{text-decoration:line-through;opacity:.6;font-weight:400;font-size:1rem;margin-right:8px;}
+
+  .sobre{background:#fff;}
+  .sobre-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:44px;align-items:center;}
+  .sobre h2{color:var(--magenta);margin-bottom:16px;font-size:1.5rem;}
+  .sobre p{margin-bottom:14px;}
+  .foto-moldura{border-radius:16px;overflow:hidden;box-shadow:0 14px 30px rgba(90,16,66,.16);}
+  .foto-moldura img{width:100%;height:100%;object-fit:cover;}
+  @media(max-width:720px){.sobre-grid{grid-template-columns:1fr;}}
+
+  .aprender{background:linear-gradient(180deg,#fdf2fb,#fbd9ef);}
+  .aprender h2{text-align:center;color:var(--magenta-escuro);margin-bottom:30px;font-size:1.5rem;}
+  .aprender ol{list-style:none;counter-reset:item;max-width:680px;margin:0 auto;}
+  .aprender li{counter-increment:item;position:relative;padding:10px 0 10px 42px;font-size:1.02rem;border-bottom:1px dashed var(--rosa-bonus);}
+  .aprender li:last-child{border-bottom:none;}
+  .aprender li::before{content:counter(item);position:absolute;left:0;top:10px;width:26px;height:26px;border-radius:50%;background:var(--magenta);color:#fff;font-weight:700;font-size:.82rem;display:flex;align-items:center;justify-content:center;}
+
+  .paraquem{background:#fff;}
+  .paraquem h2{text-align:center;color:var(--magenta);margin-bottom:26px;font-size:1.5rem;}
+  .paraquem .container{max-width:680px;}
+  .paraquem ul{list-style:none;}
+  .paraquem li{display:flex;gap:12px;margin-bottom:16px;font-size:1rem;}
+  .paraquem li .check{color:var(--magenta);font-weight:700;flex-shrink:0;}
+
+  .preco-final{background:var(--magenta-escuro);color:#fff;text-align:center;}
+  .preco-final h2{margin-bottom:18px;font-size:1.5rem;}
+  .preco-box{background:#fff;color:var(--magenta-escuro);display:inline-block;padding:18px 34px;border-radius:8px;margin-bottom:24px;font-weight:700;font-size:1.3rem;font-family:'Quicksand',sans-serif;}
+  .garantia{margin-top:16px;font-size:.9rem;opacity:.9;}
+
+  .proximo{background:linear-gradient(180deg,#f6e9f3,#eeddf0);}
+  .proximo .container{max-width:680px;text-align:center;}
+  .proximo h2{color:var(--magenta-escuro);margin-bottom:14px;font-size:1.3rem;}
+  .proximo p{margin-bottom:18px;}
+  .proximo .comunidade-box{background:#fff;border:2px solid var(--rosa-bonus);border-radius:16px;padding:28px 30px;margin-top:10px;}
+  .proximo .comunidade-box h3{color:var(--magenta);margin-bottom:10px;font-size:1.2rem;}
+
+  .faq{background:#efe3ed;}
+  .faq h2{text-align:center;color:var(--magenta-escuro);margin-bottom:34px;font-size:1.5rem;}
+  .faq-item{background:var(--rosa-bonus);border-radius:6px;margin-bottom:16px;border-left:4px solid var(--magenta);overflow:hidden;}
+  .faq-item .pergunta{width:100%;text-align:left;background:none;border:none;cursor:pointer;font-weight:700;color:var(--magenta-escuro);font-size:.92rem;letter-spacing:.02em;font-family:'Nunito',sans-serif;padding:20px 24px;display:flex;justify-content:space-between;align-items:center;gap:14px;}
+  .faq-item .faq-icone{font-size:1.3rem;font-weight:700;color:var(--magenta);flex-shrink:0;transition:transform .2s ease;}
+  .faq-item.aberta .faq-icone{transform:rotate(45deg);}
+  .faq-item .resposta{font-size:.96rem;max-height:0;overflow:hidden;padding:0 24px;transition:max-height .3s ease, padding .3s ease;}
+  .faq-item.aberta .resposta{max-height:320px;padding:0 24px 20px;}
+
+  footer{background:#fff;text-align:center;padding:40px 0;}
+  footer .contato-btn{background:#2f5fa8;color:#fff;border-radius:30px;padding:12px 28px;text-decoration:none;font-weight:700;display:inline-block;margin-bottom:24px;}
+  footer .legal{font-size:.72rem;color:#998;max-width:640px;margin:0 auto 8px;}
+  footer .assinatura{font-size:.78rem;font-weight:700;color:#665;}
+  .marca-dev{text-align:center;font-size:.7rem;color:#c9a9c0;padding:14px 0;background:#fbf3f9;}
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="container">
+    <p class="tag center">E-BOOK · AUTOCONHECIMENTO</p>
+    <h1>Seu Maior Inimigo no Amor é Você Mesma.</h1>
+    <p class="subtitle">O primeiro passo para se conhecer e se apaixonar por você mesma, para depois construir relacionamentos saudáveis com os outros.</p>
+    <p>Você já percebeu que é mais gentil com os outros do que consigo mesma? Esse e-book vai te ajudar a entender de onde vem sua voz crítica interna, e como começar a construir uma relação mais saudável com você mesma.</p>
+    <p class="preco-linha"><span class="de">de R$ 27,00</span> por R$ 12,00</p>
+    <div class="cta-center"><a class="btn" href="https://ebook-amor-proprio.camilasartori.com.br/checkout" target="_blank" rel="noopener">Quero esse e-book agora</a></div>
+  </div>
+</section>
+
+
+<section class="sobre">
+  <div class="container sobre-grid">
+    <div class="foto-moldura"><img src="img/camila-2.jpg" alt="Camila Sartori"></div>
+    <div>
+      <h2>Quem estará com você nessa Jornada de autoconhecimento?</h2>
+      <p>Sou Camila Sartori, psicóloga formada pela PUC-RS desde 2018, com Mestrado em Psicologia Clínica pela mesma instituição e atualmente doutoranda em Psicologia. Realizo atendimentos clínicos para adultos e casais, fundamentados na abordagem Cognitivo-Comportamental e na Terapia do Esquema.</p>
+      <p>Os atendimentos são realizados via consultas on-line através de vídeo chamadas por plataformas digitais.</p>
+      <p>Esse e-book nasceu da minha experiência de anos escutando histórias como a sua.</p>
+    </div>
+  </div>
+</section>
+
+
+<section class="aprender">
+  <div class="container">
+    <h2>O que você vai encontrar nesse e-book:</h2>
+    <ol><li>O que é autoconceito, e por que ele decide tudo</li><li>De onde vem a sua voz crítica interna</li><li>A armadilha da autocrítica cruel e da autorrotulação</li><li>O pensamento tudo ou nada, e como ele apaga suas conquistas</li><li>Autoimagem: a forma como você se vê</li><li>Exercício prático para mapear sua voz crítica</li><li>Como construir uma nova voz interna</li></ol>
+  </div>
+</section>
+
+
+<section class="paraquem">
+  <div class="container">
+    <h2>Esse e-book é para você se...</h2>
+    <ul><li><span class="check">&#10003;</span><span>Você é mais dura consigo mesma do que seria com uma amiga.</span></li><li><span class="check">&#10003;</span><span>Sente que precisa ser perfeita para ter valor.</span></li><li><span class="check">&#10003;</span><span>Quer entender de onde vem sua autocrítica, para parar de repeti-la.</span></li><li><span class="check">&#10003;</span><span>Quer dar o primeiro passo rumo a relacionamentos mais saudáveis, começando por você mesma.</span></li></ul>
+  </div>
+</section>
+
+
+<section class="preco-final">
+  <div class="container">
+    <h2>Pronta para dar esse passo?</h2>
+    <div class="preco-box">R$ 12,00</div>
+    <div class="cta-center"><a class="btn btn-outline" href="https://ebook-amor-proprio.camilasartori.com.br/checkout" target="_blank" rel="noopener">Quero fazer o download</a></div>
+    <p class="garantia">Pagamento <i>100% seguro</i>. Acesso enviado por e-mail logo após a confirmação da compra.</p>
+  </div>
+</section>
+
+
+<section class="proximo">
+  <div class="container">
+    <h2>Quer ir além?</h2>
+    <p>O próximo passo: entenda os padrões de apego que te fazem atrair (e aceitar) relações inconsistentes.</p>
+    <div class="cta-center"><a class="btn" href="https://ebook-relacionamentos.camilasartori.com.br" target="_blank" rel="noopener">Conheça o e-book "Ele Chegou, Você Se Encantou, Ele Sumiu..."</a></div>
+    <div class="comunidade-box">
+      <h3>Quer trabalhar todos os seus pilares de autoconhecimento e relacionamentos, e ainda ter uma mentoria em grupo com a Camila?</h3>
+      <p>Então conheça a Comunidade AME-SE: um espaço fechado e seguro com vários cursos de autoconhecimento, e mentoria em grupo com a Camila lá dentro. 7 dias grátis para experimentar, e parcele em até 12x no cartão.</p>
+      <a class="btn" href="https://curso-ame-se.camilasartori.com.br" target="_blank" rel="noopener">Conheça mais sobre a comunidade, clique aqui</a>
+    </div>
+  </div>
+</section>
+
+
+<section class="faq">
+  <div class="container">
+    <h2>Perguntas Frequentes</h2>
+    <div class="faq-item">
+      <button class="pergunta">EM QUE FORMATO EU RECEBO O E-BOOK? <span class="faq-icone">+</span></button>
+      <div class="resposta">Você recebe um arquivo em PDF, para ler no computador, tablet ou celular, que pode imprimir se preferir.</div>
+    </div>
+    <div class="faq-item">
+      <button class="pergunta">QUANDO RECEBO O ACESSO? <span class="faq-icone">+</span></button>
+      <div class="resposta">Assim que a compra for confirmada, você recebe o link de download no e-mail cadastrado.</div>
+    </div>
+    <div class="faq-item">
+      <button class="pergunta">O E-BOOK SUBSTITUI A TERAPIA? <span class="faq-icone">+</span></button>
+      <div class="resposta">Não. É um material de autoconhecimento e apoio, não substitui acompanhamento terapêutico individual.</div>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="container">
+    <p style="margin-bottom:16px;">Dúvidas sobre o e-book?</p>
+    <a class="contato-btn" href="https://wa.me/5551994003418" target="_blank" rel="noopener">Entrar em contato</a>
+    <p style="margin-bottom:8px;font-weight:700;color:var(--magenta-escuro);">Me acompanhe nas redes sociais</p>
+    <p style="margin-bottom:24px;">
+      <a href="https://www.instagram.com/psicamilasartori/" target="_blank" rel="noopener" style="color:var(--magenta-escuro);text-decoration:none;font-weight:700;margin:0 8px;">Instagram</a>
+      &bull;
+      <a href="https://chat.whatsapp.com/KitgsdMiNesF0Qq876MTTz" target="_blank" rel="noopener" style="color:var(--magenta-escuro);text-decoration:none;font-weight:700;margin:0 8px;">Grupo VIP no WhatsApp</a>
+    </p>
+    <p class="legal">Aviso legal: nenhuma informação contida neste produto deve ser interpretada como afirmação da obtenção de resultados. Qualquer referência ao desempenho passado ou potencial de uma estratégia abordada no conteúdo não é, e não deve ser interpretada como uma indicação ou garantia de qualquer resultado específico.</p>
+    <p class="assinatura">Camila Sartori da Silva &copy; 2026 — Todos os direitos reservados</p>
+    <p class="assinatura">Criado pela Agência Recria</p>
+  </div>
+</footer>
+<div class="marca-dev">Mockup produzido pela Agência Recria para aprovação — link de pagamento (checkout) ainda precisa ser conectado</div>
+
+<script>
+  document.querySelectorAll('.faq-item .pergunta').forEach(function(btn){
+    btn.addEventListener('click', function(){ btn.parentElement.classList.toggle('aberta'); });
+  });
+</script>
+</body>
+</html>
