@@ -25,7 +25,7 @@ A ProHub reservou as seguintes opções, para a primeira quinzena de novembro (2
 - Quarta-feira, 11 de novembro — 16:30
 - Quinta-feira, 12 de novembro — 14:00
 
-**Quem confirma a data com os convidados é o Giuliano, não a Amanda** — por isso a decisão precisa ser rápida, para ele já poder chamar os convidados a tempo. A Amanda dá retorno à Ingrid (comercial da ProHub) com a data escolhida até a semana que vem.
+**Giuliano, precisa confirmar a melhor data com os convidados** — por isso a decisão precisa ser rápida, para ele já poder chamar os convidados a tempo. A Amanda dá retorno à Ingrid (comercial da ProHub) com a data escolhida até a semana que vem.
 
 **Sugestão da Amanda: dia 12 de novembro.** Dá cerca de um mês de folga a partir de hoje, tempo suficiente para o Giuliano organizar os convites.
 
