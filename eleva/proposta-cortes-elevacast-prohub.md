@@ -59,7 +59,7 @@ Esse valor é **por episódio**. Em uma sessão de 2 episódios com 30 cortes ca
 
 ## 5. Alternativa — Amanda assume os cortes
 
-Em vez de pagar à ProHub o valor da seção 4, a Amanda assume essa frente dentro do contrato mensal com a RECRIA: sobe o episódio completo no YouTube e faz os cortes (até 30 por episódio), entregando um episódio por mês. A ProHub continua fazendo só o que já faz hoje — gravação e entrega do episódio editado bruto.
+Em vez de pagar à ProHub o valor da seção 4, a Amanda (Agência Recria) assume essa frente dentro do contrato mensal com a Eleva: sobe o episódio completo no YouTube e faz os cortes (até 30 por episódio), entregando um episódio por mês. A ProHub continua fazendo só o que já faz hoje — gravação e entrega do episódio editado bruto.
 
 **Acréscimo mensal sugerido: R$ 1.500,00/mês.**
 
