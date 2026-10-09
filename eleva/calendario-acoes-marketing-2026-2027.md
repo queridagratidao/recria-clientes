@@ -71,7 +71,7 @@ Foco geral de outubro e novembro: bastante conteúdo orgânico sobre os benefíc
 
 - **1ª semana de dezembro:** post sobre as vantagens do portal, chamando a pessoa para aderir.
 - **2ª semana de dezembro — sugestões de tema sobre o portal** (mesmo estilo usado nos outros meses):
-  - "O que mudou na sua rotina em quem já testou o portal esse primeiro mês" — mini-balanço dos primeiros usuários. *Observação: pedir para cada um dos integrantes da Straategia dar o depoimento, para usarmos como material.*
+  - "O que mudou na sua rotina em quem já testou o portal esse primeiro mês" — mini-balanço dos primeiros usuários. *Observação: pedir para cada um dos integrantes da Strategia dar o depoimento, para usarmos como material.*
   - "Separe 5 minutos e organize o início de 2027 já dentro do portal" — gancho de planejamento de ano novo usando a ferramenta.
   - "As funções do portal que mais pouparam tempo dos primeiros síndicos que testaram" — reforço de benefício, formato de ranking/lista. *Pedir para o Giuliano levantar, com os usuários que começaram a usar em outubro e novembro, quais funções foram mais usadas nesse período e quanto tempo em média isso poupou — vira o dado real por trás do post.*
 - Depois disso, o portal só volta a ser pauta em janeiro — para não cansar o público.
@@ -156,7 +156,7 @@ Uma live por mês (tema e convidado a validar com o Giuliano). Fica disponível 
 | Outubro | Executivo de administradora — parcerias com construtoras ou seleção de síndicos parceiros |
 | Novembro | Fechamento do ano — convidar um fornecedor, um síndico e um executivo juntos, para contar como foi o ano para cada um e como estão se organizando para o próximo |
 
-*Confirmar os nomes exatos — Beto e Mari cuidam de Corretora de Seguros e Hub de Negócios, mas vale confirmar com o Giuliano quem está em cada frente antes de formalizar o convite.*
+Beto é o rosto da Eleva Corretora de Seguros, e Mari é o rosto da Eleva Hub de Negócios — por isso cada um entra só na frente que representa.
 
 Além de aparecerem nas lives, os vídeos do Beto (Corretora de Seguros) e da Mari (Hub de Negócios) também devem virar conteúdo próprio no feed/comunidade, não só participação pontual na live.
 
@@ -250,5 +250,7 @@ Outros temas do mês:
 3. Levantar datas comemorativas reconhecidas do público executivo/administrador/CEO, para equilibrar com as datas já usadas do síndico.
 4. Confirmar se existe uma data reconhecida de fornecedor/prestador de serviço para usar como gancho.
 5. Organizar a agenda de gravação dos vídeos mensais (1–2 para Instagram, 1 exclusivo para a comunidade do WhatsApp) e da live mensal a partir de março.
-6. Avaliar com o Beto (Hub de Seguros) e a Mari a possibilidade de um vídeo deles para a live/conteúdo de Corretora de Seguros em maio.
-7. **Mapear as datas de aniversário de cada frente** (Portal do Síndico — outubro, Mentoria, Hub de Negócios, Corretora de Seguros) ao longo do ano, para usar cada aniversário como gancho de cupom de desconto ou oferta pontual.
+6. Gravar com o Beto (Corretora de Seguros) e a Mari (Hub de Negócios) os vídeos deles para as respectivas lives/conteúdos em maio e junho.
+7. **Verificar com o Giuliano as pendências de vídeo que ele ficou de gravar** — quando ele consegue entregar.
+8. **Captação de conteúdo na Strategia:** não aconteceu essa semana por causa da chuva. Nova data marcada para o dia 15, semana que vem — confirmar se o Giuliano também quer participar, para já reservar uma hora só para gravar ele.
+9. **Mapear as datas de aniversário de cada frente** (Portal do Síndico — outubro, Mentoria, Hub de Negócios, Corretora de Seguros) ao longo do ano, para usar cada aniversário como gancho de cupom de desconto ou oferta pontual.
