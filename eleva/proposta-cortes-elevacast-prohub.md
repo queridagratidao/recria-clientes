@@ -63,7 +63,18 @@ Em vez de pagar à ProHub o valor da seção 4, a Amanda (Agência Recria) assum
 
 **Acréscimo mensal sugerido: R$ 1.500,00/mês.**
 
-Para efeito de comparação: pela ProHub, cortar **um único episódio** em até 30 partes custaria R$ 2.400,00 avulso. Pelo valor mensal da Amanda, mesmo nos meses em que ela entrega os cortes de um episódio, o Giuliano já sai com um desconto de quase R$ 900,00 em relação ao que a ProHub cobraria pelo mesmo volume — e nos meses sem episódio novo, o valor mensal continua cobrindo outro tipo de material (ver cronograma abaixo), em vez de ficar parado.
+Ou seja, o contrato passa de R$ 2.000/mês para R$ 3.500/mês com a Recria, para ter os cortes quando tiver episódio novo, e cortes posteriores de lives e outros materiais da Eleva nos meses sem episódio.
+
+**Comparativo:**
+
+| | ProHub | Agência Recria / Amanda |
+|---|---|---|
+| O que cobre | Só os cortes avulsos de um episódio, sob demanda | Cortes de episódio, cortes de live e edição de outros materiais, todo mês |
+| Valor por episódio (até 30 cortes) | R$ 2.400,00 avulso | Dentro do mensal — equivalente a R$ 1.500,00 no mês em que entrega um episódio |
+| Nos meses sem episódio novo | Não cobre nada, contrato fica parado | Valor mensal continua ativo, cobrindo cortes de live/outros materiais |
+| Upload do episódio completo (YouTube) | Não incluso | Incluso |
+
+Mesmo nos meses em que entrega os cortes de um episódio, o Giuliano já sai com um desconto de quase R$ 900,00 em relação ao que a ProHub cobraria pelo mesmo volume — e nos meses sem episódio novo, o valor mensal continua gerando entrega, em vez de ficar parado.
 
 **Cronograma, se a Amanda assumir:**
 - Novembro: gravação dos 2 episódios com a ProHub.
