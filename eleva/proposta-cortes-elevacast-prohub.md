@@ -88,4 +88,4 @@ Mesmo nos meses em que entrega os cortes de um episódio, o Giuliano já sai com
 ## 6. Decisão do Giuliano
 
 1. Os cortes adicionais ficam com a **ProHub** (R$ 1.600 ou R$ 2.400 por episódio, conforme a quantidade), ou
-2. Os cortes ficam com a **Amanda**, com acréscimo mensal de R$ 1.500,00 no contrato da RECRIA.
+2. Os cortes ficam com a **Amanda**, com acréscimo mensal de R$ 1.500,00 no contrato da RECRIA a serem pagos a partir de dezembro de 2026.
