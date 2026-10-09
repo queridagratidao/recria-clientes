@@ -353,7 +353,7 @@ Formato: e-book em PDF, com acesso imediato. Garantia de 7 dias.
 **Order bumps sugeridos (produtos que aparecem na tela de pagamento):**
 
 - Recria Mais de 100 Ideias de Low Ticket, preço do bump sugerido: R$ 12,90 (preço normal R$ 15,00). Texto do convite: "Leve também o Recria Mais de 100 Ideias de Low Ticket por apenas R$ 12,90, só nesta compra."
-- Recria Médio Ticket, preço do bump sugerido: R$ 13,90 (preço normal R$ 17,00). Texto do convite: "Leve também o Recria Médio Ticket por apenas R$ 13,90, só nesta compra."
+- Recria Medium Ticket, preço do bump sugerido: R$ 13,90 (preço normal R$ 17,00). Texto do convite: "Leve também o Recria Medium Ticket por apenas R$ 13,90, só nesta compra."
 
 ---
 
@@ -399,14 +399,14 @@ Formato: e-book em PDF, com acesso imediato. Garantia de 7 dias.
 
 **Order bumps sugeridos (produtos que aparecem na tela de pagamento):**
 
-- Recria Médio Ticket, preço do bump sugerido: R$ 13,90 (preço normal R$ 17,00). Texto do convite: "Leve também o Recria Médio Ticket por apenas R$ 13,90, só nesta compra."
+- Recria Medium Ticket, preço do bump sugerido: R$ 13,90 (preço normal R$ 17,00). Texto do convite: "Leve também o Recria Medium Ticket por apenas R$ 13,90, só nesta compra."
 - Recria Esteira de Produtos, preço do bump sugerido: R$ 9,90 (preço normal R$ 12,00). Texto do convite: "Leve também o Recria Esteira de Produtos por apenas R$ 9,90, só nesta compra."
 
 ---
 
-## Recria Médio Ticket
+## Recria Medium Ticket
 
-- **Nome do produto:** Recria Médio Ticket
+- **Nome do produto:** Recria Medium Ticket
 - **Formato:** E-book (PDF) · **Idioma:** Português (Brasil)
 - **Categoria sugerida:** Negócios e Carreira (ou Marketing e Vendas)
 - **Preço (pagamento único):** R$ 17,00 · **Garantia:** 7 dias
@@ -429,7 +429,7 @@ O que você vai encontrar:
 • Do low para o médio: Como levar quem já comprou o seu produto de entrada, e como medir.
 
 O que você recebe:
-• O guia Recria Médio Ticket, passo a passo.
+• O guia Recria Medium Ticket, passo a passo.
 • Modelos de promessa e de oferta para preencher.
 • Exemplos de vários tipos de negócio.
 • Direcional passo a passo para desenhar a sua oferta.
@@ -498,7 +498,7 @@ Formato: e-book em PDF, com acesso imediato. Garantia de 7 dias.
 **Order bumps sugeridos (produtos que aparecem na tela de pagamento):**
 
 - Recria Manual de Estrutura de Negócio, preço do bump sugerido: R$ 29,90 (preço normal R$ 37,00). Texto do convite: "Leve também o Recria Manual de Estrutura de Negócio por apenas R$ 29,90, só nesta compra."
-- Recria Médio Ticket, preço do bump sugerido: R$ 13,90 (preço normal R$ 17,00). Texto do convite: "Leve também o Recria Médio Ticket por apenas R$ 13,90, só nesta compra."
+- Recria Medium Ticket, preço do bump sugerido: R$ 13,90 (preço normal R$ 17,00). Texto do convite: "Leve também o Recria Medium Ticket por apenas R$ 13,90, só nesta compra."
 
 ---
 

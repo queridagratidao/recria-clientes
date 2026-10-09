@@ -23,7 +23,7 @@
 | | E-book Recria MIV | R$15 | PDF e página prontos | Identidade visual |
 | | E-book Recria Mais de 100 Ideias de Low Ticket | R$15 | PDF e página prontos | O primeiro produto de entrada |
 | | Curso Express (Estratégia Atraente Que Vende) | R$15 | **Já no ar** (checkout com combos) | Entrada em vídeo |
-| **2 · Subindo a esteira (e-books)** | E-book Recria Médio Ticket | R$17 | Em criação | Subir um degrau |
+| **2 · Subindo a esteira (e-books)** | E-book Recria Medium Ticket | R$17 | Em criação | Subir um degrau |
 | | E-book Recria High Ticket | R$27 | Em criação | O momento certo do premium |
 | | E-book Recria Manual de Estrutura de Negócio | R$37 | Em criação | Montar a casa |
 | | E-book Manual de Narrativas Atraentes Que Vendem | R$47 | **Já no ar** | Intermediário |
@@ -68,7 +68,7 @@ Todos os produtos terminam com uma oferta "com preço bem acessível" (sem mostr
 | 6 | Negócio local no digital (produto digital para negócio físico) | R$10 | Início da trilha de produto | **v1 pronto** (19 páginas) |
 | 7 | Esteira de produtos | R$12 | Organizar a oferta | **v1 pronto** (17 páginas) |
 | 8 | mais de 100 ideias de low ticket (105 ideias: pequeno/local, médio, grande, digital e e-commerce) | R$15 | O primeiro produto de entrada | **v1 pronto** (18 páginas) |
-| 9 | Como criar um produto de médio ticket | R$17 | Subir o degrau | A fazer |
+| 9 | Como criar um produto de medium ticket | R$17 | Subir o degrau | A fazer |
 | 10 | Como criar um produto high ticket e o momento certo | R$22 | Subir de novo | A fazer |
 | 11 | Manual de estrutura de negócio (marketing, comercial, RH, financeiro, o que terceirizar) | R$27 | Para quem quer montar a casa | A fazer |
 | 12 | **E-book para direcionar o time comercial** (follow-up, rotina e acompanhamento; depois, um curso focado em time comercial) | R$27 a R$47 (a definir) | Estruturar o comercial | A fazer |
@@ -87,8 +87,8 @@ Regra: cada produto termina oferecendo o próximo degrau lógico. O Recria Calen
 | 5. Recria Reels | 6. Negócio local no digital | Conteúdo, peças e marca prontos: hora de diversificar a renda |
 | 6. Negócio local no digital | 7. Esteira de produtos | Vai querer a esteira inteira |
 | 7. Esteira de produtos | 8. mais de 100 ideias de low ticket | Esteira montada pede o primeiro produto |
-| 8. mais de 100 ideias | 9. Médio ticket | O degrau seguinte da esteira |
-| 9. Médio ticket | 10. High ticket | O degrau seguinte |
+| 8. mais de 100 ideias | 9. Medium ticket | O degrau seguinte da esteira |
+| 9. Medium ticket | 10. High ticket | O degrau seguinte |
 | 10. High ticket | 11. Estrutura de negócio | Para sustentar um produto caro, o negócio precisa de estrutura |
 | 11. Estrutura de negócio | 12. Prospecção ativa | Estrutura pronta, agora trazer clientes sem anúncio |
 | 12. Prospecção ativa | Comunidade Recria Business (R$47/mês) | Continuidade e cursos de posicionamento, negócio, marketing e comercial |
@@ -107,7 +107,7 @@ Regra: cada produto termina oferecendo o próximo degrau lógico. O Recria Calen
 | 4 | Recria Post (R$10) | 26/10 |
 | 5 | Recria Reels (R$10 a R$12) | 02/11 |
 | 6 | Negócio local (R$10), Esteira (R$12), mais de 100 ideias (R$15) | Novembro |
-| 7 | Médio ticket (R$17), High ticket (R$22), Estrutura (R$27) | Dezembro |
+| 7 | Medium ticket (R$17), High ticket (R$22), Estrutura (R$27) | Dezembro |
 | 8 | Prospecção ativa (R$67), com cuidado jurídico | Dezembro |
 
 Cada e-book ganha uma LP em `agenciarecria.com.br/[nome]`, no padrão das páginas do Manual e do Express, quando o produto e o checkout existirem na Hotmart.

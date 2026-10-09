@@ -152,7 +152,7 @@
 | 26 a 30/10 | E-books Calendário de Conteúdos e Calendário com IA |
 | 02 a 06/11 | E-books Negócio Local e Esteira de Produtos |
 | 09 a 13/11 | Curso Express e E-book Manual de Narrativas |
-| Seguintes | MIV, Post, Reels, Ads, Médio Ticket, High Ticket, Estrutura de Negócio, Comunidade |
+| Seguintes | MIV, Post, Reels, Ads, Medium Ticket, High Ticket, Estrutura de Negócio, Comunidade |
 
 ## O que preciso de você
 1. Confirmar a semana do início da venda ativa (26/10 ou 19/10).
