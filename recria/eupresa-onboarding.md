@@ -9,15 +9,19 @@
   4. Botão/link para falar no WhatsApp: https://wa.me/5551991091697
 - Módulo 2 · **Próximos passos** (opcional, depois): Pacote inicial, contratos de 3/6/12 meses, site.
 
-## Fluxo depois da compra
-1. Pagamento confirmado → página `/eupresa-obrigado/` → formulário (nome, negócio, Instagram, WhatsApp, e-mail, período, verba por semana, destino).
-2. Alerta por e-mail com os dados.
-3. **Em até 1 dia útil**, eu chamo no WhatsApp. A pessoa também pode me chamar antes.
-4. Alinhamento pelo WhatsApp: objetivo, oferta, destino (WhatsApp, Instagram ou site), imagens e textos dos anúncios.
-5. Configuração da campanha com o Instagram dela e publicação.
-6. **Os 7 dias (ou 14, 21, 28) começam a contar quando a campanha entra no ar.**
-7. Relatório final com os resultados.
-8. Convite para renovar ou para os planos maiores.
+## Fluxo depois da compra (esteira de ativação)
+| Quando | O que acontece |
+|---|---|
+| **Dia 0 · compra** | Página `/eupresa-obrigado/`: vídeo explicativo + formulário (nome, negócio, Instagram, WhatsApp, e-mail, período, verba, destino). Alerta por e-mail para você. |
+| **Dia 1** | A pessoa assiste ao vídeo e aos materiais do curso (Hotmart) e usa os presentes extras (checklist do Instagram) para preparar o perfil. |
+| **Dia 2 · até 1 dia útil** | Você chama no WhatsApp: objetivo, oferta, destino, acessos, criativos. |
+| **Até 3 dias úteis depois** | Configuração da conta de anúncios no Instagram dela (mais lento se nunca anunciou), coleta de acessos e das peças. Ela cria os criativos, ou contrata a Recria (serviço à parte). |
+| **Até 2 dias depois** | Campanha ativada. **Só aqui começa a contagem dos dias pagos** (7, 14, 21 ou 28), mesmo que a configuração demore mais. |
+| **Fim do período** | Relatório + convite para renovar (a conta já está configurada, o processo é mais rápido). |
+
+Resumo: da compra até a campanha no ar, em média **até 1 semana (cerca de 7 dias úteis)**. A campanha de quem comprou 1 semana começa a rodar na semana seguinte.
+
+Nota interna (não vai para a página): isso organiza o início do serviço, mas não substitui a regra do Código de Defesa do Consumidor (7 dias de arrependimento em compra online). Confirme com a Hotmart como tratar serviço já iniciado.
 
 ## O que a pessoa precisa fazer (colocar no PDF e no vídeo)
 - Responder rápido no alinhamento e enviar as imagens e informações.
