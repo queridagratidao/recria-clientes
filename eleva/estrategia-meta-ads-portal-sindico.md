@@ -33,7 +33,7 @@ Entra no ar só quando o portal estiver com o acesso totalmente liberado — a f
 
 Mesma janela da campanha de Google: cerca de 30 dias corridos, divididos em duas quinzenas entre outubro (a partir da data de lançamento, 13 ou 20/10) e novembro, com verba separada do Always On de engajamento que já roda hoje.
 
-**O valor específico da verba de Meta ainda precisa ser definido pelo Giuliano** — diferente do Google, aqui não há um saldo parado para aproveitar, então a verba sai do orçamento geral de mídia paga combinado com ele.
+**Sugestão de orçamento: R$ 1.500,00**, o mesmo valor da campanha de Google, mantendo as duas frentes de tráfego pago equilibradas durante o lançamento — cerca de R$ 50/dia pelos 30 dias. Diferente do Google, aqui não há um saldo parado para aproveitar, então esse valor sai do orçamento geral de mídia paga do Giuliano. **Fica para ele confirmar se usa esse valor ou prefere outro.**
 
 ---
 
