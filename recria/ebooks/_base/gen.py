@@ -63,7 +63,7 @@ def final1(kick, h1, intro, destaque, cards):
 {oferta(*destaque, margem="2mm")}
 {extra}
 {oferta("Curso", "Recria Ads", "Aprenda a criar conteúdos e anúncios <b>sem cara de anúncio</b> e sem parecer aquele vendedor chato, vendendo com leveza. Curso aprofundado, com exercícios práticos.", "LINK-ADS", "Quero conhecer o Recria Ads", "2mm")}
-{oferta("Comunidade gratuita", "Grupo Recriadores", "Grupo gratuito no WhatsApp, com conteúdos exclusivos e atividades práticas toda semana, para você recriar o seu negócio e vender mais todos os meses.", "LINK-GRUPO", "Quero entrar no grupo", "2mm")}
+{oferta("Comunidade gratuita", "Recriadores", "Comunidade gratuita no WhatsApp, com conteúdos exclusivos e atividades práticas toda semana, para você recriar o seu negócio e vender mais todos os meses.", "LINK-GRUPO", "Quero entrar na comunidade", "2mm")}
 </section>
 
 '''
