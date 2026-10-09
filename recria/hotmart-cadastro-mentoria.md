@@ -45,7 +45,10 @@ O que está incluso:
 • Diagnóstico e plano de ação para o seu negócio.
 • Direcionamento de posicionamento, oferta, conteúdo e comercial.
 • Materiais e modelos de apoio, conforme a sua necessidade.
-• Encontros e suporte para tirar dúvidas durante a mentoria.
+• 6 meses de acompanhamento, com 1 encontro individual por mês (1 hora, por Google Meet).
+• Reuniões gravadas, com ata e material direcional.
+• Suporte pelo WhatsApp em horário comercial, entre os encontros.
+• Retorno mensal dos resultados e do crescimento do seu negócio.
 
 Para quem é:
 • Donos de negócio que querem crescer com método e acompanhamento.
