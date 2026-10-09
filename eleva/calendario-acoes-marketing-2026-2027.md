@@ -71,9 +71,9 @@ Foco geral de outubro e novembro: bastante conteúdo orgânico sobre os benefíc
 
 - **1ª semana de dezembro:** post sobre as vantagens do portal, chamando a pessoa para aderir.
 - **2ª semana de dezembro — sugestões de tema sobre o portal** (mesmo estilo usado nos outros meses):
-  - "O que mudou na sua rotina em quem já testou o portal esse primeiro mês" — mini-balanço dos primeiros usuários.
+  - "O que mudou na sua rotina em quem já testou o portal esse primeiro mês" — mini-balanço dos primeiros usuários. *Observação: pedir para cada um dos integrantes da Straategia dar o depoimento, para usarmos como material.*
   - "Separe 5 minutos e organize o início de 2027 já dentro do portal" — gancho de planejamento de ano novo usando a ferramenta.
-  - "As funções do portal que mais pouparam tempo dos primeiros síndicos que testaram" — reforço de benefício, formato de ranking/lista.
+  - "As funções do portal que mais pouparam tempo dos primeiros síndicos que testaram" — reforço de benefício, formato de ranking/lista. *Pedir para o Giuliano levantar, com os usuários que começaram a usar em outubro e novembro, quais funções foram mais usadas nesse período e quanto tempo em média isso poupou — vira o dado real por trás do post.*
 - Depois disso, o portal só volta a ser pauta em janeiro — para não cansar o público.
 - Resto do mês mais tranquilo, com mais cortes de podcast. Gancho possível: "se você estiver com mais tempo no fim do ano por causa da redução de demandas do condomínio, aproveite para estudar os cursos da Eleva."
 
@@ -96,21 +96,24 @@ Mês de preparação para o ano. Foco em curso e portal.
 - Curso de recolocação profissional / formação de síndico.
 - Curso "Multiplicar Vendas" (fornecedor, mas também serve às outras frentes).
 - Portal do Síndico, retomando o convite ao teste.
-- **Gancho de início de ano:** "já começou 2027 — como estava a sua carteira em 2026? O que vai fazer diferente esse ano?" (primeira aparição da série "retrospectiva + caminho Eleva", ver detalhe mais abaixo).
+- Sem gancho de "início de ano/retrospectiva" nesse mês — em janeiro o público ainda não está no clima de fazer curso; esse gancho entra em fevereiro/março (ver abaixo).
 
 ### Fevereiro de 2027
 Introduz diagnóstico e mentoria para as três personas (síndico, executivo, fornecedor), seguindo o funil: o curso é a ponta de entrada, e quanto mais a pessoa quer personalização e acompanhamento da Eleva, mais caminha para diagnóstico e mentoria.
 - Diagnóstico Eleva (3 personas).
 - Mentoria Eleva (3 personas).
 - Portal do Síndico, mantendo a preparação do início do ano: revisão de apólice, organização das contas, preparação para assembleias.
-- **Final de fevereiro:** lançamento do conceito **Kit Assembleia** — a pessoa já se organizando para o início da temporada.
+- **Gancho de início de ano:** "já começou 2027 — como estava a sua carteira em 2026? O que vai fazer diferente esse ano?" (primeira aparição da série "retrospectiva + caminho Eleva", ver detalhe mais abaixo).
+- **Final de fevereiro:** lançamento do conceito **Kit Assembleia**. *O que é, para explicar ao Giuliano: um conteúdo/checklist com o mínimo que o síndico precisa ter organizado antes da assembleia — convocação, pauta, documentos e prestação de contas em dia — para ele chegar preparado e sem imprevistos.*
 - **Dia da Mulher (8/3, já na virada para março):** gancho para síndicas.
 
 ### Março de 2027
-Começa o pico de novos contratos e assembleias para mudança de síndico — aprofundar esse tópico. Também introduz Hub de Negócios e Corretora de Seguros como conteúdo (sem oferta comercial ainda).
-- **Assembleia** como tema central do mês.
-- Hub de Negócios — primeira menção.
-- Corretora de Seguros — primeira menção.
+Começa o pico de novos contratos e assembleias para mudança de síndico — aprofundar esse tópico.
+
+**Tema 1 — Assembleia**, como tema central e tópico independente do mês.
+
+**Tema 2 — Hub de Negócios e Corretora de Seguros**, primeira menção de cada, como conteúdo (sem oferta comercial ainda) e separado do tópico de assembleia.
+
 - Portal do Síndico segue em pauta.
 
 **Temporada de assembleias (março a novembro):** falar do tema em meses alternados — **março, maio, julho, setembro, outubro e novembro** — para manter o assunto presente o ano todo sem repetir toda semana. Em abril, o assunto aparece de forma mais indireta (ver mês de abril, adiante), e não entra como tema central, para intercalar a intensidade.
@@ -121,7 +124,7 @@ Começa o pico de novos contratos e assembleias para mudança de síndico — ap
 
 Mesma estrutura, três momentos do ano, só muda o recorte temporal:
 
-1. **Março — início do ano:** "já começou o ano, como estava a sua carteira em 2026? O que você vai fazer diferente agora?"
+1. **Fevereiro/março — início do ano:** "já começou o ano, como estava a sua carteira em 2026? O que você vai fazer diferente agora?"
 2. **Agosto — metade do ano:** "já passou a metade do ano, ainda dá tempo de salvar 2027."
 3. **Novembro — fim do ano:** "já é hora de se organizar para 2028, retrospectiva geral do que deu e não deu certo."
 
@@ -145,15 +148,19 @@ Uma live por mês (tema e convidado a validar com o Giuliano). Fica disponível 
 |---|---|
 | Março | Portal do Síndico — relembrar o lançamento do fim de 2026 |
 | Abril | Executivo de administradora — gestão de ativos ou revitalização predial |
-| Maio | Corretora de Seguros — avaliar convite ao Beto (Hub de Seguros) ou à Mari |
-| Junho | Executivo de administradora — como organizam e expandem a carteira |
+| Maio | Corretora de Seguros — convidar o Beto |
+| Junho | Hub de Negócios — convidar a Mari. Se der, manter também a live com executivo de administradora sobre como organizam e expandem a carteira (avaliar fazer duas lives no mês) |
 | Julho | Síndico (período de férias) e fornecedores (se preparando para o 2º semestre) |
-| Agosto | Depoimento de cliente, se já houver algum disponível |
+| Agosto | Depoimento de cliente, se já houver algum disponível. Se não houver, repete Corretora de Seguros e Hub de Negócios, chamando novamente o Beto e a Mari |
 | Setembro | Saúde mental do síndico (Setembro Amarelo) |
 | Outubro | Executivo de administradora — parcerias com construtoras ou seleção de síndicos parceiros |
-| Novembro | Fechamento do ano (convidado a definir) |
+| Novembro | Fechamento do ano — convidar um fornecedor, um síndico e um executivo juntos, para contar como foi o ano para cada um e como estão se organizando para o próximo |
 
-> Sem live em dezembro — o Giuliano não terá tempo nesse período.
+*Confirmar os nomes exatos — Beto e Mari cuidam de Corretora de Seguros e Hub de Negócios, mas vale confirmar com o Giuliano quem está em cada frente antes de formalizar o convite.*
+
+Além de aparecerem nas lives, os vídeos do Beto (Corretora de Seguros) e da Mari (Hub de Negócios) também devem virar conteúdo próprio no feed/comunidade, não só participação pontual na live.
+
+> Sem live em dezembro.
 
 ---
 
@@ -173,19 +180,31 @@ Pedir ao Giuliano, nesses quatro meses, pelo menos um vídeo de um conhecido fal
 Foco em Hub de Negócios e Corretora de Seguros — as duas frentes mais recentes ganham mais espaço no conteúdo do mês. O tema de assembleia aparece de forma mais indireta, sem ser o assunto central (para intercalar a intensidade com março).
 
 ### Maio
+
+**Tema 1 — Assembleia** (no rodízio do mês), como tópico independente.
+
+**Tema 2 — Corretora de Seguros**, com o vídeo do Beto, tópico separado da assembleia para não misturar os dois assuntos.
+
+Outros temas do mês:
 - **Dia do Trabalhador (1/5):** gancho de valorização de porteiro/zelador.
 - **Dia das Mães (9/5):** conteúdo nos stories.
-- **Assembleia** no rodízio do mês.
 - **Inverno (maio a agosto, no Sul):** início da janela para falar do aumento da conta de luz nos condomínios e como o síndico pode se antecipar, montando um fundo de reserva específico para isso.
 
 ### Junho
+
+**Tema 1 — Hub de Negócios**, com o vídeo da Mari, tópico próprio e independente.
+
+Outros temas do mês:
 - **Dia do Meio Ambiente (5/6):** gestão ambiental, coleta seletiva, redução de custo no condomínio.
 - **Carrossel grande apresentando todas as frentes do Eleva Group** (curso/diagnóstico/mentoria, Corretora de Seguros, Hub de Negócios, Portal do Síndico, comunidade gratuita no WhatsApp) — a essa altura tudo já estará funcionando. Fixar esse carrossel no topo do feed depois de publicado.
 - Segue o tema de inverno/conta de luz, se não tiver sido totalmente coberto em maio.
 
 ### Julho
+
+**Tema 1 — Assembleia** (no rodízio do mês), como tópico independente.
+
+Outros temas do mês:
 - Preparar o condomínio para as férias escolares: segurança em playground e áreas comuns, antecipar possíveis conflitos com moradores por causa do maior movimento de crianças.
-- **Assembleia** no rodízio do mês.
 - Live do mês fala com síndico (férias) e fornecedor (preparação para o 2º semestre).
 - Segue o tema de inverno/conta de luz.
 
@@ -193,22 +212,32 @@ Foco em Hub de Negócios e Corretora de Seguros — as duas frentes mais recente
 - **Dia do Síndico (30/8):** destaque do mês, parabenizando os síndicos — avaliar vídeo do Giuliano.
 - **Carrossel "retrospectiva + caminho Eleva" — metade do ano** (ver série detalhada acima).
 - Fecha a janela de inverno/conta de luz do condomínio.
+- Se a live do mês não tiver depoimento de cliente, volta como tópico independente a Corretora de Seguros e o Hub de Negócios (Beto e Mari).
 
 ### Setembro
+
+**Tema 1 — Assembleia** (no rodízio do mês), como tópico independente.
+
+Outros temas do mês:
 - **Setembro Amarelo:** estresse e saúde mental do síndico, como lidar melhor com a rotina.
-- **Assembleia** no rodízio do mês.
 
 ### Outubro
-- **Assembleia** no rodízio do mês, com foco na reta final — fechar os últimos contratos/condomínios antes do fim do ano.
+
+**Tema 1 — Assembleia** (no rodízio do mês), com foco na reta final — fechar os últimos contratos/condomínios antes do fim do ano.
+
+Outros temas do mês:
 - Aniversário de um ano do portal (lançado em outubro de 2026) — avaliar retrospectiva curta.
 
 ### Novembro
-- **Assembleia** no rodízio do mês, mesma lógica de reta final do ano.
+
+**Tema 1 — Assembleia** (no rodízio do mês), mesma lógica de reta final do ano, como tópico independente.
+
+Outros temas do mês:
 - **Carrossel "retrospectiva + caminho Eleva" — fim do ano**, já preparando para 2028 (ver série detalhada acima).
-- Live de fechamento do ano.
+- Live de fechamento do ano — convidar um fornecedor, um síndico e um executivo juntos.
 
 ### Dezembro
-- Sem live — o Giuliano não terá tempo nesse período.
+- Sem live.
 - **Semana de 15/12** (antes do público ficar mais focado em festas): primeiro teste da série "retrospectiva + caminho Eleva", em formato de carrossel — o que você fez esse ano, se não gostou do resultado já é hora de se preparar para o ano que vem, falando dos cursos e das próximas etapas (sessão estratégica → diagnóstico → mentoria).
 - Gancho para o resto do mês: "se você estiver com mais tempo por causa da redução de demandas do condomínio, aproveite para estudar os cursos da Eleva."
 
