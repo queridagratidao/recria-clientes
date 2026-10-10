@@ -8,7 +8,8 @@
  * Cada envio salva uma linha na planilha _CRM Central - Agência Recria e manda um e-mail de aviso para amandarecria@gmail.com.
  *
  * Instalação (mesmo processo do checklist):
- *  - script.google.com > Novo projeto (ou o do EUpresa, se já criou) > cole este código > Salvar.
+ *  - Abra a planilha _CRM Central - Agência Recria > Extensões > Apps Script > Novo projeto (ou crie em script.google.com) > cole este código > Salvar.
+ *  - Execute "prepararAbas" para criar as 3 abas na planilha.
  *  - Execute "autorizar" e aceite as permissões.
  *  - Implantar > Nova implantação (ou Gerenciar implantações > editar > Nova versão) > App da Web > Executar como: Eu > Acesso: Qualquer pessoa.
  *  - Copie a URL do app da Web e envie para a Claude colocar nas páginas.
@@ -112,6 +113,9 @@ function avisar_(f, d, zap, tipo) {
 }
 
 function resposta_(obj) { return ContentService.createTextOutput(JSON.stringify(obj)).setMimeType(ContentService.MimeType.JSON); }
+
+/** Cria agora as 3 abas (com cabeçalho) na planilha _CRM Central, sem esperar o primeiro envio. Rode uma vez. */
+function prepararAbas() { Object.keys(FORMS).forEach(function (k) { abaDestino_(FORMS[k]); }); Logger.log('Abas criadas na planilha.'); }
 
 function autorizar() { SpreadsheetApp.openById(ID_PLANILHA).getName(); MailApp.getRemainingDailyQuota(); Logger.log('Permissões ok.'); }
 
