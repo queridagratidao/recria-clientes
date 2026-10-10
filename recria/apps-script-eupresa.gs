@@ -90,13 +90,15 @@ function validar_(d, obrig) {
   return '';
 }
 
+function normaliza_(t) { return String(t || '').toLowerCase().replace(/[\u2010-\u2015\-–—]/g, '-').replace(/\s+/g, ' ').trim(); }
+
 function abaDestino_(f) {
   var planilha = SpreadsheetApp.openById(ID_PLANILHA);
-  var aba = planilha.getSheetByName(f.aba);
+  var aba = null, alvo = normaliza_(f.aba);
+  planilha.getSheets().forEach(function (sh) { if (!aba && normaliza_(sh.getName()) === alvo) aba = sh; });
   if (!aba) aba = planilha.insertSheet(f.aba);
-  if (aba.getLastRow() === 0) {
-    aba.appendRow(f.cab);
-    aba.getRange(1, 1, 1, f.cab.length).setFontWeight('bold').setBackground('#f3e9cf');
+  if (aba.getLastRow() === 0 || String(aba.getRange(1, 1).getValue()) === '') {
+    aba.getRange(1, 1, 1, f.cab.length).setValues([f.cab]).setFontWeight('bold').setBackground('#f3e9cf');
     aba.setFrozenRows(1);
     aba.getRange('A:A').setNumberFormat('dd/MM/yyyy HH:mm');
   }
