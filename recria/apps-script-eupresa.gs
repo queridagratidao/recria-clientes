@@ -7,15 +7,15 @@
  *  - site     → página /eupresa-site/       (aba "EUpresa - site")
  * Cada envio salva uma linha na planilha _CRM Central - Agência Recria e manda um e-mail de aviso para amandarecria@gmail.com.
  *
- * Instalação (projeto SEPARADO do checklist, para não apagar o que já funciona):
- *  - NÃO use Extensões > Apps Script da planilha (lá já está o script do checklist, e colar aqui substituiria ele).
- *  - Abra script.google.com > Novo projeto > nome "Recria EUpresa" > cole este código no lugar do exemplo > Salvar.
- *  - Execute "autorizar" e aceite as permissões. Depois execute "prepararAbas" (cria/prepara as 3 abas na planilha).
+ * Instalação (numa planilha NOVA, só para o EUpresa; não use a _CRM Central, que já tem o script do checklist):
+ *  - Crie uma planilha nova (por exemplo "Recria EUpresa - leads") e abra Extensões > Apps Script.
+ *  - Apague o exemplo, cole este código e clique em Salvar. Não precisa preencher nada: o código grava na própria planilha.
+ *  - Execute "autorizar" e aceite as permissões. Depois execute "prepararAbas" (cria as 3 abas com cabeçalho).
  *  - Execute testarCompra, testarContrato e testarSite (um de cada vez) e confira as abas e o e-mail. Apague as linhas de teste.
  *  - Implantar > Nova implantação > App da Web > Executar como: Eu > Acesso: Qualquer pessoa.
  *  - Copie a URL do app da Web e envie para a Claude colocar nas páginas.
  */
-var ID_PLANILHA = '1kbRl6xxqbfggIk96TopOCHZE_ehaxKCHOcKtbloC3Gc';
+var ID_PLANILHA = ''; // deixe vazio: o código usa a planilha onde ele foi colado
 var EMAIL_AVISO = 'amandarecria@gmail.com';
 
 var FORMS = {
@@ -93,8 +93,10 @@ function validar_(d, obrig) {
 
 function normaliza_(t) { return String(t || '').toLowerCase().replace(/[\u2010-\u2015\-–—]/g, '-').replace(/\s+/g, ' ').trim(); }
 
+function planilha_() { return ID_PLANILHA ? SpreadsheetApp.openById(ID_PLANILHA) : SpreadsheetApp.getActiveSpreadsheet(); }
+
 function abaDestino_(f) {
-  var planilha = SpreadsheetApp.openById(ID_PLANILHA);
+  var planilha = planilha_();
   var aba = null, alvo = normaliza_(f.aba);
   planilha.getSheets().forEach(function (sh) { if (!aba && normaliza_(sh.getName()) === alvo) aba = sh; });
   if (!aba) aba = planilha.insertSheet(f.aba);
@@ -111,7 +113,7 @@ function avisar_(f, d, zap, tipo) {
   f.campos.forEach(function (k, i) { linhas.push(f.cab[1 + i + (f.campos.indexOf('whatsapp') < i ? 1 : 0)] + ': ' + (d[k] || '-')); });
   var corpo = 'Novo envio (' + tipo + ').\n\n' + linhas.join('\n') +
     (zap ? '\n\nChamar no WhatsApp: https://wa.me/' + zap : '') +
-    '\n\nSalvo na aba "' + f.aba + '":\nhttps://docs.google.com/spreadsheets/d/' + ID_PLANILHA + '/edit';
+    '\n\nSalvo na aba "' + f.aba + '":\n' + planilha_().getUrl();
   MailApp.sendEmail(EMAIL_AVISO, f.assunto(d), corpo);
 }
 
@@ -120,7 +122,7 @@ function resposta_(obj) { return ContentService.createTextOutput(JSON.stringify(
 /** Cria agora as 3 abas (com cabeçalho) na planilha _CRM Central, sem esperar o primeiro envio. Rode uma vez. */
 function prepararAbas() { Object.keys(FORMS).forEach(function (k) { abaDestino_(FORMS[k]); }); Logger.log('Abas criadas na planilha.'); }
 
-function autorizar() { SpreadsheetApp.openById(ID_PLANILHA).getName(); MailApp.getRemainingDailyQuota(); Logger.log('Permissões ok.'); }
+function autorizar() { planilha_().getName(); MailApp.getRemainingDailyQuota(); Logger.log('Permissões ok.'); }
 
 /** Testes: rode cada um e confira a planilha e o e-mail. Depois apague as linhas de teste. */
 function testarCompra() { Logger.log(doPost({ postData: { contents: JSON.stringify({ tipo: 'compra', nome: 'Teste Recria', negocio: 'Salão Teste', whatsapp: '(51) 99999-9999', email: 'teste@exemplo.com', instagram: '@teste', plano: '2 semanas', verba: 'R$ 75 por semana', destino: 'WhatsApp', obs: 'teste' }) } }).getContent()); }
