@@ -7,11 +7,12 @@
  *  - site     → página /eupresa-site/       (aba "EUpresa - site")
  * Cada envio salva uma linha na planilha _CRM Central - Agência Recria e manda um e-mail de aviso para amandarecria@gmail.com.
  *
- * Instalação (mesmo processo do checklist):
- *  - Abra a planilha _CRM Central - Agência Recria > Extensões > Apps Script > Novo projeto (ou crie em script.google.com) > cole este código > Salvar.
- *  - Execute "prepararAbas" para criar as 3 abas na planilha.
- *  - Execute "autorizar" e aceite as permissões.
- *  - Implantar > Nova implantação (ou Gerenciar implantações > editar > Nova versão) > App da Web > Executar como: Eu > Acesso: Qualquer pessoa.
+ * Instalação (projeto SEPARADO do checklist, para não apagar o que já funciona):
+ *  - NÃO use Extensões > Apps Script da planilha (lá já está o script do checklist, e colar aqui substituiria ele).
+ *  - Abra script.google.com > Novo projeto > nome "Recria EUpresa" > cole este código no lugar do exemplo > Salvar.
+ *  - Execute "autorizar" e aceite as permissões. Depois execute "prepararAbas" (cria/prepara as 3 abas na planilha).
+ *  - Execute testarCompra, testarContrato e testarSite (um de cada vez) e confira as abas e o e-mail. Apague as linhas de teste.
+ *  - Implantar > Nova implantação > App da Web > Executar como: Eu > Acesso: Qualquer pessoa.
  *  - Copie a URL do app da Web e envie para a Claude colocar nas páginas.
  */
 var ID_PLANILHA = '1kbRl6xxqbfggIk96TopOCHZE_ehaxKCHOcKtbloC3Gc';
