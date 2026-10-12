@@ -23,5 +23,9 @@ Os links dos cartões levam `utm_source=obrigado&utm_medium=pagina&utm_campaign=
 ## Order bump (na tela de pagamento)
 Na Hotmart: **Produtos > Meus produtos > (e-book) > Ferramentas > Order Bump**. Adicione o produto complementar, o preço e o texto do convite (sugestões no guia `hotmart-cadastro-ebooks.md`). Depois, copie o **link da oferta com o bump** e me envie, para eu trocar o botão da página de vendas.
 
+| Manual de Narrativas | https://www.agenciarecria.com.br/obrigado-ebook/?p=manual | 3 padrão (Calendário de Conteúdos, Post, Esteira) |
+| Curso Express | https://www.agenciarecria.com.br/obrigado-ebook/?p=express | 3 padrão (Calendário de Conteúdos, Post, Esteira) |
+
+**Evento de compra no Pixel:** com o `?p=` correto, a página dispara **Purchase** (valor do preço de tabela, BRL) uma vez por visita. Atenção: se você também ativar o Pixel na Hotmart com o evento de Compra, o Meta pode contar a mesma venda **duas vezes**. Use apenas um dos dois (o da Hotmart é mais preciso, porque considera bump, cupom e parcelamento).
 
 A página também mostra um bloco **"Se você quiser que eu pegue na sua mão"** (Consultoria R$ 67 e/ou Mentoria) a partir do Negócio Local, nos e-books de negócio (ver coluna acima). Nos e-books de conteúdo (Calendários, Post, Reels e MIV), não aparece.
