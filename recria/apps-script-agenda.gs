@@ -13,7 +13,7 @@
  *       - te avisa por e-mail com tudo (dá para copiar e colar no outro agente).
  *
  * Instalação (passo a passo no chat):
- *  - script.google.com > Novo projeto > cole este código.
+ *  - Crie uma planilha NOVA (ex.: "Recria Agenda - Diagnóstico e Mentoria"), abra Extensões > Apps Script e cole este código.
  *  - Serviços (+) > adicione "Google Calendar API" (Advanced Service).
  *  - Configurações do projeto > fuso horário: (GMT-03:00) Horário de Brasília.
  *  - Execute "autorizar" > aceite as permissões > Execute "testarHorarios".
@@ -21,7 +21,7 @@
  */
 
 var CFG = {
-  ID_PLANILHA: '1kbRl6xxqbfggIk96TopOCHZE_ehaxKCHOcKtbloC3Gc',
+  ID_PLANILHA: '',   // vazio = usa a planilha onde o script foi criado (Extensões > Apps Script)
   EMAIL_AVISO: 'amandarecria@gmail.com',
   FUSO: 'America/Sao_Paulo',
 
@@ -189,7 +189,7 @@ function doPost(e) {
     var corpo = (modo === 'video'
       ? 'Entrou um agendamento por chamada de vídeo.\nQuando: ' + quando + '\nMeet: ' + (evento.hangoutLink || '(gerando)') + '\n\n'
       : 'A pessoa escolheu SEM chamada: conversar pelo WhatsApp e receber o diagnóstico em PDF.\n\n') +
-      texto + 'Planilha: https://docs.google.com/spreadsheets/d/' + CFG.ID_PLANILHA + '/edit';
+      texto + 'Planilha: ' + planilha_().getUrl();
     MailApp.sendEmail(CFG.EMAIL_AVISO, assunto, corpo);
 
     return json_({ ok: true, modo: modo, quando: quando, meet: evento ? (evento.hangoutLink || '') : '' });
@@ -202,8 +202,12 @@ function doPost(e) {
 
 /* ===================== PLANILHA ===================== */
 
+function planilha_() {
+  return CFG.ID_PLANILHA ? SpreadsheetApp.openById(CFG.ID_PLANILHA) : SpreadsheetApp.getActiveSpreadsheet();
+}
+
 function aba_(nome) {
-  var p = SpreadsheetApp.openById(CFG.ID_PLANILHA);
+  var p = planilha_();
   var a = p.getSheetByName(nome) || p.insertSheet(nome);
   if (a.getLastRow() === 0) {
     var cab = ['Data do pedido', 'Modo', 'Nome', 'WhatsApp', 'E-mail', 'Início', 'Link do Meet', 'Situação'];
@@ -236,7 +240,7 @@ function json_(o) { return ContentService.createTextOutput(JSON.stringify(o)).se
 /** Rode uma vez para autorizar (agenda, planilha e e-mail). */
 function autorizar() {
   CalendarApp.getDefaultCalendar().getName();
-  SpreadsheetApp.openById(CFG.ID_PLANILHA).getName();
+  planilha_().getName();
   MailApp.getRemainingDailyQuota();
   Logger.log('Permissões ok.');
 }

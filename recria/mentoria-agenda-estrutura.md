@@ -10,7 +10,7 @@ O formulário é montado por `assets/agenda.js` no site.
 3. Preenche nome, WhatsApp, e-mail, (dia e horário, se chamada) e o questionário de 13 perguntas.
 4. Chamada: o script cria o evento com Google Meet na sua agenda, convida o e-mail dela e as respostas vão na descrição do evento.
    Sem chamada: não cria evento; ela é levada ao WhatsApp para tirar dúvidas.
-5. Sempre: salva uma linha na aba (Consultoria - agendamentos / Mentoria - agendamentos) da planilha _CRM Central e te manda e-mail com todas as respostas (pronto para colar no agente do diagnóstico).
+5. Sempre: salva uma linha na aba (Consultoria - agendamentos / Mentoria - agendamentos) de uma planilha NOVA, separada do CRM Central e te manda e-mail com todas as respostas (pronto para colar no agente do diagnóstico).
 
 ## Regras (bloco `CFG`)
 - Segunda, terça, quinta e sexta. Nunca quarta.
@@ -19,7 +19,7 @@ O formulário é montado por `assets/agenda.js` no site.
 - Mostra 21 dias à frente. Qualquer evento seu na agenda bloqueia o horário. Um agendamento por e-mail. Horário rechecado ao confirmar.
 
 ## Instalar (≈10 min)
-1. script.google.com → Novo projeto → colar `apps-script-agenda.gs`.
+1. Criar uma planilha nova "Recria Agenda - Diagnóstico e Mentoria" → Extensões → Apps Script → colar `apps-script-agenda.gs`. (As abas são criadas sozinhas.)
 2. Serviços (+) → **Google Calendar API**.
 3. Configurações do projeto → fuso **(GMT-03:00) Brasília**.
 4. Executar `autorizar` e depois `testarHorarios`.
