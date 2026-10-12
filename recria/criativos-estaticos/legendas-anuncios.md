@@ -150,9 +150,9 @@ Cada criativo tem 2 versões em PNG: `feed-1x1/` (1080x1080) e `stories-9x16/` (
 
 **Texto principal:**
 
-> Ainda não tem um produto de entrada?
+> Ainda não tem um produto de entrada (low ticket)?
 >
-> São mais de 100 ideias de produtos de baixo valor para pequenos, médios e grandes negócios, digitais e e-commerces, para você escolher o seu.
+> São mais de 100 ideias de produtos de entrada, de baixo valor, para pequenos, médios e grandes negócios, digitais e e-commerces, para você escolher o seu.
 >
 > E-book por apenas R$ 15. Toque em Saiba mais.
 
@@ -204,9 +204,9 @@ Cada criativo tem 2 versões em PNG: `feed-1x1/` (1080x1080) e `stories-9x16/` (
 
 **Texto principal:**
 
-> O seu negócio depende só de você?
+> Se o seu negócio só funciona quando você está no operacional, alguma coisa está errada.
 >
-> Organize a base do negócio para ele funcionar com mais clareza e sustentar o crescimento, seja você um negócio local, um profissional ou um negócio digital.
+> Organize a base do negócio para ele funcionar com clareza, mesmo quando você não está no operacional, seja você um negócio local, um profissional ou um negócio digital.
 >
 > Manual por apenas R$ 37. Toque em Saiba mais.
 
@@ -242,7 +242,7 @@ Cada criativo tem 2 versões em PNG: `feed-1x1/` (1080x1080) e `stories-9x16/` (
 
 > Vender sem lives, sem lançamentos e sem postar todo dia.
 >
-> O Manual de Narrativas Atraentes Que Vendem mostra como contar boas histórias que vendem.
+> Conheça o Manual de Narrativas Atraentes Que Vendem e aprenda a contar boas histórias que vendem.
 >
 > E-book por apenas R$ 47. Toque em Saiba mais.
 

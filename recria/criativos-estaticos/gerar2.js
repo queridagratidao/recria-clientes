@@ -2,10 +2,11 @@ const {chromium}=require('/opt/node-tools/node_modules/playwright');const fs=req
 const D=__dirname;const F="file:///home/user/recria-clientes/recria/ebooks/_base/fonts/";
 const ICON="file:///home/user/-site-institucional-recria/assets/icone.png";
 const FORMATS={
- 'feed-1x1':{w:1080,h:1080,pad:'64px 76px 60px',ic:62,k:22,kmt:26,h1:[84,50],s:[34,24],pill:32,cta:34,ctap:22,gap:20},
- 'stories-9x16':{w:1080,h:1920,pad:'270px 84px 350px',ic:92,k:28,kmt:70,h1:[112,64],s:[42,30],pill:40,cta:44,ctap:30,gap:30}
+ 'feed-1x1':{w:1080,h:1080,pad:'104px 80px 100px',ic:64,k:22,kmt:0,h1:[84,50],s:[34,24],pill:46,cta:36,ctap:24,gap:22},
+ 'stories-9x16':{w:1080,h:1920,pad:'270px 84px 350px',ic:92,k:28,kmt:0,h1:[112,64],s:[42,30],pill:60,cta:46,ctap:32,gap:30}
 };
 function css(f){return `
+@font-face{font-family:'Lora';font-weight:600;src:url(${F}lora-latin-600-normal.woff2)}
 @font-face{font-family:'Lora';font-weight:400;src:url(${F}lora-latin-400-normal.woff2)}
 @font-face{font-family:'Playfair Display';font-weight:700;font-style:normal;src:url(${F}playfair-display-latin-700-normal.woff2)}
 @font-face{font-family:'Playfair Display';font-weight:700;font-style:italic;src:url(${F}playfair-display-latin-700-italic.woff2)}
@@ -18,12 +19,13 @@ html,body{width:${f.w}px;height:${f.h}px;background:#0b0b0b}
 h1{font-family:'Playfair Display',serif;font-weight:700;font-size:${f.h1[0]}px;line-height:1.08;margin-top:${f.gap}px}
 h1 em{color:#E4C988}
 .s{font-size:${f.s[0]}px;line-height:1.4;color:#e9e4da;margin-top:${f.gap+6}px}
-.b{margin-top:auto;padding-top:${f.gap}px}
-.p{display:inline-block;border:2px solid #C9A24E;color:#E4C988;font-family:'Playfair Display',serif;font-size:${f.pill}px;padding:8px 22px;border-radius:8px;margin-bottom:${f.gap}px}
+.mid{flex:1;display:flex;flex-direction:column;justify-content:center;padding:${f.gap}px 0}
+.b{padding-top:${f.gap}px}
+.p{display:inline-block;border:3px solid #C9A24E;color:#E4C988;font-family:'Lora',serif;font-weight:600;font-size:${f.pill}px;line-height:1.1;padding:12px 30px;border-radius:10px;margin-bottom:${f.gap}px}
 .cta{background:#C9A24E;color:#0b0b0b;font-weight:700;font-size:${f.cta}px;text-align:center;padding:${f.ctap}px;border-radius:10px;letter-spacing:.02em}
 `;}
 function html(it,f){const [n,k,h,s,p,c]=it;
- return `<!doctype html><meta charset="utf-8"><style>${css(f)}</style><div class="c"><img class="ic" src="${ICON}"><div class="k">${k}</div><h1>${h}</h1><div class="s">${s}</div><div class="b">${p?`<div class="p">${p}</div>`:''}<div class="cta">${c}</div></div><div class="bd"></div></div>`;}
+ return `<!doctype html><meta charset="utf-8"><style>${css(f)}</style><div class="c"><img class="ic" src="${ICON}"><div class="mid"><div class="k">${k}</div><h1>${h}</h1><div class="s">${s}</div></div><div class="b">${p?`<div class="p">${p}</div>`:''}<div class="cta">${c}</div></div><div class="bd"></div></div>`;}
 (async()=>{const items=JSON.parse(fs.readFileSync(D+'/criativos.json','utf8'));
 const b=await chromium.launch({executablePath:'/opt/pw-browsers/chromium'});
 for(const [fn,f] of Object.entries(FORMATS)){fs.mkdirSync(`${D}/${fn}`,{recursive:true});
