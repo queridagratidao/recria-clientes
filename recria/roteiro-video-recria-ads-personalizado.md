@@ -1,11 +1,21 @@
-# Roteiro · vídeo de boas-vindas do acompanhamento personalizado do Recria Ads
+# Roteiro · vídeo de boas-vindas do Recria Ads Próximo Passo
 
-> **Nome do produto ainda a definir** (opções: Ajuste Fino, Recria Ads Lab, Check-up 30·60, Acompanhamento Recria Ads). Nas falas abaixo, usar o nome escolhido.
+> **Nome decidido: Recria Ads Próximo Passo** ("Apliquei. E agora?"). Ensina a analisar cada ação tomada para decidir a próxima: mudar anúncio, oferta, campanha, influenciador, posicionamento, estrutura e formatos.
 
 ## Onde o vídeo entra (decidido)
 - **Não é vídeo de venda.** É a **primeira aula dentro do curso**, liberada para quem contratar o acompanhamento.
 - Por enquanto a página de oferta roda **só com texto, régua visual e comparativo**, sem vídeo, por 1 a 2 semanas, para validar se vende. O vídeo é gravado depois, com calma.
 - A página **não promete o vídeo**; ele entra como material de apoio quando estiver pronto.
+
+## Calendário de entregas (decidido)
+| Quando | O que a pessoa recebe |
+|---|---|
+| **Até o dia 7** | A **primeira aula**, em vídeo, dentro da plataforma, e o **link para agendar** o encontro |
+| **Até o dia 15** | **Planilhas e material de apoio**, liberados quando a pessoa já tem pelo menos 15 dias de aplicação do Recria Ads |
+| **Dias 30 a 45** | **1º encontro** |
+| **Dias 45 a 60** | **2º encontro** (fechamento) |
+| **Depois do 2º encontro** | **Documento final** sobre o negócio |
+Esses prazos estão prometidos na página: precisam ser cumpridos (vídeo até o dia 7, planilhas até o dia 15).
 
 ## Regras do acompanhamento (para falar no vídeo e valer na prática)
 - 2 encontros individuais, por vídeo, de 1 hora.
@@ -53,7 +63,7 @@ Agende o seu primeiro encontro pelo botão aqui embaixo. Nos vemos em breve!
 - "Documento final para consultar sempre"
 
 ## Pontos a decidir
-1. **Nome do produto** (e produto separado na Hotmart, com página de agradecimento própria; não usar só uma oferta do Diagnóstico).
+1. **Produto separado na Hotmart** (nome: Recria Ads Próximo Passo), com página de agradecimento própria; evitar usar só uma oferta do Diagnóstico (recibo, e-mail e relatórios ficariam misturados).
 2. **Planilhas** do material de apoio: quais serão e quando ficam prontas (a oferta cita "material de apoio e planilhas").
 3. **Vídeo e documento gerais** para quem não usar os encontros: gravar/escrever junto com o vídeo de boas-vindas.
 4. **Remarcação:** o que acontece se a pessoa agenda dentro do prazo e precisa remarcar (ex.: uma remarcação, dentro da mesma janela).
