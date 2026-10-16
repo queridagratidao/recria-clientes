@@ -35,6 +35,27 @@ Formato "se X, então Y", cada uma com o dado que a sustenta:
 - Quando **testar um novo influenciador**: …
 - Quando mudar o **posicionamento**, a **estrutura** ou os **formatos**: …
 
+## Estrutura do e-book (capítulos)
+1. **Apliquei. E agora?** O que é analisar e por que olhar os números antes de mexer em qualquer coisa.
+2. **O número que importa: ROAS e ROAS de equilíbrio.** As contas, passo a passo, com exemplos de negócio digital, serviço e produto físico.
+3. **Que dados juntar** (por tipo de negócio) e onde achar cada um (Gerenciador de Anúncios, plataforma de vendas, estoque, caixa).
+4. **As quatro camadas de leitura:** conteúdo, anúncio, página/oferta e pós-venda, e o que cada número diz.
+5. **O diário de testes:** como testar uma coisa por vez (criativo, gancho, oferta, público, formato) e registrar o que aprendeu.
+6. **Quando mexer em quê:** as regras "se X, então Y" para criativo, oferta, campanha, influenciador, posicionamento, estrutura e formatos (**conteúdo da Amanda**).
+7. **Produto físico e e-commerce:** margem, estoque, capacidade, prazo de entrega, recompra.
+8. **A rotina de análise:** semanal e mensal, com checklist.
+9. **Modelos prontos:** as planilhas e o checklist.
+
+## Planilhas (especificação)
+| Planilha | Para quê | Entradas (a pessoa preenche) | Cálculos automáticos |
+|---|---|---|---|
+| **1. ROAS de equilíbrio** | Saber a partir de qual ROAS o anúncio dá lucro | Preço, custo do produto, taxas, impostos, frete, % de devolução | Margem de contribuição, ROAS de equilíbrio, lucro por venda |
+| **2. Painel semanal** | Acompanhar a semana | Investimento, impressões, cliques, compras (ou leads/mensagens), receita | ROAS, CPA, CTR, CPC, CPM, taxa de conversão, lucro estimado |
+| **3. Diário de testes** | Registrar cada teste | O que testou, hipótese, período, resultado | Comparação com o período anterior e decisão registrada |
+| **4. Estoque e capacidade** (produto físico) | Não vender mais do que consegue entregar | Estoque, vendas por dia, capacidade de atendimento, prazo | Dias de cobertura de estoque, risco de ruptura |
+
+Primeira entrega sugerida: **planilhas 1 e 2** (as de maior valor e que não dependem das suas regras de decisão).
+
 ## Próximos passos
 1. A Amanda conta, em áudio, os critérios que usa em cada situação acima.
 2. Eu organizo em regras e pesquiso referências gerais na internet, **sempre com a fonte e marcadas como referência**, para a Amanda validar e ajustar.
