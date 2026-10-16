@@ -43,13 +43,13 @@ h1 em{color:#E4C988}
 .cta{background:#C9A24E;color:#0b0b0b;font-weight:700;font-size:${f.cta}px;text-align:center;padding:${f.ctap}px;border-radius:10px;letter-spacing:.02em}
 `;}
 function html(it,f){const [n,k,h,s,p,c,x]=it;
- return `<!doctype html><meta charset="utf-8"><style>${css(f)}</style><div class="c">${x==='seta1'?'':`<img class="ic" src="${ICON}">`}<div class="mid">${k?`<div class="k">${k}</div>`:''}<h1>${h}</h1><div class="s">${s.split("||")[0]}</div>${s.split("||").slice(1).map(t=>`<div class="${n==="ads-2d-gancho"?"bx":"dq"}">${t}</div>`).join("")}${x==='prova'?`<div class="ph"><img src="${P1}"><img src="${P2}"></div>`:''}${p?`<div class="p">${p}</div>`:''}${c?`<div class="cta">${c}</div>`:''}${x==="seta"||x==="seta1"?'<div class="sw">Arraste para o lado →</div>':''}${x==='prova'?'<div class="fn">Caso real do meu perfil de yoga. Os resultados variam de pessoa para pessoa.</div>':''}</div><div class="bd"></div></div>`;}
+ return `<!doctype html><meta charset="utf-8"><style>${css(f)}</style><div class="c"><img class="ic" src="${ICON}"><div class="mid">${k?`<div class="k">${k}</div>`:''}<h1>${h}</h1><div class="s">${s.split("||")[0]}</div>${s.split("||").slice(1).map(t=>`<div class="${n==="ads-2d-gancho"?"bx":"dq"}">${t}</div>`).join("")}${x==='prova'?`<div class="ph"><img src="${P1}"><img src="${P2}"></div>`:''}${p?`<div class="p">${p}</div>`:''}${c?`<div class="cta">${c}</div>`:''}${x==="seta"||x==="seta1"?'<div class="sw">Arraste para o lado →</div>':''}${x==='prova'?'<div class="fn">Caso real do meu perfil de yoga. Os resultados variam de pessoa para pessoa.</div>':''}</div><div class="bd"></div></div>`;}
 (async()=>{const b=await chromium.launch({executablePath:'/opt/pw-browsers/chromium'});
 for(const [fn,f] of Object.entries(FORMATS)){fs.mkdirSync(`${D}/recria-ads/${fn}`,{recursive:true});
  const pg=await b.newPage({viewport:{width:f.w,height:f.h}});
  for(const it of ITEMS){fs.writeFileSync(D+'/_t.html',html(it,f));await pg.goto('file://'+D+'/_t.html');await pg.evaluate(()=>document.fonts.ready);
   const r=await pg.evaluate(([a0,amin,b0,bmin])=>{const c=document.querySelector('.c'),h=document.querySelector('h1'),s=document.querySelector('.s');let a=a0,bb=b0;const over=()=>c.scrollHeight>c.clientHeight+1;
-   while(over()&&a>amin){a-=2;h.style.fontSize=a+'px';}while(over()&&bb>bmin){bb-=1;s.style.fontSize=bb+'px';}return [a,bb,over()];},[f.h1[0],f.h1[1],f.s[0],f.s[1]]);
+   while(over()&&a>amin){a-=2;h.style.fontSize=a+'px';}while(over()&&bb>bmin){bb-=1;s.style.fontSize=bb+'px';}return [a,bb,over()];},[it[0]==='ads-2a-historia'?64:f.h1[0],f.h1[1],f.s[0],f.s[1]]);
   if(r[2])console.log('OVERFLOW',fn,it[0],r);
   await pg.screenshot({path:`${D}/recria-ads/${fn}/${it[0]}.png`});}
  await pg.close();}
