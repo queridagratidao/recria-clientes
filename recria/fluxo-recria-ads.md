@@ -1,5 +1,9 @@
 # Fluxo do Recria Ads, do anúncio ao grupo do WhatsApp
 
+## Fases (decidido)
+**Fase 1, agora: lançar o Recria Ads.** Página de vendas com a VSL, checkout de R$ 97 com **order bumps** (e-books baratos), obrigado do Recria Ads. A Mini Mentoria e o Recria Ads Métricas **ainda não entram** (a oferta da Mini Mentoria só aparece quando o link existir).
+**Fase 2, com calma (previsto para novembro):** produto Mini Mentoria, vídeo da primeira aula, planilhas, e-book Recria Ads Métricas, agendamento com regras.
+
 ## Diagrama
 ```mermaid
 flowchart TD
@@ -18,7 +22,7 @@ flowchart TD
 - **Até o dia 7:** primeira aula (vídeo, na plataforma) e link para agendar.
 - **Até o dia 15:** planilhas e material de apoio.
 - **1º encontro:** entre o dia **30 e o dia 60** da compra (de 1 a 2 meses, para ela aplicar de verdade).
-- **2º encontro:** de **1 a 2 meses depois do 1º** (interpretação a confirmar: contados a partir do 1º encontro).
+- **2º encontro:** de **1 a 2 meses depois do 1º** (confirmado: conta a partir do 1º encontro).
 - **Total:** até cerca de 4 meses. Até 3 tentativas de agendar cada encontro; depois, só pelo WhatsApp.
 - Sem usar os encontros nos prazos: só vídeo e documento gerais.
 - Encontros gravados no Google Meet pago e transcritos (ata) para a Amanda montar a tarefa e o documento final.
