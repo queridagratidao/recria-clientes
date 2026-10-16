@@ -9,7 +9,7 @@ const FORMATS={
 const ITEMS=[
 ["ads-1-dor","Recria Ads","Você cria conteúdo e anúncio, mas <em>quase ninguém compra</em>?","Isso não é falta de esforço: é que o jeito de vender mudou. Aprenda a criar conteúdo e anúncio sem cara de anúncio e aumente as vendas do seu negócio.","","Quero saber mais",""],
 ["ads-2-virada","Recria Ads","Todo mundo pula anúncio. Mas para por uma <em>boa história</em>.","Aprenda a criar conteúdos e anúncios sem parecer aquele vendedor chato. Venda com leveza e naturalidade, até em conteúdos que não são de venda direta.","","Saiba mais clicando aqui",""],
-["ads-3-prova","Recria Ads","Aprenda a criar conteúdo que atrai, engaja e <em>vende sem parecer que está vendendo</em>.","Olha o que esse post do meu perfil gerou: as pessoas pararam e comentaram “eu quero”. Conteúdo que prende a atenção e leva à ação.","","Quero saber mais","prova"]
+["ads-3-prova","Recria Ads","Aprenda a criar conteúdos que <em>atraem, engajam e vendem</em>. Com leveza.","Olha esse carrossel do meu perfil de yoga: atraí as pessoas, elas se identificaram e comentaram “eu quero”. No direct, continuei a conversa com a oferta do meu curso e vendi. Tudo configurado de forma automatizada. Você também quer aprender?","","Quero saber mais","prova"]
 ];
 function css(f){return `
 @font-face{font-family:'Lora';font-weight:600;src:url(${F}lora-latin-600-normal.woff2)}
@@ -31,10 +31,11 @@ h1 em{color:#E4C988}
 
 .b{padding-top:${f.gap}px}
 .p{display:inline-block;border:3px solid #C9A24E;color:#E4C988;font-weight:600;font-size:${f.pill}px;line-height:1.1;padding:12px 30px;border-radius:10px;margin-bottom:${f.gap}px}
+.fn{font-size:${Math.round(f.s[1]*0.7)}px;color:#a9a396;text-align:center;margin-top:-6px}
 .cta{background:#C9A24E;color:#0b0b0b;font-weight:700;font-size:${f.cta}px;text-align:center;padding:${f.ctap}px;border-radius:10px;letter-spacing:.02em}
 `;}
 function html(it,f){const [n,k,h,s,p,c,x]=it;
- return `<!doctype html><meta charset="utf-8"><style>${css(f)}</style><div class="c"><img class="ic" src="${ICON}"><div class="mid"><div class="k">${k}</div><h1>${h}</h1><div class="s">${s}</div>${x==='prova'?`<div class="ph"><img src="${P1}"><img src="${P2}"></div>`:''}<div class="cta">${c}</div></div><div class="bd"></div></div>`;}
+ return `<!doctype html><meta charset="utf-8"><style>${css(f)}</style><div class="c"><img class="ic" src="${ICON}"><div class="mid"><div class="k">${k}</div><h1>${h}</h1><div class="s">${s}</div>${x==='prova'?`<div class="ph"><img src="${P1}"><img src="${P2}"></div>`:''}<div class="cta">${c}</div>${x==='prova'?'<div class="fn">Caso real do meu perfil de yoga. Os resultados variam de pessoa para pessoa.</div>':''}</div><div class="bd"></div></div>`;}
 (async()=>{const b=await chromium.launch({executablePath:'/opt/pw-browsers/chromium'});
 for(const [fn,f] of Object.entries(FORMATS)){fs.mkdirSync(`${D}/recria-ads/${fn}`,{recursive:true});
  const pg=await b.newPage({viewport:{width:f.w,height:f.h}});
