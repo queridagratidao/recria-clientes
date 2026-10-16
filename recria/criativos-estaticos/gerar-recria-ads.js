@@ -1,7 +1,7 @@
 const {chromium}=require('/opt/node-tools/node_modules/playwright');const fs=require('fs');
 const D=__dirname;const F="file:///home/user/recria-clientes/recria/ebooks/_base/fonts/";
 const ICON="file:///home/user/-site-institucional-recria/assets/icone.png";
-const PROVA="file:///home/user/-site-institucional-recria/recria-ads/assets/prova-carrossel-curso.jpg";
+const P1="file://"+D+"/recria-ads/_fontes/post-7verdades.png",P2="file://"+D+"/recria-ads/_fontes/comentarios-eu-quero.png";
 const FORMATS={
  'feed-4x5':{w:1080,h:1350,pad:'96px 80px 96px',ic:64,k:26,h1:[100,52],s:[42,26],pill:44,cta:36,ctap:24,gap:22},
  'stories-9x16':{w:1080,h:1920,pad:'270px 84px 350px',ic:92,k:30,h1:[112,64],s:[46,30],pill:58,cta:46,ctap:32,gap:30}
@@ -9,7 +9,7 @@ const FORMATS={
 const ITEMS=[
 ["ads-1-dor","Recria Ads","Você cria conteúdo e anúncio, mas <em>quase ninguém compra</em>?","Isso não é falta de esforço: é que o jeito de vender mudou. Aprenda a criar conteúdo e anúncio sem cara de anúncio e aumente as vendas do seu negócio.","","Quero saber mais",""],
 ["ads-2-virada","Recria Ads","Todo mundo pula anúncio. Mas para por uma <em>boa história</em>.","Aprenda a criar conteúdos e anúncios sem parecer aquele vendedor chato. Venda com leveza e naturalidade, até em conteúdos que não são de venda direta.","","Saiba mais clicando aqui",""],
-["ads-3-prova","Recria Ads","Um curso de R$ 12 na capa. E as pessoas <em>ficaram e comentaram</em>.","Foi assim que eu vendi no meu negócio de yoga. Agora eu ensino o método.","","Quero saber mais","prova"]
+["ads-3-prova","Recria Ads","Aprenda a criar conteúdo que atrai, engaja e <em>vende sem parecer que está vendendo</em>.","Olha o que esse post do meu perfil gerou: as pessoas pararam e comentaram “eu quero”. Conteúdo que prende a atenção e leva à ação.","","Quero saber mais","prova"]
 ];
 function css(f){return `
 @font-face{font-family:'Lora';font-weight:600;src:url(${F}lora-latin-600-normal.woff2)}
@@ -26,14 +26,15 @@ h1{font-family:'Playfair Display',serif;font-weight:700;font-size:${f.h1[0]}px;l
 h1 em{color:#E4C988}
 .s{font-size:${f.s[0]}px;line-height:1.4;color:#e9e4da;margin-top:${f.gap+6}px}
 .mid{flex:1;display:flex;flex-direction:column;justify-content:center;gap:${f.gap*1.6}px;padding:${f.gap}px 0}.mid h1,.mid .s,.mid .ph,.mid .cta{margin-top:0}.mid .cta{margin-top:${f.gap}px}
-.ph{margin-top:${f.gap+6}px;border:3px solid #C9A24E;border-radius:12px;overflow:hidden;max-height:${f.h*0.3}px}
-.ph img{width:100%;display:block;object-fit:cover;object-position:top}
+.ph{display:flex;gap:16px;justify-content:center}
+.ph img{border:3px solid #C9A24E;border-radius:12px;display:block;height:${f.h>1500?f.h*0.2:f.h*0.34}px;width:auto;max-width:48%}
+
 .b{padding-top:${f.gap}px}
 .p{display:inline-block;border:3px solid #C9A24E;color:#E4C988;font-weight:600;font-size:${f.pill}px;line-height:1.1;padding:12px 30px;border-radius:10px;margin-bottom:${f.gap}px}
 .cta{background:#C9A24E;color:#0b0b0b;font-weight:700;font-size:${f.cta}px;text-align:center;padding:${f.ctap}px;border-radius:10px;letter-spacing:.02em}
 `;}
 function html(it,f){const [n,k,h,s,p,c,x]=it;
- return `<!doctype html><meta charset="utf-8"><style>${css(f)}</style><div class="c"><img class="ic" src="${ICON}"><div class="mid"><div class="k">${k}</div><h1>${h}</h1><div class="s">${s}</div>${x==='prova'?`<div class="ph"><img src="${PROVA}"></div>`:''}<div class="cta">${c}</div></div><div class="bd"></div></div>`;}
+ return `<!doctype html><meta charset="utf-8"><style>${css(f)}</style><div class="c"><img class="ic" src="${ICON}"><div class="mid"><div class="k">${k}</div><h1>${h}</h1><div class="s">${s}</div>${x==='prova'?`<div class="ph"><img src="${P1}"><img src="${P2}"></div>`:''}<div class="cta">${c}</div></div><div class="bd"></div></div>`;}
 (async()=>{const b=await chromium.launch({executablePath:'/opt/pw-browsers/chromium'});
 for(const [fn,f] of Object.entries(FORMATS)){fs.mkdirSync(`${D}/recria-ads/${fn}`,{recursive:true});
  const pg=await b.newPage({viewport:{width:f.w,height:f.h}});
