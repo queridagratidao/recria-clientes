@@ -7,7 +7,9 @@ const FORMATS={
 };
 const ITEMS=[
 ["ads-1-dor","Recria Ads","Você cria conteúdo e anúncio, mas <em>quase ninguém compra</em>?","Isso não é falta de esforço: é que o jeito de vender mudou. Aprenda a criar conteúdo e anúncio sem cara de anúncio e aumente as vendas do seu negócio.","Apenas 12x de R$ 10,03","Quero saber mais",""],
-["ads-2-virada","Recria Ads","Todo mundo pula anúncio. Mas para por uma <em>boa história</em>.","Aprenda a criar conteúdos e anúncios sem parecer aquele vendedor chato. Venda com leveza e naturalidade, até em conteúdos que não são de venda direta.","","Saiba mais clicando aqui",""],
+["ads-2a-historia","","Você posta todo dia, o produto é bom, e <em>a única pessoa que curte é a sua tia</em>.","Aí, num dia qualquer, um perfil que você nem conhece posta uma coisa, e você para para ler até o final. Quando vê, já está querendo comprar.","","","seta1"],
+["ads-2b-revelacao","Recria Ads","Percebeu? <em>Isso foi um anúncio.</em>","Todo mundo pula anúncio. Mas para por uma boa história. E foi assim que eu te prendi aqui.","","","seta"],
+["ads-2c-oferta","Recria Ads","Aprenda a criar conteúdos e anúncios <em>sem cara de anúncio</em>.","Venda sem parecer aquele vendedor chato. Com leveza e naturalidade, até em conteúdos que não são de venda direta.","","Quero saber mais",""],
 ["ads-3-prova","Recria Ads","Aprenda a criar conteúdos que <em>atraem, engajam e vendem</em>. Com leveza.","Olha esse carrossel do meu perfil de yoga: atraí as pessoas, elas se identificaram e comentaram “eu quero”. No direct, continuei a conversa com a oferta do meu curso e vendi. Tudo configurado de forma automatizada. Você também quer aprender?","","Quero saber mais","prova"]
 ];
 function css(f){return `
@@ -32,10 +34,11 @@ h1 em{color:#E4C988}
 .p{display:inline-block;border:3px solid #C9A24E;color:#E4C988;font-weight:600;font-size:${f.pill}px;line-height:1.1;padding:12px 30px;border-radius:10px;margin-bottom:${f.gap}px}
 .fn{font-size:${Math.round(f.s[1]*0.7)}px;color:#a9a396;text-align:center;margin-top:-6px}
 .mid .p{align-self:flex-start;margin:0}
+.sw{color:#C9A24E;font-weight:600;font-size:${Math.round(f.s[1]*1.1)}px;letter-spacing:.04em;text-align:right}
 .cta{background:#C9A24E;color:#0b0b0b;font-weight:700;font-size:${f.cta}px;text-align:center;padding:${f.ctap}px;border-radius:10px;letter-spacing:.02em}
 `;}
 function html(it,f){const [n,k,h,s,p,c,x]=it;
- return `<!doctype html><meta charset="utf-8"><style>${css(f)}</style><div class="c"><img class="ic" src="${ICON}"><div class="mid"><div class="k">${k}</div><h1>${h}</h1><div class="s">${s}</div>${x==='prova'?`<div class="ph"><img src="${P1}"><img src="${P2}"></div>`:''}${p?`<div class="p">${p}</div>`:''}<div class="cta">${c}</div>${x==='prova'?'<div class="fn">Caso real do meu perfil de yoga. Os resultados variam de pessoa para pessoa.</div>':''}</div><div class="bd"></div></div>`;}
+ return `<!doctype html><meta charset="utf-8"><style>${css(f)}</style><div class="c">${x==='seta1'?'':`<img class="ic" src="${ICON}">`}<div class="mid">${k?`<div class="k">${k}</div>`:''}<h1>${h}</h1><div class="s">${s}</div>${x==='prova'?`<div class="ph"><img src="${P1}"><img src="${P2}"></div>`:''}${p?`<div class="p">${p}</div>`:''}${c?`<div class="cta">${c}</div>`:''}${x==="seta"||x==="seta1"?'<div class="sw">Arraste para o lado →</div>':''}${x==='prova'?'<div class="fn">Caso real do meu perfil de yoga. Os resultados variam de pessoa para pessoa.</div>':''}</div><div class="bd"></div></div>`;}
 (async()=>{const b=await chromium.launch({executablePath:'/opt/pw-browsers/chromium'});
 for(const [fn,f] of Object.entries(FORMATS)){fs.mkdirSync(`${D}/recria-ads/${fn}`,{recursive:true});
  const pg=await b.newPage({viewport:{width:f.w,height:f.h}});
