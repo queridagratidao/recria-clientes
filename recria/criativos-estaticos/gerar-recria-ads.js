@@ -8,9 +8,10 @@ const FORMATS={
 const ITEMS=[
 ["ads-1-dor","Recria Ads","Você cria conteúdo e anúncio, mas <em>quase ninguém compra</em>?","Isso não é falta de esforço: é que o jeito de vender mudou. Aprenda a criar conteúdo e anúncio sem cara de anúncio e aumente as vendas do seu negócio.","Apenas 12x de R$ 10,03","Quero saber mais",""],
 ["ads-2a-historia","","Se você tem um negócio, eu preciso te mostrar uma coisa que <em>pode estar te fazendo perder dinheiro</em>.","Lá atrás, ela me fez quebrar dois negócios. Depois que eu ajustei um pequeno detalhe, tudo mudou.","","","seta1"],
-["ads-2b-revelacao","Recria Ads","Percebeu? <em>Isso foi um anúncio.</em>","Eu retive a sua atenção, gerei identificação e fiz você arrastar para o lado para continuar lendo, mesmo sem me conhecer.","","","seta"],
-["ads-2c-porque","Recria Ads","Todo mundo pula anúncio <em>com cara de anúncio</em>.","Aquele do vendedor chato, que não agrega e não desperta desejo. Mas um conteúdo que atrai faz a pessoa parar e ler até o final.","","","seta"],
-["ads-2d-oferta","Recria Ads","Chega de anúncio que ninguém quer ver. Aprenda a criar conteúdo e anúncio <em>sem cara de anúncio</em>.","Venda com leveza e naturalidade, sem parecer aquele vendedor chato.","","Quero saber mais",""],
+["ads-2b-revelacao","","Percebeu? <em>Parabéns, você acabou de cair no anúncio.</em>","Eu retive a sua atenção, gerei identificação e fiz você arrastar para o lado para continuar lendo, mesmo sem me conhecer. E sabe por quê?","","","seta"],
+["ads-2c-porque","","Todo mundo pula anúncio <em>com cara de anúncio</em>.","Mas para por uma boa história, ou por um ponto que interessa. E isso fica ainda melhor quando está amarrado numa história.","","","seta"],
+["ads-2d-gancho","","Chega de anúncio de <em>vendedor chato</em>.","Que não agrega, não desperta desejo e só te faz perder tempo com conteúdo que ninguém vai interagir. Um gancho, como o do primeiro card, faz a pessoa parar. E é muito mais fácil de fazer do que parece.","","","seta"],
+["ads-2e-oferta","","Chega de anúncio que ninguém quer ver. Aprenda a criar conteúdos e anúncios <em>sem cara de anúncio</em>.","Venda com leveza e naturalidade, sem parecer aquele vendedor chato. E aprenda a vender como as grandes marcas já fazem.","","Quero saber mais",""],
 ["ads-3-prova","Recria Ads","Aprenda a criar conteúdos que <em>atraem, engajam e vendem</em>. Com leveza.","Olha esse carrossel do meu perfil de yoga: atraí as pessoas, elas se identificaram e comentaram “eu quero”. No direct, continuei a conversa com a oferta do meu curso e vendi. Tudo configurado de forma automatizada. Você também quer aprender?","","Quero saber mais","prova"]
 ];
 function css(f){return `
