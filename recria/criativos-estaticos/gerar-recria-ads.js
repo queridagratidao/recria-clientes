@@ -3,12 +3,12 @@ const D=__dirname;const F="file:///home/user/recria-clientes/recria/ebooks/_base
 const ICON="file:///home/user/-site-institucional-recria/assets/icone.png";
 const PROVA="file:///home/user/-site-institucional-recria/recria-ads/assets/prova-carrossel-curso.jpg";
 const FORMATS={
- 'feed-4x5':{w:1080,h:1350,pad:'96px 80px 96px',ic:64,k:24,h1:[84,52],s:[34,26],pill:44,cta:36,ctap:24,gap:22},
- 'stories-9x16':{w:1080,h:1920,pad:'270px 84px 350px',ic:92,k:28,h1:[108,64],s:[42,30],pill:58,cta:46,ctap:32,gap:30}
+ 'feed-4x5':{w:1080,h:1350,pad:'96px 80px 96px',ic:64,k:26,h1:[100,52],s:[42,26],pill:44,cta:36,ctap:24,gap:22},
+ 'stories-9x16':{w:1080,h:1920,pad:'270px 84px 350px',ic:92,k:30,h1:[112,64],s:[46,30],pill:58,cta:46,ctap:32,gap:30}
 };
 const ITEMS=[
-["ads-1-dor","Recria Ads","Você posta todo dia e <em>quase ninguém compra</em>?","Isso não é falta de esforço. É que o jeito de vender mudou. Aprenda a criar conteúdos e anúncios sem cara de anúncio, em 10 minutos por dia.","R$ 97 ou 12x no cartão","Quero saber mais",""],
-["ads-2-virada","Recria Ads","Todo mundo pula anúncio. Mas para por uma <em>boa história</em>.","Venda sem parecer vendedor chato, com o seu celular e a verba que você tem. Tudo aplicado em cerca de 1 mês.","R$ 97 ou 12x no cartão","Quero saber mais",""],
+["ads-1-dor","Recria Ads","Você cria conteúdo e anúncio, mas <em>quase ninguém compra</em>?","Isso não é falta de esforço: é que o jeito de vender mudou. Aprenda a criar conteúdo e anúncio sem cara de anúncio e aumente as vendas do seu negócio.","","Quero saber mais",""],
+["ads-2-virada","Recria Ads","Todo mundo pula anúncio. Mas para por uma <em>boa história</em>.","Aprenda a criar conteúdos e anúncios sem parecer aquele vendedor chato. Venda com leveza e naturalidade, até em conteúdos que não são de venda direta.","","Saiba mais clicando aqui",""],
 ["ads-3-prova","Recria Ads","Um curso de R$ 12 na capa. E as pessoas <em>ficaram e comentaram</em>.","Foi assim que eu vendi no meu negócio de yoga. Agora eu ensino o método.","","Quero saber mais","prova"]
 ];
 function css(f){return `
@@ -25,7 +25,7 @@ html,body{width:${f.w}px;height:${f.h}px;background:#0b0b0b}
 h1{font-family:'Playfair Display',serif;font-weight:700;font-size:${f.h1[0]}px;line-height:1.08;margin-top:${f.gap}px}
 h1 em{color:#E4C988}
 .s{font-size:${f.s[0]}px;line-height:1.4;color:#e9e4da;margin-top:${f.gap+6}px}
-.mid{flex:1;display:flex;flex-direction:column;justify-content:center;padding:${f.gap}px 0}
+.mid{flex:1;display:flex;flex-direction:column;justify-content:center;gap:${f.gap*1.6}px;padding:${f.gap}px 0}.mid h1,.mid .s,.mid .ph,.mid .cta{margin-top:0}.mid .cta{margin-top:${f.gap}px}
 .ph{margin-top:${f.gap+6}px;border:3px solid #C9A24E;border-radius:12px;overflow:hidden;max-height:${f.h*0.3}px}
 .ph img{width:100%;display:block;object-fit:cover;object-position:top}
 .b{padding-top:${f.gap}px}
@@ -33,7 +33,7 @@ h1 em{color:#E4C988}
 .cta{background:#C9A24E;color:#0b0b0b;font-weight:700;font-size:${f.cta}px;text-align:center;padding:${f.ctap}px;border-radius:10px;letter-spacing:.02em}
 `;}
 function html(it,f){const [n,k,h,s,p,c,x]=it;
- return `<!doctype html><meta charset="utf-8"><style>${css(f)}</style><div class="c"><img class="ic" src="${ICON}"><div class="mid"><div class="k">${k}</div><h1>${h}</h1><div class="s">${s}</div>${x==='prova'?`<div class="ph"><img src="${PROVA}"></div>`:''}</div><div class="b">${p?`<div class="p">${p}</div>`:''}<div class="cta">${c}</div></div><div class="bd"></div></div>`;}
+ return `<!doctype html><meta charset="utf-8"><style>${css(f)}</style><div class="c"><img class="ic" src="${ICON}"><div class="mid"><div class="k">${k}</div><h1>${h}</h1><div class="s">${s}</div>${x==='prova'?`<div class="ph"><img src="${PROVA}"></div>`:''}<div class="cta">${c}</div></div><div class="bd"></div></div>`;}
 (async()=>{const b=await chromium.launch({executablePath:'/opt/pw-browsers/chromium'});
 for(const [fn,f] of Object.entries(FORMATS)){fs.mkdirSync(`${D}/recria-ads/${fn}`,{recursive:true});
  const pg=await b.newPage({viewport:{width:f.w,height:f.h}});
