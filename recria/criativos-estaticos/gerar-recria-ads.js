@@ -7,7 +7,7 @@ const FORMATS={
 };
 const ITEMS=[
 ["ads-1-dor","Recria Ads","Você cria conteúdo e anúncio, mas <em>quase ninguém compra</em>?","Isso não é falta de esforço: é que o jeito de vender mudou. Aprenda a criar conteúdo e anúncio sem cara de anúncio e aumente as vendas do seu negócio.","Apenas 12x de R$ 10,03","Quero saber mais",""],
-["ads-2a-historia","","Se você tem um negócio, preciso te mostrar uma coisa que <em>pode estar te fazendo perder dinheiro ainda este mês</em>.","Eu descobri isso do jeito difícil, depois de perder dinheiro e ajustar.","","","seta1"],
+["ads-2a-historia","","Se você tem um negócio, eu preciso te mostrar uma coisa que <em>pode estar te fazendo perder dinheiro</em>.","Lá atrás, ela me fez quebrar dois negócios. Depois que eu ajustei um pequeno detalhe, tudo mudou.","","","seta1"],
 ["ads-2b-revelacao","Recria Ads","Percebeu? <em>Isso foi um anúncio.</em>","Eu retive a sua atenção, gerei identificação e fiz você arrastar para o lado para continuar lendo, mesmo sem me conhecer.","","","seta"],
 ["ads-2c-porque","Recria Ads","Todo mundo pula anúncio <em>com cara de anúncio</em>.","Aquele do vendedor chato, que não agrega e não desperta desejo. Mas um conteúdo que atrai faz a pessoa parar e ler até o final.","","","seta"],
 ["ads-2d-oferta","Recria Ads","Chega de anúncio que ninguém quer ver. Aprenda a criar conteúdo e anúncio <em>sem cara de anúncio</em>.","Venda com leveza e naturalidade, sem parecer aquele vendedor chato.","","Quero saber mais",""],
