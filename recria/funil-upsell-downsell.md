@@ -1,31 +1,30 @@
-# Funil de upsell e downsell dos e-books (páginas só com copy)
+# Upsell e downsell dentro da página de obrigado dos e-books
 
-## Fluxo
-Compra do e-book → **página de upsell** → (se recusar) **página de downsell** → **página de obrigado** (a de sempre, com WhatsApp, comunidade e sugestões).
-Quem aceita uma oferta vai para o checkout da Hotmart daquele produto.
+**Não precisa mudar nada na Hotmart.** A oferta fica dentro da própria página de agradecimento que já está cadastrada: `https://www.agenciarecria.com.br/obrigado-ebook/?p=<slug>`.
 
-## Dois grupos (11 e-books, só 2 funis)
-| Grupo | E-books (slug do `?p=`) | Upsell | Downsell |
+## Fluxo (tudo na mesma página)
+1. **Compra confirmada** + aviso de que o acesso foi enviado pela Hotmart + botão de WhatsApp para quem não recebeu (a parte de sempre).
+2. **Upsell**, em primeira pessoa, citando o e-book comprado ("Se você acabou de comprar o Recria Post…").
+3. Se a pessoa clica em "Agora não": **downsell** (mais barato).
+4. Se recusar de novo: aparece o **restante da página** de sempre (comunidade, sugestões, consultoria e mentoria).
+Se clicar em "Sim", o checkout abre em outra aba e o restante da página aparece embaixo.
+
+## Dois grupos de e-books
+| Grupo | E-books (`?p=`) | Upsell | Downsell |
 |---|---|---|---|
-| Conteúdo | calendario-de-conteudos, calendario-com-ia, post, reels, miv | **Recria Ads, R$ 97** (`/oferta-recria-ads/`) | **Manual de Narrativas, R$ 47** (`/oferta-manual/`) |
-| Negócio | negocio-local, esteira-de-produtos, 100-ideias-low-ticket, medium-ticket, high-ticket, estrutura-de-negocio | **Diagnóstico Recria, R$ 67** (`/oferta-diagnostico/`) | **Curso Express, R$ 15** (`/oferta-express/`) |
+| Conteúdo | calendario-de-conteudos, calendario-com-ia, post, reels, miv | **Recria Ads, R$ 97** | **Manual de Narrativas, R$ 47** |
+| Negócio | negocio-local, esteira-de-produtos, 100-ideias-low-ticket, medium-ticket, high-ticket, estrutura-de-negocio | **Diagnóstico Recria, R$ 67** | **Curso Express, R$ 15** |
 
-O Diagnóstico como upsell **ainda precisa da sua confirmação** (depende da sua agenda).
-
-## O que configurar na Hotmart (página de agradecimento de cada e-book)
-Hoje cada e-book aponta para `https://www.agenciarecria.com.br/obrigado-ebook/?p=<slug>`.
-Para ligar o funil, trocar para:
-- Grupo conteúdo: `https://www.agenciarecria.com.br/oferta-recria-ads/?p=<slug>`
-- Grupo negócio: `https://www.agenciarecria.com.br/oferta-diagnostico/?p=<slug>`
-(as páginas passam o `p` adiante sozinhas até a página de obrigado)
+Sem `?p=` ou com outro produto, a página fica como antes (sem oferta).
+O texto do upsell de conteúdo **não cita os calendários com IA**, para não irritar quem já comprou um calendário.
+O Diagnóstico como upsell **ainda precisa da sua confirmação** (depende da agenda).
 
 ## Pixel
-- O evento **Purchase** do e-book dispara na **primeira página** (a de upsell), com o valor de lista, e a página de obrigado **não repete** (mesma chave de sessão).
-- Eventos próprios: `OfertaVista`, `OfertaAceita`, `OfertaRecusada` (com `oferta` e `de`) e `InitiateCheckout` ao clicar em "Sim". Dá para medir a taxa de aceite de cada oferta.
-- A compra do upsell em si é registrada pela página de obrigado do produto comprado (configurar a página de agradecimento de cada produto).
+- **Purchase** do e-book: igual ao que já existia, uma vez só.
+- Eventos próprios, com `oferta` (recria-ads, manual, diagnostico, express) e `de` (o e-book): `OfertaVista`, `OfertaAceita`, `OfertaRecusada`; e `InitiateCheckout` ao clicar em "Sim". Dá para medir a taxa de aceite de cada oferta.
 
-## Antes de ligar
-1. Confirmar na Hotmart o limite de order bumps e se o upsell/downsell nativo atende o que você quer; estas páginas funcionam sem ele (o botão leva ao checkout).
-2. O link do Diagnóstico é o da página do marketplace; trocar pelo link de pagamento direto se preferir.
-3. Não ligar durante o teste de criativos da campanha dos e-books, para não misturar os resultados.
-4. Páginas com `noindex`. Nenhuma delas aparece no Google.
+## Cuidados
+1. O link do Diagnóstico é o da página do marketplace; trocar pelo link de pagamento direto, se preferir.
+2. Não esquecer de checar na Hotmart o limite de order bumps (a oferta da página funciona sem o upsell nativo da Hotmart).
+3. Para quem comprou e-book de negócio, a seção "consultoria e mentoria" mais abaixo ainda mostra o Diagnóstico. Se ficar repetido, dá para tirar o cartão de lá.
+4. Evitar ligar em paralelo ao teste de criativos da campanha, para não misturar resultados.
