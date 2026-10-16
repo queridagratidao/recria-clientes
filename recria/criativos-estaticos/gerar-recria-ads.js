@@ -6,7 +6,7 @@ const FORMATS={
  'feed-1x1':{w:1080,h:1080,pad:'84px 76px 84px',ic:56,k:24,h1:[88,44],s:[38,24],pill:40,cta:34,ctap:22,gap:18}
 };
 const ITEMS=[
-["ads-1-dor","Recria Ads","Você cria conteúdo e anúncio, mas <em>quase ninguém compra</em>?","Isso não é falta de esforço: é que o jeito de vender mudou. Aprenda a criar conteúdo e anúncio sem cara de anúncio e aumente as vendas do seu negócio.","Em até 12x no cartão","Quero saber mais",""],
+["ads-1-dor","Recria Ads","Você cria conteúdo e anúncio, mas <em>quase ninguém compra</em>?","Isso não é falta de esforço: é que o jeito de vender mudou. Aprenda a criar conteúdo e anúncio sem cara de anúncio e aumente as vendas do seu negócio.","Apenas 12x de R$ 10,03","Quero saber mais",""],
 ["ads-2-virada","Recria Ads","Todo mundo pula anúncio. Mas para por uma <em>boa história</em>.","Aprenda a criar conteúdos e anúncios sem parecer aquele vendedor chato. Venda com leveza e naturalidade, até em conteúdos que não são de venda direta.","","Saiba mais clicando aqui",""],
 ["ads-3-prova","Recria Ads","Aprenda a criar conteúdos que <em>atraem, engajam e vendem</em>. Com leveza.","Olha esse carrossel do meu perfil de yoga: atraí as pessoas, elas se identificaram e comentaram “eu quero”. No direct, continuei a conversa com a oferta do meu curso e vendi. Tudo configurado de forma automatizada. Você também quer aprender?","","Quero saber mais","prova"]
 ];
