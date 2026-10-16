@@ -10,7 +10,7 @@ No Recria Ads, você aprende a criar conteúdo e anúncio sem cara de anúncio e
 👉 Clique em "Quero saber mais".
 
 ## Criativo 2, carrossel de 5 cards (ads-2a-historia, 2b-revelacao, 2c-porque, 2d-gancho, 2e-oferta)
-Se você tem um negócio, eu preciso te mostrar uma coisa que pode estar te fazendo perder dinheiro. Lá atrás, ela me fez quebrar dois negócios. Depois que eu ajustei um pequeno detalhe, tudo mudou. 👀
+Se você tem um negócio, eu preciso te mostrar uma coisa que pode estar te fazendo perder dinheiro. Lá atrás, isso que eu vou te contar me fez quebrar dois negócios. Depois que eu descobri e ajustei, tudo mudou… 👀
 Arraste para o lado. 👉
 No Recria Ads, você aprende a criar conteúdo e anúncio sem cara de anúncio e vende com leveza e naturalidade, sem parecer aquele vendedor chato.
 👉 Clique em "Quero saber mais".
