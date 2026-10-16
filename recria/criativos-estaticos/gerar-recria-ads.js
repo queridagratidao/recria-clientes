@@ -3,7 +3,8 @@ const D=__dirname;const F="file:///home/user/recria-clientes/recria/ebooks/_base
 const ICON="file:///home/user/-site-institucional-recria/assets/icone.png";
 const P1="file://"+D+"/recria-ads/_fontes/post-7verdades.png",P2="file://"+D+"/recria-ads/_fontes/comentarios-eu-quero.png";
 const FORMATS={
- 'feed-1x1':{w:1080,h:1080,pad:'84px 76px 84px',ic:56,k:24,h1:[88,44],s:[38,24],pill:40,cta:34,ctap:22,gap:18}
+ 'feed-1x1':{w:1080,h:1080,pad:'84px 76px 84px',ic:56,k:24,h1:[88,44],s:[38,24],pill:40,cta:34,ctap:22,gap:18},
+ 'stories-9x16':{w:1080,h:1920,pad:'250px 76px 330px',ic:84,k:30,h1:[112,52],s:[46,26],pill:52,cta:44,ctap:30,gap:30}
 };
 const ITEMS=[
 ["ads-1-dor","Recria Ads","Você cria conteúdo e anúncio, mas <em>quase ninguém compra</em>?","Isso não é falta de esforço: é que o jeito de vender mudou. Aprenda a criar conteúdo e anúncio sem cara de anúncio e aumente as vendas do seu negócio.","Apenas 12x de R$ 10,03","Quero saber mais",""],
@@ -49,7 +50,7 @@ for(const [fn,f] of Object.entries(FORMATS)){fs.mkdirSync(`${D}/recria-ads/${fn}
  const pg=await b.newPage({viewport:{width:f.w,height:f.h}});
  for(const it of ITEMS){fs.writeFileSync(D+'/_t.html',html(it,f));await pg.goto('file://'+D+'/_t.html');await pg.evaluate(()=>document.fonts.ready);
   const r=await pg.evaluate(([a0,amin,b0,bmin])=>{const c=document.querySelector('.c'),h=document.querySelector('h1'),s=document.querySelector('.s');let a=a0,bb=b0;const over=()=>c.scrollHeight>c.clientHeight+1;
-   while(over()&&a>amin){a-=2;h.style.fontSize=a+'px';}while(over()&&bb>bmin){bb-=1;s.style.fontSize=bb+'px';}return [a,bb,over()];},[it[0]==='ads-2a-historia'?64:f.h1[0],f.h1[1],f.s[0],f.s[1]]);
+   while(over()&&a>amin){a-=2;h.style.fontSize=a+'px';}while(over()&&bb>bmin){bb-=1;s.style.fontSize=bb+'px';}return [a,bb,over()];},[it[0]==='ads-2a-historia'?(f.h>1500?88:64):f.h1[0],f.h1[1],f.s[0],f.s[1]]);
   if(r[2])console.log('OVERFLOW',fn,it[0],r);
   await pg.screenshot({path:`${D}/recria-ads/${fn}/${it[0]}.png`});}
  await pg.close();}
