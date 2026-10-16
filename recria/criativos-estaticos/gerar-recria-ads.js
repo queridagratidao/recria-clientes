@@ -3,11 +3,10 @@ const D=__dirname;const F="file:///home/user/recria-clientes/recria/ebooks/_base
 const ICON="file:///home/user/-site-institucional-recria/assets/icone.png";
 const P1="file://"+D+"/recria-ads/_fontes/post-7verdades.png",P2="file://"+D+"/recria-ads/_fontes/comentarios-eu-quero.png";
 const FORMATS={
- 'feed-4x5':{w:1080,h:1350,pad:'96px 80px 96px',ic:64,k:26,h1:[100,52],s:[42,26],pill:44,cta:36,ctap:24,gap:22},
- 'stories-9x16':{w:1080,h:1920,pad:'270px 84px 350px',ic:92,k:30,h1:[112,64],s:[46,30],pill:58,cta:46,ctap:32,gap:30}
+ 'feed-1x1':{w:1080,h:1080,pad:'84px 76px 84px',ic:56,k:24,h1:[88,44],s:[38,24],pill:40,cta:34,ctap:22,gap:18}
 };
 const ITEMS=[
-["ads-1-dor","Recria Ads","Você cria conteúdo e anúncio, mas <em>quase ninguém compra</em>?","Isso não é falta de esforço: é que o jeito de vender mudou. Aprenda a criar conteúdo e anúncio sem cara de anúncio e aumente as vendas do seu negócio.","","Quero saber mais",""],
+["ads-1-dor","Recria Ads","Você cria conteúdo e anúncio, mas <em>quase ninguém compra</em>?","Isso não é falta de esforço: é que o jeito de vender mudou. Aprenda a criar conteúdo e anúncio sem cara de anúncio e aumente as vendas do seu negócio.","Em até 12x no cartão","Quero saber mais",""],
 ["ads-2-virada","Recria Ads","Todo mundo pula anúncio. Mas para por uma <em>boa história</em>.","Aprenda a criar conteúdos e anúncios sem parecer aquele vendedor chato. Venda com leveza e naturalidade, até em conteúdos que não são de venda direta.","","Saiba mais clicando aqui",""],
 ["ads-3-prova","Recria Ads","Aprenda a criar conteúdos que <em>atraem, engajam e vendem</em>. Com leveza.","Olha esse carrossel do meu perfil de yoga: atraí as pessoas, elas se identificaram e comentaram “eu quero”. No direct, continuei a conversa com a oferta do meu curso e vendi. Tudo configurado de forma automatizada. Você também quer aprender?","","Quero saber mais","prova"]
 ];
@@ -27,15 +26,16 @@ h1 em{color:#E4C988}
 .s{font-size:${f.s[0]}px;line-height:1.4;color:#e9e4da;margin-top:${f.gap+6}px}
 .mid{flex:1;display:flex;flex-direction:column;justify-content:center;gap:${f.gap*1.6}px;padding:${f.gap}px 0}.mid h1,.mid .s,.mid .ph,.mid .cta{margin-top:0}.mid .cta{margin-top:${f.gap}px}
 .ph{display:flex;gap:16px;justify-content:center}
-.ph img{border:3px solid #C9A24E;border-radius:12px;display:block;height:${f.h>1500?f.h*0.2:f.h*0.34}px;width:auto;max-width:48%}
+.ph img{border:3px solid #C9A24E;border-radius:12px;display:block;height:${f.h*0.3}px;width:auto;max-width:48%}
 
 .b{padding-top:${f.gap}px}
 .p{display:inline-block;border:3px solid #C9A24E;color:#E4C988;font-weight:600;font-size:${f.pill}px;line-height:1.1;padding:12px 30px;border-radius:10px;margin-bottom:${f.gap}px}
 .fn{font-size:${Math.round(f.s[1]*0.7)}px;color:#a9a396;text-align:center;margin-top:-6px}
+.mid .p{align-self:flex-start;margin:0}
 .cta{background:#C9A24E;color:#0b0b0b;font-weight:700;font-size:${f.cta}px;text-align:center;padding:${f.ctap}px;border-radius:10px;letter-spacing:.02em}
 `;}
 function html(it,f){const [n,k,h,s,p,c,x]=it;
- return `<!doctype html><meta charset="utf-8"><style>${css(f)}</style><div class="c"><img class="ic" src="${ICON}"><div class="mid"><div class="k">${k}</div><h1>${h}</h1><div class="s">${s}</div>${x==='prova'?`<div class="ph"><img src="${P1}"><img src="${P2}"></div>`:''}<div class="cta">${c}</div>${x==='prova'?'<div class="fn">Caso real do meu perfil de yoga. Os resultados variam de pessoa para pessoa.</div>':''}</div><div class="bd"></div></div>`;}
+ return `<!doctype html><meta charset="utf-8"><style>${css(f)}</style><div class="c"><img class="ic" src="${ICON}"><div class="mid"><div class="k">${k}</div><h1>${h}</h1><div class="s">${s}</div>${x==='prova'?`<div class="ph"><img src="${P1}"><img src="${P2}"></div>`:''}${p?`<div class="p">${p}</div>`:''}<div class="cta">${c}</div>${x==='prova'?'<div class="fn">Caso real do meu perfil de yoga. Os resultados variam de pessoa para pessoa.</div>':''}</div><div class="bd"></div></div>`;}
 (async()=>{const b=await chromium.launch({executablePath:'/opt/pw-browsers/chromium'});
 for(const [fn,f] of Object.entries(FORMATS)){fs.mkdirSync(`${D}/recria-ads/${fn}`,{recursive:true});
  const pg=await b.newPage({viewport:{width:f.w,height:f.h}});
