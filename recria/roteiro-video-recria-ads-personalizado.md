@@ -1,6 +1,6 @@
-# Roteiro · vídeo de boas-vindas do Recria Ads Próximo Passo
+# Roteiro · vídeo de boas-vindas do Recria Ads Mini Mentoria
 
-> **Nome decidido: Recria Ads Próximo Passo** ("Apliquei. E agora?"). Ensina a analisar cada ação tomada para decidir a próxima: mudar anúncio, oferta, campanha, influenciador, posicionamento, estrutura e formatos.
+> **Nome decidido: Recria Ads Mini Mentoria** ("Apliquei. E agora?"). Acompanhamento de até 60 dias. Ensina a analisar cada ação tomada para decidir a próxima: mudar anúncio, oferta, campanha, influenciador, posicionamento, estrutura e formatos.
 
 ## Onde o vídeo entra (decidido)
 - **Não é vídeo de venda.** É a **primeira aula dentro do curso**, liberada para quem contratar o acompanhamento.
@@ -63,7 +63,7 @@ Agende o seu primeiro encontro pelo botão aqui embaixo. Nos vemos em breve!
 - "Documento final para consultar sempre"
 
 ## Pontos a decidir
-1. **Produto separado na Hotmart** (nome: Recria Ads Próximo Passo), com página de agradecimento própria; evitar usar só uma oferta do Diagnóstico (recibo, e-mail e relatórios ficariam misturados).
+1. **Produto separado na Hotmart** (nome: Recria Ads Mini Mentoria), com página de agradecimento própria; evitar usar só uma oferta do Diagnóstico (recibo, e-mail e relatórios ficariam misturados).
 2. **Planilhas** do material de apoio: quais serão e quando ficam prontas (a oferta cita "material de apoio e planilhas").
 3. **Vídeo e documento gerais** para quem não usar os encontros: gravar/escrever junto com o vídeo de boas-vindas.
 4. **Remarcação:** o que acontece se a pessoa agenda dentro do prazo e precisa remarcar (ex.: uma remarcação, dentro da mesma janela).
