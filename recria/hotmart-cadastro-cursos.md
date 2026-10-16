@@ -29,7 +29,7 @@
 ```
 Aprenda a criar conteúdos e anúncios sem cara de anúncio, sem parecer aquele vendedor chato e vendendo com leveza.
 
-Em apenas 10 minutos por dia, em cerca de 1 mês você vai ter tudo aplicado no seu negócio e vai aprender a vender todo santo dia.
+Você só precisa de 10 minutos por dia e, em cerca de um mês, terá tudo aplicado no seu negócio e vai aprender a vender todo santo dia.
 
 Pela primeira vez, eu abro para você a metodologia da Agência Recria: a mesma que hoje só os nossos clientes da agência têm acesso, agora para você aplicar no seu negócio. Neurociência, jornada do consumidor e muito mais do que eu sintetizei em mais de 10 anos de prática.
 
