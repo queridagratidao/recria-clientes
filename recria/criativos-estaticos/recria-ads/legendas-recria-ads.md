@@ -9,10 +9,10 @@ No Recria Ads, você aprende a criar conteúdo e anúncio sem cara de anúncio e
 💳 Apenas 12x de R$ 10,03.
 👉 Clique em "Quero saber mais".
 
-## Criativo 2, carrossel de 3 cards (ads-2a-historia, ads-2b-revelacao, ads-2c-oferta)
-Você posta todo dia, o produto é bom, e a única pessoa que curte é a sua tia? 😅
-Arraste para o lado e veja o que aconteceu aqui. 👉
-No Recria Ads, você aprende a criar conteúdos e anúncios sem parecer aquele vendedor chato. Venda com leveza e naturalidade, até em conteúdos que não são de venda direta.
+## Criativo 2, carrossel de 4 cards (ads-2a-historia, 2b-revelacao, 2c-porque, 2d-oferta)
+Se você tem um negócio, preciso te mostrar uma coisa que pode estar te fazendo perder dinheiro ainda este mês. 👀
+Arraste para o lado. 👉
+No Recria Ads, você aprende a criar conteúdo e anúncio sem cara de anúncio e vende com leveza e naturalidade, sem parecer aquele vendedor chato.
 👉 Clique em "Quero saber mais".
 
 ## Criativo 3 (ads-3-prova.png)

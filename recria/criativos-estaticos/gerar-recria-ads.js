@@ -7,9 +7,10 @@ const FORMATS={
 };
 const ITEMS=[
 ["ads-1-dor","Recria Ads","Você cria conteúdo e anúncio, mas <em>quase ninguém compra</em>?","Isso não é falta de esforço: é que o jeito de vender mudou. Aprenda a criar conteúdo e anúncio sem cara de anúncio e aumente as vendas do seu negócio.","Apenas 12x de R$ 10,03","Quero saber mais",""],
-["ads-2a-historia","","Você posta todo dia, o produto é bom, e <em>a única pessoa que curte é a sua tia</em>.","Aí, num dia qualquer, um perfil que você nem conhece posta uma coisa, e você para para ler até o final. Quando vê, já está querendo comprar.","","","seta1"],
-["ads-2b-revelacao","Recria Ads","Percebeu? <em>Isso foi um anúncio.</em>","Todo mundo pula anúncio. Mas para por uma boa história. E foi assim que eu te prendi aqui.","","","seta"],
-["ads-2c-oferta","Recria Ads","Aprenda a criar conteúdos e anúncios <em>sem cara de anúncio</em>.","Venda sem parecer aquele vendedor chato. Com leveza e naturalidade, até em conteúdos que não são de venda direta.","","Quero saber mais",""],
+["ads-2a-historia","","Se você tem um negócio, preciso te mostrar uma coisa que <em>pode estar te fazendo perder dinheiro ainda este mês</em>.","Eu descobri isso do jeito difícil, depois de perder dinheiro e ajustar.","","","seta1"],
+["ads-2b-revelacao","Recria Ads","Percebeu? <em>Isso foi um anúncio.</em>","Eu retive a sua atenção, gerei identificação e fiz você arrastar para o lado para continuar lendo, mesmo sem me conhecer.","","","seta"],
+["ads-2c-porque","Recria Ads","Todo mundo pula anúncio <em>com cara de anúncio</em>.","Aquele do vendedor chato, que não agrega e não desperta desejo. Mas um conteúdo que atrai faz a pessoa parar e ler até o final.","","","seta"],
+["ads-2d-oferta","Recria Ads","Chega de anúncio que ninguém quer ver. Aprenda a criar conteúdo e anúncio <em>sem cara de anúncio</em>.","Venda com leveza e naturalidade, sem parecer aquele vendedor chato.","","Quero saber mais",""],
 ["ads-3-prova","Recria Ads","Aprenda a criar conteúdos que <em>atraem, engajam e vendem</em>. Com leveza.","Olha esse carrossel do meu perfil de yoga: atraí as pessoas, elas se identificaram e comentaram “eu quero”. No direct, continuei a conversa com a oferta do meu curso e vendi. Tudo configurado de forma automatizada. Você também quer aprender?","","Quero saber mais","prova"]
 ];
 function css(f){return `
