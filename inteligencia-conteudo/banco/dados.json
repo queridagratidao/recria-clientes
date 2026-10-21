@@ -1151,5 +1151,237 @@
       "yoga-amanda"
     ],
     "analise_md": "inteligencia-conteudo/analises/REF-0006-marinaferreiracn-video-falado.md"
+  },
+  {
+    "id": "REF-0007",
+    "link": "https://www.instagram.com/p/DP1d7EbEWBJ/",
+    "perfil": "@psi.marinafrezzarin",
+    "tipo": "Carrossel",
+    "formato": "Carrossel de curadoria de frases (capa + 10 cards) sobre fotos cinematográficas de mar e natureza",
+    "data_post": "15 de outubro de 2025",
+    "metrica": "cerca de 49,9 mil curtidas",
+    "entrada": "21/10/2026",
+    "etapas": [
+      "topo",
+      "meio"
+    ],
+    "tres_em_um": false,
+    "consciencia": [
+      "Inconsciente",
+      "Do problema"
+    ],
+    "objetivos": [
+      "Crescer seguidores",
+      "Engajar",
+      "Reter"
+    ],
+    "anuncio": [
+      "Feed impulsionado (com frases e imagens licenciadas)"
+    ],
+    "tags": [
+      "curadoria de frases",
+      "lista numerada",
+      "autoridade emprestada (autores)",
+      "salvável e compartilhável",
+      "template visual único",
+      "estética calma e cinematográfica",
+      "tradução em linguagem simples",
+      "sem CTA",
+      "legenda mínima com hashtags"
+    ],
+    "gancho": "10 canetadas que, enquanto psicóloga, eu gostaria que você lesse:",
+    "molde": [
+      "Capa: [N] [canetadas / verdades / frases] que, enquanto [profissão], eu gostaria que você lesse:",
+      "Cada card: [número] - \"[frase curta de autoridade]\" - [autor]. Um card, uma ideia, mesma posição de texto.",
+      "Tradução simples (diferencial, em 1 card): (Ou seja, [explicação em uma linha]).",
+      "Fecho possível (não havia): CTA com palavra-chave ou pergunta ('qual frase te pegou?')."
+    ],
+    "gatilhos": [
+      "autoridade emprestada (autores conhecidos)",
+      "lista numerada com promessa clara",
+      "identificação com a dor e o desejo",
+      "salvar e compartilhar (frase pronta)",
+      "calma e estética",
+      "curiosidade pela frase seguinte"
+    ],
+    "estrutura": "Capa com promessa numerada e voz do profissional; 10 cards com a mesma estrutura (número, citação entre aspas, autor) sobre imagem de mar, viagem e rotina; um card com tradução em linguagem simples; sem card de CTA; legenda só com pontos e hashtags.",
+    "cta": "Não há CTA no carrossel nem na legenda (só hashtags). O engajamento vem de salvar, compartilhar e comentar. Nos comentários há quem queira o estilo ('como faço pra eu sair dele?') e elogios ('só pedrada', 'amei todas').",
+    "funil_notas": "Topo: tema universal e frases salváveis atraem gente nova. Meio leve: as frases despertam consciência de padrões (fuga, emoções não ditas, infância). Sem oferta. Oportunidade: o fecho sem CTA pode levar a uma palavra-chave ou a seguir.",
+    "slides": [
+      {
+        "img": "img/REF-0007/capa.jpg",
+        "texto": "Capa: \"10 canetadas que, enquanto psicóloga, eu gostaria que você lesse:\" (mulher lendo, de costas, diante do mar escuro)."
+      },
+      {
+        "img": "img/REF-0007/card-01.jpg",
+        "texto": "1: \"É necessário se espantar, se indignar e se contagiar; só assim é possível mudar a realidade.\" Nise da Silveira."
+      },
+      {
+        "img": "img/REF-0007/card-02.jpg",
+        "texto": "2: \"Não vemos as coisas como são, vemos as coisas como nós somos.\" Anaïs Nin."
+      },
+      {
+        "img": "img/REF-0007/card-03.jpg",
+        "texto": "3: \"Cada um alcança a verdade que é capaz de suportar.\" Lacan."
+      },
+      {
+        "img": "img/REF-0007/card-04.jpg",
+        "texto": "4: \"A fuga é o instrumento mais seguro para se cair prisioneiro daquilo que se deseja evitar.\" Freud."
+      },
+      {
+        "img": "img/REF-0007/card-05.jpg",
+        "texto": "5: \"Numa psicanálise descobre-se que a vida adulta é sempre menos adulta do que parece. Ela é pilotada por restos e rastros da infância.\" Contardo Calligaris."
+      },
+      {
+        "img": "img/REF-0007/card-06.jpg",
+        "texto": "6: \"Ninguém detém o poder e sabedoria para aconselhá-lo, ninguém. Há apenas uma maneira. Vá para dentro de si mesmo.\" Cartas a um jovem poeta, Rainer Maria Rilke."
+      },
+      {
+        "img": "img/REF-0007/card-07.jpg",
+        "texto": "7: \"O que interessa na vida não é prever os perigos das viagens. É tê-las feito.\" Agostinho da Silva."
+      },
+      {
+        "img": "img/REF-0007/card-08.jpg",
+        "texto": "8: \"Identificar as suas próprias pequenas felicidades e, mesmo nem tudo dando certo, gostar da vida que leva.\" Marta Medeiros."
+      },
+      {
+        "img": "img/REF-0007/card-09.jpg",
+        "texto": "9: \"Compreender tudo não é perdoar tudo. A psicanálise nos ensina não apenas o que podemos suportar, mas também o que devemos evitar.\" Freud."
+      },
+      {
+        "img": "img/REF-0007/card-10.jpg",
+        "texto": "10: \"As emoções não expressas nunca morrem. São enterradas vivas e depois saem de formas piores.\" (Ou seja, o que não é dito e elaborado, retorna.) Freud. Único card com tradução em linguagem simples."
+      }
+    ],
+    "reaproveitamento": [
+      {
+        "formato": "Carrossel de curadoria própria (8 a 11 cards)",
+        "resumo": "Capa '[N] frases que, enquanto [profissão], eu gostaria que você lesse'; 7 a 10 cards com frases de autoridade do nicho (autor e fonte) sobre imagem licenciada ou própria; ao menos uma tradução em linguagem simples; card final com CTA (palavra-chave ou pergunta)."
+      },
+      {
+        "formato": "Vídeo curto B-roll com uma frase",
+        "resumo": "7 a 15 s: uma frase com o autor na tela sobre B-roll de mar, rotina ou cidade; legenda com a tradução simples e a pergunta final."
+      },
+      {
+        "formato": "Vídeo falado (45 a 60 s)",
+        "resumo": "O profissional lê uma frase e comenta em 3 passos: o que a frase quer dizer, onde aparece no dia a dia, o que fazer hoje."
+      },
+      {
+        "formato": "Vídeo narrado (voz em off)",
+        "resumo": "Voz em off lendo 3 frases com tradução simples sobre B-roll; opção para quem resiste a aparecer (ex.: a Pati)."
+      },
+      {
+        "formato": "Série semanal",
+        "resumo": "'Frase da semana': um card ou vídeo curto por semana, com o mesmo template e uma tradução simples."
+      },
+      {
+        "formato": "Stories",
+        "resumo": "Enquete 'qual frase te pegou?', caixinha 'qual frase você gostaria que um profissional dissesse?' e resposta com um card."
+      },
+      {
+        "formato": "Vídeo longo (YouTube)",
+        "resumo": "8 a 12 min: 'dez frases que mudaram a minha forma de ver [tema]', com capítulos e cortes verticais por frase."
+      },
+      {
+        "formato": "Anúncio e comunidade",
+        "resumo": "Carrossel ou vídeo de 1 frase com CTA para conteúdo gratuito (dark post ou feed impulsionado); no grupo, a frase da semana com pergunta e a ponte para a oferta."
+      }
+    ],
+    "encaixe": [
+      {
+        "nicho": "Psicologia",
+        "nivel": "alta",
+        "gancho": "10 frases que, enquanto psicóloga, eu gostaria que você lesse (com tradução simples em cada card).",
+        "cuidados": "Conferir a atribuição de cada frase; sem diagnóstico; conselho profissional; não expor pacientes."
+      },
+      {
+        "nicho": "Biomedicina e estética",
+        "nivel": "alta",
+        "gancho": "10 trechos de artigos e de profissionais que uma estudante de biomedicina de 40+ levou do congresso, sempre com a fonte.",
+        "cuidados": "Estudante: sem oferta de procedimento; fonte completa; dizer o que o estudo não prova. Encaixa no carrossel PTI-2611-01 (leituras e profissionais que ela acompanha)."
+      },
+      {
+        "nicho": "Yoga e espiritualidade",
+        "nivel": "alta",
+        "gancho": "10 frases de mestres e de textos de yoga que eu gostaria que você lesse antes da próxima prática.",
+        "cuidados": "Conferir autoria e tradução dos textos; sem promessa de resultado."
+      },
+      {
+        "nicho": "Terapias holísticas",
+        "nivel": "media",
+        "gancho": "10 frases para quem está começando a cuidar de si.",
+        "cuidados": "Sem promessa de cura; sem religião específica."
+      },
+      {
+        "nicho": "Marketing e negócios",
+        "nivel": "alta",
+        "gancho": "10 frases que, enquanto estrategista, eu gostaria que todo dono de negócio lesse antes de anunciar.",
+        "cuidados": "Copy vaga; atribuição correta; sem prometer faturamento."
+      },
+      {
+        "nicho": "Condomínio e síndicos",
+        "nivel": "media",
+        "gancho": "10 frases sobre gestão e convivência que todo síndico deveria ler.",
+        "cuidados": "Tom técnico; conferir autoria."
+      },
+      {
+        "nicho": "Educação e cursos",
+        "nivel": "alta",
+        "gancho": "10 frases de educadores que eu gostaria que todo aluno lesse.",
+        "cuidados": "Conferir autoria."
+      },
+      {
+        "nicho": "Nutrição",
+        "nivel": "media",
+        "gancho": "10 verdades sobre alimentação que eu gostaria que você lesse.",
+        "cuidados": "Sem promessa de emagrecimento; fontes."
+      },
+      {
+        "nicho": "Fitness e personal",
+        "nivel": "media",
+        "gancho": "10 frases sobre constância que eu gostaria que você lesse antes de treinar.",
+        "cuidados": "Sem promessa de resultado."
+      },
+      {
+        "nicho": "Advocacia",
+        "nivel": "media",
+        "gancho": "10 frases sobre justiça que eu gostaria que todo cliente lesse.",
+        "cuidados": "Regras da OAB sobre publicidade; conferir autoria."
+      },
+      {
+        "nicho": "Finanças pessoais",
+        "nivel": "media",
+        "gancho": "10 frases sobre dinheiro que eu gostaria que você lesse antes de investir.",
+        "cuidados": "Sem recomendação de investimento; conferir autoria."
+      },
+      {
+        "nicho": "Imobiliário",
+        "nivel": "media",
+        "gancho": "10 frases sobre casa e lar que eu gostaria que você lesse antes de comprar.",
+        "cuidados": "Não prometer valorização ou financiamento."
+      },
+      {
+        "nicho": "Moda, gastronomia e e-commerce",
+        "nivel": "baixa a media",
+        "gancho": "10 frases que inspiram o nosso jeito de fazer.",
+        "cuidados": "Menos aderente ao tema."
+      }
+    ],
+    "alertas": [
+      "Atribuição de frases: muitas citações circulam na internet com autor errado ou sem fonte. Não consegui confirmar a fonte original de algumas (por exemplo, a do card 10, comumente atribuída a Freud, e a do card 3, atribuída a Lacan). Conferir cada frase antes de usar.",
+      "Imagens: fotos e vídeos de estilo cinematográfico, possivelmente de bancos pagos ou de terceiros. Para uso dos clientes e em anúncio, usar fotos próprias, banco licenciado ou arte gerada.",
+      "Não havia CTA no carrossel nem na legenda: é uma oportunidade perdida; na nossa versão, fechar com palavra-chave ou pergunta.",
+      "Perfil de psicóloga com público amplo: os números não servem de meta para B2B.",
+      "Saúde mental: sem diagnóstico; conferir as orientações do conselho profissional.",
+      "Os cards 4 a 10 não têm tradução simples, só o 10: vale padronizar a tradução em todos na nossa versão."
+    ],
+    "facilidade": "Alta: curadoria de frases e template único; o trabalho é escolher boas frases, verificar a atribuição e licenciar imagens.",
+    "clientes": [
+      "camila-sartori",
+      "paty",
+      "yoga-amanda",
+      "recria"
+    ],
+    "analise_md": "inteligencia-conteudo/analises/REF-0007-psimarinafrezzarin-carrossel-frases.md"
   }
 ]
