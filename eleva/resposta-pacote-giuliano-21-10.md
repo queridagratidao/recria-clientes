@@ -8,15 +8,19 @@ Retorno sobre os pontos abordados na última reunião e no material que você pa
 
 ## 1. Peças (carrosséis e estáticos)
 
-Também faz muito sentido o reposicionamento para a Área Comum - portal do condomínio, e vamos seguir usando os carrosséis da forma que você fez atualmente.
+Gostamos bastante das peças, carrosséis e estáticos — ficou muito bom o conteúdo. E fez muito sentido esse reposicionamento, para conseguir vender não só para o síndico, mas também para os gestores e administradoras. Vamos seguir com esse material.
 
 ## 2. Estratégia de Google Ads
 
-Concordamos com a estrutura de 4 grupos de anúncios (síndico profissional, administradoras/gestores, obrigações, marca). A verba diária não é dividida entre os grupos — fica num só "bolo", e o próprio Google decide quanto investir em cada grupo conforme o desempenho. Os 4 grupos servem para casar o anúncio certo com cada busca, o que melhora a relevância em vez de pulverizar a verba.
+Concordamos com a estratégia de 4 grupos de anúncio em uma única campanha: um grupo de síndico profissional, outro de administradoras/gestores, outro de obrigações, e outro de marca.
 
 ## 3. Estratégia de Meta Ads
 
-Concordamos com o objetivo Tráfego para a campanha de Instagram/Facebook. Mas aqui tem um ponto importante:
+Revisamos os pontos levantados no documento e fazem sentido. Sobre o objetivo da campanha, especificamente:
+
+### Tráfego ou Cadastro?
+
+O objetivo ideal seria Cadastro, otimizando direto pela conversão — mas hoje isso esbarra em dois problemas, não só no Pixel: mesmo instalando o Pixel, o algoritmo da Meta precisa de cerca de 50 eventos de conversão por semana para sair da fase de aprendizado, e com R$25/dia de verba a gente dificilmente chega nesse volume — a campanha ficaria travada "aprendendo" sem nunca otimizar de verdade. Por isso a recomendação é **começar com objetivo Tráfego**, e assim que o Pixel estiver ativo e o volume de cadastros crescer (principalmente depois que a verba for escalando, ver "Ritmo de investimento" abaixo), reavaliamos a troca para Cadastro.
 
 ### Instalar o Pixel da Meta no Webflow
 
@@ -37,11 +41,24 @@ Pedimos para o seu Claude, que já está conectado ao Webflow, instalar o Pixel 
 
 Se o Claude dele não conseguir fazer essa instalação, nos avise que fazemos daqui.
 
-**Também pedimos para confirmar se a tag do Google (GTM) já está puxando corretamente o evento de cadastro e, se existir, o evento de compra** — o mesmo cuidado de capturar todos os eventos vale para o lado do Google também.
+### Atribuir a venda ao cadastro de 30 dias atrás
+
+Sim, dá para rastrear: alguém se cadastra hoje e assina só daqui a 30 dias, e ainda assim atribuir essa venda ao canal certo (Google ou Meta) — mas o caminho técnico é um pouco diferente em cada plataforma:
+
+- **No Google**: é mais direto. O Google Ads aceita janela de conversão de até 90 dias, e dá para importar a "conversão offline" (a venda que aconteceu depois) usando o GCLID (o identificador que fica salvo no cadastro). Também conecta nativamente com o Google Analytics (GA4), que já faz esse tipo de atribuição de longo prazo.
+- **Na Meta**: também é possível, mas com mais trabalho — a janela de atribuição padrão do próprio relatório da Meta é curta (7 dias de clique). Para os 30 dias, o caminho é guardar o identificador do clique (FBCLID) no momento do cadastro e, quando a venda acontecer, disparar o evento de compra via Conversions API (API de Conversões, do lado do servidor), vinculado àquele clique original — mas isso não aparece automaticamente no relatório padrão da Meta, é mais um dado pra análise nossa/do time técnico do que um número que a própria plataforma mostra pronto.
+
+Isso é trabalho de desenvolvimento (guardar o GCLID e o FBCLID no cadastro, e disparar o evento de venda depois vinculado a eles) — vale perguntar pro Claude do Giuliano se o portal já guarda esses identificadores no cadastro, porque sem isso não tem como fazer essa atribuição depois.
+
+### Confirmação da tag do Google
+
+Não temos como verificar diretamente daqui se a tag do Google (GTM) está puxando certinho o evento de cadastro — isso só é possível com a extensão Tag Assistant no navegador, ou com o print "Gravando conversões" que o próprio documento do Giuliano já pede como condição para ativar as campanhas. Pedimos esse print antes de ligar tudo, incluindo o evento de compra, se houver.
 
 ### Ritmo de investimento
 
 Entendemos que o teto máximo é R$ 3.700, conforme definido por você. Vamos começar com um investimento mínimo nos primeiros dias, para forçar as campanhas a entregarem o máximo de cadastro pelo menor custo possível, e ir aumentando a verba aos poucos, de acordo com o resultado de cadastros.
+
+**Um adendo**: como as campanhas são de tráfego/cadastro, não de venda direta, o custo na Meta tende a ficar mais barato — o leilão da Meta cobra mais caro quanto mais "fundo de funil" é o objetivo (uma campanha de venda direta compete por um público mais qualificado e mais caro). No Google, essa lógica não se aplica do mesmo jeito: o custo por clique na Rede de Pesquisa é definido principalmente pela concorrência de cada palavra-chave no leilão, não pelo objetivo da campanha — então não esperamos essa mesma economia por ser uma campanha de cadastro em vez de venda.
 
 ## 4. Calendário dos carrosséis
 
@@ -61,17 +78,21 @@ Segue um esboço de como ficaria:
 
 ![Esboço da página de links](esboco-linktree.png)
 
-## 6. Fornecedor de WhatsApp
+## 6. Plataforma que vamos usar para disparos em massa no WhatsApp
 
-Recomendamos o **Nextags** em vez do SocialHub:
+Comparamos os dois fornecedores possíveis para o disparo via API oficial da Meta aos ~450 síndicos da sua agenda:
 
-| | Nextags | SocialHub |
+| | **Nextags** | **SocialHub** |
 |---|---|---|
-| Mensalidade (até 2.500 contatos) | R$ 147,00 | A partir de R$ 299,00 |
-| Tarifa de disparo da Meta | À parte, ~R$ 384/mês | A confirmar |
-| **Total estimado** | **~R$ 531/mês** | **~R$ 483 a 683/mês** |
+| Mensalidade (faixa até 2.500 contatos — cobre os 450 de sobra) | **R$ 147,00/mês** | A partir de R$ 299,00/mês (plano exato a confirmar) |
+| Tarifa de disparo da Meta (~1.200 msgs/mês, 3 envios) | Cobrada à parte, direto no Gerenciador de Anúncios (~R$ 384/mês) | Não informada no site — ver observação abaixo |
+| **Total estimado/mês** | **~R$ 531,00** | **~R$ 483 a R$ 683,00**, dependendo da tarifa |
+| Recursos inclusos | Caixa de entrada multicanal, automações, agentes de IA, campanhas e segmentação, CRM, API/webhooks | CRM, chatbot com IA, campanhas, e-mail marketing |
+| Fidelidade | Mensal, cancela quando quiser | Sem fidelidade |
 
-Você já conhece a ferramenta, e o custo fica menor para o tamanho da sua base (~450 contatos). Vamos te enviar um documento separado, só com o comparativo completo entre Nextags e SocialHub.
+**Observação sobre a tarifa da Meta**: o site do SocialHub não deixa claro se esse valor já inclui a tarifa de disparo da Meta ou não. Pela experiência do mercado, o mais comum é vir separado — você paga a plataforma de disparo de um lado, e a tarifa da Meta é cobrada à parte, direto no Gerenciador de Anúncios, dentro do gerenciador de WhatsApp da conta. Se você conseguir esse valor direto com eles, nos ajuda bastante, porque não achamos essa informação no site.
+
+**Recomendação: Nextags.** Além do custo final estimado ser menor, a Amanda já conhece bem a ferramenta — inclusive já prestou consultoria para um e-commerce que faturou R$ 500 mil usando disparo de WhatsApp para uma base de 200 mil pessoas (venda de suplementos). É uma ferramenta que já mostrou resultado forte na prática.
 
 ## 7. Próximos passos
 
