@@ -36,3 +36,12 @@ Direitos de imagem e texto, claims e saude, regras do cliente, erros na referenc
 
 ## 8. Facilidade de producao
 Alta, media ou baixa, e o que precisa (gravacao, arte, licenca de imagem).
+
+## 9. Funil e tags (para filtrar no painel)
+Cada referencia recebe tags dos grupos abaixo (ficam em `banco/dados.json` e no CSV):
+- **Etapa do funil**: *topo* (atrai e gera alcance, nao exige consciencia do problema), *meio* (educa e gera identificacao, desperta consciencia de dores e desejos, ainda sem caminho definido; pode apontar caminho gratuito ou pago), *fundo* (chamada direta para acao, captura ou venda). **3 em 1**: o mesmo conteudo percorre topo, meio e fundo (atrai, desenvolve consciencia e leva a uma acao). Quando houver, marcar tambem a etapa de cada trecho.
+- **Nivel de consciencia**: inconsciente, do problema, do desejo, da solucao, do produto.
+- **Objetivo**: crescer seguidores, engajar, reter, gerar lead, vender.
+- **Anuncio**: dark post, feed impulsionado ou nao indicado (e como adaptar).
+- **Tags livres**: ex.: frase salvavel, interrupcao de swipe, CTA com palavra-chave, desafio, prova social, antes e depois (so se permitido), react.
+Para a busca por nicho usar a tabela de **encaixe por nicho** (alta, media, baixa).

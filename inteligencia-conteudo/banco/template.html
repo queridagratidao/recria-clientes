@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+<title>Banco de referências Recria</title>
+<style>
+:root{--bg:#faf8f4;--fg:#1f1d1a;--mut:#6d6a63;--card:#ffffff;--bd:#e4e0d6;--ac:#8f1958;--chip:#f0ece3;--on:#8f1958;--onfg:#ffffff;--ok:#2f6f4f;--warn:#9a5a00}
+@media (prefers-color-scheme:dark){:root{--bg:#161513;--fg:#f2efe8;--mut:#a9a59b;--card:#1f1e1b;--bd:#35332e;--ac:#e883b6;--chip:#2a2825;--on:#e883b6;--onfg:#161513;--ok:#7ccf9f;--warn:#e0a850}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding:20px 16px 80px}
+h1{font-size:1.5rem;margin:0 0 4px}
+.sub{color:var(--mut);margin:0 0 16px;font-size:.92rem}
+.box{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:14px;margin-bottom:14px}
+.grp{margin:0 0 10px}
+.grp h3{font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:var(--mut);margin:0 0 6px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--bd);background:var(--chip);color:var(--fg);border-radius:999px;padding:5px 11px;font-size:.85rem;cursor:pointer}
+.chip[aria-pressed=true]{background:var(--on);color:var(--onfg);border-color:var(--on)}
+.chip small{opacity:.7;margin-left:4px}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:8px}
+input[type=search],input[type=text]{flex:1 1 220px;padding:9px 11px;border:1px solid var(--bd);border-radius:8px;background:var(--bg);color:var(--fg);font:inherit}
+button.btn{padding:9px 13px;border-radius:8px;border:1px solid var(--ac);background:var(--ac);color:var(--onfg);font:inherit;cursor:pointer}
+button.btn.sec{background:transparent;color:var(--ac)}
+.msg{font-size:.85rem;color:var(--ok);min-height:1.2em}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:14px;margin-bottom:12px}
+.card h2{font-size:1.05rem;margin:0 0 4px}
+.meta{color:var(--mut);font-size:.85rem;margin-bottom:8px}
+.tagrow{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+.tag{font-size:.75rem;border-radius:6px;padding:2px 8px;background:var(--chip);border:1px solid var(--bd)}
+.tag.f{border-color:var(--ac);color:var(--ac)}
+.slides{display:flex;gap:8px;overflow-x:auto;padding:6px 0 10px}
+.slides figure{margin:0;flex:0 0 auto;width:170px}
+.slides img{width:170px;height:auto;border-radius:8px;border:1px solid var(--bd);display:block}
+.slides figcaption{font-size:.72rem;color:var(--mut);margin-top:4px}
+details{margin-top:8px}
+summary{cursor:pointer;color:var(--ac);font-weight:600}
+table{width:100%;border-collapse:collapse;font-size:.85rem;margin-top:6px}
+th,td{border-bottom:1px solid var(--bd);padding:6px;text-align:left;vertical-align:top}
+.lvl-alta{color:var(--ok);font-weight:600}.lvl-media{color:var(--warn);font-weight:600}
+ul{margin:6px 0 6px 18px;padding:0}
+a{color:var(--ac)}
+.empty{color:var(--mut);text-align:center;padding:30px}
+.note{font-size:.82rem;color:var(--mut)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Banco de referências</h1>
+  <p class="sub">Uso interno da agência Recria. Clique nas tags para filtrar. <span id="count"></span></p>
+
+  <div class="box" id="filters"></div>
+
+  <div class="box">
+    <div class="bar">
+      <input type="search" id="q" placeholder="Buscar por palavra, perfil, gancho ou nicho">
+      <button class="btn sec" id="clear">Limpar filtros</button>
+    </div>
+    <div class="bar">
+      <button class="btn" id="copyFiltered">Copiar as filtradas (texto)</button>
+      <button class="btn sec" id="copyAll">Copiar todas (texto)</button>
+    </div>
+    <div class="bar">
+      <input type="text" id="niche" placeholder="Nicho do cliente (ex.: corretora de imóveis)">
+      <button class="btn" id="copyPrompt">Copiar prompt pronto para outra IA</button>
+    </div>
+    <div class="msg" id="msg" role="status"></div>
+    <p class="note">O prompt usa as referências filtradas (ou todas, se nada estiver filtrado). Cole numa IA e ela escolhe o que combina com o nicho, por etapa do funil.</p>
+  </div>
+
+  <div id="list"></div>
+</div>
+
+<script>
+const DATA = /*DADOS*/[];
+const LABEL = {topo:'Topo de funil', meio:'Meio de funil', fundo:'Fundo de funil', tres:'3 em 1'};
+const GROUPS = [
+  {k:'etapas', label:'Etapa do funil'},
+  {k:'consciencia', label:'Nível de consciência'},
+  {k:'objetivos', label:'Objetivo'},
+  {k:'anuncio', label:'Anúncio'},
+  {k:'tipos', label:'Formato'},
+  {k:'tags', label:'Tags'},
+  {k:'nichos', label:'Encaixe por nicho (alto ou médio)'}
+];
+const sel = {}; GROUPS.forEach(g => sel[g.k] = new Set());
+let query = '';
+
+function vals(r, k){
+  if (k==='etapas'){ const a=(r.etapas||[]).map(e=>LABEL[e]||e); if(r.tres_em_um) a.push(LABEL.tres); return a; }
+  if (k==='tipos') return [r.tipo];
+  if (k==='nichos') return (r.encaixe||[]).filter(e=>/alta|media/.test(e.nivel)).map(e=>e.nicho);
+  return r[k]||[];
+}
+const esc = s => String(s==null?'':s).replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+function filtered(){
+  const q = query.trim().toLowerCase();
+  return DATA.filter(r=>{
+    for (const g of GROUPS){
+      if (sel[g.k].size){ const v = vals(r,g.k); if(!v.some(x=>sel[g.k].has(x))) return false; }
+    }
+    if (q && !JSON.stringify(r).toLowerCase().includes(q)) return false;
+    return true;
+  });
+}
+
+function renderFilters(){
+  const el = document.getElementById('filters'); el.innerHTML='';
+  GROUPS.forEach(g=>{
+    const counts = new Map();
+    DATA.forEach(r=>vals(r,g.k).forEach(v=>counts.set(v,(counts.get(v)||0)+1)));
+    if(!counts.size) return;
+    const d=document.createElement('div'); d.className='grp';
+    d.innerHTML='<h3>'+esc(g.label)+'</h3><div class="chips"></div>';
+    const c=d.querySelector('.chips');
+    [...counts.entries()].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).forEach(([v,n])=>{
+      const b=document.createElement('button'); b.type='button'; b.className='chip';
+      b.setAttribute('aria-pressed', sel[g.k].has(v)); b.innerHTML=esc(v)+'<small>'+n+'</small>';
+      b.onclick=()=>{ sel[g.k].has(v)?sel[g.k].delete(v):sel[g.k].add(v); renderFilters(); renderList(); };
+      c.appendChild(b);
+    });
+    el.appendChild(d);
+  });
+}
+
+function card(r){
+  const tags = []
+    .concat((r.etapas||[]).map(e=>'<span class="tag f">'+esc(LABEL[e]||e)+'</span>'))
+    .concat(r.tres_em_um?['<span class="tag f">3 em 1</span>']:[])
+    .concat((r.objetivos||[]).map(t=>'<span class="tag">'+esc(t)+'</span>'))
+    .concat((r.anuncio||[]).map(t=>'<span class="tag">Anúncio: '+esc(t)+'</span>'))
+    .concat((r.tags||[]).map(t=>'<span class="tag">'+esc(t)+'</span>')).join('');
+  const slides = (r.slides||[]).length ? '<div class="slides">'+r.slides.map((s,i)=>'<figure><img loading="lazy" src="'+esc(s.img)+'" alt="Slide '+(i+1)+'"><figcaption>'+(i+1)+'. '+esc(s.texto)+'</figcaption></figure>').join('')+'</div>' : '';
+  const reap = (r.reaproveitamento||[]).map(x=>'<li><b>'+esc(x.formato)+':</b> '+esc(x.resumo)+'</li>').join('');
+  const enc = '<table><tr><th>Nicho</th><th>Encaixe</th><th>Gancho adaptado</th><th>Cuidados</th></tr>'+(r.encaixe||[]).map(e=>'<tr><td>'+esc(e.nicho)+'</td><td class="lvl-'+(e.nivel==='alta'?'alta':(e.nivel==='media'?'media':'x'))+'">'+esc(e.nivel)+'</td><td>'+esc(e.gancho)+'</td><td>'+esc(e.cuidados)+'</td></tr>').join('')+'</table>';
+  return '<article class="card"><h2>'+esc(r.id)+' · '+esc(r.formato)+'</h2>'+
+    '<div class="meta">'+esc(r.perfil)+' · '+esc(r.data_post)+' · '+esc(r.metrica)+' · <a href="'+esc(r.link)+'" target="_blank" rel="noopener noreferrer">ver original</a></div>'+
+    '<div><b>Gancho:</b> '+esc(r.gancho)+'</div>'+
+    '<div class="tagrow">'+tags+'</div>'+slides+
+    '<details><summary>Estratégia por trás</summary>'+
+      '<p><b>Estrutura:</b> '+esc(r.estrutura)+'</p>'+
+      '<p><b>Funil:</b> '+esc(r.funil_notas)+'</p>'+
+      '<p><b>CTA:</b> '+esc(r.cta)+'</p>'+
+      '<p><b>Gatilhos:</b> '+esc((r.gatilhos||[]).join(', '))+'</p>'+
+      '<p><b>Moldes:</b></p><ul>'+(r.molde||[]).map(m=>'<li>'+esc(m)+'</li>').join('')+'</ul>'+
+      '<p><b>Facilidade:</b> '+esc(r.facilidade)+'</p>'+
+    '</details>'+
+    '<details><summary>Reaproveitar em outros formatos</summary><ul>'+reap+'</ul></details>'+
+    '<details><summary>Encaixe por nicho</summary>'+enc+'</details>'+
+    '<details><summary>Alertas</summary><ul>'+(r.alertas||[]).map(a=>'<li>'+esc(a)+'</li>').join('')+'</ul></details>'+
+  '</article>';
+}
+
+function renderList(){
+  const f = filtered();
+  document.getElementById('count').textContent = f.length+' de '+DATA.length+' referências';
+  document.getElementById('list').innerHTML = f.length ? f.map(card).join('') : '<div class="empty">Nenhuma referência com esses filtros.</div>';
+}
+
+function refText(r){
+  const L=[];
+  L.push(r.id+' | '+r.perfil+' | '+r.tipo+' | '+r.link);
+  L.push('Gancho: '+r.gancho);
+  L.push('Formato: '+r.formato+'. Estrutura: '+r.estrutura);
+  L.push('Moldes: '+(r.molde||[]).join(' || '));
+  L.push('Gatilhos: '+(r.gatilhos||[]).join(', ')+'. CTA: '+r.cta);
+  L.push('Funil: '+vals(r,'etapas').join(', ')+'. Consciência: '+(r.consciencia||[]).join(', ')+'. Objetivo: '+(r.objetivos||[]).join(', ')+'. Anúncio: '+(r.anuncio||[]).join(', ')+'. '+r.funil_notas);
+  L.push('Reaproveitamento: '+(r.reaproveitamento||[]).map(x=>x.formato+' ('+x.resumo+')').join(' ; '));
+  L.push('Encaixe por nicho: '+(r.encaixe||[]).map(e=>e.nicho+' ['+e.nivel+'] gancho: '+e.gancho+' cuidados: '+e.cuidados).join(' ; '));
+  L.push('Alertas: '+(r.alertas||[]).join(' | '));
+  L.push('Métrica: '+r.metrica+'. Facilidade: '+r.facilidade);
+  return L.join('\n');
+}
+const textOf = list => list.map(refText).join('\n\n---\n\n');
+
+function promptFor(list, niche){
+  const n = niche.trim() || '[descreva o nicho]';
+  return 'Você é estrategista de conteúdo para Instagram.\nAbaixo estão referências validadas da minha agência, já analisadas (gancho, molde, funil, reaproveitamento e encaixe por nicho).\n\nNICHO DO CLIENTE: '+n+'\n\nTAREFA:\n1) Escolha as referências que mais combinam com este nicho e explique por quê.\n2) Separe por etapa: topo, meio, fundo, 3 em 1 e anúncio (dark post e feed impulsionado). Para cada etapa, indique as 3 melhores.\n3) Para cada escolhida, escreva o gancho adaptado, o formato recomendado e um roteiro curto, com outras palavras (não copie a redação original).\n4) Aponte cuidados do nicho (regras da profissão, promessas, direitos de imagem).\n5) Diga o que NÃO serve e por quê.\n\nREFERÊNCIAS:\n\n'+textOf(list);
+}
+
+function copy(text, label){
+  const done = ()=>{ document.getElementById('msg').textContent = label+' copiado. Cole na outra IA.'; };
+  if (navigator.clipboard && window.isSecureContext){ navigator.clipboard.writeText(text).then(done, fallback); } else fallback();
+  function fallback(){ const t=document.createElement('textarea'); t.value=text; document.body.appendChild(t); t.select(); try{document.execCommand('copy'); done();}catch(e){document.getElementById('msg').textContent='Não consegui copiar automaticamente.';} t.remove(); }
+}
+
+document.getElementById('q').addEventListener('input', e=>{ query=e.target.value; renderList(); });
+document.getElementById('clear').onclick=()=>{ GROUPS.forEach(g=>sel[g.k].clear()); query=''; document.getElementById('q').value=''; renderFilters(); renderList(); };
+document.getElementById('copyFiltered').onclick=()=>copy(textOf(filtered()), 'Texto das filtradas');
+document.getElementById('copyAll').onclick=()=>copy(textOf(DATA), 'Texto de todas');
+document.getElementById('copyPrompt').onclick=()=>{ const f=filtered(); copy(promptFor(f.length?f:DATA, document.getElementById('niche').value), 'Prompt'); };
+
+renderFilters(); renderList();
+</script>
+</body>
+</html>

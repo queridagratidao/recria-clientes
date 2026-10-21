@@ -1,0 +1,71 @@
+[
+  {
+    "id": "REF-0001",
+    "link": "https://www.instagram.com/p/DbtzxLpmEv8/",
+    "perfil": "@sagemindx",
+    "tipo": "Carrossel",
+    "formato": "Carrossel de frases (7 slides)",
+    "data_post": "6 de agosto",
+    "metrica": "15,7 mil curtidas",
+    "entrada": "21/10/2026",
+    "etapas": ["topo", "meio", "fundo"],
+    "tres_em_um": true,
+    "consciencia": ["Do desejo", "Da solução"],
+    "objetivos": ["Crescer seguidores", "Engajar", "Gerar lead"],
+    "anuncio": ["Feed impulsionado", "Dark post (versão em vídeo do CTA)"],
+    "tags": ["frase salvável", "paradoxo na capa", "interrupção de swipe", "CTA com palavra-chave", "desafio", "estética mística", "retém até o fim"],
+    "gancho": "O que você busca está te buscando.",
+    "molde": [
+      "Capa: O que você [busca] está te [buscando].",
+      "Interrupção: Se [identidade], arrasta para o lado. ([provocação])",
+      "CTA: Eu te desafio a [ação] por [N dias]. ([resultado]). Comente '[PALAVRA]' e receba [entregável]."
+    ],
+    "gatilhos": ["paradoxo e curiosidade", "identificação e identidade", "desafio", "reciprocidade (plano grátis)", "pertencimento"],
+    "estrutura": "Capa de paradoxo, quatro aforismos (crença, ação, escolha, confiança), slide de interrupção com ordem de arrastar, desafio com palavra-chave.",
+    "cta": "Slide 7: comentar SILÊNCIO para receber o plano. Legenda: seguir o perfil.",
+    "funil_notas": "Capa e aforismos atraem (topo). A sequência de crença, escolha e confiança gera identificação e consciência do desejo (meio). O desafio e a palavra-chave levam à ação (fundo leve, captura de lead).",
+    "slides": [
+      {"img": "img/REF-0001/slide-01.jpg", "texto": "O que você busca está te buscando."},
+      {"img": "img/REF-0001/slide-02.jpg", "texto": "Você é o criador da sua realidade, começe a agir como tal. (erro de grafia no original)"},
+      {"img": "img/REF-0001/slide-03.jpg", "texto": "Ao pedir caminhos abertos, não se esqueça de caminhar."},
+      {"img": "img/REF-0001/slide-04.jpg", "texto": "Tanto a fé quanto o medo exigem que você acredite em algo que não pode ver. A escolha é sua."},
+      {"img": "img/REF-0001/slide-05.jpg", "texto": "Você não precisa de mais certeza. Precisa confiar."},
+      {"img": "img/REF-0001/slide-06.jpg", "texto": "Se pensa grande, arrasta para o lado. (Se não, nem faça isso)"},
+      {"img": "img/REF-0001/slide-07.jpg", "texto": "Eu te desafio a sumir por 45 dias. (E voltar 1 ano à frente) Organize seu corpo, mente e alma. Comente SILÊNCIO e receba o plano completo."}
+    ],
+    "reaproveitamento": [
+      {"formato": "Vídeo curto com gancho (B-roll)", "resumo": "7 a 20 s. Gancho na tela: 'A calma que você procura está esperando você parar.' Mãos no tapete, respiração, chá. Segunda frase na tela com o essencial; legenda com a profundidade e o CTA (PAUSA)."},
+      {"formato": "Carrossel reescrito", "resumo": "7 slides com outro texto: capa 'A calma que você procura está esperando você parar', frases sobre método, pausa e corpo, interrupção 'Se você está pronta para começar pequeno, arrasta para o lado', desafio de 7 dias com palavra PAUSA."},
+      {"formato": "Vídeo falado para gravar", "resumo": "45 a 60 s: gancho falando para a câmera, ideia, história curta, prática guiada de 20 s, CTA."},
+      {"formato": "Vídeo narrado (voz em off)", "resumo": "Cerca de 40 palavras lidas em off sobre B-roll de rotina e natureza, com frase na tela. Bom para quem resiste a aparecer."},
+      {"formato": "Stories", "resumo": "5 quadros: caixinha de pergunta, frase de reenquadramento, enquete (calma, foco ou energia), mini prática, CTA com palavra-chave."},
+      {"formato": "Vídeo longo (YouTube)", "resumo": "8 a 12 min com 5 capítulos (por que buscamos fora, respiração, postura, rotina mínima, escolha e confiança) e 3 a 5 Shorts de corte."},
+      {"formato": "Post de comunidade ou grupo", "resumo": "Texto curto: uma ideia sobre pausa, uma prática de um minuto e a ponte para a aula experimental."},
+      {"formato": "Anúncio (dark post)", "resumo": "Vídeo de 20 a 30 s com o gancho do vídeo curto, botão 'Saiba mais' para a página da aula ou do checklist. Revisar claims."}
+    ],
+    "encaixe": [
+      {"nicho": "Yoga e espiritualidade", "nivel": "alta", "gancho": "A calma que você procura está esperando você parar.", "cuidados": "Sem promessa de resultado."},
+      {"nicho": "Terapias holísticas", "nivel": "media", "gancho": "O cuidado que você procura começa quando você se permite parar.", "cuidados": "Sem promessa de cura; sem religião específica; capacidade da agenda."},
+      {"nicho": "Psicologia", "nivel": "baixa a media", "gancho": "A mudança que você quer começa no que você faz hoje, não no que você espera.", "cuidados": "Não apresentar lei da atração como fato; sem diagnóstico."},
+      {"nicho": "Marketing e negócios", "nivel": "media", "gancho": "O cliente que você quer está esperando uma oferta clara.", "cuidados": "Copy vaga; sem ensinar o como."},
+      {"nicho": "Condomínio e síndicos", "nivel": "baixa", "gancho": "Aproveitar só a interrupção e o CTA de palavra-chave.", "cuidados": "Estética mística não serve; linguagem técnica."},
+      {"nicho": "Biomedicina e estética", "nivel": "baixa", "gancho": "Não usar o tema; aproveitar a estrutura de carrossel de frases com artigo citado.", "cuidados": "Estudante: sem procedimento; fonte obrigatória."},
+      {"nicho": "Nutrição", "nivel": "media", "gancho": "O corpo que você quer está esperando uma rotina possível.", "cuidados": "Sem promessa de emagrecimento."},
+      {"nicho": "Advocacia", "nivel": "baixa", "gancho": "Comente DIREITO e receba o guia (estrutura de desafio com palavra-chave).", "cuidados": "Regras da OAB sobre publicidade."},
+      {"nicho": "Imobiliário", "nivel": "media", "gancho": "A casa que você procura também está te procurando.", "cuidados": "Não prometer valorização nem financiamento."},
+      {"nicho": "Fitness e personal", "nivel": "media", "gancho": "O corpo que você quer está esperando você começar pequeno.", "cuidados": "Sem promessa de resultado físico."},
+      {"nicho": "Finanças pessoais", "nivel": "baixa a media", "gancho": "O dinheiro que você procura está esperando uma rotina, não uma sorte.", "cuidados": "Sem promessa de ganho; sem recomendação de investimento."},
+      {"nicho": "Educação e cursos", "nivel": "media", "gancho": "Desafio de N dias com palavra-chave para receber o plano.", "cuidados": "O entregável prometido precisa existir."},
+      {"nicho": "Moda, gastronomia e e-commerce", "nivel": "baixa", "gancho": "Usar o molde de interrupção e o CTA de desafio com oferta concreta.", "cuidados": "A estética do original não combina."}
+    ],
+    "alertas": [
+      "A arte de fundo parece de terceiros: não usar as mesmas imagens. Usar banco licenciado, arte gerada ou imagens próprias.",
+      "O plano completo prometido no CTA precisa existir e ser entregue pela automação.",
+      "Revisar promessas e linguagem com o revisor de claims antes de adaptar.",
+      "Erro de grafia no slide 2 da referência (comece). Evitar na nossa versão."
+    ],
+    "facilidade": "Média: curadoria de arte e tipografia (Canva), 7 slides, sem gravação.",
+    "clientes": ["yoga-amanda", "refugio-dos-4-elementos", "recria"],
+    "analise_md": "inteligencia-conteudo/analises/REF-0001-sagemindx-carrossel.md"
+  }
+]

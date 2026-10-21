@@ -34,6 +34,8 @@ Siga `inteligencia-conteudo/modelo-referencia.md`: identificacao (ID, link, metr
 3. Versao compacta no `inteligencia-conteudo/banco-consolidado.md`: 6 a 8 linhas por referencia (ID, link, formato, gancho, molde, gatilho, estrutura, CTA, metrica, formatos de reaproveitamento, encaixe por nicho), pensada para a Amanda copiar e colar em outra IA.
 4. Linha em `inteligencia-conteudo/progresso-referencias.md` (ID, perfil, tipo, link, data no grupo, status).
 
+4. **Painel (site interno)**: acrescente a referencia em `inteligencia-conteudo/banco/dados.json` (campos: id, link, perfil, tipo, formato, etapas, tres_em_um, consciencia, objetivos, anuncio, tags, gancho, molde, gatilhos, estrutura, cta, funil_notas, slides, reaproveitamento, encaixe, alertas, facilidade). Recorte os prints (somente a area do conteudo, sem barra lateral de mensagens nem dados pessoais) e salve como JPEG em `banco-consulta-interna-fd4760c6/img/REF-NNNN/slide-NN.jpg` no repositorio do site (`-site-institucional-recria`). Gere a pagina com `python3 inteligencia-conteudo/banco/gerar.py [pasta-do-site]/banco-consulta-interna-fd4760c6/index.html` e confira no navegador. Tags de funil: ver secao 9 do `modelo-referencia.md`.
+
 ## Entrega do lote
 1. Agrupe por molde e formato; destaque padroes repetidos.
 2. TOP 10 por cliente com o gancho ja adaptado ao contexto e as restricoes dele.
