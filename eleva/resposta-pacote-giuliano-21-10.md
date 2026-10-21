@@ -16,11 +16,11 @@ Concordamos com a estratégia de 4 grupos de anúncio em uma única campanha: um
 
 ## 3. Estratégia de Meta Ads
 
-Revisamos os pontos levantados no documento e fazem sentido. Sobre o objetivo da campanha, especificamente:
+Revisamos os pontos levantados no documento e fazem sentido.
 
-### Tráfego ou Cadastro?
+### Objetivo da campanha: Cadastro
 
-O objetivo ideal seria Cadastro, otimizando direto pela conversão — mas hoje isso esbarra em dois problemas, não só no Pixel: mesmo instalando o Pixel, o algoritmo da Meta precisa de cerca de 50 eventos de conversão por semana para sair da fase de aprendizado, e com R$25/dia de verba a gente dificilmente chega nesse volume — a campanha ficaria travada "aprendendo" sem nunca otimizar de verdade. Por isso a recomendação é **começar com objetivo Tráfego**, e assim que o Pixel estiver ativo e o volume de cadastros crescer (principalmente depois que a verba for escalando, ver "Ritmo de investimento" abaixo), reavaliamos a troca para Cadastro.
+A campanha de Meta vai ter objetivo **Cadastro**, otimizada diretamente pela conversão de início do teste grátis (via Pixel). Como o cadastro é gratuito e sem fricção — sem cartão de crédito, sem compromisso — a tendência é uma taxa de conversão de clique para cadastro bem mais alta do que numa campanha de venda, o que ajuda a atingir volume de resultado mais rápido e permite que o algoritmo da Meta otimize com mais precisão desde o início.
 
 ### Instalar o Pixel da Meta no Webflow
 
@@ -41,15 +41,6 @@ Pedimos para o seu Claude, que já está conectado ao Webflow, instalar o Pixel 
 
 Se o Claude dele não conseguir fazer essa instalação, nos avise que fazemos daqui.
 
-### Atribuir a venda ao cadastro de 30 dias atrás
-
-Sim, dá para rastrear: alguém se cadastra hoje e assina só daqui a 30 dias, e ainda assim atribuir essa venda ao canal certo (Google ou Meta) — mas o caminho técnico é um pouco diferente em cada plataforma:
-
-- **No Google**: é mais direto. O Google Ads aceita janela de conversão de até 90 dias, e dá para importar a "conversão offline" (a venda que aconteceu depois) usando o GCLID (o identificador que fica salvo no cadastro). Também conecta nativamente com o Google Analytics (GA4), que já faz esse tipo de atribuição de longo prazo.
-- **Na Meta**: também é possível, mas com mais trabalho — a janela de atribuição padrão do próprio relatório da Meta é curta (7 dias de clique). Para os 30 dias, o caminho é guardar o identificador do clique (FBCLID) no momento do cadastro e, quando a venda acontecer, disparar o evento de compra via Conversions API (API de Conversões, do lado do servidor), vinculado àquele clique original — mas isso não aparece automaticamente no relatório padrão da Meta, é mais um dado pra análise nossa/do time técnico do que um número que a própria plataforma mostra pronto.
-
-Isso é trabalho de desenvolvimento (guardar o GCLID e o FBCLID no cadastro, e disparar o evento de venda depois vinculado a eles) — vale perguntar pro Claude do Giuliano se o portal já guarda esses identificadores no cadastro, porque sem isso não tem como fazer essa atribuição depois.
-
 ### Confirmação da tag do Google
 
 Não temos como verificar diretamente daqui se a tag do Google (GTM) está puxando certinho o evento de cadastro — isso só é possível com a extensão Tag Assistant no navegador, ou com o print "Gravando conversões" que o próprio documento do Giuliano já pede como condição para ativar as campanhas. Pedimos esse print antes de ligar tudo, incluindo o evento de compra, se houver.
@@ -69,10 +60,12 @@ Gostamos muito dos carrosséis, ficaram muito bons. Nossa sugestão: postar um c
 Em vez do Linktree, nossa sugestão é o seu Claude criar uma página própria, no mesmo estilo, direto no domínio da Eleva (por exemplo, elevags.com.br/links). A vantagem: dá para ter um pop-up quando a pessoa clicar em "Síndico", "Fornecedor" ou "Executivo", abrindo os botões certos para cada público — recurso que o Linktree gratuito não tem.
 
 **Como ficaria:**
+- Um texto curto antes do botão principal, tipo "Plataforma de gestão condominial", para chamar o clique — igual o "Nossos cursos e serviços" antes dos botões de persona.
+- Botão **Área Comum - portal do condomínio**.
 - Botão **Síndico** → abre pop-up com: Curso de Formação de Síndico, Curso Avançado (Síndico Profissional), Sessão Estratégica, Diagnóstico, Mentoria.
 - Botão **Fornecedor** → abre pop-up com: Curso para Fornecedor, Sessão Estratégica, Diagnóstico, Mentoria.
 - Botão **Executivo** → abre pop-up com: Sessão Estratégica, Diagnóstico, Mentoria.
-- Os demais itens (Área Comum, Comunidade de Síndicos, Corretora de Seguros, Hub de Negócios, YouTube, Spotify, Blog) ficam como botão único, levando direto para a página certa.
+- Os demais itens, cada um já indicando que é "Eleva", mas com o guarda-chuva certo: **Eleva Comunidade de Síndicos no WhatsApp**, **Eleva - Corretora de Seguros**, **Eleva - Hub de Negócios**, ElevaCast no YouTube, Eleva no Spotify, Blog da Eleva.
 
 Segue um esboço de como ficaria:
 
