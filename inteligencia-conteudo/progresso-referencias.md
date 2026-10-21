@@ -34,4 +34,4 @@ Em todos: o link (para consulta) e, se souber, para qual cliente serve e o que c
 |---|---|
 | REF-0004 | Reenviar o print do slide de meme (@perrengue_chique) como anexo. A analise ja esta salva. |
 
-Imagens ja no painel: REF-0001 (7 slides), REF-0002 (1 quadro), REF-0003 (1 quadro), REF-0005 (6 cards), REF-0006 (1 quadro), REF-0007 (capa e 10 cards).
+Imagens ja no painel: REF-0001 (7 slides), REF-0002 (1 quadro), REF-0003 (1 quadro), REF-0005 (6 cards), REF-0006 (1 quadro), REF-0007 (capa e 10 cards), REF-0008 (1 quadro).
