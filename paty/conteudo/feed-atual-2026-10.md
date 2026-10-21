@@ -1,9 +1,9 @@
-# Leitura do feed atual da Pathy (21/10/2026)
+# Leitura do feed atual da Patty (21/10/2026)
 
 Fonte: PDF da grade do perfil enviado pela Amanda e esclarecimentos dela no mesmo dia. Leitura visual das miniaturas, sem metricas (a grade nao mostra views). Perfil publico.
 
 ## Perfil (como esta hoje)
-- Handle: **@paticompagnoni**; nome exibido: **Patricia Compagnoni**. Antes o perfil usava "Pathy Spolavori"; apos o ajuste de bio que a Amanda pediu, ela decidiu mudar tambem o nome. **Considerar como esta hoje.** Confirmar com a Pathy como prefere ser chamada nas legendas e narracoes (Pathy, Pati ou Patricia).
+- Handle observado: **@paticompagnoni**. Nome de uso nos conteudos: **Patty**, como ela colocou no perfil (decisao da Amanda em 21/10/2026). Antes o perfil usava "Pathy Spolavori"; apos o ajuste de bio ela mudou o nome. Considerar como esta hoje.
 - 65 posts, 1.310 seguidores, 1.503 seguindo.
 - Bio: mae, biomedicina UFCSPA, estetica, autocuidado, lifestyle, "conteudos para te inspirar no seu dia a dia". "Estetica" na bio deve ser lida como area de estudo; nada que sugira oferta de procedimento.
 
@@ -15,8 +15,8 @@ Fonte: PDF da grade do perfil enviado pela Amanda e esclarecimentos dela no mesm
 - Ha fotos com familiares e amigas; quem aparecer precisa autorizar o uso em conteudo da estrategia.
 
 ## Fase atual (ate janeiro) e proxima
-- **Ate janeiro**: a Pathy ainda esta aprendendo e e estudante de profissao regulamentada. O conteudo dela **surfa na onda de quem ja e formado**: citar e marcar profissionais, repostar, leituras e artigos com fonte, jornada de estudante. Sem procedimento, sem antes e depois.
-- **A partir de fevereiro**: a Pathy deve comecar o estagio; havera mais material proprio para trabalhar (sempre com autorizacao da instituicao e consentimento por escrito de quem aparecer).
+- **Ate janeiro**: a Patty ainda esta aprendendo e e estudante de profissao regulamentada. O conteudo dela **surfa na onda de quem ja e formado**: citar e marcar profissionais, repostar, leituras e artigos com fonte, jornada de estudante. Sem procedimento, sem antes e depois.
+- **A partir de fevereiro**: deve comecar o estagio; havera mais material proprio para trabalhar (sempre com autorizacao da instituicao e consentimento por escrito de quem aparecer).
 - Uma familiar que estuda na area de saude tambem pode vir a criar conteudo no futuro; usar so com autorizacao.
 
 ## O que aproveitar

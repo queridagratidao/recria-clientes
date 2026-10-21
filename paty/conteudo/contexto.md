@@ -1,8 +1,8 @@
-# Contexto de conteudo: Pathy (perfil @paticompagnoni)
+# Contexto de conteudo: Patty (perfil @paticompagnoni)
 
-**Nome (atualizado em 21/10/2026):** o perfil hoje mostra "Patricia Compagnoni" (@paticompagnoni). Antes era "Pathy Spolavori"; ela mudou o nome apos o ajuste de bio. Usar o nome como esta no perfil e **confirmar com ela como prefere ser chamada** nas legendas e narracoes (Pathy, Pati ou Patricia). A pasta se chama `paty/` por compatibilidade com as skills.
+**Nome de uso nos conteudos: "Patty"**, como ela colocou no perfil dela (definido pela Amanda em 21/10/2026). Antes o perfil usava "Pathy Spolavori"; apos o ajuste de bio ela mudou o nome. Handle observado: @paticompagnoni (confirmar se mudou). Considerar sempre o perfil como esta hoje. A pasta se chama `paty/` por compatibilidade com as skills.
 
-Fonte: arquivo de contexto do projeto da Pathy (21/10/2026) e conversa com a Amanda (21/10/2026). **Esta e uma versao sem dados sensiveis** (valores, negociacao, dados pessoais e de familia). Se o contexto completo for guardado, deve ir para repositorio **privado**. Se algo mudar, atualizar aqui.
+Fonte: arquivo de contexto do projeto (21/10/2026) e conversa com a Amanda (21/10/2026). **Esta e uma versao sem dados sensiveis** (valores, negociacao, dados pessoais e de familia). Se o contexto completo for guardado, deve ir para repositorio **privado**. Se algo mudar, atualizar aqui.
 
 ## Quem e
 Mulher 40+, estudante de Biomedicina (penultimo ano em 2026; ultimo ano em 2027 com estagio e TCC). Plano: atender em clinica propria de estetica em Porto Alegre em 2028. Rotina que pode virar conteudo: faculdade, estudo de artigos, congressos, academia, skincare, alimentacao, passeios. Familiares so aparecem com autorizacao.
@@ -14,7 +14,7 @@ Frase-assinatura dela: "Cuide-se, invista em si, nunca e tarde pra alcancar seus
 ## Fase atual
 - **Ate janeiro**: ela esta aprendendo e e estudante. O conteudo **surfa na onda de quem ja e formado** (citar e marcar profissionais, repost, leituras e artigos com fonte, jornada da estudante). Sem procedimento.
 - **Fevereiro em diante**: provavel inicio do estagio e mais material proprio.
-- Feed hoje: os dois ultimos posts foram feitos pela agencia (carrossel do congresso e video com frase); ha mais um carrossel e mais um video em andamento; o restante sao fotos pessoais. Ver `feed-atual-2026-10.md`.
+- Feed hoje: os dois ultimos posts foram feitos pela agencia (carrossel do congresso e video com frase); ha mais um carrossel (a Amanda esta ajustando no Canva) e mais um video em andamento; o restante sao fotos pessoais. Ver `feed-atual-2026-10.md`.
 
 ## Pilares
 | Pilar | O que entra |
@@ -42,7 +42,7 @@ Social media basico com **1 conteudo por semana** (4 por mes), recem ativado (ou
 
 ## Formatos por mes (decisao da Amanda em 21/10/2026)
 - **Novembro/2026: intercalar carrossel e video** (carrossel, video, carrossel, video).
-- **Dezembro/2026**: entra a Pathy **falando para a camera**.
+- **Dezembro/2026**: entra a Patty **falando para a camera**.
 - Videos de novembro: **narrado** (roteiro da agencia, voz dela em off sobre imagens) ou **B-roll** dela na rotina com gancho escrito na tela e legenda com a profundidade.
 
 **Como fazer cada formato**
@@ -58,7 +58,7 @@ Social media basico com **1 conteudo por semana** (4 por mes), recem ativado (ou
 Ver `calendario-2026-11.md` (rascunho macro). Ja ha um carrossel e um video em desenvolvimento: confirmar a quais itens correspondem.
 
 ## Banco de ideias (a aprovar com ela)
-- "Prazer": trajetoria, por que biomedicina depois dos 40, convite a quem se identifica.
+- "Prazer, Patty": trajetoria, por que biomedicina depois dos 40, convite a quem se identifica.
 - O que o congresso me ensinou.
 - Profissionais e conteudos que consumo e indico de graca (artigos, TED, podcasts, perfis).
 - Canetas emagrecedoras e firmeza da pele (informativo, com artigo).
@@ -72,13 +72,13 @@ Ver `calendario-2026-11.md` (rascunho macro). Ja ha um carrossel e um video em d
 - Empoderamento: recomecos depois dos 40 e conquistas da semana.
 
 ## Identidade visual
-Elegante, profissional e proxima; tons nude e terrosos. Tipografia: uma fonte de leitura facil com outra mais refinada; ja usado Fraunces (com italico); ela gostou de uma fonte estilo assinatura. Feed 4:5; stories e reels 9:16. O MIV completo ainda nao foi desenvolvido.
+Elegante, profissional e proxima; tons nude e terrosos. Tipografia: uma fonte de leitura facil com outra mais refinada; ja usado Fraunces (com italico); ela gostou de uma fonte estilo assinatura. Feed 4:5; stories e reels 9:16. O MIV completo ainda nao foi desenvolvido. O carrossel em andamento esta sendo ajustado pela Amanda no Canva (guardar a arte e o texto quando for enviado).
 
 ## Producao e CTAs
 Quem resiste a aparecer em video: usar a `estrategista-gravacao` com a escada de exposicao (B-roll, voz em off, rosto sem fala, depois fala em dezembro). Ainda **sem automacao** (sem Youze). CTAs: seguir, salvar, comentar, compartilhar. Ainda sem produto: nada de oferta de procedimento.
 
 ## Pendencias
-- Confirmar nome de uso nas legendas e narracoes (Pathy, Pati ou Patricia).
-- Valores, negociacao e dados pessoais da Pathy nao estao aqui de proposito: o `recria-clientes` pode estar publico. Se for tornado privado, o contexto completo pode ser salvo.
+- Valores, negociacao e dados pessoais da Patty nao estao aqui de proposito: o `recria-clientes` pode estar publico. Se for tornado privado, o contexto completo pode ser salvo.
 - 4a entrega do servico pontual do congresso (a confirmar).
+- Registrar o carrossel que a Amanda esta ajustando no Canva quando ela enviar.
 - MIV, tom de voz formal e concorrentes.
