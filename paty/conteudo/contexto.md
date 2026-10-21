@@ -1,6 +1,6 @@
-# Contexto de conteudo: Patty (perfil @paticompagnoni)
+# Contexto de conteudo: Pati (perfil @paticompagnoni)
 
-**Nome de uso nos conteudos: "Patty"**, como ela colocou no perfil dela (definido pela Amanda em 21/10/2026). Antes o perfil usava "Pathy Spolavori"; apos o ajuste de bio ela mudou o nome. Handle observado: @paticompagnoni (confirmar se mudou). Considerar sempre o perfil como esta hoje. A pasta se chama `paty/` por compatibilidade com as skills.
+**Nome de uso nos conteudos: "Pati"**, conforme o arroba do perfil (@paticompagnoni) e o nome que ela colocou (definido pela Amanda em 21/10/2026). Antes o perfil usava "Pathy Spolavori"; apos o ajuste de bio ela mudou o nome. Considerar sempre o perfil como esta hoje. A pasta se chama `paty/` por compatibilidade com as skills.
 
 Fonte: arquivo de contexto do projeto (21/10/2026) e conversa com a Amanda (21/10/2026). **Esta e uma versao sem dados sensiveis** (valores, negociacao, dados pessoais e de familia). Se o contexto completo for guardado, deve ir para repositorio **privado**. Se algo mudar, atualizar aqui.
 
@@ -42,7 +42,7 @@ Social media basico com **1 conteudo por semana** (4 por mes), recem ativado (ou
 
 ## Formatos por mes (decisao da Amanda em 21/10/2026)
 - **Novembro/2026: intercalar carrossel e video** (carrossel, video, carrossel, video).
-- **Dezembro/2026**: entra a Patty **falando para a camera**.
+- **Dezembro/2026**: entra a Pati **falando para a camera**.
 - Videos de novembro: **narrado** (roteiro da agencia, voz dela em off sobre imagens) ou **B-roll** dela na rotina com gancho escrito na tela e legenda com a profundidade.
 
 **Como fazer cada formato**
@@ -58,7 +58,7 @@ Social media basico com **1 conteudo por semana** (4 por mes), recem ativado (ou
 Ver `calendario-2026-11.md` (rascunho macro). Ja ha um carrossel e um video em desenvolvimento: confirmar a quais itens correspondem.
 
 ## Banco de ideias (a aprovar com ela)
-- "Prazer, Patty": trajetoria, por que biomedicina depois dos 40, convite a quem se identifica.
+- "Prazer, Pati": trajetoria, por que biomedicina depois dos 40, convite a quem se identifica.
 - O que o congresso me ensinou.
 - Profissionais e conteudos que consumo e indico de graca (artigos, TED, podcasts, perfis).
 - Canetas emagrecedoras e firmeza da pele (informativo, com artigo).
@@ -78,7 +78,7 @@ Elegante, profissional e proxima; tons nude e terrosos. Tipografia: uma fonte de
 Quem resiste a aparecer em video: usar a `estrategista-gravacao` com a escada de exposicao (B-roll, voz em off, rosto sem fala, depois fala em dezembro). Ainda **sem automacao** (sem Youze). CTAs: seguir, salvar, comentar, compartilhar. Ainda sem produto: nada de oferta de procedimento.
 
 ## Pendencias
-- Valores, negociacao e dados pessoais da Patty nao estao aqui de proposito: o `recria-clientes` pode estar publico. Se for tornado privado, o contexto completo pode ser salvo.
+- Valores, negociacao e dados pessoais da Pati nao estao aqui de proposito: o `recria-clientes` pode estar publico. Se for tornado privado, o contexto completo pode ser salvo.
 - 4a entrega do servico pontual do congresso (a confirmar).
 - Registrar o carrossel que a Amanda esta ajustando no Canva quando ela enviar.
 - MIV, tom de voz formal e concorrentes.
