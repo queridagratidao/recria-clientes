@@ -4,7 +4,7 @@
 
 ## O que se sabe (conversa com a Amanda)
 - Estudante de biomedicina, 40+, formatura prevista para o fim do proximo ano; planeja clinica de harmonizacao facial e estetica.
-- Fase atual: construir posicionamento e publico antes de estagiar e atender.
+- Fase atual: construir posicionamento e publico antes de estagiar e atender. **Esta comecando: ainda nao tem automacao** (sem Youze, sem fluxo de palavra-chave).
 - Linha de conteudo: conhecimento de biomedicina com base em artigos e referencias de profissionais, estilo de vida, mulher madura (40+), vida de estudante aos 40+.
 - Nao gosta de aparecer em video.
 - Plano: 4 posts por mes, sendo 2 carrosseis e 2 videos. Novembro: videos narrados (voz em off). Dezembro: comeca a aparecer falando.
@@ -14,7 +14,10 @@
 Promessa de resultado estetico; dado sem fonte; conteudo de saude sem referencia citada; qualquer pratica de procedimento fora do que a formacao permite; regras de publicidade em saude (conferir o conselho profissional).
 
 ## CTAs adequados
-Seguir; salvar; lista de interessadas. Ainda sem produto.
+Seguir; salvar; compartilhar. Sem palavra-chave por enquanto. Ainda sem produto.
+
+## Producao
+Usar a `claquete-rotina-gravacao` com escada de exposicao nos degraus 1 e 2 (B-roll e voz em off) ate ela se sentir confortavel.
 
 ## Pendencias
-Caminho dos arquivos da Paty; tom de voz; paleta e identidade; concorrentes; nome do perfil.
+Caminho dos arquivos da Paty; tom de voz; paleta e identidade; concorrentes; nome do perfil; definir quando comecar a automacao.
