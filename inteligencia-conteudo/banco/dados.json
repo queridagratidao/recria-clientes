@@ -570,5 +570,182 @@
       "refugio-dos-4-elementos"
     ],
     "analise_md": "inteligencia-conteudo/analises/REF-0003-saambedoyan-b-roll.md"
+  },
+  {
+    "id": "REF-0004",
+    "link": "https://www.instagram.com/p/Dcj9mNpnVzP/",
+    "perfil": "@perrengue_chique",
+    "tipo": "Carrossel",
+    "formato": "Carrossel de memes (compilação, mais de 2 slides)",
+    "data_post": "27 de agosto",
+    "metrica": "cerca de 75,8 mil curtidas; comentário de destaque com 92 curtidas",
+    "entrada": "21/10/2026",
+    "etapas": [
+      "topo"
+    ],
+    "tres_em_um": false,
+    "consciencia": [
+      "Inconsciente"
+    ],
+    "objetivos": [
+      "Crescer seguidores",
+      "Engajar"
+    ],
+    "anuncio": [
+      "Feed impulsionado (com imagens próprias)"
+    ],
+    "tags": [
+      "meme",
+      "humor",
+      "identificação cotidiana",
+      "compartilhável",
+      "sátira de anúncio e remarketing",
+      "formato de reação",
+      "carrossel de compilação"
+    ],
+    "gancho": "Tô pensando em comprar um... Os apps:",
+    "molde": [
+      "Eu: [pensamento banal]. [Entidades]: [reação exagerada].",
+      "Tô [pensando em / procurando] [X]... Os [apps / vizinhos / clientes]: [reação].",
+      "Legenda mínima ou de apoio: \"Compilação de memes\" (a graça está na imagem)."
+    ],
+    "gatilhos": [
+      "humor",
+      "identificação com uma situação comum (anúncio que persegue)",
+      "compartilhamento (marcar amigos)",
+      "surpresa e exagero",
+      "familiaridade de formato (meme conhecido)"
+    ],
+    "estrutura": "Slide 1: frase de setup em texto simples ('tô pensando em comprar um...' e 'os apps:') sobre uma imagem de reação com logos dos apps sobre os personagens; slides seguintes: outros memes da compilação.",
+    "cta": "Sem CTA. O alcance vem de compartilhamento e comentários de identificação (marcar, concordar, rir).",
+    "funil_notas": "Topo puro: humor reconhecível atrai gente nova e gera compartilhamento. Para um negócio, só vira meio/fundo se tiver uma ponte (ver reaproveitamento).",
+    "slides": [],
+    "reaproveitamento": [
+      {
+        "formato": "Carrossel de meme com ponte (3 a 5 slides)",
+        "resumo": "Slides 1 e 2 piada de identificação (ex.: pensou em comprar e o anúncio já apareceu); slide 3 'e é assim que funciona o remarketing'; slide 4 como usar a favor do seu negócio; slide 5 CTA com palavra-chave (ex.: REMARKETING) para receber um checklist."
+      },
+      {
+        "formato": "Vídeo B-roll curto com gancho",
+        "resumo": "Cenas de uma pessoa olhando o celular, frase na tela no formato 'Eu: só pensei em X. O feed:' e a explicação na legenda."
+      },
+      {
+        "formato": "Vídeo falado curto (30 a 45 s)",
+        "resumo": "Gancho: 'você mal pensou em comprar e o anúncio já sabe'; explica o remarketing em linguagem simples e como o negócio pode usar."
+      },
+      {
+        "formato": "Vídeo narrado (voz em off)",
+        "resumo": "Texto de uns 50 palavras em off sobre imagens de celular e feed; humor leve; final com a ponte."
+      },
+      {
+        "formato": "Stories",
+        "resumo": "Enquete 'já te perseguiu um anúncio?', caixinha de relatos e resposta com o conceito."
+      },
+      {
+        "formato": "Vídeo longo (YouTube)",
+        "resumo": "8 a 10 min explicando remarketing de forma divertida: como acontece, mitos sobre 'o celular escuta', como montar o seu."
+      },
+      {
+        "formato": "Anúncio (feed impulsionado)",
+        "resumo": "Meme com ilustração própria e ponte para o conteúdo; evitar prints de séries e usar logos com cuidado. Revisar claims."
+      },
+      {
+        "formato": "Comunidade ou grupo",
+        "resumo": "Meme do dia no grupo para gerar conversa, com uma pergunta e o conteúdo aprofundado em seguida."
+      }
+    ],
+    "encaixe": [
+      {
+        "nicho": "Marketing e negócios",
+        "nivel": "alta",
+        "gancho": "Você mal pensou em trocar de celular e o anúncio já sabe a cor que você quer. Seu negócio também pode fazer isso.",
+        "cuidados": "Ilustração própria; sem prints de séries; ponte clara para a oferta."
+      },
+      {
+        "nicho": "E-commerce",
+        "nivel": "alta",
+        "gancho": "O carrinho abandonado: 'eu só olhei'. O anúncio: 'a gente se vê de novo'.",
+        "cuidados": "Sem promessa de venda."
+      },
+      {
+        "nicho": "Imobiliário",
+        "nivel": "media",
+        "gancho": "Pesquisou um apartamento uma vez e o feed virou vitrine de imóveis.",
+        "cuidados": "Sem prometer preço ou financiamento."
+      },
+      {
+        "nicho": "Educação e cursos",
+        "nivel": "media",
+        "gancho": "Pensou em estudar inglês e o feed já te matriculou.",
+        "cuidados": "Sem promessa de resultado."
+      },
+      {
+        "nicho": "Finanças pessoais",
+        "nivel": "media",
+        "gancho": "Pensou em investir e o feed já virou consultoria.",
+        "cuidados": "Sem recomendação de investimento."
+      },
+      {
+        "nicho": "Fitness e personal",
+        "nivel": "media",
+        "gancho": "Falou em começar a treinar e o feed já te mostra a academia.",
+        "cuidados": "Sem promessa de resultado físico."
+      },
+      {
+        "nicho": "Nutrição",
+        "nivel": "media",
+        "gancho": "Pensou em dieta e o feed já virou geladeira de receita.",
+        "cuidados": "Sem promessa de emagrecimento."
+      },
+      {
+        "nicho": "Condomínio e síndicos",
+        "nivel": "media",
+        "gancho": "Síndico reclama de uma obra e o feed mostra fornecedor de tudo.",
+        "cuidados": "Humor leve, sem constranger moradores."
+      },
+      {
+        "nicho": "Yoga e espiritualidade",
+        "nivel": "baixa a media",
+        "gancho": "Falei em respirar mais e o feed já me deu um tapete de yoga.",
+        "cuidados": "Humor leve, sem banalizar saúde."
+      },
+      {
+        "nicho": "Psicologia",
+        "nivel": "baixa",
+        "gancho": "Humor sobre rotina, evitando ironia com sofrimento.",
+        "cuidados": "Cuidado com saúde mental; sem diagnóstico."
+      },
+      {
+        "nicho": "Terapias holísticas",
+        "nivel": "baixa",
+        "gancho": "Usar só como conteúdo de identificação sobre autocuidado.",
+        "cuidados": "Sem promessa de cura."
+      },
+      {
+        "nicho": "Biomedicina e estética",
+        "nivel": "baixa",
+        "gancho": "Humor sobre vida de estudante, sem procedimento.",
+        "cuidados": "Estudante: sem oferta de procedimento."
+      },
+      {
+        "nicho": "Advocacia, moda e gastronomia",
+        "nivel": "baixa a media",
+        "gancho": "Humor cotidiano com ponte para o serviço.",
+        "cuidados": "Regras da OAB para advocacia; sem promessas."
+      }
+    ],
+    "alertas": [
+      "Foi enviado só o slide 1: os demais memes da compilação não foram vistos (um comentário cita uma 'segunda imagem').",
+      "A imagem usa um quadro de série de TV (direitos autorais). Para uso nosso, criar imagem própria ou ilustração; evitar prints de séries em anúncio.",
+      "Perfis de memes têm alcance estrutural alto: não usar os números como meta para B2B. O que transfere é o formato.",
+      "Os logos de apps aparecem sobre os personagens: cuidado de marca em uso comercial.",
+      "O print não foi salvo como arquivo; reenviar como anexo se quiser guardar a imagem."
+    ],
+    "facilidade": "Média: a ideia é simples, mas exige arte própria (ilustração ou fotos) e bom timing de humor.",
+    "clientes": [
+      "recria",
+      "strategia-sindicos"
+    ],
+    "analise_md": "inteligencia-conteudo/analises/REF-0004-perrengue-chique-memes.md"
   }
 ]
