@@ -1,15 +1,20 @@
-# Contexto de conteudo: Pathy Spolavori
+# Contexto de conteudo: Pathy (perfil @paticompagnoni)
 
-**Regra de nome: sempre escrever "Pathy"** (com TH; ela mudou o nome recentemente). Nunca "Pati", "Paty" ou "Patricia" nos conteudos. A pasta se chama `paty/` por compatibilidade com as skills.
+**Nome (atualizado em 21/10/2026):** o perfil hoje mostra "Patricia Compagnoni" (@paticompagnoni). Antes era "Pathy Spolavori"; ela mudou o nome apos o ajuste de bio. Usar o nome como esta no perfil e **confirmar com ela como prefere ser chamada** nas legendas e narracoes (Pathy, Pati ou Patricia). A pasta se chama `paty/` por compatibilidade com as skills.
 
-Fonte: arquivo de contexto do projeto da Pathy (21/10/2026) e conversa com a Amanda (21/10/2026). **Esta e uma versao sem dados sensiveis** (valores, negociacao, dados pessoais e de familia). O contexto completo deve ficar no repositorio **privado** `pathy-spolavori`, que a Amanda vai criar (o acesso de criacao de repositorio nao estava liberado para a Claude em 21/10/2026). Se algo mudar, atualizar aqui.
+Fonte: arquivo de contexto do projeto da Pathy (21/10/2026) e conversa com a Amanda (21/10/2026). **Esta e uma versao sem dados sensiveis** (valores, negociacao, dados pessoais e de familia). Se o contexto completo for guardado, deve ir para repositorio **privado**. Se algo mudar, atualizar aqui.
 
 ## Quem e
-Mulher 40+, estudante de Biomedicina (penultimo ano em 2026; ultimo ano em 2027 com estagio e TCC). Plano: atender em clinica propria de estetica em Porto Alegre em 2028. Rotina que pode virar conteudo: faculdade, estudo de artigos, congressos, academia, skincare, alimentacao, passeios. Familia so aparece com autorizacao de quem aparecer.
+Mulher 40+, estudante de Biomedicina (penultimo ano em 2026; ultimo ano em 2027 com estagio e TCC). Plano: atender em clinica propria de estetica em Porto Alegre em 2028. Rotina que pode virar conteudo: faculdade, estudo de artigos, congressos, academia, skincare, alimentacao, passeios. Familiares so aparecem com autorizacao.
 
 ## Objetivo e posicionamento
 Construir audiencia organica qualificada desde set/2026 para chegar em 2028 com base que conhece e confia nela. Posicionamento: mulher 40+ que mostra na pratica que pode fazer o que quiser, na hora que quiser e na idade que tiver; ciencia e estetica com autocuidado, autoconhecimento, vida ativa e a jornada real de estudante que se torna profissional. Publico: mulheres 40+.
 Frase-assinatura dela: "Cuide-se, invista em si, nunca e tarde pra alcancar seus sonhos."
+
+## Fase atual
+- **Ate janeiro**: ela esta aprendendo e e estudante. O conteudo **surfa na onda de quem ja e formado** (citar e marcar profissionais, repost, leituras e artigos com fonte, jornada da estudante). Sem procedimento.
+- **Fevereiro em diante**: provavel inicio do estagio e mais material proprio.
+- Feed hoje: os dois ultimos posts foram feitos pela agencia (carrossel do congresso e video com frase); ha mais um carrossel e mais um video em andamento; o restante sao fotos pessoais. Ver `feed-atual-2026-10.md`.
 
 ## Pilares
 | Pilar | O que entra |
@@ -31,12 +36,12 @@ Mix: tecnico (artigos), inspiracao 40+, lifestyle, identificacao. Nao concentrar
 - Estrategia util: citar e marcar profissionais de referencia que ela acompanha para gerar repost ("surfar na autoridade de terceiros").
 
 ## Plano atual
-Social media basico com **1 conteudo por semana** (4 por mes), fechado em out/2026. Repost do feed nos stories e direcionais para a Pathy postar os proprios stories (a agencia nao faz stories diarios neste plano). Acompanhamento de comentarios e mensagens ate 3 vezes por semana; 1 reuniao por mes; edicao de material bruto enviado por ela inclusa.
+Social media basico com **1 conteudo por semana** (4 por mes), recem ativado (out/2026). Repost do feed nos stories e direcionais para ela postar os proprios stories (a agencia nao faz stories diarios neste plano). Acompanhamento de comentarios e mensagens ate 3 vezes por semana; 1 reuniao por mes; edicao de material bruto enviado por ela inclusa.
 
-**Fluxo:** 1) macro: calendario do mes (tema e formato por semana); 2) aprovacao da Pathy; 3) micro: roteiros, textos na tela, legendas e direcionais de stories; 4) narracao: a agencia escreve o roteiro e a Pathy grava o audio; 5) edicao, aprovacao e programacao.
+**Fluxo:** 1) macro: calendario do mes (tema e formato por semana); 2) aprovacao; 3) micro: roteiros, textos na tela, legendas e direcionais de stories; 4) narracao: a agencia escreve o roteiro e ela grava o audio; 5) edicao, aprovacao e programacao.
 
 ## Formatos por mes (decisao da Amanda em 21/10/2026)
-- **Novembro/2026: intercalar carrossel e video** (carrossel, video, carrossel, video). Isso substitui o "novembro so video" do arquivo anterior.
+- **Novembro/2026: intercalar carrossel e video** (carrossel, video, carrossel, video).
 - **Dezembro/2026**: entra a Pathy **falando para a camera**.
 - Videos de novembro: **narrado** (roteiro da agencia, voz dela em off sobre imagens) ou **B-roll** dela na rotina com gancho escrito na tela e legenda com a profundidade.
 
@@ -50,10 +55,10 @@ Social media basico com **1 conteudo por semana** (4 por mes), fechado em out/20
 2. Carrossel **aspiracional para mulheres maduras**.
 3. Video com **gancho dela caminhando e estudando** (B-roll).
 4. Video **narrado** (tema a definir).
-Ver `calendario-2026-11.md` (rascunho macro).
+Ver `calendario-2026-11.md` (rascunho macro). Ja ha um carrossel e um video em desenvolvimento: confirmar a quais itens correspondem.
 
-## Banco de ideias (a aprovar com a Pathy)
-- "Prazer, Pathy": trajetoria, por que biomedicina depois dos 40, convite a quem se identifica.
+## Banco de ideias (a aprovar com ela)
+- "Prazer": trajetoria, por que biomedicina depois dos 40, convite a quem se identifica.
 - O que o congresso me ensinou.
 - Profissionais e conteudos que consumo e indico de graca (artigos, TED, podcasts, perfis).
 - Canetas emagrecedoras e firmeza da pele (informativo, com artigo).
@@ -73,8 +78,7 @@ Elegante, profissional e proxima; tons nude e terrosos. Tipografia: uma fonte de
 Quem resiste a aparecer em video: usar a `estrategista-gravacao` com a escada de exposicao (B-roll, voz em off, rosto sem fala, depois fala em dezembro). Ainda **sem automacao** (sem Youze). CTAs: seguir, salvar, comentar, compartilhar. Ainda sem produto: nada de oferta de procedimento.
 
 ## Pendencias
-- Criar o repositorio privado `pathy-spolavori` e colocar o contexto completo dele (valores, negociacao e dados pessoais nao devem ficar em repositorio publico).
-- Feed atual da Pathy (a Amanda vai enviar) para ver estilo e referencias.
+- Confirmar nome de uso nas legendas e narracoes (Pathy, Pati ou Patricia).
+- Valores, negociacao e dados pessoais da Pathy nao estao aqui de proposito: o `recria-clientes` pode estar publico. Se for tornado privado, o contexto completo pode ser salvo.
 - 4a entrega do servico pontual do congresso (a confirmar).
-- Padronizar o nome "Pathy" nos demais arquivos (alguns ainda dizem "Paty").
 - MIV, tom de voz formal e concorrentes.
