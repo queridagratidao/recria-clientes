@@ -1,6 +1,6 @@
 ---
 name: planner-clicavel
-description: Gera o material de aprovacao do cliente em duas formas. (1) Modo Calendario: planner HTML interativo com semana em 7 colunas e cartoes que expandem. (2) Modo Feed: simulacao em HTML de como o perfil vai ficar no Instagram (grade do feed, carrossel que passa para o lado, reel que toca, stories), com o material pronto e, onde ainda nao ha arte, uma simulacao com texto e sugestao de design, para o cliente aprovar vendo como vai ficar. Versao interna e versao cliente. Use depois que o calendario estiver pronto.
+description: Gera o material de aprovacao do cliente em duas formas. (1) Modo Calendario: planner HTML interativo com semana em 7 colunas e cartoes que expandem. (2) Modo Feed: simulacao em HTML de como o perfil vai ficar no Instagram (grade do feed, carrossel que passa para o lado, reel que toca, stories, anuncios com botao que leva ao destino), com o material pronto e, onde ainda nao ha arte, uma simulacao com texto e sugestao de design, para o cliente aprovar vendo como vai ficar. Versao interna e versao cliente. Use depois que o calendario estiver pronto.
 ---
 
 # Planner clicavel (calendario e feed simulado)
@@ -28,7 +28,10 @@ Um arquivo HTML unico por mes e por versao, em `[pasta]/conteudo/feed-AAAA-MM-cl
 3. **Carrossel**: passa para o lado (setas e deslizar), indicador de slides, texto de cada slide.
 4. **Reel ou video**: toca se o arquivo estiver na pasta; se nao houver video, mostra a simulacao (quadro 9:16 com gancho da capa, roteiro e tempo).
 5. **Stories**: sequencia em 9:16 com barra de progresso e avanco por toque; stickers como espaco reservado (enquete, link, caixinha).
-6. **Anuncios (dark post)**: tela separada, marcada "anuncio", com botao (ex.: Saiba mais) e posicionamento.
+6. **Anuncios (dark post)**: tela separada, marcada "anuncio", com o botao do anuncio (ex.: Saiba mais) e o posicionamento.
+
+### Botao do anuncio e links (CTA)
+O botao (Saiba mais, Fale conosco, Enviar mensagem) e um link real e **configuravel por item**: site, LP ou `https://wa.me/55DDDNUMERO?text=...` (WhatsApp com mensagem pronta). Abre em nova aba, para o cliente testar o destino. Cada botao mostra um aviso curto "destino de teste" e fica registrado no bloco de dados do arquivo. Para stickers de link nos stories vale a mesma regra. Se o destino ainda nao existir, o botao mostra "destino a definir" e nao leva a lugar nenhum.
 
 ### Material pronto x simulacao
 Cada item tem uma etiqueta clara:
@@ -44,8 +47,8 @@ Cada item tem uma etiqueta clara:
 - Arquivo unico com CSS e JS embutidos; imagens e videos referenciados por caminho relativo ou embutidos quando pequenos. Sem dependencias externas.
 - Nao use o logotipo nem a marca do Instagram. Use icones genericos e deixe visivel o aviso **"Simulacao para aprovacao, nao e a publicacao real"**.
 - Paleta, tipografia e tom do cliente (contexto + identidade). Placeholders usam as cores da marca, nunca cinza generico.
-- Respeite as regras do cliente (Eleva sem travessao; Strategia em 1a pessoa do plural; sem prova social inventada).
-- Dados do planner (lista de itens com id, tipo, data, legenda, slides, caminho do video, status) em um bloco JSON no inicio do arquivo, para facilitar atualizacoes.
+- Respeite as regras do cliente (Eleva sem travessao; Strategia em 1a pessoa do plural; sem prova social inventada; Pathy sem oferta de procedimento).
+- Dados do planner (lista de itens com id, tipo, data, legenda, slides, caminho do video, destino do botao, status) em um bloco JSON no inicio do arquivo, para facilitar atualizacoes.
 - Versao **cliente**: sem molde, hipotese de teste nem notas internas. Versao **interna**: com essas notas e filtros.
 
 ## PDF
