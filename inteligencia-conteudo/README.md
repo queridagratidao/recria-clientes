@@ -9,14 +9,15 @@ Diga o nome da skill (ou so "agencia") e o cliente. Exemplos:
 - "Agencia, qual o proximo passo da Camila?" / "Agencia, mes completo da Strategia, novembro"
 - "Use o pesquisador-ganchos nestas referencias: [links ou prints]"
 - "Use o estrategista-conteudo-cliente para a Camila, novembro"
-- "Use a claquete-rotina-gravacao para a Camila; a agenda dela e: [texto ou print]"
+- "Use o estrategista-gravacao para a Camila; a agenda dela e: [texto ou print]"
 - "Use o planner-clicavel para a Camila, novembro"
 - "Use o revisor-claims-cliente no calendario do Refugio"
 - "Use o analista-resultados no Insights de outubro da Strategia"
 - "Use o plano-gravacao-lote para yoga e Amanda Recria, novembro"
 - "Use o gestor-trafego-cliente, o automacao-youze-cliente ou o comercial-sdr-cliente para [cliente]"
-- "Use o relatorio-mensal-cliente para [cliente], outubro"
-- "Use o proposta-comercial-cliente para [prospecto]"
+- "Use o relatorio-mensal-cliente ou o customer-success-cliente para [cliente], outubro"
+- "Use o outbound-valor para montar a lista e as mensagens desta semana"
+- "Use o proposta-comercial-cliente ou o contrato-cliente para [prospecto]"
 
 Cada skill pergunta o cliente, le a pasta dele e faz uma prova de leitura (resumo de 5 linhas) antes de produzir. A personalizacao vem dos arquivos do cliente, nao da memoria da conversa.
 
@@ -32,13 +33,14 @@ Cada skill pergunta o cliente, le a pasta dele e faz uma prova de leitura (resum
 | Amanda yoga | `yoga-amanda/` |
 | Paty | `paty/` |
 
-Em cada uma: `conteudo/contexto.md` (fonte unica do cliente), `conteudo/decisoes.md` (aprendizados e recusas), `conteudo/calendario-AAAA-MM.md`, `conteudo/rotina-gravacao-AAAA-MM.md`, `conteudo/planner-AAAA-MM-*.html`, `conteudo/resultados/AAAA-MM.md`.
+Em cada uma: `conteudo/contexto.md` (fonte unica do cliente), `conteudo/decisoes.md` (aprendizados e recusas), `conteudo/calendario-AAAA-MM.md`, `conteudo/rotina-gravacao-AAAA-MM.md`, `conteudo/planner-AAAA-MM-*.html`, `conteudo/resultados/AAAA-MM.md`, `cs/AAAA-MM.md`.
 
 ## Arquivos compartilhados
 
 - `recria/conteudo/moldes-de-gancho-e-formatos.md`: formatos, moldes, banco de ganchos por perfil, restricoes por cliente, plano de teste, dados de referencia.
 - `inteligencia-conteudo/banco-de-ideias.csv`: referencias classificadas.
 - `inteligencia-conteudo/tendencias/AAAA-MM.md`: relatorio mensal do pesquisador.
+- `contratos/modelo-prestacao-servicos.md`: modelo-base de contrato.
 
 ## Aprovacao
 
