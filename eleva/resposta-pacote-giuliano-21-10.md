@@ -43,7 +43,9 @@ Se o Claude dele não conseguir fazer essa instalação, nos avise que fazemos d
 
 ### Confirmação da tag do Google
 
-Não temos como verificar diretamente daqui se a tag do Google (GTM) está puxando certinho o evento de cadastro — isso só é possível com a extensão Tag Assistant no navegador, ou com o print "Gravando conversões" que o próprio documento do Giuliano já pede como condição para ativar as campanhas. Pedimos esse print antes de ligar tudo, incluindo o evento de compra, se houver.
+Pelo print do Tag Assistant, identificamos as tags: o container do Google Tag Manager (GTM-WX4W4NBX), a tag do Google Analytics 4 (G-PZ63FC1V16), e duas tags de conversão do Google Ads — AW-00000 e AW-16893682885. A AW-00000 tem cara de ID de teste/placeholder (não é um número real de conta do Google Ads); a que parece ser a tag de conversão de verdade é a AW-16893682885.
+
+O Tag Assistant confirma que as tags disparam, mas não confirma se o evento de cadastro está configurado com o valor certo — isso só aparece dentro do próprio Google Ads, em Conversões, como "Gravando conversões recentemente". Pedimos esse print de lá antes de ligar tudo, incluindo o evento de compra, se houver.
 
 ### Ritmo de investimento
 
