@@ -262,7 +262,12 @@
     "estrutura": "Gancho em texto na tela e falado; credencial por vulnerabilidade; promessa de explicar; problema (querer tudo para ontem e viver de resultados pequenos); extensão da analogia para dinheiro e corpo; exemplo pessoal de constância (aportes pequenos e regulares); virada: além do resultado, construir a identidade que o sustenta; CTA: comentar para receber o vídeo sobre identidade; o fim volta à primeira frase (reprodução em loop).",
     "cta": "Comentar para pedir o próximo vídeo (como sustentar a identidade). Nos comentários há quem pergunte onde está esse vídeo, o que mostra demanda por continuação.",
     "funil_notas": "Gancho amplo sobre ansiedade atrai quem ainda não conhece o perfil (topo). O desenvolvimento gera identificação e desperta consciência do desejo de constância (meio). Não há venda; o CTA de continuação alimenta comentários e a série (engajar e reter).",
-    "slides": [],
+    "slides": [
+      {
+        "img": "img/REF-0002/video-01.jpg",
+        "texto": "Quadro do vídeo: selfie em quarto com luz quente; gancho em caixa de texto preta com letra serifada: \"Pessoas ansiosas tem que aprender a pensar em juros compostos.\""
+      }
+    ],
     "reaproveitamento": [
       {
         "formato": "Vídeo curto (30 a 45 s)",
@@ -381,7 +386,6 @@
       "Duração não informada: pela transcrição enviada (cerca de 680 palavras) o vídeo deve ter de 4 a 5 minutos. Estimativa.",
       "A transcrição automática tem trechos duvidosos (valores em reais e a expressão 'agora vem o ping'): conferir no vídeo antes de citar.",
       "A analogia com 'juros compostos' é metafórica no vídeo; ao usar finanças de forma literal, evitar recomendação de investimento.",
-      "O print enviado não foi salvo como arquivo (veio só na mensagem). Reenviar como anexo se quiser guardar a imagem no painel.",
       "Não copiar a redação nem a história pessoal da referência: usar a estrutura e contar uma experiência real do cliente."
     ],
     "facilidade": "Alta: só fala para a câmera com caixa de texto no gancho; exige história pessoal real e roteiro em tópicos.",
@@ -441,7 +445,12 @@
     "estrutura": "Imagem cinematográfica de uma pessoa em close, sem fala; duas frases na tela (afirmação tabu e provocação); legenda curta que desfaz a objeção (não é ostentação, é liberdade e autonomia) e fecha com reenquadramento (dinheiro também é energia).",
     "cta": "Sem CTA explícito. O engajamento vem de identificação e discussão nos comentários.",
     "funil_notas": "O gancho polêmico e aspiracional atrai gente nova (topo). A legenda reenquadra uma crença sobre dinheiro e desperta consciência do desejo de liberdade (meio). Não há oferta nem convite explícito.",
-    "slides": [],
+    "slides": [
+      {
+        "img": "img/REF-0003/video-01.jpg",
+        "texto": "Quadro do vídeo (sem fala): close cinematográfico de uma mulher com casaco amarelo; texto na tela: \"A coisa mais espiritual que você pode fazer é ficar absurdamente rico. Mas você não tá preparado pra essa conversa.\""
+      }
+    ],
     "reaproveitamento": [
       {
         "formato": "Vídeo B-roll próprio (7 a 15 s)",
@@ -560,8 +569,7 @@
       "Apenas um quadro do vídeo foi enviado: a sequência de cenas e a duração não foram vistas. Para uma análise visual completa, enviar mais 3 a 5 prints e a duração.",
       "O visual parece trecho cinematográfico (grão, aberração cromática, tons quentes). Pode ser material de terceiros: usar imagens próprias ou licenciadas.",
       "Frase sobre ficar rico: não prometer ganho; em finanças evitar recomendação de investimento.",
-      "O comentário de maior destaque ('É aqui, algoritmo') indica comentários de engajamento orgânico; não tratar como método garantido.",
-      "O print enviado não foi salvo como arquivo; reenviar como anexo se quiser guardar a imagem."
+      "O comentário de maior destaque ('É aqui, algoritmo') indica comentários de engajamento orgânico; não tratar como método garantido."
     ],
     "facilidade": "Média: depende de imagens próprias ou licenciadas e de bom texto; não exige fala.",
     "clientes": [
@@ -1018,7 +1026,12 @@
     "estrutura": "Gancho de hipótese; esclarecimento que derruba o medo (não é expor pacientes); proposta de formato fixo; regra anti-aula; exemplos de temas em forma de pergunta; objetivo (reconhecimento); tese (familiaridade gera confiança); pergunta para a categoria; CTA para quem é de outra profissão.",
     "cta": "Pergunta aos psicólogos ('faz sentido criar conteúdo assim?') e convite a seguir para quem é de outra profissão e quer aplicar o método.",
     "funil_notas": "Topo: gancho de nicho para profissionais atrai gente nova. Meio: educa sobre estratégia de conteúdo e gera consciência da solução. O CTA de seguir é a porta de entrada; a conversão vem depois.",
-    "slides": [],
+    "slides": [
+      {
+        "img": "img/REF-0006/video-01.jpg",
+        "texto": "Quadro do vídeo em tela dividida: em cima, mãos escrevendo num caderno; embaixo, a pessoa falando em estúdio de podcast; legenda grande no centro (\"que eles trazem\")."
+      }
+    ],
     "reaproveitamento": [
       {
         "formato": "Vídeo curto (30 a 45 s)",
@@ -1138,7 +1151,6 @@
       "A transcrição foi colada pela Amanda; trechos da legenda do vídeo e o print mostram a mesma ideia.",
       "O vídeo é voltado a profissionais de psicologia (público B2B): os números não servem de meta para conteúdo ao público final.",
       "Psicólogo e saúde: nunca expor paciente nem caso identificável; temas gerais; conferir as regras do conselho profissional.",
-      "O print enviado não foi salvo como arquivo; reenviar como anexo se quiser guardar a imagem no painel.",
       "Não copiar a redação nem a estrutura frase a frase: usar o esqueleto e as ideias com outras palavras."
     ],
     "facilidade": "Alta: só falar para a câmera; exige banco de dúvidas reais dos clientes e uma edição simples de tela dividida.",

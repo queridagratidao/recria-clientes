@@ -28,3 +28,10 @@ As demais referencias do grupo (de abril a outubro) entram aqui quando forem env
 - **Video falado**: transcricao (ferramenta online), 3 a 5 prints e a legenda.
 - **Pagina de venda ou anuncio**: captura de pagina inteira e o criativo.
 Em todos: o link (para consulta) e, se souber, para qual cliente serve e o que chamou a atencao.
+
+## Imagens pendentes no painel
+| ID | O que falta |
+|---|---|
+| REF-0004 | Reenviar o print do slide de meme (@perrengue_chique) como anexo. A analise ja esta salva. |
+
+Imagens ja no painel: REF-0001 (7 slides), REF-0002 (1 quadro), REF-0003 (1 quadro), REF-0005 (6 cards), REF-0006 (1 quadro), REF-0007 (capa e 10 cards).
