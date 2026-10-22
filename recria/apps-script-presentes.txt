@@ -15,11 +15,11 @@
  */
 
 // Para onde vai cada material. Para a Black Friday, quando criar a planilha dela, troque o "id" abaixo.
-var PROVISORIO = { id: '1kbRl6xxqbfggIk96TopOCHZE_ehaxKCHOcKtbloC3Gc', aba: 'Checklist IG isca digital' }; // _CRM Central (aba antiga)
+var PROVISORIO = { id: '1kbRl6xxqbfggIk96TopOCHZE_ehaxKCHOcKtbloC3Gc', aba: 'Checklist IG isca digital', planilha: '_CRM Central - Agência Recria', titulo: 'Checklist de Black Friday' }; // aba antiga do CRM
 var DESTINOS = {
-  'Checklist Instagram': { id: '1YsU2_zv4IK2qEyCXSitvNKBAwrVBiVqr1Z7GNaQ5ME4', aba: 'Leads' },
-  'Checklist Venda sem Parecer Chato': { id: '19UW2CztDNRGLg5JFc7vW1TH_SjdLguhkM7ru4v4xklA', aba: 'Leads' },
-  'Direcional de Marketing': { id: '1OxPIoQrFA0BArkwV7Xfa5WjcspGBFn8DbxTemFy1omg', aba: 'Leads' },
+  'Checklist Instagram': { id: '1YsU2_zv4IK2qEyCXSitvNKBAwrVBiVqr1Z7GNaQ5ME4', aba: 'Leads', planilha: 'Checklist IG isca digital', titulo: 'Checklist de Revisão do Instagram' },
+  'Checklist Venda sem Parecer Chato': { id: '19UW2CztDNRGLg5JFc7vW1TH_SjdLguhkM7ru4v4xklA', aba: 'Leads', planilha: 'checklist-venda-sem-parecer-chato- isca digital', titulo: 'Checklist Venda sem Parecer Chato' },
+  'Direcional de Marketing': { id: '1OxPIoQrFA0BArkwV7Xfa5WjcspGBFn8DbxTemFy1omg', aba: 'Leads', planilha: 'Direcional de mkt e negocio - - isca digital', titulo: 'Direcional de Marketing e Negócios' },
   'Checklist Black Friday': PROVISORIO
 };
 var EMAIL_AVISO = 'amandarecria@gmail.com';
@@ -34,7 +34,7 @@ function doPost(e) {
     if (erro) return resposta_({ ok: false, erro: erro });
 
     var material = material_(d);
-    var dest = DESTINOS[material] || PROVISORIO;
+    var dest = DESTINOS[material] || { id: PROVISORIO.id, aba: PROVISORIO.aba, planilha: PROVISORIO.planilha, titulo: material };
     var aba = abaDestino_(dest);
     var situacao = jaBaixou_(aba, d.email, material) ? 'Repetido' : 'Novo';
     var zap = soDigitos_(d.whatsapp);
@@ -155,14 +155,15 @@ function jaBaixou_(aba, email, material) {
 }
 
 function avisar_(d, zap, material, dest) {
-  var assunto = 'Novo lead: ' + material;
+  var titulo = dest.titulo || material;
+  var assunto = 'Novo lead: alguém baixou o ' + titulo;
   var corpo =
-    'Entrou uma pessoa nova para baixar: ' + material + '.\n\n' +
+    'Entrou uma pessoa nova para baixar o ' + titulo + '.\n\n' +
     'Nome: ' + d.nome + '\n' +
     'WhatsApp: ' + d.whatsapp + (zap ? '  (https://wa.me/' + zap + ')' : '') + '\n' +
     'E-mail: ' + d.email + '\n' +
     'Origem: ' + (d.canal || 'não informada') + (d.utm ? ' | ' + d.utm : '') + '\n\n' +
-    'Ela já foi salva na aba "' + dest.aba + '" da planilha deste material:\n' +
+    'Ela já foi salva na aba "' + dest.aba + '" da planilha "' + (dest.planilha || '') + '":\n' +
     'https://docs.google.com/spreadsheets/d/' + dest.id + '/edit';
   MailApp.sendEmail(EMAIL_AVISO, assunto, corpo);
 }
