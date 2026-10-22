@@ -1,21 +1,27 @@
 /**
- * Recria · Captura dos materiais gratuitos (checklists e direcional)
+ * Recria · Captura dos materiais gratuitos (presentes)
  *
- * O que faz:
- *  1) Recebe os dados das páginas de captura (checklist do Instagram, Black Friday, Venda sem Parecer Chato e Direcional): nome, WhatsApp e e-mail;
- *  2) Salva uma linha na aba "Leads dos presentes" da NOVA planilha (separada do CRM), com a coluna "Material baixado";
- *  3) Envia um e-mail de aviso para amandarecria@gmail.com.
+ * Um único script atende as páginas de captura e manda cada lead para a planilha do material certo:
+ *  - Checklist Instagram            -> planilha "Checklist IG isca digital"
+ *  - Checklist Venda sem Parecer Chato -> planilha "checklist-venda-sem-parecer-chato- isca digital"
+ *  - Direcional de Marketing        -> planilha "Direcional de mkt e negocio - - isca digital"
+ *  - Checklist Black Friday         -> (provisório) aba do CRM, até a planilha própria existir
+ * Cada lead vira uma linha com a coluna "Material baixado", e um e-mail de aviso chega em amandarecria@gmail.com.
  *
- * Como instalar (resumo; o passo a passo completo está no chat):
- *  - Abra a planilha > Extensões > Apps Script > cole este código no lugar do que estiver lá > Salvar.
- *  - Execute a função "autorizar" uma vez e aceite as permissões.
- *  - Implantar > Nova implantação > Tipo: App da Web > Executar como: Eu > Quem pode acessar: Qualquer pessoa.
- *  - Copie o URL do app da Web e envie para a Claude colocar na página.
+ * Como instalar: script.google.com > Novo projeto > cole este código > Salvar.
+ * Rode a função "autorizar" uma vez e aceite as permissões.
+ * Implantar > Nova implantação > Tipo: App da Web > Executar como: Eu > Quem pode acessar: Qualquer pessoa.
+ * Copie o URL do app da Web e envie para a Claude colocar nas páginas.
  */
 
-// Cole aqui o ID da NOVA planilha: é o trecho grande do endereço dela, entre /d/ e /edit.
-var ID_PLANILHA = 'COLE_AQUI_O_ID_DA_NOVA_PLANILHA';
-var NOME_ABA = 'Leads dos presentes';
+// Para onde vai cada material. Para a Black Friday, quando criar a planilha dela, troque o "id" abaixo.
+var PROVISORIO = { id: '1kbRl6xxqbfggIk96TopOCHZE_ehaxKCHOcKtbloC3Gc', aba: 'Checklist IG isca digital' }; // _CRM Central (aba antiga)
+var DESTINOS = {
+  'Checklist Instagram': { id: '1YsU2_zv4IK2qEyCXSitvNKBAwrVBiVqr1Z7GNaQ5ME4', aba: 'Leads' },
+  'Checklist Venda sem Parecer Chato': { id: '19UW2CztDNRGLg5JFc7vW1TH_SjdLguhkM7ru4v4xklA', aba: 'Leads' },
+  'Direcional de Marketing': { id: '1OxPIoQrFA0BArkwV7Xfa5WjcspGBFn8DbxTemFy1omg', aba: 'Leads' },
+  'Checklist Black Friday': PROVISORIO
+};
 var EMAIL_AVISO = 'amandarecria@gmail.com';
 var CABECALHO = ['Data e hora', 'Nome', 'WhatsApp', 'Link do WhatsApp', 'E-mail', 'Origem (canal)', 'Origem (utm)', 'Página', 'Situação', 'Material baixado'];
 
@@ -27,8 +33,9 @@ function doPost(e) {
     var erro = validar_(d);
     if (erro) return resposta_({ ok: false, erro: erro });
 
-    var aba = abaDestino_();
     var material = material_(d);
+    var dest = DESTINOS[material] || PROVISORIO;
+    var aba = abaDestino_(dest);
     var situacao = jaBaixou_(aba, d.email, material) ? 'Repetido' : 'Novo';
     var zap = soDigitos_(d.whatsapp);
     if (zap.length === 10 || zap.length === 11) zap = '55' + zap;
@@ -46,7 +53,7 @@ function doPost(e) {
       material
     ]);
 
-    if (situacao === 'Novo') avisar_(d, zap, material);
+    if (situacao === 'Novo') avisar_(d, zap, material, dest);
     return resposta_({ ok: true });
   } catch (err) {
     return resposta_({ ok: false, erro: String(err) });
@@ -93,10 +100,18 @@ function validar_(d) {
   return '';
 }
 
-function abaDestino_() {
-  var planilha = SpreadsheetApp.openById(ID_PLANILHA);
-  var aba = planilha.getSheetByName(NOME_ABA);
-  if (!aba) aba = planilha.insertSheet(NOME_ABA);
+function abaDestino_(dest) {
+  var planilha = SpreadsheetApp.openById(dest.id);
+  var aba = planilha.getSheetByName(dest.aba);
+  if (!aba) {
+    var todas = planilha.getSheets();
+    if (todas.length === 1 && todas[0].getLastRow() === 0) {
+      aba = todas[0];
+      aba.setName(dest.aba);
+    } else {
+      aba = planilha.insertSheet(dest.aba);
+    }
+  }
   if (aba.getLastRow() === 0) {
     aba.appendRow(CABECALHO);
     aba.getRange(1, 1, 1, CABECALHO.length).setFontWeight('bold').setBackground('#f3e9cf');
@@ -139,7 +154,7 @@ function jaBaixou_(aba, email, material) {
   return false;
 }
 
-function avisar_(d, zap, material) {
+function avisar_(d, zap, material, dest) {
   var assunto = 'Novo lead: ' + material;
   var corpo =
     'Entrou uma pessoa nova para baixar: ' + material + '.\n\n' +
@@ -147,8 +162,8 @@ function avisar_(d, zap, material) {
     'WhatsApp: ' + d.whatsapp + (zap ? '  (https://wa.me/' + zap + ')' : '') + '\n' +
     'E-mail: ' + d.email + '\n' +
     'Origem: ' + (d.canal || 'não informada') + (d.utm ? ' | ' + d.utm : '') + '\n\n' +
-    'Ela já foi salva na aba "' + NOME_ABA + '" da planilha de leads dos presentes:\n' +
-    'https://docs.google.com/spreadsheets/d/' + ID_PLANILHA + '/edit';
+    'Ela já foi salva na aba "' + dest.aba + '" da planilha deste material:\n' +
+    'https://docs.google.com/spreadsheets/d/' + dest.id + '/edit';
   MailApp.sendEmail(EMAIL_AVISO, assunto, corpo);
 }
 
@@ -160,12 +175,14 @@ function resposta_(obj) {
 
 /** Rode uma vez para autorizar as permissões (planilha e e-mail). */
 function autorizar() {
-  SpreadsheetApp.openById(ID_PLANILHA).getName();
+  var ids = {};
+  Object.keys(DESTINOS).forEach(function (k) { ids[DESTINOS[k].id] = true; });
+  Object.keys(ids).forEach(function (id) { Logger.log(SpreadsheetApp.openById(id).getName()); });
   MailApp.getRemainingDailyQuota();
   Logger.log('Permissões ok.');
 }
 
-/** Rode para testar: cria uma linha de teste e manda o e-mail de aviso. Depois apague a linha de teste. */
+/** Rode para testar: cria uma linha de teste na planilha do Direcional e manda o e-mail de aviso. Depois apague a linha de teste. */
 function testar() {
   var e = { postData: { contents: JSON.stringify({
     nome: 'Teste Recria',
@@ -173,8 +190,8 @@ function testar() {
     email: 'teste+' + new Date().getTime() + '@exemplo.com',
     canal: 'Teste',
     utm: 'utm_source=teste',
-    pagina: 'https://www.agenciarecria.com.br/checklist-instagram/',
-    momento: 'Checklist Instagram - Captura'
+    pagina: 'https://www.agenciarecria.com.br/direcional-marketing/',
+    momento: 'Direcional de Marketing - Captura'
   }) } };
   var r = doPost(e);
   Logger.log(r.getContent());
