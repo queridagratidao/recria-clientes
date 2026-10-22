@@ -1,16 +1,18 @@
 # Passo a passo — Subir campanha Meta Ads (Área Comum)
-**RECRIA Marketing, 21/10/2026**
+**RECRIA Marketing, 22/10/2026**
 **Para colar no chat do Claude no Chrome**
 
 Instrução: acessar o Gerenciador de Anúncios da Meta (Business Manager) da Eleva e montar a campanha abaixo. **Deixar tudo PAUSADO ao final — não ativar nada.**
+
+Pré-requisito: confirmar que o Pixel da Meta (ID `634359929729484`) já está instalado e disparando no site, com o evento de "Começar teste grátis" configurado como conversão personalizada. Se ainda não estiver, avisar antes de continuar — sem isso a campanha não consegue otimizar por Cadastro.
 
 ---
 
 ## 1. Criar a campanha
 
-- **Nome**: `Área Comum | Tráfego | Brasil`
-- **Objetivo**: **Tráfego** (não "Cadastro"/"Conversão" — o site não tem Pixel configurado para decidir lance por conversão, só um evento de leitura; ver observação no fim)
-- **Otimização**: cliques no link
+- **Nome**: `Área Comum | Cadastro | Brasil`
+- **Objetivo**: **Cadastro** (otimizar diretamente pela conversão de início do teste grátis, via Pixel)
+- **Otimização**: conversões (evento "Começar teste grátis")
 
 ## 2. Conjunto de anúncios
 
@@ -26,7 +28,7 @@ Instrução: acessar o Gerenciador de Anúncios da Meta (Business Manager) da El
 - **Posicionamentos**: manuais — Feed, Stories e Reels do Instagram e do Facebook. **Desligar** Audience Network e Messenger
 - **URL de destino** (variar o `utm_content` por anúncio — a1, a2, a3, a4):
   `https://www.elevags.com.br/area-comum-portal-do-condominio?utm_source=meta&utm_medium=paid&utm_campaign=area-comum&utm_content=a1` (trocar "a1" por a2/a3/a4 em cada anúncio correspondente)
-- **Pixel**: se houver um Pixel configurado na conta (ver observação no fim), vincular só para leitura do evento de clique em "Começar teste grátis" como conversão personalizada — **isso não decide o lance**, a otimização continua sendo por clique no link
+- **Pixel**: vincular o Pixel `634359929729484` e selecionar o evento "Começar teste grátis" como o evento de conversão que o conjunto vai otimizar
 - **Frequência**: se for configurável no painel, marcar para revisar/trocar o criativo se a mesma pessoa ver o anúncio mais de 3x por semana
 
 ## 3. Os anúncios (criar os 3 primeiros agora; o A4 só entra depois, com o vídeo)
@@ -73,4 +75,4 @@ Fica pendente: só entra depois do Dia L+9, quando o vídeo de 30s do Relatório
 
 ## Observação sobre o Pixel
 
-Essa campanha foi desenhada pressupondo que **não há Pixel configurado** no site (conforme a Política de Privacidade atual) — por isso o objetivo é Tráfego, não Cadastro. Já mandamos uma pergunta ao Giuliano sobre isso, com o passo a passo para instalar se ele decidir mudar. Se, ao configurar, você notar que já existe um Pixel ativo na conta de anúncios, avise antes de prosseguir — pode valer a pena reconsiderar o objetivo da campanha.
+Essa campanha pressupõe que o Pixel (`634359929729484`) já está instalado e o evento "Começar teste grátis" configurado. Se ao configurar você notar que o Pixel não está disparando, ou que o evento de conversão não aparece como opção, **pare e avise a Amanda** antes de prosseguir — não dá para montar a campanha com objetivo Cadastro sem isso funcionando.
