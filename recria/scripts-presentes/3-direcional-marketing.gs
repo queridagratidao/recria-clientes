@@ -12,6 +12,7 @@
 
 var TITULO = 'Direcional de Marketing e Negócios';
 var MATERIAL = 'Direcional de Marketing';
+var ID_PLANILHA = '1OxPIoQrFA0BArkwV7Xfa5WjcspGBFn8DbxTemFy1omg';
 var ABA = 'Leads';
 var EMAIL_AVISO = 'amandarecria@gmail.com';
 var CABECALHO = ['Data e hora', 'Nome', 'WhatsApp', 'Link do WhatsApp', 'E-mail', 'Origem (canal)', 'Origem (utm)', 'Página', 'Situação', 'Material baixado'];
@@ -45,6 +46,7 @@ function doPost(e) {
     if (situacao === 'Novo') avisar_(d, zap);
     return resposta_({ ok: true });
   } catch (err) {
+    try { MailApp.sendEmail(EMAIL_AVISO, 'ERRO no cadastro: ' + TITULO, 'O cadastro falhou: ' + String(err) + '\n\nDados recebidos: ' + ((e && e.postData && e.postData.contents) || '(vazio)')); } catch (x) {}
     return resposta_({ ok: false, erro: String(err) });
   } finally {
     try { lock.releaseLock(); } catch (x) {}
@@ -89,7 +91,7 @@ function validar_(d) {
 }
 
 function abaDestino_() {
-  var planilha = SpreadsheetApp.getActiveSpreadsheet();
+  var planilha = SpreadsheetApp.openById(ID_PLANILHA);
   var aba = planilha.getSheetByName(ABA);
   if (!aba) {
     var todas = planilha.getSheets();
@@ -121,7 +123,7 @@ function emailJaExiste_(aba, email) {
 }
 
 function avisar_(d, zap) {
-  var planilha = SpreadsheetApp.getActiveSpreadsheet();
+  var planilha = SpreadsheetApp.openById(ID_PLANILHA);
   var assunto = 'Novo lead: alguém baixou o ' + TITULO;
   var corpo =
     'Entrou uma pessoa nova para baixar o ' + TITULO + '.\n\n' +
@@ -142,7 +144,7 @@ function resposta_(obj) {
 
 /** Rode uma vez para autorizar as permissões (planilha e e-mail). */
 function autorizar() {
-  SpreadsheetApp.getActiveSpreadsheet().getName();
+  SpreadsheetApp.openById(ID_PLANILHA).getName();
   MailApp.getRemainingDailyQuota();
   Logger.log('Permissões ok.');
 }
