@@ -2,7 +2,8 @@
  * Recria · Captura dos materiais gratuitos (checklists e direcional)
  *
  * O que faz:
- *  1) Recebe os dados das páginas de captura (checklist do Instagram, Black Friday, Venda sem Parecer Chato e Direcional): nome, WhatsApp e e-mail; *  2) Salva uma linha na aba "Checklist IG isca digital" da planilha _CRM Central - Agência Recria, com a coluna "Material baixado";
+ *  1) Recebe os dados das páginas de captura (checklist do Instagram, Black Friday, Venda sem Parecer Chato e Direcional): nome, WhatsApp e e-mail;
+ *  2) Salva uma linha na aba "Checklist IG isca digital" da planilha _CRM Central - Agência Recria, com a coluna "Material baixado";
  *  3) Envia um e-mail de aviso para amandarecria@gmail.com.
  *
  * Como instalar (resumo; o passo a passo completo está no chat):
