@@ -10,13 +10,13 @@ Pré-requisito: confirmar que o Pixel da Meta (ID `634359929729484`) já está i
 
 ## 1. Criar a campanha
 
-- **Nome**: `Área Comum | Cadastro | Brasil`
+- **Nome**: `AM | Área Comum | Cadastro | Brasil`
 - **Objetivo**: **Cadastro** (otimizar diretamente pela conversão de início do teste grátis, via Pixel)
 - **Otimização**: conversões (evento "Começar teste grátis")
 
 ## 2. Conjunto de anúncios
 
-- **Nome**: `Área Comum | Conjunto 1`
+- **Nome**: `AM | Área Comum | Conjunto 1`
 - **Orçamento**: R$ 25,00/dia (no conjunto)
 - **Público**:
   - Local: Brasil (sem restrição de região/cidade por enquanto)
