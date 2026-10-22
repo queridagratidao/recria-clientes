@@ -5,7 +5,7 @@
  *  - Checklist Instagram            -> planilha "Checklist IG isca digital"
  *  - Checklist Venda sem Parecer Chato -> planilha "checklist-venda-sem-parecer-chato- isca digital"
  *  - Direcional de Marketing        -> planilha "Direcional de mkt e negocio - - isca digital"
- *  - Checklist Black Friday         -> (provisório) aba do CRM, até a planilha própria existir
+ *  - Checklist Black Friday         -> planilha "Checklist Black Friday- isca digital"
  * Cada lead vira uma linha com a coluna "Material baixado", e um e-mail de aviso chega em amandarecria@gmail.com.
  *
  * Como instalar: script.google.com > Novo projeto > cole este código > Salvar.
@@ -14,14 +14,15 @@
  * Copie o URL do app da Web e envie para a Claude colocar nas páginas.
  */
 
-// Para onde vai cada material. Para a Black Friday, quando criar a planilha dela, troque o "id" abaixo.
-var PROVISORIO = { id: '1kbRl6xxqbfggIk96TopOCHZE_ehaxKCHOcKtbloC3Gc', aba: 'Checklist IG isca digital', planilha: '_CRM Central - Agência Recria', titulo: 'Checklist de Black Friday' }; // aba antiga do CRM
+// Para onde vai cada material (id = trecho do endereço da planilha entre /d/ e /edit).
 var DESTINOS = {
   'Checklist Instagram': { id: '1YsU2_zv4IK2qEyCXSitvNKBAwrVBiVqr1Z7GNaQ5ME4', aba: 'Leads', planilha: 'Checklist IG isca digital', titulo: 'Checklist de Revisão do Instagram' },
   'Checklist Venda sem Parecer Chato': { id: '19UW2CztDNRGLg5JFc7vW1TH_SjdLguhkM7ru4v4xklA', aba: 'Leads', planilha: 'checklist-venda-sem-parecer-chato- isca digital', titulo: 'Checklist Venda sem Parecer Chato' },
   'Direcional de Marketing': { id: '1OxPIoQrFA0BArkwV7Xfa5WjcspGBFn8DbxTemFy1omg', aba: 'Leads', planilha: 'Direcional de mkt e negocio - - isca digital', titulo: 'Direcional de Marketing e Negócios' },
-  'Checklist Black Friday': PROVISORIO
+  'Checklist Black Friday': { id: '12wSyia_yEkp-KY9oJdOHYUY4-Pn_9-KDbENfsF3EmWM', aba: 'Leads', planilha: 'Checklist Black Friday- isca digital', titulo: 'Checklist de Black Friday' }
 };
+// Se algum dia chegar um lead de material desconhecido, ele não se perde: vai para esta aba extra.
+var RESERVA = { id: '1YsU2_zv4IK2qEyCXSitvNKBAwrVBiVqr1Z7GNaQ5ME4', aba: 'Não identificados', planilha: 'Checklist IG isca digital' };
 var EMAIL_AVISO = 'amandarecria@gmail.com';
 var CABECALHO = ['Data e hora', 'Nome', 'WhatsApp', 'Link do WhatsApp', 'E-mail', 'Origem (canal)', 'Origem (utm)', 'Página', 'Situação', 'Material baixado'];
 
@@ -34,7 +35,7 @@ function doPost(e) {
     if (erro) return resposta_({ ok: false, erro: erro });
 
     var material = material_(d);
-    var dest = DESTINOS[material] || { id: PROVISORIO.id, aba: PROVISORIO.aba, planilha: PROVISORIO.planilha, titulo: material };
+    var dest = DESTINOS[material] || { id: RESERVA.id, aba: RESERVA.aba, planilha: RESERVA.planilha, titulo: material };
     var aba = abaDestino_(dest);
     var situacao = jaBaixou_(aba, d.email, material) ? 'Repetido' : 'Novo';
     var zap = soDigitos_(d.whatsapp);
