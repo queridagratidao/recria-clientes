@@ -1,9 +1,8 @@
 /**
- * Recria · Captura do Checklist de Revisão do Instagram
+ * Recria · Captura dos materiais gratuitos (checklists e direcional)
  *
  * O que faz:
- *  1) Recebe os dados da página /checklist-instagram/ (nome, WhatsApp e e-mail);
- *  2) Salva uma linha na aba "Checklist IG isca digital" da planilha _CRM Central - Agência Recria;
+ *  1) Recebe os dados das páginas de captura (checklist do Instagram, Black Friday, Venda sem Parecer Chato e Direcional): nome, WhatsApp e e-mail; *  2) Salva uma linha na aba "Checklist IG isca digital" da planilha _CRM Central - Agência Recria, com a coluna "Material baixado";
  *  3) Envia um e-mail de aviso para amandarecria@gmail.com.
  *
  * Como instalar (resumo; o passo a passo completo está no chat):
@@ -16,7 +15,7 @@
 var ID_PLANILHA = '1kbRl6xxqbfggIk96TopOCHZE_ehaxKCHOcKtbloC3Gc';
 var NOME_ABA = 'Checklist IG isca digital';
 var EMAIL_AVISO = 'amandarecria@gmail.com';
-var CABECALHO = ['Data e hora', 'Nome', 'WhatsApp', 'Link do WhatsApp', 'E-mail', 'Origem (canal)', 'Origem (utm)', 'Página', 'Situação'];
+var CABECALHO = ['Data e hora', 'Nome', 'WhatsApp', 'Link do WhatsApp', 'E-mail', 'Origem (canal)', 'Origem (utm)', 'Página', 'Situação', 'Material baixado'];
 
 function doPost(e) {
   var lock = LockService.getScriptLock();
@@ -27,7 +26,8 @@ function doPost(e) {
     if (erro) return resposta_({ ok: false, erro: erro });
 
     var aba = abaDestino_();
-    var situacao = emailJaExiste_(aba, d.email) ? 'Repetido' : 'Novo';
+    var material = material_(d);
+    var situacao = jaBaixou_(aba, d.email, material) ? 'Repetido' : 'Novo';
     var zap = soDigitos_(d.whatsapp);
     if (zap.length === 10 || zap.length === 11) zap = '55' + zap;
 
@@ -40,10 +40,11 @@ function doPost(e) {
       d.canal || '',
       d.utm || '',
       d.pagina || '',
-      situacao
+      situacao,
+      material
     ]);
 
-    if (situacao === 'Novo') avisar_(d, zap);
+    if (situacao === 'Novo') avisar_(d, zap, material);
     return resposta_({ ok: true });
   } catch (err) {
     return resposta_({ ok: false, erro: String(err) });
@@ -101,23 +102,45 @@ function abaDestino_() {
     aba.getRange('A:A').setNumberFormat('dd/MM/yyyy HH:mm');
     aba.getRange('C:C').setNumberFormat('@');
   }
+  if (aba.getLastRow() > 0 && !aba.getRange(1, CABECALHO.length).getValue()) {
+    aba.getRange(1, CABECALHO.length).setValue(CABECALHO[CABECALHO.length - 1]).setFontWeight('bold').setBackground('#f3e9cf');
+  }
   return aba;
 }
 
-function emailJaExiste_(aba, email) {
+/** Descobre qual material a pessoa baixou: pelo campo "momento" que a página envia, ou pelo endereço da página. */
+function material_(d) {
+  var m = String(d.momento || '').replace(/\s*-\s*Captura\s*$/i, '').trim();
+  return m || materialPelaPagina_(d.pagina);
+}
+
+function materialPelaPagina_(pagina) {
+  var p = String(pagina || '').toLowerCase();
+  if (p.indexOf('checklist-bf') > -1) return 'Checklist Black Friday';
+  if (p.indexOf('direcional-marketing') > -1) return 'Direcional de Marketing';
+  if (p.indexOf('venda-sem-parecer-chato') > -1) return 'Checklist Venda sem Parecer Chato';
+  if (p.indexOf('checklist-instagram') > -1) return 'Checklist Instagram';
+  return 'Não identificado';
+}
+
+/** "Repetido" = mesmo e-mail pedindo o mesmo material de novo. Outro material do mesmo e-mail conta como Novo. */
+function jaBaixou_(aba, email, material) {
   var ultima = aba.getLastRow();
   if (ultima < 2) return false;
-  var emails = aba.getRange(2, 5, ultima - 1, 1).getValues();
-  for (var i = 0; i < emails.length; i++) {
-    if (String(emails[i][0]).toLowerCase() === email) return true;
+  var n = CABECALHO.length;
+  var linhas = aba.getRange(2, 1, ultima - 1, n).getValues();
+  for (var i = 0; i < linhas.length; i++) {
+    if (String(linhas[i][4]).toLowerCase() !== email) continue;
+    var m = String(linhas[i][n - 1] || '').trim() || materialPelaPagina_(linhas[i][7]);
+    if (m === material) return true;
   }
   return false;
 }
 
-function avisar_(d, zap) {
-  var assunto = 'Novo lead: Checklist de Revisão do Instagram';
+function avisar_(d, zap, material) {
+  var assunto = 'Novo lead: ' + material;
   var corpo =
-    'Entrou uma pessoa nova para baixar o Checklist de Revisão do Instagram.\n\n' +
+    'Entrou uma pessoa nova para baixar: ' + material + '.\n\n' +
     'Nome: ' + d.nome + '\n' +
     'WhatsApp: ' + d.whatsapp + (zap ? '  (https://wa.me/' + zap + ')' : '') + '\n' +
     'E-mail: ' + d.email + '\n' +
