@@ -19,12 +19,14 @@ Pré-requisito: confirmar que o Pixel da Meta (ID `634359929729484`) já está i
 - **Nome**: `Área Comum | Conjunto 1`
 - **Orçamento**: R$ 25,00/dia (no conjunto)
 - **Público**:
-  - Local: Brasil
+  - Local: Brasil (sem restrição de região/cidade por enquanto)
   - Idade: 28 a 65 anos
-  - Público personalizado de base: quem segue e interage com a página/perfil da Eleva no Instagram e no Facebook, últimos 365 dias
-  - Sugestões de interesse (não como filtro obrigatório, deixar a Meta ampliar a partir daqui): administração de condomínios, síndico
+  - **Públicos personalizados já existentes na conta** (adicionar todos juntos, no mesmo conjunto — não separar em conjuntos diferentes, por causa do orçamento baixo):
+    - Listas diretas: `Lista_3_Meta_Ads_30.05.26_Relação de Síndicos`, `Lista_02.07.26_sindicos-profissionais-autonomos.xl`, `Lista_02.07.26_entidades-associacoes-sindicos.xlsx`
+    - Engajamento/remarketing: `RMKT-ADS-365D`, `RMKT-365D-ENG.IG`, `Rmkt 365D - Interagiu perfil`, `Eng. FB - 365D`, `RMKT Page view`, `ThruPlay -365D`, `VideoView - 50 e 75% - 365D`
+    - Semelhantes (lookalike): `Semelhante (1%) - Lista_3_Meta_Ads_30.05.26_Relação de Síndicos`, `Semelhante (1%) - Lista_02.07.26_sindicos-profissionais-autonomos.xl`, `Semelhante (1%) - Lista_02.07.26_entidades-associacoes-sindicos.xlsx`, `Semelhante (1%) - RMKT-ADS-365D`, `Semelhante (1%) - LAL 1% - Eng IG`, `Semelhante (1%) - Pixel - Eleva - Website using Purchase`
+  - **Não usar** nenhum público com "Fornecedor" no nome (ex.: `Lista_2_30.05.26_Meta_Ads_Fornecedores_Gerais_27.0`, `16.05.26_Lista_de_fornecedores_Eleva - Fornecedor`, e seus respectivos "Semelhante")
   - Expansão de público da Meta: **ligada**
-  - **Não subir nenhuma lista de contatos** (Hotmart, Sessão Estratégica, Comunidade) — não usar públicos personalizados a partir de listas enviadas
 - **Posicionamentos**: manuais — Feed, Stories e Reels do Instagram e do Facebook. **Desligar** Audience Network e Messenger
 - **URL de destino** (variar o `utm_content` por anúncio — a1, a2, a3, a4):
   `https://www.elevags.com.br/area-comum-portal-do-condominio?utm_source=meta&utm_medium=paid&utm_campaign=area-comum&utm_content=a1` (trocar "a1" por a2/a3/a4 em cada anúncio correspondente)
@@ -42,17 +44,17 @@ Usar as imagens 01 a 07 da pasta "Instagram_Carrossel" (v10), nessa ordem, como 
 - Link de cada cartão: o mesmo link de destino acima, com `utm_content=a1`
 
 ### Anúncio A2 — Relatório e Informativo
-Usar a imagem do card 06 (Relatório de Conformidade / Informativo Mensal) da pasta "Instagram_Serie_Relatorios" ou "Meta_Anuncios" (A2, formato 4:5 ou 9:16 conforme o posicionamento).
+Usar os dois arquivos da pasta "4_Meta_Anuncios": `A2_relatorio_e_inf...` (versão 4:5) e `A2_relatorio_e_inf...` (versão 9:16/quadrada) — subir os dois juntos nesse mesmo anúncio, para a Meta escolher o formato certo por posicionamento.
 
-- **Texto principal**: "Trabalho que aparece é trabalho valorizado. Relatório de Conformidade para o conselho e a assembleia, Informativo Mensal para os moradores, os dois com a sua logo."
+- **Texto principal**: "Ei, síndico morador, síndico profissional ou administradora: gerir condomínio já é tarefa grande, não precisa também virar refém de planilha e prazo perdido. Com o Área Comum - portal do condomínio, cada obrigação chega com aviso antes de vencer, e toda ocorrência fica documentada do início ao fim. Relatório de Conformidade para o conselho e a assembleia, Informativo Mensal para os moradores — os dois já saem com a sua logo. Teste grátis por 30 dias, sem cartão de crédito."
 - **Título**: "Relatório e Informativo com a sua logo"
 - **Botão (CTA)**: Saiba mais
 - Link: `utm_content=a2`
 
 ### Anúncio A3 — Painel
-Usar a imagem do card 03 (Painel) da pasta "Meta_Anuncios" (A3, 4:5 ou 9:16).
+Usar os dois arquivos da pasta "4_Meta_Anuncios": `A3_painel_4x5_108...` e `A3_painel_9x16_10...` — subir os dois juntos nesse mesmo anúncio.
 
-- **Texto principal**: "Tudo o que precisa da sua atenção, num só lugar: o que venceu, o que está perto de vencer e o que está em andamento, em cada condomínio."
+- **Texto principal**: "Ei, síndico morador, síndico profissional ou administradora: tudo o que precisa da sua atenção devia estar num só lugar, não espalhado entre grupo de WhatsApp, papel e memória. O Área Comum - portal do condomínio reúne o que venceu, o que está perto de vencer e o que está em andamento, em cada condomínio da sua carteira. Teste grátis por 30 dias, sem cartão de crédito."
 - **Título**: "Teste grátis por 30 dias"
 - **Botão (CTA)**: Saiba mais
 - Link: `utm_content=a3`
