@@ -14,6 +14,16 @@ O foco atual é 100% em crescimento de perfil: levar o máximo de seguidores e p
 
 Para isso, seguem 5 vídeos para o Giuliano gravar, todos em formato vertical (estilo Stories/Reels).
 
+## Instruções de gravação — variedade de cenário
+
+Pra não ficar tudo igual (sempre no escritório), pedimos para alternar o local de gravação entre os vídeos:
+
+- **Cenário 1 — Escritório**: ambiente de trabalho, mesa, computador ao fundo.
+- **Cenário 2 — Sala de casa**: ambiente mais pessoal, sofá ou estante ao fundo.
+- **Cenário 3 — Área aberta do condomínio onde mora (Alphaville)**: área comum, jardim, portaria ou outro espaço externo — isso ajuda a reforçar visualmente do que se trata o conteúdo (gestão de condomínio).
+
+Sugestão de distribuição: Vídeo 1 no escritório, Vídeo 2 na sala, Vídeo 3 no escritório, Vídeo 4 na sala, Vídeo 5 na área aberta do condomínio (faz todo sentido visual, já que fala do Área Comum). Não precisa ser rígido nisso — o importante é não gravar os 5 vídeos seguidos no mesmo lugar, pra dar variedade pro feed.
+
 ---
 
 ## Vídeo 1 — Aviso na comunidade Eleva (WhatsApp)
@@ -119,32 +129,51 @@ Comenta "Hub de Negócios" aqui embaixo que eu te mando no direct um formulário
 
 ---
 
-## Vídeo 5 — Área Comum - portal do condomínio está no ar (Instagram/WhatsApp)
+## Vídeo 5 — Área Comum - portal do condomínio está no ar (grava 1 vez, 3 finais diferentes)
 
-**Onde postar:** Instagram, Reels, e grupo do WhatsApp, Eleva, Comunidade de Síndicos
-**Formato:** vertical, estilo Stories/Reels
-**Duração estimada:** 1min30 a 2min
+**Onde postar:** Instagram (feed/Reels orgânico), Instagram (anúncio pago), e grupo do WhatsApp, Eleva, Comunidade de Síndicos — o mesmo vídeo serve pros 3 lugares, só muda o final.
+**Cenário sugerido:** área aberta do condomínio onde mora (Alphaville)
+**Duração estimada:** 1min30 a 2min (corpo) + cada final, mais uns 5-10 segundos
 **Tom:** anúncio direto, sem dinâmica de lançamento (nada de "é hoje", "chegou" — falar como algo que já está disponível, de forma natural)
 
-**Fala:**
+**Como gravar — explicando bem simples:**
+
+Giuliano grava o vídeo **inteiro de uma vez só**, até a parte "Você pode testar gratuitamente por 30 dias, sem cartão de crédito, então você só tem a ganhar." Essa parte é igual pros 3 vídeos finais, não muda.
+
+Depois dessa frase, ele **para, respira, e grava 3 finais diferentes, um atrás do outro, no mesmo vídeo** (dá um espacinho entre cada um, pra ficar fácil de cortar depois na edição). São só 3 frases curtas diferentes — o resto do vídeo é o mesmo.
+
+**Corpo do vídeo (igual nos 3, gravar só uma vez):**
 "Oi, pessoal! Giuliano Spolavori aqui, fundador da Eleva. Vim contar uma novidade importante: o Área Comum - portal do condomínio está no ar."
 
 "É a plataforma que a gente vinha desenvolvendo para facilitar a vida de quem cuida de condomínio — síndico morador, síndico profissional e também administradoras. No Área Comum, cada obrigação do condomínio chega com aviso antes de vencer, as ocorrências do dia a dia ficam documentadas, e o relatório para o conselho e a assembleia sai pronto, com a sua logo."
 
 "Se você administra um condomínio, hoje, sozinho, numa planilha, ou tem uma carteira inteira para dar conta, o Área Comum foi feito pra te ajudar a organizar tudo isso num só lugar, sem complicação."
 
-"Você pode testar gratuitamente por 30 dias, sem cartão de crédito. É só clicar no link que vou deixar abaixo, ou no link da bio."
+"Você pode testar gratuitamente por 30 dias, sem cartão de crédito. Então você só tem a ganhar."
 
-"Espero que o Área Comum facilite muito a sua gestão. Um abraço, e até a próxima!"
+*(— aqui pausa, e grava os 3 finais separados —)*
 
-**CTA:** "Clica no link e comece seu teste grátis"
+**Final 1 — para o feed/Instagram orgânico (post normal):**
+"Se interessou, então é só comentar aqui embaixo 'PORTAL' que eu te envio no direct todas as informações para você cadastrar e testar. Ou, se preferir, acesse o link da bio."
 
-**Legenda do post:**
+**Final 2 — para o anúncio pago (Meta Ads):**
+"Se você se interessou, toque em 'Saiba mais' logo abaixo."
+
+**Final 3 — para a comunidade no WhatsApp:**
+"Toque no link que vou te enviar junto com esse vídeo, logo abaixo, para saber todas as informações."
+
+Assim dá pra editar e usar o mesmo vídeo em 3 formatos: um pro feed (Final 1), um pro anúncio (Final 2, inclusive pode virar o A4 que estava pendente na campanha de Meta), e um pra comunidade do WhatsApp (Final 3).
+
+**Legenda do post (feed, Final 1):**
 O Área Comum - portal do condomínio está no ar.
 
 Feito para quem cuida de condomínio no dia a dia — síndico morador, síndico profissional e administradoras: obrigações com aviso antes de vencer, ocorrências documentadas, e relatório pronto para o conselho e a assembleia, com a sua logo.
 
-Teste grátis por 30 dias, sem cartão de crédito. Clica no link da bio e comece agora.
+Teste grátis por 30 dias, sem cartão de crédito. Comenta "PORTAL" ou acessa o link da bio!
+
+**Automação — gatilho:** comentário "PORTAL" (igual ao modelo dos outros vídeos)
+> Oi, [nome], tudo bem? Que bom que você se interessou pelo Área Comum - portal do condomínio! Toque no link abaixo para cadastrar e começar seu teste grátis de 30 dias, sem cartão de crédito. Um abraço!
+> *(link do Área Comum a definir, com UTM de orgânico)*
 
 ---
 
