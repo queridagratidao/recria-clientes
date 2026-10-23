@@ -164,34 +164,38 @@ Obrigado por se cadastrar! Em breve, a nossa equipe entrará em contato por e-ma
 
 **Importante sobre a abertura:** esse vídeo pode aparecer para gente que nunca viu o Giuliano antes (anúncio, feed de quem não segue) — os 3 primeiros segundos são o que prende a atenção. Por isso, **não começa com "Oi, pessoal"** — começa direto com a pergunta que trava a rolagem.
 
-**Como gravar — explicando bem simples:**
+#### Como gravar — explicando bem simples
 
 Giuliano grava o vídeo **inteiro de uma vez só**, até a parte "Você pode testar gratuitamente por 30 dias, sem cartão de crédito." Essa parte é igual pros 3 vídeos finais, não muda.
 
 Depois dessa frase, ele **para, respira, e grava 3 finais diferentes, um atrás do outro, no mesmo vídeo** (dá um espacinho entre cada um, pra ficar fácil de cortar depois na edição). São só 3 frases curtas diferentes — o resto do vídeo é o mesmo.
 
-**Corpo do vídeo (igual nos 3, gravar só uma vez):**
+#### Corpo do vídeo (igual nos 3, gravar só uma vez)
+
 "Você gerencia condomínios? Então, preste atenção neste vídeo."
 
 "Está no ar o Área Comum, Portal do Condomínio da Eleva — uma plataforma para facilitar a vida de quem gerencia condomínios, seja um síndico morador, síndico profissional, ou ainda uma administradora."
 
-"No Área Comum, cada obrigação do condomínio chega com aviso antes de vencer. As ocorrências do dia a dia, a parte legal, tudo fica documentado. E o relatório para o conselho, para os moradores e para a assembleia já sai pronto, personalizado com o logo da sua marca."
+"No portal do condomínio, cada obrigação do condomínio chega com aviso antes de vencer. As ocorrências do dia a dia, a parte legal, tudo fica documentado. E o relatório para o conselho, para os moradores e para a assembleia já sai pronto, personalizado com o logo da sua marca."
 
-"Se você administra um condomínio sozinho, numa planilha, como síndico morador, ou tem uma carteira inteira para dar conta, como síndico profissional ou administradora, o Área Comum foi feito pra te ajudar a organizar tudo isso num só lugar, sem complicação e com alertas para você não perder nenhum prazo."
+"Se você administra um condomínio sozinho, numa planilha, como síndico morador, ou tem uma carteira inteira para dar conta, como síndico profissional ou administradora, o portal do condomínio foi feito pra te ajudar a organizar tudo isso num só lugar, sem complicação e com alertas para você não perder nenhum prazo."
 
 "Agora você vai ter mais tranquilidade, e vai entregar mais valor para cada cliente."
 
 "Aproveite: você pode testar gratuitamente por 30 dias, sem cartão de crédito."
 
-*(— aqui pausa, e grava os 3 finais separados —)*
+**— PAUSA AQUI. A partir daqui, grava os 3 finais separados, um atrás do outro —**
 
-**Final 1 — para o feed/Instagram orgânico (post normal):**
+#### Final 1 — para o feed/Instagram orgânico (post normal)
+
 "Se interessou? Então comente 'PORTAL' e eu vou te enviar no seu direct todas as informações para você se cadastrar e testar a nossa plataforma. Ou, se preferir, acesse pelo link da bio."
 
-**Final 2 — para o anúncio pago (Meta Ads):**
+#### Final 2 — para o anúncio pago (Meta Ads)
+
 "Se interessou? Toca no botão de 'Saiba mais' e te vejo na plataforma."
 
-**Final 3 — para a comunidade no WhatsApp:**
+#### Final 3 — para a comunidade no WhatsApp
+
 "Se interessou? Toque no link que eu vou enviar logo após esse vídeo, para saber todas as informações e aproveitar o seu período para testar a plataforma. Um abraço!"
 
 Assim dá pra editar e usar o mesmo vídeo em 3 formatos: um pro feed (Final 1), um pro anúncio (Final 2, inclusive pode virar o A4 que estava pendente na campanha de Meta), e um pra comunidade do WhatsApp (Final 3).
@@ -221,6 +225,6 @@ Teste grátis por 30 dias, sem cartão de crédito. Comenta "PORTAL" ou acessa o
 | Vídeo 2 | Instagram | Reels, convite | Sim, gatilho "COMUNIDADE" |
 | Vídeo 3 | Comunidade Eleva (WhatsApp) | Vertical, Stories | Não, link do formulário direto no grupo |
 | Vídeo 4 | Instagram | Reels | Sim, gatilho "Hub de Negócios" |
-| Vídeo 5 — Final 1 | Instagram orgânico (feed) | Vertical, Stories/Reels | Sim, gatilho "PORTAL" |
+| Vídeo 5 — Final 1 | Instagram orgânico (feed) | Vertical, Stories/Reels | Sim, gatilho "PORTAL" + link na bio |
 | Vídeo 5 — Final 2 | Instagram anúncio (Ads) | Vertical, Stories/Reels | Não, botão "Saiba mais" |
 | Vídeo 5 — Final 3 | WhatsApp (Comunidade) | Vertical, Stories/Reels | Não, link junto com o vídeo |
