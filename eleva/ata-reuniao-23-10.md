@@ -18,8 +18,6 @@ Com a data fechada, a meta é deixar **tudo pronto e testado durante a semana qu
 
 **Pergunta para o Giuliano**: ele vai conseguir terminar os testes de segurança do site até a semana que vem, antes do lançamento?
 
-**Padrão de nome**: sempre que for falar do portal, usar o nome completo — "Área Comum - portal do condomínio" — ou, no mínimo, "portal do condomínio". Nunca só "Área Comum" sozinho, que fica solto e sem contexto. Vale pra toda comunicação externa (interna pode ficar mais livre).
-
 ---
 
 ## 1. Podcast ElevaCast — 18/11
@@ -31,8 +29,6 @@ O Giuliano vai tentar convidar um síndico morador, um síndico profissional e u
 ---
 
 ## 2. Live com o Jayme (Instagram)
-
-Correção de nome: é **Jayme**, com Y — advogado especialista em direito condominial.
 
 O Giuliano topou fazer a live. O contato já foi repassado para eles alinharem os detalhes diretamente.
 
@@ -53,7 +49,7 @@ O Giuliano topou fazer a live. O contato já foi repassado para eles alinharem o
 
 ## 3. Acesso ao Linktree
 
-Gil passou login e senha do Linktree para a Amanda (com verificação em duas etapas, passo a passo explicado por WhatsApp).
+Giu passou login e senha do Linktree para a Amanda (com verificação em duas etapas, passo a passo explicado por WhatsApp).
 
 **Ação Amanda**: fazer o ajuste no dia **26/10**, avisando o Giuliano no mesmo dia.
 
@@ -76,17 +72,19 @@ O Giuliano está dividindo melhor os custos com o Beto e a Mari, que entram como
 | Frente | Valor |
 |---|---|
 | Eleva Consultoria, Mentoria, Treinamentos e Cursos (Giuliano sozinho) | R$ 1.000 |
-| Projeto Pati | R$ 1.000 |
-| Eleva Expansão Estratégica | R$ 1.000 |
-| Eleva Corretora de Seguros | R$ 500 |
-| Eleva Hub de Negócios | R$ 500 |
+| Projeto - Clínica Pati | R$ 1.000 |
+| Strategia (Beto e Mari) | R$ 1.000 |
+| Eleva - Corretora de Seguros (Giu e Beto) | R$ 500 |
+| Eleva - Hub de Negócios (Giu e Mari) | R$ 500 |
 | **Total** | **R$ 4.000** |
 
 **Na prática, dois pagamentos por mês:**
 - **R$ 2.000 do Giuliano** — cobre Consultoria/Mentoria/Treinamentos/Cursos (R$ 1.000) + Projeto Pati (R$ 1.000).
-- **R$ 2.000 da Estratégia** (parte do Beto e da Mari) — cobre Eleva Expansão Estratégica (R$ 1.000) + Corretora de Seguros (R$ 500) + Hub de Negócios (R$ 500).
+- **R$ 2.000 da (Mari e Beto)** — que cobre a Strategia, Eleva Corretora de Seguros e Eleva Hub de Negócios.
 
-**Em novembro**, como o Projeto Pati entra proporcional (R$ 833,33 em vez de R$ 1.000 cheio), o pagamento do Giuliano fica em R$ 1.833,33, e o da Estratégia continua os R$ 2.000 cheios — **total de novembro: R$ 3.833,33**. A partir de dezembro, os R$ 4.000 completos.
+**Em novembro**, como o Projeto Pati entra proporcional (R$ 833,33 em vez de R$ 1.000 cheio), o pagamento do Giuliano fica em R$ 1.833,33, e o da Strategia continua os R$ 2.000 cheios — **total de novembro: R$ 3.833,33**. A partir de dezembro, os R$ 4.000 completos.
+
+**Obs: Giu, me confirme se seria isso e eu entendi corretamente, por favor!**
 
 ---
 
@@ -95,11 +93,11 @@ O Giuliano está dividindo melhor os custos com o Beto e a Mari, que entram como
 Depois dos 30 dias de teste, pedir prova social de quem está usando o Área Comum, em troca de acesso gratuito ao Curso Avançado de Síndico Profissional (avaliado em mais de R$ 2.000, vendido por R$ 297).
 
 **Roteiro sugerido (tom semi-formal, sem gírias):**
-> "Boa noite, Síndicos de Alta Performance! Para quem já está aproveitando o período gratuito para testar o nosso Área Comum - portal do condomínio, temos mais uma novidade para você: após os seus 30 dias, se você nos enviar, no privado do WhatsApp que vamos te passar abaixo, um vídeo curtinho (de até 2-3 minutos) ou um texto na conversa, liberando o uso da sua imagem como prova social, contando de maneira sincera como o Área Comum facilitou a sua gestão — quanto tempo economizou, quanta dor de cabeça evitou, quanto valor isso gerou pros condomínios que você administra — como agradecimento, vamos te dar acesso totalmente gratuito ao nosso Curso Avançado de Síndico Profissional, hoje avaliado em mais de R$ 2.000, vendido por R$ 297. Essa condição vale pra quem enviar o depoimento nos próximos 15 dias. Se você se interessou, toque no link que vamos enviar junto com esse vídeo para falar com a gente no privado. Um abraço!"
+> "Boa noite, Síndicos de Alta Performance! Para quem já está aproveitando o período gratuito para testar o nosso Área Comum - portal do condomínio, temos mais uma novidade para você: após os seus 30 dias, se você nos enviar, no privado do WhatsApp que vamos te passar abaixo, um vídeo curtinho (de até 2-3 minutos) ou um texto na conversa, liberando o uso da sua imagem como prova social, contando de maneira sincera como o Área Comum - Portal do Condomínio facilitou a sua gestão — quanto tempo economizou, quanta dor de cabeça evitou, quanto valor isso gerou pros condomínios que você administra — como agradecimento, vamos te dar acesso totalmente gratuito ao nosso Curso Avançado de Síndico Profissional, hoje avaliado em mais de R$ 2.000, vendido por R$ 297. Essa condição vale pra quem testou o Portal do Condomínio da Eleva por pelo menos 15 dias. Se você se interessou, toque no link que vamos enviar junto com esse vídeo para falar com a gente no privado. Um abraço!"
 
 **Como automatizar (sem equipe comercial), duas opções:**
 
-1. **Manual, via WhatsApp**: a pessoa manda o vídeo e os dados (nome completo, telefone com DDD, e-mail) direto pro WhatsApp da Eleva. A Amanda cadastra manualmente como aluna gratuita na Hotmart e o acesso chega por e-mail.
+1. **Manual, via WhatsApp**: a pessoa manda o vídeo e os dados (nome completo, telefone com DDD, e-mail) direto pro WhatsApp da Eleva. A Amanda cadastra manualmente como aluno gratuito na Hotmart e o acesso chega por e-mail.
 2. **Semi-automático, via Google Forms** (mais fácil de montar): a pessoa fala com a Eleva no WhatsApp, recebe um link de formulário, anexa o vídeo e preenche os dados. Na página de confirmação: "Você já recebeu o acesso por e-mail — se não chegou, clique aqui para entrar direto na sua conta Hotmart com seu e-mail e senha, o curso já estará liberado lá."
 
 A opção 2 é a mais indicada — mais automatizada, sem precisar de equipe comercial pra tocar.
@@ -117,6 +115,8 @@ Link direciona para a URL do Área Comum - portal do condomínio, com UTM do dis
 
 **A desenvolver**: montar esse workflow em formato visual (diagrama) para enviar ao Giuliano.
 
+**Ponto para negociar com a Nextags**: verificar se a assinatura permite pausar em meses sem disparo (sem fidelidade) — pra só pagar nos meses em que formos realmente usar — ou se é um plano com fidelidade fixa.
+
 ---
 
 ## 8. Previsão orçamentária (90 dias — novembro, dezembro, janeiro)
@@ -128,10 +128,8 @@ Link direciona para a URL do Área Comum - portal do condomínio, com UTM do dis
 | Google Ads | R$ 74 | R$ 2.220 |
 | Meta Ads (conjunto Cadastro, síndico + administradora) | R$ 25 | R$ 750 |
 | Nextags (plano mínimo, até 2.500 contatos) | — | R$ 147 |
-| Tarifa da Meta (WhatsApp marketing, ~R$ 0,32/mensagem¹ × 450 síndicos) | — | ~R$ 144 |
+| Tarifa da Meta (WhatsApp marketing, ~R$ 0,32/mensagem × 450 síndicos) | — | ~R$ 144 |
 | **Total mensal (Google + Meta + WhatsApp)** | | **~R$ 3.261** |
-
-¹ Pesquisado agora: a tarifa de mensagem de marketing da Meta no Brasil está em torno de **R$ 0,32** por mensagem entregue (não R$ 0,36) — vale confirmar na tabela oficial da Meta antes de fechar.
 
 Com esse total (~R$ 3.261), ainda sobra uma margem de cerca de **R$ 439** dentro do teto de R$ 3.700 — o disparo pela Nextags é pontual (não recorrente todo mês, só quando houver novo disparo), então essa margem tende a ser ainda maior na prática.
 
@@ -151,8 +149,8 @@ Com esse total (~R$ 3.261), ainda sobra uma margem de cerca de **R$ 439** dentro
 
 **Cenário 2 — reduzindo a partir de dezembro:**
 - **Novembro**: mês cheio, como no Cenário 1 (~R$ 4.761).
-- **Dezembro**: tira o disparo de WhatsApp (já não é recorrente mesmo) e, assim que os primeiros cadastros validarem o que está funcionando melhor, reduzir Google e/ou Meta — por exemplo, manter só Google, ou reduzir a verba de Meta pela metade.
-- **Janeiro**: verba mínima, só para manter o Área Comum ativo (ex.: Google rodando sozinho, orçamento reduzido).
+- **Dezembro e janeiro**: tira o disparo de WhatsApp (já não é recorrente mesmo) e reduz a verba de anúncio do Área Comum para uma faixa mínima de manutenção, assim que os primeiros cadastros de novembro validarem o que está funcionando melhor — estimativa de **~R$ 1.000/mês** de anúncio (Google e/ou Meta, reduzido).
+- Com isso, dezembro e janeiro ficam em torno de **R$ 1.500 (always on) + R$ 1.000 (anúncio reduzido) = ~R$ 2.500/mês** cada.
 - O always on do Instagram (R$ 1.500/mês) se mantém nos 3 meses, independente do cenário, por ser trabalho de autoridade de perfil, não ligado diretamente ao lançamento.
 
 Isso é uma estimativa inicial — os números exatos de dezembro e janeiro dependem do resultado de cadastros de novembro.
@@ -184,21 +182,21 @@ Sem ajuste — segue como combinado: Amanda responde no início da semana que ve
 - Finalizar os ajustes de tagueamento/rastreamento no site e no portal (junto com o Claude do Giuliano).
 - Criar as peças de divulgação da live com o Jayme.
 - Enviar o direcional de pauta para o ElevaCast.
-- Enviar o direcional de pauta para a live.
+- Enviar o direcional de pauta para a live com o Jayme.
 - Revisar as palavras-chave do Google Ads.
 - Montar o workflow visual do disparo Nextags.
 - Fechar a copy da estratégia de prova social.
 - Ajustar o Linktree.
 
-## Pendências do Giuliano
+## O que o Giuliano precisa fazer (ações)
 
 - **Criativos/carrosséis atualizados**: ele fez ajustes nos textos dos carrosséis e criativos que vão para o feed (sobre o portal do condomínio) — precisa passar pra Amanda, porque ela já subiu as peças anteriores na campanha e precisa trocar pelas novas, além de programar as que ainda não foram ao ar.
-- **Gravar os vídeos do roteiro neste fim de semana**: quanto mais ele conseguir gravar, melhor — a edição não é rápida, e esses vídeos já estão atrasados ("precisava pra ontem"). Gravar logo dá mais tempo pra Amanda editar e deixar tudo pronto pra semana do lançamento.
+- **Gravar os vídeos do roteiro neste fim de semana**: quanto mais ele conseguir gravar, melhor — a edição não é rápida. Gravar logo dá mais tempo pra Amanda editar e deixar tudo pronto pra semana do lançamento.
 - **Pedir pra Pati gravar alguns vídeos de B-roll** (sem fala), takes curtos de até 15 segundos do dia a dia dela — caminhando, tomando café, lendo, estudando, conversando com a filha ou com o Giuliano, olhando pra varanda, na cozinha, assistindo TV, pensativa — próximos e de longe, podendo trocar de roupa entre os takes. Uns 5 takes já ajudam bastante (leva menos de uma hora). Serve para montar um banco de vídeos e aplicar a estratégia de B-roll com gancho e legenda, pra crescer o perfil da Pati organicamente, sem tráfego pago no início. *(Amanda já enviou essa lista de sugestões direto pro WhatsApp da Pati.)*
 
 ---
 
-## O que fica pendente de retorno do Giuliano, até a semana que vem
+## O que o Giuliano precisa confirmar/responder, até a semana que vem
 
 - Confirmar se os **testes de segurança do site** ficam prontos até a semana que vem (antes do lançamento de 9/11).
 - Confirmação dos 3 convidados do podcast (síndico morador, síndico profissional, administradora).
