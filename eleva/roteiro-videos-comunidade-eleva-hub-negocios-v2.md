@@ -1,12 +1,12 @@
 # Roteiro de Vídeos — Comunidade Eleva e Hub de Negócios
-**RECRIA Marketing, atualizado em 23/10/2026 — v2**
+**RECRIA Marketing, atualizado em 23/10/2026 — v3**
 **Cliente:** Eleva
 
 ## Contexto
 
 O foco atual é 100% em crescimento de perfil: levar o máximo de seguidores e pessoas interessadas para o Instagram e para a comunidade Eleva, Comunidade de Síndicos, para que a compra aconteça de forma proativa, sem a Eleva precisar ir atrás.
 
-**Importante:** nenhum dos roteiros abaixo menciona datas, já que o lançamento do portal ainda não tem data fechada. Usar sempre expressões como "nos próximos dias" ou "em breve".
+**Importante:** nenhum dos roteiros abaixo menciona datas, já que o lançamento do portal ainda não tem data fechada. Usar sempre expressões como "nos próximos dias" ou "em breve" — exceto o Vídeo 5, que já anuncia o portal no ar.
 
 **Mudança de nome:** a comunidade no WhatsApp passa a se chamar **"Eleva, Comunidade de Síndicos"**, para não confundir com o Hub de Negócios, que é uma frente separada dentro do guarda-chuva da Eleva (ao lado da Eleva Expansão Estratégica e da Eleva Seguros), reunindo parcerias comerciais com comissão entre profissionais do setor.
 
@@ -41,9 +41,10 @@ Sugestão de distribuição: Vídeo 1 no escritório, Vídeo 2 na sala, Vídeo 3
 
 "Se quiser saber mais sobre as vantagens e benefícios de participar do Hub de Negócios, toque no link que vamos enviar abaixo desse vídeo. Ele vai te direcionar para uma conversa no privado com o WhatsApp da Eleva, e lá iremos te passar todas as informações."
 
-https://wa.me/555193630953
-
 "Nos próximos dias, trarei mais informações para vocês. No mais, aproveitem todo o nosso conteúdo aqui da comunidade. Um abraço!"
+
+**Automação:** não tem gatilho de comentário — o link já vai direto, fixado logo abaixo do vídeo, dentro do próprio grupo do WhatsApp:
+> https://wa.me/555193630953
 
 ---
 
@@ -71,6 +72,10 @@ E tem um motivo a mais para entrar agora: estamos desenvolvendo o Área Comum - 
 
 Comenta "COMUNIDADE" ou entra direto pelo link da bio!
 
+**Automação — gatilho:** comentário "COMUNIDADE"
+> Oi, [nome], tudo bem? Que bom que você quer fazer parte da comunidade Eleva lá no WhatsApp. Para participar, basta clicar no link abaixo. Nos vemos na comunidade. Um abraço!
+> https://chat.whatsapp.com/IPCOutpwO2rLJF2KmP99t9
+
 ---
 
 ## Vídeo 3 — Pergunta para a comunidade Eleva (WhatsApp)
@@ -89,8 +94,6 @@ Ou seja, o formulário é para que consigamos entregar conteúdos cada vez mais 
 
 Preencham o formulário, vocês só têm a ganhar. Aproveitem muito o conteúdo aqui da nossa comunidade. Um abraço!"
 
-Logo abaixo, enviar o link do formulário (Google Forms): https://forms.gle/6yViYCZwH3QtzgKEA
-
 **Campos do formulário:**
 1. Nome
 2. E-mail
@@ -103,6 +106,9 @@ Logo abaixo, enviar o link do formulário (Google Forms): https://forms.gle/6yVi
 
 **Mensagem final (texto da tela de confirmação do Google Forms):**
 Obrigado por responder! Suas respostas foram recebidas com muito carinho, e vamos usá-las para trazer conteúdos cada vez mais personalizados para você. Em breve, você também vai ter acesso a novidades sobre o Área Comum - portal do condomínio, que a Eleva está desenvolvendo.
+
+**Automação:** não tem gatilho de comentário — o link do formulário vai fixado logo abaixo do vídeo, direto no grupo:
+> https://forms.gle/6yViYCZwH3QtzgKEA
 
 ---
 
@@ -127,77 +133,7 @@ Estar rodeado de um hub de parceiros que te auxiliam nas diversas demandas do co
 
 Comenta "Hub de Negócios" aqui embaixo que eu te mando no direct um formulário para você começar a receber esses conteúdos, e quem sabe fazer parte do nosso Hub de Parceiros.
 
----
-
-## Vídeo 5 — Área Comum - portal do condomínio está no ar (grava 1 vez, 3 finais diferentes)
-
-**Onde postar:** Instagram (feed/Reels orgânico), Instagram (anúncio pago), e grupo do WhatsApp, Eleva, Comunidade de Síndicos — o mesmo vídeo serve pros 3 lugares, só muda o final.
-**Cenário sugerido:** área aberta do condomínio onde mora (Alphaville)
-**Duração estimada:** 1min30 a 2min (corpo) + cada final, mais uns 5-10 segundos
-**Tom:** anúncio direto, sem dinâmica de lançamento (nada de "é hoje", "chegou" — falar como algo que já está disponível, de forma natural)
-
-**Como gravar — explicando bem simples:**
-
-Giuliano grava o vídeo **inteiro de uma vez só**, até a parte "Você pode testar gratuitamente por 30 dias, sem cartão de crédito, então você só tem a ganhar." Essa parte é igual pros 3 vídeos finais, não muda.
-
-Depois dessa frase, ele **para, respira, e grava 3 finais diferentes, um atrás do outro, no mesmo vídeo** (dá um espacinho entre cada um, pra ficar fácil de cortar depois na edição). São só 3 frases curtas diferentes — o resto do vídeo é o mesmo.
-
-**Corpo do vídeo (igual nos 3, gravar só uma vez):**
-"Oi, pessoal! Giuliano Spolavori aqui, fundador da Eleva. Vim contar uma novidade importante: o Área Comum - portal do condomínio está no ar."
-
-"É a plataforma que a gente vinha desenvolvendo para facilitar a vida de quem cuida de condomínio — síndico morador, síndico profissional e também administradoras. No Área Comum, cada obrigação do condomínio chega com aviso antes de vencer, as ocorrências do dia a dia ficam documentadas, e o relatório para o conselho e a assembleia sai pronto, com a sua logo."
-
-"Se você administra um condomínio, hoje, sozinho, numa planilha, ou tem uma carteira inteira para dar conta, o Área Comum foi feito pra te ajudar a organizar tudo isso num só lugar, sem complicação."
-
-"Você pode testar gratuitamente por 30 dias, sem cartão de crédito. Então você só tem a ganhar."
-
-*(— aqui pausa, e grava os 3 finais separados —)*
-
-**Final 1 — para o feed/Instagram orgânico (post normal):**
-"Se interessou, então é só comentar aqui embaixo 'PORTAL' que eu te envio no direct todas as informações para você cadastrar e testar. Ou, se preferir, acesse o link da bio."
-
-**Final 2 — para o anúncio pago (Meta Ads):**
-"Se você se interessou, toque em 'Saiba mais' logo abaixo."
-
-**Final 3 — para a comunidade no WhatsApp:**
-"Toque no link que vou te enviar junto com esse vídeo, logo abaixo, para saber todas as informações."
-
-Assim dá pra editar e usar o mesmo vídeo em 3 formatos: um pro feed (Final 1), um pro anúncio (Final 2, inclusive pode virar o A4 que estava pendente na campanha de Meta), e um pra comunidade do WhatsApp (Final 3).
-
-**Legenda do post (feed, Final 1):**
-O Área Comum - portal do condomínio está no ar.
-
-Feito para quem cuida de condomínio no dia a dia — síndico morador, síndico profissional e administradoras: obrigações com aviso antes de vencer, ocorrências documentadas, e relatório pronto para o conselho e a assembleia, com a sua logo.
-
-Teste grátis por 30 dias, sem cartão de crédito. Comenta "PORTAL" ou acessa o link da bio!
-
-**Automação — gatilho:** comentário "PORTAL" (igual ao modelo dos outros vídeos)
-> Oi, [nome], tudo bem? Que bom que você se interessou pelo Área Comum - portal do condomínio! Toque no link abaixo para cadastrar e começar seu teste grátis de 30 dias, sem cartão de crédito. Um abraço!
-> *(link do Área Comum a definir, com UTM de orgânico)*
-
----
-
-## Resumo de onde cada peça vai
-
-| Peça | Canal | Formato | Automação |
-|---|---|---|---|
-| Vídeo 1 | Comunidade Eleva (WhatsApp) | Vertical, Stories | Não, link direto no vídeo |
-| Vídeo 2 | Instagram | Reels, convite | Sim, gatilho "COMUNIDADE" |
-| Vídeo 3 | Comunidade Eleva (WhatsApp) | Vertical, Stories | Não, link do formulário direto no grupo |
-| Vídeo 4 | Instagram | Reels | Sim, gatilho "Hub de Negócios" |
-| Vídeo 5 | Instagram + WhatsApp | Vertical, Stories/Reels | Não, link direto no vídeo/bio |
-
----
-
-## Automações
-
-Textos curtos e diretos: a pessoa clica no botão, vai para a página, preenche o formulário. Para o Giuliano entender o que será configurado em cada automação.
-
-**Vídeo 2 — gatilho:** comentário "COMUNIDADE"
-> Oi, [nome], tudo bem? Que bom que você quer fazer parte da comunidade Eleva lá no WhatsApp. Para participar, basta clicar no link abaixo. Nos vemos na comunidade. Um abraço!
-> https://chat.whatsapp.com/IPCOutpwO2rLJF2KmP99t9
-
-**Vídeo 4 — gatilho:** comentário "Hub de Negócios"
+**Automação — gatilho:** comentário "Hub de Negócios"
 > Oi, [nome], tudo bem? Que bom que você se interessou em saber mais e quem sabe participar do nosso Hub de Negócios. Toque no link abaixo para saber mais informações e aplicar para fazer parte do Hub, caso você deseje. Um abraço!
 > https://forms.gle/fvhzJ3Y1vJEyoy5s5
 
@@ -216,3 +152,75 @@ Descrição: "Preencha seus dados para saber mais sobre o Hub de Negócios da El
 
 **Mensagem final (texto da tela de confirmação):**
 Obrigado por se cadastrar! Em breve, a nossa equipe entrará em contato por e-mail ou WhatsApp para trazer mais detalhes e explicar melhor sobre a parceria.
+
+---
+
+## Vídeo 5 — Área Comum - portal do condomínio está no ar (grava 1 vez, 3 finais diferentes)
+
+**Onde postar:** Instagram (feed/Reels orgânico), Instagram (anúncio pago), e grupo do WhatsApp, Eleva, Comunidade de Síndicos — o mesmo vídeo serve pros 3 lugares, só muda o final.
+**Cenário sugerido:** área aberta do condomínio onde mora (Alphaville)
+**Duração estimada:** 1min30 a 2min (corpo) + cada final, mais uns 5-10 segundos
+**Tom:** anúncio direto, sem dinâmica de lançamento (nada de "é hoje", "chegou" — falar como algo que já está disponível, de forma natural)
+
+**Importante sobre a abertura:** esse vídeo pode aparecer para gente que nunca viu o Giuliano antes (anúncio, feed de quem não segue) — os 3 primeiros segundos são o que prende a atenção. Por isso, **não começa com "Oi, pessoal"** — começa direto com a pergunta que trava a rolagem.
+
+**Como gravar — explicando bem simples:**
+
+Giuliano grava o vídeo **inteiro de uma vez só**, até a parte "Você pode testar gratuitamente por 30 dias, sem cartão de crédito." Essa parte é igual pros 3 vídeos finais, não muda.
+
+Depois dessa frase, ele **para, respira, e grava 3 finais diferentes, um atrás do outro, no mesmo vídeo** (dá um espacinho entre cada um, pra ficar fácil de cortar depois na edição). São só 3 frases curtas diferentes — o resto do vídeo é o mesmo.
+
+**Corpo do vídeo (igual nos 3, gravar só uma vez):**
+"Você gerencia condomínios? Então, preste atenção neste vídeo."
+
+"Está no ar o Área Comum, Portal do Condomínio da Eleva — uma plataforma para facilitar a vida de quem gerencia condomínios, seja um síndico morador, síndico profissional, ou ainda uma administradora."
+
+"No Área Comum, cada obrigação do condomínio chega com aviso antes de vencer. As ocorrências do dia a dia, a parte legal, tudo fica documentado. E o relatório para o conselho, para os moradores e para a assembleia já sai pronto, personalizado com o logo da sua marca."
+
+"Se você administra um condomínio sozinho, numa planilha, como síndico morador, ou tem uma carteira inteira para dar conta, como síndico profissional ou administradora, o Área Comum foi feito pra te ajudar a organizar tudo isso num só lugar, sem complicação e com alertas para você não perder nenhum prazo."
+
+"Agora você vai ter mais tranquilidade, e vai entregar mais valor para cada cliente."
+
+"Aproveite: você pode testar gratuitamente por 30 dias, sem cartão de crédito."
+
+*(— aqui pausa, e grava os 3 finais separados —)*
+
+**Final 1 — para o feed/Instagram orgânico (post normal):**
+"Se interessou? Então comente 'PORTAL' e eu vou te enviar no seu direct todas as informações para você se cadastrar e testar a nossa plataforma. Ou, se preferir, acesse pelo link da bio."
+
+**Final 2 — para o anúncio pago (Meta Ads):**
+"Se interessou? Toca no botão de 'Saiba mais' e te vejo na plataforma."
+
+**Final 3 — para a comunidade no WhatsApp:**
+"Se interessou? Toque no link que eu vou enviar logo após esse vídeo, para saber todas as informações e aproveitar o seu período para testar a plataforma. Um abraço!"
+
+Assim dá pra editar e usar o mesmo vídeo em 3 formatos: um pro feed (Final 1), um pro anúncio (Final 2, inclusive pode virar o A4 que estava pendente na campanha de Meta), e um pra comunidade do WhatsApp (Final 3).
+
+**Legenda do post (feed, Final 1):**
+O Área Comum - portal do condomínio está no ar.
+
+Feito para quem cuida de condomínio no dia a dia — síndico morador, síndico profissional e administradoras: obrigações com aviso antes de vencer, ocorrências documentadas, e relatório pronto para o conselho e a assembleia, com a sua logo.
+
+Teste grátis por 30 dias, sem cartão de crédito. Comenta "PORTAL" ou acessa o link da bio!
+
+**Automação (Final 1, feed) — gatilho:** comentário "PORTAL"
+> Oi, [nome], tudo bem? Que bom que você se interessou pelo Área Comum - portal do condomínio! Toque no link abaixo para cadastrar e começar seu teste grátis de 30 dias, sem cartão de crédito. Um abraço!
+> *(link do Área Comum a definir, com UTM de orgânico)*
+
+**Automação (Final 2, anúncio):** sem gatilho de comentário — o botão "Saiba mais" já leva direto para a landing page do Área Comum, com a UTM da campanha paga.
+
+**Automação (Final 3, WhatsApp):** sem gatilho de comentário — link fixado logo abaixo do vídeo, direto no grupo (a definir, com UTM de orgânico/comunidade).
+
+---
+
+## Resumo de onde cada peça vai
+
+| Peça | Canal | Formato | Automação |
+|---|---|---|---|
+| Vídeo 1 | Comunidade Eleva (WhatsApp) | Vertical, Stories | Não, link direto no vídeo |
+| Vídeo 2 | Instagram | Reels, convite | Sim, gatilho "COMUNIDADE" |
+| Vídeo 3 | Comunidade Eleva (WhatsApp) | Vertical, Stories | Não, link do formulário direto no grupo |
+| Vídeo 4 | Instagram | Reels | Sim, gatilho "Hub de Negócios" |
+| Vídeo 5 — Final 1 | Instagram orgânico (feed) | Vertical, Stories/Reels | Sim, gatilho "PORTAL" |
+| Vídeo 5 — Final 2 | Instagram anúncio (Ads) | Vertical, Stories/Reels | Não, botão "Saiba mais" |
+| Vídeo 5 — Final 3 | WhatsApp (Comunidade) | Vertical, Stories/Reels | Não, link junto com o vídeo |
