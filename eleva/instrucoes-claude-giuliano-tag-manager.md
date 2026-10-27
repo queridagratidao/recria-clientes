@@ -38,4 +38,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 ---
 
-*(Os próximos passos serão adicionados aqui conforme a configuração avançar do lado da Amanda.)*
+## Passo 2 — Instalar o mesmo tipo de rastreamento no portal (portal.elevags.com.br)
+
+O portal é um **subdomínio separado** do site principal (`portal.elevags.com.br`, diferente de `elevags.com.br`). Isso significa que o Pixel/tags instalados na landing **não chegam sozinhos** até o portal — precisa de uma instalação própria lá também.
+
+1. Instalar o **mesmo container do Google Tag Manager** (`GTM-TPTQTWJK`) também nas páginas do portal, do mesmo jeito que foi instalado na landing (Passo 1), se o portal permitir inserir esse tipo de código no `<head>`/`<body>`. Se o portal não for Webflow, perguntar à Amanda o snippet de instalação equivalente pra tecnologia usada.
+2. Ativar a **vinculação entre domínios** (cross-domain measurement / linker) entre `elevags.com.br` e `portal.elevags.com.br`, nas configurações da tag do Google (Google Tag / GA4). Isso faz o Google decorar automaticamente os links entre as duas páginas com um parâmetro próprio, carregando a origem do clique sem precisar programar nada manualmente.
+3. No código do portal, disparar os seguintes eventos, nos momentos exatos:
+   - `fbq('track', 'CompleteRegistration')` — no momento em que uma conta **nova** é criada com sucesso (início do teste grátis). Não disparar em login de quem já tem conta.
+   - Evento de conversão do Google Ads equivalente, no mesmo momento (a Amanda vai passar o ID/label da ação de conversão assim que criá-la no Google Ads).
+   - Evento `Purchase` (Meta) e o segundo evento de conversão do Google Ads, no momento em que a assinatura é efetivamente paga.
+4. Enviar os mesmos eventos também pela **API de Conversões da Meta**, direto do servidor do portal (chamada backend, não é tag de navegador) — usando o `fbc`/`fbp` capturados e o e-mail da pessoa com hash SHA-256. É esse canal que torna o envio pra Meta automático, sem necessidade de planilha.
+5. **Gerar, periodicamente (sugestão: semanal), uma lista/exportação com as contas criadas e assinaturas pagas**, contendo: o identificador de clique do Google (gclid/gbraid/wbraid, se tiver sido capturado), a data do evento, e o valor (no caso de assinatura). Essa lista é o que vai permitir à Amanda subir a conversão no Google Ads (processo de "importação", explicado no Passo 3). **Se não tiver acesso ao código/banco do portal para fazer este passo, avisar antes de prosseguir, para o Giuliano liberar o acesso.**
+
+## Passo 3 — Conversões de importação no Google Ads (lado da Amanda, só para referência)
+
+A Amanda vai criar, dentro do Google Ads, duas ações de conversão do tipo "Importação": **"Área Comum · conta criada"** e **"Área Comum · assinatura"**. Toda semana, ela vai pegar a lista gerada no Passo 2.5 e subir manualmente nessas ações (Ferramentas e Configurações → Conversões → Conversões offline → Fazer upload de dados de conversão). No futuro, esse processo pode ser automatizado via API, mas o Claude do Giuliano não precisa se preocupar com essa parte — só com gerar a lista corretamente.
+
+---
+
+*(Mais passos serão adicionados aqui conforme a configuração avançar do lado da Amanda.)*
