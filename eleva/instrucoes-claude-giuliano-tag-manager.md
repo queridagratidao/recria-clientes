@@ -2,7 +2,13 @@
 **RECRIA Marketing, 27/10/2026**
 **Para colar no chat do Claude do Giuliano**
 
-Este documento reúne, em ordem, tudo que o Claude do Giuliano precisa fazer para deixar o rastreamento do Área Comum - portal do condomínio funcionando antes do lançamento (09/11). Vá seguindo os passos na ordem — cada um será adicionado aqui conforme a Amanda for configurando a parte dela.
+Este documento reúne, em ordem, tudo que o Claude do Giuliano precisa fazer para deixar o rastreamento do Área Comum - portal do condomínio funcionando antes do lançamento (09/11).
+
+**Status atual — já pronto do lado da Amanda:**
+- Container do Google Tag Manager criado e publicado: `GTM-TPTQTWJK` (conta Eleva Mkt), com o Pixel da Meta (base + evento de clique) configurado e ativo.
+- As 2 conversões de importação já criadas no Google Ads: "Área Comum · conta criada" e "Área Comum · assinatura".
+
+**O que falta — é o que este documento pede ao Claude do Giuliano, nos passos abaixo.**
 
 ---
 
@@ -51,9 +57,13 @@ O portal é um **subdomínio separado** do site principal (`portal.elevags.com.b
 4. Enviar os mesmos eventos também pela **API de Conversões da Meta**, direto do servidor do portal (chamada backend, não é tag de navegador) — usando o `fbc`/`fbp` capturados e o e-mail da pessoa com hash SHA-256. É esse canal que torna o envio pra Meta automático, sem necessidade de planilha.
 5. **Gerar, periodicamente (sugestão: semanal), uma lista/exportação com as contas criadas e assinaturas pagas**, contendo: o identificador de clique do Google (gclid/gbraid/wbraid, se tiver sido capturado), a data do evento, e o valor (no caso de assinatura). Essa lista é o que vai permitir à Amanda subir a conversão no Google Ads (processo de "importação", explicado no Passo 3). **Se não tiver acesso ao código/banco do portal para fazer este passo, avisar antes de prosseguir, para o Giuliano liberar o acesso.**
 
-## Passo 3 — Conversões de importação no Google Ads (lado da Amanda, só para referência)
+## Passo 3 — Conversões de importação no Google Ads (já criadas, só para referência)
 
-A Amanda vai criar, dentro do Google Ads, duas ações de conversão do tipo "Importação": **"Área Comum · conta criada"** e **"Área Comum · assinatura"**. Toda semana, ela vai pegar a lista gerada no Passo 2.5 e subir manualmente nessas ações (Ferramentas e Configurações → Conversões → Conversões offline → Fazer upload de dados de conversão). No futuro, esse processo pode ser automatizado via API, mas o Claude do Giuliano não precisa se preocupar com essa parte — só com gerar a lista corretamente.
+A Amanda já criou, dentro do Google Ads, as duas ações de conversão do tipo "Importação":
+- **"Área Comum · conta criada"** (categoria Inscrição, sem valor, conta só a primeira interação)
+- **"Área Comum · assinatura"** (categoria Assinatura, com valor, conta só a primeira interação)
+
+Toda semana, ela vai pegar a lista gerada no Passo 2.5 e subir manualmente nessas ações (Ferramentas e Configurações → Conversões → Conversões offline → Fazer upload de dados de conversão). No futuro, esse processo pode ser automatizado via API, mas o Claude do Giuliano não precisa se preocupar com essa parte — só com gerar a lista corretamente, no formato: gclid/gbraid/wbraid, data do evento, e valor (para a assinatura).
 
 ---
 
