@@ -30,7 +30,7 @@ O passo a passo técnico completo do que falta instalar no portal está no docum
 
 Sim, os dois eventos — cadastro e assinatura. Mas é importante reforçar um ponto, de novo, porque o documento ainda chama o evento de cadastro de **"Lead"**, e esse não é o nome certo pro nosso caso.
 
-Pensa no exemplo de vocês mesmos, da Eleva Estratégia: lá, "Lead" faz sentido, porque a pessoa preenche um formulário no site e **o Beto responde ela depois, manualmente, pelo WhatsApp** — é um contato que ainda precisa de alguém do outro lado pra avançar.
+Pensa no exemplo da Strategia (a empresa parceira pra qual a Eleva presta consultoria): lá, "Lead" faz sentido, porque a pessoa preenche um formulário no site e **o Beto responde ela depois, manualmente, pelo WhatsApp** — é um contato que ainda precisa de alguém do outro lado pra avançar.
 
 No Área Comum **não é assim**: a pessoa faz o cadastro sozinha, sem falar com ninguém — ela mesma cria a conta e já começa a usar o teste grátis. Não existe uma etapa de "alguém vai responder essa pessoa depois". Por isso, o nome certo do evento de cadastro é **`CompleteRegistration`**, não `Lead`. Só depois disso — e aí sim, até 30 dias depois — a gente puxa quem, desses cadastros, virou de fato assinante pagante (a "janela de atribuição" que já tínhamos combinado).
 
@@ -44,9 +44,9 @@ Resumindo os três eventos certos:
 Conferimos agora no Gerenciador de Negócios. O portfólio se chama **"Eleva"**, e dentro dele:
 
 - **Pessoas com acesso total**: Amanda Moraes (`queridagratidao@gmail.com`) e **René Kasper**.
-- **Parceiros (empresas com acesso)**: **Considere Feito** (com acesso total à Página do Facebook, à Conta de Anúncios e ao Instagram, todos sob o nome "Eleva Expansão Estratégica" / `eleva.gs`), além de Fator.ag, Giuliano Spolavori, Kommo e Solutions Engineering Team.
+- **Parceiros (empresas com acesso)**: Considere Feito, **Fator.ag**, Giuliano Spolavori, Kommo e Solutions Engineering Team.
 
-René Kasper e a Considere Feito parecem ser da **agência anterior** — a Amanda já está revisando esses acessos (inclusive removendo o acesso de faturamento que a agência antiga ainda tinha). Como você pediu que os ativos fiquem em nome da Eleva, com a Recria como parceira: podemos organizar isso juntos — ou você prefere que a Amanda já remova o acesso da Considere Feito/René Kasper, deixando só Eleva (dono) e Recria (parceira)? Precisamos do seu ok antes de remover o acesso de terceiros.
+René Kasper e a Fator.ag parecem ser da **agência anterior** — a Amanda já está revisando esses acessos (inclusive removendo o acesso de faturamento que a agência antiga ainda tinha). Como você pediu que os ativos fiquem em nome da Eleva, com a Recria como parceira: podemos organizar isso juntos — ou você prefere que a Amanda já remova o acesso da Fator.ag/René Kasper, deixando só Eleva (dono) e Recria (parceira)? Precisamos do seu ok antes de remover o acesso de terceiros.
 
 **Já adicionamos seu e-mail (`giuliano@elevags.com.br`) com Acesso Total nesse portfólio.** Para acessar:
 
@@ -63,7 +63,7 @@ Sim — esse é exatamente o propósito do `event_id`: quando o mesmo `event_id`
 ## 3 · Sobre os pedidos do v1
 
 - **Acesso de administrador para a Eleva**: ver resposta da Pergunta 2 acima — precisamos alinhar com você antes de mexer nos acessos de terceiros (Considere Feito/René Kasper).
-- **Teste técnico antes de ligar o envio à Meta**: de acordo, usando a aba "Eventos de teste" do Gerenciador de Eventos, como vocês propuseram.
+- **Teste técnico antes de ligar o envio à Meta**: de acordo, usando a aba "Eventos de teste" do Gerenciador de Eventos, como vocês propuseram. O disparo do teste é do lado do seu Claude (é o código do servidor do portal que envia); o acompanhamento do resultado, na tela "Eventos de teste", pode ser feito junto com a Amanda, que já tem acesso e prática com a ferramenta.
 - **Token da API de Conversões nunca por mensagem, e-mail ou print**: de acordo — ele é gerado e usado só por quem está configurando, direto no servidor/comando de teste, sem circular entre nós em nenhum momento.
 
 ---
