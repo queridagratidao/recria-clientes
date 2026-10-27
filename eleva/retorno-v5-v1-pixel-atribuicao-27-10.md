@@ -48,6 +48,12 @@ Conferimos agora no Gerenciador de Negócios. O portfólio se chama **"Eleva"**,
 
 René Kasper e a Considere Feito parecem ser da **agência anterior** — a Amanda já está revisando esses acessos (inclusive removendo o acesso de faturamento que a agência antiga ainda tinha). Como você pediu que os ativos fiquem em nome da Eleva, com a Recria como parceira: podemos organizar isso juntos — ou você prefere que a Amanda já remova o acesso da Considere Feito/René Kasper, deixando só Eleva (dono) e Recria (parceira)? Precisamos do seu ok antes de remover o acesso de terceiros.
 
+**Já adicionamos seu e-mail (`giuliano@elevags.com.br`) com Acesso Total nesse portfólio.** Para acessar:
+
+1. Entre em **business.facebook.com**, logado com o e-mail `giuliano@elevags.com.br`.
+2. Se aparecer uma notificação de convite pendente (sino, canto superior direito, ou em Configurações → Solicitações), clique em **Aceitar**.
+3. Depois disso, você já consegue ver o portfólio **"Eleva"**, com a conta de anúncios, a Página e o Instagram.
+
 ### Pergunta 3 — A Meta conta a mesma compra só uma vez, se enviada duas vezes com o mesmo identificador?
 
 Sim — esse é exatamente o propósito do `event_id`: quando o mesmo `event_id` chega duas vezes para a Meta, ela reconhece e conta como um evento só, não em dobro. Mesmo assim, concordamos com fazer o teste técnico antes de ligar de vez (como vocês propuseram), pra confirmar isso na prática antes de qualquer coisa valer como conversão real.
