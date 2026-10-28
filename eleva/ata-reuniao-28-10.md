@@ -1,6 +1,8 @@
 # Ata — Reunião Amanda e Giuliano, 28/10/2026
 **RECRIA Marketing**
 
+Esta ata reúne tanto os retornos ao documento que o Giuliano enviou no dia 28/10 (pouco antes da reunião) quanto os pontos abordados na própria reunião.
+
 ---
 
 ## 0 · Data de lançamento: 03/11/2026 — a confirmar
@@ -13,7 +15,7 @@ O Giuliano colocou, no documento de retorno de 28/10, a previsão de lançamento
 
 - Site publicado em 27/10, com o Tag Manager carregando só depois do aceite de cookies, sem `noscript`, e com o PageView duplicado corrigido.
 - O botão "Começar teste grátis" já leva os códigos de clique ao portal, só para quem aceitou os cookies.
-- **Ação Amanda**: conferir o container no Tag Assistant.
+- **Conferido pela Amanda**: container `GTM-TPTQTWJK` rodando certinho no Tag Assistant, instalação confirmada e sem pendência.
 
 ## 2 · Acessos no portfólio "Eleva" da Meta — decisão final
 
@@ -82,7 +84,6 @@ Giuliano tem reunião amanhã (29/10) com o Jayme para alinhar a temática da li
 ## Pendências
 
 **Do lado da Amanda:**
-- Conferir o container no Tag Assistant.
 - Remover Fator.ag, Solutions Engineering Team e Kommo do portfólio.
 - Deixar as campanhas prontas para 03/11.
 - Indicar um dev de segurança da informação.
