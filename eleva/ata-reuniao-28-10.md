@@ -3,9 +3,11 @@
 
 ---
 
-## 0 · Data de lançamento: 03/11/2026
+## 0 · Data de lançamento: 03/11/2026 — a confirmar
 
-O Giuliano confirmou por documento (retorno de 28/10): as campanhas ficam prontas para ligar no dia 03/11, mas só entram no ar com o aviso de "pode lançar" da parte dele. **Essa é a nova data de referência** (ajustada em relação ao que vínhamos tratando antes).
+O Giuliano colocou, no documento de retorno de 28/10, a previsão de lançamento como 03/11. Na nossa ata anterior (23/10), o combinado era 09/11.
+
+**Pergunta para o Giuliano**: no seu retorno você colocou a previsão de lançamento como 03/11, mas na nossa última ata (23/10) o combinado era 09/11. Pode confirmar se foi uma mudança de data mesmo, ou um erro de digitação? Pergunto porque, se for 03/11, fica bem corrido do nosso lado. A minha previsão é deixar tudo pronto e programado, só para ativar ou disparar, até o dia 6, fora os testes e os ajustes finais, para eu ganhar uma folga maior antes do lançamento. O dia 3 vai estar muito corrido. Se for 09/11, como já tínhamos combinado, segue tudo tranquilo dentro do prazo.
 
 ## 1 · Retorno dele ao documento de Tag Manager/conversões — já está no ar
 
