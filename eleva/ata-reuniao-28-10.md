@@ -80,12 +80,29 @@ Giuliano tem reunião amanhã (29/10) com o Jayme para alinhar a temática da li
 
 **Prazo**: se a live for no dia 11/11, a Amanda precisa do retorno até sexta desta semana (30/10), pra criar as peças, aprovar na segunda que vem, e já rodar anúncio a tempo. Se for no dia 25/11, o retorno pode vir até a semana que vem, pra rodar o anúncio entre a semana do dia 8 e a semana do dia 15/11.
 
-## 11 · Transição do episódio do ElevaCast — Amanda assume a parte do René
+## 11 · Transição do episódio do ElevaCast — Amanda assume a parte do Rene
 
 - Amanda já pegou acesso ao canal do YouTube (senha salva no banco de senhas).
-- Pediu ao ProHub se ainda têm o material bruto do episódio 9, pra não depender do René.
-- **Acordado com o Giuliano**: a partir do próximo episódio (gravação de novembro), a Amanda assume o que antes era do René — recebe o material bruto do ProHub, sobe no YouTube, e faz os cortes/clipes pra alimentar o Instagram dele.
+- Pediu ao ProHub se ainda têm o material bruto do episódio 9, pra não depender do Rene. **Status**: o ProHub está verificando se ainda tem esse material, vai dar retorno.
+- **Acordado com o Giuliano**: a partir do próximo episódio (gravação de novembro), a Amanda assume o que antes era do Rene — recebe o material bruto do ProHub, sobe no YouTube, e faz os cortes/clipes pra alimentar o Instagram dele.
 - **Negociado**: a cada mês com gravação de episódio, o Giuliano paga **R$ 500 a mais**, somado à negociação já existente da Eleva (Hub), por esse trabalho extra.
+
+## 12 · Contratar e configurar a Nextags — pendência da Amanda
+
+Ficou decidido nesta reunião que a Nextags é a ferramenta escolhida para o disparo em massa de mensagens. Falta contratar e configurar as mensagens dentro da Nextags, para que o disparo já esteja pronto e programado para sair no dia do lançamento. A Amanda precisa desse tempo para fazer isso — por isso a importância de fechar logo a data de lançamento e o cartão de pagamento (ponto 5).
+
+## 13 · Por que o acesso do Giuliano ao portfólio é importante
+
+O acesso ao portfólio da Meta importa por dois motivos:
+
+1. **É a conta dele** — os ativos (Pixel, conta de anúncios, Instagram) devem ficar em nome da Eleva, com a Recria como parceira, como ele mesmo já pediu.
+2. **Chave da API de Conversões** — para o envio automático de conversões ao servidor funcionar, alguém com acesso ao Gerenciador de Eventos precisa gerar essa chave (um código que funciona como senha, usado pelo servidor do portal para se identificar junto à Meta). Essa chave, depois de gerada, **não deve circular por mensagem, e-mail ou print** — é usada direto por quem a gerou, no mesmo lugar.
+
+**Duas formas de fazer isso, dependendo de quem tem acesso:**
+- **Pelo lado do Giuliano (ideal)**: assim que ele tiver acesso ao portfólio, o próprio Claude dele entra no Gerenciador de Eventos, gera a chave, e já usa ela direto no código do servidor do portal — sem a chave nunca sair de lá.
+- **Pelo lado da Amanda (alternativa, se o acesso do Rene demorar)**: como a Amanda também tem acesso ao Gerenciador de Eventos, ela pode gerar a chave. Mas, nesse caso, a chave precisaria ser repassada ao Claude do Giuliano para ele instalar no código do site — o que não é o ideal, porque é exatamente o tipo de informação que não deveria circular entre pessoas/sistemas. Se for necessário usar esse caminho, o jeito mais seguro é usar uma ferramenta de compartilhamento seguro de senha (tipo um gerenciador de senhas com link temporário), nunca mensagem direta ou e-mail.
+
+Por isso, o ideal é mesmo esperar o acesso do Giuliano se resolver rápido — daí ele (ou o Claude dele) gera a própria chave, sem esse risco.
 
 ---
 
@@ -95,6 +112,7 @@ Giuliano tem reunião amanhã (29/10) com o Jayme para alinhar a temática da li
 - Remover Fator.ag, Solutions Engineering Team e Kommo do portfólio — só depois que o Rene liberar o acesso do Giuliano.
 - Deixar as campanhas prontas para a data de lançamento (a confirmar: 03/11 ou 09/11).
 - Indicar um dev de segurança da informação.
+- Contratar e configurar as mensagens na Nextags, programadas para o dia do lançamento.
 
 **Do lado do Giuliano:**
 - Confirmar se a data de lançamento é 03/11 ou 09/11.
