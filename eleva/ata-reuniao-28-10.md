@@ -40,11 +40,11 @@ O Giuliano colocou, no documento de retorno de 28/10, a previsão de lançamento
 - **Adicionar no G3** (Obrigações): "ppci condomínio", "spda condomínio", "inspeção predial condomínio", "autovistoria condomínio" — frase.
 - **Manter** "aplicativo para síndico" no G1 — já aplicado.
 
-**Ação Amanda**: já atualizado no documento de keywords.
+**Ação Amanda**: atualizar direto na campanha do Google Ads, com os pontos que ele pediu.
 
 ## 5 · Segmentação da Meta — 2 ajustes
 
-- **Idade**: 28 a 65+ (em vez de 28 a 65) — já aplicado.
+- **Idade**: 28 a 65+ (em vez de 28 a 65) — a atualizar direto na campanha do Meta Ads.
 - **Listas diretas**: confirmar a origem de cada uma das 3 (Meta exige permissão de uso, LGPD pede base legal). **Pendente**: o Giuliano precisa confirmar a origem de cada lista antes de ativar.
 
 ## 6 · Vídeos do roteiro
