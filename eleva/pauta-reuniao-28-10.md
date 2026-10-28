@@ -11,17 +11,15 @@ Na sexta (23/10), o Giuliano ficou de ver com o Alê (primo dele, dono da Consid
 
 **Cobrar**: status disso com o Giuliano hoje.
 
-## 2 · Peças atualizadas (criativos da campanha Meta)
+## 2 · Peças atualizadas (criativos da campanha Meta) — conferido
 
-O Giuliano mandou peças novas, com texto ajustado por causa da mudança de nome. A Amanda precisa revisar e trocar pelas peças antigas dentro da campanha Meta (e também os outros arquivos atualizados que ele mandou pelo Drive).
+Comparado com a versão anterior (v10): a mudança foi só na badge laranja de cada peça, de **"PARA SÍNDICOS, GESTORES E ADMINISTRADORAS"** para **"SISTEMA PARA SÍNDICOS E ADMINISTRADORAS"** (tirou "gestores", acrescentou "sistema"). O resto do texto é idêntico. 11 arquivos mudaram: capa do carrossel principal, apresentação (feed+stories), A2 e A3 do Meta Ads (4x5 e 9x16), capa e final do A1 carrossel, e as capas das Séries Recursos e Relatórios.
 
-**Ação Amanda**: revisar os arquivos recebidos e gerar o prompt pro Claude in Chrome atualizar os criativos na campanha, assim que tiver tudo organizado.
+**Ação Amanda**: trocar essas 11 peças pela versão nova dentro da campanha Meta.
 
-## 3 · Revisão das palavras-chave do Google Ads + documentação da segmentação da Meta
+## 3 · Revisão das palavras-chave do Google Ads + documentação da segmentação da Meta — não depende mais do Giuliano
 
-Pendente desde 23/10: passar pro Claude do Giuliano (que subiu a lista original) a lista de palavras-chave positivas e negativas já configuradas, pra ele sugerir ajustes. Junto, pedir que documente toda a segmentação que já foi montada na Meta (públicos salvos, lookalike, interesse), pra deixar isso registrado e entregue ao Giuliano.
-
-*(Prompt pronto pra isso logo abaixo, nesta pauta.)*
+A Amanda (com a Recria) já tem registrado tudo que foi configurado — tanto a lista de palavras-chave do Google Ads quanto a segmentação da Meta (listas, remarketing, lookalikes) — porque foi a própria Recria quem montou os prompts originais. **Não precisa pedir nada ao Claude do Giuliano nesse ponto.** A Amanda revisa com calma no dia de ativar a campanha.
 
 ## 4 · Live com o Jayme Marcos
 
@@ -49,12 +47,3 @@ Retorno recebido: abriram uma exceção, pagamento desta gravação pode ser fei
 - Acessos no portfólio "Eleva": Fator.ag e Solutions Engineering Team sendo removidos; René Kasper/Considere Feito mantidos; aguardando resposta dele sobre o Kommo (parceria fechada ou pretendida?).
 - Ata da reunião de 23/10: já entregue, junto com o roteiro atualizado.
 
----
-
-## Prompt para o Claude do Giuliano — palavras-chave e segmentação da Meta
-
-> Preciso de duas coisas:
->
-> 1. Revisar a lista de palavras-chave positivas e negativas que você subiu na campanha "Área Comum | Pesquisa | Brasil" no Google Ads — me diga se sugere algum ajuste, adição ou remoção, com base no que já está configurado.
->
-> 2. Documentar, num arquivo só, toda a segmentação que você configurou nas campanhas da Meta: os públicos salvos usados (listas diretas, engajamento/remarketing, lookalike), e qualquer critério de interesse que tenha sido aplicado. Preciso desse documento para registrar e entregar ao Giuliano.
