@@ -17,7 +17,7 @@
 - "controle de vencimentos condomínio" (frase)
 - "alerta de vencimento condomínio" (frase)
 - "gestão de condomínios para síndico" (frase)
-- "aplicativo para síndico" (frase)
+- "aplicativo para síndico" (frase) — *mantida, confirmada em 28/10 (o Área Comum funciona pelo navegador/celular, mas não é app de loja — os anúncios não prometem isso)*
 
 ### G2 · Administradoras e gestores
 
@@ -32,6 +32,10 @@
 
 ### G3 · Obrigações do condomínio
 
+- "ppci condomínio" (frase) — *adicionada 28/10, pedido do Giuliano: termo usado no RS, ao lado de "appci"*
+- "spda condomínio" (frase) — *adicionada 28/10*
+- "inspeção predial condomínio" (frase) — *adicionada 28/10*
+- "autovistoria condomínio" (frase) — *adicionada 28/10*
 - "obrigações do síndico" (frase)
 - "obrigações legais do condomínio" (frase)
 - "manutenção preventiva condomínio" (frase)
@@ -108,7 +112,9 @@
 
 **Fora da campanha, propositalmente**: qualquer lista/lookalike com "Fornecedor" no nome, e o público de cidades-chave (RS/SC/PR) que já existia na conta — campanha roda Brasil inteiro, sem restrição de região, por enquanto.
 
-**Segmentação geral**: Brasil, 28 a 65 anos, expansão de público da Meta ligada, posicionamentos manuais (Feed, Stories e Reels do Instagram e Facebook — Audience Network e Messenger desligados).
+**Segmentação geral**: Brasil, **28 a 65+ anos** (ajustado em 28/10 — antes era 28 a 65, mas boa parte dos síndicos moradores é aposentada, e cortar em 65 deixava fora parte do público principal), expansão de público da Meta ligada, posicionamentos manuais (Feed, Stories e Reels do Instagram e Facebook — Audience Network e Messenger desligados).
+
+**Pendência antes de ativar**: confirmar com o Giuliano a origem de cada uma das 3 listas diretas (Meta exige permissão pra usar listas de contato, e a LGPD pede base legal — listas de clientes e de quem se cadastrou com a Eleva podem ser usadas; qualquer lista sem origem confirmada fica de fora).
 
 ---
 
