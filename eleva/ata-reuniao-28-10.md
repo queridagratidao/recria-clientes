@@ -23,10 +23,12 @@ O Giuliano colocou, no documento de retorno de 28/10, a previsão de lançamento
 |---|---|
 | Fator.ag (inclusive faturamento) | Remover |
 | Solutions Engineering Team | Remover |
-| René Kasper e Considere Feito | Manter por enquanto, os dois juntos |
+| Rene Kasper e Considere Feito | Manter por enquanto, os dois juntos |
 | Kommo | **Remover** — ele confirmou que não têm parceria com eles |
 
-**Ação Amanda**: executar as remoções (Fator.ag, Solutions Engineering Team, Kommo).
+Vamos esperar o Rene liberar o acesso do Giuliano antes de qualquer remoção. Como o Rene é administrador da conta, e a Amanda (também administradora) já enviou a solicitação de acesso do Giuliano, por segurança da Meta é preciso que outro administrador aprove essa solicitação. Estamos aguardando o Rene liberar. O Giuliano já falou com o Alê, para o Alê falar com o Rene e agilizar o processo — o Rene precisa abrir o e-mail dele e aprovar a solicitação de adição do Giuliano, para que ele tenha acesso ao portfólio empresarial do Gerenciador de Anúncios da Meta.
+
+**Ação Amanda**: executar as remoções (Fator.ag, Solutions Engineering Team, Kommo) só depois que o Rene liberar o acesso do Giuliano.
 
 ## 3 · Lista semanal de conversões para o Google Ads
 
@@ -45,7 +47,9 @@ O Giuliano colocou, no documento de retorno de 28/10, a previsão de lançamento
 ## 5 · Segmentação da Meta — 2 ajustes
 
 - **Idade**: 28 a 65+ (em vez de 28 a 65) — a atualizar direto na campanha do Meta Ads.
-- **Listas diretas**: confirmar a origem de cada uma das 3 (Meta exige permissão de uso, LGPD pede base legal). **Pendente**: o Giuliano precisa confirmar a origem de cada lista antes de ativar.
+- **Listas diretas**: já são as listas que o Giuliano enviou anteriormente, já usadas em campanhas (lista de síndicos, lookalike dela e as demais) — não são listas novas, já estão aprovadas e já rodaram na Meta. Ponto resolvido, sem pendência.
+
+**Pendência nova**: a Amanda perguntou qual cartão o Giuliano vai usar pra cadastrar a conta na Nextags. Ele precisa indicar o cartão e mandar os dados (incluindo senha de segurança) pra esse cadastro ser feito.
 
 ## 6 · Vídeos do roteiro
 
@@ -63,14 +67,18 @@ Decisão fechada: Nextags é a ferramenta escolhida pros disparos para os síndi
 
 ## 9 · ElevaCast — convidados confirmados (2 episódios, gravação 18/11)
 
-- **Episódio 1**: síndico Alexandre, uma administradora, e Marco (fornecedor, representando a Kleenex).
-- **Episódio 2**: um síndico, uma administradora, e Ricardo (fornecedor, também representando a Kleenex).
+- **Episódio 1**: síndico Alexandre, uma administradora, e Marco (fornecedor, representando a CleanX).
+- **Episódio 2**: um síndico, uma administradora, e Ricardo (fornecedor, também representando a CleanX).
 
 Ambos gravados no dia 18/11.
 
-## 10 · Live com o Jayme
+## 10 · Live com o Jayme — retorno urgente necessário
 
-Giuliano tem reunião amanhã (29/10) com o Jayme para alinhar a temática da live. Pode ser que troque de convidado, porque a temática que o Jayme quer levar não é exatamente o que o Giuliano quer abordar. **Ele dá retorno sobre isso em seguida.**
+Giuliano tem reunião amanhã (29/10) com o Jayme para alinhar a temática da live. Pode ser que troque de convidado, porque a temática que o Jayme quer levar não é exatamente o que o Giuliano quer abordar.
+
+**A Amanda precisa de 3 respostas dele**: vai fazer a live com o Jayme ou com outra pessoa (ou sozinho, sem convidado)? Qual a data? Essas informações são necessárias pra construir a peça de divulgação, aprovar, e rodar pelo menos uma semana de tráfego pago levando gente pro perfil antes da live.
+
+**Prazo**: se a live for no dia 11/11, a Amanda precisa do retorno até sexta desta semana (30/10), pra criar as peças, aprovar na segunda que vem, e já rodar anúncio a tempo. Se for no dia 25/11, o retorno pode vir até a semana que vem, pra rodar o anúncio entre a semana do dia 8 e a semana do dia 15/11.
 
 ## 11 · Transição do episódio do ElevaCast — Amanda assume a parte do René
 
@@ -84,13 +92,15 @@ Giuliano tem reunião amanhã (29/10) com o Jayme para alinhar a temática da li
 ## Pendências
 
 **Do lado da Amanda:**
-- Remover Fator.ag, Solutions Engineering Team e Kommo do portfólio.
-- Deixar as campanhas prontas para 03/11.
+- Remover Fator.ag, Solutions Engineering Team e Kommo do portfólio — só depois que o Rene liberar o acesso do Giuliano.
+- Deixar as campanhas prontas para a data de lançamento (a confirmar: 03/11 ou 09/11).
 - Indicar um dev de segurança da informação.
 
 **Do lado do Giuliano:**
-- Confirmar a origem das 3 listas diretas da Meta.
+- Confirmar se a data de lançamento é 03/11 ou 09/11.
+- Agilizar com o Alê/Rene a liberação do seu acesso ao portfólio da Meta.
+- Indicar o cartão (e mandar os dados, incluindo senha de segurança) para o cadastro na Nextags.
 - Avisar quando o envio pelo servidor (API de Conversões) estiver pronto para o teste.
-- Dar o "pode lançar" no dia 03/11.
-- Retorno sobre a live com o Jayme (manteve ou trocou de convidado).
+- Dar o "pode lançar" na data de lançamento.
+- Retorno sobre a live: com quem, e qual data — até sexta (30/10) se for 11/11, ou até a semana que vem se for 25/11.
 - Gravar os vídeos do roteiro, nos próximos dias.
