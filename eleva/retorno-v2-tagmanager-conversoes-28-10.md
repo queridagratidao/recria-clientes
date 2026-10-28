@@ -37,15 +37,15 @@ De acordo, sem pendência.
 
 ## 6 · Acessos no portfólio "Eleva"
 
-- **Fator.ag e René Kasper**: removendo, incluindo o acesso de faturamento, como autorizado.
-- **Kommo**: provavelmente uma integração de CRM ativa (talvez de quando testaram a plataforma) — vamos verificar com calma antes de decidir, sem pressa de remover agora.
-- **Considere Feito**: é a empresa vinculada ao René Kasper — como ainda é uma parceria ativa de vocês, mantemos o acesso, mesmo removendo o acesso individual do René e da Fator.ag.
-- **Solutions Engineering Team**: pode remover, sem uso identificado.
+- **Fator.ag**: removendo, incluindo o acesso de faturamento, como autorizado.
+- **René Kasper e Considere Feito**: o René é vinculado à Considere Feito, e como ainda é uma parceria ativa de vocês, nossa sugestão é **manter o acesso dos dois juntos** — confirma se é isso mesmo que você quer?
+- **Solutions Engineering Team**: removendo, sem uso identificado.
+- **Kommo**: parece uma ferramenta de CRM — precisamos que você confirme: tem parceria fechada com eles, ou pretende fechar? Se não tiver e não pretender, também removemos.
 
 ---
 
 ## Próximos passos
 
 - **Eleva**: publicar o site com o Tag Manager (atrás do aceite) e o botão levando os códigos de clique — nos avisar quando estiver no ar.
-- **Recria**: conferir o container após a publicação; acesso de Fator.ag/René Kasper/Solutions Engineering Team sendo removido; acesso da Considere Feito mantido; Kommo em verificação.
+- **Recria**: conferir o container após a publicação; acesso de Fator.ag e Solutions Engineering Team sendo removido; acesso de René Kasper/Considere Feito mantido (a confirmar); Kommo aguardando resposta sobre parceria.
 - **Juntos**: o teste na tela "Eventos de teste", assim que o envio pelo servidor estiver pronto do lado de vocês.
