@@ -23,9 +23,9 @@ Pendente desde 23/10: passar pro Claude do Giuliano (que subiu a lista original)
 
 *(Prompt pronto pra isso logo abaixo, nesta pauta.)*
 
-## 4 · Live com o Jaime Marcos (com Y)
+## 4 · Live com o Jayme Marcos
 
-A Amanda mandou o contato dele pro Giuliano na sexta (23/10). **Cobrar**: ele já viu com o Jaime a data (11/11 ou 25/11, sugestão da Amanda)? Vai usar uma dessas datas ou prefere outra?
+A Amanda mandou o contato dele pro Giuliano na sexta (23/10). **Cobrar**: ele já viu com o Jayme a data (11/11 ou 25/11, sugestão da Amanda)? Vai usar uma dessas datas ou prefere outra?
 
 ## 5 · Linktree
 
