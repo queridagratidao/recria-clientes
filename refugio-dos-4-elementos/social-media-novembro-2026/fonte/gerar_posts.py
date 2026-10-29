@@ -29,6 +29,8 @@ def icon(img, xy, cor, sombra=False):
     img.alpha_composite(layer, xy)
 
 def wrap(d, txt, f, maxw):
+    if '\n' in txt:
+        return [l for parte in txt.split('\n') for l in wrap(d, parte, f, maxw)]
     linhas, cur = [], ''
     for w in txt.split():
         t = (cur + ' ' + w).strip()
@@ -96,7 +98,7 @@ J = lambda n: f'{n}_Jean_Amorim_27-07-26.jpg'
 
 post('post02_06-11_louvacao-novembro.jpg', J(182), 'Louvação · Novembro',
      'Um encontro mensal de fé, cura e gratidão.',
-     '[DATA A CONFIRMAR] · Quintal de Ogum, Cuiabá', 'Leia a legenda', TERRA, foco_y=0.30, foco_x=0.45)
+     'Sábado, 28/11 · Quintal de Ogum, Cuiabá', 'Leia a legenda', TERRA, foco_y=0.30, foco_x=0.45)
 
 # carrossel: capa com foto + cards so texto
 post('post03_11-11_carrossel-capa.jpg', J(211), 'Antes de começar',
@@ -122,21 +124,20 @@ for i, (lb, t, c, cor) in enumerate(cards, start=1):
     card(f'post03_11-11_carrossel-card{i + 1}.jpg', i, 8, lb, t, c, cor,
          cta='Comenta REFÚGIO' if i == 7 else None)
 
-post('post04_13-11_prazer-jean.jpg', J(329), 'Quem cuida de você',
-     'Prazer, Jean Carlos.',
-     'Constelador, analista comportamental e mestre em Reiki.', 'Conheça na legenda', LILAS, foco_y=0.12)
-post('post05_18-11_antes-da-sessao.jpg', J(59), 'Como funciona',
-     'Antes de qualquer sessão, existe uma conversa.',
-     'É nela que a gente entende qual caminho faz sentido pra você.', 'Continua na legenda', VERDE,
+post('post04_13-11_cofundadores.jpg', J(283), 'Quem cuida de você',
+     'Daniela e Joelson, de onde o Refúgio nasceu.',
+     'É na casa deles que o Refúgio acolhe, há 3 anos, quem chega.', 'Conheça na legenda', LILAS, foco_y=0.20)
+post('post05_18-11_antes-da-terapia.jpg', J(59), 'Como funciona',
+     'Antes de qualquer terapia,\nexiste uma conversa.',
+     'Para entendermos juntos qual é a melhor indicação pra você.', 'Continua na legenda', VERDE,
      foco_y=0.22, foco_x=0.55)
 post('post06_20-11_ancestralidade.jpg', J(237), 'Constelação Familiar',
-     'Você é a continuação de muitas histórias.',
-     'Honrar quem veio antes também é uma forma de cuidar de si.', 'Leia a legenda', TERRA, foco_y=0.20)
-post('post07_25-11_cofundadores.jpg', J(283), 'Quem cuida de você',
-     'Daniela e Joelson, de onde o Refúgio nasceu.',
-     'Há 3 anos acolhendo histórias, no tempo de cada pessoa.', 'Conheça na legenda', LILAS, foco_y=0.20)
-post('post08_27-11_processo.jpg', J(219), 'Sobre o cuidado',
-     'Transformação não cabe numa promoção relâmpago.',
-     'Ela acontece em processo. Por isso, quanto mais sessões, maior o desconto.', 'Continua na legenda', VERDE,
-     foco_y=0.30)
+     'Honrar quem veio antes\ntambém é cuidar de si.',
+     'Carregar crenças e traumas que limitam a sua vida, não.', 'Continua na legenda', TERRA, foco_y=0.20)
+post('post07_25-11_prazer-jean.jpg', J(329), 'Quem cuida de você',
+     'Prazer, Jean Carlos.',
+     'Constelador, analista comportamental e mestre em Reiki.', 'Conheça na legenda', LILAS, foco_y=0.12)
+post('post08_27-11_terapia-xamanica.jpg', J(219), 'Terapia Xamânica dos 4 Elementos',
+     'Tem ciclos que pedem mais do que conversa para se encerrar.',
+     'Terra, Água, Ar e Fogo como caminho de volta pra sua essência.', 'Leia a legenda', AZUL, foco_y=0.30)
 print('ok')

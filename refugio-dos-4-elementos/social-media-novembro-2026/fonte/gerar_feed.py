@@ -32,9 +32,9 @@ for it in ITENS:
 md += ['## Stories sugeridos', '']
 for s in STORIES:
     md.append(f"- **{s['id']} · {s['titulo']}:** " + ' → '.join(s['telas']) + f" ({s['nota']})")
-md += ['', '## Pendências', '', '- Data e tema da Louvação de novembro (06/11).', '- Confirmar qual post está agendado para 04/11.',
+md += ['', '## Pendências', '', '- Tema da Louvação de 28/11: será revelado no decorrer do mês (story de revelação).', '- Confirmar qual post está agendado para 04/11.',
        '- Palavra CONSTELAÇÃO na automação (ou trocar por REFÚGIO no post de 20/11).', '- Validar com Jean, Daniela e Joelson os textos de apresentação.',
-       '- Confirmar se os pacotes com desconto seguem valendo (post de 27/11).']
+       '- Validar com Daniela e Joelson o texto da Terapia Xamânica (27/11) e se ela também é feita online.']
 open(os.path.join(OUT, 'calendario-2026-11.md'), 'w').write('\n'.join(md) + '\n')
 
 # ---------- feed simulado ----------
