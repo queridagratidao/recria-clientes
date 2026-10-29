@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Feed Novembro 2026 · Refúgio dos 4 Elementos</title>
+<style>
+:root{--creme:#F7F3EC;--marrom:#3B2E2A;--lilas:#7852A0;--verde:#2E7845;--terra:#B85A2E;--azul:#4A9AB5;--linha:#e6ded3;--suave:#8a7b74}
+*{box-sizing:border-box;margin:0;padding:0}[hidden]{display:none!important}
+body{font-family:-apple-system,"Segoe UI",Roboto,sans-serif;background:#ece6dc;color:var(--marrom);min-height:100vh}
+.topo{max-width:1100px;margin:0 auto;padding:18px 16px 10px;display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;justify-content:space-between}
+.topo h1{font-family:Georgia,serif;font-weight:600;font-size:20px}
+.topo small{display:block;font-family:inherit;font-size:12px;color:var(--suave);font-weight:400;margin-top:2px}
+.aviso{font-size:12px;background:#fff7e6;border:1px solid #f0d9a8;color:#7a5a10;padding:6px 10px;border-radius:8px}
+.wrap{display:flex;justify-content:center;padding:6px 16px 40px}
+.fone{width:100%;max-width:420px;background:#fff;border-radius:34px;overflow:hidden;box-shadow:0 20px 50px rgba(59,46,42,.18);border:10px solid #1f1a18;position:relative;height:min(880px,calc(100vh - 110px));display:flex;flex-direction:column}
+@media(max-width:520px){.fone{border:0;border-radius:0;max-width:none;height:calc(100vh - 90px);box-shadow:none}.wrap{padding:0}}
+.tela{flex:1;overflow-y:auto}
+.cab{padding:14px 16px 6px;font-weight:700;font-size:17px;display:flex;align-items:center;gap:6px}
+.perfil{display:flex;gap:18px;align-items:center;padding:6px 16px}
+.avatar{width:78px;height:78px;border-radius:50%;background:var(--creme);border:2px solid var(--lilas);display:flex;align-items:center;justify-content:center;font-family:Georgia,serif;color:var(--lilas);font-size:12px;text-align:center;line-height:1.1;padding:6px;flex-shrink:0}
+.nums{display:flex;flex:1;justify-content:space-around;text-align:center;font-size:13px}
+.nums b{display:block;font-size:16px}
+.bio{padding:8px 16px 4px;font-size:13px;line-height:1.4;white-space:pre-line}
+.bio .cat{color:var(--suave)}
+.dest{display:flex;gap:14px;padding:12px 16px;overflow-x:auto}
+.dest div{text-align:center;font-size:11px;width:62px;flex-shrink:0}
+.dest span{display:flex;width:58px;height:58px;border-radius:50%;border:2px solid var(--linha);background:var(--creme);align-items:center;justify-content:center;margin:0 auto 4px;font-size:20px}
+.abas{display:flex;border-top:1px solid #eee;position:sticky;top:0;background:#fff;z-index:2}
+.abas button{flex:1;padding:11px 0;background:none;border:0;border-bottom:2px solid transparent;font-size:13px;color:var(--suave);cursor:pointer}
+.abas button.on{border-color:var(--marrom);color:var(--marrom);font-weight:600}
+.grade{display:grid;grid-template-columns:repeat(3,1fr);gap:2px}
+.cel{position:relative;aspect-ratio:4/5;overflow:hidden;cursor:pointer;background:var(--creme);border:0;padding:0}
+.cel img{width:100%;height:100%;object-fit:cover;display:block}
+.cel .dt{position:absolute;left:5px;bottom:5px;background:rgba(0,0,0,.6);color:#fff;font-size:11px;padding:2px 6px;border-radius:6px}
+.cel .ic{position:absolute;right:6px;top:6px;color:#fff;font-size:14px;text-shadow:0 1px 3px rgba(0,0,0,.6)}
+.cel .st{position:absolute;left:5px;top:5px;font-size:9px;font-weight:700;letter-spacing:.04em;padding:2px 5px;border-radius:5px;color:#fff}
+.cel.velho{cursor:default;opacity:.55}
+.sep{grid-column:1/-1;font-size:11px;color:var(--suave);padding:10px 12px;background:#faf8f4;text-align:center}
+.st-agendado{background:var(--azul)}.st-pendente{background:var(--terra)}.st-rascunho{background:var(--lilas)}
+/* post aberto */
+.post{display:none;position:absolute;inset:0;background:#fff;z-index:5;flex-direction:column}
+.post.on{display:flex}
+.post .barra{display:flex;align-items:center;gap:10px;padding:10px 14px;border-bottom:1px solid #eee;font-size:14px}
+.post .barra button{background:none;border:0;font-size:22px;cursor:pointer;color:var(--marrom);line-height:1}
+.post .corpo{flex:1;overflow-y:auto}
+.car{position:relative;overflow:hidden;aspect-ratio:4/5;background:var(--creme)}
+.trilho{display:flex;height:100%;transition:transform .3s ease}
+.trilho img{width:100%;flex-shrink:0;object-fit:cover;user-select:none;-webkit-user-drag:none}
+.seta{position:absolute;top:50%;transform:translateY(-50%);width:30px;height:30px;border-radius:50%;border:0;background:rgba(255,255,255,.85);cursor:pointer;font-size:16px;color:var(--marrom)}
+.seta.e{left:8px}.seta.d{right:8px}
+.cont{position:absolute;right:10px;top:10px;background:rgba(0,0,0,.6);color:#fff;font-size:12px;padding:3px 8px;border-radius:10px}
+.pontos{display:flex;justify-content:center;gap:4px;padding:8px}
+.pontos i{width:6px;height:6px;border-radius:50%;background:#d6cfe0}.pontos i.on{background:var(--lilas)}
+.acoes{display:flex;gap:16px;padding:4px 14px;font-size:20px}
+.leg{padding:6px 14px 10px;font-size:14px;line-height:1.5;white-space:pre-line}
+.leg b{font-weight:600}
+.meta{margin:4px 14px 10px;font-size:12px;color:var(--suave);display:flex;flex-wrap:wrap;gap:6px}
+.chip{background:var(--creme);border:1px solid var(--linha);border-radius:20px;padding:3px 9px}
+.interno{margin:4px 14px 12px;background:#fffaf0;border:1px dashed #e0c48a;border-radius:10px;padding:10px;font-size:12.5px;line-height:1.45}
+.interno b{color:var(--terra)}
+.aprova{margin:6px 14px 20px;padding:12px;border:1px solid var(--linha);border-radius:12px;background:var(--creme)}
+.aprova .id{font-size:12px;color:var(--suave);margin-bottom:8px}
+.aprova textarea{width:100%;min-height:60px;border:1px solid var(--linha);border-radius:8px;padding:8px;font:inherit;font-size:13px;margin:8px 0;display:none;background:#fff}
+.btns{display:flex;gap:8px;flex-wrap:wrap}
+.btn{border:0;border-radius:20px;padding:9px 16px;font-weight:600;font-size:13px;cursor:pointer;color:#fff;background:var(--verde)}
+.btn.aj{background:#fff;color:var(--terra);border:1px solid var(--terra)}
+.ok{font-size:12px;color:var(--verde);margin-top:8px;min-height:1em}
+/* stories */
+.sts{padding:14px;display:grid;gap:14px}
+.story{border-radius:16px;overflow:hidden;background:linear-gradient(160deg,var(--lilas),#4b3170);color:#fff;aspect-ratio:9/16;max-height:560px;position:relative;cursor:pointer;display:flex;flex-direction:column;justify-content:center;padding:28px 22px;text-align:center}
+.story .prog{position:absolute;top:10px;left:10px;right:10px;display:flex;gap:4px}
+.story .prog i{flex:1;height:3px;background:rgba(255,255,255,.35);border-radius:2px}.story .prog i.on{background:#fff}
+.story h3{font-family:Georgia,serif;font-weight:600;font-size:13px;letter-spacing:.06em;text-transform:uppercase;opacity:.8;margin-bottom:14px}
+.story p{font-family:Georgia,serif;font-size:21px;line-height:1.35}
+.story .tag{position:absolute;bottom:12px;left:0;right:0;font-size:11px;opacity:.8}
+.leg-st{font-size:12px;color:var(--suave);margin-top:-6px}
+.rodape{text-align:center;font-size:11px;color:var(--suave);padding:16px}
+</style>
+</head>
+<body>
+<div class="topo">
+  <h1>Refúgio dos 4 Elementos · Novembro 2026<small>__VERSAO__ · toque em um post para ver a legenda e aprovar</small></h1>
+  <span class="aviso">Simulação para aprovação, não é a publicação real</span>
+</div>
+<div class="wrap"><div class="fone" id="fone">
+  <div class="tela" id="tela">
+    <div class="cab" id="usuario"></div>
+    <div class="perfil"><div class="avatar">Refúgio dos 4 Elementos</div>
+      <div class="nums"><div><b id="nPosts"></b>posts</div><div><b id="nSeg"></b>seguidores</div><div><b id="nSeguindo"></b>seguindo</div></div></div>
+    <div class="bio" id="bio"></div>
+    <div class="dest"><div><span>🌿</span>Comece aqui</div><div><span>🔥</span>Terapias</div><div><span>🤍</span>Equipe</div><div><span>💬</span>Depoimentos</div><div><span>❔</span>Dúvidas</div></div>
+    <div class="abas"><button class="on" data-aba="feed">▦ Feed</button><button data-aba="stories">◯ Stories</button></div>
+    <div id="aba-feed" class="grade"></div>
+    <div id="aba-stories" class="sts" hidden></div>
+    <div class="rodape">Simulação feita pela RECRIA Marketing. Ícones genéricos, sem marca do Instagram.</div>
+  </div>
+  <div class="post" id="post">
+    <div class="barra"><button id="voltar" aria-label="Voltar">‹</button><b id="pUser"></b></div>
+    <div class="corpo" id="pCorpo"></div>
+  </div>
+</div></div>
+<script>
+/*__DADOS__*/
+const $=s=>document.querySelector(s), esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const P=DADOS.perfil, interno=DADOS.versao==='interno';
+$('#usuario').textContent=P.usuario; $('#pUser').textContent=P.usuario;
+$('#nPosts').textContent=P.posts+DADOS.itens.length; $('#nSeg').textContent=P.seguidores; $('#nSeguindo').textContent=P.seguindo;
+$('#bio').innerHTML='<b>'+esc(P.nome)+'</b>\n<span class="cat">'+esc(P.categoria)+'</span>\n'+esc(P.bio);
+const STL={agendado:'AGENDADO',pendente:'FALTA DADO',rascunho:'PARA APROVAR'};
+// grade: mais novo primeiro
+const g=$('#aba-feed'); const ord=[...DADOS.itens].sort((a,b)=>b.data.localeCompare(a.data));
+ord.forEach(it=>{const b=document.createElement('button');b.className='cel';b.setAttribute('aria-label',it.tema);
+  b.innerHTML=`<img src="${it.thumb}" alt=""><span class="dt">${it.dataBr}</span>${it.src.length>1?'<span class="ic">❐</span>':''}<span class="st st-${it.status}">${STL[it.status]||''}</span>`;
+  b.onclick=()=>abrir(it);g.appendChild(b)});
+const sep=document.createElement('div');sep.className='sep';sep.textContent='Já publicados em outubro';g.appendChild(sep);
+DADOS.antigos.forEach(a=>{const d=document.createElement('div');d.className='cel velho';d.innerHTML=`<img src="${a.thumb}" alt=""><span class="dt">${a.dataBr}</span>`;g.appendChild(d)});
+// stories
+const sts=$('#aba-stories');
+DADOS.stories.forEach(s=>{let i=0;const w=document.createElement('div');
+  const st=document.createElement('div');st.className='story';
+  const draw=()=>{st.innerHTML=`<div class="prog">${s.telas.map((_,k)=>`<i class="${k<=i?'on':''}"></i>`).join('')}</div><h3>${esc(s.titulo)}</h3><p>${esc(s.telas[i])}</p><div class="tag">Sugestão · toque para avançar · ${s.id}</div>`};
+  st.onclick=()=>{i=(i+1)%s.telas.length;draw()};draw();w.appendChild(st);
+  if(interno){const n=document.createElement('p');n.className='leg-st';n.textContent=s.nota;w.appendChild(n)}
+  sts.appendChild(w)});
+document.querySelectorAll('.abas button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.abas button').forEach(x=>x.classList.toggle('on',x===b));
+  $('#aba-feed').hidden=b.dataset.aba!=='feed';$('#aba-stories').hidden=b.dataset.aba!=='stories'});
+// post aberto
+function abrir(it){
+  const n=it.src.length;let k=0;
+  const c=$('#pCorpo');
+  c.innerHTML=`<div class="car"><div class="trilho">${it.src.map(s=>`<img src="${s}" alt="">`).join('')}</div>
+    ${n>1?'<button class="seta e" aria-label="Anterior">‹</button><button class="seta d" aria-label="Próximo">›</button><span class="cont"></span>':''}</div>
+    ${n>1?`<div class="pontos">${it.src.map(()=>'<i></i>').join('')}</div>`:''}
+    <div class="acoes">♡ 💬 ➤</div>
+    <div class="leg"><b>${esc(P.usuario)}</b> ${esc(it.legenda)}</div>
+    <div class="meta"><span class="chip">${it.dia} ${it.dataBr}</span><span class="chip">${it.tipo}</span><span class="chip">Palavra-chave: ${esc(it.automacao)}</span></div>
+    ${interno?`<div class="interno"><b>Objetivo:</b> ${esc(it.objetivo)}<br>${it.foto?`<b>Foto:</b> ${esc(it.foto)}<br>`:''}<b>Nota:</b> ${esc(it.nota)}</div>`:''}
+    <div class="aprova"><div class="id">${it.id} · ${esc(it.tema)}</div>
+      <div class="btns"><button class="btn ap">Aprovar</button><button class="btn aj">Pedir ajuste</button></div>
+      <textarea placeholder="O que você quer ajustar?"></textarea><div class="ok"></div></div>`;
+  const tr=c.querySelector('.trilho'),cont=c.querySelector('.cont'),pts=c.querySelectorAll('.pontos i');
+  const go=v=>{k=Math.max(0,Math.min(n-1,v));tr.style.transform=`translateX(${-100*k}%)`;if(cont)cont.textContent=`${k+1}/${n}`;pts.forEach((p,j)=>p.classList.toggle('on',j===k))};
+  if(n>1){c.querySelector('.seta.e').onclick=()=>go(k-1);c.querySelector('.seta.d').onclick=()=>go(k+1);
+    let x0=null;tr.addEventListener('touchstart',e=>x0=e.touches[0].clientX,{passive:true});
+    tr.addEventListener('touchend',e=>{if(x0===null)return;const dx=e.changedTouches[0].clientX-x0;if(Math.abs(dx)>40)go(k+(dx<0?1:-1));x0=null})}
+  go(0);
+  const ta=c.querySelector('textarea'),ok=c.querySelector('.ok');
+  const enviar=t=>{if(DADOS.whats){window.open('https://wa.me/'+DADOS.whats+'?text='+encodeURIComponent(t),'_blank');ok.textContent='Abrindo o WhatsApp…'}
+    else{(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>ok.textContent='Copiado! Cole no WhatsApp: "'+t+'"').catch(()=>ok.textContent='Envie no WhatsApp: "'+t+'"')}};
+  c.querySelector('.ap').onclick=()=>enviar('Aprovo '+it.id);
+  c.querySelector('.aj').onclick=()=>{if(ta.style.display!=='block'){ta.style.display='block';ta.focus();return}
+    if(!ta.value.trim()){ta.focus();return}enviar('Ajuste em '+it.id+': '+ta.value.trim())};
+  $('#post').classList.add('on');c.scrollTop=0}
+$('#voltar').onclick=()=>$('#post').classList.remove('on');
+</script>
+</body>
+</html>
