@@ -376,7 +376,7 @@ Cada criativo tem 2 versões em PNG: `feed-1x1/` (1080x1080) e `stories-9x16/` (
 
 ## 21-empresa-mes
 
-**Título:** De uma semana a 30 dias, sem contrato
+**Título:** De 1 semana a 30 dias, sem contrato
 
 **Botão:** Saiba mais
 
@@ -384,7 +384,7 @@ Cada criativo tem 2 versões em PNG: `feed-1x1/` (1080x1080) e `stories-9x16/` (
 
 **Texto principal:**
 
-> De uma semana a 30 dias de anúncios, sem contrato.
+> De 1 semana a 30 dias de anúncios, sem contrato para o seu negócio.
 >
 > Gestão a partir de R$ 100 por semana ou R$ 400 por mês, mais a verba do tráfego pago (de R$ 50 a R$ 100 por semana, paga direto no Instagram).
 >
