@@ -166,7 +166,7 @@ Substitui o `03-roteiro-vsl.md` quando os anúncios de 4 ganchos (`06`) forem os
 ---
 
 > ### 🔔 BOTÃO APARECE AQUI · `[~13:30]` ≈ 70% do vídeo
-> Anotar o segundo exato em que a Camila diz **"Por isso eu criei a Comunidade AME-SE"** (bloco 14) e colocar em `TEMPO_REVELACAO_SEGUNDOS` na página (13:30 = 810 segundos pela estimativa; o trecho pessoal do bloco 7 pode empurrar uns 20 segundos).
+> Neste ponto a página revela a oferta e o botão de compra. O tempo exato é ajustado na página depois que a aula for gravada.
 
 ---
 

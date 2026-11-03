@@ -21,32 +21,8 @@ O curso é **Comunidade AME-SE** (site atual, automações e materiais de novemb
 
 ---
 
-## Página: onde trocar o vídeo, o checkout e o tempo de revelação
-
-Abra `camila-sartori/site-vsl/index.html` e vá até o bloco **CONFIGURAÇÃO** (no `<script>` do final do arquivo). Só isso precisa ser mexido:
-
-```js
-var CONFIG = {
-  TEMPO_REVELACAO_SEGUNDOS: 810,   // ← segundo em que a oferta aparece (v2: ~13:30)
-  DURACAO_VIDEO_SEGUNDOS: 1170,    // ← duração total do vídeo (para os eventos de 25/50/70%)
-  VIDEO_TIPO: "placeholder",       // ← "youtube", "vimeo", "mp4" ou "iframe" (Panda e outros)
-  VIDEO_ID: "",                    // ← ID do YouTube/Vimeo, URL do mp4 ou URL do embed
-  LINK_CHECKOUT: "COLE_AQUI_O_LINK_DO_CHECKOUT_HOTMART"
-};
-```
-
-**Como achar o tempo certo:** depois de editar a VSL, anote o segundo em que a Camila diz **"Por isso eu criei a Comunidade AME-SE"** (bloco 14). Converta para segundos (ex.: 13:10 = 13×60+10 = **790**) e coloque em `TEMPO_REVELACAO_SEGUNDOS`. A estimativa pelo roteiro é ~13:10, mas o tempo real muda com o ritmo da fala e com o trecho pessoal do bloco 7.
-
-**Como a revelação funciona**
-- **YouTube (não listado), Vimeo e mp4:** a página lê o tempo real do player. A oferta aparece quando a pessoa **chega** naquele ponto do vídeo (se pular para frente, também aparece).
-- **`iframe` (ex.: Panda Video) ou placeholder:** o player não informa o tempo, então a página usa um **cronômetro** do tempo em que a página ficou aberta e visível. É aproximado; se for usar Panda, prefira o YouTube/Vimeo para o teste ou aceite essa margem.
-- Quem já chegou no pitch uma vez vê a página completa quando voltar (fica salvo no navegador).
-- `?oferta=1` no fim do link abre a página **já com a oferta** (use no remarketing do público que chegou a 70%).
-- `?teste=1` revela em 5 segundos, para testar no celular antes de subir.
-
-**Pixel (mesmo ID do site atual):** `PageView`, `ViewContent`, eventos personalizados `VSL_25`, `VSL_50`, `VSL_70` e `VSL_Pitch_Revelado`, e `InitiateCheckout` no clique dos botões. Os UTMs que chegam na página são repassados para o link do checkout. `Purchase` continua vindo da Hotmart (conferir se a integração do pixel na Hotmart está ativa).
-
-**Publicar:** a página tem `noindex` (não aparece no Google). Subir como página separada, por exemplo `curso-ame-se.camilasartori.com.br/aula` ⚠️ (confirmar com quem hospeda o site atual). Testar no celular com `?teste=1` antes de ligar o anúncio.
+## Página
+A página nova fica em `camila-sartori/site-vsl/index.html`. Vídeo, link do checkout e o momento em que o resto da página aparece serão ajustados junto com a Amanda, pelo GitHub, quando a aula estiver gravada.
 
 ---
 
@@ -98,11 +74,10 @@ Sem promessa de resultado, cura ou prazo (a VSL diz explicitamente que "não é 
 **Como ficou:** as 10 primeiras compras até uma **data real** ganham um **encontro individual de mentoria** de ~30 min com a Camila (não é sessão de terapia). Ela chama no privado depois da compra.
 
 **Por que não do jeito "se o botão está aparecendo, você ainda tem chance":** o botão aparece para todo mundo, sempre, então a frase seria escassez falsa (seção 7 do playbook). A versão honesta usa um **aviso separado na página**, que só aparece enquanto a condição vale de verdade:
-- no bloco `CONFIG` da página: `BONUS_ATIVO`, `BONUS_VAGAS_RESTANTES`, `BONUS_DATA_LIMITE`, `BONUS_DATA_TEXTO`, `BONUS_DURACAO_MIN`;
 - o aviso **some sozinho** quando a data passa ou quando as vagas chegam a 0;
-- **as vagas precisam ser atualizadas à mão** conforme as vendas confirmadas na Hotmart (uma vez por dia basta). Se ninguém for atualizar, melhor não mostrar o número de vagas;
+- **as vagas precisam ser atualizadas** conforme as vendas confirmadas na Hotmart (uma vez por dia basta). Se ninguém for atualizar, melhor não mostrar o número de vagas;
 - na VSL a Camila fala "se você ainda está vendo o aviso do encontro individual aqui embaixo, ele ainda está valendo", o que é verdade enquanto a página for mantida.
-- Vem desligado (`BONUS_ATIVO: false`) até a Camila aprovar.
+- Vem desligado até a Camila aprovar.
 
 **Sorteio:** fica fora. No Brasil, sorteio em promoção comercial precisa de autorização prévia do governo; "as 10 primeiras" resolve sem isso.
 

@@ -5,7 +5,7 @@
 - Tudo que está em citação (`>`) é **fala da Camila**, escrito pra ser dito em voz alta, no tom dela (você, frases curtas, acolhedor e direto). Pode e deve adaptar palavras pra ficar natural na boca dela, sem mudar o sentido dos trechos marcados.
 - **B-roll** e **tela** são sugestões de edição. Sempre sem pacientes, sem rostos de terceiros e sem imagem de banco "mulher chorando na janela".
 - Se precisar encurtar para ~15 min: tirar a metáfora do frio na barriga (bloco 9, ela volta no anúncio de remarketing), o bloco 18 e as objeções "tempo" e "largo no meio" do bloco 23.
-- Tempos calculados a ~150 palavras/minuto (`[mm:ss]` = início aproximado do bloco). Depois de gravar, conferir o tempo real e atualizar o tempo de revelação da página (ver `00-LEIA-ME.md`).
+- Tempos calculados a ~150 palavras/minuto (`[mm:ss]` = início aproximado do bloco).
 - **⚠️ [VALIDAR CAMILA]** = trecho que ela precisa aprovar antes de gravar.
 - Pode ser gravado em 3 sessões curtas: **A** (blocos 1 a 8), **B** (blocos 9 a 13, a aula), **C** (blocos 14 a 26, a oferta). Mesma roupa e cenário nas três.
 
@@ -156,7 +156,7 @@
 ---
 
 > ### 🔔 BOTÃO APARECE AQUI · `[~13:10]` ≈ 68 a 70% do vídeo
-> É neste ponto que a página revela a oferta e o botão de compra. Depois de gravar e editar, anotar o segundo exato em que a Camila diz **"Por isso eu criei a Comunidade AME-SE"** (bloco 14) e usar esse número na página (`TEMPO_REVELACAO_SEGUNDOS`). Ver `00-LEIA-ME.md`.
+> Neste ponto a página revela a oferta e o botão de compra. O tempo exato é ajustado na página depois que a aula for gravada.
 
 ---
 
