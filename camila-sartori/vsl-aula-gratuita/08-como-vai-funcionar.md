@@ -23,6 +23,8 @@ Em vez de anunciar o curso, a gente vai anunciar **uma aula gratuita**. A aula e
 
 ![Exemplo de anúncio-aula](exemplo-anuncio-frames.jpg)
 
+**▶ Assistir o vídeo de exemplo completo:** [abrir no Google Drive](https://drive.google.com/file/d/1bAlVBAsnTePvKjsi7Yj_WWJEE-PRtma-/view?usp=sharing)
+
 *Referência de mercado: anúncio-aula de outra criadora de conteúdo (Kamily Rebelatto, Método Prisma), que usa exatamente esse modelo. É só para mostrar o formato. **No nosso caso, no lugar dela vai estar o vídeo da Camila**, com o conteúdo e o jeito dela.*
 
 O que reparar nesse exemplo (de 2min30):
