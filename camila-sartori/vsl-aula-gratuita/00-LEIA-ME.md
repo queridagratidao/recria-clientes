@@ -67,7 +67,7 @@ Se a VSL entrar no ar durante essa janela, há duas saídas honestas: (a) só su
 ---
 
 ## Limites aplicados (seção 7 do playbook)
-Sem promessa de resultado, cura ou prazo (a VSL diz explicitamente que "não é de um dia pro outro" e "não vou te prometer que o padrão vai desaparecer"). Sem depoimento, sem número de alunas, sem escassez, sem sorteio, sem ancoragem inventada. Garantia de reembolso de 7 dias, sim; garantia de resultado, não. "Não substitui terapia" aparece no anúncio, na VSL, na página e no FAQ, e a página indica o CVV (188) para quem está em sofrimento intenso.
+Sem promessa de resultado, cura ou prazo (a VSL diz explicitamente que "não é de um dia pro outro" e "não vou te prometer que o padrão vai desaparecer"). Sem depoimento, sem número de alunas, sem sorteio, sem ancoragem inventada. A escassez usada é só a real: a aula sai do ar quando a campanha pausa, o valor é de lançamento das primeiras turmas e o bônus é das 10 primeiras. Garantia de reembolso de 7 dias, sim; garantia de resultado, não. "Não substitui terapia" aparece no anúncio, na VSL, na página e no FAQ, e a página indica o CVV (188) para quem está em sofrimento intenso.
 
 ---
 
@@ -79,7 +79,7 @@ Sem promessa de resultado, cura ou prazo (a VSL diz explicitamente que "não é 
 - o aviso **some sozinho** quando a data passa ou quando as vagas chegam a 0;
 - **as vagas precisam ser atualizadas** conforme as vendas confirmadas na Hotmart (uma vez por dia basta). Se ninguém for atualizar, melhor não mostrar o número de vagas;
 - na VSL a Camila fala "se você ainda está vendo o aviso do encontro individual aqui embaixo, ele ainda está valendo", o que é verdade enquanto a página for mantida.
-- Vem desligado até a Camila aprovar.
+- Está **ligado** na página, valendo até acabarem as 10 vagas (sem data). Dá para colocar uma data limite, se quiserem.
 
 **Sorteio:** fica fora. No Brasil, sorteio em promoção comercial precisa de autorização prévia do governo; "as 10 primeiras" resolve sem isso.
 

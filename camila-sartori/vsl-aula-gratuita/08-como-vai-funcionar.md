@@ -53,7 +53,12 @@ O que reparar nesse exemplo (de 2min30):
 - **Grupo VIP (WhatsApp):** R$ 97.
 - **Quem chega pelos anúncios:** R$ 157, em até 12x.
 - A Camila **não fala o número do preço na gravação**. Ela fala "o valor que está aparecendo aí na sua tela", e **o valor entra na edição**. Assim o mesmo vídeo serve para R$ 97, R$ 157 ou um valor futuro (por exemplo R$ 197), sem precisar regravar.
-- O mesmo vale para o **bônus das 10 primeiras** (encontro individual de mentoria): entra como uma etiqueta na edição e um aviso na página, e sai quando as 10 vagas forem preenchidas.
+- O mesmo vale para o **bônus das 10 primeiras** (acompanhamento individual em formato de mentoria): entra como uma etiqueta na edição e um aviso logo abaixo do vídeo, na página, e sai quando as 10 vagas forem preenchidas.
+
+## Escassez (só a verdadeira)
+- **A aula sai do ar quando a campanha pausar.** A página e o link da automação são desligados junto.
+- **Valor de lançamento das primeiras turmas.** Conforme entram novas turmas, com mais encontros em grupo, o valor tende a subir (por exemplo, para R$ 197).
+- **As 10 primeiras** ganham o acompanhamento individual em formato de mentoria. Acabou, sai da página e do vídeo.
 
 ---
 
@@ -84,8 +89,8 @@ Pelo Código de Ética do psicólogo e pela regra da agência, a gente **não us
 |---|---|
 | "Poderia custar mais de R$ 2.000" | "Já custou R$ 297" (é real) e "menos de um real por dia" |
 | "7 dias grátis" | "7 dias de garantia" (a pessoa paga e pode pedir o dinheiro de volta) |
-| "A aula pode sair do ar a qualquer momento" | "A aula fica no ar até [data]", **com uma data real** que a gente cumpra |
-| "O preço pode aumentar a qualquer momento" | "Esse é o valor desta fase; depois de [data] ele passa a ser R$ 197", **só se for verdade** |
+| Data inventada para a aula sair do ar | "A aula pode sair do ar a qualquer momento" **fica**, porque é verdade: quando a campanha pausar, a página da aula sai do ar |
+| "O preço pode aumentar a qualquer momento" | "Esse é o valor de lançamento das primeiras turmas; com novas turmas e mais encontros, a tendência é subir" (o aumento precisa acontecer de fato) |
 | "Você vai mudar em 7 dias" / "vai curar" | "Não é de um dia pro outro, mas o padrão pode deixar de dirigir sozinho" |
 | Sorteio | "As 10 primeiras" (sorteio precisa de autorização do governo) |
 | Sessão de terapia de brinde | Encontro individual **de mentoria do curso**, não de terapia |

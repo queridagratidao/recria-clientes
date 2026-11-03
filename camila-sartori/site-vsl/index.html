@@ -253,7 +253,7 @@ fbq('track', 'ViewContent', {content_name: 'VSL Padrao de Casa'});
       </div>
     </div>
     <p class="dica-som">🔊 Ative o som e assista com calma. No meio da aula tem um exercício para fazer no papel.</p>
-    <p class="aviso-curto">Conteúdo educativo. Não substitui acompanhamento psicológico.</p>
+    <p class="aviso-curto">Aula disponível enquanto a campanha estiver no ar. Conteúdo educativo, não substitui acompanhamento psicológico.</p>
   </div>
 </section>
 
@@ -266,15 +266,15 @@ fbq('track', 'ViewContent', {content_name: 'VSL Padrao de Casa'});
   <section class="compra-topo">
     <div class="container">
       <div class="bonus10" id="bonus10">
-        <p class="t">🎁 Para as 10 primeiras até <span class="js-bonus-data">[data]</span></p>
-        <p>Um encontro individual de mentoria comigo, online, de <span class="js-bonus-duracao">30</span> minutos, para olharmos juntas por onde começar o curso. Não é sessão de terapia. Depois da compra, eu te chamo no privado para combinar o horário.</p>
+        <p class="t">🎁 Para as 10 primeiras<span class="js-bonus-data-wrap"> até <span class="js-bonus-data"></span></span></p>
+        <p>Um acompanhamento individual comigo, em formato de mentoria, online, de <span class="js-bonus-duracao">30</span> minutos, para olharmos juntas por onde começar o curso. Não é sessão de terapia. Depois da compra, eu te chamo no privado para combinar o horário.</p>
         <span class="vagas"><span class="js-bonus-vagas">10</span> de 10 ainda disponíveis</span>
       </div>
       <div class="cartao-compra">
         <p class="nome">Comunidade AME-SE</p>
         <p style="color:var(--texto-claro);margin-bottom:14px;">Curso online de autoconhecimento e autoestima para mulheres, com base na terapia do esquema e na TCC</p>
         <p class="parcela"><span>12x de</span> R$ 16,24</p>
-        <p class="avista">ou R$ 157 à vista</p>
+        <p class="avista">ou R$ 157 à vista · valor de lançamento das primeiras turmas</p>
         <a class="btn js-checkout" href="#" target="_blank" rel="noopener">Quero entrar na Comunidade AME-SE<small>acesso imediato pela Hotmart</small></a>
         <div class="icones">
           <div class="icone"><div class="ic">📱</div><div><b>Pelo celular</b>área de membros da Hotmart</div></div>
@@ -468,10 +468,10 @@ var CONFIG = {
 
   // Bônus das 10 primeiras (encontro individual de mentoria).
   // ATUALIZAR À MÃO conforme as vendas na Hotmart. Com 0 vagas ou depois da data, o aviso some sozinho.
-  BONUS_ATIVO: false,              // true quando a Camila aprovar a condição
+  BONUS_ATIVO: true,               // false para esconder o aviso
   BONUS_VAGAS_RESTANTES: 10,       // diminuir a cada venda confirmada
-  BONUS_DATA_LIMITE: "2026-11-30T23:59:00-03:00", // data e hora reais de encerramento
-  BONUS_DATA_TEXTO: "30/11",       // como a data aparece na página
+  BONUS_DATA_LIMITE: "",           // opcional: "2026-11-30T23:59:00-03:00". Vazio = vale até acabarem as vagas
+  BONUS_DATA_TEXTO: "",            // opcional: "30/11"
   BONUS_DURACAO_MIN: 30
 };
 /* ===================================================================== */
@@ -533,7 +533,8 @@ var CONFIG = {
   if (params.get('oferta') === '1' || jaViu()) { revelar('retorno'); }
 
   // Bônus das 10 primeiras: só aparece se ativo, com vagas e dentro do prazo
-  var bonusValido = CONFIG.BONUS_ATIVO && CONFIG.BONUS_VAGAS_RESTANTES > 0 && new Date() < new Date(CONFIG.BONUS_DATA_LIMITE);
+  var bonusValido = CONFIG.BONUS_ATIVO && CONFIG.BONUS_VAGAS_RESTANTES > 0 && (!CONFIG.BONUS_DATA_LIMITE || new Date() < new Date(CONFIG.BONUS_DATA_LIMITE));
+  if (!CONFIG.BONUS_DATA_TEXTO) { document.querySelectorAll('.js-bonus-data-wrap').forEach(function(e){ e.remove(); }); }
   if (bonusValido) {
     document.querySelectorAll('.js-bonus-data').forEach(function(e){ e.textContent = CONFIG.BONUS_DATA_TEXTO; });
     document.querySelectorAll('.js-bonus-vagas').forEach(function(e){ e.textContent = CONFIG.BONUS_VAGAS_RESTANTES; });

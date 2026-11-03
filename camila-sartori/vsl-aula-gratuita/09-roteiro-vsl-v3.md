@@ -24,6 +24,7 @@ Esta é a versão para gravar. Segue de perto a estrutura da VSL de referência 
 ### Bloco 2 · A promessa da aula `[00:47]`
 > Nesse vídeo, que é gratuito e que eu gravei só pra isso, eu vou te explicar do começo ao fim, na ordem certa, por que esse padrão se repete, como ele aparece no amor, na família, nas amizades e no trabalho, e quais são os quatro passos que eu uso pra começar a perceber e escolher diferente.
 > Tudo que eu estudei em anos de faculdade, mestrado, doutorado e mais de três mil horas de atendimento, eu vou te mostrar aqui de um jeito simples, sem termo complicado.
+> E assiste até o final, de preferência agora: essa aula fica no ar só enquanto essa campanha estiver rodando. Quando ela pausar, a aula sai do ar junto.
 
 ### Bloco 3 · O centro de tudo `[01:22]`
 > E eu vou te adiantar a frase mais importante dessa aula: **o seu cérebro confunde o que é familiar com o que é seguro.** Guarda essa frase. Daqui a pouco você vai entender por que ela explica tanta coisa na sua vida.
@@ -203,12 +204,14 @@ Esta é a versão para gravar. Segue de perto a estrutura da VSL de referência 
 
 ⚠️ [VALIDAR CAMILA: (1) citar o preço anterior de R$ 297 é opcional; (2) "menos de um real por dia" vale até ~R$ 360/ano]
 
-### Bloco 19 · Urgência real (só se for verdade) `[17:39]`
-> Esse é o valor desta primeira fase da Comunidade nesse formato. Depois de **[DATA]**, ele passa a ser **[NOVO VALOR]**.
+### Bloco 19 · Valor de lançamento + escassez real `[17:39]`
+> E presta atenção nisso: como a gente está nas primeiras turmas, esse é o valor inicial de lançamento.
+> Conforme a comunidade cresce e entram novas turmas, os encontros em grupo comigo também aumentam, e cada turma nova pede mais da minha agenda e mais investimento. Então a tendência é que o valor continue acessível, mas suba. Ele não vai ficar nesse valor pra sempre.
+> E essa aula, com essa condição, fica no ar só enquanto essa campanha estiver rodando.
 
-⚠️ [VALIDAR CAMILA: **gravar este bloco só se existir uma data real** em que o preço vai subir (por exemplo, para R$ 197) e se ela for cumprir. Se não houver, cortar o bloco. Como o número não é falado, dá para gravar uma versão sem valor: "depois dessa fase, o valor vai mudar".]
+⚠️ [VALIDAR CAMILA: (1) o aumento de preço precisa realmente acontecer nas próximas turmas (por exemplo, para R$ 197); (2) confirmar que a comunidade funciona em turmas, com encontros por turma. Como a fala não diz o número nem a data, o vídeo continua servindo depois do aumento.]
 
-🎬 [EDIÇÃO] **Etiqueta das 10 primeiras** (a Camila não fala; entra só na edição e na página): *"🎁 As 10 primeiras ganham um encontro individual de mentoria com a Camila"*. Tirar a etiqueta do vídeo e o aviso da página quando as 10 forem preenchidas. ⚠️ [VALIDAR CAMILA: agenda para 10 encontros; enquadrar como **mentoria do curso, não sessão de terapia**]
+🎬 [EDIÇÃO] **Etiqueta das 10 primeiras** (a Camila não fala; entra na edição e logo abaixo do vídeo, na página): *"🎁 As 10 primeiras ganham um acompanhamento individual em formato de mentoria com a Camila"*. Tirar a etiqueta do vídeo e o aviso da página quando as 10 forem preenchidas. ⚠️ [VALIDAR CAMILA: agenda para 10 encontros; enquadrar como **mentoria do curso, não sessão de terapia**]
 
 ### Bloco 20 · A objeção como sintoma `[17:47]`
 > E eu vou te avisar uma coisa, porque ela pode acontecer agora, enquanto você assiste. O seu Padrão de Casa vai tentar te tirar daqui. Você vai ouvir uma voz dizendo: "isso não é pra mim", "eu já tentei de tudo", "depois eu vejo", "não é hora de gastar comigo".
@@ -245,6 +248,6 @@ Esta é a versão para gravar. Segue de perto a estrutura da VSL de referência 
 🎬 [EDIÇÃO] B-roll calmo: mão escrevendo, xícara, janela, celular virado pra baixo na mesa.
 > Eu não vou te prometer que o padrão vai desaparecer. O que eu vejo no consultório, e o que a terapia do esquema mostra, é que ele pode deixar de dirigir sozinho.
 > Imagina perceber o aperto chegando e, pela primeira vez, ter um segundo de espaço. Conseguir dizer não pra sua mãe sem passar a semana culpada. Pedir ajuda pra uma amiga. Receber um elogio e só agradecer.
-> Se você quer começar esse caminho comigo, o botão está aqui embaixo. Eu vou ficar muito feliz de te receber lá dentro.
+> Se você quer começar esse caminho comigo, o botão está aqui embaixo, com o valor de lançamento das primeiras turmas. Lembra que essa aula sai do ar quando essa campanha pausar. Eu vou ficar muito feliz de te receber lá dentro.
 
 🎬 [EDIÇÃO] tela final: *A Comunidade AME-SE é um curso de autoconhecimento e não substitui acompanhamento psicológico. Camila Sartori · Psicóloga · CRP [número]*
