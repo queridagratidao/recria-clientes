@@ -6,15 +6,15 @@
 
 ## 1 · Chave da API de Conversões
 
-Já tínhamos enviado o token, na semana passada (28/10), por um link do onetimesecret.com — mas esse link tinha validade de 3 dias, e já expirou antes do uso.
+É o mesmo token que já tínhamos enviado na semana passada (28/10), junto com o passo a passo de como usar — se esse passo a passo já foi seguido e o token já está colado no servidor, não precisa fazer nada, pode ignorar esse item.
 
-**Pergunta**: você chegou a salvar aquele token em algum lugar? Se sim, não precisa de nada novo.
-
-Se não salvou, segue um **novo link**, já gerado, com o mesmo cuidado de segurança de antes:
+Se ainda não foi usado: o link antigo tinha validade de 3 dias e já expirou, por isso segue um link novo, com o mesmo token, pronto para uso:
 
 https://us.onetimesecret.com/secret/fv8qmsg1oldxkamunia50cx5g57psuleu06j718fn6lwq1ohf9uvkigupm8toe
 
-Esse link só abre **uma vez** — clique nele só na hora de colar o token direto no servidor do portal, com o Claude do Giuliano.
+**Como esse link funciona, explicando bem simples**: ele é uma página que mostra o token **uma única vez**. Assim que alguém clicar e abrir essa página, o conteúdo aparece na tela — e, no mesmo instante, o link já deixa de funcionar para sempre. Se clicar de novo depois, ou se outra pessoa tentar abrir, não vai aparecer mais nada, porque já foi "gasto".
+
+Por isso, o cuidado é: **só clicar nesse link no exato momento em que for usar o token** (ou seja, na hora de colar ele no servidor do portal, com o Claude). Não é para abrir antes só para conferir, nem para guardar o link para depois — tem que ser clique e uso, na sequência, sem demora.
 
 ## 2 · Confirmação dos itens do ponto 3
 
