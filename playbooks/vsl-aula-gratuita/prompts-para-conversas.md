@@ -51,20 +51,47 @@ Salva tudo numa pasta nova e faz commit no repositório certo (me pergunta se fi
 
 ---
 
-## 3. Recria · vender serviço de marketing
+## 3. Recria · programa de acompanhamento 60 dias (R$1.497)
 
 ```
-Puxa o repositório do GitHub queridagratidao/recria-clientes e lê playbooks/vsl-aula-gratuita/PLAYBOOK.md (nosso padrão de VSL) e playbooks/vsl-aula-gratuita/referencia-kamilyrebs/anuncio-reimpacto.md. Depois lê a pasta recria/ (fluxo-recria-ads.md, funil-upsell-downsell.md, esteira-e-calendario-recriadores.md e a pasta vsl-recria-ads/) para entender o que a agência já vende e o que já existe de VSL.
+Puxa o repositório do GitHub queridagratidao/recria-clientes e lê:
+1. playbooks/vsl-aula-gratuita/PLAYBOOK.md (nosso padrão de VSL) e playbooks/vsl-aula-gratuita/referencia-kamilyrebs/anuncio-reimpacto.md
+2. recria/esteira-e-calendario-recriadores.md (esteira de produtos), recria/funil-upsell-downsell.md, recria/fluxo-recria-ads.md, recria/mini-mentoria-processo.md e recria/hotmart-cadastro-mentoria.md
+3. a pasta recria/vsl-recria-ads/ (o que já existe de VSL)
 
-Quero testar o modelo do playbook para vender serviço de marketing da Recria: anúncio que chama para uma aula gratuita (ex.: por que o pequeno negócio posta todo dia e não vende), a aula entrega valor de verdade e no fim leva para a oferta. Antes de escrever, me pergunta qual oferta vai no fim: o Recria Ads de R$97, um diagnóstico, ou um pacote de serviço (Presença Essencial R$500/mês, Pacote inicial R$1.500/mês). Se for serviço, o CTA do fim é agendar o diagnóstico.
+DECISÃO DE OFERTA (já pensada, segue isso):
+A esteira da Recria tem um buraco entre o Recria Ads (R$97) / Mini Mentoria (R$197) e os serviços (R$1.000 a R$1.500/mês) e a Mentoria (R$5.000). A VSL vai vender um produto novo que preenche esse buraco:
+
+- Formato: "feito COM você". Os serviços são "feito PARA você" (a agência executa todo mês) e os cursos/e-books são "faça você mesmo". Isso evita canibalizar o pacote mensal de R$1.500 e a Mentoria de R$5.000.
+- Nome provisório: Recria 60 Dias (sugere 3 nomes melhores, na família "Recria + ...").
+- Preço: R$1.497 à vista ou em 12x (pagamento único, não é mensalidade).
+- Entrega com escopo FECHADO (para dar lucro por hora):
+  • Diagnóstico do negócio (questionário + 1 encontro de 1h)
+  • Plano de ação de 60 dias por escrito (posicionamento, oferta, esteira, canal principal)
+  • 4 encontros individuais de 1h ao longo dos 60 dias (gravados)
+  • 1 página de vendas/captura pronta (uma página, não site completo, até 2 rodadas de ajuste)
+  • Revisão dos anúncios e do perfil com tarefas personalizadas
+  • Suporte por WhatsApp em horário comercial durante os 60 dias
+  • Bônus: acesso ao Recria Ads e à Comunidade Recria Business pelo período
+- Vagas: limite REAL de capacidade por mês (ex.: 5 por mês). Essa é a escassez honesta da VSL.
+- Ponte para cima: quem quiser continuar no fim dos 60 dias abate parte do valor no pacote mensal ou na Mentoria (me pergunta quanto).
+- Garantia: 7 dias (padrão Hotmart). Sem garantia de faturamento.
+
+Antes de escrever, me confirma em 1 mensagem curta: preço, nº de vagas por mês, valor de abatimento e se a página entra mesmo no escopo. Depois segue.
+
+Funil:
+Anúncio-aula → VSL → no fim, DOIS botões: "Quero minha vaga" (checkout 12x) e "Quero conversar antes" (WhatsApp com a palavra DIAGNÓSTICO, para a Jessie/eu fechar na conversa). Quem não compra recebe remarketing com outro anúncio-aula e, depois, oferta de entrada (Diagnóstico Recria R$67 ou Recria Ads R$97). O aulão "por que o seu marketing não funciona" que já está no ar pode servir de base para a aula.
+
+Gancho emocional da VSL (o ímpeto de "eu preciso fazer acontecer"): o dono de negócio que trabalha muito, posta, impulsiona, já pagou agência ou curso, e continua dependendo de indicação e de mês bom/mês ruim. Mecanismo com nome = a peça que falta entre postar e vender. Prova: o case real de CRM sem tráfego pago (só com dados reais, sem número inventado) e a experiência da Amanda com Meta, Google, CRM e treinamento comercial.
 
 Entregas:
 1. Mecanismo com nome, resultado com nome e passos do método (2 opções de cada, recomendada primeiro).
-2. Roteiro do anúncio-aula (60 a 120s), 2 versões de gancho. CTA: comentar DIAGNÓSTICO (é o padrão da agência). Automação: 1ª mensagem pede pra tocar em "Eu quero", a 2ª leva o botão com o link.
-3. Roteiro completo da VSL (10 a 20 min) com a marcação de onde o botão aparece (~70%) e sugestão de B-roll.
-4. Página nova com o vídeo e a headline até ~70%; depois a oferta, prova (só real), garantia/condições, FAQ e botão (checkout ou agendamento). Placeholders e explicação de onde troco o tempo de revelação.
+2. Roteiro do anúncio-aula (60 a 120s), 2 versões de gancho. CTA: comentar DIAGNÓSTICO (padrão da agência). Automação: 1ª mensagem pede pra tocar em "Eu quero", a 2ª leva o botão com o link.
+3. Roteiro completo da VSL (15 a 25 min) com a marcação de onde os botões aparecem (~70%) e sugestão de B-roll. Pitch com comparação de valor REAL (o que custaria contratar cada parte separada pelos preços da própria Recria), nunca valor inventado.
+4. Página nova em recria/vsl-recria-60-dias/index.html (marca Recria: preto, dourado #C9A24E, Playfair Display + Lora): só vídeo e headline até ~70%; depois a oferta, o que está incluso, para quem é / não é, as vagas do mês, garantia, FAQ e os dois botões. Placeholders para vídeo, checkout e WhatsApp, e me explica onde troco o tempo de revelação.
 5. Um segundo anúncio-aula para remarketing.
+6. Texto de cadastro do produto na Hotmart (no mesmo modelo de hotmart-cadastro-mentoria.md) e a linha nova para a esteira em esteira-e-calendario-recriadores.md.
 
-Cuidados: nada de case, número de faturamento, depoimento ou escassez inventados.
-Salva tudo em recria/vsl-aula-gratuita-servicos/ e faz commit.
+Cuidados: nada de case, faturamento, depoimento ou escassez inventados. Não citar a V4.
+Salva tudo em recria/vsl-recria-60-dias/ e faz commit.
 ```
