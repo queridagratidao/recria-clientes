@@ -11,6 +11,8 @@
 | `../site-vsl/index.html` | Página nova da VSL (a página atual em `../site/` não foi alterada) |
 | `05-anuncio-remarketing.md` | 2º anúncio-aula para quem saiu sem comprar (insight: a culpa depois do não), CTA CASA |
 | `06-anuncios-4-ganchos.md` | **v2:** 4 anúncios-aula (amor, família, amigas, trabalho), gravados numa sessão só (4 aberturas + 1 corpo) |
+| `08-como-vai-funcionar.md` | **Para a Camila:** explicação simples do funil, por que fazer assim, exemplo de anúncio, preços e o que ela grava |
+| `09-roteiro-vsl-v3.md` | **Versão para gravar:** VSL seguindo a referência do Método Prisma, com storytelling do propósito, valor "na tela" (entra na edição) e etiqueta das 10 primeiras na edição |
 | `07-roteiro-vsl-v2.md` | **v2:** VSL que passa pelas 4 áreas, com TCC, mais autoridade, encontros em grupo em formato de mentoria e bônus real para as 10 primeiras. Usar esta com os anúncios do `06` |
 
 **Conceito escolhido (recomendado):** mecanismo **O Padrão de Casa** · resultado **Voz Adulta** · método **Perceber, Nomear, Pausar, Escolher**.

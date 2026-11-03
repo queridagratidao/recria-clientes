@@ -65,7 +65,9 @@ A Camila grava **1 vez o corpo** (igual para os 4) e **4 aberturas curtas** (20 
 >
 > Eu sou Camila Sartori, psicóloga, mestre em psicologia clínica pela PUC do Rio Grande do Sul e doutoranda. Trabalho com terapia do esquema e TCC, e gravei uma **aula gratuita** mostrando como esse padrão aparece nessas quatro áreas da sua vida, e os **quatro passos** que eu uso pra começar a perceber e escolher diferente.
 >
-> Se você quer assistir, comenta **PADRÃO** aqui embaixo, que eu te mando o link no direct."
+> Se você quer assistir, comenta **PADRÃO** aqui embaixo, que eu te mando o link no direct. Comenta agora, porque a aula fica no ar só até **[DATA]**."
+
+⚠️ [VALIDAR CAMILA: a última frase só entra se a aula realmente sair do ar nessa data. Como a data é falada, gravar também uma versão sem ela: "Comenta agora e assiste hoje, com calma." Se a data mudar, usa a versão sem data ou coloca a data só na legenda/na edição.]
 
 **B-roll do corpo:** porta de casa / janela ("Padrão de Casa" na tela); mapa no celular "recalculando rota" quando fala "te puxa de volta"; 4 cortes rápidos (coração, mesa de família, celular com amigas, notebook) em "amor, família, amigas e trabalho"; Camila escrevendo "1 2 3 4" no caderno; Camila apontando pra baixo no CTA.
 
