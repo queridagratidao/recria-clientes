@@ -10,3 +10,8 @@ Estrutura por cliente: `[slug-do-cliente]/`
 - `trafego-pago/` — criativos e briefing pro gestor de tráfego (gerado pela skill `design-trafego-cliente`)
 
 Pipeline completo: `questionario-cliente` → `estrategista-cliente` → `copywriter-cliente` → `design-social-media-cliente` / `design-trafego-cliente`.
+
+
+## Playbooks da agência (`playbooks/`)
+Padrões reutilizáveis para qualquer cliente.
+- `playbooks/vsl-aula-gratuita/` — VSL "Aula Gratuita que Vende" (anúncio-aula → VSL com botão revelado em ~70% → oferta). Estrutura bloco a bloco, banco de ganchos, limites éticos, adaptação por nicho e prompts prontos. Referência: Método Prisma (@kamilyrebs).
