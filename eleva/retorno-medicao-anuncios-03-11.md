@@ -18,19 +18,19 @@ Por isso, o cuidado é: **só clicar nesse link no exato momento em que for usar
 
 **Não precisa de chamada para isso.** Esse link já resolve o problema de segurança sozinho: só quem clicar nele vai ver o token (e só uma vez, como explicado acima). Então o Giuliano pode fazer isso direto, no momento que for mais conveniente para ele: clica no link, copia o token que aparece na tela, e já cola direto no Claude dele para instalar no portal — sem precisar agendar nada com a gente.
 
-## 2 · Confirmação dos itens do ponto 3
+## 2 · Respondendo às perguntas do ponto 3
 
-Os três pontos abaixo já estavam especificados desde a configuração original das campanhas (passo a passo que seguimos para montar tanto o Google Ads quanto o Meta Ads):
+Os pontos abaixo já foram especificados desde a configuração das campanhas:
 
-- **Destino de todos os anúncios**: `www.elevags.com.br/area-comum-portal-do-condominio`, configurado como landing page padrão em ambas as plataformas.
-- **Parâmetros UTM** (`utm_source`, `utm_medium`, `utm_campaign`) em todos os anúncios, Google e Meta.
-- **Marcação automática (auto-tagging) ligada** no Google Ads, para o clique trazer o `gclid`.
-
-Esses três pontos já foram configurados assim desde o início — **ainda não foram revisados pessoalmente**, só pelo Claude in Chrome que montou as campanhas seguindo nossas instruções. A Amanda vai revisar tudo linha por linha nesta sexta-feira (06/11), antes do lançamento, e confirma por aqui se encontrar qualquer divergência.
+- **Destino dos anúncios**: tanto no Google Ads quanto no Meta Ads, o anúncio leva a pessoa pra `www.elevags.com.br/area-comum-portal-do-condominio`. É essa mesma página nas duas plataformas. A partir daí, quando a pessoa clica em "Começar teste grátis" dentro da página, aí sim acontece um segundo redirecionamento, pro cadastro no portal.
+- **Parâmetros UTM** (`utm_source`, `utm_medium`, `utm_campaign`): configurados em todos os anúncios, Google e Meta.
+- **Marcação automática (auto-tagging)**: ligada no Google Ads, pra o clique trazer o `gclid`.
 
 ## 3 · Exemplos de endereço final de cada plataforma
+
+O código completo do link (com `gclid` ou `fbclid`) só aparece de verdade no momento em que alguém clica no anúncio — e muda a cada clique, porque é um código único por pessoa. Como a campanha ainda não está ativa, não tem como mostrar um exemplo real agora. Mas a estrutura vai ser essa:
 
 - **Google Ads**: `https://www.elevags.com.br/area-comum-portal-do-condominio?utm_source=google&utm_medium=cpc&utm_campaign=area-comum-pesquisa&utm_content={ID_DO_GRUPO}&utm_term={PALAVRA_CHAVE}&gclid={CÓDIGO_DO_CLIQUE}`
 - **Meta Ads**: `https://www.elevags.com.br/area-comum-portal-do-condominio?utm_source=meta&utm_medium=paid&utm_campaign=area-comum&utm_content={ID_DO_ANÚNCIO}&fbclid={CÓDIGO_DO_CLIQUE}`
 
-Os trechos entre chaves (`gclid`, `fbclid`, nome do grupo/anúncio) só aparecem de verdade quando alguém clica no anúncio real — por isso não dá pra mandar um link clicável de exemplo antes do lançamento. Assim que a Amanda revisar as campanhas na sexta, ela confirma a estrutura exata de cada anúncio.
+Assim que a campanha estiver ativa, fica fácil mostrar um exemplo real de cada plataforma.
