@@ -10,6 +10,8 @@
 | `03-roteiro-vsl.md` | Roteiro completo da VSL (~18 a 19 min), 26 blocos, B-roll, marca do botão a ~70% |
 | `../site-vsl/index.html` | Página nova da VSL (a página atual em `../site/` não foi alterada) |
 | `05-anuncio-remarketing.md` | 2º anúncio-aula para quem saiu sem comprar (insight: a culpa depois do não), CTA CASA |
+| `06-anuncios-4-ganchos.md` | **v2:** 4 anúncios-aula (amor, família, amigas, trabalho), gravados numa sessão só (4 aberturas + 1 corpo) |
+| `07-roteiro-vsl-v2.md` | **v2:** VSL que passa pelas 4 áreas, com TCC, mais autoridade, encontros em grupo em formato de mentoria e bônus real para as 10 primeiras. Usar esta com os anúncios do `06` |
 
 **Conceito escolhido (recomendado):** mecanismo **O Padrão de Casa** · resultado **Voz Adulta** · método **Perceber, Nomear, Pausar, Escolher**.
 **Frase-centro da aula:** *o seu cérebro confunde o que é familiar com o que é seguro.*
@@ -88,3 +90,24 @@ Se a VSL entrar no ar durante essa janela, há duas saídas honestas: (a) só su
 
 ## Limites aplicados (seção 7 do playbook)
 Sem promessa de resultado, cura ou prazo (a VSL diz explicitamente que "não é de um dia pro outro" e "não vou te prometer que o padrão vai desaparecer"). Sem depoimento, sem número de alunas, sem escassez, sem sorteio, sem ancoragem inventada. Garantia de reembolso de 7 dias, sim; garantia de resultado, não. "Não substitui terapia" aparece no anúncio, na VSL, na página e no FAQ, e a página indica o CVV (188) para quem está em sofrimento intenso.
+
+---
+
+## v2 · Bônus das 10 primeiras (encontro individual)
+
+**Como ficou:** as 10 primeiras compras até uma **data real** ganham um **encontro individual de mentoria** de ~30 min com a Camila (não é sessão de terapia). Ela chama no privado depois da compra.
+
+**Por que não do jeito "se o botão está aparecendo, você ainda tem chance":** o botão aparece para todo mundo, sempre, então a frase seria escassez falsa (seção 7 do playbook). A versão honesta usa um **aviso separado na página**, que só aparece enquanto a condição vale de verdade:
+- no bloco `CONFIG` da página: `BONUS_ATIVO`, `BONUS_VAGAS_RESTANTES`, `BONUS_DATA_LIMITE`, `BONUS_DATA_TEXTO`, `BONUS_DURACAO_MIN`;
+- o aviso **some sozinho** quando a data passa ou quando as vagas chegam a 0;
+- **as vagas precisam ser atualizadas à mão** conforme as vendas confirmadas na Hotmart (uma vez por dia basta). Se ninguém for atualizar, melhor não mostrar o número de vagas;
+- na VSL a Camila fala "se você ainda está vendo o aviso do encontro individual aqui embaixo, ele ainda está valendo", o que é verdade enquanto a página for mantida.
+- Vem desligado (`BONUS_ATIVO: false`) até a Camila aprovar.
+
+**Sorteio:** fica fora. No Brasil, sorteio em promoção comercial precisa de autorização prévia do governo; "as 10 primeiras" resolve sem isso.
+
+**⚠️ Pontos para a Camila validar antes de ligar o bônus**
+- [ ] Se ela tem agenda real para 10 encontros de ~30 min nas semanas seguintes.
+- [ ] O enquadramento como **mentoria do curso** (por onde começar), e não atendimento psicológico. Oferecer sessão de psicoterapia como brinde de venda pode esbarrar no Código de Ética (publicidade de serviços psicológicos); vale ela conferir com o CRP.
+- [ ] Data limite real e se coincide com a Black Friday (09 a 15/11). Se coincidir, decidir se o bônus é parte da Black Friday ou vem depois.
+- [ ] Como funcionam hoje os **encontros em grupo** (frequência e formato), já que agora eles estão no centro da oferta.

@@ -108,6 +108,13 @@ fbq('track', 'ViewContent', {content_name: 'VSL Padrao de Casa'});
   .icone b{color:var(--magenta-escuro);display:block;font-size:.92rem;}
   .icone .ic{flex:0 0 34px;height:34px;border-radius:50%;background:var(--rosa-claro);display:flex;align-items:center;justify-content:center;font-size:1rem;}
 
+  /* bônus das 10 primeiras (controlado pela CONFIG) */
+  .bonus10{display:none;max-width:560px;margin:0 auto 18px;background:var(--roxo-profundo);color:#fff;border-radius:16px;padding:18px 20px;text-align:center;}
+  .bonus10.ativo{display:block;}
+  .bonus10 .t{font-family:'Quicksand',sans-serif;font-weight:700;font-size:1.05rem;margin-bottom:4px;}
+  .bonus10 .vagas{display:inline-block;background:var(--rosa-bonus);color:var(--magenta-escuro);font-weight:700;font-size:.82rem;padding:4px 12px;border-radius:20px;margin-top:8px;}
+  .bonus10 p{font-size:.9rem;opacity:.92;}
+
   /* passos */
   .passos{background:linear-gradient(180deg,var(--rosa-claro),#fff);}
   .passos h2,.dentro h2,.presentes h2,.pra-quem h2,.faq h2{color:var(--magenta-escuro);font-size:clamp(1.4rem,4vw,1.9rem);margin-bottom:10px;}
@@ -236,7 +243,7 @@ fbq('track', 'ViewContent', {content_name: 'VSL Padrao de Casa'});
   <div class="container center">
     <div class="selo"><span class="ponto"></span> Aula gratuita · Camila Sartori</div>
     <h1>Por que o mesmo padrão se repete na sua vida, e o que a psicologia sabe sobre o <span class="script">Padrão de Casa</span></h1>
-    <p class="sub">No amor, na autocrítica, na dificuldade de dizer não. Sem frase pronta e sem "se esforce mais": o que a terapia do esquema mostra e 4 passos para começar a perceber e escolher diferente.</p>
+    <p class="sub">No amor, na família, nas amizades e no trabalho. Sem frase pronta e sem "se esforce mais": o que a terapia do esquema e a TCC mostram, e 4 passos para começar a perceber e escolher diferente.</p>
 
     <div class="video-wrap" id="video-wrap">
       <!-- O vídeo é montado pelo script, conforme VIDEO_TIPO na configuração lá embaixo -->
@@ -258,6 +265,11 @@ fbq('track', 'ViewContent', {content_name: 'VSL Padrao de Casa'});
   <!-- 2 · Compra logo abaixo do vídeo -->
   <section class="compra-topo">
     <div class="container">
+      <div class="bonus10" id="bonus10">
+        <p class="t">🎁 Para as 10 primeiras até <span class="js-bonus-data">[data]</span></p>
+        <p>Um encontro individual de mentoria comigo, online, de <span class="js-bonus-duracao">30</span> minutos, para olharmos juntas por onde começar o curso. Não é sessão de terapia. Depois da compra, eu te chamo no privado para combinar o horário.</p>
+        <span class="vagas"><span class="js-bonus-vagas">10</span> de 10 ainda disponíveis</span>
+      </div>
       <div class="cartao-compra">
         <p class="nome">Comunidade AME-SE</p>
         <p style="color:var(--texto-claro);margin-bottom:14px;">Curso online de autoconhecimento e autoestima para mulheres, com base na terapia do esquema e na TCC</p>
@@ -266,7 +278,7 @@ fbq('track', 'ViewContent', {content_name: 'VSL Padrao de Casa'});
         <a class="btn js-checkout" href="#" target="_blank" rel="noopener">Quero entrar na Comunidade AME-SE<small>acesso imediato pela Hotmart</small></a>
         <div class="icones">
           <div class="icone"><div class="ic">📱</div><div><b>Pelo celular</b>área de membros da Hotmart</div></div>
-          <div class="icone"><div class="ic">🎁</div><div><b>3 presentes</b>junto com os 5 módulos</div></div>
+          <div class="icone"><div class="ic">👥</div><div><b>Encontros em grupo</b>comigo, em formato de mentoria</div></div>
           <div class="icone"><div class="ic">🗓️</div><div><b>1 ano de acesso</b>no seu ritmo</div></div>
           <div class="icone"><div class="ic">🛡️</div><div><b>7 dias de garantia</b>reembolso pela Hotmart</div></div>
         </div>
@@ -303,7 +315,7 @@ fbq('track', 'ViewContent', {content_name: 'VSL Padrao de Casa'});
       <div class="chips">
         <span class="chip">Aulas em vídeo</span>
         <span class="chip">Exercícios práticos</span>
-        <span class="chip">Mentoria em grupo</span>
+        <span class="chip">Encontros em grupo (mentoria)</span>
         <span class="chip">Certificado de conclusão</span>
       </div>
       <div class="defeito">
@@ -315,12 +327,12 @@ fbq('track', 'ViewContent', {content_name: 'VSL Padrao de Casa'});
   <!-- 5 · Presentes (sem valores "de R$ X", até a Camila confirmar preços reais) -->
   <section class="presentes">
     <div class="container center">
-      <h2>Três presentes junto com o curso</h2>
+      <h2>O que vem junto com o curso</h2>
       <p class="lead">Inclusos na sua inscrição.</p>
       <div class="grade-presentes" style="text-align:left;">
-        <div class="presente"><span class="tag">Presente 1</span><h3>Mentoria em grupo</h3><p>Um espaço para tirar dúvidas, trocar experiências e seguir se desenvolvendo com outras mulheres no mesmo caminho.</p></div>
-        <div class="presente"><span class="tag">Presente 2</span><h3>Lives Autoconfiança na Prática</h3><p>O combo de lives da série, que não está mais disponível em outro lugar.</p></div>
-        <div class="presente"><span class="tag">Presente 3</span><h3>E-book Livre-se da Procrastinação</h3><p>Para quando o padrão aparece como "depois eu faço": construir novos hábitos, um passo de cada vez.</p></div>
+        <div class="presente"><span class="tag">Incluso</span><h3>Encontros em grupo comigo</h3><p>Em formato de mentoria: para tirar dúvidas, levar situações do seu dia a dia (amor, família, amizades, trabalho) e trocar com outras mulheres no mesmo caminho.</p></div>
+        <div class="presente"><span class="tag">Presente</span><h3>Lives Autoconfiança na Prática</h3><p>O combo de lives da série, que não está mais disponível em outro lugar.</p></div>
+        <div class="presente"><span class="tag">Presente</span><h3>E-book Livre-se da Procrastinação</h3><p>Para quando o padrão aparece como "depois eu faço": construir novos hábitos, um passo de cada vez.</p></div>
       </div>
     </div>
   </section>
@@ -353,7 +365,7 @@ fbq('track', 'ViewContent', {content_name: 'VSL Padrao de Casa'});
       <ul class="lista">
         <li>5 módulos em sequência, com base na terapia do esquema e na TCC</li>
         <li>Exercícios práticos para fazer no papel</li>
-        <li>Mentoria em grupo</li>
+        <li>Encontros em grupo comigo, em formato de mentoria</li>
         <li>Lives Autoconfiança na Prática</li>
         <li>E-book Livre-se da Procrastinação e Construa Novos Hábitos</li>
         <li>1 ano de acesso e certificado de conclusão</li>
@@ -374,7 +386,7 @@ fbq('track', 'ViewContent', {content_name: 'VSL Padrao de Casa'});
         <div class="coluna sim">
           <h3>É para você se…</h3>
           <ul>
-            <li>sente que a mesma história se repete com pessoas diferentes;</li>
+            <li>sente que a mesma história se repete, no amor, na família, com as amigas ou no trabalho;</li>
             <li>se cobra muito e quase nunca reconhece o que faz bem;</li>
             <li>tem dificuldade de dizer não e de colocar limites;</li>
             <li>quer entender de onde vêm suas inseguranças, no seu ritmo;</li>
@@ -437,11 +449,11 @@ fbq('track', 'ViewContent', {content_name: 'VSL Padrao de Casa'});
 var CONFIG = {
   // Segundo do vídeo em que a oferta e o botão aparecem.
   // Use o momento em que a Camila diz "Por isso eu criei a Comunidade AME-SE".
-  // Estimativa pelo roteiro: 13:10 = 790 segundos. Trocar pelo tempo real depois da edição.
-  TEMPO_REVELACAO_SEGUNDOS: 790,
+  // Estimativa pelo roteiro v2 (07-roteiro-vsl-v2.md): 13:30 = 810 segundos. Trocar pelo tempo real depois da edição.
+  TEMPO_REVELACAO_SEGUNDOS: 810,
 
   // Duração total do vídeo em segundos (usada nos eventos de 25/50/70% no modo cronômetro).
-  DURACAO_VIDEO_SEGUNDOS: 1140,
+  DURACAO_VIDEO_SEGUNDOS: 1170,
 
   // Tipo do vídeo: "youtube", "vimeo", "mp4" ou "iframe" (Panda e outros players).
   // Deixe "placeholder" enquanto o vídeo não existe.
@@ -452,7 +464,15 @@ var CONFIG = {
   VIDEO_ID: "",
 
   // Link do checkout da Hotmart (com UTM se quiser).
-  LINK_CHECKOUT: "COLE_AQUI_O_LINK_DO_CHECKOUT_HOTMART"
+  LINK_CHECKOUT: "COLE_AQUI_O_LINK_DO_CHECKOUT_HOTMART",
+
+  // Bônus das 10 primeiras (encontro individual de mentoria).
+  // ATUALIZAR À MÃO conforme as vendas na Hotmart. Com 0 vagas ou depois da data, o aviso some sozinho.
+  BONUS_ATIVO: false,              // true quando a Camila aprovar a condição
+  BONUS_VAGAS_RESTANTES: 10,       // diminuir a cada venda confirmada
+  BONUS_DATA_LIMITE: "2026-11-30T23:59:00-03:00", // data e hora reais de encerramento
+  BONUS_DATA_TEXTO: "30/11",       // como a data aparece na página
+  BONUS_DURACAO_MIN: 30
 };
 /* ===================================================================== */
 
@@ -511,6 +531,15 @@ var CONFIG = {
 
   // Quem já chegou no pitch antes, ou veio por link com ?oferta=1 (ex.: remarketing do público de 70%), já vê tudo.
   if (params.get('oferta') === '1' || jaViu()) { revelar('retorno'); }
+
+  // Bônus das 10 primeiras: só aparece se ativo, com vagas e dentro do prazo
+  var bonusValido = CONFIG.BONUS_ATIVO && CONFIG.BONUS_VAGAS_RESTANTES > 0 && new Date() < new Date(CONFIG.BONUS_DATA_LIMITE);
+  if (bonusValido) {
+    document.querySelectorAll('.js-bonus-data').forEach(function(e){ e.textContent = CONFIG.BONUS_DATA_TEXTO; });
+    document.querySelectorAll('.js-bonus-vagas').forEach(function(e){ e.textContent = CONFIG.BONUS_VAGAS_RESTANTES; });
+    document.querySelectorAll('.js-bonus-duracao').forEach(function(e){ e.textContent = CONFIG.BONUS_DURACAO_MIN; });
+    document.getElementById('bonus10').classList.add('ativo');
+  }
 
   // FAQ
   document.querySelectorAll('.faq-item button').forEach(function(b){
