@@ -27,8 +27,8 @@ Abra `camila-sartori/site-vsl/index.html` e vá até o bloco **CONFIGURAÇÃO** 
 
 ```js
 var CONFIG = {
-  TEMPO_REVELACAO_SEGUNDOS: 790,   // ← segundo em que a oferta aparece
-  DURACAO_VIDEO_SEGUNDOS: 1140,    // ← duração total do vídeo (para os eventos de 25/50/70%)
+  TEMPO_REVELACAO_SEGUNDOS: 810,   // ← segundo em que a oferta aparece (v2: ~13:30)
+  DURACAO_VIDEO_SEGUNDOS: 1170,    // ← duração total do vídeo (para os eventos de 25/50/70%)
   VIDEO_TIPO: "placeholder",       // ← "youtube", "vimeo", "mp4" ou "iframe" (Panda e outros)
   VIDEO_ID: "",                    // ← ID do YouTube/Vimeo, URL do mp4 ou URL do embed
   LINK_CHECKOUT: "COLE_AQUI_O_LINK_DO_CHECKOUT_HOTMART"
