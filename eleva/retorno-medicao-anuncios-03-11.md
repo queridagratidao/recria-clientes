@@ -16,6 +16,8 @@ https://us.onetimesecret.com/secret/fv8qmsg1oldxkamunia50cx5g57psuleu06j718fn6lw
 
 Por isso, o cuidado é: **só clicar nesse link no exato momento em que for usar o token** (ou seja, na hora de colar ele no servidor do portal, com o Claude). Não é para abrir antes só para conferir, nem para guardar o link para depois — tem que ser clique e uso, na sequência, sem demora.
 
+**Não precisa de chamada para isso.** Esse link já resolve o problema de segurança sozinho: só quem clicar nele vai ver o token (e só uma vez, como explicado acima). Então o Giuliano pode fazer isso direto, no momento que for mais conveniente para ele: clica no link, copia o token que aparece na tela, e já cola direto no Claude dele para instalar no portal — sem precisar agendar nada com a gente.
+
 ## 2 · Confirmação dos itens do ponto 3
 
 Os três pontos abaixo já estavam especificados desde a configuração original das campanhas (passo a passo que seguimos para montar tanto o Google Ads quanto o Meta Ads):
