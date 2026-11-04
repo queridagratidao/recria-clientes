@@ -229,8 +229,10 @@ Evitar: foto do ITC (treinamento em cadáveres) e foto do SEMIEST (evento com ma
 ## Capas dos Reels (`capas-reels/`)
 
 - 12/11: Depois dos 40, eu voltei a estudar. (print do crachá)
-- 26/11: Você não envelhece aos poucos, você envelhece em saltos… (foto no auditório)
+- 26/11: Você não envelhece aos poucos, você envelhece em saltos… (selfie no espelho do corredor)
 - 24/12: 2026 foi o ano em que eu escolhi investir em mim. (vestido rosa no espelho)
 - 14/01: 5 mitos sobre a pele depois dos 40 (frame do vídeo)
 
-Vídeos de 26/11 e 14/01 enviados sem áudio para a Amanda cortar e colocar a música.
+Vídeos de 26/11 e 14/01: versões finais com música editadas pela Amanda (04/11).
+
+28/01 agora usa a selfie dourada (mesma foto da capa do Cool Girls 40+, com nitidez reforçada). O card 3 de 07/01 passou a usar o print do crachá.

@@ -123,7 +123,7 @@ cards=[
  ('d24',static('n5_d24.jpg','Encontrar as amigas no fim de ano também é cuidar da saúde.','E a ciência tem números para isso.',60)),
  ('j07-1',cover('n6_snow.jpg','Depois dos 40, eu falo muito que…','Arrasta para o lado e me diz se você também.')),
  ('j07-2',frase('n6_corr.jpg','Tá calor aqui ou sou eu?','Já sei, já sei… é o climatério dando oi.')),
- ('j07-3',frase('n5_nb25.jpg','Protetor solar?','Já passei. E daqui a pouco eu reaplico.')),
+ ('j07-3',frase('n7_cracha45.jpg','Protetor solar?','Já passei. E daqui a pouco eu reaplico.')),
  ('j07-4',frase('n6_vald.jpg','Só uma tacinha.','E uma boa conversa que renova a semana inteira.')),
  ('j07-5',frase('c2_cta.jpg','Não tenho mais idade para isso.','Mentira. Eu tenho idade para tudo o que eu quiser.')),
  ('j07-6',frase('n_d10b.jpg','Voltei a estudar.','E não acho que é tarde. Acho que é a hora.')),
@@ -134,7 +134,7 @@ cards=[
  ('j21-3',ind(2,'podcast','Bom dia, Obvious','com Marcela Ceribelli · Spotify e outras plataformas','Conversas leves e profundas sobre autoestima, relacionamentos, carreira e saúde mental, com uma convidada diferente a cada episódio.','é perfeito para ouvir na caminhada, no carro ou na beira da praia.')),
  ('j21-4',ind(3,'série','Grace and Frankie','Netflix · 7 temporadas','Duas mulheres na casa dos 70 anos precisam recomeçar a vida do zero, e descobrem que nunca é tarde para se reinventar.','é divertida, leve e prova que a vida não tem prazo de validade.')),
  ('j21-5',cta('n6_sun.jpg','Mulher, qual indicação você me dá de volta?','Me conta nos comentários: livro, podcast ou série.')),
- ('j28',static('n_nb25.jpg','Sou estudante de biomedicina e estes são 3 hábitos que eu sigo à risca para cuidar da minha pele','e que você também pode aprender.',56)),
+ ('j28',static('n7_golden.jpg','Sou estudante de biomedicina e estes são 3 hábitos que eu sigo à risca para cuidar da minha pele','e que você também pode aprender.',56)),
 ]
 async def main():
     out=D/'out6'; out.mkdir(exist_ok=True)
