@@ -22,6 +22,7 @@ body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px
   padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 48px}
 .wrap{max-width:640px;margin:0 auto;display:flex;flex-direction:column;gap:22px}
 .note{background:var(--accent-soft);border-radius:14px;padding:14px 18px;font-size:13.5px;color:var(--muted)}
+.sched{margin-bottom:10px}
 .note b{color:var(--fg);font-weight:600}
 .profile{display:grid;grid-template-columns:auto 1fr;gap:18px 22px;align-items:center}
 .avatar{width:96px;height:96px;border-radius:50%;object-fit:cover;padding:3px;background:linear-gradient(135deg,var(--accent),var(--reel-a))}
@@ -98,8 +99,9 @@ body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px
   <div class="switch" role="group" aria-label="Escolha a versão do calendário">
     <button type="button" data-v="n">Novembro</button>
     <button type="button" data-v="d">Dezembro</button>
-    <button type="button" data-v="j">Janeiro (completo)</button>
+    <button type="button" data-v="j">Janeiro</button>
   </div>
+  <p class="note sched"><b>Programação automática.</b> Assim que a Pathy aprovar os conteúdos, as fotos e os artigos, eu programo tudo com as datas certinhas de novembro, dezembro e janeiro no perfil profissional dela. Os posts saem sozinhos, e ela fica livre para cuidar só das visitas e das pessoas que chegarem ao perfil.</p>
   <p class="note" id="note"></p>
 
   <section class="profile" aria-label="Perfil">
@@ -295,9 +297,7 @@ Eu separei algumas das minhas: tem calor do nada, tem protetor solar, tem viagem
 
 Arraste para o lado e me conta: qual delas você também fala? 👉
 
-E manda para aquela amiga que vai rir e se identificar junto!
-
-#mulheres40mais #belezamadura #autocuidado`};
+E manda para aquela amiga que vai rir e se identificar junto!`};
 const J14={date:'14/01',type:'video',label:'Reels · vídeo B-roll editado',src:'reel-14-01.mp4',poster:'capa-14-01',
  scene:'Versão final com música, editada pela Amanda.',
  cap:`5 mitos sobre a pele depois dos 40 que muita gente ainda acredita 👇
@@ -340,11 +340,12 @@ const J28={date:'28/01',type:'static',label:'Imagem estática',img:'j28',cap:NB1
 const C05=byDate('05/11'),C19=byDate('19/11');
 const OLD=[{date:'out',type:'static',label:'Post já publicado (outubro)',img:'old-cool',cap:'Cool Girls 40+: como reconhecer uma. Post já publicado em outubro.'},{date:'out',type:'static',label:'Post já publicado (outubro)',img:'old-dump',cap:'Dump do congresso. Post já publicado em outubro.'}];
 const NOV=[R26,C19,R12,C05],DEZ=[D24,D17,D10,D03],JAN=[J28,J21,J14,J07];
+[...NOV,...DEZ,...JAN,NB25,D24S].forEach(p=>{delete p.scene;delete p.pending});
 const VIEWS={n:[...NOV,...OLD],d:[...DEZ,...NOV,OLD[0]],j:[...JAN,...DEZ,...NOV]};
 const NOTES={
- n:'<b>Novembro.</b> 2 carrosséis e 2 vídeos prontos, intercalados. Em 26/11 tem a imagem estática como alternativa ao vídeo.',
- d:'<b>Dezembro.</b> 2 carrosséis e 2 imagens estáticas, intercalados. Em 24/12 vai a sugestão do vídeo pronto, com a estática como alternativa. Abaixo aparece novembro, como ficará no perfil.',
- j:'<b>Janeiro + visão completa.</b> 2 carrosséis, 1 vídeo e 1 imagem estática. Abaixo, dezembro e novembro: 12 posts prontos, só faltando a aprovação da Pathy.'};
+ n:'<b>Novembro.</b> 2 carrosséis e 2 vídeos, intercalados. Em 26/11 há duas opções: postar o vídeo com a capa que já está nele, ou, se ela não quiser vídeo, usar só a imagem como post estático, com a mesma legenda.',
+ d:'<b>Dezembro.</b> 2 carrosséis e 2 imagens estáticas, intercalados. Em 24/12 ela escolhe: postar o vídeo com a imagem como capa, ou usar só a imagem estática, com a legenda. Abaixo aparece novembro, como ficará no perfil.',
+ j:'<b>Janeiro.</b> 2 carrosséis, 1 vídeo e 1 imagem estática. Abaixo, dezembro e novembro: 12 posts prontos, só faltando a aprovação da Pathy.'};
 
 const stackIcon='<svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 3h11a3 3 0 0 1 3 3v11h-2V6a1 1 0 0 0-1-1H7z"/><rect x="3" y="7" width="14" height="14" rx="2.5"/></svg>';
 const reelIcon='<svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>';
@@ -380,7 +381,7 @@ function openPost(i){
   const pend=document.getElementById('pend');pend.hidden=!cur.pending;if(cur.pending)document.getElementById('pendTxt').textContent=cur.pending;
   const altb=document.getElementById('altb');altb.hidden=!cur.alt;
   if(cur.type==='video'){
-    scene.hidden=false;document.getElementById('sceneTxt').textContent=cur.scene;
+    scene.hidden=!cur.scene;document.getElementById('sceneTxt').textContent=cur.scene||'';
     media.innerHTML=`<video src="${cur.src}" poster="img/${cur.poster}.jpg" controls playsinline loop style="width:min(100%,46vh);aspect-ratio:9/16;max-height:86vh;background:#000;display:block"></video>`;
   }else if(cur.type==='static'){
     scene.hidden=true;
@@ -396,7 +397,7 @@ function openPost(i){
     t.addEventListener('touchend',e=>{if(x0===null)return;const d=e.changedTouches[0].clientX-x0;if(Math.abs(d)>40)go(d<0?1:-1);x0=null});
     go(0);
   }else{
-    scene.hidden=false;document.getElementById('sceneTxt').textContent=cur.scene;
+    scene.hidden=!cur.scene;document.getElementById('sceneTxt').textContent=cur.scene||'';
     media.innerHTML=`<div class="reelbig"><div class="top"><span>Vídeo da Pathy aqui</span><span>~15 s</span></div>
       <div class="play"><svg width="26" height="26" viewBox="0 0 24 24" fill="#fff"><path d="M8 5.5v13l11-6.5z"/></svg></div>
       <h3>${cur.hook}</h3><p class="sub">${cur.sub}</p><span class="read">leia a legenda 👇</span></div>`;

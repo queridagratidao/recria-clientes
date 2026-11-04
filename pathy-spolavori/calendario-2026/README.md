@@ -2,7 +2,7 @@
 
 Atualizado em 04/11/2026 · Agência Recria
 
-Postagens sempre às **quintas-feiras**, 1 por semana. Prévia clicável do feed (com botões Novembro, Dezembro e Janeiro completo): https://claude.ai/artifact/MSxB5gvdweLv9iagu4CwLB (cópia local em `previa-feed/fee## Resumo
+Postagens sempre às **quintas-feiras**, 1 por semana. Prévia clicável do feed (com botões Novembro, Dezembro e Janeiro): https://claude.ai/artifact/MSxB5gvdweLv9iagu4CwLB (cópia local em `previa-feed/fee## Resumo
 
 12 posts prontos (1 por semana, às quintas). Falta só a aprovação da Pathy.
 
