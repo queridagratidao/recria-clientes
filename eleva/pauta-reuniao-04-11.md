@@ -1,0 +1,65 @@
+# Pauta — Reunião com Giuliano, 04/11/2026
+**RECRIA Marketing**
+
+Compilado a partir da ata de 28/10 e de todas as trocas de documentos desde então (29/10 a 03/11).
+
+---
+
+## 1 · Teste de hoje (cadastro + contratação de teste)
+
+Pelo cronograma que ele mesmo passou: atualização do portal saiu dia 03/11, e **hoje (04/11)** ele faria o cadastro de teste e a contratação de teste, avisando antes de cada um pra acompanharem juntos na aba "Eventos de teste".
+
+**Cobrar**: já fez os testes? Apareceu o `CompleteRegistration` e o `Purchase` certinho, com origem "Servidor"? Se ainda não fez, aproveitar a reunião de hoje pra fazer ao vivo.
+
+## 2 · Token da API de Conversões
+
+Mandamos o token duas vezes — a primeira (28/10) expirou sem uso, a segunda (03/11) já foi reenviada. **Confirmar**: ele já pegou o token e colou no servidor?
+
+## 3 · WhatsApp — chip/eSIM para a Nextags
+
+Ele decidiu ir pelo chip físico pré-pago, e falou que compraria na terça (que seria 03/11, por causa do feriado de segunda). **Cobrar**: conseguiu comprar o chip? Se sim, combinar o horário de fazer o cadastro juntos (ligação rápida pra ele passar o código de verificação).
+
+## 4 · Acesso ao portfólio da Meta — liberação pendente do Rene
+
+Ficou pendente desde 28/10: o Rene (administrador da conta) precisava liberar o acesso do Giuliano ao portfólio, depois de uma solicitação enviada pela Amanda. O Giuliano ia falar com o Alê pra agilizar com o Rene.
+
+**Cobrar**: o acesso já foi liberado? Se sim, dá pra remover Fator.ag, Solutions Engineering Team e Kommo (decisão que ele já confirmou no documento de 28/10).
+
+## 5 · Cartão para cadastro na Nextags
+
+Ficou pendente ele indicar qual cartão usar e mandar os dados (incluindo senha de segurança) pra fazer o cadastro. **Cobrar**: já definiu isso?
+
+## 6 · Live com o Jayme
+
+Ele tinha reunião marcada com o Jayme em 29/10, pra alinhar a temática (podia trocar de convidado, dependendo do que o Jayme quisesse abordar). **Cobrar**: qual foi o resultado? Vai ser com o Jayme ou outra pessoa? Qual a data? Lembrando que esse retorno já está atrasado em relação ao prazo que pedimos (até 30/10, se a live fosse dia 11/11) — se ainda não tiver data fechada, a janela pra rodar uma semana de tráfego pago antes da live já está ficando apertada.
+
+## 7 · Vídeos do roteiro
+
+Ele ainda não tinha gravado (último status, 28/10: "vai gravar nos próximos dias"). **Cobrar**: conseguiu gravar?
+
+## 8 · Episódio 9 do ElevaCast
+
+O ProHub estava verificando se ainda tinha o material bruto do episódio 9. **Cobrar**: teve retorno deles?
+
+## 9 · Indicação de dev de segurança da informação
+
+Ele pediu uma indicação de desenvolvedor/especialista em segurança pra revisar os últimos pontos do portal. **Pendência nossa**: ainda não indicamos ninguém — vale perguntar se ele ainda precisa, ou se já resolveu por conta própria.
+
+---
+
+## O que já está resolvido, sem pendência (só pra registro)
+
+- Data de lançamento confirmada: **09/11**.
+- Nomes das conversões do Google Ads confirmados: "Área Comum · conta criada" e "Área Comum · assinatura".
+- Pixel/conjunto de dados confirmado: `634359929729484`.
+- Evento de cadastro confirmado como `CompleteRegistration` (não `Lead`).
+- Critério de valor das assinaturas (valor total do plano, não a parcela) confirmado, para as duas plataformas.
+- Decisão sobre o prazo de 7 dias de desistência: sem espera, `Purchase` dispara na hora do pagamento (revisável depois com dado real).
+- Fluxo do evento de estorno (`Refund`/"Retração") documentado como melhoria futura, não bloqueante.
+- Confirmado: sem risco de contagem dupla entre Tag Manager e os eventos do servidor.
+- Destino dos anúncios, UTMs e auto-tagging confirmados como já configurados desde o início das campanhas.
+- Ajustes de palavras-chave (v3, 6 pontos) e faixa etária da Meta — prompt já enviado ao Claude in Chrome em 30/10.
+
+## Pendência nossa, não dele
+
+- Revisar pessoalmente as campanhas (Google e Meta) — a Amanda tinha planejado fazer isso na sexta, 06/11.
