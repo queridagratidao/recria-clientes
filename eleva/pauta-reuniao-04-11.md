@@ -15,19 +15,17 @@ Pelo cronograma que ele mesmo passou: atualização do portal saiu dia 03/11, e 
 
 Mandamos o token duas vezes — a primeira (28/10) expirou sem uso, a segunda (03/11) já foi reenviada. **Confirmar**: ele já pegou o token e colou no servidor?
 
-## 3 · WhatsApp — chip/eSIM para a Nextags
+## 3 · WhatsApp — chip/eSIM para a Nextags — só falta o chip
 
-Ele decidiu ir pelo chip físico pré-pago, e falou que compraria na terça (que seria 03/11, por causa do feriado de segunda). **Cobrar**: conseguiu comprar o chip? Se sim, combinar o horário de fazer o cadastro juntos (ligação rápida pra ele passar o código de verificação).
+Cartão já cadastrado na Nextags (o mesmo usado na Meta). **Só falta o chip físico** pra fazer o cadastro do número de disparo. **Cobrar**: conseguiu comprar o chip? Se sim, combinar o horário de fazer o cadastro juntos (ligação rápida pra ele passar o código de verificação).
 
-## 4 · Acesso ao portfólio da Meta — liberação pendente do Rene
+## 4 · Acesso ao portfólio da Meta — RESOLVIDO
 
-Ficou pendente desde 28/10: o Rene (administrador da conta) precisava liberar o acesso do Giuliano ao portfólio, depois de uma solicitação enviada pela Amanda. O Giuliano ia falar com o Alê pra agilizar com o Rene.
+O Rene já liberou o acesso do Giuliano. A Amanda já removeu Fator.ag, Solutions Engineering Team e Kommo. Sem pendência.
 
-**Cobrar**: o acesso já foi liberado? Se sim, dá pra remover Fator.ag, Solutions Engineering Team e Kommo (decisão que ele já confirmou no documento de 28/10).
+## 5 · Cartão para cadastro na Nextags — RESOLVIDO
 
-## 5 · Cartão para cadastro na Nextags
-
-Ficou pendente ele indicar qual cartão usar e mandar os dados (incluindo senha de segurança) pra fazer o cadastro. **Cobrar**: já definiu isso?
+Já cadastrado (mesmo cartão usado na Meta).
 
 ## 6 · Live com o Jayme
 
@@ -37,13 +35,13 @@ Ele tinha reunião marcada com o Jayme em 29/10, pra alinhar a temática (podia 
 
 Ele ainda não tinha gravado (último status, 28/10: "vai gravar nos próximos dias"). **Cobrar**: conseguiu gravar?
 
-## 8 · Episódio 9 do ElevaCast
+## 8 · Episódio 9 do ElevaCast — parcialmente resolvido
 
-O ProHub estava verificando se ainda tinha o material bruto do episódio 9. **Cobrar**: teve retorno deles?
+A Amanda já conseguiu o material bruto do episódio 9 com o ProHub. Falta confirmar com o Rene se ele já tem os cortes prontos (era responsabilidade dele) — já cobrado de novo hoje, junto com a liberação do episódio 8 no YouTube. Se o Rene não liberar, a Amanda assume, mas sem refazer cortes que já existem.
 
-## 9 · Indicação de dev de segurança da informação
+## 9 · Indicação de dev de segurança da informação — pendência nossa
 
-Ele pediu uma indicação de desenvolvedor/especialista em segurança pra revisar os últimos pontos do portal. **Pendência nossa**: ainda não indicamos ninguém — vale perguntar se ele ainda precisa, ou se já resolveu por conta própria.
+Ainda não indicamos ninguém. A Amanda vai verificar e dar retorno em breve.
 
 ---
 
