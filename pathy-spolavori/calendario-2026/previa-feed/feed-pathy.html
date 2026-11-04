@@ -1,0 +1,349 @@
+<title>Feed da Pathy · Novembro</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Montserrat:wght@400;500;600&display=swap">
+<style>
+/* Layout: a phone-width profile column (header, grid of 4:5 tiles) with a lightbox that opens each post as it would be published */
+:root{
+  --bg:#FBF8F5; --surface:#FFFFFF; --fg:#2E221D; --muted:#8C776C; --line:#EADFD6;
+  --accent:#B07A63; --accent-soft:#F4EDE6; --reel-a:#E9D7CB; --reel-b:#C89C86;
+  --overlay:rgba(28,18,14,.82);
+  --display:"Playfair Display",Georgia,"Times New Roman",serif;
+  --body:"Montserrat","Helvetica Neue",Arial,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#1B1512; --surface:#251C18; --fg:#F3E9E2; --muted:#B39C90; --line:#3A2D27;
+  --accent:#D49C83; --accent-soft:#2E231E; --reel-a:#4A372E; --reel-b:#8A5E4B; --overlay:rgba(8,5,4,.86); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#1B1512; --surface:#251C18; --fg:#F3E9E2; --muted:#B39C90; --line:#3A2D27;
+  --accent:#D49C83; --accent-soft:#2E231E; --reel-a:#4A372E; --reel-b:#8A5E4B; --overlay:rgba(8,5,4,.86); color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 48px}
+.wrap{max-width:640px;margin:0 auto;display:flex;flex-direction:column;gap:22px}
+.note{background:var(--accent-soft);border-radius:14px;padding:14px 18px;font-size:13.5px;color:var(--muted)}
+.note b{color:var(--fg);font-weight:600}
+.profile{display:grid;grid-template-columns:auto 1fr;gap:18px 22px;align-items:center}
+.avatar{width:96px;height:96px;border-radius:50%;object-fit:cover;padding:3px;background:linear-gradient(135deg,var(--accent),var(--reel-a))}
+.who h1{font:600 20px/1.2 var(--body);margin:0}
+.who .name{color:var(--muted);font-size:14px}
+.stats{display:flex;gap:18px;margin-top:8px;font-size:14px;font-variant-numeric:tabular-nums}
+.stats b{font-weight:600}
+.bio{grid-column:1/-1;font-size:14px;margin:0}
+.follow{grid-column:1/-1;display:flex;gap:8px}
+.follow span{flex:1;text-align:center;background:var(--accent);color:#fff;font-weight:600;font-size:14px;padding:9px;border-radius:10px}
+.follow span+span{flex:0 0 auto;background:var(--accent-soft);color:var(--fg);padding:9px 16px}
+.tabs{display:flex;border-top:1px solid var(--line)}
+.tabs span{flex:1;text-align:center;padding:12px 0 2px;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.tabs span:first-child{color:var(--fg);border-top:2px solid var(--fg);margin-top:-1px;font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:3px}
+.tile{position:relative;aspect-ratio:4/5;max-width:100%;border:0;padding:0;cursor:pointer;overflow:hidden;background:var(--accent-soft);color:inherit;font:inherit}
+.tile img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .35s}
+.tile:hover img{transform:scale(1.03)}
+.tile:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.date{position:absolute;left:6px;bottom:6px;background:rgba(255,255,255,.92);color:#2E221D;font:600 11px var(--body);letter-spacing:.04em;padding:3px 7px;border-radius:5px}
+.icon{position:absolute;right:7px;top:7px;width:18px;height:18px;color:#fff;filter:drop-shadow(0 1px 2px rgba(0,0,0,.4))}
+.reel{background:linear-gradient(160deg,var(--reel-a),var(--reel-b));display:flex;flex-direction:column;justify-content:center;padding:10px;text-align:left}
+.reel .hook{font:600 clamp(10px,2.4vw,14px)/1.25 var(--display);color:#fff;text-shadow:0 1px 6px rgba(40,20,10,.35)}
+.reel .ph{position:absolute;left:10px;right:10px;top:10px;font:500 10px var(--body);letter-spacing:.06em;text-transform:uppercase;color:rgba(255,255,255,.9)}
+.old{display:flex;align-items:center;justify-content:center;text-align:center;padding:10px;font-size:12px;color:var(--muted);cursor:default;background:repeating-linear-gradient(135deg,var(--accent-soft) 0 10px,var(--bg) 10px 20px)}
+.legend{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:13px;color:var(--muted)}
+/* lightbox */
+.lb{position:fixed;inset:0;background:var(--overlay);z-index:20;display:flex;align-items:center;justify-content:center;
+  padding:max(16px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(16px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+.panel{background:var(--surface);border-radius:16px;overflow:hidden;display:grid;grid-template-columns:minmax(0,1fr) 360px;width:min(1000px,100%);max-height:100%}
+.media{position:relative;background:#120c0a;display:flex;align-items:center;justify-content:center;min-width:0;overflow:hidden}
+.track{display:flex;width:100%;transition:transform .35s ease;touch-action:pan-y}
+.track img{flex:0 0 100%;width:100%;aspect-ratio:4/5;object-fit:contain;display:block;max-height:86vh}
+.nav{position:absolute;top:50%;transform:translateY(-50%);width:38px;height:38px;border-radius:50%;border:0;background:rgba(255,255,255,.9);color:#2E221D;font-size:20px;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.nav:focus-visible,.close:focus-visible{outline:3px solid var(--accent)}
+.prev{left:12px}.next{right:12px}
+.dots{position:absolute;bottom:12px;left:0;right:0;display:flex;justify-content:center;gap:6px}
+.dots i{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.45)}
+.dots i.on{background:#fff}
+.reelbig{width:min(100%,46vh);aspect-ratio:9/16;max-height:86vh;background:linear-gradient(160deg,var(--reel-a),var(--reel-b));position:relative;display:flex;flex-direction:column;justify-content:flex-end;padding:8% 7% 12%}
+.reelbig .top{position:absolute;top:5%;left:7%;right:7%;display:flex;justify-content:space-between;color:#fff;font:500 12px var(--body);letter-spacing:.06em;text-transform:uppercase}
+.reelbig .play{position:absolute;top:34%;left:50%;transform:translate(-50%,-50%);width:58px;height:58px;border-radius:50%;background:rgba(255,255,255,.28);display:flex;align-items:center;justify-content:center}
+.reelbig h3{font:600 clamp(18px,2.6vh,26px)/1.22 var(--display);color:#fff;margin:0 0 8px;text-shadow:0 1px 8px rgba(40,20,10,.35)}
+.reelbig .sub{color:#fff;font:500 italic 15px/1.35 var(--display);opacity:.95;margin:0 0 10px}
+.reelbig .read{color:#fff;font:500 13px var(--body)}
+.info{display:flex;flex-direction:column;min-width:0;max-height:86vh}
+.head{display:flex;align-items:center;gap:10px;padding:14px 16px;border-bottom:1px solid var(--line)}
+.head img{width:34px;height:34px;border-radius:50%;object-fit:cover}
+.head b{font-weight:600;font-size:14px}
+.head small{display:block;color:var(--muted);font-size:12px}
+.close{margin-left:auto;border:0;background:var(--accent-soft);color:var(--fg);width:34px;height:34px;border-radius:50%;font-size:18px;cursor:pointer}
+.cap{padding:16px;overflow-y:auto;font-size:14px;white-space:pre-line;flex:1}
+.scene{margin:0 16px 16px;background:var(--accent-soft);border-radius:12px;padding:12px 14px;font-size:13px}
+.scene b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:4px}
+.switch{display:flex;gap:6px;background:var(--accent-soft);padding:5px;border-radius:999px;flex-wrap:wrap}
+.switch button{flex:1 1 auto;border:0;background:transparent;color:var(--muted);font:600 13px var(--body);padding:10px 14px;border-radius:999px;cursor:pointer}
+.switch button[aria-pressed="true"]{background:var(--surface);color:var(--fg);box-shadow:0 2px 8px rgba(80,50,35,.12)}
+.switch button:focus-visible{outline:3px solid var(--accent)}
+.pend{position:absolute;right:6px;bottom:6px;background:var(--accent);color:#fff;font:600 10px var(--body);letter-spacing:.04em;padding:3px 7px;border-radius:5px}
+.pendbox{border:1px dashed var(--accent)}
+.altbtn{margin:0 16px 12px;border:0;background:var(--accent);color:#fff;font:600 13px var(--body);padding:11px 14px;border-radius:10px;cursor:pointer}
+.altbtn:focus-visible{outline:3px solid var(--fg)}
+@media (max-width:760px){
+  .panel{grid-template-columns:1fr;max-height:100%;overflow-y:auto}
+  .info{max-height:none}
+  .track img{max-height:62vh}
+  .reelbig{width:min(100%,34vh)}
+}
+@media (prefers-reduced-motion:reduce){.track,.tile img{transition:none}}
+</style>
+
+<div class="wrap">
+  <div class="switch" role="group" aria-label="Escolha a versão do calendário">
+    <button type="button" data-v="a">Novembro · Plano A</button>
+    <button type="button" data-v="b">Novembro · Plano B</button>
+    <button type="button" data-v="d">Dezembro</button>
+  </div>
+  <p class="note" id="note"></p>
+
+  <section class="profile" aria-label="Perfil">
+    <img class="avatar" src="img/perfil.jpg" alt="Foto de perfil da Pathy">
+    <div class="who">
+      <h1>paticompagnoni</h1>
+      <div class="name">Patrícia Compagnoni</div>
+      <div class="stats"><span><b>70</b> posts</span><span><b>1.308</b> seguidores</span><span><b>1.499</b> seguindo</span></div>
+    </div>
+    <p class="bio">Mãe 💝 | Biomedicina UFCSPA 🔬 | Estética 💉 | Autocuidado 🙋🏼‍♀️ | Lifestyle 🫶🏻 | Conteúdos para te inspirar no seu dia a dia ✨ ✨</p>
+    <div class="follow" aria-hidden="true"><span>Seguir</span><span>Mensagem</span></div>
+  </section>
+
+  <div class="tabs" aria-hidden="true"><span>Posts</span><span>Reels</span><span>Marcados</span></div>
+
+  <div class="grid" id="grid"></div>
+  <div class="legend"><span>Ordem do grid: o post mais recente fica no canto superior esquerdo.</span></div>
+</div>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Post">
+  <div class="panel">
+    <div class="media" id="media"></div>
+    <div class="info">
+      <div class="head"><img src="img/perfil.jpg" alt=""><div><b>paticompagnoni</b><small id="meta"></small></div><button class="close" id="close" aria-label="Fechar">✕</button></div>
+      <div class="cap" id="cap"></div>
+      <div class="scene" id="scene" hidden><b>Vídeo sugerido</b><span id="sceneTxt"></span></div>
+      <button class="altbtn" id="altb" hidden type="button">Ver a imagem estática (alternativa)</button>
+      <div class="scene pendbox" id="pend" hidden><b>Falta completar</b><span id="pendTxt"></span></div>
+    </div>
+  </div>
+</div>
+
+<script>
+let P=[
+ {date:'26/11',type:'reel',label:'Reels · vídeo B-roll',
+  hook:'Você não envelhece aos poucos, você envelhece em saltos…',sub:'E como usar isso a seu favor?',
+  scene:'Um take calmo de cerca de 15 segundos: ela caminhando, na varanda ou tomando um chá.',
+  cap:`Parece estranho, mas é ciência 👀
+
+Pesquisadores da Universidade Stanford acompanharam 108 pessoas de 25 a 75 anos e analisaram mais de 135 mil moléculas do corpo. A descoberta: a maior parte delas não muda aos poucos, mas em dois grandes saltos, por volta dos 44 e dos 60 anos (Shen et al., Nature Aging, 2024).
+
+E no salto dos 40, uma das mudanças acontece justamente nas moléculas que dão estrutura à pele e aos músculos, como o colágeno. É ele que mantém a pele firme, elástica e com aspecto jovem. Quando essa estrutura começa a mudar, a pele tende a perder firmeza e a mostrar mais sinais de envelhecimento, como flacidez e linhas.
+
+A boa notícia? Dá para se antecipar e cuidar da pele em todas as fases:
+
+🧴 Rotina de skincare completa: limpeza adequada, hidratação, ativos indicados para a sua pele e proteção diária
+💧 Hidratação de dentro para fora: beber água ao longo do dia faz parte do cuidado
+🥗 Estilo de vida: sono de qualidade, boa alimentação e movimento refletem na pele
+👩‍⚕️ Acompanhamento regular com uma profissional: para avaliar a sua pele e indicar tratamentos e procedimentos estéticos, quando fizer sentido para você
+
+Mulher, o melhor momento para cuidar da sua pele é agora. Nunca é tarde para começar 💛
+
+Você sabia que envelhecemos em saltos? Me conta aqui 👇
+E manda para aquela amiga que precisa saber disso!`},
+ {date:'19/11',type:'carousel',label:'Carrossel · 7 cards',imgs:['c2-1','c2-2','c2-3','c2-4','c2-5','c2-6','c2-7'],
+  cap:`Depois dos 40, eu entendi que cuidar de mim não é sobre grandes mudanças, e sim sobre pequenos hábitos repetidos todos os dias 💛
+
+São simples, mas nem sempre fáceis. E cada um deles tem a ciência a favor.
+
+Arraste o carrossel para conferir os 5 hábitos que eu jamais tiro da minha rotina 👉
+
+Mulher, qual desses já faz parte da sua rotina? Me conta aqui nos comentários!
+
+E não esquece de salvar e mandar para aquela amiga, para vocês se incentivarem juntas.`},
+ {date:'12/11',type:'reel',label:'Reels · vídeo B-roll',
+  hook:'Sou estudante de biomedicina e estes são 3 hábitos que eu sigo à risca para cuidar da minha pele',sub:'(e que você também pode aprender)',
+  scene:'Skincare da noite em frente ao espelho, cerca de 15 segundos: limpeza, retinol e hidratante, com os rótulos virados para trás.',
+  cap:`Desde que comecei a estudar biomedicina, fui percebendo cada vez mais a importância do skincare, e de fazer as etapas na ordem certa 💛
+
+No meu caso, esses são os 3 hábitos que eu sigo toda noite:
+
+1️⃣ Limpeza com um sabonete suave
+Um estudo publicado na revista Dermatology Research and Practice (Walters et al., 2012) mostrou que sabonetes muito agressivos removem os lipídios, a oleosidade natural da pele, e enfraquecem a barreira cutânea. Por isso eu prefiro uma limpeza mais leve: a pele fica limpa sem ficar sensível.
+
+2️⃣ Retinol
+Com a pele limpa e protegida, ela tolera melhor o retinol, um derivado da vitamina A. Num estudo da revista Archives of Dermatology (Kafi et al., 2007), ele diminuiu as rugas finas e aumentou a produção de colágeno.
+
+3️⃣ Hidratante e cama
+Por último, o hidratante. Num estudo da revista Journal of Drugs in Dermatology (Schorr et al., 2012), as pessoas usaram um ativo da família do retinol no rosto todo, mas hidratante em só um dos lados. O lado hidratado irritou bem menos. Ou seja: o hidratante ajuda a pele a se recuperar e a aproveitar o ativo sem sofrer.
+
+Sigo esses hábitos porque eles deixam a minha pele mais firme, protegida e sem irritação.
+
+Lembrando: o ideal é procurar uma profissional de confiança para avaliar a sua pele e montar uma rotina personalizada, combinado? 😉
+
+Mulher, me conta nos comentários: como você faz o seu skincare hoje? 👇
+E não esquece de enviar para a sua amiga, para ela também aprender, viu? 💛`},
+ {date:'05/11',type:'carousel',label:'Carrossel · 5 cards',imgs:['c1-1','c1-2','c1-3','c1-4','c1-5'],
+  cap:`Ser estudante de biomedicina tem mudado cada vez mais o jeito como eu percebo e cuido da minha pele 💛
+
+Hoje eu vou compartilhar com você 3 fatos comprovados pela ciência, para que você também cuide cada vez melhor da sua.
+
+Arraste o carrossel para conferir 👉
+
+Mulher, qual desses fatos foi novidade para você? Me conta aqui nos comentários!
+
+E não esquece de salvar e mandar para aquela amiga, para ela também aprender e cuidar melhor da pele dela.`},
+ {type:'old',label:'Cool Girls 40+'},
+ {type:'old',label:'Dump do congresso'}
+];
+const PA=P;
+const byDate=d=>PA.find(p=>p.date===d);
+const NB11={date:'12/11',type:'static',label:'Imagem estática',img:'nb-11',cap:byDate('12/11').cap};
+const NB25={date:'26/11',type:'static',label:'Imagem estática',img:'nb-25',cap:byDate('26/11').cap};
+const PB=[NB25,byDate('19/11'),NB11,byDate('05/11'),{type:'old',label:'Cool Girls 40+'},{type:'old',label:'Dump do congresso'}];
+const D03={date:'03/12',type:'carousel',label:'Carrossel · 5 cards',imgs:['d03-1','d03-2','d03-3','d03-4','d03-5'],pending:'Aguardando os 3 perfis das profissionais que a Pathy indica, para eu colocar o print de cada um e o nome. Também falta uma frase dela sobre o que aprende com cada uma.',
+ cap:`Uma das melhores formas de aprender é acompanhar quem entende do assunto 💛
+
+Desde que comecei a biomedicina, passei a seguir profissionais que me ensinam todos os dias sobre pele, estética e autocuidado. Separei 3 que eu indico de olhos fechados.
+
+Arraste o carrossel para conhecer cada uma 👉
+
+Lembrando: seguir é para aprender. Para qualquer cuidado ou procedimento, o ideal é sempre uma avaliação individual com uma profissional de confiança.
+
+Mulher, qual profissional você também indica? Me conta nos comentários e marca ela aqui!
+
+E não esquece de salvar e mandar para aquela amiga que ama aprender sobre pele.`};
+const D10={date:'10/12',type:'static',label:'Imagem estática',img:'d10',
+ cap:`Parece exagero, mas é ciência 👀
+
+Pesquisadores acompanharam 27 estudantes da área da saúde nas férias e em semanas de muito estresse. Nos períodos estressantes, a barreira da pele, a camada que protege e segura a hidratação, demorou mais para se recuperar (Garg et al., Archives of Dermatology, 2001).
+
+E não para por aí: em outro estudo, pequenos ferimentos feitos em períodos de estresse levaram, em média, 40% mais tempo para cicatrizar do que os feitos num período tranquilo (Marucha et al., Psychosomatic Medicine, 1998).
+
+Ou seja: quando você está estressada, a sua pele fica menos protegida e se recupera mais devagar.
+
+A boa notícia é que dá para reduzir os danos:
+
+🌙 Priorize o sono, mesmo com a agenda cheia
+🧴 Deixe o skincare mais gentil: limpeza suave, hidratante e protetor, sem testar produtos novos nessa fase
+☕ Faça pequenas pausas ao longo do dia para respirar e desacelerar
+
+Lembrando: se a pele estiver muito sensível ou irritada, procure uma profissional de confiança para avaliar.
+
+Mulher, a sua pele também sente quando você está estressada? Me conta aqui 👇
+E manda para aquela amiga que está na correria de fim de ano!`};
+const D17={date:'17/12',type:'carousel',label:'Carrossel · 6 cards',imgs:['d17-1','d17-2','d17-3','d17-4','d17-5','d17-6'],pending:'Foto do card final provisória (repete a de novembro).',
+ cap:`O verão chegou, e com ele alguns cuidados que quase ninguém conhece ☀️
+
+Separei 4 informações sobre o sol que eu aprendi estudando biomedicina e que fazem toda a diferença para a pele nessa época do ano.
+
+E a mais importante: não precisa fugir do sol, precisa não se queimar. Evite o sol forte entre 10h e 16h, use protetor e fique de olho nas pintas. Se alguma mudar de tamanho, cor ou formato, procure uma dermatologista.
+
+Arraste o carrossel para conferir 👉
+
+Mulher, qual dessas foi novidade para você? Me conta aqui nos comentários!
+
+E não esquece de salvar e mandar para aquela amiga que vai viajar para a praia 💛`};
+const D24S={date:'24/12',type:'static',label:'Imagem estática · alternativa',img:'d24',
+ cap:`Fim de ano é tempo de reencontros, e a ciência mostra que isso vai muito além da saudade 💛
+
+Uma grande revisão juntou 148 estudos, com mais de 308 mil pessoas. Quem tinha relações sociais mais fortes, com amigos, família e comunidade, teve 50% mais chance de sobrevivência ao longo dos estudos do que quem vivia mais isolado (Holt-Lunstad et al., PLoS Medicine, 2010).
+
+Então, sim: aquele café com as amigas, o almoço de família e a conversa que você vive adiando também são autocuidado.
+
+Neste fim de ano, eu desejo que você cuide da sua pele, do seu corpo e também das pessoas que fazem bem para você.
+
+Mulher, com quem você vai se encontrar neste fim de ano? Marca ela aqui nos comentários 👇
+Feliz Natal! 🎄`};
+const D24={date:'24/12',type:'video',label:'Reels · vídeo pronto (sugestão)',src:'reel-24-12.mp4',poster:'reel-24-12',alt:D24S,
+ scene:'Sugestão: usar o vídeo "Invista em você" que a Pathy já tem pronto e não postou. Se ela preferir não usar, entra a imagem estática "Encontrar as amigas no fim de ano também é cuidar da saúde".',
+ cap:`2026 foi o ano em que eu escolhi, mais uma vez, investir em mim 💛
+
+Faculdade, congresso, muito estudo e muitos aprendizados. Cada passo me deixa mais perto de um sonho que eu decidi não adiar.
+
+E se tem uma coisa que eu aprendi é que nunca é tarde para começar algo novo. Investir em conhecimento, em autocuidado e em você mesma é o melhor presente que dá para se dar.
+
+Mulher, qual foi o maior investimento que você fez em você este ano? Me conta aqui nos comentários 👇
+
+Feliz Natal! 🎄`};
+const R26={date:'26/11',type:'video',label:'Reels · vídeo B-roll editado',src:'reel-26-11.mp4',poster:'reel-26-11',cap:byDate('26/11').cap,
+ scene:'Vídeo editado com o B-roll dela caminhando no congresso e o gancho na tela. Falta só escolher a música no Instagram.'};
+PA[PA.indexOf(byDate('26/11'))]=R26;
+const PD=[D24,D17,D10,D03,NB25,byDate('19/11'),NB11,byDate('05/11'),{type:'old',label:'Cool Girls 40+'}];
+const VIEWS={a:PA,b:PB,d:PD};
+const NOTES={
+ a:'<b>Novembro · Plano A (com vídeos).</b> 2 carrosséis e 2 vídeos. O vídeo de 26/11 já está editado com o material que ela gravou no congresso.',
+ b:'<b>Novembro · Plano B (sem vídeo).</b> Os carrosséis prontos continuam iguais. Nas semanas dos vídeos entram imagens estáticas com o mesmo gancho e a mesma legenda.',
+ d:'<b>Dezembro.</b> 2 carrosséis e 2 imagens estáticas, intercalados. Em 24/12 vai a sugestão do vídeo pronto, com a estática como alternativa. Abaixo deles aparece novembro (Plano B), como ficará no perfil.'};
+
+const stackIcon='<svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 3h11a3 3 0 0 1 3 3v11h-2V6a1 1 0 0 0-1-1H7z"/><rect x="3" y="7" width="14" height="14" rx="2.5"/></svg>';
+const reelIcon='<svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>';
+const grid=document.getElementById('grid'),note=document.getElementById('note');
+const statIcon='';
+function render(v){
+  P=VIEWS[v];grid.innerHTML='';note.innerHTML=NOTES[v]+' Toque em cada post para abrir.';
+  document.querySelectorAll('.switch button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.v===v));
+  P.forEach((p,i)=>{
+    let el;
+    if(p.type==='old'){el=document.createElement('div');el.className='tile old';el.innerHTML='Post já publicado<br>'+p.label}
+    else{
+      el=document.createElement('button');el.className='tile'+(p.type==='reel'?' reel':'');el.setAttribute('aria-label',p.label+' de '+p.date);
+      el.innerHTML=p.type==='video'
+        ?`<img src="img/${p.poster}.jpg" alt="">${reelIcon}<span class="date">${p.date}</span>`
+        :p.type==='reel'
+        ?`<span class="ph">Vídeo da Pathy · ~15 s</span><span class="hook">${p.hook}</span>${reelIcon}<span class="date">${p.date}</span>`
+        :`<img src="img/${p.type==='static'?p.img:p.imgs[0]}.jpg" alt="">${p.type==='carousel'?stackIcon:''}<span class="date">${p.date}</span>${p.pending?'<span class="pend">a completar</span>':''}`;
+      el.addEventListener('click',()=>openPost(i));
+    }
+    grid.appendChild(el);
+  });
+  try{localStorage.setItem('feedView',v)}catch(e){}
+}
+document.querySelectorAll('.switch button').forEach(b=>b.addEventListener('click',()=>render(b.dataset.v)));
+let v0='b';try{v0=localStorage.getItem('feedView')||'b'}catch(e){}
+render(VIEWS[v0]?v0:'b');
+const lb=document.getElementById('lb'),media=document.getElementById('media'),cap=document.getElementById('cap'),meta=document.getElementById('meta'),scene=document.getElementById('scene');
+let idx=0,cur=null,lastFocus=null;
+function openPost(i){
+  cur=P[i];idx=0;lastFocus=document.activeElement;
+  meta.textContent=cur.date+'/2026 · '+cur.label;cap.textContent=cur.cap;cap.scrollTop=0;
+  const pend=document.getElementById('pend');pend.hidden=!cur.pending;if(cur.pending)document.getElementById('pendTxt').textContent=cur.pending;
+  const altb=document.getElementById('altb');altb.hidden=!cur.alt;
+  if(cur.type==='video'){
+    scene.hidden=false;document.getElementById('sceneTxt').textContent=cur.scene;
+    media.innerHTML=`<video src="${cur.src}" poster="img/${cur.poster}.jpg" controls playsinline loop style="width:min(100%,46vh);aspect-ratio:9/16;max-height:86vh;background:#000;display:block"></video>`;
+  }else if(cur.type==='static'){
+    scene.hidden=true;
+    media.innerHTML=`<div class="track"><img src="img/${cur.img}.jpg" alt=""></div>`;
+  }else if(cur.type==='carousel'){
+    scene.hidden=true;
+    media.innerHTML=`<div class="track" id="track">${cur.imgs.map(k=>`<img src="img/${k}.jpg" alt="">`).join('')}</div>
+      <button class="nav prev" id="prev" aria-label="Card anterior">‹</button><button class="nav next" id="next" aria-label="Próximo card">›</button>
+      <div class="dots">${cur.imgs.map(()=>'<i></i>').join('')}</div>`;
+    document.getElementById('prev').onclick=()=>go(-1);document.getElementById('next').onclick=()=>go(1);
+    const t=document.getElementById('track');let x0=null;
+    t.addEventListener('touchstart',e=>{x0=e.touches[0].clientX},{passive:true});
+    t.addEventListener('touchend',e=>{if(x0===null)return;const d=e.changedTouches[0].clientX-x0;if(Math.abs(d)>40)go(d<0?1:-1);x0=null});
+    go(0);
+  }else{
+    scene.hidden=false;document.getElementById('sceneTxt').textContent=cur.scene;
+    media.innerHTML=`<div class="reelbig"><div class="top"><span>Vídeo da Pathy aqui</span><span>~15 s</span></div>
+      <div class="play"><svg width="26" height="26" viewBox="0 0 24 24" fill="#fff"><path d="M8 5.5v13l11-6.5z"/></svg></div>
+      <h3>${cur.hook}</h3><p class="sub">${cur.sub}</p><span class="read">leia a legenda 👇</span></div>`;
+  }
+  lb.hidden=false;document.getElementById('close').focus();
+}
+function go(d){
+  const n=cur.imgs.length;idx=Math.max(0,Math.min(n-1,idx+d));
+  document.getElementById('track').style.transform=`translateX(-${idx*100}%)`;
+  media.querySelectorAll('.dots i').forEach((e,k)=>e.classList.toggle('on',k===idx));
+  document.getElementById('prev').hidden=idx===0;document.getElementById('next').hidden=idx===n-1;
+}
+document.getElementById('altb').onclick=()=>{if(!cur||!cur.alt)return;const a=cur.alt;P=P.slice();P.push(a);openPost(P.length-1)};
+function closeLb(){lb.hidden=true;media.innerHTML='';if(lastFocus)lastFocus.focus()}
+document.getElementById('close').onclick=closeLb;
+lb.addEventListener('click',e=>{if(e.target===lb)closeLb()});
+document.addEventListener('keydown',e=>{if(lb.hidden)return;if(e.key==='Escape')closeLb();if(cur&&cur.type==='carousel'){if(e.key==='ArrowRight')go(1);if(e.key==='ArrowLeft')go(-1)}});
+</script>
