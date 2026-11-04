@@ -1,16 +1,15 @@
 # Código de teste atualizado
 **RECRIA Marketing, 04/11/2026**
-**Urgente — para repassar ao Claude do Giuliano antes do teste de hoje**
 
 ---
 
-O código de teste da Meta muda com o tempo (expira depois de um período sem uso). O código que passamos antes (`TEST41558`) não vale mais.
+Giuliano, esse código de teste da Meta muda de tempo em tempo — e já mudou desde a última vez que passamos pra você. Nada grave, é rápido de ajustar.
+
+Pra conseguirmos fazer o evento de teste juntos na reunião de hoje à tarde, pode mandar esse documento pro seu Claude ainda hoje de manhã, pra ele atualizar o código no servidor? Assim, na hora da reunião, já está tudo pronto pra gente testar certinho.
 
 **Novo código de teste**: `TEST67208`
 
-Por favor, usar esse novo código na chamada de teste do servidor, em vez do anterior. Sem isso, o evento de teste não vai aparecer na tela "Eventos de teste" do Gerenciador de Eventos.
-
-## Onde ajustar, passo a passo
+## Passo a passo para o Claude do Giuliano
 
 1. No código do portal, localizar a parte que faz a chamada para a API de Conversões da Meta (a função que dispara os eventos `CompleteRegistration` e `Purchase`).
 2. Nessa chamada, o corpo da requisição tem um campo chamado **`test_event_code`** — é um parâmetro geral da chamada, no mesmo nível dos dados do evento (não dentro de cada evento individual).
