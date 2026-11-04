@@ -39,9 +39,39 @@ Ele ainda não tinha gravado (último status, 28/10: "vai gravar nos próximos d
 
 A Amanda já conseguiu o material bruto do episódio 9 com o ProHub. Falta confirmar com o Rene se ele já tem os cortes prontos (era responsabilidade dele) — já cobrado de novo hoje, junto com a liberação do episódio 8 no YouTube. Se o Rene não liberar, a Amanda assume, mas sem refazer cortes que já existem.
 
-## 9A · Projeto da Pati — conversar antes de responder ela
+## 9A · Projeto da Pati — roteiro para a conversa (uso interno, não enviar ao Giuliano)
 
-Alinhar com o Giuliano sobre o pedido de pausa da Pati, antes de dar qualquer retorno pra ela diretamente. (Conversa estratégica feita à parte, não detalhada aqui.)
+A Pati mandou um áudio pedindo pra pausar o projeto. Falar com o Giuliano **antes** de responder a ela — ele provavelmente ainda não sabe (padrão de várias decisões dela que ele só fica sabendo por você).
+
+**Abertura — por que ainda não respondi a ela**
+"Giu, a Pati me mandou um áudio, mas eu ainda não respondi — preferi conversar com você primeiro, pra gente alinhar a melhor forma de falar com ela, já que eu tenho mais intimidade com você nesse ponto."
+
+**1. Mostrar antes de pedir**
+"Antes de mais nada, deixa eu te mostrar como ficou novembro e dezembro dela — já está pronto." *(Compartilha o material.)*
+
+**2. Contextualizar os planos A e B**
+"A ideia era: se ela gravasse vídeo na viagem pra Serra, usávamos o Plano A. Como não gravou, já estava previsto — entramos direto no Plano B, carrossel e imagem estática, com embasamento em artigo científico. Então não ficou nada pela metade."
+
+**3. Trazer o áudio dela, sem interpretar além**
+"Ela me mandou dizendo que quer fazer uma pausa... deixar pra focar quando estiver no estágio e na clínica."
+
+**4. A causa real — exposição, não desempenho**
+"Ela tá incomodada com estranhos vendo a vida pessoal dela nos stories. Isso confirmou uma coisa que eu já tinha pensado: faz sentido migrar pra um perfil profissional, separado do pessoal — ela só posta ali o que quiser, sem misturar."
+
+**5. O elo da questão dos seguidores**
+"Também entrou o ponto de algumas pessoas deixando de seguir, e ela não gostou. Só que a gente nem chegou na parte de olhar métrica de seguidor ainda — isso só faz sentido avaliar depois de uns 2-3 meses postando com regularidade."
+
+**6. O gancho — a contradição com o que ela mesma postou**
+"Giu, tem uma coisa que me chamou atenção: uma das últimas postagens dela foi anunciando que ia trazer mais conteúdo sobre autocuidado, biomedicina, mulheres 40+. Se ela pausa agora logo depois disso, vai parecer, pra quem já está acompanhando, que ela tá desistindo do próprio sonho que acabou de anunciar. Por isso acho que faz mais sentido ela seguir devagar — carrossel e imagem estática agora, vídeo quando ela se sentir confortável — do que parar tudo porque não está no ritmo ideal dela."
+
+**7. O argumento estratégico — construir audiência agora é mais barato depois**
+"Tem um ponto prático também: se a gente for alimentando o perfil agora, mesmo devagar, quando ela começar a aparecer em vídeo no ano que vem (já no estágio), ela não vai começar do zero — já vai ter seguidor, gente engajada, e eu já vou ter dado de audiência. Isso deixa muito mais barato o trabalho de tráfego pago lá na frente. Quanto mais tarde ela começa a construir isso, mais caro fica recuperar o tempo perdido."
+
+**8. O pedido de ajuda, com empatia primeiro, explicando a facilidade**
+"Eu entendo que o envolvimento dela agora está complicado pela correria da vida — mas ela acha que precisa se envolver muito, e não precisa. A parte difícil é minha: curadoria, estudo, criação. Nada vai pra rede social sem passar pelo crivo e aprovação dela — isso eu garanto. O processo é simples: a gente conversa por WhatsApp, eu mando o material, ela me dá o retorno (foto que não gostou, assunto que quer trocar), eu ajusto e programo. Uma horinha que ela separar num fim de semana, eu já consigo deixar 2 meses de conteúdo prontos e programados. É bem mais simples do que ela está imaginando."
+
+**9. Fechar com pergunta colaborativa, deixando o pagamento implícito**
+"De qualquer forma, novembro e dezembro já estão prontos." *(pausa)* "A pergunta é mais sobre o que vem depois: você me ajuda a tentar convencer ela a seguir nesse ritmo mais leve, em vez de pausar de vez? Ou você acha que, de fato, faz mais sentido pausar a partir de janeiro?"
 
 ## 9 · Indicação de dev de segurança da informação — pendência nossa
 
