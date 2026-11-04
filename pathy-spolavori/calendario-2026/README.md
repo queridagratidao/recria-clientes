@@ -12,12 +12,12 @@ Postagens sempre às **quintas-feiras**, 1 por semana. Prévia clicável do feed
 | 12/11 | Reels pronto (`novembro/reels/reel-12-11-cracha-baas.mp4`) | Crachá VIP no BAAS International Congress | Pronto |
 | 19/11 | Carrossel | Hábitos que eu jamais tiro da rotina | Pronto |
 | 26/11 | Reels editado (`novembro/reels/reel-26-11.mp4`), estática como alternativa | Você envelhece em saltos | Pronto (falta a música) |
-| 03/12 | Carrossel | 3 doutoras da estética que eu sigo de olhos fechados | Pathy confirma as frases "Por que eu indico" |
+| 03/12 | Carrossel | 3 profissionais da estética que eu recomendo de olhos fechados | Pathy confirma as frases "Por que eu indico" |
 | 10/12 | Estática | A sua pele sabe quando você está estressada | Pronto |
 | 17/12 | Carrossel (6 cards) | 4 coisas sobre o sol que quase ninguém sabe | Pronto |
 | 24/12 | Reels pronto "Invista em você", estática como alternativa | Fim de ano | Pronto |
 | 07/01 | Carrossel (8 cards) | Depois dos 40, eu falo muito que… (referência @dra.jullianasouza) | Pronto |
-| 14/01 | Reels editado (`janeiro/reels/reel-14-01-corredor-congresso.mp4`) | Nem tudo o que eu aprendo está nos livros | Pronto (falta a música) |
+| 14/01 | Reels editado (`janeiro/reels/reel-14-01-corredor-congresso.mp4`) | 5 mitos sobre a pele depois dos 40 | Pronto (falta a música) |
 | 21/01 | Carrossel (5 cards) | 3 indicações para curtir as férias (livro, podcast, série) | Pathy pode trocar as indicações |
 | 28/01 | Estática (veio de novembro) | 3 hábitos de skincare que eu sigo à risca | Pronto |
 
@@ -32,9 +32,9 @@ Postagens sempre às **quintas-feiras**, 1 por semana. Prévia clicável do feed
 6. Me arrumo para mim. / Se alguém mais gostar, é bônus.
 CTA: Mulher, qual dessas você também fala? Me conta nos comentários e manda para aquela amiga que vai se identificar.
 
-**14/01 · Reels** gancho: Nem tudo o que eu aprendo está nos livros. / Algumas das melhores aulas acontecem nos corredores de um congresso.
+**14/01 · Reels** gancho: 5 mitos sobre a pele depois dos 40 / que muita gente ainda acredita. Legenda com os 5 mitos e estudos (Hughes 2013, Skin Cancer Foundation, Kafi 2007, Palma 2015, AAD).
 
-**21/01 · Férias:** Mulheres que correm com os lobos (Clarissa Pinkola Estés, Rocco) · Bom dia, Obvious (Marcela Ceribelli) · Grace and Frankie (Netflix).
+**21/01 · Férias:** Mulheres que correm com os lobos (@editorarocco) · Bom dia, Obvious (@marcelaceribelli, @bomdia.obvious) · Grace and Frankie (@netflixbrasil). Regra: sempre marcar na legenda quem a Pathy recomenda.
 
 Legendas completas de todos os posts: ver `previa-feed/feed-pathy.html` (abrir cada post).
 
@@ -225,3 +225,12 @@ eros para isso.
 Fotos fora de evento usadas: 12/11 aula na faculdade · 26/11 selfie golden hour · 10/12 piscina (texto no topo) · 24/12 vestido rosa no espelho.
 Reserva para próximos meses: selfie na neve (casaco rosa), selfie no espelho do corredor, Casa Valduga (aparece a marca), selfie de óculos na montanha (aparece a marca DKNY).
 Evitar: foto do ITC (treinamento em cadáveres) e foto do SEMIEST (evento com marca na sacola).
+
+## Capas dos Reels (`capas-reels/`)
+
+- 12/11: Depois dos 40, eu voltei a estudar. (print do crachá)
+- 26/11: Você não envelhece aos poucos, você envelhece em saltos… (foto no auditório)
+- 24/12: 2026 foi o ano em que eu escolhi investir em mim. (vestido rosa no espelho)
+- 14/01: 5 mitos sobre a pele depois dos 40 (frame do vídeo)
+
+Vídeos de 26/11 e 14/01 enviados sem áudio para a Amanda cortar e colocar a música.

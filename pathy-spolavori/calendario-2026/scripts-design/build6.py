@@ -104,7 +104,7 @@ h2{{font:600 72px/1.1 PF;margin:10px 0 14px}}
 cards=[
  ('nb-11',static('n5_nb11.jpg','Sou estudante de biomedicina e estes são 3 hábitos que eu sigo à risca para cuidar da minha pele','e que você também pode aprender.',56)),
  ('nb-25',static('n5_nb25.jpg','Você não envelhece aos poucos, você envelhece em saltos…','E como usar isso a seu favor?',62)),
- ('d03-1',cover('n6_d03capa.jpg','3 doutoras da estética que eu sigo de olhos fechados','E que me inspiram na profissional que eu estou me tornando.')),
+ ('d03-1',cover('n5_nb11.jpg','3 profissionais da estética que eu recomendo de olhos fechados','E que me inspiram na profissional que eu estou me tornando.')),
  ('d03-2',slot(1,'Patrícia Manfroi','drapatimanfroi','harmonização facial e corporal','Dra. Patrícia Manfroi | Harmonização Facial e Corporal','+ de 9 anos entregando resultados naturais para quem valoriza elegância. Porto Alegre.','av_manfroi.jpg','ela mostra que uma harmonização bem feita valoriza quem você já é, com naturalidade e elegância.')),
  ('d03-3',slot(2,'Letícia Fridel','draleticiafridel','harmonização facial 40+','Dra. Letícia Fridel | Harmonização Facial 40+ · Dois Irmãos RS','Rejuvenescimento e gerenciamento facial, estratégia, naturalidade e elegância sem transformar seus traços.','av_fridel.jpg','ela fala com a mulher de 40+ e mostra que dá para rejuvenescer sem deixar de ser você.')),
  ('d03-4',slot(3,'Bel Guerra','drabelguerra','harmonização facial','Bel Guerra | Harmonização Facial · São Paulo','2.569 posts · 178 mil seguidores','av_bel.jpg','ela é uma das grandes referências da harmonização no Brasil e compartilha muito conhecimento sobre o rosto e a pele.')),
@@ -134,7 +134,7 @@ cards=[
  ('j21-3',ind(2,'podcast','Bom dia, Obvious','com Marcela Ceribelli · Spotify e outras plataformas','Conversas leves e profundas sobre autoestima, relacionamentos, carreira e saúde mental, com uma convidada diferente a cada episódio.','é perfeito para ouvir na caminhada, no carro ou na beira da praia.')),
  ('j21-4',ind(3,'série','Grace and Frankie','Netflix · 7 temporadas','Duas mulheres na casa dos 70 anos precisam recomeçar a vida do zero, e descobrem que nunca é tarde para se reinventar.','é divertida, leve e prova que a vida não tem prazo de validade.')),
  ('j21-5',cta('n6_sun.jpg','Mulher, qual indicação você me dá de volta?','Me conta nos comentários: livro, podcast ou série.')),
- ('j28',static('n5_nb11.jpg','Sou estudante de biomedicina e estes são 3 hábitos que eu sigo à risca para cuidar da minha pele','e que você também pode aprender.',56)),
+ ('j28',static('n_nb25.jpg','Sou estudante de biomedicina e estes são 3 hábitos que eu sigo à risca para cuidar da minha pele','e que você também pode aprender.',56)),
 ]
 async def main():
     out=D/'out6'; out.mkdir(exist_ok=True)
