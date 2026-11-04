@@ -12,7 +12,7 @@ Postagens sempre às **quintas-feiras**, 1 por semana. Prévia clicável do feed
 | 12/11 | Reels B-roll (skincare da noite) | Estática | 3 hábitos de skincare da noite | Plano B pronto; Plano A depende do vídeo |
 | 19/11 | Carrossel | Carrossel | Hábitos que eu jamais tiro da rotina | Pronto |
 | 26/11 | Reels editado (`novembro/reels/reel-26-11.mp4`) | Estática | Você envelhece em saltos | Pronto (falta escolher a música) |
-| 03/12 | Carrossel | | 3 profissionais que eu sigo de olhos fechados | Falta os 3 perfis da Pathy |
+| 03/12 | Carrossel | | 3 mulheres que eu sigo de olhos fechados | Pathy confirma as frases "Por que eu indico" |
 | 10/12 | Estática | | A sua pele sabe quando você está estressada | Pronto |
 | 17/12 | Carrossel (6 cards) | | 4 coisas sobre o sol que quase ninguém sabe | Pronto |
 | 24/12 | Reels pronto "Invista em você" (sugestão) | Estática: encontrar as amigas | Fim de ano | Pronto |
@@ -21,7 +21,7 @@ Postagens sempre às **quintas-feiras**, 1 por semana. Prévia clicável do feed
 
 - **12/11:** Sou estudante de biomedicina e estes são 3 hábitos que eu sigo à risca para cuidar da minha pele / e que você também pode aprender.
 - **26/11:** Você não envelhece aos poucos, você envelhece em saltos… / E como usar isso a seu favor? / leia a legenda
-- **03/12 (capa):** Profissionais da estética que eu sigo de olhos fechados / E que vão te ensinar muito sobre pele.
+- **03/12 (capa):** 3 mulheres que eu sigo de olhos fechados / E que me inspiram na profissional que eu estou me tornando.
 - **10/12:** A sua pele sabe quando você está estressada. / E isso afeta a proteção e a cicatrização dela. Mas dá para reduzir os danos.
 - **17/12 (capa):** 4 coisas sobre o sol que quase ninguém sabe / Antes de curtir o verão, arrasta para o lado.
 - **24/12 (estática alternativa):** Encontrar as amigas no fim de ano também é cuidar da saúde. / E a ciência tem números para isso.
@@ -93,7 +93,11 @@ Postagens sempre às **quintas-feiras**, 1 por semana. Prévia clicável do feed
 ### 03/12 · Carrossel de profissionais
 > Uma das melhores formas de aprender é acompanhar quem entende do assunto 💛
 >
-> Desde que comecei a biomedicina, passei a seguir profissionais que me ensinam todos os dias sobre pele, estética e autocuidado. Separei 3 que eu indico de olhos fechados.
+> Desde que comecei a biomedicina, passei a seguir mulheres que me ensinam todos os dias sobre pele, estética e também sobre carreira. Separei 3 que eu indico de olhos fechados:
+>
+> ✨ @drapatimanfroi
+> ✨ @draleticiafridel
+> ✨ @katibitencourt
 >
 > Arraste o carrossel para conhecer cada uma 👉
 >
@@ -183,7 +187,9 @@ Postagens sempre às **quintas-feiras**, 1 por semana. Prévia clicável do feed
 
 ## Pendências
 
-- [ ] Os 3 perfis de Instagram das profissionais para o carrossel de 03/12 (nome, @, print e uma frase da Pathy sobre cada uma)
+- [x] Perfis do carrossel de 03/12: @drapatimanfroi (harmonização facial e corporal), @draleticiafridel (harmonização facial 40+), @katibitencourt (marketing e posicionamento)
+- [ ] Pathy confirmar as frases "Por que eu indico" dos cards 2 a 4 de 03/12
+- [ ] Vídeo do crachá no congresso internacional (Amanda editando no Canva): encaixar em novembro ou guardar para janeiro
 - [ ] Escolher a música do Reels de 26/11 no Instagram
 - [ ] A Pathy aprovar o uso do vídeo "Invista em você" em 24/12 (senão entra a estática)
 - [ ] Foto do card final de 17/12 é provisória (repete a de novembro)
@@ -195,3 +201,9 @@ Postagens sempre às **quintas-feiras**, 1 por semana. Prévia clicável do feed
 - Bordão do fechamento: "Mulher, …?"
 - Fotos: não repetir as já usadas; brutos vão para a pasta da Pathy no Drive da Recria.
 - Visual: fundo nude, títulos Playfair Display, subtítulos Lora, corpo Montserrat, setinhas ››› para arrastar.
+
+## Fotos (atualização 04/11)
+
+Fotos fora de evento usadas: 12/11 aula na faculdade · 26/11 selfie golden hour · 10/12 piscina (texto no topo) · 24/12 vestido rosa no espelho.
+Reserva para próximos meses: selfie na neve (casaco rosa), selfie no espelho do corredor, Casa Valduga (aparece a marca), selfie de óculos na montanha (aparece a marca DKNY).
+Evitar: foto do ITC (treinamento em cadáveres) e foto do SEMIEST (evento com marca na sacola).
