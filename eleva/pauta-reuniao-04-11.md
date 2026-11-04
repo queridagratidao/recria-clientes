@@ -39,6 +39,10 @@ Ele ainda não tinha gravado (último status, 28/10: "vai gravar nos próximos d
 
 A Amanda já conseguiu o material bruto do episódio 9 com o ProHub. Falta confirmar com o Rene se ele já tem os cortes prontos (era responsabilidade dele) — já cobrado de novo hoje, junto com a liberação do episódio 8 no YouTube. Se o Rene não liberar, a Amanda assume, mas sem refazer cortes que já existem.
 
+## 9A · Projeto da Pati — conversar antes de responder ela
+
+Alinhar com o Giuliano sobre o pedido de pausa da Pati, antes de dar qualquer retorno pra ela diretamente. (Conversa estratégica feita à parte, não detalhada aqui.)
+
 ## 9 · Indicação de dev de segurança da informação — pendência nossa
 
 Ainda não indicamos ninguém. A Amanda vai verificar e dar retorno em breve.
