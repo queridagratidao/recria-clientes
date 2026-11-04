@@ -1,30 +1,48 @@
-# Calendário de conteúdo da Pathy: novembro e dezembro de 2026
+# Calendário de conteúdo da Pathy: novembro de 2026 a janeiro de 2027
 
 Atualizado em 04/11/2026 · Agência Recria
 
-Postagens sempre às **quintas-feiras**, 1 por semana. Prévia clicável do feed (com botões Plano A, Plano B e Dezembro): https://claude.ai/artifact/MSxB5gvdweLv9iagu4CwLB (cópia local em `previa-feed/feed-pathy.html`).
+Postagens sempre às **quintas-feiras**, 1 por semana. Prévia clicável do feed (com botões Novembro, Dezembro e Janeiro completo): https://claude.ai/artifact/MSxB5gvdweLv9iagu4CwLB (cópia local em `previa-feed/fee## Resumo
 
-## Resumo
+12 posts prontos (1 por semana, às quintas). Falta só a aprovação da Pathy.
 
-| Data | Plano A | Plano B (sem vídeo) | Tema | Status |
-| --- | --- | --- | --- | --- |
-| 05/11 | Carrossel | Carrossel | 3 fatos sobre a pele | Pronto |
-| 12/11 | Reels B-roll (skincare da noite) | Estática | 3 hábitos de skincare da noite | Plano B pronto; Plano A depende do vídeo |
-| 19/11 | Carrossel | Carrossel | Hábitos que eu jamais tiro da rotina | Pronto |
-| 26/11 | Reels editado (`novembro/reels/reel-26-11.mp4`) | Estática | Você envelhece em saltos | Pronto (falta escolher a música) |
-| 03/12 | Carrossel | | 3 mulheres que eu sigo de olhos fechados | Pathy confirma as frases "Por que eu indico" |
-| 10/12 | Estática | | A sua pele sabe quando você está estressada | Pronto |
-| 17/12 | Carrossel (6 cards) | | 4 coisas sobre o sol que quase ninguém sabe | Pronto |
-| 24/12 | Reels pronto "Invista em você" (sugestão) | Estática: encontrar as amigas | Fim de ano | Pronto |
+| Data | Formato | Tema | Status |
+| --- | --- | --- | --- |
+| 05/11 | Carrossel | 3 fatos sobre a pele | Pronto |
+| 12/11 | Reels pronto (`novembro/reels/reel-12-11-cracha-baas.mp4`) | Crachá VIP no BAAS International Congress | Pronto |
+| 19/11 | Carrossel | Hábitos que eu jamais tiro da rotina | Pronto |
+| 26/11 | Reels editado (`novembro/reels/reel-26-11.mp4`), estática como alternativa | Você envelhece em saltos | Pronto (falta a música) |
+| 03/12 | Carrossel | 3 doutoras da estética que eu sigo de olhos fechados | Pathy confirma as frases "Por que eu indico" |
+| 10/12 | Estática | A sua pele sabe quando você está estressada | Pronto |
+| 17/12 | Carrossel (6 cards) | 4 coisas sobre o sol que quase ninguém sabe | Pronto |
+| 24/12 | Reels pronto "Invista em você", estática como alternativa | Fim de ano | Pronto |
+| 07/01 | Carrossel (8 cards) | Depois dos 40, eu falo muito que… (referência @dra.jullianasouza) | Pronto |
+| 14/01 | Reels editado (`janeiro/reels/reel-14-01-corredor-congresso.mp4`) | Nem tudo o que eu aprendo está nos livros | Pronto (falta a música) |
+| 21/01 | Carrossel (5 cards) | 3 indicações para curtir as férias (livro, podcast, série) | Pathy pode trocar as indicações |
+| 28/01 | Estática (veio de novembro) | 3 hábitos de skincare que eu sigo à risca | Pronto |
 
-## Ganchos
+## Janeiro: textos
 
-- **12/11:** Sou estudante de biomedicina e estes são 3 hábitos que eu sigo à risca para cuidar da minha pele / e que você também pode aprender.
-- **26/11:** Você não envelhece aos poucos, você envelhece em saltos… / E como usar isso a seu favor? / leia a legenda
-- **03/12 (capa):** 3 mulheres que eu sigo de olhos fechados / E que me inspiram na profissional que eu estou me tornando.
-- **10/12:** A sua pele sabe quando você está estressada. / E isso afeta a proteção e a cicatrização dela. Mas dá para reduzir os danos.
-- **17/12 (capa):** 4 coisas sobre o sol que quase ninguém sabe / Antes de curtir o verão, arrasta para o lado.
-- **24/12 (estática alternativa):** Encontrar as amigas no fim de ano também é cuidar da saúde. / E a ciência tem números para isso.
+**07/01 · Depois dos 40, eu falo muito que…** (uma frase por foto)
+1. Tá calor aqui ou sou eu? / Já sei, já sei… é o climatério dando oi.
+2. Protetor solar? / Já passei. E daqui a pouco eu reaplico.
+3. Só uma tacinha. / E uma boa conversa que renova a semana inteira.
+4. Não tenho mais idade para isso. / Mentira. Eu tenho idade para tudo o que eu quiser.
+5. Voltei a estudar. / E não acho que é tarde. Acho que é a hora.
+6. Me arrumo para mim. / Se alguém mais gostar, é bônus.
+CTA: Mulher, qual dessas você também fala? Me conta nos comentários e manda para aquela amiga que vai se identificar.
+
+**14/01 · Reels** gancho: Nem tudo o que eu aprendo está nos livros. / Algumas das melhores aulas acontecem nos corredores de um congresso.
+
+**21/01 · Férias:** Mulheres que correm com os lobos (Clarissa Pinkola Estés, Rocco) · Bom dia, Obvious (Marcela Ceribelli) · Grace and Frankie (Netflix).
+
+Legendas completas de todos os posts: ver `previa-feed/feed-pathy.html` (abrir cada post).
+
+## Regra de fotos
+
+Nenhuma foto se repete em menos de 4 posts de distância. Repetições atuais: navio (19/11 → 07/01), restaurante (19/11 → 07/01), selfie dourada (26/11 alternativa → 07/01), Sculptra (05/11 → 17/12), selfie do auditório (05/11 → 07/01), piscina (10/12 → 21/01), óculos na montanha (17/12 → 21/01, logo da DKNY removido).
+
+eros para isso.
 
 ## Legendas
 
@@ -93,11 +111,11 @@ Postagens sempre às **quintas-feiras**, 1 por semana. Prévia clicável do feed
 ### 03/12 · Carrossel de profissionais
 > Uma das melhores formas de aprender é acompanhar quem entende do assunto 💛
 >
-> Desde que comecei a biomedicina, passei a seguir mulheres que me ensinam todos os dias sobre pele, estética e também sobre carreira. Separei 3 que eu indico de olhos fechados:
+> Desde que comecei a biomedicina, passei a seguir doutoras que me ensinam todos os dias sobre pele, estética e autocuidado. Separei 3 que eu indico de olhos fechados:
 >
 > ✨ @drapatimanfroi
 > ✨ @draleticiafridel
-> ✨ @katibitencourt
+> ✨ @drabelguerra
 >
 > Arraste o carrossel para conhecer cada uma 👉
 >
@@ -187,9 +205,9 @@ Postagens sempre às **quintas-feiras**, 1 por semana. Prévia clicável do feed
 
 ## Pendências
 
-- [x] Perfis do carrossel de 03/12: @drapatimanfroi (harmonização facial e corporal), @draleticiafridel (harmonização facial 40+), @katibitencourt (marketing e posicionamento)
+- [x] Perfis do carrossel de 03/12: @drapatimanfroi (harmonização facial e corporal), @draleticiafridel (harmonização facial 40+), @drabelguerra (harmonização facial, no lugar da @katibitencourt)
 - [ ] Pathy confirmar as frases "Por que eu indico" dos cards 2 a 4 de 03/12
-- [ ] Vídeo do crachá no congresso internacional (Amanda editando no Canva): encaixar em novembro ou guardar para janeiro
+- [x] Vídeo do crachá no BAAS: entrou em 12/11
 - [ ] Escolher a música do Reels de 26/11 no Instagram
 - [ ] A Pathy aprovar o uso do vídeo "Invista em você" em 24/12 (senão entra a estática)
 - [ ] Foto do card final de 17/12 é provisória (repete a de novembro)

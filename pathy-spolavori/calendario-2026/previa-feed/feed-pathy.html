@@ -48,6 +48,7 @@ body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px
 .reel .ph{position:absolute;left:10px;right:10px;top:10px;font:500 10px var(--body);letter-spacing:.06em;text-transform:uppercase;color:rgba(255,255,255,.9)}
 .old{display:flex;align-items:center;justify-content:center;text-align:center;padding:10px;font-size:12px;color:var(--muted);cursor:default;background:repeating-linear-gradient(135deg,var(--accent-soft) 0 10px,var(--bg) 10px 20px)}
 .legend{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:13px;color:var(--muted)}
+[hidden]{display:none!important}
 /* lightbox */
 .lb{position:fixed;inset:0;background:var(--overlay);z-index:20;display:flex;align-items:center;justify-content:center;
   padding:max(16px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(16px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
@@ -95,9 +96,9 @@ body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px
 
 <div class="wrap">
   <div class="switch" role="group" aria-label="Escolha a versão do calendário">
-    <button type="button" data-v="a">Novembro · Plano A</button>
-    <button type="button" data-v="b">Novembro · Plano B</button>
+    <button type="button" data-v="n">Novembro</button>
     <button type="button" data-v="d">Dezembro</button>
+    <button type="button" data-v="j">Janeiro (completo)</button>
   </div>
   <p class="note" id="note"></p>
 
@@ -206,11 +207,11 @@ const PB=[NB25,byDate('19/11'),NB11,byDate('05/11'),{type:'old',label:'Cool Girl
 const D03={date:'03/12',type:'carousel',label:'Carrossel · 5 cards',imgs:['d03-1','d03-2','d03-3','d03-4','d03-5'],pending:'As frases de "Por que eu indico" são sugestões: a Pathy confirma ou ajusta com as palavras dela.',
  cap:`Uma das melhores formas de aprender é acompanhar quem entende do assunto 💛
 
-Desde que comecei a biomedicina, passei a seguir mulheres que me ensinam todos os dias sobre pele, estética e também sobre carreira. Separei 3 que eu indico de olhos fechados:
+Desde que comecei a biomedicina, passei a seguir doutoras que me ensinam todos os dias sobre pele, estética e autocuidado. Separei 3 que eu indico de olhos fechados:
 
 ✨ @drapatimanfroi
 ✨ @draleticiafridel
-✨ @katibitencourt
+✨ @drabelguerra
 
 Arraste o carrossel para conhecer cada uma 👉
 
@@ -238,7 +239,7 @@ Lembrando: se a pele estiver muito sensível ou irritada, procure uma profission
 
 Mulher, a sua pele também sente quando você está estressada? Me conta aqui 👇
 E manda para aquela amiga que está na correria de fim de ano!`};
-const D17={date:'17/12',type:'carousel',label:'Carrossel · 6 cards',imgs:['d17-1','d17-2','d17-3','d17-4','d17-5','d17-6'],pending:'Foto do card final provisória (repete a de novembro).',
+const D17={date:'17/12',type:'carousel',label:'Carrossel · 6 cards',imgs:['d17-1','d17-2','d17-3','d17-4','d17-5','d17-6'],
  cap:`O verão chegou, e com ele alguns cuidados que quase ninguém conhece ☀️
 
 Separei 4 informações sobre o sol que eu aprendi estudando biomedicina e que fazem toda a diferença para a pele nessa época do ano.
@@ -275,12 +276,61 @@ Feliz Natal! 🎄`};
 const R26={date:'26/11',type:'video',label:'Reels · vídeo B-roll editado',src:'reel-26-11.mp4',poster:'reel-26-11',cap:byDate('26/11').cap,
  scene:'Vídeo editado com o B-roll dela caminhando no congresso e o gancho na tela. Falta só escolher a música no Instagram.'};
 PA[PA.indexOf(byDate('26/11'))]=R26;
-const PD=[D24,D17,D10,D03,NB25,byDate('19/11'),NB11,byDate('05/11'),{type:'old',label:'Cool Girls 40+'}];
-const VIEWS={a:PA,b:PB,d:PD};
+const R12={date:'12/11',type:'video',label:'Reels · vídeo pronto (crachá no BAAS)',src:'reel-12-11.mp4',poster:'reel-12-11',
+ scene:'Vídeo editado pela Amanda no Canva: a Pathy pegando o crachá VIP do BAAS International Congress.',
+ cap:`Meu momento 💜
+
+Depois dos 40, de volta à faculdade e com o crachá de um congresso internacional de estética nas mãos. Esse foi o meu dia no BAAS International Congress.
+
+Tem gente que acha que existe idade certa para começar, para estudar ou para mudar de carreira. Eu acho que a idade certa é aquela em que a gente decide.
+
+Cada palestra, cada conversa e cada novidade que eu vejo me deixam mais perto da profissional que eu quero ser.
+
+Mulher, qual sonho você está tirando do papel? Me conta aqui nos comentários 👇`};
+R26.alt=NB25;
+const J07={date:'07/01',type:'carousel',label:'Carrossel · 8 cards',imgs:['j07-1','j07-2','j07-3','j07-4','j07-5','j07-6','j07-7','j07-8'],
+ cap:`Toda mulher depois dos 40 tem as suas frases prontas 😂
+
+Eu separei algumas das minhas: tem calor do nada, tem protetor solar, tem viagem, tem estudo e tem muito amor-próprio.
+
+Arraste para o lado e me conta: qual delas você também fala? 👉
+
+E manda para aquela amiga que vai rir e se identificar junto!
+
+#mulheres40mais #belezamadura #autocuidado`};
+const J14={date:'14/01',type:'video',label:'Reels · vídeo B-roll editado',src:'reel-14-01.mp4',poster:'reel-14-01',
+ scene:'Corte de 13 segundos do vídeo dela conversando no congresso, sem áudio original e com o gancho na tela. Falta só escolher a música no Instagram.',
+ cap:`Congresso não é só palestra 💛
+
+Muito do que eu mais aprendi veio das conversas de corredor: perguntando, ouvindo quem está há anos na área e conhecendo de perto as tecnologias que a estética usa hoje.
+
+Como estudante de biomedicina, eu aproveito cada oportunidade para entender o porquê das coisas. Porque cuidar da pele é ciência.
+
+E isso vale para qualquer fase da vida: quem continua curiosa continua crescendo.
+
+Mulher, qual foi a última coisa nova que você aprendeu? Me conta aqui 👇`};
+const J21={date:'21/01',type:'carousel',label:'Carrossel · 5 cards',imgs:['j21-1','j21-2','j21-3','j21-4','j21-5'],
+ pending:'As 3 indicações são sugestões: a Pathy pode trocar por um livro, podcast ou série que ela ame.',
+ cap:`Férias também são um momento de cuidar da cabeça 💛
+
+Separei 3 indicações para você curtir com calma: um livro, um podcast e uma série. Todos falam, de algum jeito, sobre ser mulher, se reinventar e se colocar em primeiro lugar.
+
+📖 Mulheres que correm com os lobos, de Clarissa Pinkola Estés
+🎧 Bom dia, Obvious, com Marcela Ceribelli
+🎬 Grace and Frankie, na Netflix
+
+Arraste para o lado para saber por que eu indico cada um 👉
+
+Mulher, me conta nos comentários uma indicação sua também. Vou amar descobrir coisas novas!`};
+const J28={date:'28/01',type:'static',label:'Imagem estática',img:'j28',cap:NB11.cap};
+const C05=byDate('05/11'),C19=byDate('19/11');
+const OLD=[{type:'old',label:'Cool Girls 40+'},{type:'old',label:'Dump do congresso'}];
+const NOV=[R26,C19,R12,C05],DEZ=[D24,D17,D10,D03],JAN=[J28,J21,J14,J07];
+const VIEWS={n:[...NOV,...OLD],d:[...DEZ,...NOV,OLD[0]],j:[...JAN,...DEZ,...NOV]};
 const NOTES={
- a:'<b>Novembro · Plano A (com vídeos).</b> 2 carrosséis e 2 vídeos. O vídeo de 26/11 já está editado com o material que ela gravou no congresso.',
- b:'<b>Novembro · Plano B (sem vídeo).</b> Os carrosséis prontos continuam iguais. Nas semanas dos vídeos entram imagens estáticas com o mesmo gancho e a mesma legenda.',
- d:'<b>Dezembro.</b> 2 carrosséis e 2 imagens estáticas, intercalados. Em 24/12 vai a sugestão do vídeo pronto, com a estática como alternativa. Abaixo deles aparece novembro (Plano B), como ficará no perfil.'};
+ n:'<b>Novembro.</b> 2 carrosséis e 2 vídeos prontos, intercalados. Em 26/11 tem a imagem estática como alternativa ao vídeo.',
+ d:'<b>Dezembro.</b> 2 carrosséis e 2 imagens estáticas, intercalados. Em 24/12 vai a sugestão do vídeo pronto, com a estática como alternativa. Abaixo aparece novembro, como ficará no perfil.',
+ j:'<b>Janeiro + visão completa.</b> 2 carrosséis, 1 vídeo e 1 imagem estática. Abaixo, dezembro e novembro: 12 posts prontos, só faltando a aprovação da Pathy.'};
 
 const stackIcon='<svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 3h11a3 3 0 0 1 3 3v11h-2V6a1 1 0 0 0-1-1H7z"/><rect x="3" y="7" width="14" height="14" rx="2.5"/></svg>';
 const reelIcon='<svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>';
@@ -306,8 +356,8 @@ function render(v){
   try{localStorage.setItem('feedView',v)}catch(e){}
 }
 document.querySelectorAll('.switch button').forEach(b=>b.addEventListener('click',()=>render(b.dataset.v)));
-let v0='b';try{v0=localStorage.getItem('feedView')||'b'}catch(e){}
-render(VIEWS[v0]?v0:'b');
+let v0='j';try{v0=localStorage.getItem('feedView')||'j'}catch(e){}
+render(VIEWS[v0]?v0:'j');
 const lb=document.getElementById('lb'),media=document.getElementById('media'),cap=document.getElementById('cap'),meta=document.getElementById('meta'),scene=document.getElementById('scene');
 let idx=0,cur=null,lastFocus=null;
 function openPost(i){
