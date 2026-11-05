@@ -64,4 +64,4 @@ A Nextags não tem aplicativo de celular — o acesso é só pelo navegador (cel
 
 ## Pedido de apoio ao Giuliano
 
-Conversar com a Pati e trazer um retorno ainda essa semana sobre a continuidade do projeto dela.
+Conversar com a Pati sobre a continuidade do projeto dela e trazer um retorno ainda essa semana. Já temos material pronto para novembro, dezembro e janeiro — precisamos saber o que fazer com esse material, principalmente o de novembro, para programar sem perder tempo.
