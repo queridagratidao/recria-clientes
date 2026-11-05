@@ -23,19 +23,19 @@ A Nextags não tem aplicativo de celular — o acesso é só pelo navegador (cel
 
 **Sem pendência** — cadastro completo.
 
-## 3 · Live/parcerias com o Jayme
+## 3 · Live com o Jayme
 
-**Em 04/11**: ponto ainda em aberto.
+**Em 04/11**: Giuliano e Jayme se reuniram para alinhar a parceria.
 
-**Em 05/11**: resolvido. O Jayme vai fazer lives em parceria com os parentes do Giuliano.
+**Em 05/11**: live cancelada. Giuliano passou o contato do Jayme para os próprios parentes, para que eles façam a parceria com ele — o assunto que o Jayme quer abordar não fez sentido para o Giuliano no momento.
 
-## 4 · ElevaCast — convidados, episódios 8 e 9, material de tela
+## 4 · ElevaCast — episódios 8 e 9 e material de tela
 
-**Em 04/11**: convidados confirmados. Episódio 9 ainda pendente de alinhamento com o ProHub.
+**Em 04/11**: convidados do ElevaCast confirmados. Episódio 9 ainda pendente de alinhamento com o ProHub e o Rene.
 
-**Em 05/11**: acesso ao YouTube recebido; o Rene já subiu os episódios 8 e 9 — episódio 8 vai ao ar hoje, 05/11, às 19h; episódio 9 vai ao ar em 07/12, às 9h (ritmo de um por mês), divulgando os dois no Instagram. Também confirmado com o ProHub o material de tela de fundo das gravações: será um vídeo em loop com os logos da Eleva — o Giuliano vai providenciar o vídeo.
+**Em 05/11**: o Rene respondeu e já subiu os episódios 8 e 9 no YouTube. Amanda programou o episódio 8 para sair hoje, 05/11, às 19h, no YouTube, com divulgação no Instagram; e o episódio 9 para sair em 07/12, às 19h, também no YouTube com divulgação no Instagram. O ProHub também respondeu hoje sobre o material de tela de fundo das gravações: Amanda vai providenciar um vídeo em MP4, rodando em loop os logos da Eleva, cada logo ficando pelo menos 10 segundos antes de trocar para o próximo — vai aprovar com o Giuliano antes de enviar ao ProHub.
 
-**Sem pendência** — só falta o Giuliano enviar o vídeo do material de tela.
+**Sem pendência** — só falta aprovar o vídeo com o Giuliano e enviar ao ProHub.
 
 ## 5 · Vídeos do roteiro
 
@@ -55,13 +55,13 @@ A Nextags não tem aplicativo de celular — o acesso é só pelo navegador (cel
 
 **Em 05/11**: Giuliano pediu que a Recria envie a segmentação usada na campanha da Meta (ele havia passado uma lista de regiões prioritárias anteriormente). Pendência da Recria.
 
-## 9 · Projeto da Pati
-
-**Em 05/11**: Giuliano vai conversar com a Pati no fim de semana sobre a continuidade do projeto, já que o material de novembro, dezembro e janeiro está pronto. Aguardando o retorno dele para seguir programando os conteúdos.
-
 ---
 
 ## Resumo do que falta para 06/11, às 10h
 
 - Refazer o teste do evento de conversões, para validar `CompleteRegistration` e `Purchase` juntos.
 - Receber os vídeos do roteiro.
+
+## Pedido de apoio ao Giuliano
+
+Conversar com a Pati e trazer um retorno ainda essa semana sobre a continuidade do projeto dela.
