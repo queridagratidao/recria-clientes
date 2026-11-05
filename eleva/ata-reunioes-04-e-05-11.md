@@ -57,6 +57,8 @@ O número do eSIM da Eleva foi cadastrado com sucesso na Nextags e vinculado à 
 
 É por essa tela, logado no navegador, que o Giuliano (ou quem for responsável) deve responder as pessoas que receberem o disparo e interagirem.
 
+**Cartão de cobrança cadastrado**: Mastercard final **6454**, cadastrado no Gerenciador do WhatsApp (dentro do Business Suite da Meta). Já está tudo certo para a cobrança dos disparos de WhatsApp nesse cartão.
+
 ### 3 · Lista de síndicos para disparo
 
 Giuliano enviou uma lista atualizada de síndicos (nome, telefone e e-mail) para a Amanda subir na Nextags. Os disparos para essa lista acontecem na semana que vem.
@@ -75,7 +77,7 @@ Giuliano pediu para a Recria enviar a ele a segmentação usada na campanha da M
 
 ### 7 · Material de tela do ElevaCast — em andamento
 
-A Amanda ia falar hoje com o ProHub sobre o procedimento para passar slides com o logo da Eleva na tela de fundo das gravações.
+A Amanda já entrou em contato com o ProHub, perguntando como proceder em relação aos slides para rodar na tela de fundo das gravações. Aguardando retorno deles.
 
 ---
 
