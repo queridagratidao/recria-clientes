@@ -1,5 +1,5 @@
 # Ata reunião Recria/Eleva — Amanda e Giuliano
-**Ata geral, reuniões de 04/11 e 05/11/2026**
+**Ata geral, reuniões/trocas de 04/11, 05/11 e 06/11/2026**
 
 ---
 
@@ -7,9 +7,13 @@
 
 **Em 04/11**: não deu tempo de fazer o teste.
 
-**Em 05/11**: teste realizado. `CompleteRegistration` chegou certinho na Meta, origem "Servidor". `Purchase` não apareceu, mesmo com pagamento aprovado e nota fiscal emitida. Giuliano identificou a causa (a etapa que avisa a Meta não tinha tempo de terminar) e já publicou uma correção no portal.
+**Em 05/11**: teste realizado. `CompleteRegistration` chegou certinho na Meta, origem "Servidor". `Purchase` não apareceu, mesmo com pagamento aprovado e nota fiscal emitida. Giuliano identificou a causa (a etapa que avisa a Meta não tinha tempo de terminar, logo depois do portal responder à confirmação do Asaas) e já publicou uma correção no portal.
 
-**Falta para 06/11**: refazer o teste, às 10h, com cobrança nova, para validar `CompleteRegistration` e `Purchase` juntos.
+**Em 06/11**: reteste feito, pelo WhatsApp (sem necessidade de call). Giuliano pagou uma nova compra de teste, e o `Purchase` apareceu certinho na aba "Eventos de teste", com a Meta confirmando o recebimento. **Teste concluído com sucesso.** Giuliano já removeu o `test_event_code` do servidor — a partir de agora, cadastros e compras do portal vão direto para a campanha.
+
+Conferido também na "Visão geral" do Gerenciador de Eventos (filtro 05/11 a 06/11): `Compra` com 2 eventos, `Concluir inscrição` com 1 evento, todos via API de Conversões. Qualidade de correspondência atual: 3.2/10 — fica como melhoria futura (hash de telefone, nome, external_id e dados do navegador), já combinada para depois do lançamento.
+
+**Sem pendência** — teste concluído.
 
 ## 2 · Chip para disparos no WhatsApp (Nextags)
 
@@ -57,10 +61,11 @@ A Nextags não tem aplicativo de celular — o acesso é só pelo navegador (cel
 
 ---
 
-## Resumo do que falta para 06/11, às 10h
+## Resumo do que ainda está em aberto
 
-- Refazer o teste do evento de conversões, para validar `CompleteRegistration` e `Purchase` juntos.
-- Receber os vídeos do roteiro.
+- Receber os vídeos do roteiro (Giuliano, prazo 06/11).
+- Finalizar e compartilhar as mensagens de disparo na Nextags (Amanda).
+- Enviar a segmentação da campanha Meta para o Giuliano (Recria).
 
 ## Pedido de apoio ao Giuliano
 
