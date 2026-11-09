@@ -15,9 +15,9 @@
 - **Vídeo do Giuliano**: ainda pendente. Amanda estará em treinamento das 14h às 19h de amanhã, sem disponibilidade pra editar/legendar em cima da hora.
   - **Plano B**: se o vídeo não estiver pronto a tempo, mensagem de texto pronta pra mandar no grupo (ver abaixo), com ajuste só na saudação (bom dia/boa tarde).
 
-## Pendência para amanhã de manhã
+## Link da bio — resolvido
 
-- **Linktree do Giuliano**: ajustar e colocar o link do Área Comum - portal do condomínio. Se não der tempo de arrumar o Linktree, solução de emergência: tirar o Linktree da bio e colocar direto o link do portal (arruma o Linktree com calma depois).
+O Instagram permite colocar dois links na bio. Ficou: **1º link** = Área Comum - portal do condomínio, **2º link** = Linktree (serviços, cursos e conteúdos). Quem acessa a bio já vê o portal em primeiro lugar. Linktree pode ser ajustado com calma depois, sem pressa.
 
 ## Mensagem de plano B (grupo do WhatsApp, caso o vídeo não chegue a tempo)
 
@@ -45,7 +45,7 @@
 > - Campanha Google: programada para ir ao ar meio-dia.
 > - Post do feed no Instagram: programado para meio-dia também.
 > - Automação no Instagram: quando a pessoa comentar "PORTAL", já recebe o link do portal direto no direct.
-> - Linktree: tirei provisoriamente da bio e deixei só o link do portal, para focar tudo na novidade de hoje. Ajusto o Linktree com calma depois.
+> - Link da bio: descobri que dá para colocar dois links. Deixei o link do Área Comum - portal do condomínio como primeira opção, e o Linktree como segunda. Assim, quem clicar no link da bio já vê o portal em primeiro lugar, e o Linktree eu ajusto com calma depois.
 > - Nextags: vamos ter que recadastrar o WhatsApp lá, caiu por algum motivo. Vou conseguir ajustar na terça à tarde ou na nossa reunião de quarta, antes disso não vou conseguir. A gente conversa melhor sobre isso depois.
 >
 > Um ponto importante sobre o vídeo: como você não conseguiu me enviar semana passada, eu não vou conseguir editar o vídeo agora pela manhã. Se você não conseguir me enviar esse vídeo até às 11h, segue minha sugestão da gente mandar um texto avisando o lançamento do portal, como plano B.
