@@ -7,7 +7,7 @@
 
 ## Oferta
 - De R$157 por R$97, em até 12x de R$10,03
-- Bônus exclusivo da Black: as primeiras vagas ganham um horário individual com a Camila (ancoragem: mais de R$300)
+- Bônus da Black: as primeiras vagas ganham um encontro online de apresentação e orientação sobre os conteúdos (sem valor em reais, ajuste ético pedido pela Camila em 09/11)
 - Inclusos na comunidade (não são bônus da Black): aulas dos 5 módulos, PDFs, atividades, acompanhamento em grupo, combo de 6 lives e e-book Livre-se da Procrastinação
 - 7 dias de garantia
 - Grupo VIP: de 09/11 a 16/11, às 23h59. Público frio: sem data no criativo ("pouquíssimos dias")
@@ -23,4 +23,5 @@ Se a Camila não aprovar o checkout em imagem, alterar provisoriamente o preço 
 
 ## Pendências
 - Confirmar o tempo de clínica: a página diz "formada desde 2018", e o carrossel fixado diz "quase 10 anos"
-- A Camila confirmar se fica confortável com o horário individual como bônus em anúncio (Código de Ética do CFP)
+- Criativo 03 (aplicativo de relacionamento) roda só no público externo, como teste
+- Tirar a página /black/ do ar depois de 16/11
