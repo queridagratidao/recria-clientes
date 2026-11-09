@@ -23,14 +23,22 @@
 
 > Bom dia, síndicos de alta performance! Novidades pra vocês.
 >
-> Está no ar hoje o Área Comum, portal do condomínio da Eleva, pra facilitar a sua vida como síndico profissional, síndico morador ou administradora.
+> Está no ar hoje o Área Comum, portal do condomínio da Eleva, pra facilitar a sua vida como síndico profissional.
 >
-> Com ele você acompanha os prazos que mais pesam (extintor, elevador, caixa d'água, seguro), registra ocorrências e organiza a prestação de contas, tudo num só lugar, sem depender de planilha. Ele te lembra de tudo antes de virar problema.
+> Com ele você acompanha os prazos de várias das suas demandas do dia a dia, como:
+>
+> - Extintor
+> - Elevador
+> - Caixa d'água
+> - Seguros
+> - E muito mais
+>
+> Também registra ocorrências e organiza a prestação de contas, tudo num só lugar, sem depender de planilha. Ele te lembra de tudo antes de virar problema.
 >
 > E o melhor: você tem direito a um período cortesia de 30 dias pra testar, sem precisar cadastrar cartão de crédito. Você só tem a ganhar.
 >
-> Toque no link abaixo e aproveite. Qualquer dúvida, pode nos chamar no privado.
+> Já deixo o link aqui pra facilitar a sua vida: https://www.elevags.com.br/area-comum-portal-do-condominio
 >
-> Um abraço!
+> Qualquer dúvida, pode nos chamar no privado. Um abraço!
 
 *(Trocar "Bom dia" por "Boa tarde" se for enviar à tarde.)*
