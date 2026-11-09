@@ -21,24 +21,39 @@
 
 ## Mensagem de plano B (grupo do WhatsApp, caso o vídeo não chegue a tempo)
 
-> Bom dia, síndicos de alta performance! Novidades pra vocês.
+> Bom dia, síndicos de alta performance! Novidades para vocês.
 >
-> Está no ar hoje o Área Comum, portal do condomínio da Eleva, pra facilitar a sua vida como síndico profissional.
+> Está no ar hoje o Área Comum, portal do condomínio da Eleva. Ele vai facilitar a sua vida como síndico profissional.
 >
-> Com ele você acompanha os prazos de várias das suas demandas do dia a dia, como:
+> Com ele você acompanha os prazos de várias demandas do seu dia a dia. Ele te avisa com alerta para você lembrar das renovações, dos seguros e muito mais. Agora nenhum prazo passa despercebido.
 >
-> - Extintor
-> - Elevador
-> - Caixa d'água
-> - Seguros
-> - E muito mais
+> Você também consegue fazer registros e gerar relatórios para apresentar na assembleia e para os moradores, tudo já com o seu próprio logo, de forma personalizada.
 >
-> Também registra ocorrências e organiza a prestação de contas, tudo num só lugar, sem depender de planilha. Ele te lembra de tudo antes de virar problema.
+> E o melhor: você acabou de ganhar um período de cortesia de 30 dias grátis, para testar a plataforma. Sem precisar cadastrar cartão de crédito, nem nada. Você só tem a ganhar.
 >
-> E o melhor: você tem direito a um período cortesia de 30 dias pra testar, sem precisar cadastrar cartão de crédito. Você só tem a ganhar.
+> Toque no botão abaixo, se cadastre e aproveite.
 >
-> Já deixo o link aqui pra facilitar a sua vida: https://www.elevags.com.br/area-comum-portal-do-condominio
+> https://www.elevags.com.br/area-comum-portal-do-condominio
 >
-> Qualquer dúvida, pode nos chamar no privado. Um abraço!
+> Qualquer dúvida, pode chamar a gente no privado. Um abraço!
 
-*(Trocar "Bom dia" por "Boa tarde" se for enviar à tarde.)*
+## Mensagem para o Giuliano (enviar amanhã de manhã)
+
+> Bom dia, Giu! Status do lançamento de hoje:
+>
+> - Campanha Meta: programada para ir ao ar meio-dia.
+> - Campanha Google: programada para ir ao ar meio-dia.
+> - Post do feed no Instagram: programado para meio-dia também.
+> - Automação no Instagram: quando a pessoa comentar "PORTAL", já recebe o link do portal direto no direct.
+> - Linktree: tirei provisoriamente da bio e deixei só o link do portal, para focar tudo na novidade de hoje. Ajusto o Linktree com calma depois.
+> - Nextags: vamos ter que recadastrar o WhatsApp lá, caiu por algum motivo. Vou conseguir ajustar na terça à tarde ou na nossa reunião de quarta, antes disso não vou conseguir. A gente conversa melhor sobre isso depois.
+>
+> Um ponto importante sobre o vídeo: como você não conseguiu me enviar semana passada, eu não vou conseguir editar o vídeo agora pela manhã. Se você não conseguir me enviar esse vídeo até às 11h, segue minha sugestão da gente mandar um texto avisando o lançamento do portal, como plano B.
+>
+> De tarde eu não vou conseguir dar atenção, porque tenho um evento de outro cliente a partir da 1h30, que vai consumir minha agenda da tarde e do início da noite.
+>
+> Então segue o plano B, que é minha sugestão: um texto que eu já deixei pronto, aí reescreve com suas palavras se achar melhor. Me dá um sinal até às 11h se está ok, que aí eu consigo enviar no grupo até meio-dia. Depois do meio-dia eu vou sair de casa para o meu compromisso e não vou mais conseguir dar atenção a isso, daí você que teria que enviar essa mensagem lá.
+>
+> É isso, Giu. Espero seu retorno!
+>
+> *(Segue junto o texto do plano B acima.)*
