@@ -25,14 +25,10 @@ Perfil da função: assumiria todas as frentes comerciais da Eleva (Expansão Es
 
 Condição dela: trabalhando entre 3 e 4 horas por dia, fixo em torno de R$ 850, mais uma variável a combinar (ainda sem conversa aprofundada sobre isso).
 
-## 5 · ProHub — convidados de amanhã
-
-Responder ao ProHub sobre os convidados de amanhã.
-
-## 6 · Destaques do Instagram
+## 5 · Destaques do Instagram
 
 Amanda vai ajustar com calma essa semana.
 
-## 7 · E-mail de alertas do portal
+## 6 · E-mail de alertas do portal
 
 Pedir para o Giuliano colocar o e-mail do marketing da Eleva nos alertas de novos cadastros no portal.
