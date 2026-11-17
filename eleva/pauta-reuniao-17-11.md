@@ -32,3 +32,14 @@ Amanda vai ajustar com calma essa semana.
 ## 6 · E-mail de alertas do portal
 
 Pedir para o Giuliano colocar o e-mail do marketing da Eleva nos alertas de novos cadastros no portal.
+
+## 7 · Disparo WhatsApp sem cliques, precisa revisar mensagem
+
+No disparo da semana passada (lote 1, 99 pessoas): 88,8% entregues, 38 pessoas (38,3%) visualizaram a mensagem, mas ninguém teve vontade de clicar (0% de cliques). 12,1% falharam na entrega.
+
+Precisamos deixar a mensagem mais atrativa, pra gente conseguir disparar pro restante da lista de 400 contatos.
+
+- Ideia: perguntar pra empresa Strategia (que tem contato direto com síndicos) como deixar essa mensagem mais atrativa, pra gerar vontade de clicar.
+- Alinhar essa reformulação essa semana.
+- Depois de pronta, precisa passar pela aprovação da Meta antes do disparo — isso costuma levar de 1 a 2 dias, mas na semana passada demorou 3 dias.
+- Meta: tentar disparar entre quinta e sexta dessa semana, mas sem problema se escorregar pro início da semana que vem, dado o tempo de aprovação da Meta.
