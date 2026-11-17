@@ -11,7 +11,7 @@ Reduzir o orçamento para **R$ 30/dia**, já que não está dando resultado.
 
 Giuliano passou uma planilha com mais 600 contatos, totalizando mais de 1.000 (somado à lista anterior de 400), para fazer disparos também por lá.
 
-## 3 · Próxima reunião (24 ou 25/11)
+## 3 · Próxima reunião (25/11)
 
 - Tratar da campanha da Eleva Corretora de Seguros.
 - Levar a Geórgia pra conversar e decidir se fecha ou não com ela.
