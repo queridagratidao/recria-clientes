@@ -17,9 +17,13 @@ Não ajustar a campanha Meta agora. Já temos 2 cadastros e qualquer alteração
 
 Se decidirem aumentar o investimento, que seja na Meta, não no Google — a Meta está mostrando mais resultado.
 
-## 4 · Geórgia — live da semana que vem
+## 4 · Geórgia — potencial contratação comercial
 
-Decidir com o Giuliano se vamos seguir com ela ou não, para a semana que vem.
+Giuliano já foi avisado por WhatsApp sobre essa possibilidade. Alinhar com ele se vamos seguir com ela ou não, para a semana que vem.
+
+Perfil da função: assumiria todas as frentes comerciais da Eleva (Expansão Estratégica, Corretora de Seguros e Hub de Negócios) — respondendo leads vindos de tráfego pago (Google e Meta), do Instagram e de forma orgânica, além de prospecção ativa, incentivo às assinaturas do portal após o período gratuito e incentivo às renovações.
+
+Condição dela: trabalhando entre 3 e 4 horas por dia, fixo em torno de R$ 850, mais uma variável a combinar (ainda sem conversa aprofundada sobre isso).
 
 ## 5 · ProHub — convidados de amanhã
 
