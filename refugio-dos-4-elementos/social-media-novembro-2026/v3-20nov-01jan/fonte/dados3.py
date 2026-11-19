@@ -350,3 +350,27 @@ _por_id = {it['id']: it for it in ITENS}
 _a = _por_id['REF-261221']['arte']
 _por_id['REF-261221'].update(arte=('foto', '/home/claude/nov2/natal_ia.jpg', _a[2], _a[3], _a[4], {'fy': 0.0}),
     foto='Família celebrando o Natal (imagem gerada por IA)', nota='Imagem gerada por IA pela agência.')
+
+# ---------- ajustes de 19/11 (5ª rodada): card branco x degradê ----------
+from visual import AZUL
+ESCURO = (40, 26, 18)   # marrom bem escuro
+PRETO = (14, 11, 10)
+_por_id = {it['id']: it for it in ITENS}
+def _kw(i, capa=False):
+    a = _por_id[i]['arte']
+    return a[1][0][5] if capa else a[5]
+def _card(i, cor, pos='baixo', capa=False):
+    k = _kw(i, capa); k.pop('topo', None); k.pop('encaixe', None); k.pop('sem_icone', None); k.pop('nome', None)
+    k.update(estilo='card', cor=cor, pos=pos)
+# card branco embaixo
+for _i, _c in [('REF-261204', TERRA), ('REF-261207', VERDE), ('REF-261209', VERDE), ('REF-261214', LILAS),
+               ('REF-261216', TERRA), ('REF-261218', AZUL), ('REF-261221', TERRA), ('REF-261223', TERRA)]:
+    _card(_i, _c)
+# card branco em cima (fotos com rostos embaixo)
+_card('REF-261123', VERDE, 'topo', capa=True); _kw('REF-261123', True)['fy'] = 0.75
+_card('REF-261225', VERDE, 'topo'); _kw('REF-261225')['fy'] = 0.75
+# degradê mais escuro
+for _i, _capa in [('REF-261125', False), ('REF-261130', True), ('REF-261211', False), ('REF-261228', True), ('REF-270101', False)]:
+    _kw(_i, _capa)['fade'] = ESCURO
+_kw('REF-261202')['fade'] = PRETO
+_kw('REF-261230')['fade'] = ESCURO

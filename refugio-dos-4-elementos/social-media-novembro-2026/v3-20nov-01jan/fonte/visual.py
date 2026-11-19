@@ -38,18 +38,20 @@ def cover(path, w, h, fy=0.2, fx=0.5, zoom=1.0, pb=False):
     x = int((im.width - w) * fx); y = int((im.height - h) * fy)
     return im.crop((x, y, x + w, y + h))
 
-def gradiente(img, inicio, alpha_max=225):
+FADE = (98, 66, 46)
+
+def gradiente(img, inicio, alpha_max=225, cor=None):
     w, h = img.size
     g = Image.new('L', (1, h), 0)
     for y in range(h):
         t = 0 if y < inicio else (y - inicio) / (h - inicio)
         g.putpixel((0, y), int(alpha_max * min(1, t ** 0.85 * 1.15)))
     g = g.resize((w, h))
-    escuro = Image.new('RGBA', (w, h), (98, 66, 46, 255)); escuro.putalpha(g)
+    escuro = Image.new('RGBA', (w, h), (cor or FADE) + (255,)); escuro.putalpha(g)
     img.alpha_composite(escuro)
     topo = Image.new('L', (1, 220), 0)
     for y in range(220): topo.putpixel((0, y), int(90 * (1 - y / 220)))
-    t = Image.new('RGBA', (w, 220), (84, 56, 38, 255)); t.putalpha(topo.resize((w, 220)))
+    t = Image.new('RGBA', (w, 220), tuple(int(c * 0.85) for c in (cor or FADE)) + (255,)); t.putalpha(topo.resize((w, 220)))
     img.alpha_composite(t, (0, 0))
 
 def pill_contorno(d, x, y, txt, cor=(255, 255, 255), s=26):
@@ -63,31 +65,34 @@ def tag(d, x, y, txt, cor):
     d.text((x + 14, y + 21), txt, font=f, fill=(255, 255, 255), anchor='lm')
     return y + 42
 
-def gradiente_topo(img, fim, alpha_max=215):
+def gradiente_topo(img, fim, alpha_max=215, cor=None):
     w, h = img.size
     g = Image.new('L', (1, h), 0)
     for y in range(h):
         t = 1 - y / fim if y < fim else 0
         g.putpixel((0, y), int(alpha_max * min(1, max(0, t) ** 0.8 * 1.1)))
-    escuro = Image.new('RGBA', (w, h), (98, 66, 46, 255)); escuro.putalpha(g.resize((w, h)))
+    escuro = Image.new('RGBA', (w, h), (cor or FADE) + (255,)); escuro.putalpha(g.resize((w, h)))
     img.alpha_composite(escuro)
 
 def post_foto(out, foto, titulo, sub, botao='leia a legenda +', kicker=None, w=W, h=H, camada=None,
-              topo=False, nome=False, encaixe=None, sem_icone=False, reel_base=None, **kw):
+              topo=False, nome=False, encaixe=None, sem_icone=False, reel_base=None, estilo=None, cor=None, pos='baixo', fade=None, **kw):
     """topo=True: texto no alto (fotos com rostos embaixo). nome=True: subtitulo vira o nome em destaque."""
     """Foto inteira + gradiente + titulo serifado branco embaixo (estilo capa).
     camada='fundo' -> so foto+gradiente; camada='texto' -> so textos em PNG transparente (para Reels)."""
+    if estilo == 'card':
+        return post_card(out, foto, kicker, titulo, sub, botao, cor or LILAS, pos=pos, **kw)
+    fc = fade or FADE
     img = Image.new('RGBA', (w, h), (0, 0, 0, 0))
     if camada != 'texto':
         if encaixe:  # foto no topo em largura total, fundo escuro embaixo (para fotos que so existem recortadas)
-            img = Image.new('RGBA', (w, h), (98, 66, 46, 255))
+            img = Image.new('RGBA', (w, h), fc + (255,))
             ph = Image.open(foto).convert('RGB').crop(encaixe); ph = ph.resize((w, round(ph.height * w / ph.width)), Image.LANCZOS)
             img.paste(ph, (0, 0))
-            fade = min(320, ph.height // 2)
-            mf = Image.new('L', (1, fade), 0)
-            for yy in range(fade): mf.putpixel((0, yy), int(255 * (yy / fade) ** 1.4))
-            esc = Image.new('RGBA', (w, fade), (98, 66, 46, 255)); esc.putalpha(mf.resize((w, fade)))
-            img.alpha_composite(esc, (0, ph.height - fade))
+            fd = min(320, ph.height // 2)
+            mf = Image.new('L', (1, fd), 0)
+            for yy in range(fd): mf.putpixel((0, yy), int(255 * (yy / fd) ** 1.4))
+            esc = Image.new('RGBA', (w, fd), fc + (255,)); esc.putalpha(mf.resize((w, fd)))
+            img.alpha_composite(esc, (0, ph.height - fd))
         else:
             img.paste(cover(foto, w, h, **kw), (0, 0))
     d = ImageDraw.Draw(img)
@@ -105,14 +110,14 @@ def post_foto(out, foto, titulo, sub, botao='leia a legenda +', kicker=None, w=W
             m = Image.new('L', (1, fim), 0)
             for yy in range(fim): m.putpixel((0, yy), int(255 * min(1, max(0, (fim - yy) / 110))))
             img.paste(reg, (0, 0), m.resize((w, fim)))
-            gradiente_topo(img, fim + 70, alpha_max=250)
+            gradiente_topo(img, fim + 70, alpha_max=250, cor=fc)
             mv = Image.new('L', (1, fim + 40), 0)
             for yy in range(fim + 40): mv.putpixel((0, yy), int(95 * min(1, max(0, (fim + 40 - yy) / 160))))
-            veu = Image.new('RGBA', (w, fim + 40), (84, 56, 38, 255)); veu.putalpha(mv.resize((w, fim + 40))); img.alpha_composite(veu, (0, 0))
+            veu = Image.new('RGBA', (w, fim + 40), tuple(int(c * 0.85) for c in fc) + (255,)); veu.putalpha(mv.resize((w, fim + 40))); img.alpha_composite(veu, (0, 0))
     else:
         base = h - (110 if h == H else (reel_base or 380))  # reels: area segura acima da interface
         y = base - alt
-        if camada != 'texto': gradiente(img, max(0, y - 380))
+        if camada != 'texto': gradiente(img, max(0, y - 380), alpha_max=240 if fade else 225, cor=fc)
     if camada == 'fundo':
         img.convert('RGB').save(out, quality=92); return img
     d = ImageDraw.Draw(img)
@@ -196,3 +201,36 @@ def card_print(out, print_path, legenda, crop=None, n=0, total=0, escala=None):
     if total and n < total - 1:
         d.text((W - m, H - 76), 'arrasta  >>>', font=font('QS-700', 24), fill=(170, 150, 140), anchor='rm')
     img.convert('RGB').save(out, quality=92)
+
+
+def post_card(out, foto, label, titulo, sub, botao, cor, pos='baixo', fy=0.2, fx=0.5, zoom=1.0, pb=False, **_):
+    """Padrao dos posts anteriores: foto + faixa creme com etiqueta, titulo colorido, subtitulo e botao."""
+    img = Image.new('RGBA', (W, H), CREME + (255,)); d = ImageDraw.Draw(img)
+    m = 64; maxw = W - 2 * m
+    ft = font('CG-600', 54); fs = font('LO-400', 30)
+    lt = wrap(d, titulo, ft, maxw); ls = wrap(d, sub, fs, maxw) if sub else []
+    txt_b = {'leia a legenda +': 'Leia a legenda', 'arrasta >': 'Arrasta >'}.get(botao, botao or 'Leia a legenda')
+    banda = 52 + (46 if label else 0) + len(lt) * 60 + (14 + len(ls) * 40 if ls else 0) + 22 + 62 + 56
+    ph = H - banda
+    if pos == 'topo':
+        img.paste(cover(foto, W, ph, fy=fy, fx=fx, zoom=zoom, pb=pb), (0, banda)); y0 = 0
+        d = ImageDraw.Draw(img); d.line((0, banda, W, banda), fill=(225, 218, 208), width=2)
+        icon(img, (W - m - 70, 46), MARROM, 70)
+    else:
+        img.paste(cover(foto, W, ph, fy=fy, fx=fx, zoom=zoom, pb=pb), (0, 0)); y0 = ph
+        d = ImageDraw.Draw(img); d.line((0, ph, W, ph), fill=(225, 218, 208), width=2)
+        sh = Image.new('RGBA', (W, H), (0, 0, 0, 0)); g = Image.new('RGBA', (220, 220), (0, 0, 0, 0))
+        ImageDraw.Draw(g).ellipse((30, 30, 190, 190), fill=(40, 30, 30, 70)); g = g.filter(ImageFilter.GaussianBlur(28))
+        sh.paste(g, (W - m - 84 - 62, 46 - 62), g); img.alpha_composite(sh)
+        icon(img, (W - m - 84, 46), (255, 255, 255))
+    d = ImageDraw.Draw(img); y = y0 + 52
+    if label:
+        d.text((m, y), label.upper(), font=font('QS-600', 27), fill=MARROM); y += 46
+    for l in lt: d.text((m, y), l, font=ft, fill=cor); y += 60
+    if ls:
+        y += 14
+        for l in ls: d.text((m, y), l, font=fs, fill=TEXTO); y += 40
+    y += 22; f = font('QS-700', 30); tw = d.textlength(txt_b, font=f)
+    d.rounded_rectangle((m, y, m + tw + 58, y + 62), radius=31, fill=cor)
+    d.text((m + 29, y + 31), txt_b, font=f, fill=(255, 255, 255), anchor='lm')
+    img = img.convert('RGB'); img.save(out, quality=92); return img
