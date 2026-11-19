@@ -5,19 +5,20 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from PIL import Image
 import visual as V
 from dados3 import ITENS, STORIES, FALTA, PERFIL, WHATSAPP_AGENCIA
+VURL = json.load(open(sys.argv[2])) if len(sys.argv) > 2 else {}
 
 OUT = sys.argv[1]; ART = os.path.join(OUT, 'artes'); PUB = os.path.join(OUT, 'pub'); TMP = os.path.join(OUT, '_tmp')
 for p in (ART, PUB + '/img', PUB + '/video', TMP): os.makedirs(p, exist_ok=True)
 br = lambda d: datetime.date.fromisoformat(d).strftime('%d/%m')
 DIAS = {'Segunda': 'seg', 'Terça': 'ter', 'Quarta': 'qua', 'Quinta': 'qui', 'Sexta': 'sex', 'Sábado': 'sab', 'Domingo': 'dom'}
 
-def reel(base, foto, tit, sub, kick, kw):
+def reel(base, foto, tit, sub, kick, kw, foco=(0.5, 0.5)):
     fundo = os.path.join(TMP, base + '_fundo.jpg'); texto = os.path.join(TMP, base + '_texto.png')
     V.post_foto(fundo, foto, tit, sub, kicker=kick, w=1080, h=1920, camada='fundo', **kw)
     V.post_foto(texto, foto, tit, sub, kicker=kick, w=1080, h=1920, camada='texto', botao=None, **kw)
     mp4 = base + '_reel.mp4'
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-loop', '1', '-i', fundo, '-loop', '1', '-i', texto, '-filter_complex',
-        "[0:v]scale=2160:3840,zoompan=z='1+0.0009*on':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=240:s=1080x1920:fps=30[bg];"
+        "[0:v]scale=2160:3840,zoompan=z='1+0.0009*on':x='(iw-iw/zoom)*%s':y='(ih-ih/zoom)*%s':d=240:s=1080x1920:fps=30[bg];" % foco +
         "[1:v]format=rgba,fade=in:st=0.6:d=0.9:alpha=1[tx];[bg][tx]overlay=0:0:shortest=1,format=yuv420p[v]",
         '-map', '[v]', '-t', '8', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '21', '-movflags', '+faststart',
         os.path.join(ART, mp4)], check=True)
@@ -28,7 +29,7 @@ for it in ITENS:
     if a[0] == 'foto':
         _, foto, tit, sub, kick, kw = a
         f = base + '.jpg'; V.post_foto(os.path.join(ART, f), foto, tit, sub, kicker=kick, **kw); it['arquivos'].append(f)
-        if it.get('reel'): it['video_arq'] = reel(base, foto, tit, sub, kick, kw)
+        if it.get('reel'): it['video_arq'] = reel(base, foto, tit, sub, kick, kw, it.get('foco', (0.5, 0.5)))
     else:
         total = len(a[1])
         for i, c in enumerate(a[1]):
@@ -80,10 +81,15 @@ for it in ITENS:
     t = 'img/t_' + it['arquivos'][0]; salvar_jpg(os.path.join(ART, it['arquivos'][0]), os.path.join(PUB, t), 360)
     d_pub = dict(d, imagens=imgs, thumb=t)
     if it.get('video_arq'):
-        video_prev(os.path.join(ART, it['video_arq']), os.path.join(PUB, 'video', it['video_arq'])); d_pub['video'] = 'video/' + it['video_arq']
+        video_prev(os.path.join(ART, it['video_arq']), os.path.join(PUB, 'video', it['video_arq']))
+        d_pub['video'] = VURL.get(it['video_arq'], 'video/' + it['video_arq'])
+        pst = 'img/poster_' + it['video_arq'].replace('.mp4', '.jpg')
+        subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', '4', '-i', os.path.join(ART, it['video_arq']), '-frames:v', '1', '-vf', 'scale=720:-2', '-q:v', '4', os.path.join(PUB, pst)], check=True)
+        d_pub['poster'] = pst
     itens_pub.append({k: v for k, v in d_pub.items() if k not in ('nota', 'objetivo', 'foto')})
     d_int = dict(d, imagens=[b64(os.path.join(PUB, p)) for p in imgs], thumb=b64(os.path.join(PUB, t)))
     if it.get('video_arq'):
+        d_int['poster'] = b64(os.path.join(PUB, d_pub['poster']))
         d_int['video'] = 'data:video/mp4;base64,' + base64.b64encode(open(os.path.join(PUB, 'video', it['video_arq']), 'rb').read()).decode()
     itens_int.append(d_int)
 

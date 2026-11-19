@@ -8,16 +8,16 @@ Cronograma de recuperação: segunda, quarta e sexta até 01/01. Visual novo, 4 
 | Seg 23/11 | carrossel | O que a ciência já diz sobre as terapias integrativas | rascunho |
 | Qua 25/11 | estatico | Daniela e Joelson: a casa onde o Refúgio acontece | rascunho |
 | Sex 27/11 | reels | Louvação: é amanhã (tema revelado) | pendente |
-| Seg 30/11 | estatico | Gratidão pela Louvação de novembro | pendente |
+| Seg 30/11 | carrossel | Comentário de quem confia no nosso trabalho | rascunho |
 | Qua 02/12 | reels | Honrar quem veio antes (ancestralidade) | rascunho |
 | Sex 04/12 | estatico | Louvação de dezembro | pendente |
-| Seg 07/12 | carrossel | O que dizem quem já passou por aqui (prints reais) | pendente |
+| Seg 07/12 | estatico | Respiração de 3 minutos para desacelerar | rascunho |
 | Qua 09/12 | estatico | Antes de qualquer terapia, existe uma conversa | rascunho |
 | Sex 11/12 | estatico | Prazer, Jean Carlos | rascunho |
 | Seg 14/12 | estatico | Mito: preciso ter religião para fazer terapia holística | rascunho |
-| Qua 16/12 | estatico | Terapia Xamânica dos 4 Elementos | rascunho |
-| Sex 18/12 | estatico | 3 sinais de que você carrega algo que não é seu | rascunho |
-| Seg 21/12 | reels | Natal com a família reunida | rascunho |
+| Qua 16/12 | estatico | 3 sinais de que você carrega algo que não é seu | rascunho |
+| Sex 18/12 | estatico | Terapia Xamânica dos 4 Elementos | rascunho |
+| Seg 21/12 | estatico | Natal com a família reunida | rascunho |
 | Qua 23/12 | estatico | Louvação de dezembro: lembrete | pendente |
 | Sex 25/12 | estatico | Feliz Natal | rascunho |
 | Seg 28/12 | carrossel | O Refúgio não é para todo mundo. E tudo bem. | rascunho |
@@ -26,11 +26,11 @@ Cronograma de recuperação: segunda, quarta e sexta até 01/01. Visual novo, 4 
 
 ## O que falta
 
-- Data da Louvação de dezembro (04/12 e 23/12): manter 26/12 ou antecipar para 19/12?
-- Prints dos depoimentos (07/12): mandar os prints que você tem; cada um vira um card.
+- Data da Louvação de dezembro (04/12 e 23/12): fica o último sábado (26/12) até eles confirmarem.
 - Tema da Louvação de novembro (27/11) e de dezembro (23/12), quando forem recebidos.
-- Foto da Louvação de 28/11 para o post de gratidão (30/11), se a equipe tiver.
-- Pedir OK da Lúcia e de quem mais aparecer nos prints.
+- Imagem de Natal gerada por IA para o post de 21/12 (prompt enviado).
+- Reels de 27/11, 02/12 e 30/12: a Amanda coloca a música e devolve.
+- Pedir OK da Lúcia para usar o comentário dela (07/12).
 
 ## 20/11 · Sexta · Louvação de novembro · sábado, 28/11
 **Formato:** estatico · **Arquivos:** 2026-11-20_sex.jpg
@@ -82,12 +82,12 @@ Salva esse post e manda pra quem ainda acha que é "só crença".
 
 📍 Cuiabá/MT e online
 
-**Nota:** Pedido da Amanda (estilo PAC/Pathy). Fontes conferidas: Portaria 849/2017 (lista inclui Reiki e Meditação; definição citada), CONASS 12/03/2018 (10 novas, total 29), Goyal 2014 JAMA IM (47 estudos, 3.515 participantes), Guo 2024 BMC Palliat Care (824 participantes, 13 estudos). Constelação está na lista do SUS, mas não citamos como "comprovada". Se quiser o print real dos artigos, trocar o quadro branco pela captura. Capa ajustada: texto no alto para não cobrir os rostos.
+**Nota:** Fontes: Ministério da Saúde, Portaria nº 849/2017 (inclui Reiki e Meditação; definição do Reiki citada) e Portaria nº 702/2018; CONASS, 12/03/2018 (10 novas práticas, total de 29); Goyal et al., JAMA Internal Medicine, 2014 (47 estudos, 3.515 participantes); Guo et al., BMC Palliative Care, 2024 (13 estudos, 824 participantes).
 
 ## 25/11 · Quarta · Daniela e Joelson: a casa onde o Refúgio acontece
 **Formato:** estatico · **Arquivos:** 2026-11-25_qua.jpg
 **Foto:** Joelson aplicando passe em Daniela (283)
-**Objetivo:** Conexão e confiança (cofundadores antes do Jean, pedido da Amanda)
+**Objetivo:** Conexão e confiança: apresentar os cofundadores antes do resto da equipe
 
 **Legenda:**
 
@@ -128,29 +128,31 @@ Vai com alguém? Marca aqui quem você quer levar. 👇
 
 **Nota:** Era o "faltam 2 dias" de 26/11; virou "é amanhã" no novo cronograma. Se o tema não chegar, tirar a frase do tema. Reel de 8 s, colocar música no Instagram.
 
-## 30/11 · Segunda · Gratidão pela Louvação de novembro
-**Formato:** estatico · **Arquivos:** 2026-11-30_seg.jpg
-**Foto:** Jean sorrindo (126). Trocar por foto do encontro se a equipe mandar.
-**Objetivo:** Fechar o mês com comunidade e preparar dezembro
+## 30/11 · Segunda · Comentário de quem confia no nosso trabalho
+**Formato:** carrossel · **Arquivos:** 2026-11-30_seg_carrossel-1.jpg, 2026-11-30_seg_carrossel-2.jpg, 2026-11-30_seg_carrossel-3.jpg
+**Foto:** Capa: Daniela no bambuzal (foto do site). Card 2: comentário da Lúcia no Instagram.
+**Objetivo:** Prova social: comentário de quem já passou pelo Refúgio (2º carrossel de novembro)
 
 **Legenda:**
 
-Obrigado. 🤍
+A gente poderia passar o mês inteiro explicando o que acontece numa sessão. Mas ninguém conta melhor do que quem viveu. 🤍
 
-A cada pessoa que esteve com a gente no sábado, na Louvação de novembro: obrigado por cada canto, cada silêncio e cada oração compartilhada. [1 frase sobre como foi a noite, da Daniela e do Joelson.]
+Arrasta para o lado e lê o que a Lúcia escreveu aqui no nosso Instagram sobre o processo dela. 👉
 
-E a quem não pôde vir: a próxima Louvação já tem lugar pra você. A data de dezembro sai aqui no perfil logo no começo do mês.
+Lúcia, obrigada por confiar a sua experiência a nós. 🙏
 
-Quer ser avisada(o) antes? Comenta LOUVAÇÃO que a gente te coloca na lista. 🙏
+Cada processo é único, e o tempo de cada pessoa também. Mas todo caminho começa do mesmo jeito: com um primeiro passo.
 
-📍 Cuiabá/MT
+Se você sente que é a sua hora, comenta REFÚGIO que a gente te chama no direct.
 
-**Nota:** Melhor com foto real da Louvação de 28/11 (pedir ao Joelson). Se vier, trocar a foto da arte.
+📍 Cuiabá/MT e online
+
+**Nota:** Comentário da @luciarruda_01 no Instagram do Refúgio (o mesmo do site). Se chegarem mais comentários, cada um vira um card antes do card final. Pedir OK da Lúcia.
 
 ## 02/12 · Quarta · Honrar quem veio antes (ancestralidade)
 **Formato:** reels · **Arquivos:** 2026-12-02_qua.jpg, 2026-12-02_qua_reel.mp4
 **Foto:** Jean meditando, P&B (237)
-**Objetivo:** Alcance: Reel com frase de identificação (aprovado pela Amanda em 29/10)
+**Objetivo:** Alcance: Reel com frase de identificação
 
 **Legenda:**
 
@@ -176,7 +178,7 @@ Qual padrão da sua família você sente que ainda carrega? Se quiser conversar,
 
 ## 04/12 · Sexta · Louvação de dezembro
 **Formato:** estatico · **Arquivos:** 2026-12-04_sex.jpg
-**Foto:** Joelson em oração na natureza (foto do site)
+**Foto:** Daniela sorrindo, mãos unidas (134)
 **Objetivo:** Regra da 1ª sexta do mês: divulgar a Louvação
 
 **Legenda:**
@@ -197,26 +199,32 @@ E se alguém que você ama precisa fechar esse ano com mais leveza, manda esse p
 
 **Nota:** Falta a data: o último sábado seria 26/12, dia seguinte ao Natal. Confirmar se mantém ou antecipa (19/12).
 
-## 07/12 · Segunda · O que dizem quem já passou por aqui (prints reais)
-**Formato:** carrossel · **Arquivos:** 2026-12-07_seg_carrossel-1.jpg, 2026-12-07_seg_carrossel-2.jpg, 2026-12-07_seg_carrossel-3.jpg
-**Foto:** Capa: Daniela no bambuzal (foto do site). Cards: prints reais.
-**Objetivo:** Prova social com prints reais (2º carrossel do mês, liberado pela Amanda)
+## 07/12 · Segunda · Respiração de 3 minutos para desacelerar
+**Formato:** estatico · **Arquivos:** 2026-12-07_seg.jpg
+**Foto:** Jean sorrindo (126)
+**Objetivo:** Valor prático (salvar e compartilhar) e ponte com o carrossel de ciência sobre meditação
 
 **Legenda:**
 
-A gente poderia passar o mês inteiro explicando o que acontece numa sessão. Mas ninguém conta melhor do que quem viveu. 🤍
+Sabe quando a cabeça não desliga, mesmo com o corpo cansado? 🤍
 
-Separamos algumas mensagens que recebemos de pessoas que passaram pelo Refúgio. Arrasta para o lado e lê com calma. 👉
+Esse é um exercício simples que o Jean, condutor de meditação aqui do Refúgio, costuma ensinar. Leva 3 minutos e pode ser feito na cama, no carro (parado) ou no intervalo do trabalho:
 
-A cada uma delas: obrigada por confiar a sua história a nós. 🙏
+1️⃣ Sente ou deite de um jeito confortável e solte os ombros.
+2️⃣ Inspire pelo nariz contando até 4.
+3️⃣ Solte o ar devagar, pela boca, contando até 6.
+4️⃣ Repita por 3 minutos, levando a atenção só para o ar que entra e sai.
+5️⃣ Se a mente fugir, tudo bem. Perceba e volte para a respiração, sem brigar com você.
 
-Cada processo é único, e o tempo de cada pessoa também. Mas todo caminho começa do mesmo jeito: com um primeiro passo.
+Soltar o ar mais devagar do que puxou ajuda o corpo a sair do modo alerta. E lembra do nosso post sobre a ciência? Programas de meditação já mostraram redução de ansiedade em estudos.
 
-Se você sente que é a sua hora, comenta REFÚGIO que a gente te chama no direct.
+Se sentir tontura ou desconforto, volte a respirar no seu ritmo normal.
+
+Salva esse post para fazer hoje à noite e manda para alguém que anda precisando desacelerar. 💛
 
 📍 Cuiabá/MT e online
 
-**Nota:** Substitui o post do depoimento de 22/11. O print da Lúcia é o comentário real dela no Instagram (o mesmo que está no site). Faltam os outros prints que a Amanda tem: entram um por card, antes do card final. Pedir OK de quem aparece, ou borrar nome e foto.
+**Nota:** Substitui o agradecimento pela Louvação. Técnica de respiração simples (expiração mais longa que a inspiração), sem promessa de tratamento.
 
 ## 09/12 · Quarta · Antes de qualquer terapia, existe uma conversa
 **Formato:** estatico · **Arquivos:** 2026-12-09_qua.jpg
@@ -246,7 +254,7 @@ Comenta REFÚGIO que a gente começa por essa conversa.
 
 📍 Cuiabá/MT e online
 
-**Nota:** Pedido da Amanda em 29/10: "antes de qualquer terapia, existe uma conversa". Abre com a fala da cliente (gancho).
+**Nota:** Abre com a fala de quem chega (gancho) e explica a entrevista prévia.
 
 ## 11/12 · Sexta · Prazer, Jean Carlos
 **Formato:** estatico · **Arquivos:** 2026-12-11_sex.jpg
@@ -298,37 +306,10 @@ Tem outra dúvida que te segura? Deixa aqui nos comentários que a gente respond
 
 📍 Cuiabá/MT e online
 
-**Nota:** Ajuste da Amanda: "terapia holística" no lugar de "terapia espiritual", com explicação melhor. A frase "se sente até mais conectada com a própria fé" vem do relato comum; validar com a Daniela.
+**Nota:** Validar com a Daniela a frase "se sente até mais conectada com a própria fé".
 
-## 16/12 · Quarta · Terapia Xamânica dos 4 Elementos
+## 16/12 · Quarta · 3 sinais de que você carrega algo que não é seu
 **Formato:** estatico · **Arquivos:** 2026-12-16_qua.jpg
-**Foto:** Joelson com as mãos erguidas (219)
-**Objetivo:** Apresentar a terapia que dá nome ao Refúgio
-
-**Legenda:**
-
-O fim do ano chegou e, com ele, aquela sensação de ciclo que precisa se fechar. Uma perda que ainda dói, uma fase que acabou mas não foi embora, uma pergunta sobre propósito que não sai da cabeça.
-
-Algumas travessias pedem mais do que conversa. Pedem ritual, presença e conexão com algo maior do que a gente.
-
-A Terapia Xamânica dos 4 Elementos trabalha exatamente com isso: Terra, Água, Ar e Fogo como caminhos de reconexão com você e com a natureza.
-
-Ela costuma ser procurada por quem está vivendo:
-🌿 Desconexão profunda de si e da natureza
-🌊 Perdas, lutos e ritos de passagem
-🔥 Busca de propósito e reconexão com a própria essência
-🌬️ Padrões que não cederam a outras abordagens
-
-E, como tudo por aqui, sem vínculo com nenhuma religião e no seu tempo.
-
-Os 4 elementos que inspiram o nome do Refúgio estão no centro dessa terapia. Quer entender se é o caminho pro seu momento? Comenta REFÚGIO que a gente te explica no direct.
-
-📍 Cuiabá/MT
-
-**Nota:** Substituiu o post de pacotes (reprovado). Indicações copiadas do site. Validar se é feita online (rodapé só com Cuiabá por segurança).
-
-## 18/12 · Sexta · 3 sinais de que você carrega algo que não é seu
-**Formato:** estatico · **Arquivos:** 2026-12-18_sex.jpg
 **Foto:** Daniela de braços cruzados (211)
 **Objetivo:** Alcance e identificação (salvar/compartilhar)
 
@@ -356,9 +337,36 @@ E salva pra ler de novo quando precisar.
 
 **Nota:** Post de alcance (salvar e comentar o número).
 
+## 18/12 · Sexta · Terapia Xamânica dos 4 Elementos
+**Formato:** estatico · **Arquivos:** 2026-12-18_sex.jpg
+**Foto:** Joelson com as mãos erguidas (219)
+**Objetivo:** Apresentar a terapia que dá nome ao Refúgio
+
+**Legenda:**
+
+O fim do ano chegou e, com ele, aquela sensação de ciclo que precisa se fechar. Uma perda que ainda dói, uma fase que acabou mas não foi embora, uma pergunta sobre propósito que não sai da cabeça.
+
+Algumas travessias pedem mais do que conversa. Pedem ritual, presença e conexão com algo maior do que a gente.
+
+A Terapia Xamânica dos 4 Elementos trabalha exatamente com isso: Terra, Água, Ar e Fogo como caminhos de reconexão com você e com a natureza.
+
+Ela costuma ser procurada por quem está vivendo:
+🌿 Desconexão profunda de si e da natureza
+🌊 Perdas, lutos e ritos de passagem
+🔥 Busca de propósito e reconexão com a própria essência
+🌬️ Padrões que não cederam a outras abordagens
+
+E, como tudo por aqui, sem vínculo com nenhuma religião e no seu tempo.
+
+Os 4 elementos que inspiram o nome do Refúgio estão no centro dessa terapia. Quer entender se é o caminho pro seu momento? Comenta REFÚGIO que a gente te explica no direct.
+
+📍 Cuiabá/MT
+
+**Nota:** Substituiu o post de pacotes (reprovado). Indicações copiadas do site. Validar se é feita online (rodapé só com Cuiabá por segurança).
+
 ## 21/12 · Segunda · Natal com a família reunida
-**Formato:** reels · **Arquivos:** 2026-12-21_seg.jpg, 2026-12-21_seg_reel.mp4
-**Foto:** Jean pensativo (103)
+**Formato:** estatico · **Arquivos:** 2026-12-21_seg.jpg
+**Foto:** Imagem gerada por IA (árvore de Natal ao fundo, duas pessoas conversando). Por enquanto, imagem provisória.
 **Objetivo:** Alcance: tema do momento (encontros de fim de ano)
 
 **Legenda:**
@@ -385,11 +393,11 @@ Salva esse post pra ler antes da ceia e manda pra quem vai sentar à mesa com vo
 
 📍 Cuiabá/MT e online
 
-**Nota:** Reel de 8 s com a foto e música calma do Instagram. Conteúdo de cuidado geral, sem promessa de cura.
+**Nota:** A Amanda vai gerar a imagem com o prompt combinado. Trocar a imagem provisória quando chegar.
 
 ## 23/12 · Quarta · Louvação de dezembro: lembrete
 **Formato:** estatico · **Arquivos:** 2026-12-23_qua.jpg
-**Foto:** Daniela em oração (182)
+**Foto:** Joelson e Daniela no passe (283)
 **Objetivo:** Lembrete do evento + revelação do tema
 
 **Legenda:**
@@ -429,8 +437,8 @@ Daniela, Joelson e toda a equipe do Refúgio dos 4 Elementos 🎄
 
 ## 28/12 · Segunda · O Refúgio não é para todo mundo. E tudo bem.
 **Formato:** carrossel · **Arquivos:** 2026-12-28_seg_carrossel-1.jpg, 2026-12-28_seg_carrossel-2.jpg, 2026-12-28_seg_carrossel-3.jpg, 2026-12-28_seg_carrossel-4.jpg, 2026-12-28_seg_carrossel-5.jpg, 2026-12-28_seg_carrossel-6.jpg, 2026-12-28_seg_carrossel-7.jpg
-**Foto:** Capa: Daniela sorrindo (134). Cards só texto.
-**Objetivo:** Identificação e qualificação (aprovado pela Amanda em 29/10)
+**Foto:** Capa: Daniela em oração (182). Cards só texto.
+**Objetivo:** Identificação e qualificação antes do ano novo
 
 **Legenda:**
 
@@ -474,7 +482,7 @@ E, se quiser, escreve aqui nos comentários uma palavra do que você está deixa
 
 ## 01/01 · Sexta · Feliz Ano Novo
 **Formato:** estatico · **Arquivos:** 2027-01-01_sex.jpg
-**Foto:** Joelson e Daniela no passe (283)
+**Foto:** Equipe de mãos dadas (a mesma foto do post de 04/11)
 **Objetivo:** Data comemorativa (relacionamento, sem venda)
 
 **Legenda:**
@@ -490,7 +498,7 @@ E, quando precisar de um refúgio, você já sabe onde nos encontrar.
 Com carinho,
 Daniela, Joelson e toda a equipe do Refúgio dos 4 Elementos ✨
 
-**Nota:** Sem CTA de venda.
+**Nota:** Se tiver o arquivo original dessa foto, trocar para ganhar nitidez.
 
 ## Fontes do carrossel de ciência
 

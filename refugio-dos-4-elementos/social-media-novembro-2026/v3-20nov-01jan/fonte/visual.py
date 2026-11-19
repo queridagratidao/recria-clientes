@@ -73,31 +73,52 @@ def gradiente_topo(img, fim, alpha_max=215):
     img.alpha_composite(escuro)
 
 def post_foto(out, foto, titulo, sub, botao='leia a legenda +', kicker=None, w=W, h=H, camada=None,
-              topo=False, nome=False, **kw):
+              topo=False, nome=False, encaixe=None, sem_icone=False, reel_base=None, **kw):
     """topo=True: texto no alto (fotos com rostos embaixo). nome=True: subtitulo vira o nome em destaque."""
     """Foto inteira + gradiente + titulo serifado branco embaixo (estilo capa).
     camada='fundo' -> so foto+gradiente; camada='texto' -> so textos em PNG transparente (para Reels)."""
     img = Image.new('RGBA', (w, h), (0, 0, 0, 0))
-    if camada != 'texto': img.paste(cover(foto, w, h, **kw), (0, 0))
+    if camada != 'texto':
+        if encaixe:  # foto no topo em largura total, fundo escuro embaixo (para fotos que so existem recortadas)
+            img = Image.new('RGBA', (w, h), (34, 24, 22, 255))
+            ph = Image.open(foto).convert('RGB').crop(encaixe); ph = ph.resize((w, round(ph.height * w / ph.width)), Image.LANCZOS)
+            img.paste(ph, (0, 0))
+            fade = min(320, ph.height // 2)
+            mf = Image.new('L', (1, fade), 0)
+            for yy in range(fade): mf.putpixel((0, yy), int(255 * (yy / fade) ** 1.4))
+            esc = Image.new('RGBA', (w, fade), (34, 24, 22, 255)); esc.putalpha(mf.resize((w, fade)))
+            img.alpha_composite(esc, (0, ph.height - fade))
+        else:
+            img.paste(cover(foto, w, h, **kw), (0, 0))
     d = ImageDraw.Draw(img)
-    ft = font('CG-600', 74 if w == W else 84); fs = font('LO-400', 32 if w == W else 36)
-    if nome: fs = font('CG-500i', 64 if w == W else 72)
+    ft = font('CG-600', 74 if h == H else 84); fs = font('LO-400', 32 if h == H else 36)
+    if nome: fs = font('CG-500i', 64 if h == H else 72)
     lh_s = 70 if nome else 44
     margem = 70; maxw = w - 2 * margem
     lt = wrap(d, titulo, ft, maxw); ls = wrap(d, sub, fs, maxw) if sub else []
     alt = (46 if kicker else 0) + len(lt) * 80 + (18 + len(ls) * lh_s if ls else 0) + (36 + 54 if botao else 0)
     if topo:
-        y = 150 if w == W else 260
-        if camada != 'texto': gradiente_topo(img, y + alt + 260)
+        y = 150 if h == H else 260
+        if camada != 'texto':
+            fim = y + alt + 50
+            reg = img.crop((0, 0, w, fim)).filter(ImageFilter.GaussianBlur(14))
+            m = Image.new('L', (1, fim), 0)
+            for yy in range(fim): m.putpixel((0, yy), int(255 * min(1, max(0, (fim - yy) / 110))))
+            img.paste(reg, (0, 0), m.resize((w, fim)))
+            gradiente_topo(img, fim + 70, alpha_max=250)
+            mv = Image.new('L', (1, fim + 40), 0)
+            for yy in range(fim + 40): mv.putpixel((0, yy), int(95 * min(1, max(0, (fim + 40 - yy) / 160))))
+            veu = Image.new('RGBA', (w, fim + 40), (20, 14, 12, 255)); veu.putalpha(mv.resize((w, fim + 40))); img.alpha_composite(veu, (0, 0))
     else:
-        base = h - (110 if w == W else 380)  # reels: area segura acima da interface
+        base = h - (110 if h == H else (reel_base or 380))  # reels: area segura acima da interface
         y = base - alt
         if camada != 'texto': gradiente(img, max(0, y - 380))
     if camada == 'fundo':
         img.convert('RGB').save(out, quality=92); return img
     d = ImageDraw.Draw(img)
     d.text((margem, 64), HANDLE, font=font('QS-600', 24), fill=(255, 255, 255, 235))
-    icon(img, (w - margem - 84, 44), (255, 255, 255)); d = ImageDraw.Draw(img)
+    if not sem_icone: icon(img, (w - margem - 84, 44), (255, 255, 255))
+    d = ImageDraw.Draw(img)
     if kicker:
         d.text((margem, y), kicker.upper(), font=font('QS-700', 25), fill=(236, 222, 205)); y += 46
     for l in lt: d.text((margem, y), l, font=ft, fill=(255, 255, 255)); y += 80

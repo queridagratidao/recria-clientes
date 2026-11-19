@@ -89,12 +89,18 @@ body{font-family:var(--f-ui);background:var(--bg);color:var(--marrom);
 .story h3{font-family:var(--f-serif);font-weight:600;font-size:13px;letter-spacing:.06em;text-transform:uppercase;opacity:.85;margin-bottom:14px}
 .story p{font-family:var(--f-serif);font-size:20px;line-height:1.35}
 .story .tag{position:absolute;bottom:12px;left:0;right:0;font-size:11px;opacity:.8}
+.como{max-width:1000px;margin:0 auto 12px;background:var(--tela);border:1px solid var(--linha);border-radius:12px;padding:12px 16px;display:grid;gap:6px;font-size:13.5px;line-height:1.45}
+.como b{font-weight:700}.como .ap{color:var(--verde)}.como .aj{color:var(--terra)}
 .rodape{text-align:center;font-size:11px;color:var(--suave);padding:16px}
 </style>
 
 <div class="topo">
   <h1>Refúgio dos 4 Elementos · 20/11 a 01/01<small>__VERSAO__ · toque em um post para ver a legenda, aprovar ou pedir ajuste</small></h1>
   <span class="aviso">Simulação para aprovação, não é a publicação real</span>
+</div>
+<div class="como">
+  <div><b class="ap">Aprovar:</b> o post fica aprovado na hora e já vai para a programação de publicação.</div>
+  <div><b class="aj">Pedir ajuste:</b> abre uma caixa para você escrever exatamente o que quer mudar e onde (na arte ou na legenda). Pode escrever o texto novo do jeito que quer que fique.</div>
 </div>
 <div class="wrap"><div class="fone">
   <div class="tela" id="tela">
@@ -155,7 +161,7 @@ document.querySelectorAll('.abas button').forEach(b=>b.onclick=()=>{document.que
 
 function abrir(it){
   atual=it; const n=it.video?1:it.imagens.length; let k=0; const c=$('#pCorpo');
-  c.innerHTML=`<div class="car${it.video?' reel':''}"><div class="trilho">${it.video?`<video src="${it.video}" poster="${it.imagens[0]}" autoplay loop muted playsinline controls preload="metadata"></video>`:it.imagens.map(s=>`<img src="${s}" alt="">`).join('')}</div>
+  c.innerHTML=`<div class="car${it.video?' reel':''}"><div class="trilho">${it.video?` <video src="${it.video}" poster="${it.poster||it.imagens[0]}" autoplay loop muted playsinline controls preload="metadata"></video>`:it.imagens.map(s=>`<img src="${s}" alt="">`).join('')}</div>
     ${n>1?'<button class="seta e" aria-label="Anterior">‹</button><button class="seta d" aria-label="Próximo">›</button><span class="cont"></span>':''}</div>
     ${n>1?`<div class="pontos">${it.imagens.map(()=>'<i></i>').join('')}</div>`:''}
     <div class="leg"><b>${esc(P.usuario)}</b> ${esc(it.legenda)}</div>
@@ -167,7 +173,7 @@ function abrir(it){
   if(n>1){c.querySelector('.seta.e').onclick=()=>go(k-1);c.querySelector('.seta.d').onclick=()=>go(k+1);
     let x0=null;tr.addEventListener('touchstart',e=>x0=e.touches[0].clientX,{passive:true});
     tr.addEventListener('touchend',e=>{if(x0===null)return;const dx=e.changedTouches[0].clientX-x0;if(Math.abs(dx)>40)go(k+(dx<0?1:-1));x0=null})}
-  const v=c.querySelector('video'); if(v){v.addEventListener('error',()=>{tr.innerHTML=`<img src="${it.imagens[0]}" alt="">`;});}
+  const v=c.querySelector('video'); if(v){v.addEventListener('error',()=>{tr.innerHTML=`<img src="${it.poster||it.imagens[0]}" alt="">`;},true);}
   go(0); renderCaixa(it); $('#post').classList.add('on'); c.scrollTop=0;
 }
 function renderCaixa(it,modo){
@@ -175,8 +181,8 @@ function renderCaixa(it,modo){
   const est=a?`<div class="estado ${a.status}">${a.status==='aprovado'?'✓ Aprovado':'Ajuste pedido'}${a.em?' em '+new Date(a.em).toLocaleDateString('pt-BR'):''}</div>`:'';
   if(modo==='ajuste'){
     cx.innerHTML=`<div class="id">${it.id} · ${esc(it.tema)}</div>
-      <label for="txt-ajuste">O que você quer mudar? Pode escrever o texto novo do jeito que quer que fique.</label>
-      <textarea id="txt-ajuste" placeholder="Ex.: trocar a frase da arte por ...">${esc(a&&a.status==='ajuste'?a.texto:'')}</textarea>
+      <label for="txt-ajuste">O que você quer ajustar e onde? Diga se é na arte ou na legenda e, se quiser, escreva o texto novo.</label>
+      <textarea id="txt-ajuste" placeholder="Ex.: na arte, trocar o título por ... / na legenda, tirar o segundo parágrafo">${esc(a&&a.status==='ajuste'?a.texto:'')}</textarea>
       <button class="btn link" id="b-colar" type="button">Colar a legenda atual aqui para editar</button>
       <div class="btns"><button class="btn" id="b-enviar" type="button">Enviar ajuste</button><button class="btn sec" id="b-cancelar" type="button">Cancelar</button></div><div class="ok" id="msg"></div>`;
     const ta=$('#txt-ajuste'); ta.focus();
@@ -194,7 +200,7 @@ async function salvar(it,corpo,textoMsg){
   const body={...corpo,em:new Date().toISOString()};
   if(db&&podeGravar!==false){
     try{await db.doc('aprovacoes/'+it.id).set(body);APROV[it.id]=body;renderGrade();renderCaixa(it);
-      const m=$('#msg');if(m)m.textContent=corpo.status==='aprovado'?'Aprovado! A agência já recebeu.':'Ajuste enviado! A agência já recebeu.';return}
+      const m=$('#msg');if(m)m.textContent=corpo.status==='aprovado'?'Aprovado! Esse post já vai para a programação.':'Ajuste enviado! A agência já recebeu e vai ajustar.';return}
     catch(e){podeGravar=false}
   }
   APROV[it.id]=body; renderGrade(); renderCaixa(it); const m=$('#msg');

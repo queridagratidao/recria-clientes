@@ -218,3 +218,129 @@ FALTA = [
   'Foto da Louvação de 28/11 para o post de gratidão (30/11), se a equipe tiver.',
   'Pedir OK da Lúcia e de quem mais aparecer nos prints.',
 ]
+
+# ---------- ajustes de 19/11 (2ª rodada) ----------
+_por_id = {it['id']: it for it in ITENS}
+def _set(i, **k): _por_id[i].update(k)
+
+_set('REF-261123', nota='Fontes: Ministério da Saúde, Portaria nº 849/2017 (inclui Reiki e Meditação; definição do Reiki citada) e Portaria nº 702/2018; CONASS, 12/03/2018 (10 novas práticas, total de 29); Goyal et al., JAMA Internal Medicine, 2014 (47 estudos, 3.515 participantes); Guo et al., BMC Palliative Care, 2024 (13 estudos, 824 participantes).')
+_set('REF-261125', objetivo='Conexão e confiança: apresentar os cofundadores antes do resto da equipe')
+_set('REF-261202', objetivo='Alcance: Reel com frase de identificação')
+_set('REF-261209', nota='Abre com a fala de quem chega (gancho) e explica a entrevista prévia.')
+_set('REF-261214', nota='Validar com a Daniela a frase "se sente até mais conectada com a própria fé".')
+_set('REF-261228', objetivo='Identificação e qualificação antes do ano novo')
+
+# 30/11: sai a gratidão pela Louvação, entra um exercício de respiração conduzido pelo Jean
+_set('REF-261130', tema='Respiração de 3 minutos para desacelerar', tipo='estatico', status='rascunho',
+     objetivo='Valor prático (salvar e compartilhar) e ponte com o carrossel de ciência sobre meditação',
+     arte=('foto', J(126), 'Uma pausa de 3 minutos para quando a cabeça não desliga.', 'Salva para fazer hoje à noite.', 'Meditação guiada pelo Jean', {'fy': 0.15}),
+     legenda="""Sabe quando a cabeça não desliga, mesmo com o corpo cansado? 🤍
+
+Esse é um exercício simples que o Jean, condutor de meditação aqui do Refúgio, costuma ensinar. Leva 3 minutos e pode ser feito na cama, no carro (parado) ou no intervalo do trabalho:
+
+1️⃣ Sente ou deite de um jeito confortável e solte os ombros.
+2️⃣ Inspire pelo nariz contando até 4.
+3️⃣ Solte o ar devagar, pela boca, contando até 6.
+4️⃣ Repita por 3 minutos, levando a atenção só para o ar que entra e sai.
+5️⃣ Se a mente fugir, tudo bem. Perceba e volte para a respiração, sem brigar com você.
+
+Soltar o ar mais devagar do que puxou ajuda o corpo a sair do modo alerta. E lembra do nosso post sobre a ciência? Programas de meditação já mostraram redução de ansiedade em estudos.
+
+Se sentir tontura ou desconforto, volte a respirar no seu ritmo normal.
+
+Salva esse post para fazer hoje à noite e manda para alguém que anda precisando desacelerar. 💛
+
+📍 Cuiabá/MT e online""",
+     cta='salvar e compartilhar', foto='Jean sorrindo (126)',
+     nota='Substitui o agradecimento pela Louvação. Técnica de respiração simples (expiração mais longa que a inspiração), sem promessa de tratamento.')
+
+# 07/12: comentário (singular), sem "print"
+_d = _por_id['REF-261207']
+_cap = list(_d['arte'][1])
+_cap[0] = ('capa', SITE + 'daniela-r.jpg', 'O que falam sobre o nosso trabalho.', 'Comentários de quem confiou a sua experiência a nós.', 'Quem chegou aqui', {'fy': 0.35})
+_d.update(tema='O que falam sobre o nosso trabalho', objetivo='Prova social: comentário de quem já passou pelo Refúgio (2º carrossel de dezembro)',
+     arte=('carrossel', _cap), status='rascunho',
+     foto='Capa: Daniela no bambuzal (foto do site). Card 2: comentário da Lúcia no Instagram.',
+     legenda="""A gente poderia passar o mês inteiro explicando o que acontece numa sessão. Mas ninguém conta melhor do que quem viveu. 🤍
+
+Arrasta para o lado e lê o que a Lúcia escreveu aqui no nosso Instagram sobre o processo dela. 👉
+
+Lúcia, obrigada por confiar a sua experiência a nós. 🙏
+
+Cada processo é único, e o tempo de cada pessoa também. Mas todo caminho começa do mesmo jeito: com um primeiro passo.
+
+Se você sente que é a sua hora, comenta REFÚGIO que a gente te chama no direct.
+
+📍 Cuiabá/MT e online""",
+     nota='Comentário da @luciarruda_01 no Instagram do Refúgio (o mesmo do site). Se chegarem mais comentários, cada um vira um card antes do card final. Pedir OK da Lúcia.')
+
+# 16/12 <-> 18/12 (para não ficar Joelson em 14 e 16)
+_a, _b = _por_id['REF-261216'], _por_id['REF-261218']
+_a['data'], _a['dia'], _b['data'], _b['dia'] = '2026-12-18', 'Sexta', '2026-12-16', 'Quarta'
+_a['id'], _b['id'] = 'REF-261218', 'REF-261216'
+ITENS.sort(key=lambda it: it['data'])
+
+# 01/01: equipe de mãos unidas (foto do post de 23/10, usada sem ampliar)
+_set('REF-270101', arte=('foto', '/home/claude/w/refugio-dos-4-elementos/social-media-outubro-2026/post07_23-10_primeira-sessao.jpg',
+     'Que 2027 seja leve, verdadeiro e seu.', 'Feliz Ano Novo, do Refúgio dos 4 Elementos para você.', 'Feliz 2027',
+     {'encaixe': (0, 0, 1080, 876), 'sem_icone': True}),
+     foto='Equipe de mãos unidas (a mesma foto do post de 23/10)', nota='Se tiver o arquivo original dessa foto, trocar para ganhar nitidez.')
+
+FALTA = [
+  'Data da Louvação de dezembro (04/12 e 23/12): fica o último sábado (26/12) até eles confirmarem.',
+  'Tema da Louvação de novembro (27/11) e de dezembro (23/12), quando forem recebidos.',
+  'Reels de 27/11, 02/12, 21/12 e 30/12: a Amanda coloca a música e devolve.',
+  'Pedir OK da Lúcia para usar o comentário dela (07/12).',
+]
+
+# ---------- ajustes de 19/11 (3ª rodada) ----------
+_por_id = {it['id']: it for it in ITENS}
+_set = lambda i, **k: _por_id[i].update(k)
+_set('REF-261127', foco=(0.5, 0.3))            # zoom no rosto e nas maos
+_por_id['REF-261127']['arte'][5]['reel_base'] = 560
+_set('REF-261202', foco=(0.5, 0.3))
+_a = _por_id['REF-261202']['arte']; _a[5]['reel_base'] = 640
+_a = _por_id['REF-261230']['arte']; _a[5]['reel_base'] = 700
+_set('REF-261230', foco=(0.55, 0.3))
+_set('REF-261204', arte=('foto', SITE + 'joelson-r.jpg', 'Vamos fechar 2026 em gratidão?', f'{LOUV_DEZ} · Quintal de Ogum, Cuiabá',
+     'Louvação de dezembro', {'encaixe': (0, 0, 1728, 1300)}))
+_d = _por_id['REF-261207']; _cap = list(_d['arte'][1])
+_cap[0] = ('capa', SITE + 'daniela-r.jpg', 'Comentário de quem confia no nosso trabalho.', 'Arrasta para o lado e leia.', 'O que falam do Refúgio', {'fy': 0.35})
+_d['arte'] = ('carrossel', _cap); _d['tema'] = 'Comentário de quem confia no nosso trabalho'
+_set('REF-261221', tipo='estatico', reel=False,
+     arte=('foto', '/home/claude/nov2/natal_provisorio.jpg', 'O Natal reúne a família. E, com ela, tudo o que ainda não foi resolvido.', '4 jeitos de atravessar as festas mais leve.', 'Fim de ano em família', {'fy': 0.5}),
+     foto='Imagem gerada por IA (árvore de Natal ao fundo, duas pessoas conversando). Por enquanto, imagem provisória.',
+     nota='A Amanda vai gerar a imagem com o prompt combinado. Trocar a imagem provisória quando chegar.')
+_set('REF-270101', arte=('foto', '/home/claude/nov/out/post01_04-11_mito-verdade-constelacao.jpg',
+     'Que 2027 seja leve, verdadeiro e seu.', 'Feliz Ano Novo, do Refúgio dos 4 Elementos para você.', 'Feliz 2027',
+     {'encaixe': (0, 0, 1080, 998), 'sem_icone': True}),
+     foto='Equipe de mãos dadas (a mesma foto do post de 04/11)')
+FALTA = [
+  'Data da Louvação de dezembro (04/12 e 23/12): fica o último sábado (26/12) até eles confirmarem.',
+  'Tema da Louvação de novembro (27/11) e de dezembro (23/12), quando forem recebidos.',
+  'Imagem de Natal gerada por IA para o post de 21/12 (prompt enviado).',
+  'Reels de 27/11, 02/12 e 30/12: a Amanda coloca a música e devolve.',
+  'Pedir OK da Lúcia para usar o comentário dela (07/12).',
+]
+
+# ---------- ajustes de 19/11 (4ª rodada) ----------
+_por_id = {it['id']: it for it in ITENS}
+_set = lambda i, **k: _por_id[i].update(k)
+# capa da ciencia: titulo mais curto para o texto acabar antes dos rostos
+_c = _por_id['REF-261123']; _cap = list(_c['arte'][1])
+_cap[0] = ('capa', SITE + 'equipe-r.jpg', 'Terapia holística é "só crença"?', 'A ciência já tem algumas respostas. Arrasta para o lado.', 'O que a ciência diz', {'fy': 0.5, 'topo': True})
+_c['arte'] = ('carrossel', _cap)
+_n = _por_id['REF-261225']; _n['arte'] = ('foto', SITE + 'equipe-r.jpg', 'Feliz Natal.', 'Que o seu Natal seja casa, abraço e paz.', 'Do Refúgio para você', {'fy': 0.5, 'topo': True})
+# intercalar o Jean: depoimentos vai para 30/11 e a respiracao para 07/12
+_dep, _resp = _por_id['REF-261207'], _por_id['REF-261130']
+_dep.update(data='2026-11-30', dia='Segunda', id='REF-261130')
+_resp.update(data='2026-12-07', dia='Segunda', id='REF-261207')
+_set('REF-261204', arte=('foto', J(134), 'Vamos fechar 2026 em gratidão?', f'{LOUV_DEZ} · Quintal de Ogum, Cuiabá', 'Louvação de dezembro', {'fy': 0.15}),
+     foto='Daniela sorrindo, mãos unidas (134)')
+_por_id['REF-261223']['arte'] = ('foto', J(283), 'Falta pouco para a última Louvação do ano.', f'{LOUV_DEZ} · Quintal de Ogum · Tema: [revelar]', 'Louvação de dezembro', {'fy': 0.22})
+_por_id['REF-261223']['foto'] = 'Joelson e Daniela no passe (283)'
+_p = _por_id['REF-261228']; _cap = list(_p['arte'][1]); _c0 = _cap[0]
+_cap[0] = ('capa', J(182), _c0[2], _c0[3], _c0[4], {'fy': 0.25, 'fx': 0.45}); _p['arte'] = ('carrossel', _cap); _p['foto'] = 'Capa: Daniela em oração (182). Cards só texto.'
+ITENS.sort(key=lambda it: it['data'])
+_por_id = {it['id']: it for it in ITENS}
+_por_id['REF-261130']['objetivo'] = 'Prova social: comentário de quem já passou pelo Refúgio (2º carrossel de novembro)'
