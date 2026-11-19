@@ -344,3 +344,9 @@ _cap[0] = ('capa', J(182), _c0[2], _c0[3], _c0[4], {'fy': 0.25, 'fx': 0.45}); _p
 ITENS.sort(key=lambda it: it['data'])
 _por_id = {it['id']: it for it in ITENS}
 _por_id['REF-261130']['objetivo'] = 'Prova social: comentário de quem já passou pelo Refúgio (2º carrossel de novembro)'
+
+# 21/12: imagem de Natal gerada pela Amanda
+_por_id = {it['id']: it for it in ITENS}
+_a = _por_id['REF-261221']['arte']
+_por_id['REF-261221'].update(arte=('foto', '/home/claude/nov2/natal_ia.jpg', _a[2], _a[3], _a[4], {'fy': 0.0}),
+    foto='Família celebrando o Natal (imagem gerada por IA)', nota='Imagem gerada por IA pela agência.')

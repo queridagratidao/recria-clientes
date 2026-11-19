@@ -366,7 +366,7 @@ Os 4 elementos que inspiram o nome do Refúgio estão no centro dessa terapia. Q
 
 ## 21/12 · Segunda · Natal com a família reunida
 **Formato:** estatico · **Arquivos:** 2026-12-21_seg.jpg
-**Foto:** Imagem gerada por IA (árvore de Natal ao fundo, duas pessoas conversando). Por enquanto, imagem provisória.
+**Foto:** Família celebrando o Natal (imagem gerada por IA)
 **Objetivo:** Alcance: tema do momento (encontros de fim de ano)
 
 **Legenda:**
@@ -393,7 +393,7 @@ Salva esse post pra ler antes da ceia e manda pra quem vai sentar à mesa com vo
 
 📍 Cuiabá/MT e online
 
-**Nota:** A Amanda vai gerar a imagem com o prompt combinado. Trocar a imagem provisória quando chegar.
+**Nota:** Imagem gerada por IA pela agência.
 
 ## 23/12 · Quarta · Louvação de dezembro: lembrete
 **Formato:** estatico · **Arquivos:** 2026-12-23_qua.jpg
