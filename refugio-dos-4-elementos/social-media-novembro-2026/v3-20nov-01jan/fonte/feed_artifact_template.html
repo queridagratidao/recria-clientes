@@ -17,7 +17,8 @@ body{font-family:var(--f-ui);background:var(--bg);color:var(--marrom);
 .aviso{font-size:12px;background:var(--aviso-bg);border:1px solid var(--aviso-borda);color:var(--aviso-tx);padding:6px 10px;border-radius:8px}
 .wrap{display:flex;justify-content:center;padding-bottom:32px}
 .fone{width:100%;max-width:420px;background:var(--tela);border-radius:34px;overflow:hidden;box-shadow:0 20px 50px rgba(59,46,42,.18);border:10px solid #1f1a18;position:relative;height:min(880px,calc(100vh - 110px));display:flex;flex-direction:column}
-@media(max-width:520px){.fone{border:0;border-radius:14px;height:calc(100vh - 100px);box-shadow:none}}
+/* mesmo layout no celular e no computador: o celular simulado so encolhe na largura */
+@media(max-width:520px){.topo h1{font-size:18px}.fone{height:min(880px,calc(100vh - 140px))}}
 .tela{flex:1;overflow-y:auto}
 .cab{padding:14px 16px 6px;font-weight:700;font-size:17px}
 .perfil{display:flex;gap:18px;align-items:center;padding:6px 16px}

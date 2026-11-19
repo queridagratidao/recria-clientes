@@ -33,6 +33,14 @@ def wrap(d, txt, f, maxw):
 def cover(path, w, h, fy=0.2, fx=0.5, zoom=1.0, pb=False):
     im = path.convert('RGB') if isinstance(path, Image.Image) else Image.open(path).convert('RGB')
     if pb: im = ImageOps.grayscale(im).convert('RGB')
+    if zoom < 1:  # afasta a foto: fundo com a propria foto desfocada e a foto inteira por cima
+        bg = cover(im, w, h, fy, fx).filter(ImageFilter.GaussianBlur(28))
+        bg = Image.blend(bg, Image.new('RGB', bg.size, (60, 45, 38)), 0.25)
+        s = max(w / im.width, h / im.height) * zoom
+        fg = im.resize((round(im.width * s), round(im.height * s)), Image.LANCZOS)
+        if fg.width > w: fg = fg.crop((int((fg.width - w) * fx), 0, int((fg.width - w) * fx) + w, fg.height))
+        if fg.height > h: fg = fg.crop((0, int((fg.height - h) * fy), fg.width, int((fg.height - h) * fy) + h))
+        bg.paste(fg, ((w - fg.width) // 2, (h - fg.height) // 2)); return bg
     s = max(w / im.width, h / im.height) * zoom
     im = im.resize((round(im.width * s), round(im.height * s)), Image.LANCZOS)
     x = int((im.width - w) * fx); y = int((im.height - h) * fy)
@@ -203,6 +211,8 @@ def card_print(out, print_path, legenda, crop=None, n=0, total=0, escala=None):
     img.convert('RGB').save(out, quality=92)
 
 
+TOPO_RESPIRO = 150
+
 def post_card(out, foto, label, titulo, sub, botao, cor, pos='baixo', fy=0.2, fx=0.5, zoom=1.0, pb=False,
               nome=False, encaixe=None, sem_icone=False, **_):
     """Padrao dos posts anteriores: foto + faixa creme com etiqueta, titulo colorido, subtitulo e botao."""
@@ -215,9 +225,14 @@ def post_card(out, foto, label, titulo, sub, botao, cor, pos='baixo', fy=0.2, fx
     banda = 52 + (46 if label else 0) + len(lt) * 60 + (14 + len(ls) * lhs if ls else 0) + 22 + 62 + 56
     ph = H - banda
     if pos == 'topo':
-        img.paste(cover(foto, W, ph, fy=fy, fx=fx, zoom=zoom, pb=pb), (0, banda)); y0 = 0
-        d = ImageDraw.Draw(img); d.line((0, banda, W, banda), fill=(225, 218, 208), width=2)
-        icon(img, (W - m - 70, 46), MARROM, 70)
+        img.paste(cover(foto, W, H, fy=fy, fx=fx, zoom=zoom, pb=pb), (0, 0)); y0 = TOPO_RESPIRO
+        d = ImageDraw.Draw(img)
+        d.rectangle((0, y0, W, y0 + banda), fill=CREME)
+        d.line((0, y0, W, y0), fill=(225, 218, 208), width=2); d.line((0, y0 + banda, W, y0 + banda), fill=(225, 218, 208), width=2)
+        sh = Image.new('RGBA', (W, H), (0, 0, 0, 0)); g = Image.new('RGBA', (220, 220), (0, 0, 0, 0))
+        ImageDraw.Draw(g).ellipse((30, 30, 190, 190), fill=(40, 30, 30, 70)); g = g.filter(ImageFilter.GaussianBlur(28))
+        sh.paste(g, (W - m - 84 - 62, 30 - 62), g); img.alpha_composite(sh)
+        icon(img, (W - m - 84, 30), (255, 255, 255), 84)
     else:
         img.paste(cover(foto, W, ph, fy=fy, fx=fx, zoom=zoom, pb=pb), (0, 0)); y0 = ph
         d = ImageDraw.Draw(img); d.line((0, ph, W, ph), fill=(225, 218, 208), width=2)

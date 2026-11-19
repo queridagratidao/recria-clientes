@@ -387,3 +387,7 @@ _card2('REF-261130', LILAS, capa=True)
 _card2('REF-261211', LILAS)                 # mantem nome=True
 _card2('REF-261228', VERDE, capa=True)
 _card2('REF-270101', LILAS); _kw('REF-270101')['fy'] = 0.0   # mantem encaixe e sem_icone (icone ja esta na foto)
+
+# 11/12: Jean mais afastado (aparece até a cintura)
+_por_id = {it['id']: it for it in ITENS}
+_kw('REF-261211').update(zoom=0.68, fy=0.05)
