@@ -1,0 +1,219 @@
+<title>Feed Refúgio 4 Elementos</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* Layout: celular centralizado mostrando o perfil; cada post abre por cima com legenda e aprovação */
+:root{
+  --bg:#ece6dc; --tela:#ffffff; --creme:#f7f3ec; --marrom:#3b2e2a; --suave:#8a7b74; --linha:#e6ded3;
+  --lilas:#7852a0; --verde:#2e7845; --terra:#b85a2e; --azul:#3c87a0; --aviso-bg:#fff7e6; --aviso-borda:#f0d9a8; --aviso-tx:#7a5a10;
+  --f-ui:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; --f-serif:Georgia,"Times New Roman",serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--f-ui);background:var(--bg);color:var(--marrom);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0}
+.topo{max-width:1000px;margin:0 auto;padding-block:16px 10px;display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;justify-content:space-between}
+.topo h1{font-family:var(--f-serif);font-weight:600;font-size:20px;text-wrap:balance}
+.topo small{display:block;font-family:var(--f-ui);font-size:12px;color:var(--suave);font-weight:400;margin-top:3px}
+.aviso{font-size:12px;background:var(--aviso-bg);border:1px solid var(--aviso-borda);color:var(--aviso-tx);padding:6px 10px;border-radius:8px}
+.wrap{display:flex;justify-content:center;padding-bottom:32px}
+.fone{width:100%;max-width:420px;background:var(--tela);border-radius:34px;overflow:hidden;box-shadow:0 20px 50px rgba(59,46,42,.18);border:10px solid #1f1a18;position:relative;height:min(880px,calc(100vh - 110px));display:flex;flex-direction:column}
+@media(max-width:520px){.fone{border:0;border-radius:14px;height:calc(100vh - 100px);box-shadow:none}}
+.tela{flex:1;overflow-y:auto}
+.cab{padding:14px 16px 6px;font-weight:700;font-size:17px}
+.perfil{display:flex;gap:18px;align-items:center;padding:6px 16px}
+.avatar{width:78px;height:78px;border-radius:50%;border:2px solid var(--lilas);flex-shrink:0;object-fit:cover}
+.nums{display:flex;flex:1;justify-content:space-around;text-align:center;font-size:13px;font-variant-numeric:tabular-nums}
+.nums b{display:block;font-size:16px}
+.bio{padding:8px 16px 4px;font-size:13px;line-height:1.4;white-space:pre-line}
+.bio .cat{color:var(--suave)}
+.dest{display:flex;gap:14px;padding:12px 16px;overflow-x:auto}
+.dest div{text-align:center;font-size:11px;width:62px;flex-shrink:0}
+.dest span{display:block;width:58px;height:58px;border-radius:50%;border:2px solid var(--linha);background:var(--creme);margin:0 auto 4px}
+.abas{display:flex;border-top:1px solid #eee;position:sticky;top:0;background:var(--tela);z-index:2}
+.abas button{flex:1;padding:11px 0;background:none;border:0;border-bottom:2px solid transparent;font:inherit;font-size:13px;color:var(--suave);cursor:pointer}
+.abas button.on{border-color:var(--marrom);color:var(--marrom);font-weight:600}
+.abas button:focus-visible,.btn:focus-visible,.cel:focus-visible{outline:2px solid var(--lilas);outline-offset:2px}
+.grade{display:grid;grid-template-columns:repeat(3,1fr);gap:2px}
+.cel{position:relative;aspect-ratio:4/5;overflow:hidden;cursor:pointer;background:var(--creme);border:0;padding:0;max-width:100%}
+.cel img{width:100%;height:100%;object-fit:cover;display:block}
+.cel .dt{position:absolute;left:5px;bottom:5px;background:rgba(0,0,0,.62);color:#fff;font-size:11px;padding:2px 6px;border-radius:6px;font-variant-numeric:tabular-nums}
+.cel .ic{position:absolute;right:7px;top:6px;color:#fff;font-size:13px;text-shadow:0 1px 3px rgba(0,0,0,.7)}
+.cel .st{position:absolute;left:5px;top:5px;font-size:9px;font-weight:700;letter-spacing:.05em;padding:3px 6px;border-radius:5px;color:#fff}
+.cel.velho{cursor:default;opacity:.55}
+.sep{grid-column:1/-1;font-size:11px;color:var(--suave);padding:10px 12px;background:#faf8f4;text-align:center}
+.st-rascunho{background:var(--lilas)}.st-pendente{background:var(--terra)}.st-aprovado{background:var(--verde)}.st-ajuste{background:#c2410c}
+.post{display:none;position:absolute;inset:0;background:var(--tela);z-index:5;flex-direction:column}
+.post.on{display:flex}
+.post .barra{display:flex;align-items:center;gap:10px;padding:10px 14px;border-bottom:1px solid #eee;font-size:14px}
+.post .barra button{background:none;border:0;font-size:24px;cursor:pointer;color:var(--marrom);line-height:1;padding:0 6px}
+.post .corpo{flex:1;overflow-y:auto}
+.car{position:relative;overflow:hidden;aspect-ratio:4/5;background:#000;max-width:100%}
+.car.reel{aspect-ratio:9/16}
+.trilho{display:flex;height:100%;transition:transform .3s ease}
+.trilho img,.trilho video{width:100%;height:100%;flex-shrink:0;object-fit:cover;display:block;user-select:none}
+@media (prefers-reduced-motion:reduce){.trilho{transition:none}}
+.seta{position:absolute;top:50%;transform:translateY(-50%);width:32px;height:32px;border-radius:50%;border:0;background:rgba(255,255,255,.88);cursor:pointer;font-size:17px;color:var(--marrom)}
+.seta.e{left:8px}.seta.d{right:8px}
+.cont{position:absolute;right:10px;top:10px;background:rgba(0,0,0,.6);color:#fff;font-size:12px;padding:3px 8px;border-radius:10px}
+.pontos{display:flex;justify-content:center;gap:4px;padding:8px}
+.pontos i{width:6px;height:6px;border-radius:50%;background:#d6cfe0}.pontos i.on{background:var(--lilas)}
+.leg{padding:10px 14px;font-size:14px;line-height:1.5;white-space:pre-line;overflow-wrap:anywhere}
+.meta{margin:2px 14px 10px;font-size:12px;color:var(--suave);display:flex;flex-wrap:wrap;gap:6px}
+.chip{background:var(--creme);border:1px solid var(--linha);border-radius:20px;padding:3px 9px}
+.interno{margin:4px 14px 12px;background:#fffaf0;border:1px dashed #e0c48a;border-radius:10px;padding:10px;font-size:12.5px;line-height:1.45}
+.interno b{color:var(--terra)}
+.aprova{margin:6px 14px 24px;padding:14px;border:1px solid var(--linha);border-radius:12px;background:var(--creme);display:grid;gap:10px}
+.aprova .id{font-size:12px;color:var(--suave)}
+.aprova .estado{font-size:13px;font-weight:600}
+.aprova .estado.aprovado{color:var(--verde)}.aprova .estado.ajuste{color:#c2410c}
+.aprova label{font-size:13px;font-weight:600}
+.aprova textarea{width:100%;min-height:110px;border:1px solid var(--linha);border-radius:8px;padding:9px;font:inherit;font-size:14px;line-height:1.45;background:#fff;color:var(--marrom);resize:vertical}
+.btns{display:flex;gap:8px;flex-wrap:wrap}
+.btn{border:0;border-radius:20px;padding:10px 16px;font:inherit;font-weight:600;font-size:13px;cursor:pointer;color:#fff;background:var(--verde)}
+.btn.sec{background:#fff;color:var(--terra);border:1px solid var(--terra)}
+.btn.link{background:none;color:var(--lilas);padding:4px 0;text-decoration:underline}
+.ok{font-size:12.5px;color:var(--verde);min-height:1em;line-height:1.4}
+.ok.erro{color:#b42318}
+.lista{padding:14px 16px;display:grid;gap:4px}
+.lista h3{font-family:var(--f-serif);font-size:17px}
+.lista p.s{font-size:12px;color:var(--suave);margin-bottom:8px}
+.lista .r{border-top:1px solid #eee;padding:10px 0;font-size:13px;line-height:1.4;display:flex;gap:10px;align-items:baseline;justify-content:space-between}
+.lista .r span{color:var(--suave);font-size:12px}
+.lista .r .pill{flex-shrink:0;font-size:10px;font-weight:700;letter-spacing:.04em;color:#fff;padding:3px 7px;border-radius:5px}
+.lista .r .tx{min-width:0}
+.lista .aj{font-size:12px;color:#7c2d12;background:#fff1e8;border-radius:6px;padding:6px 8px;margin-top:4px;white-space:pre-line}
+.sts{padding:14px;display:grid;gap:14px}
+.story{border-radius:16px;overflow:hidden;background:linear-gradient(160deg,var(--lilas),#4b3170);color:#fff;aspect-ratio:9/16;max-height:520px;max-width:100%;position:relative;cursor:pointer;display:flex;flex-direction:column;justify-content:center;padding:28px 22px;text-align:center;border:0;font:inherit}
+.story .prog{position:absolute;top:10px;left:10px;right:10px;display:flex;gap:4px}
+.story .prog i{flex:1;height:3px;background:rgba(255,255,255,.35);border-radius:2px}.story .prog i.on{background:#fff}
+.story h3{font-family:var(--f-serif);font-weight:600;font-size:13px;letter-spacing:.06em;text-transform:uppercase;opacity:.85;margin-bottom:14px}
+.story p{font-family:var(--f-serif);font-size:20px;line-height:1.35}
+.story .tag{position:absolute;bottom:12px;left:0;right:0;font-size:11px;opacity:.8}
+.rodape{text-align:center;font-size:11px;color:var(--suave);padding:16px}
+</style>
+
+<div class="topo">
+  <h1>Refúgio dos 4 Elementos · 20/11 a 01/01<small>__VERSAO__ · toque em um post para ver a legenda, aprovar ou pedir ajuste</small></h1>
+  <span class="aviso">Simulação para aprovação, não é a publicação real</span>
+</div>
+<div class="wrap"><div class="fone">
+  <div class="tela" id="tela">
+    <div class="cab" id="usuario"></div>
+    <div class="perfil"><img class="avatar" src="img/avatar.jpg" alt="Equipe do Refúgio">
+      <div class="nums"><div><b id="nPosts"></b>posts</div><div><b id="nSeg"></b>seguidores</div><div><b id="nSeguindo"></b>seguindo</div></div></div>
+    <div class="bio" id="bio"></div>
+    <div class="dest"><div><span></span>Comece aqui</div><div><span></span>Terapias</div><div><span></span>Equipe</div><div><span></span>Depoimentos</div><div><span></span>Dúvidas</div></div>
+    <div class="abas" role="tablist"><button class="on" data-aba="feed">Feed</button><button data-aba="aprov">Aprovações</button><button data-aba="stories">Stories</button></div>
+    <div id="aba-feed" class="grade"></div>
+    <div id="aba-aprov" class="lista" hidden></div>
+    <div id="aba-stories" class="sts" hidden></div>
+    <div class="rodape">Simulação feita pela RECRIA Marketing.</div>
+  </div>
+  <div class="post" id="post">
+    <div class="barra"><button id="voltar" aria-label="Voltar ao perfil">‹</button><b id="pUser"></b></div>
+    <div class="corpo" id="pCorpo"></div>
+  </div>
+</div></div>
+
+<script>
+/*__DADOS__*/
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const P=DADOS.perfil, interno=DADOS.versao==='interno';
+const APROV={}; let db=null, podeGravar=null, atual=null;
+const STL={rascunho:'PARA APROVAR',pendente:'FALTA DADO',aprovado:'APROVADO',ajuste:'AJUSTE PEDIDO'};
+const estadoDe=it=>APROV[it.id]?.status||it.status;
+
+$('#usuario').textContent=P.usuario; $('#pUser').textContent=P.usuario;
+$('#nPosts').textContent=P.posts+DADOS.itens.length; $('#nSeg').textContent=P.seguidores; $('#nSeguindo').textContent=P.seguindo;
+$('#bio').innerHTML='<b>'+esc(P.nome)+'</b>\n<span class="cat">'+esc(P.categoria)+'</span>\n'+esc(P.bio);
+
+function renderGrade(){
+  const g=$('#aba-feed'); g.innerHTML='';
+  [...DADOS.itens].sort((a,b)=>b.data.localeCompare(a.data)).forEach(it=>{
+    const b=document.createElement('button'); b.className='cel'; b.setAttribute('aria-label',it.dataBr+' '+it.tema);
+    const st=estadoDe(it);
+    b.innerHTML=`<img src="${it.thumb}" alt="" loading="lazy"><span class="dt">${it.dataBr}</span>${it.video?'<span class="ic">▶</span>':it.imagens.length>1?'<span class="ic">❐</span>':''}<span class="st st-${st}">${STL[st]||''}</span>`;
+    b.onclick=()=>abrir(it); g.appendChild(b);
+  });
+  const sep=document.createElement('div'); sep.className='sep'; sep.textContent='Já publicados'; g.appendChild(sep);
+  DADOS.antigos.forEach(a=>{const d=document.createElement('div');d.className='cel velho';d.innerHTML=`<img src="${a.thumb}" alt="" loading="lazy"><span class="dt">${a.dataBr}</span>`;g.appendChild(d)});
+}
+function renderAprov(){
+  const l=$('#aba-aprov'); const its=DADOS.itens;
+  const n=k=>its.filter(i=>estadoDe(i)===k).length;
+  l.innerHTML=`<h3>Aprovações</h3><p class="s">${n('aprovado')} aprovados · ${n('ajuste')} com ajuste pedido · ${its.length-n('aprovado')-n('ajuste')} aguardando</p>`+
+   its.map(it=>{const st=estadoDe(it),a=APROV[it.id];return `<div class="r"><div class="tx"><b>${it.dia.slice(0,3)} ${it.dataBr}</b> · ${esc(it.tema)}${a&&a.status==='ajuste'&&a.texto?`<div class="aj">${esc(a.texto)}</div>`:''}</div><span class="pill st-${st}">${STL[st]}</span></div>`}).join('')+
+   (db?'':'<p class="s" style="margin-top:10px">As respostas deste link ficam salvas só para quem tem permissão de edição. Sem ela, os botões copiam a mensagem para você mandar no WhatsApp.</p>');
+}
+const sts=$('#aba-stories');
+DADOS.stories.forEach(s=>{let i=0;const w=document.createElement('div');const st=document.createElement('button');st.className='story';
+  const draw=()=>{st.innerHTML=`<div class="prog">${s.telas.map((_,k)=>`<i class="${k<=i?'on':''}"></i>`).join('')}</div><h3>${esc(s.titulo)}</h3><p>${esc(s.telas[i])}</p><div class="tag">Sugestão de stories · toque para avançar</div>`};
+  st.onclick=()=>{i=(i+1)%s.telas.length;draw()};draw();w.appendChild(st);sts.appendChild(w)});
+document.querySelectorAll('.abas button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.abas button').forEach(x=>x.classList.toggle('on',x===b));
+  ['feed','aprov','stories'].forEach(a=>$('#aba-'+a).hidden=b.dataset.aba!==a); if(b.dataset.aba==='aprov')renderAprov()});
+
+function abrir(it){
+  atual=it; const n=it.video?1:it.imagens.length; let k=0; const c=$('#pCorpo');
+  c.innerHTML=`<div class="car${it.video?' reel':''}"><div class="trilho">${it.video?`<video src="${it.video}" poster="${it.imagens[0]}" autoplay loop muted playsinline controls preload="metadata"></video>`:it.imagens.map(s=>`<img src="${s}" alt="">`).join('')}</div>
+    ${n>1?'<button class="seta e" aria-label="Anterior">‹</button><button class="seta d" aria-label="Próximo">›</button><span class="cont"></span>':''}</div>
+    ${n>1?`<div class="pontos">${it.imagens.map(()=>'<i></i>').join('')}</div>`:''}
+    <div class="leg"><b>${esc(P.usuario)}</b> ${esc(it.legenda)}</div>
+    <div class="meta"><span class="chip">${it.dia} ${it.dataBr}</span><span class="chip">${({estatico:'Estático',reels:'Reels',carrossel:'Carrossel'})[it.tipo]||esc(it.tipo)}</span>${it.cta&&it.cta!=='nenhum'?`<span class="chip">CTA: ${esc(it.cta)}</span>`:''}</div>
+    ${interno?`<div class="interno"><b>Objetivo:</b> ${esc(it.objetivo)}<br><b>Foto:</b> ${esc(it.foto)}<br><b>Nota:</b> ${esc(it.nota)}</div>`:''}
+    <div class="aprova" id="caixa"></div>`;
+  const tr=c.querySelector('.trilho'),cont=c.querySelector('.cont'),pts=c.querySelectorAll('.pontos i');
+  const go=v=>{k=Math.max(0,Math.min(n-1,v));tr.style.transform=`translateX(${-100*k}%)`;if(cont)cont.textContent=`${k+1}/${n}`;pts.forEach((p,j)=>p.classList.toggle('on',j===k))};
+  if(n>1){c.querySelector('.seta.e').onclick=()=>go(k-1);c.querySelector('.seta.d').onclick=()=>go(k+1);
+    let x0=null;tr.addEventListener('touchstart',e=>x0=e.touches[0].clientX,{passive:true});
+    tr.addEventListener('touchend',e=>{if(x0===null)return;const dx=e.changedTouches[0].clientX-x0;if(Math.abs(dx)>40)go(k+(dx<0?1:-1));x0=null})}
+  const v=c.querySelector('video'); if(v){v.addEventListener('error',()=>{tr.innerHTML=`<img src="${it.imagens[0]}" alt="">`;});}
+  go(0); renderCaixa(it); $('#post').classList.add('on'); c.scrollTop=0;
+}
+function renderCaixa(it,modo){
+  const cx=$('#caixa'); if(!cx)return; const a=APROV[it.id];
+  const est=a?`<div class="estado ${a.status}">${a.status==='aprovado'?'✓ Aprovado':'Ajuste pedido'}${a.em?' em '+new Date(a.em).toLocaleDateString('pt-BR'):''}</div>`:'';
+  if(modo==='ajuste'){
+    cx.innerHTML=`<div class="id">${it.id} · ${esc(it.tema)}</div>
+      <label for="txt-ajuste">O que você quer mudar? Pode escrever o texto novo do jeito que quer que fique.</label>
+      <textarea id="txt-ajuste" placeholder="Ex.: trocar a frase da arte por ...">${esc(a&&a.status==='ajuste'?a.texto:'')}</textarea>
+      <button class="btn link" id="b-colar" type="button">Colar a legenda atual aqui para editar</button>
+      <div class="btns"><button class="btn" id="b-enviar" type="button">Enviar ajuste</button><button class="btn sec" id="b-cancelar" type="button">Cancelar</button></div><div class="ok" id="msg"></div>`;
+    const ta=$('#txt-ajuste'); ta.focus();
+    $('#b-colar').onclick=()=>{ta.value=(ta.value?ta.value+'\n\n':'')+it.legenda;ta.focus()};
+    $('#b-cancelar').onclick=()=>renderCaixa(it);
+    $('#b-enviar').onclick=()=>{const t=ta.value.trim();if(!t){ta.focus();return}salvar(it,{status:'ajuste',texto:t},'Ajuste em '+it.id+' ('+it.dataBr+'):\n'+t)};
+    return;
+  }
+  cx.innerHTML=`<div class="id">${it.id} · ${esc(it.tema)}</div>${est}
+    <div class="btns"><button class="btn" id="b-ap" type="button">${a&&a.status==='aprovado'?'Aprovado ✓':'Aprovar'}</button><button class="btn sec" id="b-aj" type="button">Pedir ajuste</button></div><div class="ok" id="msg"></div>`;
+  $('#b-ap').onclick=()=>salvar(it,{status:'aprovado',texto:''},'Aprovo '+it.id+' ('+it.dataBr+')');
+  $('#b-aj').onclick=()=>renderCaixa(it,'ajuste');
+}
+async function salvar(it,corpo,textoMsg){
+  const body={...corpo,em:new Date().toISOString()};
+  if(db&&podeGravar!==false){
+    try{await db.doc('aprovacoes/'+it.id).set(body);APROV[it.id]=body;renderGrade();renderCaixa(it);
+      const m=$('#msg');if(m)m.textContent=corpo.status==='aprovado'?'Aprovado! A agência já recebeu.':'Ajuste enviado! A agência já recebeu.';return}
+    catch(e){podeGravar=false}
+  }
+  APROV[it.id]=body; renderGrade(); renderCaixa(it); const m=$('#msg');
+  const wa=DADOS.whats?'https://wa.me/'+DADOS.whats+'?text='+encodeURIComponent(textoMsg):null;
+  const copiar=()=>navigator.clipboard?navigator.clipboard.writeText(textoMsg):Promise.reject();
+  try{await copiar();m.innerHTML='Mensagem copiada. Cole no WhatsApp da agência'+(wa?` ou <a href="${wa}" target="_blank" rel="noopener">abra o WhatsApp aqui</a>`:'')+'.'}
+  catch{m.innerHTML='Mande esta mensagem no WhatsApp da agência:<br><b>'+esc(textoMsg).replace(/\n/g,'<br>')+'</b>'}
+}
+$('#voltar').onclick=()=>{$('#post').classList.remove('on');const v=$('#pCorpo video');if(v)v.pause();atual=null};
+renderGrade();
+
+(async()=>{
+  try{
+    db=window.claude?await claude.use('db'):null; if(!db)return;
+    const user=await claude.use('user'); try{const c=user?await user.can('data.write'):null;if(c===false)podeGravar=false}catch{}
+    db.collection('aprovacoes').onSnapshot(snap=>{
+      snap.docs.forEach(d=>{if(d.exists)APROV[d.id]=d.data()});
+      renderGrade(); if(!$('#aba-aprov').hidden)renderAprov(); if(atual&&!$('#txt-ajuste'))renderCaixa(atual);
+    },()=>{});
+  }catch{db=null}
+})();
+</script>
