@@ -31,7 +31,7 @@ def wrap(d, txt, f, maxw):
     linhas.append(cur); return linhas
 
 def cover(path, w, h, fy=0.2, fx=0.5, zoom=1.0, pb=False):
-    im = Image.open(path).convert('RGB')
+    im = path.convert('RGB') if isinstance(path, Image.Image) else Image.open(path).convert('RGB')
     if pb: im = ImageOps.grayscale(im).convert('RGB')
     s = max(w / im.width, h / im.height) * zoom
     im = im.resize((round(im.width * s), round(im.height * s)), Image.LANCZOS)
@@ -80,7 +80,7 @@ def post_foto(out, foto, titulo, sub, botao='leia a legenda +', kicker=None, w=W
     """Foto inteira + gradiente + titulo serifado branco embaixo (estilo capa).
     camada='fundo' -> so foto+gradiente; camada='texto' -> so textos em PNG transparente (para Reels)."""
     if estilo == 'card':
-        return post_card(out, foto, kicker, titulo, sub, botao, cor or LILAS, pos=pos, **kw)
+        return post_card(out, foto, kicker, titulo, sub, botao, cor or LILAS, pos=pos, nome=nome, encaixe=encaixe, sem_icone=sem_icone, **kw)
     fc = fade or FADE
     img = Image.new('RGBA', (w, h), (0, 0, 0, 0))
     if camada != 'texto':
@@ -203,14 +203,16 @@ def card_print(out, print_path, legenda, crop=None, n=0, total=0, escala=None):
     img.convert('RGB').save(out, quality=92)
 
 
-def post_card(out, foto, label, titulo, sub, botao, cor, pos='baixo', fy=0.2, fx=0.5, zoom=1.0, pb=False, **_):
+def post_card(out, foto, label, titulo, sub, botao, cor, pos='baixo', fy=0.2, fx=0.5, zoom=1.0, pb=False,
+              nome=False, encaixe=None, sem_icone=False, **_):
     """Padrao dos posts anteriores: foto + faixa creme com etiqueta, titulo colorido, subtitulo e botao."""
     img = Image.new('RGBA', (W, H), CREME + (255,)); d = ImageDraw.Draw(img)
     m = 64; maxw = W - 2 * m
-    ft = font('CG-600', 54); fs = font('LO-400', 30)
+    ft = font('CG-600', 54); fs = font('CG-500i', 46) if nome else font('LO-400', 30); lhs = 52 if nome else 40
     lt = wrap(d, titulo, ft, maxw); ls = wrap(d, sub, fs, maxw) if sub else []
+    if encaixe: foto = Image.open(foto).convert('RGB').crop(encaixe)
     txt_b = {'leia a legenda +': 'Leia a legenda', 'arrasta >': 'Arrasta >'}.get(botao, botao or 'Leia a legenda')
-    banda = 52 + (46 if label else 0) + len(lt) * 60 + (14 + len(ls) * 40 if ls else 0) + 22 + 62 + 56
+    banda = 52 + (46 if label else 0) + len(lt) * 60 + (14 + len(ls) * lhs if ls else 0) + 22 + 62 + 56
     ph = H - banda
     if pos == 'topo':
         img.paste(cover(foto, W, ph, fy=fy, fx=fx, zoom=zoom, pb=pb), (0, banda)); y0 = 0
@@ -221,15 +223,15 @@ def post_card(out, foto, label, titulo, sub, botao, cor, pos='baixo', fy=0.2, fx
         d = ImageDraw.Draw(img); d.line((0, ph, W, ph), fill=(225, 218, 208), width=2)
         sh = Image.new('RGBA', (W, H), (0, 0, 0, 0)); g = Image.new('RGBA', (220, 220), (0, 0, 0, 0))
         ImageDraw.Draw(g).ellipse((30, 30, 190, 190), fill=(40, 30, 30, 70)); g = g.filter(ImageFilter.GaussianBlur(28))
-        sh.paste(g, (W - m - 84 - 62, 46 - 62), g); img.alpha_composite(sh)
-        icon(img, (W - m - 84, 46), (255, 255, 255))
+        if not sem_icone: sh.paste(g, (W - m - 84 - 62, 46 - 62), g); img.alpha_composite(sh)
+        if not sem_icone: icon(img, (W - m - 84, 46), (255, 255, 255))
     d = ImageDraw.Draw(img); y = y0 + 52
     if label:
         d.text((m, y), label.upper(), font=font('QS-600', 27), fill=MARROM); y += 46
     for l in lt: d.text((m, y), l, font=ft, fill=cor); y += 60
     if ls:
         y += 14
-        for l in ls: d.text((m, y), l, font=fs, fill=TEXTO); y += 40
+        for l in ls: d.text((m, y), l, font=fs, fill=cor if nome else TEXTO); y += lhs
     y += 22; f = font('QS-700', 30); tw = d.textlength(txt_b, font=f)
     d.rounded_rectangle((m, y, m + tw + 58, y + 62), radius=31, fill=cor)
     d.text((m + 29, y + 31), txt_b, font=f, fill=(255, 255, 255), anchor='lm')

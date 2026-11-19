@@ -374,3 +374,16 @@ for _i, _capa in [('REF-261125', False), ('REF-261130', True), ('REF-261211', Fa
     _kw(_i, _capa)['fade'] = ESCURO
 _kw('REF-261202')['fade'] = PRETO
 _kw('REF-261230')['fade'] = ESCURO
+
+# ---------- ajustes de 19/11 (6ª rodada): card branco em todos os posts que não são vídeo ----------
+_por_id = {it['id']: it for it in ITENS}
+def _card2(i, cor, pos='baixo', capa=False, manter=()):
+    k = _kw(i, capa)
+    for x in ('topo', 'fade'): k.pop(x, None)
+    k.update(estilo='card', cor=cor, pos=pos)
+_card2('REF-261120', TERRA)
+_card2('REF-261125', LILAS)                 # mantem nome=True (nome em destaque)
+_card2('REF-261130', LILAS, capa=True)
+_card2('REF-261211', LILAS)                 # mantem nome=True
+_card2('REF-261228', VERDE, capa=True)
+_card2('REF-270101', LILAS); _kw('REF-270101')['fy'] = 0.0   # mantem encaixe e sem_icone (icone ja esta na foto)
