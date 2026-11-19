@@ -45,11 +45,11 @@ def gradiente(img, inicio, alpha_max=225):
         t = 0 if y < inicio else (y - inicio) / (h - inicio)
         g.putpixel((0, y), int(alpha_max * min(1, t ** 0.85 * 1.15)))
     g = g.resize((w, h))
-    escuro = Image.new('RGBA', (w, h), (34, 24, 22, 255)); escuro.putalpha(g)
+    escuro = Image.new('RGBA', (w, h), (62, 40, 28, 255)); escuro.putalpha(g)
     img.alpha_composite(escuro)
     topo = Image.new('L', (1, 220), 0)
     for y in range(220): topo.putpixel((0, y), int(90 * (1 - y / 220)))
-    t = Image.new('RGBA', (w, 220), (20, 14, 12, 255)); t.putalpha(topo.resize((w, 220)))
+    t = Image.new('RGBA', (w, 220), (48, 30, 20, 255)); t.putalpha(topo.resize((w, 220)))
     img.alpha_composite(t, (0, 0))
 
 def pill_contorno(d, x, y, txt, cor=(255, 255, 255), s=26):
@@ -69,7 +69,7 @@ def gradiente_topo(img, fim, alpha_max=215):
     for y in range(h):
         t = 1 - y / fim if y < fim else 0
         g.putpixel((0, y), int(alpha_max * min(1, max(0, t) ** 0.8 * 1.1)))
-    escuro = Image.new('RGBA', (w, h), (34, 24, 22, 255)); escuro.putalpha(g.resize((w, h)))
+    escuro = Image.new('RGBA', (w, h), (62, 40, 28, 255)); escuro.putalpha(g.resize((w, h)))
     img.alpha_composite(escuro)
 
 def post_foto(out, foto, titulo, sub, botao='leia a legenda +', kicker=None, w=W, h=H, camada=None,
@@ -80,13 +80,13 @@ def post_foto(out, foto, titulo, sub, botao='leia a legenda +', kicker=None, w=W
     img = Image.new('RGBA', (w, h), (0, 0, 0, 0))
     if camada != 'texto':
         if encaixe:  # foto no topo em largura total, fundo escuro embaixo (para fotos que so existem recortadas)
-            img = Image.new('RGBA', (w, h), (34, 24, 22, 255))
+            img = Image.new('RGBA', (w, h), (62, 40, 28, 255))
             ph = Image.open(foto).convert('RGB').crop(encaixe); ph = ph.resize((w, round(ph.height * w / ph.width)), Image.LANCZOS)
             img.paste(ph, (0, 0))
             fade = min(320, ph.height // 2)
             mf = Image.new('L', (1, fade), 0)
             for yy in range(fade): mf.putpixel((0, yy), int(255 * (yy / fade) ** 1.4))
-            esc = Image.new('RGBA', (w, fade), (34, 24, 22, 255)); esc.putalpha(mf.resize((w, fade)))
+            esc = Image.new('RGBA', (w, fade), (62, 40, 28, 255)); esc.putalpha(mf.resize((w, fade)))
             img.alpha_composite(esc, (0, ph.height - fade))
         else:
             img.paste(cover(foto, w, h, **kw), (0, 0))
@@ -108,7 +108,7 @@ def post_foto(out, foto, titulo, sub, botao='leia a legenda +', kicker=None, w=W
             gradiente_topo(img, fim + 70, alpha_max=250)
             mv = Image.new('L', (1, fim + 40), 0)
             for yy in range(fim + 40): mv.putpixel((0, yy), int(95 * min(1, max(0, (fim + 40 - yy) / 160))))
-            veu = Image.new('RGBA', (w, fim + 40), (20, 14, 12, 255)); veu.putalpha(mv.resize((w, fim + 40))); img.alpha_composite(veu, (0, 0))
+            veu = Image.new('RGBA', (w, fim + 40), (48, 30, 20, 255)); veu.putalpha(mv.resize((w, fim + 40))); img.alpha_composite(veu, (0, 0))
     else:
         base = h - (110 if h == H else (reel_base or 380))  # reels: area segura acima da interface
         y = base - alt
