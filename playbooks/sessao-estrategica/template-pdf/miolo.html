@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Playfair;src:url(node_modules/@fontsource/playfair-display/files/playfair-display-latin-400-normal.woff2);font-weight:400}
+@font-face{font-family:Playfair;src:url(node_modules/@fontsource/playfair-display/files/playfair-display-latin-700-normal.woff2);font-weight:700}
+@font-face{font-family:Playfair;src:url(node_modules/@fontsource/playfair-display/files/playfair-display-latin-400-italic.woff2);font-style:italic}
+@font-face{font-family:Lora;src:url(node_modules/@fontsource/lora/files/lora-latin-400-normal.woff2);font-weight:400}
+@font-face{font-family:Lora;src:url(node_modules/@fontsource/lora/files/lora-latin-600-normal.woff2);font-weight:600}
+@font-face{font-family:Lora;src:url(node_modules/@fontsource/lora/files/lora-latin-700-normal.woff2);font-weight:700}
+@font-face{font-family:Lora;src:url(node_modules/@fontsource/lora/files/lora-latin-400-italic.woff2);font-style:italic}
+:root{--gold:#C9A24E;--gold2:#E4C988;--ink:#1a1a1a;--muted:#5b5b5b;--line:#e8dcc0;--cream:#faf6ec}
+*{box-sizing:border-box}
+@page{size:A4;margin:22mm 20mm 24mm 20mm}
+html,body{margin:0;padding:0}
+body{font-family:Lora,Georgia,serif;color:var(--ink);font-size:10.6pt;line-height:1.6;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+section{break-before:page}
+section:first-of-type{break-before:auto}
+.kicker{font-family:Lora;font-size:8.5pt;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin:0 0 6px}
+h1{font-family:Playfair,serif;font-weight:700;font-size:25pt;line-height:1.15;margin:0 0 6px;color:#111}
+h1 em{font-style:italic;font-weight:400;color:var(--gold)}
+.rule{width:56px;height:2px;background:var(--gold);margin:14px 0 20px}
+h3{font-family:Playfair,serif;font-size:13.5pt;margin:20px 0 6px;color:#111;break-after:avoid}
+h3 .n{color:var(--gold);margin-right:6px}
+p{margin:0 0 10px}
+.lead{font-size:12pt;line-height:1.55;color:#222}
+ul{margin:4px 0 12px;padding-left:0;list-style:none}
+ul li{position:relative;padding-left:18px;margin:0 0 6px}
+ul li::before{content:"";position:absolute;left:2px;top:.62em;width:6px;height:6px;background:var(--gold);transform:rotate(45deg)}
+ul ul{margin:6px 0 4px}
+ul ul li::before{background:none;border:1px solid var(--gold)}
+b,strong{font-weight:700}
+table{width:100%;border-collapse:collapse;margin:8px 0 16px;font-size:9.4pt;line-height:1.45;break-inside:auto}
+thead th{background:#111;color:var(--gold2);font-family:Lora;font-weight:600;text-align:left;padding:8px 10px;font-size:8.6pt;letter-spacing:.06em;text-transform:uppercase}
+td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+tr{break-inside:avoid}
+tbody tr:nth-child(even) td{background:var(--cream)}
+td:first-child{font-weight:600}
+.box{background:var(--cream);border-left:3px solid var(--gold);padding:12px 16px;margin:12px 0 16px;break-inside:avoid}
+.box p:last-child{margin:0}
+.help{margin:6px 0 4px}
+.help li{padding-left:0}
+.help li::before{display:none}
+.tag{display:inline-block;font-size:7.6pt;letter-spacing:.14em;text-transform:uppercase;padding:2px 7px;border-radius:2px;margin-right:6px;vertical-align:1px}
+.tag.me{background:#111;color:var(--gold2)}
+.tag.solo{border:1px solid var(--gold);color:#8a6a24}
+.point{break-inside:avoid;padding:2px 0 8px;border-bottom:1px solid var(--line);margin-bottom:6px}
+.point:last-child{border-bottom:0}
+a{color:#8a6a24;text-decoration:none;border-bottom:1px solid var(--gold2)}
+.cta{display:block;background:#111;color:var(--gold2);text-align:center;padding:12px;font-family:Playfair;font-size:14pt;margin:10px 0 18px;border:0}
+.cta small{display:block;font-family:Lora;font-size:8.5pt;color:#bbb;letter-spacing:.1em;text-transform:uppercase;margin-top:2px}
+.sig{margin-top:26px;font-family:Playfair;font-style:italic;font-size:13pt}
+.sig b{display:block;font-style:normal;font-size:12pt;margin-top:4px}
+.sig span{display:block;font-family:Lora;font-style:normal;font-size:9pt;color:var(--gold);letter-spacing:.18em;text-transform:uppercase;margin-top:2px}
+.toc{counter-reset:t;margin-top:10px}
+.toc div{display:flex;align-items:baseline;gap:10px;padding:9px 0;border-bottom:1px solid var(--line);font-size:11.5pt}
+.toc div span.num{font-family:Playfair;color:var(--gold);font-size:15pt;width:34px}
+</style></head><body>
+<!-- MODELO: troque o conteúdo de cada <section>. Cada <section> começa numa página nova. -->
+
+<section>
+<p class="kicker">Antes de começar</p>
+<h1>{{PRIMEIRO_NOME}}, obrigada pela <em>conversa</em></h1>
+<div class="rule"></div>
+<p class="lead">Este material reúne o que conversamos na nossa sessão estratégica do dia {{DATA_CURTA}}, organizado para você consultar sempre que precisar.</p>
+<p>Em cada parte você encontra o que descobrimos, por que importa e os caminhos possíveis: o que você pode resolver sozinha e onde eu posso te ajudar, se você quiser.</p>
+<div class="toc">
+<div><span class="num">01</span>O que descobrimos</div>
+<div><span class="num">02</span>Pontos a resolver</div>
+<div><span class="num">03</span>Como posso te ajudar</div>
+<div><span class="num">04</span>Gravação da sessão</div>
+</div>
+</section>
+
+<section>
+<p class="kicker">Parte 01</p>
+<h1>O que <em>descobrimos</em></h1>
+<div class="rule"></div>
+<p class="lead">Frase principal do diagnóstico.</p>
+<ul>
+<li><b>Achado 1.</b> Explicação curta.</li>
+<li><b>Achado 2.</b> Explicação curta.</li>
+</ul>
+<table><thead><tr><th>Coluna</th><th>Coluna</th><th>Coluna</th></tr></thead><tbody>
+<tr><td>Item</td><td>Texto</td><td>Texto</td></tr>
+</tbody></table>
+<div class="box"><p><b>Destaque:</b> uma dica ou teste importante.</p></div>
+</section>
+
+<section>
+<p class="kicker">Parte 02</p>
+<h1>Pontos <em>a resolver</em></h1>
+<div class="rule"></div>
+<p class="lead">Estes são os pontos que mapeei antes e durante a sessão. Você pode resolver sozinha, ou, se quiser minha ajuda, eu posso te ajudar.</p>
+<div class="point"><h3><span class="n">1.</span>Nome do ponto</h3>
+<p>Por que importa.</p>
+<ul class="help"><li><span class="tag me">Com minha ajuda</span>Serviço e preço.</li>
+<li><span class="tag solo">Sozinha</span>E-book ou ação que a pessoa faz sozinha.</li></ul></div>
+</section>
+
+<section>
+<p class="kicker">Parte 03</p>
+<h1>Como posso <em>te ajudar</em></h1>
+<div class="rule"></div>
+<p class="lead">De acordo com o que mapeei da sua necessidade, estas são as coisas que posso te entregar, de e-books e cursos a serviços. Escolha pelo caminho que faz mais sentido para você agora.</p>
+<a class="cta" href="https://www.agenciarecria.com.br/links/">agenciarecria.com.br/links<small>Tudo o que a Recria oferece</small></a>
+<table><thead><tr><th style="width:24%">Opção</th><th>O que inclui</th><th style="width:24%">Investimento</th></tr></thead><tbody>
+<tr><td>Oferta</td><td>O que inclui</td><td>Preço</td></tr>
+</tbody></table>
+<div class="box"><p><b>Como contratar</b></p><ul>
+<li><b>Pelo link, direto:</b> e-books, cursos, consultoria, mentoria, gestão de anúncios e Pacote de Marketing Inicial, em <a href="https://www.agenciarecria.com.br/links/">agenciarecria.com.br/links</a>.</li>
+<li><b>Pelo WhatsApp, contratados à parte:</b> copy do site, site completo, identidade visual, calendário personalizado e social media.</li>
+</ul></div>
+</section>
+
+<section>
+<p class="kicker">Parte 04</p>
+<h1>Gravação <em>da sessão</em></h1>
+<div class="rule"></div>
+<a class="cta" href="{{LINK_GRAVACAO}}">Assistir e baixar a gravação<small>Google Drive</small></a>
+<div class="box"><p>A gravação fica disponível por um mês e pode ser excluída a partir de <b>{{DATA_EXCLUSAO}}</b>. Se quiser guardar uma cópia, baixe antes disso.</p></div>
+<h3>Use à vontade nas suas redes</h3>
+<p>Os trechos em que você conta sua história e explica seus produtos já servem de conteúdo para o Instagram, o TikTok e o YouTube.</p>
+<h3>Um pedido de autorização</h3>
+<p>Como a sessão foi gratuita, gostaria de usar alguns trechos e insights da nossa conversa, com a sua imagem, em cortes para as minhas redes (Instagram, TikTok e YouTube). Se você concordar, é só me mandar seu ok pelo WhatsApp ou por e-mail, como preferir.</p>
+<div class="sig">Com carinho,<b>Amanda Moraes</b><span>Agência Recria</span></div>
+</section>
+
+</body></html>

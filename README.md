@@ -15,3 +15,4 @@ Pipeline completo: `questionario-cliente` → `estrategista-cliente` → `copywr
 ## Playbooks da agência (`playbooks/`)
 Padrões reutilizáveis para qualquer cliente.
 - `playbooks/vsl-aula-gratuita/` — VSL "Aula Gratuita que Vende" (anúncio-aula → VSL com botão revelado em ~70% → oferta). Estrutura bloco a bloco, banco de ganchos, limites éticos, adaptação por nicho e prompts prontos. Referência: Método Prisma (@kamilyrebs).
+- `playbooks/sessao-estrategica/` — procedimento padrão das sessões estratégicas e consultorias avulsas (gratuitas ou pagas): documento interno, direcional do cliente, modelo do PDF em formato e-book e mensagens de envio.

@@ -1,0 +1,9 @@
+{
+  "name": "recria-direcional-pdf",
+  "private": true,
+  "description": "Modelo do direcional da sessão estratégica em PDF, padrão Recria",
+  "dependencies": {
+    "@fontsource/lora": "^5.3.0",
+    "@fontsource/playfair-display": "^5.3.0"
+  }
+}
