@@ -20,6 +20,8 @@
 > **4. Checagem de mistura de dados**
 > Dentro do relatório de aquisição, veja se existe alguma página, evento ou nome de conteúdo que não pareça pertencer ao site da Eleva/Área Comum (por exemplo, nomes de página de outro negócio, como "Confiança Administradora de Condomínios" ou qualquer outro nome estranho). Relate exatamente o que encontrar, com prints se possível.
 >
+> **Importante**: o nome "Confiança Administradora de Condomínios" (ou "Administração de imóveis") já apareceu em telas do Google Analytics e também do Google Ads (sugestão de público "semelhante a: Administração de imóveis"). Investigue especificamente de onde vem essa referência: é um nome de página/evento dentro do próprio Analytics (indicando mistura de dados de outro site), é uma sugestão de público do Google Ads baseada em alguma lista de clientes carregada, ou é outra coisa? Explique a causa exata, porque isso pode estar enviesando a análise.
+>
 > **5. Tempo real**
 > Abra Relatórios → Tempo real, e enquanto isso, me diga se os usuários ativos mostrados batem com o que seria esperado (tráfego do site da Eleva).
 >
