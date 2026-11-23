@@ -11,4 +11,4 @@
 ## Linktree
 
 - Não foi possível atualizar: pede um código de verificação enviado para o e-mail `eleva@elevags.com.br`, que é do Giuliano.
-- Mensagem já enviada pra ele pedindo o código, aguardando retorno.
+- **Atualização**: o Giuliano mesmo já mexeu no Linktree ontem (22/11). Ele vai mandar mais tarde um material explicando as mudanças que fez e o que ainda falta a Amanda fazer, inclusive nos destaques.
