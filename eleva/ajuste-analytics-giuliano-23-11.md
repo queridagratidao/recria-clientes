@@ -36,7 +36,7 @@ Hoje (23/11) o site já foi trocado para um Analytics novo (`G-B3F2ZB845M`), num
 
 1. **Confirmar a propriedade nova**: em Administrador → Fluxos de dados, confirmar que o ID é `G-B3F2ZB845M` e a URL é `https://www.elevags.com.br`, e que essa conta não está dentro da organização "Considere Feito".
 
-2. **Dar acesso à Amanda**: Administrador → Gerenciamento de acesso à CONTA (nível da conta, não só da propriedade) → Adicionar usuários. E-mail: `queridagratidao@gmail.com`. Função: Administrador. Marcar "Notificar novos usuários por e-mail". **[CONFIRMAR antes de salvar]**
+2. **Dar acesso à Amanda**: Administrador → Gerenciamento de acesso à CONTA (nível da conta, não só da propriedade) → Adicionar usuários. E-mail: `amandarecria@gmail.com`. Função: Administrador. Marcar "Notificar novos usuários por e-mail". **[CONFIRMAR antes de salvar]**
 
 3. **Configurações básicas**: Administrador → Coleta e modificação de dados → Retenção de dados: 14 meses. **[CONFIRMAR]** Conferir se a métrica otimizada do fluxo está ligada.
 
@@ -52,7 +52,7 @@ Hoje (23/11) o site já foi trocado para um Analytics novo (`G-B3F2ZB845M`), num
 
 9. **Relatório final**, pra devolver pra Recria conferir:
    - ID e nome da conta e da propriedade novas.
-   - Lista de usuários com acesso, confirmando `queridagratidao@gmail.com` como Administrador.
+   - Lista de usuários com acesso, confirmando `amandarecria@gmail.com` como Administrador.
    - Vínculo com o Google Ads na propriedade nova, e confirmação de que saiu da antiga.
    - Tags do `GTM-TPTQTWJK`.
    - Confirmação de que o `GTM-WX4W4NBX` saiu do site.
