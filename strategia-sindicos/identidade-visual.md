@@ -24,6 +24,19 @@ Toda a marca é construída sobre a metáfora do **xadrez**: "o tabuleiro", "a j
 - Redução máxima: 6,3cm (horizontal) / 5cm (vertical) / 2cm (apenas ícone) — abaixo disso a tipografia perde legibilidade.
 - Área de proteção: margem ao redor do ícone, não pode ter outros elementos dentro dela.
 
+### Arquivos do logo horizontal (pasta `marca/`)
+- `strategia-logo-horizontal-texto-azul.png` — texto em azul, para fundos claros (ex.: capas de reels sobre fotos claras).
+- `strategia-logo-horizontal-texto-branco.png` — texto em branco, para fundos escuros (padrão dos posts).
+- Nas duas versões, o quadrado azul-escuro atrás do ícone faz parte do logo.
+
+### Padrões de layout dos posts (validados em dez/2026)
+- Texto alinhado à esquerda; só capas de vídeo (reels) são centralizadas.
+- Faixa laranja de destaque fina, cobrindo só as palavras destacadas e **sempre inteira numa linha** (nunca partida em duas linhas). Se não couber, desce a linha ou reduz a fonte.
+- Foto em cima com degradê para o azul-marinho embaixo, onde ficam título, subtítulo e logo.
+- Cards internos dos carrosséis: fundo azul com brilho suave, número em quadrado azul, sem quadriculado.
+- Datas comemorativas: layout mais elaborado (letra cursiva, detalhes dourados).
+- Referência: `calendarios-editoriais/2026-12-dezembro/index.html`.
+
 ### Dont's (nunca fazer)
 - Distorcer o logo.
 - Alterar a cor do logo.
@@ -55,6 +68,8 @@ Toda a marca é construída sobre a metáfora do **xadrez**: "o tabuleiro", "a j
 | Cinza Escuro | `#1E1D1F` |
 | Cinza Médio | `#575757` |
 | Cinza Claro | `#A8A5A5` |
+
+**Laranja usado na produção (definido pela Amanda em 19/11/2026):** sempre o "Laranja vívido" do Canva, **`#EA2F06`** — faixas de destaque dos títulos, palavra SÍNDICO no CTA e faixas laranja das capas de vídeo. Os azuis variam livremente do claro ao escuro; o laranja não varia.
 
 **Observação:** o laranja (`#ED2F05`) é a cor de destaque/CTA (usada no ícone do logo e em botões como "LEIA A LEGENDA"). O verde usado em posts ESG observado no Instagram **não está na paleta oficial do brandbook** — é uma extensão pontual da equipe de social media para temas de sustentabilidade; usar com moderação e só nesse contexto específico, não tratar como cor de marca.
 

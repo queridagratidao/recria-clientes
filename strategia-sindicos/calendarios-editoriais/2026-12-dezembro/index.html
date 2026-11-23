@@ -1,0 +1,673 @@
+<title>Feed da Strategia · Dezembro</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;500;600;700;800;900&family=Oswald:wght@700&family=Sacramento&family=Cormorant+Garamond:ital,wght@0,500;1,500&family=Great+Vibes&display=block">
+<style>
+/* Layout: Instagram profile replica for December (header, highlights, 3-col grid) holding November's posts in Strategia's navy/orange feed style; tile opens the post with slides, copy, stories and video plan B. Second tab: strategic analysis. */
+:root{
+  --bg:#FFFFFF; --surface:#FFFFFF; --fg:#0C1014; --muted:#6B7280; --line:#DBDBDB; --chip:#EFEFF1;
+  --accent:#1847C7; --accent-soft:#EEF2FC; --warm:#E8521A; --warm-soft:#FDF0EA; --link:#00376B; --overlay:rgba(0,0,0,.74);
+  --ui:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --brand:"Overpass","Arial Black",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#000; --surface:#121212; --fg:#F5F5F5; --muted:#A8A8A8; --line:#262626; --chip:#262626;
+  --accent:#8EA8FF; --accent-soft:#151C33; --warm:#FF8A5B; --warm-soft:#2C1810; --link:#E0F1FF; --overlay:rgba(0,0,0,.86); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#000; --surface:#121212; --fg:#F5F5F5; --muted:#A8A8A8; --line:#262626; --chip:#262626;
+  --accent:#8EA8FF; --accent-soft:#151C33; --warm:#FF8A5B; --warm-soft:#2C1810; --link:#E0F1FF; --overlay:rgba(0,0,0,.86); color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--ui);font-size:14px;line-height:1.45;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 48px}
+.wrap{max-width:660px;margin:0 auto;display:flex;flex-direction:column;gap:18px}
+.note{background:var(--accent-soft);border-radius:12px;padding:12px 16px;font-size:13px;margin:0}
+.switch{display:flex;gap:6px;background:var(--chip);padding:4px;border-radius:10px}
+.switch button{flex:1;border:0;background:transparent;color:var(--muted);font:600 13px var(--ui);padding:9px;border-radius:8px;cursor:pointer}
+.switch button[aria-pressed="true"]{background:var(--surface);color:var(--fg);box-shadow:0 1px 3px rgba(0,0,0,.14)}
+.switch button:focus-visible,.tile:focus-visible,.nav:focus-visible,.close:focus-visible,.mode button:focus-visible{outline:3px solid var(--warm);outline-offset:2px}
+/* profile */
+.profile{display:grid;grid-template-columns:auto minmax(0,1fr);gap:14px 26px;align-items:center}
+.ring{width:108px;height:108px;border-radius:50%;padding:3px;background:conic-gradient(from 210deg,#FEDA75,#FA7E1E,#D62976,#962FBF,#4F5BD5,#FEDA75)}
+.av{width:100%;height:100%;border-radius:50%;border:3px solid var(--bg);background:#0538A0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px}
+.av .lm{width:30%}
+.av small{font:800 10px var(--brand);color:#fff;letter-spacing:-.01em}
+.top{display:flex;align-items:center;gap:8px}
+.top h1{font:700 20px/1.2 var(--ui);margin:0}
+.name{font-size:14px;margin-top:2px}
+.stats{display:flex;gap:18px;margin-top:10px;flex-wrap:wrap;font-variant-numeric:tabular-nums}
+.stats b{font-weight:600}
+.bio{grid-column:1/-1;margin:0}
+.bio .lk{color:var(--link);font-weight:600}
+.btns{grid-column:1/-1;display:flex;gap:8px}
+.btns span{flex:1;text-align:center;background:var(--chip);font-weight:600;padding:9px;border-radius:10px}
+.btns span.f{background:#4A5DF9;color:#fff}
+.hl{display:flex;gap:16px;overflow-x:auto;padding:4px 2px}
+.hl div{display:flex;flex-direction:column;align-items:center;gap:6px;font-size:12px;flex:none}
+.hl i{width:62px;height:62px;border-radius:50%;border:3px solid var(--bg);box-shadow:0 0 0 1px var(--line);display:flex;align-items:center;justify-content:center;font-style:normal;font-size:24px;background:var(--chip)}
+.tabs{display:flex;border-top:1px solid var(--line)}
+.tabs span{flex:1;display:flex;justify-content:center;padding:12px 0 4px;color:var(--muted)}
+.tabs span:first-child{color:var(--fg);border-top:1px solid var(--fg);margin-top:-1px}
+.tabs svg{width:22px;height:22px}
+/* grid */
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px}
+.tile{position:relative;aspect-ratio:3/4;max-width:100%;border:0;padding:0;cursor:pointer;overflow:hidden;display:flex;align-items:center;justify-content:center;background:#0B1F5E;color:inherit;font:inherit}
+.tile .card{width:106.67%;flex:none}
+.tile .date{position:absolute;left:5px;bottom:5px;background:rgba(255,255,255,.95);color:#0C1014;font:700 10.5px var(--ui);padding:3px 6px;border-radius:4px;z-index:3}
+.tile .icon{position:absolute;right:6px;top:6px;width:17px;height:17px;color:#fff;filter:drop-shadow(0 1px 2px rgba(0,0,0,.5));z-index:3}
+.tile.sug::after{content:"";position:absolute;inset:4px;border:2px dashed #FFB08F;border-radius:4px;z-index:2;pointer-events:none}
+.tile .flag{position:absolute;left:6px;top:6px;background:#E8521A;color:#fff;font:800 8.5px/1 var(--ui);letter-spacing:.06em;padding:4px 5px;border-radius:3px;z-index:3;text-transform:uppercase}
+.tile .flag.n{background:#fff;color:#0B1F5E}
+.tile .pv{width:100%;height:100%;object-fit:cover;display:block}
+.art{display:block;width:100%;border-radius:8px}
+.vload{position:absolute;left:0;right:0;bottom:56px;margin:0;text-align:center;color:#fff;font:600 13px var(--ui);text-shadow:0 1px 4px rgba(0,0,0,.7);pointer-events:none}
+.vd{display:block;width:100%;aspect-ratio:9/16;border-radius:8px;background:#000}
+.tile.old{cursor:default}
+.tile.old .pv{filter:saturate(.75) brightness(.85)}
+.tile.old .date{background:rgba(0,0,0,.6);color:#fff;font-weight:600}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:var(--muted);margin:0}
+/* lightbox */
+.lb{position:fixed;inset:0;background:var(--overlay);z-index:20;display:flex;align-items:center;justify-content:center;
+  padding:max(16px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(16px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+.panel{background:var(--surface);border-radius:12px;overflow:hidden;display:grid;grid-template-columns:minmax(0,1fr) 420px;width:min(1080px,100%);max-height:100%}
+.media{position:relative;background:#0b0b0b;display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:0;padding:18px;gap:10px}
+.stage{width:min(100%,52vh);position:relative}
+.stage.reel{width:min(100%,40vh)}
+.vp{overflow:hidden;border-radius:8px}
+.track{display:flex;transition:transform .35s ease}
+.track>.card{flex:0 0 100%}
+.nav{position:absolute;top:50%;transform:translateY(-50%);width:34px;height:34px;border-radius:50%;border:0;background:rgba(255,255,255,.92);color:#0C1014;font-size:20px;cursor:pointer}
+.prev{left:-8px}.next{right:-8px}
+.pd{display:flex;justify-content:center;gap:5px;flex-wrap:wrap}
+.pd i{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.35)} .pd i.on{background:#fff}
+.mode{display:flex;gap:6px;background:rgba(255,255,255,.12);padding:4px;border-radius:999px}
+.mode button{border:0;background:transparent;color:#ddd;font:700 12px var(--ui);padding:7px 12px;border-radius:999px;cursor:pointer}
+.mode button[aria-pressed="true"]{background:#fff;color:#0B1F5E}
+.info{display:flex;flex-direction:column;min-width:0;max-height:88vh}
+.head{display:flex;align-items:center;gap:10px;padding:12px 14px;border-bottom:1px solid var(--line)}
+.head .mini{width:32px;height:32px;border-radius:50%;background:#0538A0;display:flex;align-items:center;justify-content:center;flex:none}
+.head .mini .lm{width:46%}
+.head b{font-weight:600}
+.head small{display:block;color:var(--muted);font-size:12px}
+.close{margin-left:auto;border:0;background:var(--chip);color:var(--fg);width:32px;height:32px;border-radius:50%;font-size:16px;cursor:pointer;flex:none}
+.body{overflow-y:auto;padding:14px;display:flex;flex-direction:column;gap:12px}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font:700 10.5px var(--ui);letter-spacing:.04em;text-transform:uppercase;padding:4px 8px;border-radius:4px;background:var(--chip);color:var(--fg)}
+.tag.w{background:var(--warm);color:#fff}
+.tag.a{background:var(--accent);color:#fff}
+.box{background:var(--accent-soft);border-radius:10px;padding:10px 12px;font-size:13.5px;white-space:pre-line}
+.box.w{background:var(--warm-soft)}
+.lab{display:block;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:4px;font-weight:700}
+.box.w .lab{color:var(--warm)}
+.cap{white-space:pre-line;margin:0}
+.st{display:flex;flex-direction:column;gap:6px;margin:0;padding:0;list-style:none}
+.st li{font-size:13px;padding-left:28px;position:relative}
+.st li::before{content:attr(data-n);position:absolute;left:0;top:0;font:700 11px var(--ui);color:var(--muted)}
+.scr{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px;font-size:13px}
+@media (max-width:780px){.panel{grid-template-columns:1fr;overflow-y:auto}.info{max-height:none}.stage{width:min(100%,46vh)}.stage.reel{width:min(100%,34vh)}}
+@media (max-width:420px){.ring{width:84px;height:84px}.profile{gap:12px 16px}.stats{gap:12px}}
+@media (prefers-reduced-motion:reduce){.track{transition:none}}
+/* analysis */
+.an{display:flex;flex-direction:column;gap:22px}
+.an h2{font:800 22px/1.15 var(--brand);margin:0;text-wrap:balance;letter-spacing:-.01em}
+.an h3{font:800 16px/1.2 var(--brand);margin:0 0 8px}
+.an p{margin:0;max-width:65ch}
+.an .eyebrow{font:700 11px var(--ui);letter-spacing:.12em;text-transform:uppercase;color:var(--warm);margin-bottom:6px}
+.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+@media (max-width:560px){.two{grid-template-columns:1fr}}
+.pane{border:1px solid var(--line);border-radius:12px;padding:14px;min-width:0}
+.pane ul{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:7px}
+.pane.good h3{color:var(--accent)} .pane.bad h3{color:var(--warm)}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:12px}
+table{border-collapse:collapse;width:100%;font-size:13px;min-width:520px}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+tr:last-child td{border-bottom:0}
+td.d{font-variant-numeric:tabular-nums;font-weight:700;white-space:nowrap}
+.pill{display:inline-block;font:700 10px var(--ui);padding:3px 7px;border-radius:999px;background:var(--chip);white-space:nowrap}
+.pill.q{background:var(--accent-soft);color:var(--accent)} .pill.s{background:var(--warm-soft);color:var(--warm)}
+.ideas{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+@media (max-width:560px){.ideas{grid-template-columns:1fr}}
+.idea{background:var(--chip);border-radius:10px;padding:12px;min-width:0}
+.idea b{display:block;margin-bottom:3px}
+.idea span{font-size:12.5px;color:var(--muted)}
+.idea em{font-style:normal;font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--warm);display:block;margin-bottom:4px}
+
+[hidden]{display:none!important}
+/* ===== Post cards: Strategia layout (fixed brand colors; they are the post images) ===== */
+.card{position:relative;container-type:inline-size;aspect-ratio:4/5;width:100%;max-width:100%;overflow:hidden;background:#0E1728;color:#fff;font-family:"Overpass",system-ui,sans-serif}
+.card.r916{aspect-ratio:9/16}
+.card p{margin:0}
+.card .dest{background:#EA2F06;color:#fff;padding:0 .18em .02em;border-radius:.1em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.card .logo{position:absolute;left:5.5cqw;bottom:5cqw;width:24cqw;height:auto;display:block;z-index:3}
+/* photo area */
+.card .pic{position:absolute;left:0;top:0;width:100%;height:72%;object-fit:cover;object-position:center 20%}
+.card.cel.band .pic{height:74%;object-position:center top}
+.card.cel.band .bluefade{top:44%;background:linear-gradient(180deg,rgba(9,26,78,0) 0%,rgba(9,26,78,.35) 22%,rgba(9,26,78,.7) 42%,rgba(9,26,78,.92) 60%,#091A4E 76%)}
+.card.low .tx{bottom:14cqw;gap:2cqw}
+.card.band.low .fade{top:66%}
+.card.tall.low .h,.card.tall.low .b{text-shadow:0 .3cqw 2.4cqw rgba(8,14,30,.55)}
+.card.tall.low .fade{top:58%;background:linear-gradient(180deg,rgba(14,23,40,0) 0%,rgba(14,23,40,.55) 25%,rgba(14,23,40,.9) 50%,#0E1728 75%)}
+.card.fit .pic{height:auto;aspect-ratio:1080/862;object-position:center top}
+.card.fit .fade{top:36%;background:linear-gradient(180deg,rgba(14,23,40,0) 0%,rgba(14,23,40,.45) 22%,rgba(14,23,40,.85) 36%,#0E1728 42%)}
+.card.fit .tx{bottom:14cqw}
+.card.fit .h,.card.fit .b{text-shadow:0 .3cqw 2.4cqw rgba(8,14,30,.55)}
+.card.band .pic{height:74%;object-position:center top}
+.card.band .fade{top:62%;background:linear-gradient(180deg,rgba(14,23,40,0) 0%,rgba(14,23,40,.85) 12%,#0E1728 20%)}
+.card.tall .pic{height:100%;object-position:center top}
+.card.tall .fade{top:50%;background:linear-gradient(180deg,rgba(14,23,40,0) 0%,rgba(14,23,40,.6) 30%,rgba(14,23,40,.9) 55%,#0E1728 80%)}
+.card .pic.full{height:auto;aspect-ratio:1080/700;object-position:center top}
+.card .pic.ph{background:radial-gradient(90% 70% at 70% 25%,#6E86B8 0%,#33497A 45%,#16234A 100%)}
+.card .pic.ph span{position:absolute;left:5cqw;top:5cqw;right:5cqw;font:600 3cqw/1.3 var(--ui);color:rgba(255,255,255,.9);background:rgba(0,0,0,.28);padding:1.4cqw 2.2cqw;border-radius:1.4cqw;display:inline-block;width:auto}
+.card .fade{position:absolute;left:0;right:0;top:38%;bottom:0;background:linear-gradient(180deg,rgba(14,23,40,0) 0%,rgba(14,23,40,.55) 30%,rgba(14,23,40,.92) 52%,#0E1728 66%)}
+.card .bluefade{position:absolute;left:0;right:0;top:30%;bottom:0;background:linear-gradient(180deg,rgba(11,31,94,0) 0%,rgba(10,30,90,.6) 35%,rgba(9,26,78,.94) 58%,#091A4E 72%)}
+.card .tx{position:absolute;left:5.5cqw;right:6cqw;bottom:17cqw;display:flex;flex-direction:column;gap:2.6cqw;z-index:2}
+.card .k{font:700 3cqw/1 var(--ui);letter-spacing:.12em;text-transform:uppercase;color:#8FB0FF}
+.card .h{font-weight:800;font-size:6.4cqw;line-height:1.42;letter-spacing:-.005em;text-wrap:balance}
+.card .h.xl{font-size:8.6cqw}
+.card .b{font-weight:500;font-size:3.9cqw;line-height:1.36;color:#E6ECFA}
+.card .b.sm{font-size:3.25cqw;line-height:1.4}
+.card .arrow{position:absolute;right:5cqw;bottom:6cqw;font:700 6cqw/1 var(--ui);color:#fff;z-index:3}
+/* text-only cards: deep blue with soft blur glow */
+.card.t{background:
+  radial-gradient(60% 45% at 92% 8%,rgba(46,98,255,.55),transparent 70%),
+  radial-gradient(70% 50% at 0% 100%,rgba(23,70,200,.55),transparent 70%),
+  linear-gradient(165deg,#0B1F5E 0%,#0A1840 55%,#0E1728 100%)}
+.card.t .tx{top:12cqw;bottom:auto;gap:3cqw}
+.card .numb{display:flex;align-items:center;gap:3cqw}
+.card .numb i{font-style:normal;font:900 13cqw/1 "Overpass",sans-serif;color:#fff;position:relative;padding-left:3cqw}
+.card .numb i::before{content:"";position:absolute;left:0;top:8%;width:10.5cqw;height:10.5cqw;background:#2563EB;z-index:-1}
+.card .numb{position:relative;z-index:0}
+.card .alert{margin-top:1.4cqw;border-left:1cqw solid #EA2F06;padding:1.6cqw 0 1.6cqw 3cqw;background:rgba(255,255,255,.06)}
+.card .alert b{display:block;font:800 2.9cqw/1 var(--ui);letter-spacing:.1em;text-transform:uppercase;color:#FF9A70;margin-bottom:1.4cqw}
+.card .alert p{font:600 3.5cqw/1.38 "Overpass",sans-serif;color:#fff}
+.card .ctaline{font-weight:800;font-size:4.2cqw;line-height:1.3}
+.card .ctaline span{background:#EA2F06;padding:0 .18em .02em;border-radius:.1em}
+/* reels cover (9:16) in the brand's video-cover style */
+.card.rv .pic{height:100%}
+.card.rv .fade{top:45%;background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.55) 60%,rgba(0,0,0,.75))}
+.card.rv .stack{position:absolute;left:6%;right:6%;bottom:19%;display:flex;flex-direction:column;align-items:center;text-align:center;z-index:2}
+.card.rv .o{background:#EA2F06;font:700 9.5cqw/1.08 "Oswald",sans-serif;text-transform:uppercase;padding:1.2cqw 4cqw;transform:translateX(-4%)}
+.card.rv .n{background:#0B2459;font:700 9.5cqw/1.08 "Oswald",sans-serif;text-transform:uppercase;padding:1.2cqw 4cqw;transform:translateX(3%)}
+.card.rv .s{font:400 17cqw/.9 "Sacramento",cursive;color:#fff;text-shadow:0 0 2cqw rgba(255,255,255,.9),0 0 5cqw rgba(140,180,255,.6);margin-top:-3.5cqw}
+.card.rv .logo{top:17%;left:auto;right:3%;bottom:auto;width:28cqw}
+.card .play{position:absolute;left:50%;top:38%;transform:translate(-50%,-50%);width:16cqw;height:16cqw;border-radius:50%;background:rgba(255,255,255,.18);border:.6cqw solid rgba(255,255,255,.85);z-index:2}
+.card .play::after{content:"";position:absolute;left:38%;top:28%;border-left:5.8cqw solid #fff;border-top:3.8cqw solid transparent;border-bottom:3.8cqw solid transparent}
+/* celebration (Natal / Ano Novo), elegant like the Dia do Síndico post */
+.card.cel .pic{height:100%;object-position:center top}
+.card.cel .bluefade{top:55%;background:linear-gradient(180deg,rgba(11,31,94,0) 0%,rgba(10,30,90,.65) 30%,rgba(9,26,78,.94) 60%,#091A4E 80%)}
+.card.cel .tx{bottom:15cqw;left:7cqw;right:7cqw;align-items:center;text-align:center;gap:1.6cqw}
+.card.cel .sm1{font:italic 500 8.5cqw/1 "Cormorant Garamond",Georgia,serif;letter-spacing:.02em;color:#F4F1FF;margin-bottom:1cqw;position:relative;z-index:1}
+.card.cel .big{position:relative;font:400 25cqw/1 "Great Vibes","Pinyon Script",cursive;color:#fff;text-shadow:0 0 1.5cqw rgba(255,226,170,.75),0 0 5cqw rgba(255,200,120,.35);padding:0 4cqw;white-space:nowrap}
+.card.cel .big.long{font-size:20cqw}
+.card.cel .flo{width:62cqw;height:auto;display:block;margin-top:-3cqw;color:#F3D9A4;opacity:.9}
+.card.cel .spk{position:absolute;color:#FFE7B8;text-shadow:0 0 1.6cqw rgba(255,220,150,.9);font-size:4cqw;line-height:1}
+.card.cel .spk.s1{left:-1cqw;top:12%;font-size:5cqw}.card.cel .spk.s2{right:0;top:2%;font-size:3.4cqw}.card.cel .spk.s3{right:-2cqw;bottom:16%;font-size:4.4cqw}.card.cel .spk.s4{left:7cqw;bottom:6%;font-size:2.6cqw}
+.card.cel .b{text-align:center;max-width:72cqw;font-size:3.7cqw}
+
+
+
+.card.rv .o{transform:translateX(-3%);padding:1.2cqw 5cqw}
+.card.rv .n{transform:none;padding:1.2cqw 8cqw}
+.card.rv .s{margin-top:-1.5cqw;margin-left:0}
+.card.cel .logo{left:auto;right:5.5cqw}
+.tile .card{width:106.67%;flex:none}
+
+/* aprovação */
+.fb{border-top:1px solid var(--line);padding-top:12px;display:flex;flex-direction:column;gap:8px}
+.fbbtns{display:flex;gap:8px;flex-wrap:wrap}
+.fbbtn{flex:1;min-width:120px;border:0;border-radius:10px;padding:11px 14px;font:700 14px var(--ui);cursor:pointer}
+.fbbtn.ok{background:#1D7A46;color:#fff}
+.fbbtn.adj{background:var(--warm);color:#fff}
+.fbbtn.ghost{background:var(--chip);color:var(--fg)}
+.fbbtn:disabled{opacity:.6;cursor:wait}
+.fbbtn:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.fb textarea{width:100%;border:1px solid var(--line);border-radius:10px;padding:10px;font:14px/1.4 var(--ui);background:var(--surface);color:var(--fg);resize:vertical}
+.fbs{margin:0;font-weight:700;font-size:13.5px}
+.fbs.ok{color:#1D7A46}.fbs.adj{color:var(--warm)}.fbs.muted{color:var(--muted);font-weight:500}
+.fbn{margin:0;font-size:13.5px;white-space:pre-line;background:var(--warm-soft);border-radius:8px;padding:8px 10px}
+.tile .fbb{position:absolute;right:5px;bottom:5px;z-index:3;font:700 10px var(--ui);padding:3px 6px;border-radius:4px;color:#fff}
+.tile .fbb.ok{background:#1D7A46}.tile .fbb.adj{background:#EA2F06}
+
+/* Natal: texto à esquerda sobre a calçada, árvore livre */
+.card.nat .pic{height:100%;object-position:center top}
+.card.nat .natfade{position:absolute;left:0;right:0;top:56%;bottom:0;background:linear-gradient(180deg,rgba(8,16,40,0) 0%,rgba(8,16,40,.55) 35%,rgba(8,16,40,.85) 100%)}
+.card.nat .tx{left:6cqw;right:30cqw;bottom:5cqw;gap:1.2cqw;align-items:flex-start;text-align:left}
+.card.nat .ns{font:600 3.6cqw/1 "Cormorant Garamond",Georgia,serif;letter-spacing:.42em;text-transform:uppercase;color:#F3D9A4;margin-bottom:4.5cqw;position:relative;z-index:1}
+.card.nat .nb{font:400 22cqw/.9 "Great Vibes","Pinyon Script",cursive;color:#F7E3B5;text-shadow:0 0 1.2cqw rgba(255,214,140,.55),0 0 4cqw rgba(255,190,100,.3);margin:0 0 0 -1cqw}
+.card.nat .nl{display:block;width:22cqw;height:.35cqw;background:linear-gradient(90deg,#F3D9A4,rgba(243,217,164,0));margin:1.6cqw 0 1cqw}
+.card.nat .b{font-size:3.5cqw;max-width:60cqw;color:#F2F4FA}
+.card.nat .logo{left:auto;right:5.5cqw;bottom:6cqw}
+.card.rv:not(.r916) .pic{object-position:center 8%}
+.card.rv:not(.r916) .stack{bottom:7%}
+.card.rv:not(.r916) .stack .o,.card.rv:not(.r916) .stack .n{font-size:8.4cqw}
+.card.rv:not(.r916) .stack .s{font-size:15cqw}
+.card.rv.r916 .stack{bottom:24%}
+
+.card.nat .ns{padding:2.2cqw 6cqw 2.2cqw 5cqw;margin-left:-5cqw;background:radial-gradient(ellipse 60% 75% at 42% 50%,rgba(6,12,32,.62) 0%,rgba(6,12,32,.35) 55%,rgba(6,12,32,0) 100%);text-shadow:0 0 1.6cqw rgba(6,12,32,.8)}
+.card.rv .rvlogo{position:absolute;top:13%;right:4%;width:28cqw;z-index:3}
+.card.rv .rvlogo img{display:block;width:100%;height:auto}
+.card.rv:not(.r916) .rvlogo{top:10%;width:24cqw}
+.card.nat .ns{background:radial-gradient(ellipse 58% 70% at 42% 50%,rgba(0,0,0,.32) 0%,rgba(0,0,0,.14) 55%,rgba(0,0,0,0) 100%)!important;text-shadow:0 0 1cqw rgba(0,0,0,.85),0 .2cqw .6cqw rgba(0,0,0,.7)!important;border-radius:50%}
+.card.rv .rvtop{position:absolute;left:0;right:0;top:0;height:38%;z-index:2;background:linear-gradient(180deg,rgba(0,0,0,.38) 0%,rgba(0,0,0,.24) 45%,rgba(0,0,0,0) 100%);-webkit-backdrop-filter:blur(1.5px);backdrop-filter:blur(1.5px);-webkit-mask-image:linear-gradient(180deg,#000 55%,transparent);mask-image:linear-gradient(180deg,#000 55%,transparent)}
+.card.rv .rvlogo{display:flex;align-items:center;gap:1.8cqw;width:auto!important;right:5%!important}
+.card.rv .rvlogo img{width:8.5cqw!important;height:8.5cqw!important}
+.card.rv .rvlogo span{display:flex;flex-direction:column;line-height:1;color:#fff;text-shadow:0 .2cqw 1cqw rgba(0,0,0,.55)}
+.card.rv .rvlogo b{font:800 5.6cqw/1 "Overpass",sans-serif;letter-spacing:-.01em}
+.card.rv .rvlogo i{font:700 1.9cqw/1 "Overpass",sans-serif;font-style:normal;letter-spacing:.06em;margin-top:.7cqw}
+.card.rv:not(.r916) .rvlogo img{width:7cqw!important;height:7cqw!important}
+.card.rv:not(.r916) .rvlogo b{font-size:4.6cqw}
+.card.rv:not(.r916) .rvlogo i{font-size:1.6cqw}
+.card.nat .nb{font-size:17cqw!important;white-space:nowrap;margin:0!important}
+.card.nat .nb .nf{font-size:.82em}
+.card.rv .rvlogo2{position:absolute;top:13%;right:5%;width:34cqw;height:auto;z-index:3}
+.card.rv:not(.r916) .rvlogo2{top:10%;width:30cqw}
+
+/* layout idêntico em qualquer tela: sem auto-ajuste de fonte do celular */
+html{-webkit-text-size-adjust:100%!important;text-size-adjust:100%!important}
+.card,.card *{-webkit-text-size-adjust:none!important;text-size-adjust:none!important;max-height:none}
+.card .h,.card .b,.card .k,.card .ctaline,.card .alert p{text-wrap:wrap!important;overflow-wrap:normal;word-break:normal;hyphens:none}
+.card .dest{white-space:nowrap}
+.card .h.split .dest{white-space:normal}
+.tile .card{text-align:left}
+.tile .card.cel,.tile .card.rv .stack{text-align:center}
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="lm" viewBox="0 0 40 40"><path d="M10 18a10 10 0 0 1 20 0h-5a5 5 0 0 0-10 0z" fill="#E8521A"/><rect x="11" y="21" width="18" height="4" fill="#3E7BFF"/><rect x="9" y="27" width="22" height="4" fill="#3E7BFF"/><rect x="7" y="33" width="26" height="4" fill="#3E7BFF"/></symbol></svg>
+
+<div class="wrap">
+  <p class="note"><b>Dezembro da Strategia em formato de feed.</b> São 10 posts, de 02/12 a 01/01, às quartas e sextas. Toque em cada post para ver as telas (nos carrosséis, deslize ou use as setas) e a legenda. Onde aparece 📷, a imagem final ainda está em produção. O quadrado tracejado é uma sugestão de vídeo para a equipe da Strategia gravar; se não for possível, seguimos com o plano B. Abaixo de cada legenda, marque <b>Aprovado</b> ou <b>Ajuste</b> e descreva o que quer mudar. As fileiras de baixo mostram os posts de novembro.</p>
+  <section class="profile" aria-label="Perfil">
+    <div class="ring"><div class="av"><svg class="lm"><use href="#lm"/></svg><small>strategia</small></div></div>
+    <div>
+      <div class="top"><h1>strategiasindicos</h1><span aria-hidden="true">···</span></div>
+      <div class="name">Strategia Síndicos Profissionais</div>
+      <div class="stats"><span><b id="np">146</b> posts</span><span><b>750</b> seguidores</span><span><b>259</b> seguindo</span></div>
+    </div>
+    <p class="bio">Gestão condominial com profissionalismo, empatia e transparência. Síndicos profissionais em Porto Alegre. Soluções… <span style="color:var(--muted)">mais</span><br><span class="lk">🔗 linktr.ee/strategia.sindicos</span></p>
+    <div class="btns" aria-hidden="true"><span class="f">Seguir</span><span>Enviar mensagem</span></div>
+  </section>
+  <div class="hl" aria-hidden="true">
+    <div><i>🏢</i>Eventos</div><div><i>🎓</i>Treinamentos</div><div><i>📊</i>Resultados</div><div><i>ℹ️</i>Quem somos</div><div><i>👆</i>Agendamentos</div><div><i>👥</i>Nosso time</div>
+  </div>
+  <div class="tabs" aria-hidden="true">
+    <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18"/><path d="M9 3v18M15 3v18M3 9h18M3 15h18"/></svg></span>
+    <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M10 9l5 3-5 3z"/></svg></span>
+    <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h13l-3-3M20 17H7l3 3"/></svg></span>
+    <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="12" cy="10" r="3"/><path d="M6 19c1.5-3 10.5-3 12 0"/></svg></span>
+  </div>
+  <div class="grid" id="grid"></div>
+  <p class="legend"><span>❐ Carrossel</span><span>▶ Vídeo</span><span>Tracejado: sugestão de vídeo com plano B</span><span>Novembro: posts do mês anterior</span></p>
+</div>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Post">
+  <div class="panel">
+    <div class="media" id="media"></div>
+    <div class="info">
+      <div class="head"><span class="mini"><svg class="lm"><use href="#lm"/></svg></span><div><b>strategiasindicos</b><small id="meta"></small></div><button class="close" id="close" aria-label="Fechar">✕</button></div>
+      <div class="body" id="info"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+const POSTS=[
+{date:'02/12',dow:'Qua',fmt:'Carrossel',trig:'SÍNDICO',theme:'Insatisfeito com o síndico? Dá para chamar a Strategia agora',
+ slides:[
+  {t:'photo',img:'team11.jpg',fs:5.9,h:'Insatisfeito com a atual\n*gestão do seu condomínio?*',b:'Você não precisa esperar a assembleia para conversar com a Strategia.',arrow:true},
+  {t:'txt',n:'1',h:'Dá para conversar *mesmo em dezembro.*',b:'A conversa pode começar em qualquer época do ano. Ouvimos o conselho e os moradores para entender a realidade do condomínio: número de unidades, rotina, pendências e o que precisa melhorar.'},
+  {t:'txt',n:'2',h:'Uma proposta *sob medida.*',b:'Analisamos finanças, contratos, manutenção, documentação e convivência. Com isso, montamos uma proposta pensada para as necessidades do seu condomínio.'},
+  {t:'txt',n:'3',h:'Prontos para a\n*próxima assembleia.*',b:'Quando a assembleia for convocada, a Strategia já conhece o condomínio e chega preparada para apresentar a proposta e esclarecer as dúvidas dos condôminos.'},
+  {t:'txt',n:'4',h:'E quando o problema *é grave?*',b:'O Código Civil prevê que a assembleia pode destituir o síndico que pratica irregularidades, não presta contas ou não administra o condomínio de forma conveniente (art. 1.349).\n\nEssa assembleia pode ser convocada por 1/4 dos condôminos (art. 1.355).'},
+  {t:'txt',h:'Quem decide é *sempre a assembleia.*',b:'O nosso papel é trazer informação clara para que os condôminos escolham com segurança.'},
+  {t:'photo',img:'team11.jpg',h:'Vamos conversar sobre *o seu condomínio?*',b:'Comente SÍNDICO e receba as informações pelo direct.'}],
+ caption:`Não está satisfeito com a gestão do seu condomínio? Você não precisa esperar a época de assembleia para conversar com a Strategia.
+
+A conversa pode começar em qualquer época do ano, inclusive em dezembro. A gente ouve o conselho e os moradores, entende a realidade do condomínio e prepara uma proposta sob medida.
+
+Assim, quando a próxima assembleia for convocada, a Strategia já conhece o condomínio e chega preparada para apresentar a proposta e esclarecer as dúvidas dos condôminos.
+
+Em situações mais graves, o Código Civil prevê que a assembleia pode destituir o síndico que pratica irregularidades, não presta contas ou não administra o condomínio de forma conveniente (art. 1.349). Essa assembleia pode ser convocada por 1/4 dos condôminos (art. 1.355).
+
+Em qualquer caso, quem decide é sempre a assembleia. O nosso papel é trazer clareza para que os condôminos escolham com segurança.
+
+Quer conversar sobre o seu condomínio? Comente SÍNDICO. Nossa equipe vai te atender pelo direct. Se preferir, acesse o link da bio.`},
+
+{date:'04/12',dow:'Sex',fmt:'Estático',trig:'SÍNDICO',theme:'Festa no salão e barulho no fim de ano',
+ slides:[{t:'photo',img:'salao.jpg',tall:true,h:'Festa no salão e\nsom alto no fim de ano:\n*até que horas pode?*',b:'Explicação na legenda.'}],
+ caption:`Dezembro é mês de confraternização. E também de dúvidas sobre barulho no condomínio.
+
+Primeiro, um esclarecimento: não existe uma única “lei do silêncio” nacional que libere barulho até as 22h. Na prática, valem as regras abaixo.
+
+→ O Código Civil determina que o condômino não pode usar a sua unidade de forma prejudicial ao sossego, à salubridade e à segurança dos vizinhos (art. 1.336, IV). Isso vale a qualquer hora, não só à noite.
+
+→ Os horários do salão de festas e de silêncio são definidos na convenção e no regimento interno de cada condomínio.
+
+→ Quem descumpre pode receber a multa prevista na convenção, de até cinco vezes o valor da cota condominial (art. 1.336, §2º). Em casos de comportamento antissocial repetido, a multa pode chegar a dez vezes a cota (art. 1.337, parágrafo único).
+
+→ A perturbação do sossego também está prevista na Lei de Contravenções Penais (art. 42).
+
+→ Em Porto Alegre, a fiscalização de ruído da Prefeitura (156) atende atividades comerciais. Festas particulares entre vizinhos entram no direito de vizinhança: o caminho é o síndico, o regimento interno e, se necessário, o Juizado Especial Cível.
+
+Dicas para uma festa sem conflito:
+• Reserve o salão com antecedência e confira as regras de uso.
+• Respeite o horário e a capacidade do espaço.
+• Avise os vizinhos mais próximos.
+• Lembre que quem reserva responde pelos convidados e por eventuais danos.
+
+As regras podem variar conforme a convenção, o regimento interno e as decisões da assembleia de cada condomínio.
+
+Quer regras claras e uma convivência mais tranquila no seu condomínio? Comente SÍNDICO. Nossa equipe vai te atender pelo direct. Se preferir, acesse o link da bio.`},
+
+{date:'09/12',dow:'Qua',fmt:'Carrossel',trig:'SÍNDICO',theme:'Obrigações do condomínio para o próximo ano',
+ slides:[
+  {t:'photo',img:'mari7.jpg',tall:true,low:true,split:true,h:'O seu condomínio está em dia com *as obrigações do próximo ano?*',b:'Confira item por item.',arrow:true},
+  {t:'txt',k:'PPCI',h:'Prevenção e proteção *contra incêndio*',sm:true,b:'É o plano aprovado pelo Corpo de Bombeiros que garante o alvará do condomínio (APPCI), exigido no RS pela Lei Kiss. Inclui extintores, iluminação de emergência, sinalização e saídas em dia. O alvará precisa ser renovado antes do vencimento.',alert:'No seu condomínio, alguém sabe dizer a data de validade do alvará?'},
+  {t:'txt',k:'LTIP',h:'Laudo Técnico de *Inspeção Predial*',sm:true,b:'Vistoria feita por engenheiro ou arquiteto que avalia estrutura, revestimentos, instalações e cobertura. Em Porto Alegre, é exigido para prédios com mais de 5 anos da Carta de Habitação.',alert:'O laudo do seu condomínio já foi feito? E as recomendações saíram do papel ou ficaram na gaveta?'},
+  {t:'txt',k:'Marquises e sacadas',h:'Laudo de marquises, *sacadas e fachada*',sm:true,b:'Avaliação técnica dos elementos que podem cair sobre a calçada ou as áreas comuns. Deve ser feita por profissional habilitado, com o reparo do que for apontado.',alert:'Quando foi a última avaliação? Tem reboco soltando, ferragem aparente ou infiltração no prédio, sem nenhum plano de reparo em pauta?'},
+  {t:'txt',k:'Revitalização predial',h:'Prédio bem cuidado *se valoriza*',sm:true,b:'Pintura de fachada, impermeabilização e renovação das áreas comuns. A pintura de fachada costuma ser refeita, em média, a cada 5 anos. O síndico também é um gestor de patrimônio: planejar a conservação valoriza o imóvel de cada proprietário.',alert:'Existe algum plano de revitalização no seu condomínio, ou a gestão só aparece quando surge um problema?'},
+  {t:'txt',k:'Seguro',h:'Seguro *obrigatório* da edificação',sm:true,b:'O Código Civil (art. 1.346) obriga o seguro de toda a edificação contra incêndio ou destruição. A apólice precisa ser renovada e a cobertura, revisada. Coberturas, valores e condições devem estar claros e acessíveis a todos os condôminos.',alert:'Você sabe o que o seguro do seu condomínio cobre e quanto ele custa?'},
+  {t:'txt',k:'Finanças',h:'Fundo de reserva e *previsão orçamentária*',sm:true,b:'O fundo de reserva é previsto na convenção para cobrir emergências. A previsão orçamentária é aprovada todo ano em assembleia (Código Civil, art. 1.350).',alert:'Você sabe quanto tem no fundo de reserva? E para que ele foi usado neste ano?'},
+  {t:'photo',img:'mari7.jpg',tall:true,low:true,h:'Conseguiu responder a *todas essas perguntas?*',b:'Se ficou em dúvida, talvez esteja faltando clareza na gestão do seu condomínio.'},
+  {t:'txt',h:'Mais clareza e agilidade *no seu condomínio.*',b:'A Strategia Síndicos atua há mais de 11 anos em Porto Alegre e região, em condomínios residenciais e comerciais.',ctaline:'Comente *SÍNDICO* e receba todas as informações no seu direct para fazer um orçamento gratuito para o seu condomínio.',b2:'Se preferir, fale conosco pelo link da bio.'}],
+ caption:`Antes de o ano virar, vale fazer uma pergunta: o seu condomínio está em dia com as obrigações?
+
+No carrossel, explicamos o que é cada uma e deixamos uma pergunta para você refletir:
+
+→ PPCI e alvará do Corpo de Bombeiros.
+→ LTIP, o Laudo Técnico de Inspeção Predial.
+→ Laudo de marquises, sacadas e fachada.
+→ Revitalização predial, que valoriza o imóvel com o tempo.
+→ Seguro obrigatório da edificação, com coberturas e valores claros para todos.
+→ Fundo de reserva e previsão orçamentária.
+
+Se você não soube responder a alguma dessas perguntas, não se preocupe: isso é mais comum do que parece. Mas é um sinal de que falta clareza na gestão.
+
+Prazos e exigências podem variar conforme o tipo e a idade da edificação, a convenção e a legislação aplicável.
+
+Quer mais clareza e agilidade no seu condomínio? A Strategia Síndicos atua há mais de 11 anos em Porto Alegre e região, em condomínios residenciais e comerciais.
+
+Comente SÍNDICO. Nossa equipe vai te atender pelo direct. Se preferir, acesse o link da bio.`},
+
+{date:'11/12',dow:'Sex',fmt:'Vídeo sugerido',sug:true,trig:'',tag:'Bastidores',theme:'Um dia com a síndica da Strategia',
+ slides:[{t:'reel',img:'marcella_rv.jpg',o:'Um dia de',n:'síndica na',s:'Strategia'}],
+ video:{who:'Uma das síndicas da Strategia (Vanusa, Marcella ou Mari) filma a própria rotina com o celular na vertical, em clipes curtos ao longo do dia.',dur:'60 a 90 segundos',screen:'Texto na tela com o horário de cada momento, por exemplo: “8h · vistoria”, “12h · almoço”, “16h · assembleia”.',
+  script:['Abertura: “Vem comigo num dia de síndica da Strategia.”','8h: vistoria nas áreas comuns de um condomínio (garagem, casa de máquinas, reservatórios).','Conversa rápida com o zelador sobre as demandas da semana.','Acompanhando uma obra: “Vim ver se a pintura da fachada está ficando como combinado.”','No escritório: comparando orçamentos e conversando com fornecedores.','Pausa para o almoço.','“Agora estamos indo visitar outro condomínio.”','Conferindo as contas e o fundo de reserva para a prestação de contas.','Organizando a pauta e os documentos de uma assembleia.','Respondendo o conselho no WhatsApp para resolver uma situação entre moradores.','Fecho: “E esse foi um exemplo de um dos nossos dias cuidando da nossa carteira de condomínios. Cada dia é único: tem dias mais corridos e dias mais leves, porque a rotina do síndico é bem diferente de uma rotina convencional. Ficou com alguma dúvida sobre a rotina do síndico? Deixa aqui nos comentários, que a gente vai produzir mais conteúdo para deixar tudo mais claro para vocês.”']},
+ caption:`Vem com a gente num dia de síndica da Strategia. 🏢
+
+Vistoria nas áreas comuns, acompanhamento de obra, orçamentos, conversa com fornecedores, visita a outro condomínio, prestação de contas, preparação de assembleia e retorno ao conselho. Tudo no mesmo dia.
+
+Esse foi um exemplo de um dos nossos dias cuidando da nossa carteira de condomínios. Cada dia é único: tem dias mais corridos e dias mais leves, porque a rotina do síndico é bem diferente de uma rotina convencional.
+
+Ficou com alguma dúvida sobre a rotina do síndico? Deixe aqui nos comentários. A gente vai produzir mais conteúdo para deixar tudo mais claro para vocês. 💙`,
+ note:'Equipe Strategia: definam quem vai gravar (Vanusa, Marcella ou Mari). Se não for possível gravar, seguimos com o plano B.',
+ planB:{fmt:'Estático',slides:[{t:'photo',img:'marcella2.jpg',tall:true,h:'Como é o dia a dia de\n*uma síndica profissional?*',b:'Explicação na legenda.'}],
+  caption:`Muita gente imagina que o trabalho do síndico é só resolver reclamação. Mas a rotina vai muito além. E nenhum dia é igual ao outro.
+
+Alguns exemplos do que fazemos na nossa rotina:
+
+→ Reuniões e orçamentos com fornecedores.
+→ Preparação de assembleias.
+→ Visitas aos condomínios da nossa carteira.
+→ Vistorias nas áreas comuns.
+→ Acompanhamento de pinturas, obras e reformas.
+→ Conferência das contas e do fundo de reserva.
+→ Prestação de contas ao conselho e aos moradores.
+→ Conversas no WhatsApp para resolver conflitos entre moradores.
+
+Tem dias mais corridos e dias mais leves, porque a rotina do síndico é bem diferente de uma rotina convencional. É um trabalho que muitas vezes não aparece, mas que mantém cada condomínio organizado, seguro e com as contas em dia.
+
+Ficou com alguma dúvida sobre a rotina do síndico? Deixe aqui nos comentários. A gente vai produzir mais conteúdo para deixar tudo mais claro para vocês. 💙`}},
+
+{date:'16/12',dow:'Qua',fmt:'Carrossel',trig:'SÍNDICO',theme:'Como a Strategia faz a gestão de condomínios comerciais',
+ slides:[
+  {t:'photo',img:'comercial.jpg',tall:true,h:'Como a Strategia\nfaz a gestão de\n*condomínios comerciais?*',b:'Arrasta para o lado.',arrow:true},
+  {t:'txt',n:'1',h:'Finanças, manutenção *e legislação.*',b:'Prestação de contas, contratos revisados, manutenção preventiva e análise da rotina do prédio para planejar cada decisão.'},
+  {t:'txt',n:'2',h:'Controle de acesso *e segurança.*',b:'Regras de acesso para clientes, visitantes e entregadores, respeitando o horário de funcionamento. Acompanhamento das câmeras, do cadastro de visitantes e da portaria ou recepção.'},
+  {t:'txt',n:'3',h:'Entregas, mudanças *e obras.*',b:'Horários e locais definidos para carga e descarga, mudanças e obras nas salas, sem atrapalhar quem está trabalhando.'},
+  {t:'txt',n:'4',h:'Elevadores de serviço *e social.*',b:'Regras claras sobre qual elevador usar para mercadorias, mudanças e público, além da manutenção periódica feita por empresa especializada.'},
+  {t:'txt',n:'5',h:'Mediação entre *salas e empresas.*',b:'Obras barulhentas em horário comercial, uso de vagas, letreiros na fachada e áreas comuns. A mediação imparcial evita que a disputa cresça.'},
+  {t:'txt',n:'6',h:'Obrigações *em dia.*',b:'Assim como nos condomínios residenciais, aqui também há PPCI, alvará dos Bombeiros, laudos prediais e seguro. E as exigências costumam ser maiores, porque prédios comerciais recebem grande circulação de pessoas.'},
+  {t:'txt',n:'7',h:'Despesas divididas *com clareza.*',b:'Rateio conforme a convenção e prestação de contas acessível aos proprietários.'},
+  {t:'txt',h:'Administra ou faz parte do conselho de um *condomínio comercial?*',b:'A Strategia Síndicos atua há mais de 11 anos em Porto Alegre e região e está disponível para tirar qualquer dúvida. Se quiser nos conhecer ou fazer um orçamento gratuito:',ctaline:'Comente *SÍNDICO* e receba todas as informações no seu direct.',b2:'Se preferir, fale conosco pelo link da bio.'}],
+ caption:`Condomínio comercial tem uma rotina própria. E precisa de uma gestão preparada para ela.
+
+Veja como a Strategia cuida de um condomínio comercial:
+
+→ Finanças, manutenção e legislação: prestação de contas, contratos revisados, manutenção preventiva e análise da rotina do prédio.
+→ Controle de acesso e segurança: regras para clientes, visitantes e entregadores, câmeras, cadastro de visitantes e portaria ou recepção.
+→ Entregas, mudanças e obras com horários e locais definidos.
+→ Uso dos elevadores de serviço e social bem organizado, com manutenção periódica.
+→ Mediação imparcial entre salas e empresas.
+→ PPCI, alvará dos Bombeiros, laudos e seguro em dia, com exigências que costumam ser maiores por causa da grande circulação de pessoas.
+→ Rateio de despesas conforme a convenção e prestação de contas clara aos proprietários.
+
+A Strategia Síndicos atua há mais de 11 anos em Porto Alegre e região, em condomínios residenciais e comerciais.
+
+Administra ou faz parte do conselho de um condomínio comercial? Comente SÍNDICO. Nossa equipe vai te atender pelo direct. Se preferir, acesse o link da bio.`},
+
+{date:'18/12',dow:'Sex',fmt:'Estático',trig:'',theme:'Vai viajar no fim de ano? Por que avisar o condomínio',
+ slides:[{t:'photo',img:'viagem.jpg',tall:true,fs:5.4,h:'Vai viajar no fim de ano?\n*Por que avisar o condomínio?*',b:'Explicação na legenda.'}],
+ caption:`Na maioria dos condomínios, avisar que vai viajar não é obrigatório. Mas é uma atitude simples que ajuda muito. Veja por quê:
+
+→ Segurança: os funcionários sabem que a unidade está vazia e podem estranhar qualquer movimentação.
+
+→ Emergências: se houver um vazamento, um curto ou um alarme disparando, o condomínio sabe quem acionar. Deixe um contato de emergência e, se possível, uma pessoa de confiança com a chave.
+
+→ Autorizações: fica registrado quem pode entrar no apartamento durante a viagem, como um familiar ou uma diarista.
+
+→ Encomendas: dá para combinar como serão recebidas, para não acumularem na portaria.
+
+Antes de sair, vale também:
+• Fechar o registro de água e de gás.
+• Tirar aparelhos da tomada.
+• Evitar postar a viagem em tempo real nas redes sociais.
+
+Avise pelo canal oficial do condomínio e confira se o regimento interno traz alguma orientação específica.
+
+Salve este post e compartilhe com os vizinhos.`},
+
+{date:'23/12',dow:'Qua',fmt:'Estático',trig:'',theme:'Fogos na virada: o que diz a lei e por que ter cuidado',
+ slides:[{t:'photo',img:'fogos.jpg',band:true,low:true,fs:4.75,h:'Pode *soltar fogos no condomínio*\nnas festas de final de ano?',b:'Explicação na legenda.'}],
+ caption:`Natal e Ano Novo estão chegando, e com eles os fogos de artifício. Mas os fogos com estampido podem ser um pesadelo para muita gente.
+
+No Rio Grande do Sul, a Lei Estadual nº 15.366/2019, atualizada pela Lei nº 16.453/2025, proíbe soltar fogos de artifício com efeito sonoro ruidoso. Continuam permitidos os fogos de vista, sem estampido, e os de baixo ruído previstos na lei.
+
+O barulho dos fogos afeta especialmente:
+→ Idosos.
+→ Bebês e crianças.
+→ Pessoas com autismo (TEA) e outras condições de sensibilidade ao som.
+→ Animais de estimação, que podem se ferir ou fugir de medo.
+
+No condomínio, ainda existem outros riscos: soltar fogos da sacada, da janela ou nas áreas comuns pode causar incêndio e acidentes, e o regimento interno pode proibir essa prática. Danos causados são de responsabilidade de quem soltou.
+
+Algumas dicas para festas tranquilas:
+• Prefira assistir a um show público de fogos.
+• Deixe os pets em um ambiente fechado e acolhedor, nunca sozinhos na sacada.
+• Converse com os vizinhos e respeite quem precisa de silêncio.
+
+Compartilhe com os vizinhos. Festa boa é festa boa para todos. 💙`},
+
+{date:'25/12',dow:'Sex',fmt:'Estático',trig:'',theme:'Feliz Natal',
+ slides:[{t:'natal',img:'natal.jpg',sm1:'Feliz',big:'Natal',b:'Desejamos que o seu lar e o seu condomínio estejam sempre repletos de paz, união e boa convivência.'}],
+ caption:`Hoje é dia de celebrar o que realmente importa: as pessoas.
+
+A equipe da Strategia deseja a você e à sua família um Natal cheio de paz, união e bons encontros. Em casa, com os vizinhos e em cada condomínio que a gente tem o prazer de cuidar.
+
+Obrigado pela confiança ao longo deste ano.
+
+Feliz Natal! 🎄💙`},
+
+{date:'30/12',dow:'Qua',fmt:'Estático',trig:'SÍNDICO',theme:'Piscina no verão: o que o condomínio precisa garantir',
+ slides:[{t:'photo',img:'piscina.jpg',tall:true,h:'Piscina liberada no verão: *o que o condomínio precisa garantir?*',b:'Explicação na legenda.'}],
+ caption:`O verão chegou e a piscina vira o ponto mais disputado do condomínio. Para que ela seja um espaço de lazer, e não de problemas, alguns cuidados são da gestão:
+
+→ Qualidade da água: tratamento e análise periódica, com controle de cloro e pH feito por profissional ou empresa especializada.
+
+→ Manutenção: bombas, filtros e ralos revisados. Ralos de fundo precisam ter proteção contra sucção, um item de segurança importante, principalmente para crianças.
+
+→ Regras de uso: horários, levar ou não visitantes, crianças sempre acompanhadas e proibição de objetos de vidro costumam estar no regimento interno.
+
+→ Sinalização: profundidade indicada e regras visíveis para todos.
+
+Para o morador, a dica é conferir o regimento antes de convidar alguém: muitos condomínios limitam o número de visitantes na piscina.
+
+As regras podem variar conforme a convenção, o regimento interno e as decisões da assembleia de cada condomínio.
+
+Quer uma gestão que cuida da manutenção e da segurança do seu condomínio? Comente SÍNDICO. Nossa equipe vai te atender pelo direct. Se preferir, acesse o link da bio.`},
+
+{date:'01/01',dow:'Sex',fmt:'Estático',trig:'',theme:'Feliz Ano Novo',
+ slides:[{t:'cel',img:'anonovo.jpg',band:true,sm1:'Feliz',big:'Ano Novo',b:'Que o novo ano traga mais tranquilidade, prosperidade, saúde e felicidade, além de boa convivência no seu condomínio.'}],
+ caption:`Um novo ano começa. E, com ele, novas oportunidades de cuidar bem do lugar onde a gente vive e trabalha.
+
+Que o novo ano traga mais tranquilidade, prosperidade, saúde e felicidade, além de boa convivência no seu condomínio.
+
+A equipe da Strategia agradece pela confiança e segue junto com você, com o mesmo cuidado em cada condomínio.
+
+Feliz Ano Novo! 🥂💙`}
+];
+const OLD=[
+ {date:'30/11',img:'art9.jpg'},{date:'27/11',img:'art8.jpg',reel:true},
+ {date:'25/11',img:'art7.jpg'},{date:'20/11',img:'art6.jpg',reel:true},{date:'18/11',img:'art5.jpg'},
+ {date:'13/11',img:'art4.jpg'},{date:'11/11',img:'art3.jpg'},{date:'06/11',img:'art2.jpg',reel:true}
+];
+
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const mk=s=>esc(s).replace(/\*(.+?)\*/g,'<span class="dest">$1</span>').replace(/\n/g,'<br>');
+const LOGO='<img class="logo" src="logo.png" alt="">';
+function pic(s){return s.img?`<img class="pic${s.full?' full':''}" src="${s.img}" alt="">`:`<div class="pic ph"><span>📷 ${esc(s.ph||'Imagem em produção')}</span></div>`}
+function card(s,r){
+  const cls=r?' r916':'';
+  if(s.t==='reel') return `<div class="card rv${cls}">${pic(s)}<div class="fade"></div>${s.img?'':'<div class="play"></div>'}<div class="stack"><span class="o">${esc(s.o)}</span><span class="n">${esc(s.n)}</span><span class="s">${esc(s.s)}</span></div><img class="rvlogo2" src="logo_azul.png" alt=""></div>`;
+  if(s.t==='natal') return `<div class="card nat${cls}">${pic(s)}<div class="natfade"></div><div class="tx"><p class="nb"><span class="nf">${esc(s.sm1)}</span> ${esc(s.big)}</p><span class="nl"></span><p class="b">${mk(s.b)}</p></div>${LOGO}</div>`;
+  if(s.t==='cel') return `<div class="card cel${cls}${s.band?' band':''}">${pic(s)}<div class="bluefade"></div><div class="tx"><p class="sm1">${esc(s.sm1)}</p><p class="big${s.big.length>6?' long':''}">${esc(s.big)}<span class="spk s1">✦</span><span class="spk s2">✦</span><span class="spk s3">✦</span><span class="spk s4">✦</span></p><svg class="flo" viewBox="0 0 240 24" fill="none" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"><path d="M120 6 L127 12 L120 18 L113 12 Z" fill="currentColor"/><path d="M109 12 H70 C58 12 52 4 44 6 C36 8 38 18 46 17 C52 16 51 10 46 10"/><path d="M131 12 H170 C182 12 188 4 196 6 C204 8 202 18 194 17 C188 16 189 10 194 10"/><path d="M70 12 C60 13 30 14 6 12"/><path d="M170 12 C180 13 210 14 234 12"/><circle cx="100" cy="12" r="1.3" fill="currentColor"/><circle cx="140" cy="12" r="1.3" fill="currentColor"/></svg><p class="b">${mk(s.b)}</p></div>${LOGO}</div>`;
+  const body=`${s.k?`<p class="k">${esc(s.k)}</p>`:''}${s.n?`<div class="numb"><i>${esc(s.n)}</i></div>`:''}<p class="h${s.xl?' xl':''}${s.split?' split':''}"${s.fs?` style="font-size:${s.fs}cqw"`:''}>${mk(s.h)}</p>${s.b?`<p class="b${s.sm?' sm':''}">${mk(s.b)}</p>`:''}${s.alert?`<div class="alert"><b>Sinal de alerta</b><p>${esc(s.alert)}</p></div>`:''}${s.ctaline?`<p class="ctaline">${esc(s.ctaline).replace(/\*(.+?)\*/g,'<span>$1</span>')}</p>`:''}${s.b2?`<p class="b">${mk(s.b2)}</p>`:''}`;
+  if(s.t==='photo') return `<div class="card${cls}${s.tall?' tall':''}${s.band?' band':''}${s.low?' low':''}${s.fit?' fit':''}">${pic(s)}<div class="fade"></div><div class="tx">${body}</div>${LOGO}${s.arrow?'<span class="arrow">›</span>':''}</div>`;
+  return `<div class="card t${cls}"><div class="tx">${body}</div>${LOGO}</div>`;
+}
+const ICON_REEL='<svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M4 3h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm6 5v8l6-4z"/></svg>';
+const ICON_CAR='<svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M7 3h13a1 1 0 0 1 1 1v13h-2V5H7z"/><rect x="3" y="7" width="14" height="14" rx="1"/></svg>';
+
+const ORDER=[...POSTS].reverse();
+const grid=document.getElementById('grid');
+ORDER.forEach(p=>{
+  const b=document.createElement('button');
+  b.className='tile'+(p.sug?' sug':'');b.dataset.id=p.date.replace('/','-');
+  b.setAttribute('aria-label',`${p.dow} ${p.date}: ${p.fmt} · ${p.theme}`);
+  const flag=p.sug?'<span class="flag">Sugestão de vídeo</span>':'';
+  const ic=p.sug?ICON_REEL:(p.slides.length>1?ICON_CAR:'');
+  b.innerHTML=card(p.slides[0])+flag+ic+`<span class="date">${p.dow} ${p.date}</span>`;
+  b.onclick=()=>open(POSTS.indexOf(p));
+  grid.appendChild(b);
+});
+OLD.forEach(o=>{const d=document.createElement('div');d.className='tile old';d.innerHTML=`<img class="pv" src="${o.img}" alt="Post de novembro, ${o.date}">`+(o.reel?ICON_REEL:'')+`<span class="date">${o.date} · novembro</span>`;grid.appendChild(d)});
+function fitAll(){fitCard(document.getElementById('grid'));if(!lb.hidden)fitCard(media)}
+(document.fonts&&document.fonts.ready?document.fonts.ready:Promise.resolve()).then(()=>requestAnimationFrame(()=>fitCard(document.getElementById('grid'))));
+let _rt;addEventListener('resize',()=>{clearTimeout(_rt);_rt=setTimeout(()=>{fitCard(document.getElementById('grid'));if(typeof media!=='undefined')fitCard(media)},150)});
+
+const lb=document.getElementById('lb'),media=document.getElementById('media'),info=document.getElementById('info'),meta=document.getElementById('meta');
+let cur=0,idx=0,mode='main',lastFocus=null;
+function blocks(p,alt){
+  let h=`<div class="tags"><span class="tag a">${p.dow} ${p.date}</span><span class="tag">${esc(alt?'Plano B · '+p.planB.fmt:p.fmt)}</span>${p.trig?`<span class="tag w">Gatilho: ${p.trig}</span>`:`<span class="tag">${p.tag||'Sem CTA de venda'}</span>`}</div>`;
+  if(!alt&&p.video){const v=p.video;h+=`<div class="box w"><span class="lab">Sugestão de vídeo para a equipe da Strategia gravar</span>Se não for possível gravar, seguimos com o plano B (botão acima da imagem).\n\n<b>Quem e onde:</b> ${esc(v.who)}\n<b>Duração:</b> ${esc(v.dur)}\n${esc(v.screen)}</div><div><span class="lab">Roteiro</span><ol class="scr">${v.script.map(s=>`<li>${esc(s)}</li>`).join('')}</ol></div>`;}
+  h+=`<div><span class="lab">Legenda</span><p class="cap">${esc(alt?p.planB.caption:p.caption)}</p></div>`;
+  h+=`<div class="fb" id="fb"><span class="lab">Aprovação</span><div id="fbstatus"></div><div id="fbform"></div></div>`;
+  if(p.note)h+=`<div class="box w"><span class="lab">Observação</span>${esc(p.note)}</div>`;
+  return h;
+}
+
+function fitCard(root){
+  (root||document).querySelectorAll('.card .h').forEach(el=>{
+    if(el.classList.contains('split')||!el.querySelector('.dest'))return;
+    const card=el.closest('.card');const box=el.parentElement;if(!card||!box)return;
+    const cw=card.clientWidth;if(!cw)return;
+    if(el.dataset.base===undefined)el.dataset.base=el.style.fontSize||'';el.style.fontSize=el.dataset.base;let fs=parseFloat(getComputedStyle(el).fontSize);const max=box.clientWidth;let g=0;
+    const over=()=>[...el.querySelectorAll('.dest')].some(d=>d.getBoundingClientRect().width>max+0.5)||el.scrollWidth>max+0.5;
+    while(over()&&g<40){fs*=0.96;el.style.fontSize=(fs/cw*100)+'cqw';g++}
+  });
+}
+function render(){
+  const p=POSTS[cur],alt=mode==='b'&&!!p.planB,sl=alt?p.planB.slides:p.slides,reel=!alt&&p.sug;
+  idx=Math.min(idx,sl.length-1);
+  let m='';
+  if(p.planB)m+=`<div class="mode" role="group" aria-label="Versão"><button data-m="main" aria-pressed="${!alt}">Vídeo sugerido</button><button data-m="b" aria-pressed="${alt}">Plano B: ${esc(p.planB.fmt)}</button></div>`;
+  m+=`<div class="stage${reel?' reel':''}"><div class="vp"><div class="track" style="transform:translateX(-${idx*100}%)">${sl.map(s=>card(s,reel)).join('')}</div></div>${sl.length>1?'<button class="nav prev" aria-label="Anterior">‹</button><button class="nav next" aria-label="Próxima">›</button>':''}</div>`;
+  if(sl.length>1)m+=`<div class="pd">${sl.map((_,i)=>`<i class="${i===idx?'on':''}"></i>`).join('')}</div>`;
+  media.innerHTML=m;
+  media.querySelectorAll('.mode button').forEach(b=>b.onclick=()=>{mode=b.dataset.m;idx=0;render()});
+  const pv=media.querySelector('.prev'),nx=media.querySelector('.next');
+  if(pv){pv.onclick=()=>{idx=(idx-1+sl.length)%sl.length;render()};nx.onclick=()=>{idx=(idx+1)%sl.length;render()}}
+  let sx=null;const vp=media.querySelector('.vp');
+  if(vp&&sl.length>1){vp.addEventListener('touchstart',e=>{sx=e.touches[0].clientX},{passive:true});vp.addEventListener('touchend',e=>{if(sx===null)return;const dx=e.changedTouches[0].clientX-sx;if(Math.abs(dx)>40)(dx<0?nx:pv).click();sx=null})}
+  meta.textContent=`${p.dow} ${p.date} · ${alt?'Plano B · '+p.planB.fmt:p.fmt}${sl.length>1?' · '+(idx+1)+'/'+sl.length:''}`;
+  info.innerHTML=blocks(p,alt);
+  requestAnimationFrame(()=>fitCard(media));
+  fbRender(p);
+}
+function open(i){lastFocus=document.activeElement;cur=i;idx=0;mode='main';fbMode=null;render();lb.hidden=false;document.getElementById('close').focus()}
+function close(){lb.hidden=true;lastFocus&&lastFocus.focus()}
+document.getElementById('close').onclick=close;
+lb.addEventListener('click',e=>{if(e.target===lb)close()});
+document.addEventListener('keydown',e=>{if(lb.hidden)return;if(e.key==='Escape')close();if(e.key==='ArrowRight')media.querySelector('.next')?.click();if(e.key==='ArrowLeft')media.querySelector('.prev')?.click()});
+
+/* ===== Aprovação por post (db: feedback/<dd-mm>) ===== */
+const FB={};let DB=null,USER=null,fbSlow=false,fbMode=null;
+const fbId=p=>p.date.replace('/','-');
+function fbStatusHTML(p){
+  const f=FB[fbId(p)];
+  if(fbSlow&&!f)return '<p class="fbs muted">Não foi possível carregar as aprovações agora.</p>';
+  if(!f)return '';
+  const when=f.at?new Date(f.at).toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit'}):'';
+  return f.status==='aprovado'
+    ?`<p class="fbs ok">✓ Aprovado${when?' em '+when:''}</p>`
+    :`<p class="fbs adj">✎ Ajuste solicitado${when?' em '+when:''}:</p><p class="fbn">${esc(f.note||'')}</p>`;
+}
+function fbFormHTML(p){
+  if(fbMode==='adj')return `<label class="lab" for="fbtxt">O que você quer ajustar?</label><textarea id="fbtxt" rows="4" placeholder="Ex.: trocar a foto da capa, mudar o texto do card 3…"></textarea><div class="fbbtns"><button class="fbbtn ok" id="fbsend">Enviar ajuste</button><button class="fbbtn ghost" id="fbcancel">Cancelar</button></div>`;
+  return `<div class="fbbtns"><button class="fbbtn ok" id="fbok">Aprovado</button><button class="fbbtn adj" id="fbadj">Ajuste</button></div>`;
+}
+function fbFallback(p,status,note){
+  const msg=`Post ${p.date} (${p.theme}): ${status==='aprovado'?'aprovado.':'ajuste: '+note}`;
+  document.getElementById('fbform').innerHTML=`<p class="fbs muted">Não foi possível registrar por aqui. Copie a mensagem abaixo e envie para a Amanda pelo WhatsApp.</p><textarea id="fbcopy" rows="3" readonly>${esc(msg)}</textarea><div class="fbbtns"><button class="fbbtn ok" id="fbcp">Copiar mensagem</button></div>`;
+  document.getElementById('fbcp').onclick=async()=>{const t=document.getElementById('fbcopy');try{await navigator.clipboard.writeText(msg);document.getElementById('fbcp').textContent='Copiado'}catch(e){t.select()}};
+}
+async function fbSave(p,status,note){
+  if(!DB){fbFallback(p,status,note);return}
+  const btns=document.querySelectorAll('#fbform button');btns.forEach(b=>b.disabled=true);
+  try{
+    const by=USER?await USER.id():null;
+    await DB.collection('feedback').doc(fbId(p)).set({status,note:note||'',at:new Date().toISOString(),by:by||'',post:p.date});
+    FB[fbId(p)]={status,note,at:new Date().toISOString()};fbMode=null;fbRender(p);markTiles();
+  }catch(e){fbFallback(p,status,note)}
+}
+function fbRender(p){
+  const box=document.getElementById('fb');if(!box)return;
+  document.getElementById('fbstatus').innerHTML=fbStatusHTML(p);
+  const form=document.getElementById('fbform');form.innerHTML=fbFormHTML(p);
+  const q=id=>document.getElementById(id);
+  if(q('fbok'))q('fbok').onclick=()=>fbSave(p,'aprovado','');
+  if(q('fbadj'))q('fbadj').onclick=()=>{fbMode='adj';fbRender(p);q('fbtxt').focus()};
+  if(q('fbcancel'))q('fbcancel').onclick=()=>{fbMode=null;fbRender(p)};
+  if(q('fbsend'))q('fbsend').onclick=()=>{const v=q('fbtxt').value.trim();if(!v){q('fbtxt').focus();return}fbSave(p,'ajuste',v)};
+}
+function markTiles(){
+  document.querySelectorAll('#grid .tile[data-id]').forEach(t=>{
+    const f=FB[t.dataset.id];let b=t.querySelector('.fbb');
+    if(!f){if(b)b.remove();return}
+    if(!b){b=document.createElement('span');b.className='fbb';t.appendChild(b)}
+    b.className='fbb '+(f.status==='aprovado'?'ok':'adj');b.textContent=f.status==='aprovado'?'✓ Aprovado':'✎ Ajuste';
+  });
+}
+(async()=>{
+  try{
+    if(!window.claude||!window.claude.use)return;
+    USER=await claude.use('user');DB=await claude.use('db');if(!DB)return;
+    const timer=setTimeout(()=>{fbSlow=true;if(!lb.hidden)document.getElementById('fbstatus').innerHTML=fbStatusHTML(POSTS[cur])},10000);
+    DB.collection('feedback').onSnapshot(s=>{
+      if(!s.metadata.fromCache){clearTimeout(timer);fbSlow=false}
+      Object.keys(FB).forEach(k=>delete FB[k]);s.docs.forEach(d=>{FB[d.id]=d.data()});
+      markTiles();if(!lb.hidden&&document.getElementById('fbstatus'))document.getElementById('fbstatus').innerHTML=fbStatusHTML(POSTS[cur]);
+    },()=>{clearTimeout(timer);DB=null});
+  }catch(e){DB=null}
+})();
+
+</script>
