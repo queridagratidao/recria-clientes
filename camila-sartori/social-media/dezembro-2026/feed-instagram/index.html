@@ -1,0 +1,370 @@
+<title>Feed da Camila · Dezembro</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Courier+Prime:wght@400;700&family=Playfair+Display:wght@800&display=swap">
+<style>
+/* Layout: an Instagram profile replica (header, highlights, 3-col grid of 3:4 tiles) whose grid holds November's planned posts in Camila's brand style; a tile opens the post with its suggested video, script and caption */
+:root{
+  --bg:#FFFFFF; --surface:#FFFFFF; --fg:#0C1014; --muted:#737373; --line:#DBDBDB; --chip:#EFEFF1;
+  --accent:#A71874; --accent-soft:#FBEEF7; --link:#00376B; --overlay:rgba(0,0,0,.72);
+  --ui:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#000000; --surface:#121212; --fg:#F5F5F5; --muted:#A8A8A8; --line:#262626; --chip:#262626;
+  --accent:#E07AA6; --accent-soft:#2A1820; --link:#E0F1FF; --overlay:rgba(0,0,0,.84); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#000000; --surface:#121212; --fg:#F5F5F5; --muted:#A8A8A8; --line:#262626; --chip:#262626;
+  --accent:#E07AA6; --accent-soft:#2A1820; --link:#E0F1FF; --overlay:rgba(0,0,0,.84); color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--ui);font-size:14px;line-height:1.4;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 48px}
+.wrap{max-width:640px;margin:0 auto;display:flex;flex-direction:column;gap:18px}
+.note{background:var(--accent-soft);border-radius:12px;padding:12px 16px;font-size:13px;margin:0}
+.switch{display:flex;gap:6px;background:var(--chip);padding:4px;border-radius:10px}
+.switch button{flex:1;border:0;background:transparent;color:var(--muted);font:600 13px var(--ui);padding:8px;border-radius:8px;cursor:pointer}
+.switch button[aria-pressed="true"]{background:var(--surface);color:var(--fg);box-shadow:0 1px 3px rgba(0,0,0,.14)}
+.switch button:focus-visible{outline:2px solid var(--accent)}
+.summary{font-size:12.5px;color:var(--muted);margin:-8px 0 0}
+.profile{display:grid;grid-template-columns:auto minmax(0,1fr);gap:14px 26px;align-items:center}
+.ring{width:110px;height:110px;border-radius:50%;padding:3px;background:conic-gradient(from 210deg,#FEDA75,#FA7E1E,#D62976,#962FBF,#4F5BD5,#FEDA75)}
+.ring img{width:100%;height:100%;border-radius:50%;border:3px solid var(--bg);object-fit:cover;display:block}
+.top{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.top h1{font:700 20px/1.2 var(--ui);margin:0}
+.badge{width:17px;height:17px}
+.name{font-size:14px;margin-top:2px}
+.stats{display:flex;gap:18px;margin-top:10px;flex-wrap:wrap;font-variant-numeric:tabular-nums}
+.stats b{font-weight:600}
+.bio{grid-column:1/-1;margin:0;font-size:14px}
+.bio .cat{color:var(--muted)}
+.bio .lk{color:var(--link);font-weight:600}
+.btns{grid-column:1/-1;display:flex;gap:8px}
+.btns span{flex:1;text-align:center;background:var(--chip);font-weight:600;padding:9px;border-radius:10px}
+.btns span:last-child{flex:0 0 42px}
+.hl{display:flex;gap:18px;overflow-x:auto;padding:4px 2px}
+.hl div{display:flex;flex-direction:column;align-items:center;gap:6px;font-size:12px;flex:none}
+.hl i,.hl img{width:66px;height:66px;border-radius:50%;border:3px solid var(--bg);box-shadow:0 0 0 1px var(--line);display:block;object-fit:cover}
+.tabs{display:flex;border-top:1px solid var(--line)}
+.tabs span{flex:1;display:flex;justify-content:center;padding:12px 0 4px;color:var(--muted)}
+.tabs span:first-child{color:var(--fg);border-top:1px solid var(--fg);margin-top:-1px}
+.tabs svg{width:22px;height:22px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px}
+.tile{position:relative;aspect-ratio:3/4;max-width:100%;border:0;padding:0;cursor:pointer;overflow:hidden;display:flex;align-items:center;justify-content:center;background:var(--chip);color:inherit;font:inherit}
+.tile:focus-visible{outline:3px solid var(--accent);outline-offset:2px;z-index:1}
+.tile .card{width:106.67%;height:auto;flex:none}
+.tile .card.rl{width:100%;aspect-ratio:9/16}
+.stage.reel .card::before{content:"";position:absolute;left:0;right:0;top:12.5%;bottom:12.5%;border-top:1.5px dashed rgba(255,255,255,.85);border-bottom:1.5px dashed rgba(255,255,255,.85);z-index:3;pointer-events:none}
+.safe{color:#ddd;font-size:12px;margin:0;text-align:center;max-width:44vh}
+.tile .date{position:absolute;left:5px;bottom:5px;background:rgba(255,255,255,.95);color:#0C1014;font:700 10.5px var(--ui);padding:3px 6px;border-radius:4px;z-index:2}
+.tile .icon{position:absolute;right:6px;top:6px;width:17px;height:17px;color:#fff;filter:drop-shadow(0 1px 2px rgba(0,0,0,.5));z-index:2}
+.tile.extra::after{content:"B";position:absolute;right:5px;bottom:5px;width:18px;height:18px;border-radius:50%;background:#fff;color:#A71874;font:700 10px/18px var(--ui);text-align:center;z-index:2}
+.tile.p40::before{content:"40+";background:#A71874!important;}.tile.fx::before{content:"FIXAR";}.tile.p40::before,.tile.fx::before{position:absolute;left:5px;top:6px;background:#0C1014;color:#fff;font:700 8.5px/1 var(--ui);letter-spacing:.06em;padding:3px 5px;border-radius:3px;z-index:2}
+.tile.old{cursor:default}
+.tile.old img{width:100%;height:100%;object-fit:cover;display:block}
+.tile.old::after{content:"já publicado";position:absolute;left:5px;bottom:5px;background:rgba(0,0,0,.55);color:#fff;font:600 9.5px var(--ui);padding:2px 5px;border-radius:3px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:var(--muted);margin:0}
+[hidden]{display:none!important}
+.lb{position:fixed;inset:0;background:var(--overlay);z-index:20;display:flex;align-items:center;justify-content:center;
+  padding:max(16px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(16px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+.panel{background:var(--surface);border-radius:12px;overflow:hidden;display:grid;grid-template-columns:minmax(0,1fr) 400px;width:min(1060px,100%);max-height:100%}
+.media{position:relative;background:#0b0b0b;display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:0;padding:18px;gap:10px}
+.stage{width:min(100%,52vh);max-width:100%;position:relative}
+.stage.reel{width:min(100%,44vh)}
+.stage.reel .card{aspect-ratio:9/16;border-radius:10px}
+.vp{overflow:hidden;border-radius:8px}
+.track{display:flex;transition:transform .35s ease;touch-action:pan-y}
+.track>.card{flex:0 0 100%}
+.nav{position:absolute;top:50%;transform:translateY(-50%);width:34px;height:34px;border-radius:50%;border:0;background:rgba(255,255,255,.92);color:#0C1014;font-size:20px;cursor:pointer}
+.nav:focus-visible,.close:focus-visible{outline:3px solid var(--accent)}
+.prev{left:-8px}.next{right:-8px}
+.pd{display:flex;justify-content:center;gap:5px}
+.pd i{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.35)} .pd i.on{background:#fff}
+.info{display:flex;flex-direction:column;min-width:0;max-height:88vh}
+.head{display:flex;align-items:center;gap:10px;padding:12px 14px;border-bottom:1px solid var(--line)}
+.head img{width:32px;height:32px;border-radius:50%;object-fit:cover;flex:none}
+.head b{font-weight:600;font-size:14px}
+.head small{display:block;color:var(--muted);font-size:12px}
+.close{margin-left:auto;border:0;background:var(--chip);color:var(--fg);width:32px;height:32px;border-radius:50%;font-size:16px;cursor:pointer;flex:none}
+.body{overflow-y:auto;padding:14px;display:flex;flex-direction:column;gap:12px}
+.box{background:var(--accent-soft);border-radius:10px;padding:10px 12px;font-size:13.5px;white-space:pre-line}
+.box b,.lab{display:block;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:4px;font-weight:700}
+.box.vid{border:1px solid var(--accent)}
+.cap{font-size:14px;white-space:pre-line;margin:0}
+.ref{font-size:12px;color:var(--muted);margin:0}
+.reflink{display:block;border:1px solid var(--accent);border-radius:10px;padding:10px 12px;color:var(--accent);font-weight:700;text-decoration:none}
+.reflink:hover{background:var(--accent-soft)}
+.phase{align-self:flex-start;background:#0C1014;color:#fff;font:700 10px var(--ui);letter-spacing:.05em;padding:3px 7px;border-radius:4px;text-transform:uppercase}
+@media (max-width:760px){.panel{grid-template-columns:1fr;overflow-y:auto}.info{max-height:none}.stage{width:min(100%,42vh)}.stage.reel{width:min(100%,30vh)}}
+@media (max-width:420px){.ring{width:86px;height:86px}.profile{gap:12px 18px}}
+@media (prefers-reduced-motion:reduce){.track{transition:none}}
+
+/* Post cards: fixed brand colors (they are the post images themselves, identical in both themes) */
+.card{position:relative;container-type:inline-size;aspect-ratio:4/5;width:100%;overflow:hidden;font-family:"Quicksand","Poppins",system-ui,sans-serif;color:#5A1042;background:#FFF0F8}
+.card p{margin:0}
+.card .sig{position:absolute;left:0;right:0;bottom:4.5cqw;text-align:center;font:700 3.2cqw "Quicksand",system-ui,sans-serif;color:#A71874}
+.card .swipe{position:absolute;right:5cqw;bottom:3.8cqw;font:700 5cqw/1 "Quicksand",system-ui,sans-serif;color:#D05FA7;letter-spacing:-.08em;z-index:2}
+.card .nw{white-space:nowrap}
+.card.tx{display:flex;align-items:center;justify-content:center;padding:12% 11% 15%;text-align:center}
+.card.tx.pink{background:linear-gradient(180deg,#FFE6F4,#FFD3EC)}
+.card.tx.lilac{background:#F3E8EF}
+.card.tx.magenta{background:#A71874;color:#FFF}
+.card.tx.magenta .h{color:#FFF}.card.tx.magenta .sig{color:#FFD3EC}.card.tx.magenta .fl{color:#FFB3E4}
+.card .fl{position:absolute;right:-6cqw;bottom:-4cqw;width:46cqw;height:46cqw;color:#E87F9E;opacity:.45}
+.card .tt{position:relative;display:flex;flex-direction:column;gap:.7em;line-height:1.28;text-align:center}
+.card .h{font-weight:700;color:#A71874;text-wrap:balance}
+.card .b{font-weight:500;white-space:normal;text-wrap:balance}
+.card .bl li,.card.ph .b{text-wrap:pretty}
+.card.ph .b{font-size:.86em;color:#5A1042}
+.card.ph .pi{position:absolute;left:0;width:100%;object-fit:cover;object-position:center top}
+.card.ph .fade{position:absolute;left:0;right:0;top:52%;bottom:0;background:linear-gradient(180deg,rgba(255,240,248,0) 0%,rgba(255,240,248,.82) 34%,rgba(255,240,248,.94) 60%,#FFF0F8 100%)}
+.card.ph.light .fade{top:58%;background:linear-gradient(180deg,rgba(255,240,248,0) 0%,rgba(255,240,248,.78) 38%,rgba(255,240,248,.92) 100%)}
+.card.ph .pt{position:absolute;left:7cqw;right:7cqw;bottom:9cqw;text-align:center;display:flex;flex-direction:column;gap:.5em;line-height:1.22}
+.card.ph .pt .sig{position:static;margin-top:.3em}
+.card.ph.tp .fade{top:0;bottom:auto;height:52%;background:linear-gradient(0deg,rgba(255,240,248,0) 0%,rgba(255,240,248,.82) 36%,rgba(255,240,248,.95) 70%,#FFF0F8 100%)}
+.card.ph.tp .pt{top:8cqw;bottom:auto}
+.card.ph.tp .pi{top:auto!important;bottom:0}
+.card.rl{background:linear-gradient(160deg,#FFB3E4,#D05FA7 70%,#A71874);display:block;padding:0}
+.card.rl .bgb{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:blur(14px) brightness(.8);transform:scale(1.2)}
+.card.rl .pi{position:absolute;left:0;top:14.8%;width:100%;height:70.4%;object-fit:cover}
+.card.rl .rshade{position:absolute;inset:0;background:rgba(40,8,26,.28)}
+.card.rl.hasbg .rshade{background:linear-gradient(180deg,rgba(30,6,20,.32),rgba(30,6,20,.05) 45%,rgba(30,6,20,.32))}
+.card.rl.hasbg.at-bottom .rshade{background:linear-gradient(180deg,rgba(30,6,20,0) 40%,rgba(30,6,20,.6) 100%)}
+.card.rl.hasbg.at-top .rshade{background:linear-gradient(180deg,rgba(30,6,20,.55) 0%,rgba(30,6,20,0) 55%)}
+.card.rl .rt{position:absolute;left:8%;right:8%;top:50%;transform:translateY(-50%);color:#FFF;font-weight:700;text-align:center;line-height:1.25;text-shadow:0 1px 10px rgba(30,6,20,.6);text-wrap:balance}
+.card.rl.at-top .rt{top:19%;transform:none}
+.card.rl.at-bottom .rt{top:auto;bottom:21%;transform:none}
+.card.rl.at-low .rt{top:auto;bottom:17.5%;transform:none;font-size:6cqw!important;line-height:1.2}
+.card.rl.hasbg.at-low .rshade{background:linear-gradient(180deg,rgba(30,6,20,0) 50%,rgba(30,6,20,.65) 100%)}
+.card.rl.at-right .rt{top:21%;left:42%;right:6%;transform:none;text-align:right}
+.card.rl.big .rt{text-shadow:0 2px 14px rgba(30,6,20,.75),0 0 2px rgba(30,6,20,.5)}
+.card.rl.notxt .rt{line-height:1.5;left:10%;right:10%}
+.card.rl .rlab{position:absolute;left:0;right:0;bottom:4cqw;text-align:center;font:700 2.9cqw system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.9)}
+/* bullet lists: block centered in the card, lines aligned to one side */
+.card .tt:has(.bl){text-align:left;align-items:flex-start;width:100%}
+.card .bl{list-style:none;margin:0;padding:0;align-self:flex-start;text-align:left;font-weight:500;display:flex;flex-direction:column;gap:.35em;max-width:100%}
+.card .bl li{position:relative;padding-left:1.1em}
+.card .bl li::before{content:"•";position:absolute;left:0;color:#D05FA7;font-weight:700}
+.card.bl-r .bl{text-align:right}.card.bl-r .bl li{padding-left:0;padding-right:1.1em}.card.bl-r .bl li::before{left:auto;right:0}
+.card.ph.low .fade{top:60%;background:linear-gradient(180deg,rgba(255,240,248,0) 0%,rgba(255,240,248,.85) 34%,rgba(255,240,248,.97) 58%,#FFF0F8 72%)}
+.card.ph.low .pt{bottom:7cqw}
+.card.rl.ic{background:linear-gradient(165deg,#FFD3EC 0%,#E87FB8 45%,#A71874 100%)}
+.card.rl.ic .rshade{background:transparent}
+.card.rl .bh{position:absolute;left:50%;top:22%;width:44%;transform:translateX(-50%);filter:drop-shadow(0 6px 18px rgba(90,16,66,.35))}
+.card.rl.ic .rt{top:55%;transform:none}
+.card.rl .bh.big{width:62%;top:17%}
+.card.rl.ic.big-ic .rt{top:57%}
+/* Canva-like style (from 05/11): typewriter text, paper grain, pill tag, alternating backgrounds */
+.card.cv{font-family:"Courier Prime","Courier New",monospace;padding:20% 11% 16%}
+.card.cv .tt{gap:.95em;line-height:1.36}
+.card.cv .h{font-weight:400;color:inherit!important}
+.card.cv .b{font-weight:400}
+.card.cv .bl li::before{color:inherit}
+.card.cv .cvtag{position:absolute;top:9.5cqw;left:50%;transform:translateX(-50%);font:700 2.9cqw "Courier Prime","Courier New",monospace;padding:.5cqw 3cqw;border-radius:5cqw;white-space:nowrap}
+.card.cv-rosa{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.18'/%3E%3C/svg%3E"),#E07A9A;color:#fff}
+.card.cv-rosa .h{color:#fff}.card.cv-rosa .cvtag{background:#fff;color:#A71874}.card.cv-rosa .swipe{color:#fff}
+.card.cv-claro,.card.cv-flor{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.18'/%3E%3C/svg%3E"),#FBEFF3;color:#4A1A3A}
+.card.cv-claro .h,.card.cv-flor .h{color:#A71874}.card.cv-claro .cvtag,.card.cv-flor .cvtag{background:#D9608A;color:#fff}.card.cv-claro .swipe,.card.cv-flor .swipe{color:#D9608A}
+.card.cv-flor .fl{opacity:.35}
+.card.rl.cv{padding:0}
+.card.rl.ic.cv-rosa{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.18'/%3E%3C/svg%3E"),#E07A9A}
+.card.rl.ic.cv-claro{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.18'/%3E%3C/svg%3E"),#FBEFF3}
+.card.rl.cv .cvtag{top:14.5%}
+.card.rl.cv .rt{font-family:"Courier Prime","Courier New",monospace;font-weight:700;text-shadow:none;top:56%;transform:none;left:9%;right:9%;line-height:1.3}
+.card.rl.cv-rosa .rt,.card.rl.cv-rosa .bh{color:#fff}
+.card.rl.cv-claro .rt{color:#4A1A3A}.card.rl.cv-claro .bh{color:#D9608A}
+.card.rl.cv .rlab{color:rgba(90,16,66,.55)}.card.rl.cv-rosa .rlab{color:rgba(255,255,255,.85)}
+.card.rl.cv .bh{top:24%}.card.rl.cv .bh.big{top:22%;width:56%}
+.card.cv .hl{font-family:"Playfair Display",Georgia,serif;font-weight:800;font-size:1.05em;border-bottom:.08em solid currentColor;line-height:1.5}
+.card.cv-claro .hl,.card.cv-flor .hl{color:#A71874}
+.card.cv.bold .h,.card.cv.bold .b{font-weight:700}
+.card.cv-blur{background:#C96A8E;color:#fff}
+.card.cv-blur .cvbg{position:absolute;inset:-6%;width:112%;height:112%;object-fit:cover;filter:blur(22px) saturate(1.1)}
+.card.cv-blur .cvov{position:absolute;inset:0;background:rgba(214,96,140,.58)}
+.card.cv-blur .tt,.card.cv-blur .cvtag{z-index:2}
+.card.cv-blur .h{color:#fff}.card.cv-blur .cvtag{background:#fff;color:#A71874}.card.cv-blur .swipe{color:#fff}
+.card.cv-blur .tt{text-shadow:0 1px 8px rgba(90,16,66,.35)}
+.card.rl.ic.cv-clarorosa{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.18'/%3E%3C/svg%3E"),#FBEFF3}
+.card.rl.cv-clarorosa .rt{color:#C2457A}.card.rl.cv-clarorosa .bh{color:#D9608A}
+.card.rl.cv-clarorosa .cvtag{background:#D9608A;color:#fff}
+/* meme static (white caption boxes, serif) */
+.card.mm{background:#222}
+.card.mm .pi{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%}
+.card.mm .mbox{position:absolute;left:4cqw;right:4cqw;bottom:9cqw;display:flex;flex-direction:column;align-items:center;gap:3cqw}
+.card.mm .mbox span{background:#FFF;color:#111;font:400 7.4cqw/1.15 Georgia,"Times New Roman",serif;padding:2.4cqw 3.6cqw;text-align:center}
+.card.mm .msig{position:absolute;right:3.5cqw;bottom:2.6cqw;font:700 2.8cqw "Quicksand",system-ui,sans-serif;color:rgba(255,255,255,.92);text-shadow:0 1px 4px rgba(0,0,0,.7)}
+.card.rl .rsig{position:absolute;right:6%;bottom:13.6%;font:700 2.6cqw "Quicksand",system-ui,sans-serif;color:rgba(255,255,255,.95);text-shadow:0 1px 5px rgba(30,6,20,.8);z-index:2}
+
+</style>
+
+<div class="wrap">
+  <p class="note"><b>Prévia do feed de dezembro.</b> 3 posts por semana: carrossel na segunda, estático na quarta e humor na sexta. Toque em cada post para ver todos os cards, o vídeo pronto e a legenda. Os 3 primeiros (📌) são os posts fixos, que também servem de anúncio. Os marcados "Público 40+" são pensados para mulheres de 40 anos ou mais.</p>
+  <div class="switch" role="group" aria-label="Cenário" hidden>
+    <button id="btnA" aria-pressed="true">Cenário A · seg, qua, sex</button>
+    <button id="btnB" aria-pressed="false">Cenário B · seg a sáb</button>
+  </div>
+  <p class="summary" id="summary"></p>
+
+  <section class="profile" aria-label="Perfil">
+    <div class="ring"><img src="img/perfil.jpg" alt="Foto de perfil da Camila Sartori"></div>
+    <div>
+      <div class="top"><h1>psicamilasartori</h1>
+        <svg class="badge" viewBox="0 0 40 40" aria-label="Verificado"><path fill="#0095F6" d="M19.998 3.094 14.638 0l-2.972 5.15H5.432v6.354L0 14.64 3.094 20 0 25.359l5.432 3.137v5.905h5.975L14.638 40l5.36-3.094L25.358 40l3.232-5.6h6.162v-6.01L40 25.359 36.905 20 40 14.641l-5.248-3.03v-6.46h-6.419L25.358 0l-5.36 3.094Z"/><path fill="#fff" d="m17.37 26.34-6.36-6.37 2.12-2.12 4.24 4.24 9.33-9.33 2.12 2.12z"/></svg>
+        <span aria-hidden="true">···</span></div>
+      <div class="name">Camila Sartori | Psicóloga</div>
+      <div class="stats"><span><b id="nposts">689</b> posts</span><span><b>5.320</b> seguidores</span><span><b>728</b> seguindo</span></div>
+    </div>
+    <p class="bio"><span class="cat">Psicólogo</span><br>Psicóloga Clínica | CRP 07/28227<br>Doutoranda em Psicologia – PUCRS 🎓<br>TCC &amp; Terapia do Esquema<br>Terapia online individual e casais 👩🏻‍💻<br><span class="lk">🔗 linktr.ee/camilasartori</span> &nbsp; <span class="lk">@ psicamilasartori</span></p>
+    <div class="btns" aria-hidden="true"><span>Seguindo ⌄</span><span>Enviar mensagem</span><span>+</span></div>
+  </section>
+
+  <div class="hl" aria-hidden="true">
+    <div><img src="img/hl-congressos.jpg" alt="">Congressos</div>
+    <div><i style="background:#FFB3E4"></i>Estudos</div>
+    <div><i style="background:#A71874"></i>Depoimentos</div>
+    <div><i style="background:#D05FA7"></i>Serviços</div>
+    <div><i style="background:linear-gradient(135deg,#E3D4DF,#F3E8EF)"></i>Perguntas</div>
+    <div><i style="background:#E87F9E"></i>Dicas</div>
+  </div>
+
+  <div class="tabs" aria-hidden="true">
+    <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18"/><path d="M9 3v18M15 3v18M3 9h18M3 15h18"/></svg></span>
+    <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M10 9l5 3-5 3z"/></svg></span>
+    <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h13l-3-3M20 17H7l3 3"/></svg></span>
+    <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="12" cy="10" r="3"/><path d="M6 19c1.5-3 10.5-3 12 0"/></svg></span>
+  </div>
+  <div class="grid" id="grid"></div>
+  <p class="legend"><span>▶ Reels</span><span>❐ Carrossel</span><span>📌 posts fixos</span><span>40+: público de 40 anos ou mais</span><span id="legB" hidden>B: extras do cenário B</span></p>
+</div>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Post">
+  <div class="panel">
+    <div class="media" id="media"></div>
+    <div class="info">
+      <div class="head"><img src="img/perfil.jpg" alt=""><div><b>psicamilasartori</b><small id="meta"></small></div><button class="close" id="close" aria-label="Fechar">✕</button></div>
+      <div class="body" id="info"></div>
+    </div>
+  </div>
+</div>
+<script>window.ICONS={"bikini":"<svg class=\"bh big\" viewBox=\"0 0 120 110\" aria-hidden=\"true\">\n <g transform=\"rotate(-12 60 50)\">\n  <path d=\"M24 52q36 6 72 0\" stroke=\"currentColor\" stroke-width=\"2.4\" fill=\"none\" stroke-linecap=\"round\"/>\n  <path d=\"M30 53q2-14 12-24q8 10 16 26z\" fill=\"currentColor\"/><path d=\"M90 53q-2-14-12-24q-8 10-16 26z\" fill=\"currentColor\"/>\n  <path d=\"M42 29L57 12M78 29L63 12\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n  <circle cx=\"60\" cy=\"55\" r=\"2.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/>\n  <path d=\"M40 72h40l-7 13q-13 7-26 0z\" fill=\"currentColor\"/>\n  <path d=\"M36 72h48\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\"/>\n  <circle cx=\"44\" cy=\"45\" r=\"2\" fill=\"#A71874\"/><circle cx=\"76\" cy=\"45\" r=\"2\" fill=\"#A71874\"/><circle cx=\"60\" cy=\"78\" r=\"2\" fill=\"#A71874\"/>\n </g>\n <path d=\"M8 40h14M4 52h18M10 64h12M98 70h14M98 82h18M102 94h10\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" opacity=\".7\"/>\n <path d=\"M100 18l2 5 5 2-5 2-2 5-2-5-5-2 5-2zM18 92l1.4 3.4 3.4 1.4-3.4 1.4-1.4 3.4-1.4-3.4-3.4-1.4 3.4-1.4z\" fill=\"currentColor\"/>\n</svg>","sad":"<svg class=\"bh big\" viewBox=\"0 0 120 110\" aria-hidden=\"true\">\n <circle cx=\"60\" cy=\"54\" r=\"38\" fill=\"currentColor\"/>\n <path d=\"M38 50q7 6 14 0M68 50q7 6 14 0\" stroke=\"#A71874\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\"/>\n <path d=\"M38 40l11-4M82 40l-11-4\" stroke=\"#A71874\" stroke-width=\"2.6\" stroke-linecap=\"round\"/>\n <path d=\"M48 76q12-9 24 0\" stroke=\"#A71874\" stroke-width=\"3.2\" fill=\"none\" stroke-linecap=\"round\"/>\n <path d=\"M44 58c-4 8-6 13 0 16 6-3 4-8 0-16zM76 58c-4 8-6 13 0 16 6-3 4-8 0-16z\" fill=\"#7FC6F0\"/>\n <circle cx=\"36\" cy=\"64\" r=\"5\" fill=\"#F7A8C8\" opacity=\".7\"/><circle cx=\"84\" cy=\"64\" r=\"5\" fill=\"#F7A8C8\" opacity=\".7\"/>\n</svg>","power":"<svg class=\"bh big\" viewBox=\"0 0 120 110\" aria-hidden=\"true\">\n <rect x=\"42\" y=\"50\" width=\"36\" height=\"56\" rx=\"2\" fill=\"currentColor\"/>\n <rect x=\"6\" y=\"68\" width=\"36\" height=\"38\" rx=\"2\" fill=\"currentColor\" opacity=\".85\"/>\n <rect x=\"78\" y=\"82\" width=\"36\" height=\"24\" rx=\"2\" fill=\"currentColor\" opacity=\".7\"/>\n <text x=\"60\" y=\"84\" font-size=\"20\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#A71874\" font-family=\"Quicksand,sans-serif\">1</text>\n <text x=\"24\" y=\"94\" font-size=\"16\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#A71874\" font-family=\"Quicksand,sans-serif\">2</text>\n <text x=\"96\" y=\"100\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#A71874\" font-family=\"Quicksand,sans-serif\">3</text>\n <path d=\"M51 30C51 18 69 18 69 30\" stroke=\"#A71874\" stroke-width=\"3.2\" fill=\"none\" stroke-linecap=\"round\"/>\n <path d=\"M46 29.5h28c1.6 0 2.7 1.2 2.9 2.7l2 14.8c.3 1.7-1 3-2.7 3H43.8c-1.7 0-3-1.3-2.7-3l2-14.8c.2-1.5 1.3-2.7 2.9-2.7z\" fill=\"#A71874\"/>\n <path d=\"M42.5 34.5C50 40 70 40 77.5 34.5\" stroke=\"#5A1042\" stroke-width=\"1.3\" fill=\"none\" opacity=\".55\"/>\n <rect x=\"56.5\" y=\"36\" width=\"7\" height=\"5.4\" rx=\"1.4\" fill=\"#F5C542\"/>\n <path d=\"M47 33.5q2-2.4 5-2.6\" stroke=\"#FFB3E4\" stroke-width=\"1.4\" fill=\"none\" stroke-linecap=\"round\"/>\n <path d=\"M60 4l2 5 5 2-5 2-2 5-2-5-5-2 5-2zM92 26l1.4 3.4 3.4 1.4-3.4 1.4-1.4 3.4-1.4-3.4-3.4-1.4 3.4-1.4zM28 26l1.4 3.4 3.4 1.4-3.4 1.4-1.4 3.4-1.4-3.4-3.4-1.4 3.4-1.4z\" fill=\"currentColor\"/>\n</svg>"};// Shared card renderer (runs in the browser). Exposes window.Cards.
+(function(){
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const FLOWER='<svg class="fl" viewBox="0 0 120 120" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"><path d="M60 112c0-30 2-52 10-70"/><path d="M62 80c-14-4-24-14-28-28 14 2 24 12 28 28z"/><path d="M66 62c10-6 22-6 30 2-10 6-22 6-30-2z"/><circle cx="72" cy="30" r="9"/><path d="M72 21c-4-8 4-14 8-8 8-4 12 6 6 10 6 6-2 14-8 10-2 8-12 8-12 0-8 2-10-8-4-12-6-6 2-14 10-10z"/><path d="M40 100c-8-6-10-16-6-24 8 4 10 14 6 24z"/></g></svg>';
+// how far each photo moves up inside the card (crops empty space above the head)
+const UP={estante:12,poltrona:16,'livro-amor':14,gravando:8,castelo:6,'livro-esquema':0,janela:0,espelho:0,cafe1:0,cafes:0,cafe2:0,gelato:0};
+function clean(s){return String(s).replace(/^📷 Foto da Camila\n\n/,'')}
+function sizeFor(t,photo){const n=t.length;let s=n<50?9:n<110?7.2:n<200?6:n<320?5.3:n<460?4.4:3.8;if(photo){s=n<60?7:n<110?5.4:n<170?4.4:3.8}return s}
+const FOOD={cafe1:1,cafes:1,cafe2:1,gelato:1};
+function nb(h){return h.replace(/PUC-RS/g,'PUC\u2011RS').replace(/(Ame-se|AME-SE|e-book)/g,'<span class="nw">$1</span>')}
+function para(t,hm){
+  const parts=t.split(/\n\n+/);
+  return parts.map((p,i)=>{const L=p.split('\n');if(i>0&&L.every(l=>/^• /.test(l)))return '<ul class="bl">'+L.map(l=>'<li>'+nb(esc(l.slice(2)))+'</li>').join('')+'</ul>';return '<p class="'+(i===0?'h':'b')+'"'+(i===0&&hm?' style="font-size:'+hm+'em"':'')+'>'+nb(esc(p)).replace(/\*([^*]+)\*/g,'<span class="hl">$1</span>').replace(/\n/g,'<br>')+'</p>'}).join('');
+}
+function card(post,i,base){
+  base=base||'';
+  const txt=clean(post.slides?post.slides[i]:post.hook);
+  const n=post.slides?post.slides.length:1;
+  const isFirst=i===0,isLast=i===n-1;
+  const ph=isFirst&&post.photo?post.photo:(isLast&&n>1&&post.final?post.final:null);
+  const sig='<span class="sig">@psicamilasartori</span>';
+  const arr=n>1&&!isLast?'<span class="swipe" aria-hidden="true">›››</span>':'';
+  if(post.meme){
+    const L=txt.split(/\n\n+/);
+    return '<div class="card mm"><img class="pi" src="'+base+'img/'+post.photo+'.jpg" alt=""><div class="mbox">'+L.map(l=>'<span>'+esc(l)+'</span>').join('')+'</div><span class="msig">@psicamilasartori</span></div>';
+  }
+  if(ph){
+    const up=(post.coverLow&&isFirst&&post.coverUp)||UP[ph]||0;
+    return '<div class="card ph'+(post.fade==='light'?' light':'')+(post.coverLow&&isFirst?' low':'')+(FOOD[ph]?' tp':'')+'"><img class="pi" src="'+base+'img/'+ph+'.jpg" alt="" style="top:-'+up+'%;height:'+(post.coverLow&&isFirst?(post.coverH||100):100+up)+'%"><div class="fade"></div><div class="pt" style="font-size:'+sizeFor(txt,true)+'cqw">'+para(txt)+sig+'</div>'+arr+'</div>';
+  }
+  if(post.cv){
+    const fz=post.fsz&&post.fsz[i];const sc=typeof fz==='number'?fz:(fz&&fz.b)||1;const hm=fz&&typeof fz==='object'?fz.h:0;
+    const sz=(fz&&fz.cq?fz.cq*0.92:sizeFor(txt)*1.02*sc).toFixed(2);
+    return '<div class="card tx cv cv-'+post.cv+(post.cvBold?' bold':'')+'">'+(post.cv==='blur'&&post.photo?'<img class="cvbg" src="'+base+'img/'+post.photo+'.jpg" alt=""><div class="cvov"></div>':'')+(post.cv==='flor'?FLOWER:'')+'<span class="cvtag">@psicamilasartori</span><div class="tt" style="font-size:'+sz+'cqw">'+para(txt,hm)+'</div>'+arr+'</div>';
+  }
+  const st=post.style||(i%2?'lilac':'pink');
+  const fz=post.fsz&&post.fsz[i];const sc=typeof fz==='number'?fz:(fz&&fz.b)||1;const hm=fz&&typeof fz==='object'?fz.h:0;
+  return '<div class="card tx '+st+'">'+FLOWER+'<div class="tt" style="font-size:'+(fz&&fz.cq?fz.cq:sizeFor(txt)*sc).toFixed(2)+'cqw">'+para(txt,hm)+'</div>'+sig+arr+'</div>';
+}
+const TP={estante:'bottom',poltrona:'bottom','livro-amor':'bottom',espelho:'bottom','livro-esquema':'top',castelo:'top',gelato:'top',gravando:'bottom',cafes:'top',cafe1:'top',cafe2:'top',janela:'right'};
+function reel(post,base){
+  base=base||'';const tp=post.tpos||(post.bg?TP[post.bg]:'');
+  const fs=post.big?Math.min(sizeFor(post.hook)*1.2,9.5):Math.min(sizeFor(post.hook),7.4);
+  const HEART=post.icon&&post.icon!=='heart'&&window.ICONS&&window.ICONS[post.icon]?window.ICONS[post.icon]:post.icon==='heart'?'<svg class="bh" viewBox="0 0 100 90" aria-hidden="true"><path d="M47 84 C20 62 4 46 4 27 C4 13 15 4 27 4 C36 4 43 9 47 16 L41 30 L51 40 L43 54 L50 66 Z" fill="currentColor" opacity=".92"/><path d="M53 84 L57 66 L50 54 L58 40 L48 30 L54 16 C58 9 65 4 73 4 C85 4 96 13 96 27 C96 46 80 62 53 84 Z" fill="currentColor" opacity=".92" transform="translate(4 3) rotate(6 75 45)"/></svg>':'';
+  const img=post.bg?'<img class="bgb" src="'+base+'img/'+post.bg+'.jpg" alt=""><img class="pi" src="'+base+'img/'+post.bg+'.jpg" alt="">':'';
+  if(post.cv&&post.icon){return '<div class="card rl ic cv cv-'+post.cv+'">'+HEART+'<span class="cvtag">@psicamilasartori</span><div class="rt" style="font-size:'+Math.min(sizeFor(post.hook)*1.05,7.6).toFixed(2)+'cqw"><span>'+nb(esc(post.hook)).replace(/\n/g,'<br>')+'</span></div><span class="rlab">capa sugerida · vídeo a gravar</span></div>'}
+  return '<div class="card rl'+(post.bg?' hasbg':post.icon?' ic':' notxt')+(tp?' at-'+tp:'')+(post.big?' big':'')+'">'+img+HEART+'<div class="rshade"></div><div class="rt" style="font-size:'+fs+'cqw"><span>'+nb(esc(post.hook)).replace(/\n/g,'<br>')+'</span></div><span class="rsig">@psicamilasartori</span><span class="rlab">'+(post.bg?'capa sugerida · vídeo a gravar':'vídeo a gravar')+'</span></div>';
+}
+window.Cards={card,reel,esc,clean};
+})();
+</script>
+<script>
+const P=[{"d": "02/12", "dow": "Qua", "t": "stat", "k": "Estático", "cv": "claro", "cvBold": 1, "fsz": {"0": {"cq": 7.6}}, "slides": ["Você pode fazer tudo\n\nVocê só não pode fazer *tudo ao mesmo tempo*\n\nminha florzinha proativa, multitarefada e ansiosa"], "cap": "Dezembro chegou com aquela lista de mil coisas para fechar o ano, né? 😅\n\nUm lembrete carinhoso: dar conta não é fazer tudo de uma vez. Quando a gente tenta resolver tudo ao mesmo tempo, o corpo cobra: cansaço, irritação e aquela sensação de que nada anda.\n\nEscolha o que é prioridade hoje. O resto pode esperar um pouquinho.\n\nMarca aqui aquela amiga que precisa ler isso 👇", "cta": "Compartilhar / marcar"}, {"d": "04/12", "dow": "Sex", "t": "reel", "k": "Vídeo com foto (humor)", "bg": "espelho", "cap": "A pista tá salgada, e a mente já sabe disso antes mesmo do primeiro \"oi\" 😂\n\nBrincadeiras à parte: depois de algumas decepções, é comum entrar em qualquer relação já esperando o pior. É a mente tentando te proteger. O problema é quando esse medo decide tudo por você.\n\nDá para voltar a se relacionar com mais consciência, reconhecendo os sinais de alerta sem desistir de viver.\n\nQual desses já aconteceu com você? Conta aqui 👇", "cta": "Comentar", "hook": "E se eu começasse a ir em dates de novo?", "script": "1. E se eu começasse a ir em dates de novo?\n2. Mente:\n3. lovebombing\n4. some do nada\n5. não quer nada sério\n6. ainda fala da ex\n7. mora em outro país\n8. é de 2004", "mp4": "vid/04-12.mp4", "note": "Vídeo pronto (9:16, sem áudio): é só baixar, subir no Instagram e escolher uma música em alta. O texto já aparece na tela em sequência."}, {"d": "07/12", "dow": "Seg", "t": "car", "k": "Carrossel", "p40": 1, "cv": "rosa", "photo": "poltrona", "final": "estante", "slides": ["A criança que nunca deu trabalho\n\ne a mulher que ela se tornou", "Ela aprendeu cedo a não incomodar\n\nNão chorava alto, não pedia muito, resolvia tudo sozinha", "Todo mundo elogiava: \"que menina boazinha\"\n\nE ela entendeu que ser amada era *não dar trabalho*", "Hoje, adulta, ela cuida de todo mundo\n\nMas sente culpa quando precisa pedir ajuda", "Diz sim quando queria dizer não\n\nE engole o que sente para manter a paz", "No amor, aceita menos do que merece\n\nPorque aprendeu que *precisar de algo é um peso*", "Na Terapia do Esquema, isso pode estar ligado ao esquema de autossacrifício\n\nUma forma de se proteger que fez sentido lá atrás", "Você não precisa mais ganhar amor sendo invisível\n\nDá para aprender a se colocar, no seu ritmo"], "fsz": {"1": {"cq": 7.8}, "2": {"cq": 7.8}, "3": {"cq": 7.8}, "4": {"cq": 7.8}, "5": {"cq": 7.8}, "6": {"cq": 7.8}}, "cap": "Se você foi a criança que nunca deu trabalho, talvez hoje seja a adulta que nunca pede nada. 💛\n\nMuitas mulheres chegam aos 40, 50 anos cuidando de todo mundo: filhos, pais, parceiro, trabalho. E, quando param para pensar em si mesmas, vem a culpa.\n\nEsse padrão não surgiu do nada. Ele foi aprendido, e por isso também pode ser revisto.\n\nNa terapia individual e no meu curso de autoconhecimento para mulheres, a gente trabalha exatamente isso: entender de onde vêm esses padrões e aprender a se colocar sem culpa. Os dois caminhos, o atendimento individual online e o meu curso de autoconhecimento para mulheres, estão no link da bio. 🌸\n\nMe conta: você se reconheceu nessa criança?", "cta": "Link da bio", "phase": "Público 40+"}, {"d": "09/12", "dow": "Qua", "t": "stat", "k": "Estático com foto", "photo": "livro-esquema", "cvBold": 1, "fsz": {"0": {"cq": 9.5}}, "slides": ["*\"Até não aguentar mais\"*\n\nnão é um bom limite"], "cap": "Sabe quando você só percebe que passou do limite depois que explodiu por uma coisa pequena? 😮‍💨\n\nMuitas vezes, o \"não\" fica guardado até o corpo não aguentar mais: vem o cansaço, a irritação, o choro do nada. Isso acontece porque dizer não costuma vir junto com culpa, medo de decepcionar ou de parecer egoísta.\n\nMas limite não é o que sobra depois de você suportar tudo. Limite é cuidado, e pode ser colocado antes.\n\nSalva este post para lembrar disso quando precisar. 💛", "cta": "Compartilhar / marcar"}, {"d": "11/12", "dow": "Sex", "t": "stat", "k": "Estático estilo tweet (humor)", "cv": "claro", "cvBold": 1, "fsz": {"0": {"cq": 7.6}}, "slides": ["Eu: \"só entra gente doida na minha vida\"\n\nMinha psicóloga: *\"e quem é que abre a porta?\"*"], "cap": "Doeu, mas é verdade 😂\n\nÀs vezes a gente repete o mesmo tipo de relação e jura que é azar. Mas, olhando com calma, aparece um padrão: o que te atrai, o que você tolera e onde você coloca (ou não) limites.\n\nA boa notícia é que, se você abre a porta, também pode aprender a fechar.\n\nMarca aquela amiga que só atrai doido 👇", "cta": "Compartilhar / marcar"}, {"d": "14/12", "dow": "Seg", "t": "car", "k": "Carrossel", "p40": 1, "cv": "rosa", "photo": "castelo2", "final": "janela", "slides": ["Por que uma mulher de 40, livre e de bem com a vida, ainda vira \"tadinha\" na ceia de família?", "\"E o namorado?\"\n\n\"E os filhos, não vai ter?\"\n\n\"Nossa, tão bonita e sozinha…\"", "Em muitas famílias, ainda existe um roteiro pronto para a vida da mulher\n\nE quem sai dele *vira assunto*", "Só que estar sozinha não é o mesmo que estar sobrando\n\nPode ser escolha, pode ser fase, pode ser paz", "Ainda falta uma palavra para a mulher que está bem consigo mesma\n\nMas ela existe, e talvez seja *você*", "Neste Natal, você não precisa se justificar\n\nUm \"estou muito bem, obrigada\" já basta"], "fsz": {"1": {"cq": 7.4}, "2": {"cq": 7.4}, "3": {"cq": 7.4}, "4": {"cq": 7.4}}, "cap": "Quantas vezes você já explicou que estava bem antes mesmo de alguém perguntar? 🙃\n\nDezembro chega e, com ele, as reuniões de família e aquelas perguntas de sempre. Para muitas mulheres de 40, 50 anos, a ceia vira um momento de se justificar: pela carreira, pelo divórcio, por estar sozinha, por não ter tido filhos.\n\nMas a sua vida não precisa caber no roteiro de ninguém.\n\nSe essas cobranças mexem com você, vale olhar com carinho para isso: muitas vezes, elas tocam em crenças que a gente carrega desde a infância. Os dois caminhos, o atendimento individual online e o meu curso de autoconhecimento para mulheres, estão no link da bio. 🌸\n\nE aí, qual pergunta você mais escuta nas festas de fim de ano? 👇", "cta": "Link da bio", "phase": "Público 40+"}, {"d": "16/12", "dow": "Qua", "t": "stat", "k": "Estático com foto", "photo": "livro-amor", "slides": ["A cura não acontece em linha reta\n\nÀs vezes você volta a lugares antigos, só que com outros olhos"], "cap": "Achou que já tinha superado e, de repente, aquilo voltou a doer? Isso não quer dizer que você regrediu. 💛\n\nO processo terapêutico não é uma linha reta, é mais parecido com uma espiral. A gente passa de novo por temas antigos, mas cada vez com mais recursos, mais consciência e mais gentileza consigo mesma.\n\nO que antes te derrubava por semanas hoje pode durar um dia. Isso também é evolução.\n\nSe fez sentido para você, compartilha com alguém que precisa ouvir isso hoje. 🌸", "cta": "Compartilhar / marcar"}, {"d": "18/12", "dow": "Sex", "t": "reel", "k": "Vídeo com foto (humor)", "bg": "gravando", "cap": "Psicólogas do Brasil inteiro se preparando para janeiro 😂\n\nBrincadeiras à parte, as festas de fim de ano podem ativar muita coisa: comentários sobre o corpo, cobranças sobre casamento e filhos, mágoas antigas que voltam à mesa.\n\nTrês lembretes para a ceia:\n• você pode mudar de assunto;\n• você pode sair da conversa;\n• você pode ir embora mais cedo.\n\nCuidar de você também é colocar limites com quem você ama. 💛\n\nMarca aqui quem vai precisar de uma sessão extra em janeiro 👇", "cta": "Comentar", "hook": "Tá chegando aquela época do ano…", "script": "1. Tá chegando aquela época do ano…\n2. em que a família tenta desfazer em uma ceia\n3. o que a terapia levou o ano inteiro para construir", "mp4": "vid/18-12.mp4", "note": "Vídeo pronto (9:16, sem áudio): é só baixar, subir no Instagram e escolher uma música em alta. O texto já aparece na tela em sequência."}, {"d": "21/12", "dow": "Seg", "t": "car", "k": "Carrossel", "p40": 1, "cv": "claro", "photo": "estante", "final": "poltrona", "slides": ["\"Eu tô numa relação boa, mas não sinto nada\"", "Machado de Assis escreveu sobre o prazer de usar uma bota apertada\n\nSó para sentir o alívio de tirá-la no fim do dia", "Muita gente vive o amor assim\n\nA relação só parece boa *quando para de doer*", "Quem viveu anos na gangorra de intensidade e queda aprende que amor é isso\n\nAí a paz parece tédio", "Uma relação tranquila pode parecer sem graça no começo\n\nMas é como um sapato do seu tamanho: *confortável o dia inteiro*", "Talvez o que falte não seja emoção\n\nTalvez seja aprender a reconhecer o que é bom para você"], "fsz": {"1": {"cq": 7.2}, "2": {"cq": 7.2}, "3": {"cq": 7.2}, "4": {"cq": 7.2}}, "cap": "Já sentiu que uma relação tranquila era \"sem graça\"? 🤔\n\nQuando a gente passa anos em relações de altos e baixos, o corpo se acostuma com a intensidade: a briga, a reconciliação, a ansiedade de esperar uma mensagem. Aí, quando chega alguém constante, parece que falta alguma coisa.\n\nNem sempre falta. Às vezes é só o seu corpo estranhando a paz.\n\nIsso não quer dizer que você deva ficar em qualquer relação só porque ela é calma. Quer dizer que vale olhar com cuidado para o que você aprendeu a chamar de amor.\n\nOs dois caminhos, o atendimento individual online e o meu curso de autoconhecimento para mulheres, estão no link da bio. 🌸", "cta": "Link da bio", "phase": "Público 40+"}, {"d": "23/12", "dow": "Qua", "t": "stat", "k": "Estático (humor)", "cv": "rosa", "cvBold": 1, "fsz": {"0": {"cq": 6.6}}, "slides": ["Gostaria de ser removida do programa *\"O que não te mata te fortalece\"*\n\nJá concluí o curso, fiz as provas e aprendi as lições\n\nAgora quero entrar no programa de paz, tranquilidade e coisas boas"], "cap": "Alguém mais quer fazer essa troca de programa para 2027? 🙋‍♀️😂\n\nTem anos que parecem uma maratona de provas. E tudo bem reconhecer que você está cansada de ser forte o tempo todo.\n\nQue o próximo ano te traga mais leveza, e que você também se permita escolher a leveza quando ela estiver ao seu alcance. 💛\n\nComenta um 🙋‍♀️ se você também quer se inscrever no programa novo", "cta": "Comentar"}, {"d": "25/12", "dow": "Sex", "t": "reel", "k": "Vídeo com foto (humor de Natal)", "bg": "castelo", "vt": "top", "cap": "Feliz Natal! 🎄 E, se a sua maior conquista do ano também foi manter a sanidade, saiba que isso já é muita coisa 😂\n\nNem todo ano é de grandes conquistas. Às vezes, atravessar os dias difíceis, cuidar de quem você ama e continuar de pé já é a vitória possível.\n\nHoje, se puder, se dê um pouco do carinho que você distribui para todo mundo. 💛\n\nQual foi a sua maior conquista de 2026? Conta aqui 👇", "cta": "Comentar", "hook": "Minha maior conquista em 2026 foi não ter endoidado", "script": "1. Minha maior conquista em 2026 foi não ter endoidado\n2. Porque oportunidade eu tive\n3. Feliz Natal", "mp4": "vid/25-12.mp4", "note": "Vídeo pronto (9:16, sem áudio): é só baixar, subir no Instagram e escolher uma música em alta. O texto já aparece na tela em sequência."}, {"d": "28/12", "dow": "Seg", "t": "car", "k": "Carrossel", "cv": "flor", "slides": ["Diga algo romântico…", "\"Eu faço terapia para que as minhas feridas não virem um peso para você\"", "\"Prefiro conversar a guardar mágoa\"", "\"Os seus limites não me ameaçam\n\nEles me ajudam a te entender\"", "\"Eu consigo ouvir uma crítica sem ficar na defensiva\"", "\"Comigo, você nunca vai precisar adivinhar o que eu sinto\"", "Amor maduro não é menos romântico\n\nÉ romântico de um jeito que *não te deixa ansiosa*"], "fsz": {"0": {"cq": 10}}, "cap": "Esqueça as declarações de filme: maturidade emocional é muito mais romântica 💛\n\nQuando alguém cuida das próprias feridas, conversa em vez de punir com silêncio e respeita os seus limites, você não precisa viver adivinhando, pisando em ovos ou implorando por atenção.\n\nE isso vale para você também: aprender a se comunicar, colocar limites e cuidar da sua história é uma forma de amar melhor.\n\nQual dessas frases você mais gostaria de ouvir? Me conta nos comentários 👇", "cta": "Comentar"}, {"d": "30/12", "dow": "Qua", "t": "stat", "k": "Estático com foto", "p40": 1, "photo": "janela", "slides": ["Você se tornou alguém que protegeria a menina que você foi\n\nE talvez esse tenha sido o movimento mais bonito do seu ano"], "cap": "Antes de 2026 acabar, um convite: olhe para a menina que você foi. 💛\n\nTalvez ela tenha precisado ser forte cedo demais, se calar para não incomodar ou cuidar de todo mundo antes de ser cuidada. E hoje, mesmo que ainda doa às vezes, você está aprendendo a dar a ela o que faltou: proteção, respeito e limites.\n\nIsso não é pouco. É um dos trabalhos mais corajosos que alguém pode fazer.\n\nSe você quer continuar esse caminho em 2027, eu posso te acompanhar pelo atendimento individual online ou pelo meu curso de autoconhecimento para mulheres. Os dois estão no link da bio. 🌸\n\nFeliz Ano Novo! ✨", "cta": "Link da bio", "phase": "Público 40+"}, {"d": "FIXO 3", "dow": "📌", "t": "stat", "k": "Estático fixado: curso", "fixo": 1, "cv": "rosa", "cvBold": 1, "fsz": {"0": {"cq": 6.4}}, "slides": ["*Curso de autoconhecimento para mulheres*\n\nPara entender os seus padrões, colocar limites e construir relações mais saudáveis\n\nAulas curtas, atividades práticas e acompanhamento em grupo\n\nEm até 12x · link na bio"], "cap": "Você sente que repete os mesmos padrões no amor, na família, nas amizades ou no trabalho? 💭\n\nNo meu curso de autoconhecimento para mulheres, você aprende a entender de onde vêm esses padrões e a construir uma relação mais saudável com você mesma e com os outros, com base na Terapia Cognitivo-Comportamental e na Terapia do Esquema.\n\nVocê encontra:\n✨ vários conteúdos organizados por temas: autoestima, limites, relacionamento amoroso, família, amizades e trabalho;\n✨ aulas curtas, para caber na sua rotina, com PDFs e atividades práticas;\n✨ acompanhamento em grupo;\n✨ 1 ano de acesso e 7 dias de garantia.\n\nDá para parcelar em até 12x. Toque no link da bio para conhecer todos os detalhes. 🌸", "cta": "Link da bio", "phase": "Fixar no perfil · serve de anúncio"}, {"d": "FIXO 2", "dow": "📌", "t": "stat", "k": "Estático fixado: atendimento individual", "fixo": 1, "photo": "poltrona", "slides": ["Vagas abertas para *atendimento individual online*\n\nFale comigo pelo link da bio"], "cap": "Estou com vagas abertas para atendimento individual online. 💛\n\nSe você sente que vive repetindo os mesmos padrões no amor, na família ou no trabalho, se cobra demais, tem dificuldade de dizer não ou sente que está sempre se colocando em último lugar, a terapia pode ser um espaço para entender a sua história com profundidade.\n\nNo meu trabalho, eu uso a Terapia Cognitivo-Comportamental (TCC) e a Terapia do Esquema, abordagens com base científica que ajudam a identificar de onde vêm esses padrões e a construir novas formas de se relacionar com você e com os outros.\n\nSou psicóloga, mestre em Psicologia Clínica e doutoranda em Psicologia, e há quase 10 anos acompanho mulheres nesse caminho.\n\nAs sessões são online, então você pode fazer de onde estiver.\n\nPara conversar comigo, toque no link da bio e me chame no WhatsApp ou preencha o formulário, que eu entro em contato. 🌸", "cta": "Link da bio", "phase": "Fixar no perfil · serve de anúncio"}, {"d": "FIXO 1", "dow": "📌", "t": "car", "k": "Carrossel fixado: como eu posso te ajudar", "fixo": 1, "cv": "claro", "photo": "espelho", "final": "estante", "slides": ["Chegou agora?\n\nEntenda como eu posso te ajudar através da psicologia", "Hoje eu tenho *2 caminhos* para te acompanhar\n\nE os dois são online", "*1. Atendimento individual online*\n\nSessões de terapia comigo, com Terapia Cognitivo-Comportamental e Terapia do Esquema, para olhar com profundidade para a sua história", "*2. Curso de autoconhecimento para mulheres*\n\nAulas curtas, atividades práticas e acompanhamento em grupo para trabalhar autoestima, limites e padrões no amor, na família e no trabalho\n\nEm até 12x", "Os dois caminhos estão no link da bio\n\nMe chame no WhatsApp ou preencha o formulário, que eu entro em contato"], "fsz": {"1": {"cq": 7.6}, "2": {"cq": 6.4}, "3": {"cq": 6.0}}, "cap": "Se você chegou agora por aqui, seja muito bem-vinda! 💛\n\nEu sou a Camila Sartori, psicóloga, mestre em Psicologia Clínica e doutoranda em Psicologia. Há quase 10 anos, acompanho mulheres que querem entender por que repetem as mesmas dores nos relacionamentos, na família e no trabalho.\n\nHoje, eu posso te acompanhar de duas formas, as duas online:\n\n1️⃣ Atendimento individual: sessões de terapia comigo, com base na Terapia Cognitivo-Comportamental e na Terapia do Esquema.\n\n2️⃣ Curso de autoconhecimento para mulheres: aulas curtas, atividades práticas e acompanhamento em grupo, no seu ritmo, com 1 ano de acesso, 7 dias de garantia e parcelamento em até 12x.\n\nNo link da bio, você pode me chamar no WhatsApp, preencher o formulário para eu entrar em contato ou conhecer o curso. 🌸", "cta": "Link da bio", "phase": "Fixar no perfil · serve de anúncio"}];
+const OLD=[0,1,2,3,4,5,6,7,8,9];
+const {card,reel,esc}=window.Cards;
+const playIcon='<svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>';
+const stackIcon='<svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 3h11a3 3 0 0 1 3 3v11h-2V6a1 1 0 0 0-1-1H7z"/><rect x="3" y="7" width="14" height="14" rx="2.5"/></svg>';
+let scen='A',list=[];
+const grid=document.getElementById('grid');
+function render(){
+  list=P.filter(p=>scen==='B'||!p.b).slice().reverse();
+  grid.innerHTML='';
+  list.forEach((p,i)=>{
+    const el=document.createElement('button');
+    el.className='tile'+(p.b&&scen==='B'?' extra':'')+(p.p40?' p40':p.fixo?' fx':'');
+    el.setAttribute('aria-label',p.k+' de '+p.d);
+    el.innerHTML=(p.t==='reel'?reel(p):card(p,0))+(p.t==='car'?stackIcon:p.t==='reel'?playIcon:'')+'<span class="date">'+p.dow+' '+p.d+'</span>';
+    el.addEventListener('click',()=>openPost(i));
+    grid.appendChild(el);
+  });
+  OLD.forEach(o=>{const d=document.createElement('div');d.className='tile old';d.innerHTML='<img src="img/old'+o+'.jpg" alt="Post já publicado">';grid.appendChild(d)});
+  const n=list.length,c=list.filter(p=>p.t==='car').length,s=list.filter(p=>p.t==='stat').length,r=n-c-s;
+  const fal=list.filter(p=>/falado|React|Teatrinho/.test(p.k)).length;
+  document.getElementById('summary').textContent=(n-3)+' posts em dezembro + 3 posts fixos. No mês: '+r+' vídeos com foto, '+(c-1)+' carrosséis e '+(s-2)+' estáticos.';
+  document.getElementById('nposts').textContent=(689+n).toLocaleString('pt-BR');
+  document.getElementById('legB').hidden=scen!=='B';
+  document.getElementById('btnA').setAttribute('aria-pressed',scen==='A');
+  document.getElementById('btnB').setAttribute('aria-pressed',scen==='B');
+}
+document.getElementById('btnA').onclick=()=>{scen='A';render()};
+document.getElementById('btnB').onclick=()=>{scen='B';render()};
+const lb=document.getElementById('lb'),media=document.getElementById('media'),info=document.getElementById('info');
+let idx=0,cur=null,lastFocus=null,nSl=1;
+function openPost(i){
+  cur=list[i];idx=0;lastFocus=document.activeElement;
+  document.getElementById('meta').textContent=(cur.fixo?'Post fixo · ':cur.dow+' '+cur.d+'/2026 · ')+cur.k;
+  if(cur.t==='reel'){
+    nSl=1;media.innerHTML=cur.mp4?'<div class="stage reel"><video src="'+cur.mp4+'" controls autoplay muted loop playsinline style="width:100%;height:100%;object-fit:cover;display:block"></video></div><p class="safe">O arquivo MP4 está no pacote de dezembro (zip).</p>':'<div class="stage reel">'+reel(cur)+'</div><p class="safe">Entre as linhas tracejadas fica o que aparece na grade do feed. O texto da capa precisa ficar dentro dessa área.</p>';
+  }else{
+    nSl=cur.slides.length;const many=nSl>1;
+    media.innerHTML='<div class="stage"><div class="vp"><div class="track" id="track">'+cur.slides.map((s,k)=>card(cur,k)).join('')+'</div></div>'+(many?'<button class="nav prev" id="prev" aria-label="Card anterior">‹</button><button class="nav next" id="next" aria-label="Próximo card">›</button>':'')+'</div>'+(many?'<div class="pd">'+cur.slides.map(()=>'<i></i>').join('')+'</div>':'');
+    if(many){
+      document.getElementById('prev').onclick=()=>go(-1);document.getElementById('next').onclick=()=>go(1);
+      const t=document.getElementById('track');let x0=null;
+      t.addEventListener('touchstart',e=>{x0=e.touches[0].clientX},{passive:true});
+      t.addEventListener('touchend',e=>{if(x0===null)return;const d=e.changedTouches[0].clientX-x0;if(Math.abs(d)>40)go(d<0?1:-1);x0=null});
+      go(0);
+    }
+  }
+  let h='';
+  if(cur.phase)h+='<span class="phase">'+esc(cur.phase)+'</span>';
+  if(cur.note)h+='<div class="box"><b>Observação</b>'+esc(cur.note)+'</div>';
+  if(cur.refUrl)h+='<a class="reflink" href="'+esc(cur.refUrl)+'" target="_blank" rel="noopener">▶ '+esc(cur.refLabel||'Ver o vídeo de referência')+'</a>';
+  if(cur.fmtUrl)h+='<a class="reflink" href="'+esc(cur.fmtUrl)+'" target="_blank" rel="noopener">▶ Vídeo de referência do formato: como gravar o react</a>';
+  if(cur.scene)h+='<div class="box vid"><b>Vídeo sugerido para você gravar'+(cur.dur?' · '+esc(cur.dur):'')+'</b>'+esc(cur.scene)+'</div>';
+  if(cur.script)h+='<div class="box"><b>'+(/falado/.test(cur.k)?'Roteiro':'Roteiro / sequência')+'</b>'+esc(cur.script)+'</div>';
+  h+='<div><span class="lab">'+esc(cur.capLabel||'Legenda')+'</span><p class="cap">'+esc(cur.cap)+'</p></div>';
+  if(cur.alt)h+='<div><span class="lab">'+esc(cur.altLabel)+'</span><p class="cap">'+esc(cur.alt)+'</p></div>';
+  h+='<p class="ref">CTA: '+esc(cur.cta)+(cur.ref?' · Referência: '+esc(cur.ref):'')+'</p>';
+  info.innerHTML=h;info.scrollTop=0;
+  lb.hidden=false;document.getElementById('close').focus();
+}
+function go(d){
+  idx=Math.max(0,Math.min(nSl-1,idx+d));
+  document.getElementById('track').style.transform='translateX(-'+(idx*100)+'%)';
+  media.querySelectorAll('.pd i').forEach((e,k)=>e.classList.toggle('on',k===idx));
+  document.getElementById('prev').hidden=idx===0;document.getElementById('next').hidden=idx===nSl-1;
+}
+function closeLb(){lb.hidden=true;media.innerHTML='';if(lastFocus)lastFocus.focus()}
+document.getElementById('close').onclick=closeLb;
+lb.addEventListener('click',e=>{if(e.target===lb)closeLb()});
+document.addEventListener('keydown',e=>{if(lb.hidden)return;if(e.key==='Escape')closeLb();if(nSl>1){if(e.key==='ArrowRight')go(1);if(e.key==='ArrowLeft')go(-1)}});
+render();
+</script>
