@@ -65,25 +65,38 @@ O ciclo se repete a cada mês.
 - Comunidade do WhatsApp como canal de venda cruzada entre frentes, sem custo de mídia (ex.: cliente do Portal pode virar lead de Seguros ou Mentoria).
 - Blog e LinkedIn como prioridade secundária, dado o time enxuto.
 
-## Tabela final — investimento mensal por frente
+## Visão geral de orçamento por dia (always-on)
 
-Valores considerando mês de 30 dias, com base nos valores sugeridos acima. O impulsionamento always-on da Meta (R$25/dia) é conteúdo geral compartilhado entre as frentes (cortes de podcast e divulgação geral), por isso aparece à parte, não alocado a uma frente específica.
+| Campanha | Por dia |
+|---|---|
+| Google · Corretora de Seguros | R$20 |
+| Google · Expansão Estratégica (Sessão Estratégica) | R$20 |
+| Google · Hub de Negócios (Área Comum) | R$10 |
+| Meta · Impulsionamento geral (conteúdo, autoridade) | R$25 |
+| Meta · Dark post rotativo (uma frente por semana) | R$25 |
+| **Total por dia** | **R$100** |
 
-| Frente | Google/mês | Meta (dark post)/mês | Total da frente/mês |
-|---|---|---|---|
-| Expansão Estratégica Imobiliária (Sessão Estratégica/Diagnóstico/Mentoria) | R$600 | R$190 (semana 1) | **R$790** |
-| Eleva Corretora de Seguros | R$600 | R$190 (semana 2) | **R$790** |
-| Eleva Hub de Negócios (Área Comum + rede ganha-ganha) | R$300 | R$380 (semanas 3 e 4) | **R$680** |
-| Conteúdo geral (Meta always-on, compartilhado entre todas as frentes) | — | R$750 | **R$750** |
-| **Cursos** (pontual, fora do always-on) | variável, por lançamento | — | a combinar por campanha |
+Cursos ficam fora do always-on, são campanhas pontuais por data de lançamento/turma, valor a combinar quando houver.
 
-**Total geral por canal:**
+## Tabela final — investimento mensal, por canal e por frente
+
+Mês de 30 dias. O impulsionamento always-on da Meta (R$25/dia = R$750/mês) é conteúdo geral intercalado entre todas as frentes (cortes de podcast, divulgação geral) — não dá para dividir por frente, porque o mesmo post pode falar de mais de uma coisa ao longo do mês.
+
+| Frente | Google/mês | Meta (dark post)/mês | Total da frente/mês | Sai do bolso de |
+|---|---|---|---|---|
+| Expansão Estratégica Imobiliária (Sessão Estratégica/Diagnóstico/Mentoria) | R$600 | R$190 (semana 1) | **R$790** | Giuliano, sem sócio |
+| Eleva Corretora de Seguros | R$600 | R$190 (semana 2) | **R$790** | Giuliano + sócios (dividir) |
+| Eleva Hub de Negócios (Área Comum + rede ganha-ganha) | R$300 | R$380 (semanas 3 e 4) | **R$680** | Giuliano + sócios (dividir) |
+| Conteúdo geral / autoridade (Meta always-on, não divisível por frente) | — | R$750 | **R$750** | Giuliano, sem sócio |
+| **Cursos** (pontual, fora do always-on) | variável, por lançamento | — | a combinar por campanha | — |
+
+**Total geral por canal (Eleva como um todo):**
 - Google Ads: **R$1.500/mês**
 - Meta Ads: **R$1.500/mês** (R$750 impulsionamento geral + R$750 dark post rotativo)
 
 **Total geral de mídia paga: R$3.000/mês**
 
-Como a Corretora de Seguros e o Hub de Negócios têm sócios que dividem o custo, o Giuliano pode usar as colunas de cada frente (R$790/mês para Seguros e R$680/mês para o Hub) como base para ratear com os sócios. O investimento da Expansão Estratégica e o conteúdo geral ficam por conta da Eleva (não têm sócio envolvido, pelo que entendemos).
+Pra dividir com os sócios: a Corretora de Seguros soma R$790/mês (R$600 Google + R$190 Meta) e o Hub de Negócios soma R$680/mês (R$300 Google + R$380 Meta). Esses dois valores são a base de rateio com os sócios de cada frente. A Expansão Estratégica (R$790/mês) e o conteúdo geral de autoridade (R$750/mês) ficam só com o Giuliano, sem sócio envolvido.
 
 ## Resumo da lógica
 
