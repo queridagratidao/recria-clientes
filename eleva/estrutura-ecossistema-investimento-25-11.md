@@ -65,6 +65,26 @@ O ciclo se repete a cada mês.
 - Comunidade do WhatsApp como canal de venda cruzada entre frentes, sem custo de mídia (ex.: cliente do Portal pode virar lead de Seguros ou Mentoria).
 - Blog e LinkedIn como prioridade secundária, dado o time enxuto.
 
+## Tabela final — investimento mensal por frente
+
+Valores considerando mês de 30 dias, com base nos valores sugeridos acima. O impulsionamento always-on da Meta (R$25/dia) é conteúdo geral compartilhado entre as frentes (cortes de podcast e divulgação geral), por isso aparece à parte, não alocado a uma frente específica.
+
+| Frente | Google/mês | Meta (dark post)/mês | Total da frente/mês |
+|---|---|---|---|
+| Expansão Estratégica Imobiliária (Sessão Estratégica/Diagnóstico/Mentoria) | R$600 | R$190 (semana 1) | **R$790** |
+| Eleva Corretora de Seguros | R$600 | R$190 (semana 2) | **R$790** |
+| Eleva Hub de Negócios (Área Comum + rede ganha-ganha) | R$300 | R$380 (semanas 3 e 4) | **R$680** |
+| Conteúdo geral (Meta always-on, compartilhado entre todas as frentes) | — | R$750 | **R$750** |
+| **Cursos** (pontual, fora do always-on) | variável, por lançamento | — | a combinar por campanha |
+
+**Total geral por canal:**
+- Google Ads: **R$1.500/mês**
+- Meta Ads: **R$1.500/mês** (R$750 impulsionamento geral + R$750 dark post rotativo)
+
+**Total geral de mídia paga: R$3.000/mês**
+
+Como a Corretora de Seguros e o Hub de Negócios têm sócios que dividem o custo, o Giuliano pode usar as colunas de cada frente (R$790/mês para Seguros e R$680/mês para o Hub) como base para ratear com os sócios. O investimento da Expansão Estratégica e o conteúdo geral ficam por conta da Eleva (não têm sócio envolvido, pelo que entendemos).
+
 ## Resumo da lógica
 
 A meta é fazer "um pouco de cada coisa" entrar todo mês: um pouco de lead aqui, uma venda ali, a Geórgia atendendo em várias frentes ao mesmo tempo, a Amanda otimizando campanha e conteúdo em cada uma. Assim, nenhuma frente fica 100% responsável pelo resultado do mês, e o ecossistema todo vai girando junto.
