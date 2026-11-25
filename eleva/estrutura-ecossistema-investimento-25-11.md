@@ -1,5 +1,7 @@
 # Estrutura do Ecossistema Eleva e Sugestão de Investimento em Mídia
-**RECRIA Marketing, 25/11/2026**
+**RECRIA Marketing, 25/11/2026 (atualizado após a reunião do dia)**
+
+**Nota**: o nome do guarda-chuva muda de "Eleva Group" para "Ecossistema Eleva", e o Giuliano vai gravar um vídeo avisando a mudança para o grupo do WhatsApp. A mudança de nome nos materiais acontece assim que esse vídeo for enviado.
 
 ---
 
@@ -9,10 +11,10 @@ Com verba limitada e equipe enxuta (Amanda cuidando de todo o marketing, e a Ge�
 
 ## Estrutura do ecossistema
 
-**Eleva Group**
+**Ecossistema Eleva**
 
 - **Eleva Expansão Estratégica Imobiliária**
-  - Cursos: Formação de Síndico Profissional, Aprofundamento de Síndico Profissional, Multiplicar Vendas para Condomínios (fornecedor, síndico, gestor, imobiliária)
+  - Cursos (Hotmart, perpétuos, sem matrícula/lançamento, compra e consome quando quiser): Formação de Síndico Profissional, Aprofundamento de Síndico Profissional, Multiplicar Vendas para Condomínios (fornecedor, síndico, gestor, imobiliária)
   - Sessão Estratégica
   - Diagnóstico
   - Mentoria
@@ -22,8 +24,13 @@ Com verba limitada e equipe enxuta (Amanda cuidando de todo o marketing, e a Ge�
   - Venda de seguro para condomínio, via indicação do síndico parceiro ou fechamento direto
 
 - **Eleva Hub de Negócios**
-  - Área Comum (SaaS, portal do condomínio)
   - Rede ganha-ganha (parcerias entre fornecedores/síndicos, ainda em desenvolvimento)
+  - Espaço físico de cowork para locação (reuniões de síndicos etc, na sala nova)
+
+- **Eleva Sistemas** *(novo pilar, separado do Hub de Negócios)*
+  - Área Comum (SaaS, portal do condomínio)
+  - Entrando na App Store (aguardando aprovação)
+  - Meta de 50 pagantes para cobrir os custos
 
 - **Conteúdo e autoridade** (transversal, alimenta todas as frentes acima)
   - Elevacast (podcast)
@@ -40,7 +47,7 @@ Com verba limitada e equipe enxuta (Amanda cuidando de todo o marketing, e a Ge�
 |---|---|---|
 | Corretora de Seguros | Always-on, ~R$15-20/dia | Maior intenção de busca direta ("seguro condomínio", "seguro síndico") |
 | Sessão Estratégica / Diagnóstico / Mentoria | Always-on, ~R$15-20/dia | Mesmo modelo que já funciona em outra empresa (lead a R$20/dia) |
-| Área Comum (Portal) | Always-on reduzido, ~R$10/dia | Reduzir, mas não zerar, dando tempo de maturar sem mudar de rumo |
+| Área Comum / Eleva Sistemas (Portal) | Always-on reduzido, ~R$10/dia | Reduzir, mas não zerar, dando tempo de maturar sem mudar de rumo |
 | Cursos | Pontual, por data de lançamento/turma | Curso funciona melhor em janela de matrícula, não em always-on |
 
 ### Meta Ads — R$50/dia, dividido em 2 campanhas
@@ -53,8 +60,8 @@ Com verba limitada e equipe enxuta (Amanda cuidando de todo o marketing, e a Ge�
 |---|---|---|
 | 1 | Sessão Estratégica | Porta de entrada, lead mais barato. Diagnóstico e Mentoria são oferecidos dentro da própria sessão, não anunciados diretamente. Depende do bolso pessoal do síndico/fornecedor, por isso logo após o pagamento |
 | 2 | Corretora de Seguros | Quem paga é o condomínio, não o síndico, então não depende do momento do bolso pessoal |
-| 3 | Área Comum | Teste de 30 dias grátis, cobrança só no mês seguinte — o momento do mês é indiferente |
-| 4 | Hub de Negócios | Relação de parceria ganha-ganha, sem pagamento direto |
+| 3 | Área Comum / Eleva Sistemas | Teste de 30 dias grátis, cobrança só no mês seguinte — o momento do mês é indiferente |
+| 4 | Hub de Negócios (cowork e rede ganha-ganha) | Relação de parceria ganha-ganha ou locação do espaço, sem pagamento recorrente fixo |
 
 O ciclo se repete a cada mês.
 
@@ -86,7 +93,8 @@ Mês de 30 dias. O impulsionamento always-on da Meta (R$25/dia = R$750/mês) é 
 |---|---|---|---|---|
 | Expansão Estratégica Imobiliária (Sessão Estratégica/Diagnóstico/Mentoria) | R$600 | R$190 (semana 1) | **R$790** | Giuliano, sem sócio |
 | Eleva Corretora de Seguros | R$600 | R$190 (semana 2) | **R$790** | Giuliano + sócios (dividir) |
-| Eleva Hub de Negócios (Área Comum + rede ganha-ganha) | R$300 | R$380 (semanas 3 e 4) | **R$680** | Giuliano + sócios (dividir) |
+| Eleva Sistemas (Área Comum) | R$300 | R$190 (semana 3) | **R$490** | Giuliano + sócios (dividir) |
+| Eleva Hub de Negócios (cowork + rede ganha-ganha) | — | R$190 (semana 4) | **R$190** | Giuliano + sócios (dividir) |
 | Conteúdo geral / autoridade (Meta always-on, não divisível por frente) | — | R$750 | **R$750** | Giuliano, sem sócio |
 | **Cursos** (pontual, fora do always-on) | variável, por lançamento | — | a combinar por campanha | — |
 
@@ -96,7 +104,7 @@ Mês de 30 dias. O impulsionamento always-on da Meta (R$25/dia = R$750/mês) é 
 
 **Total geral de mídia paga: R$3.000/mês**
 
-Pra dividir com os sócios: a Corretora de Seguros soma R$790/mês (R$600 Google + R$190 Meta) e o Hub de Negócios soma R$680/mês (R$300 Google + R$380 Meta). Esses dois valores são a base de rateio com os sócios de cada frente. A Expansão Estratégica (R$790/mês) e o conteúdo geral de autoridade (R$750/mês) ficam só com o Giuliano, sem sócio envolvido.
+Para dividir com os sócios: a Corretora de Seguros soma R$790/mês (R$600 Google + R$190 Meta), o Eleva Sistemas soma R$490/mês (R$300 Google + R$190 Meta), e o Hub de Negócios soma R$190/mês (só Meta). Esses valores são a base de rateio com os sócios de cada frente. A Expansão Estratégica (R$790/mês) e o conteúdo geral de autoridade (R$750/mês) ficam só com o Giuliano, sem sócio envolvido.
 
 ## Resumo da lógica
 
