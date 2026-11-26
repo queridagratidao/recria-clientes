@@ -490,3 +490,23 @@ _c['legenda'] = _c['legenda'].replace('o que a Luciana Arruda escreveu', 'o que 
 _j = _por_id['REF-261211']
 _j['legenda'] = _j['legenda'].replace('No Refúgio, ele conduz sessões de Constelação Familiar e Reiki.', 'No Refúgio, ele conduz sessões de Constelação Familiar.')
 _j['nota'] = 'Jean pediu para tirar o Reiki do que ele conduz no Refúgio (quem conduz é a Daniela).'
+
+# ---------- nada foi postado até 26/11: novo encaixe ----------
+_por_id = {it['id']: it for it in ITENS}
+def _mover(i, data, dia):
+    it = _por_id[i]; it.update(data=data, dia=dia, id=f'REF-{data[2:4]}{data[5:7]}{data[8:10]}')
+_lv = _por_id['REF-261120']
+_lv['legenda'] = _lv['legenda'].replace('E o tema deste mês? Ele ainda está sendo recebido. Antes de cada Louvação, passamos por um processo de preparo e escuta espiritual para receber a mensagem que vai guiar o encontro. Assim que ela chegar, a gente conta aqui.',
+    f'O tema deste mês é a {TEMA_NOV}.\n\n{FRASE}')
+_mover('REF-261120', '2026-11-26', 'Quinta')
+_mover('REF-261211', '2027-01-07', 'Quinta')     # Jean depois de Daniela e Joelson
+_por_id['REF-261211']['dia'] = 'Quarta'
+_mover('REF-261125', '2026-12-11', 'Sexta')      # Daniela e Joelson antes do Jean
+_mover('REF-261123', '2027-01-05', 'Segunda')    # ciência
+# legendas que citavam posts que mudaram de lugar
+_r = _por_id['REF-261207']
+_r['legenda'] = _r['legenda'].replace(' E lembra do nosso post sobre a ciência? Programas de meditação já mostraram redução de ansiedade em estudos.', ' Programas de meditação já mostraram redução de ansiedade em estudos.')
+# 18/12: foto do Jean sorrindo (a da Daniela com o gato já aparece em 11/12)
+_l = _por_id['REF-261218']; _a = _l['arte']; _k = dict(_a[5]); _k['fy'] = 0.15
+_l['arte'] = ('foto', J(126), _a[2], _a[3], _a[4], _k); _l['foto'] = 'Jean sorrindo (126)'
+ITENS.sort(key=lambda it: it['data'])

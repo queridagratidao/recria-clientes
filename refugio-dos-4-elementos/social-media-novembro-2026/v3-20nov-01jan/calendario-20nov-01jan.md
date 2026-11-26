@@ -4,16 +4,14 @@ Cronograma de recuperação: segunda, quarta e sexta até 01/01. Visual novo, 4 
 
 | Data | Formato | Tema | Status |
 |---|---|---|---|
-| Sex 20/11 | estatico | Louvação de novembro · sábado, 28/11 | rascunho |
-| Seg 23/11 | carrossel | O que a ciência já diz sobre as terapias integrativas | rascunho |
-| Qua 25/11 | estatico | Daniela e Joelson: a casa onde o Refúgio acontece | rascunho |
+| Qui 26/11 | estatico | Louvação de novembro · sábado, 28/11 | rascunho |
 | Sex 27/11 | reels | Louvação: é amanhã (Louvação ao Seu Zé Pilintra) | rascunho |
 | Seg 30/11 | carrossel | Comentário de quem confia no nosso trabalho | rascunho |
 | Qua 02/12 | reels | Honrar quem veio antes (ancestralidade) | rascunho |
 | Sex 04/12 | estatico | Louvação de dezembro | rascunho |
 | Seg 07/12 | reels | Respiração de 3 minutos para desacelerar | rascunho |
 | Qua 09/12 | estatico | Antes de qualquer terapia, existe uma conversa | rascunho |
-| Sex 11/12 | estatico | Prazer, Jean Carlos | rascunho |
+| Sex 11/12 | estatico | Daniela e Joelson: a casa onde o Refúgio acontece | rascunho |
 | Seg 14/12 | estatico | Mito: preciso ter religião para fazer terapia holística | rascunho |
 | Qua 16/12 | estatico | 3 sinais de que você carrega algo que não é seu | rascunho |
 | Sex 18/12 | estatico | Louvação de dezembro: é amanhã | rascunho |
@@ -23,14 +21,16 @@ Cronograma de recuperação: segunda, quarta e sexta até 01/01. Visual novo, 4 
 | Seg 28/12 | carrossel | O Refúgio não é para todo mundo. E tudo bem. | rascunho |
 | Qua 30/12 | reels | O que você não quer levar para 2027? | rascunho |
 | Sex 01/01 | estatico | Feliz Ano Novo | rascunho |
+| Seg 05/01 | carrossel | O que a ciência já diz sobre as terapias integrativas | rascunho |
+| Qua 07/01 | estatico | Prazer, Jean Carlos | rascunho |
 
 ## O que falta
 
 - Reels de 27/11, 02/12 e 30/12: a Amanda coloca a música e devolve.
 - Foto do Jean e a do perfil: Jean pediu para manter como está.
 
-## 20/11 · Sexta · Louvação de novembro · sábado, 28/11
-**Formato:** estatico · **Arquivos:** 2026-11-20_sex.jpg
+## 26/11 · Quinta · Louvação de novembro · sábado, 28/11
+**Formato:** estatico · **Arquivos:** 2026-11-26_qui.jpg
 **Foto:** Daniela em oração (182)
 **Objetivo:** Evento do mês (atrasado do dia 06/11): divulgar data e gerar lista no direct
 
@@ -44,65 +44,15 @@ Tem dias em que a gente não precisa de respostas. Precisa só de um lugar para 
 📍 Quintal de Ogum, Cuiabá
 🙏 Aberto a qualquer pessoa, de qualquer religião ou crença
 
-E o tema deste mês? Ele ainda está sendo recebido. Antes de cada Louvação, passamos por um processo de preparo e escuta espiritual para receber a mensagem que vai guiar o encontro. Assim que ela chegar, a gente conta aqui.
+O tema deste mês é a Louvação ao Seu Zé Pilintra.
+
+Louvar é agradecer, é honrar e é fortalecer nossa caminhada espiritual.
 
 Quer receber o horário e as orientações? Comenta LOUVAÇÃO que a gente te chama no direct.
 
 E se alguém aí perto está precisando de um encontro assim, manda esse post pra ela. 💛
 
 **Nota:** Saiu de 19/11 para 20/11 (novo cronograma). Louvação no último sábado, 28/11.
-
-## 23/11 · Segunda · O que a ciência já diz sobre as terapias integrativas
-**Formato:** carrossel · **Arquivos:** 2026-11-23_seg_carrossel-1.jpg, 2026-11-23_seg_carrossel-2.jpg, 2026-11-23_seg_carrossel-3.jpg, 2026-11-23_seg_carrossel-4.jpg, 2026-11-23_seg_carrossel-5.jpg
-**Foto:** Capa: equipe no estúdio (foto enviada pela Daniela). Demais cards só texto.
-**Objetivo:** Autoridade e quebra da objeção "isso é só crença" (carrossel do mês)
-
-**Legenda:**
-
-"Isso aí é só crença."
-
-Se você já ouviu (ou pensou) isso, esse post é pra você. 🤍
-
-A verdade é que várias terapias integrativas já são estudadas pela ciência, e algumas fazem parte do SUS há anos:
-
-🌿 Desde 2017, Reiki, Meditação e Yoga estão na Política Nacional de Práticas Integrativas do Ministério da Saúde. Em 2018 entraram também Aromaterapia, Constelação Familiar e Cromoterapia.
-
-🧘 Uma revisão da Universidade Johns Hopkins, com 47 estudos e mais de 3.500 pessoas, mostrou que a meditação mindfulness ajuda a reduzir ansiedade, depressão e dor (JAMA Internal Medicine, 2014).
-
-✋ Uma revisão de 2024, com 824 adultos, encontrou redução da ansiedade com o Reiki (BMC Palliative Care). Os autores pedem mais estudos, e a gente concorda.
-
-É por isso que, aqui no Refúgio, as terapias são complementares: elas caminham junto com o acompanhamento médico e psicológico, nunca no lugar dele.
-
-Ciência e espiritualidade não precisam brigar. 🤍
-
-Salva esse post e manda pra quem ainda acha que é "só crença".
-
-📍 Cuiabá/MT e online
-
-**Nota:** Fontes: Ministério da Saúde, Portaria nº 849/2017 (inclui Reiki e Meditação; definição do Reiki citada) e Portaria nº 702/2018; CONASS, 12/03/2018 (10 novas práticas, total de 29); Goyal et al., JAMA Internal Medicine, 2014 (47 estudos, 3.515 participantes); Guo et al., BMC Palliative Care, 2024 (13 estudos, 824 participantes).
-
-## 25/11 · Quarta · Daniela e Joelson: a casa onde o Refúgio acontece
-**Formato:** estatico · **Arquivos:** 2026-11-25_qua.jpg
-**Foto:** Daniela com o gato no jardim (foto enviada pela Daniela)
-**Objetivo:** Conexão e confiança: apresentar os cofundadores antes do resto da equipe
-
-**Legenda:**
-
-Todo refúgio começa com alguém que decide abrir a porta. A nossa é, literalmente, a porta de uma casa. 🏡
-
-O Refúgio nasceu com a Daniela e o Joelson. É na casa deles, o Quintal de Ogum, em Cuiabá, que acontecem os nossos encontros presenciais e a Louvação. Há 3 anos, eles recebem ali pessoas carregando histórias, medos e padrões que já não fazem mais sentido.
-
-A Daniela é consteladora familiar, aromaterapeuta, cristaloterapeuta e reikiana. O Joelson também é constelador, aromaterapeuta, cristaloterapeuta e reikiano, e conduz as terapias na cachoeira. Os dois atendem com Passe Energético.
-
-Mas, mais do que a formação, o que define os dois é o jeito de receber: sem pressa, sem julgamento e com a casa aberta para quem chega.
-
-Hoje o Refúgio é uma equipe, e nas próximas semanas você vai conhecer mais gente que cuida de você por aqui.
-
-Comenta REFÚGIO se quiser conversar com a gente. 🤍
-
-📍 Cuiabá/MT e online
-
-**Nota:** Formação contada em texto corrido em vez de lista (soava currículo). Validar com Daniela e Joelson.
 
 ## 27/11 · Sexta · Louvação: é amanhã (Louvação ao Seu Zé Pilintra)
 **Formato:** reels · **Arquivos:** 2026-11-27_sex.jpg, 2026-11-27_sex_reel.mp4
@@ -217,7 +167,7 @@ Esse é um exercício simples que o Jean, condutor de meditação aqui do Refúg
 4️⃣ Repita por 3 minutos, levando a atenção só para o ar que entra e sai.
 5️⃣ Se a mente fugir, tudo bem. Perceba e volte para a respiração, sem brigar com você.
 
-Soltar o ar mais devagar do que puxou ajuda o corpo a sair do modo alerta. E lembra do nosso post sobre a ciência? Programas de meditação já mostraram redução de ansiedade em estudos.
+Soltar o ar mais devagar do que puxou ajuda o corpo a sair do modo alerta. Programas de meditação já mostraram redução de ansiedade em estudos.
 
 Se sentir tontura ou desconforto, volte a respirar no seu ritmo normal.
 
@@ -257,28 +207,28 @@ Comenta REFÚGIO que a gente começa por essa conversa.
 
 **Nota:** Abre com a fala de quem chega (gancho) e explica a entrevista prévia.
 
-## 11/12 · Sexta · Prazer, Jean Carlos
+## 11/12 · Sexta · Daniela e Joelson: a casa onde o Refúgio acontece
 **Formato:** estatico · **Arquivos:** 2026-12-11_sex.jpg
-**Foto:** Jean no jardim (329)
-**Objetivo:** Conexão com a equipe (depois dos cofundadores)
+**Foto:** Daniela com o gato no jardim (foto enviada pela Daniela)
+**Objetivo:** Conexão e confiança: apresentar os cofundadores antes do resto da equipe
 
 **Legenda:**
 
-Há algumas semanas você conheceu a Daniela e o Joelson, que abriram a casa deles para o Refúgio nascer. Hoje a gente te apresenta mais alguém que cuida de você por aqui. 🤍
+Todo refúgio começa com alguém que decide abrir a porta. A nossa é, literalmente, a porta de uma casa. 🏡
 
-Esse é o Jean Carlos Amorim.
+O Refúgio nasceu com a Daniela e o Joelson. É na casa deles, o Quintal de Ogum, em Cuiabá, que acontecem os nossos encontros presenciais e a Louvação. Há 3 anos, eles recebem ali pessoas carregando histórias, medos e padrões que já não fazem mais sentido.
 
-Constelador familiar, analista visual, sistêmico e comportamental, mestre em Reiki, condutor de meditação e cromoterapeuta. Mas quem já passou por uma sessão com ele costuma lembrar de outra coisa: da escuta.
+A Daniela é consteladora familiar, aromaterapeuta, cristaloterapeuta e reikiana. O Joelson também é constelador, aromaterapeuta, cristaloterapeuta e reikiano, e conduz as terapias na cachoeira. Os dois atendem com Passe Energético.
 
-O Jean é daqueles que percebem o que o corpo e o jeito de falar dizem antes mesmo das palavras. Por isso, antes de indicar qualquer caminho, ele escuta. Com calma.
+Mas, mais do que a formação, o que define os dois é o jeito de receber: sem pressa, sem julgamento e com a casa aberta para quem chega.
 
-No Refúgio, ele conduz sessões de Constelação Familiar.
+Hoje o Refúgio é uma equipe, e nas próximas semanas você vai conhecer mais gente que cuida de você por aqui.
 
-Quer conversar com o Jean sobre o que você está vivendo? Comenta REFÚGIO que a gente te chama no direct.
+Comenta REFÚGIO se quiser conversar com a gente. 🤍
 
 📍 Cuiabá/MT e online
 
-**Nota:** Jean pediu para tirar o Reiki do que ele conduz no Refúgio (quem conduz é a Daniela).
+**Nota:** Formação contada em texto corrido em vez de lista (soava currículo). Validar com Daniela e Joelson.
 
 ## 14/12 · Segunda · Mito: preciso ter religião para fazer terapia holística
 **Formato:** estatico · **Arquivos:** 2026-12-14_seg.jpg
@@ -340,7 +290,7 @@ E salva pra ler de novo quando precisar.
 
 ## 18/12 · Sexta · Louvação de dezembro: é amanhã
 **Formato:** estatico · **Arquivos:** 2026-12-18_sex.jpg
-**Foto:** Daniela com o gato no jardim (foto enviada pela Daniela)
+**Foto:** Jean sorrindo (126)
 **Objetivo:** Lembrete do evento + revelação do tema
 
 **Legenda:**
@@ -502,6 +452,58 @@ Com carinho,
 Daniela, Joelson e toda a equipe do Refúgio dos 4 Elementos ✨
 
 **Nota:** Se tiver o arquivo original dessa foto, trocar para ganhar nitidez.
+
+## 05/01 · Segunda · O que a ciência já diz sobre as terapias integrativas
+**Formato:** carrossel · **Arquivos:** 2027-01-05_seg_carrossel-1.jpg, 2027-01-05_seg_carrossel-2.jpg, 2027-01-05_seg_carrossel-3.jpg, 2027-01-05_seg_carrossel-4.jpg, 2027-01-05_seg_carrossel-5.jpg
+**Foto:** Capa: equipe no estúdio (foto enviada pela Daniela). Demais cards só texto.
+**Objetivo:** Autoridade e quebra da objeção "isso é só crença" (carrossel do mês)
+
+**Legenda:**
+
+"Isso aí é só crença."
+
+Se você já ouviu (ou pensou) isso, esse post é pra você. 🤍
+
+A verdade é que várias terapias integrativas já são estudadas pela ciência, e algumas fazem parte do SUS há anos:
+
+🌿 Desde 2017, Reiki, Meditação e Yoga estão na Política Nacional de Práticas Integrativas do Ministério da Saúde. Em 2018 entraram também Aromaterapia, Constelação Familiar e Cromoterapia.
+
+🧘 Uma revisão da Universidade Johns Hopkins, com 47 estudos e mais de 3.500 pessoas, mostrou que a meditação mindfulness ajuda a reduzir ansiedade, depressão e dor (JAMA Internal Medicine, 2014).
+
+✋ Uma revisão de 2024, com 824 adultos, encontrou redução da ansiedade com o Reiki (BMC Palliative Care). Os autores pedem mais estudos, e a gente concorda.
+
+É por isso que, aqui no Refúgio, as terapias são complementares: elas caminham junto com o acompanhamento médico e psicológico, nunca no lugar dele.
+
+Ciência e espiritualidade não precisam brigar. 🤍
+
+Salva esse post e manda pra quem ainda acha que é "só crença".
+
+📍 Cuiabá/MT e online
+
+**Nota:** Fontes: Ministério da Saúde, Portaria nº 849/2017 (inclui Reiki e Meditação; definição do Reiki citada) e Portaria nº 702/2018; CONASS, 12/03/2018 (10 novas práticas, total de 29); Goyal et al., JAMA Internal Medicine, 2014 (47 estudos, 3.515 participantes); Guo et al., BMC Palliative Care, 2024 (13 estudos, 824 participantes).
+
+## 07/01 · Quarta · Prazer, Jean Carlos
+**Formato:** estatico · **Arquivos:** 2027-01-07_qua.jpg
+**Foto:** Jean no jardim (329)
+**Objetivo:** Conexão com a equipe (depois dos cofundadores)
+
+**Legenda:**
+
+Há algumas semanas você conheceu a Daniela e o Joelson, que abriram a casa deles para o Refúgio nascer. Hoje a gente te apresenta mais alguém que cuida de você por aqui. 🤍
+
+Esse é o Jean Carlos Amorim.
+
+Constelador familiar, analista visual, sistêmico e comportamental, mestre em Reiki, condutor de meditação e cromoterapeuta. Mas quem já passou por uma sessão com ele costuma lembrar de outra coisa: da escuta.
+
+O Jean é daqueles que percebem o que o corpo e o jeito de falar dizem antes mesmo das palavras. Por isso, antes de indicar qualquer caminho, ele escuta. Com calma.
+
+No Refúgio, ele conduz sessões de Constelação Familiar.
+
+Quer conversar com o Jean sobre o que você está vivendo? Comenta REFÚGIO que a gente te chama no direct.
+
+📍 Cuiabá/MT e online
+
+**Nota:** Jean pediu para tirar o Reiki do que ele conduz no Refúgio (quem conduz é a Daniela).
 
 ## Fontes do carrossel de ciência
 
