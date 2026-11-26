@@ -13,7 +13,7 @@ add(d='04/12',dow='Sex',t='vid',k='Vídeo com foto (humor)',bg='ia-dates',vt='to
  beats=[("E se eu começasse a ir em dates de novo?",3.0),("Mente",1.4),("lovebombing",1.2),("some do nada",1.2),("não quer nada sério",1.3),("ainda fala da ex",1.3),("mora em outro país",1.3),("é de 2004",1.6)],
  cap="Uma frase que eu escuto bastante no consultório: \"a pista tá salgada\" 😂\n\nE não é só no consultório, né? Basta abrir as redes para ver muita gente reclamando de lovebombing, de quem some do nada, de quem não quer nada sério…\n\nDepois de algumas decepções, é comum entrar em qualquer relação já esperando o pior. É a mente tentando proteger a gente. O problema é quando esse medo começa a decidir tudo, e a pessoa desiste antes mesmo de tentar.\n\nDá para voltar a se relacionar com mais consciência: reconhecendo os sinais de alerta, sem deixar o medo falar mais alto.\n\nSe você quiser ajuda nesse processo, eu posso te acompanhar pela terapia individual ou pela minha comunidade de autoconhecimento para mulheres, um espaço online com sala de aula virtual, aulas curtas, atividades práticas e acompanhamento meu em grupo (diferente da terapia individual). Os dois têm todos os detalhes no link da bio. 🌸\n\nE aí, na sua opinião: o que está acontecendo com os relacionamentos hoje em dia? Isso vale para homens e mulheres? Me conta nos comentários 👇")
 
-add(d='07/12',fade='f-rosa',dow='Seg',t='car',k='Carrossel',p40=1,cv='rosa',photo='ia-crianca',final='estante',
+add(d='07/12',cvAlt=1,fade='f-rosa',dow='Seg',t='car',k='Carrossel',p40=1,cv='rosa',photo='ia-crianca',final='estante',
  note="CTA \"comente TERAPIA\" depende da automação de comentário. Se a Camila pausar as automações, trocar por \"me chama pelo link da bio\".",
  slides=["A criança que nunca deu trabalho…\n\nqual será a mulher que ela se tornou?",
  "Ela aprendeu cedo a não incomodar\n\nNão chorava alto, não pedia muito, resolvia tudo sozinha",
@@ -36,7 +36,7 @@ add(d='11/12',dow='Sex',t='stat',k='Estático meme (humor)',png='out/11-12/card-
  slides=["Eu: \"só entra gente doida na minha vida\"\n\nMinha psicóloga: \"e quem é que *abre a porta*?\""],
  cap="Doeu, mas é verdade 😂\n\nÀs vezes a gente repete o mesmo tipo de relação e jura que é azar. Mas, olhando com calma, aparece um padrão: o que te atrai, o que você tolera e onde você coloca (ou não) limites.\n\nA boa notícia é que, se você abre a porta, também aprende a fechar.\n\nSe quiser a minha ajuda, eu posso te acompanhar pela terapia individual ou pela minha comunidade de autoconhecimento para mulheres, um espaço online com sala de aula virtual, aulas curtas, atividades práticas e acompanhamento meu em grupo (diferente da terapia individual). Todas as informações estão no link da bio. 🌸\n\nE não esquece de marcar aquela amiga que precisa parar de se relacionar com gente doida. Marca ela aqui nos comentários ou envia este post para ela 👇")
 
-add(d='14/12',fade='f-branco',dow='Seg',t='car',k='Carrossel',p40=1,cv='rosa',photo='ia-ceia',final='espelho',
+add(d='14/12',cvAlt=1,fade='f-branco',dow='Seg',t='car',k='Carrossel',p40=1,cv='rosa',photo='ia-ceia',final='espelho',
  note="CTA \"comente TERAPIA\" depende da automação de comentário. Se a Camila pausar as automações, trocar por \"me chama pelo link da bio\".",
  slides=["Por que uma mulher de 40, livre e de bem com a vida, ainda vira \"tadinha\" na ceia de família?",
  "\"E o namorado?\"\n\n\"E os filhos, não vai ter?\"\n\n\"Nossa, tão bonita e sozinha…\"",
@@ -58,7 +58,7 @@ add(d='18/12',dow='Sex',t='vid',k='Vídeo com foto (humor)',bg='gravando2',vt='l
  beats=[("Tá chegando aquela época do ano…",3.2),("em que a família tenta desfazer em uma ceia",3.6),("o que a terapia levou o ano inteiro para construir",4.6)],
  cap="Psicólogas do Brasil inteiro se preparando para esta época do ano 😂\n\nBrincadeiras à parte, as festas de fim de ano podem ativar muita coisa: comentários sobre o corpo, cobranças sobre casamento e filhos, mágoas antigas que voltam à mesa.\n\nAlguns lembretes antes de encontrar aquelas pessoas que sempre tocam nesses assuntos:\n• você pode mudar de assunto;\n• você não precisa se justificar;\n• você pode dizer, com educação, que não quer falar sobre isso;\n• você pode sair da conversa;\n• você pode ir embora mais cedo.\n\nVocê não é obrigada a nada. Cuidar de você também é colocar limites, inclusive com quem você ama. 💛\n\nMarca aqui aquela amiga que precisa, para ontem, aprender a se posicionar nas festas, e talvez até de uma sessão extra de terapia 👇")
 
-add(d='21/12',fade='f-magenta',dow='Seg',t='car',k='Carrossel',p40=1,cv='claro',photo='ia-paciente',final='estante',note2='Imagem da capa gerada com IA.',
+add(d='21/12',cvAlt=1,fade='f-magenta',dow='Seg',t='car',k='Carrossel',p40=1,cv='claro',photo='ia-paciente',final='estante',note2='Imagem da capa gerada com IA.',
  note="CTA \"comente TERAPIA\" depende da automação de comentário. Se a Camila pausar as automações, trocar por \"me chama pelo link da bio\".",
  slides=["\"Eu tô numa relação boa, mas não sinto nada\"",
  "Machado de Assis escreveu sobre o prazer de usar uma bota apertada\n\nSó para sentir o alívio de tirá-la no fim do dia",
@@ -81,7 +81,7 @@ add(d='25/12',dow='Sex',t='vid',k='Vídeo com foto (humor de Natal)',bg='castelo
  beats=[("Minha maior conquista em 2026 foi não ter endoidado",4.2),("Porque oportunidade eu tive",3.8),("Feliz Natal",3.0)],
  cap="Feliz Natal! 🎄 E, se a sua maior conquista do ano também foi manter a sanidade, saiba que isso já é muita coisa 😂\n\nNem todo ano é de grandes conquistas. Às vezes, atravessar os dias difíceis, cuidar de quem você ama e continuar de pé já é a vitória possível.\n\nHoje, se puder, se dê um pouco do carinho que você distribui para todo mundo. 💛\n\nQual foi a sua maior conquista de 2026? Conta aqui 👇")
 
-add(d='28/12',dow='Seg',t='car',k='Carrossel',cv='flor',
+add(d='28/12',cvAlt=1,dow='Seg',t='car',k='Carrossel',cv='flor',
  slides=["Quando eu falo \"diga algo romântico\"…\n\né sobre isso que eu estou falando →",
  "\"Eu faço terapia para que as minhas feridas não virem um peso para você\"",
  "\"Prefiro conversar a guardar mágoa\"",
@@ -99,7 +99,7 @@ add(d='30/12',fade='f-rosa',dow='Qua',t='stat',k='Estático com foto',p40=1,phot
  cap="Antes de 2026 acabar, um convite: olhe para a menina que você foi. 💛\n\nTalvez ela tenha precisado ser forte cedo demais, se calar para não incomodar ou cuidar de todo mundo antes de ser cuidada. E hoje, mesmo que ainda doa às vezes, você está aprendendo a dar a ela o que faltou: proteção, respeito e limites.\n\nIsso não é pouco. É um dos trabalhos mais corajosos que alguém pode fazer. Honre, então, o seu processo de autodesenvolvimento.\n\nE, se você quiser a minha ajuda neste caminho, eu posso te acompanhar pela terapia individual online ou pela minha comunidade de autoconhecimento para mulheres, um espaço online com sala de aula virtual, aulas curtas, atividades práticas e acompanhamento meu em grupo (diferente da terapia individual). Todas as informações sobre os dois estão no link da bio. 🌸\n\nNo mais, desejo um feliz Ano Novo para você, mulher! ✨")
 
 # Fixed posts
-add(d='FIXO 1',dow='',t='car',k='Carrossel fixado: como eu posso te ajudar',fixo=1,cv='claro',photo='livro-amor2',final='estante',
+add(d='FIXO 1',cvAlt=1,dow='',t='car',k='Carrossel fixado: como eu posso te ajudar',fixo=1,cv='claro',photo='livro-amor2',final='estante',
  note="CTA \"comente TERAPIA\" depende da automação de comentário. Se a Camila pausar as automações, trocar por \"me chama pelo link da bio\".",
  slides=["Chegou agora?\n\nEntenda como eu posso te ajudar através da terapia",
  "Hoje eu tenho *2 caminhos* para te acompanhar\n\nOs dois são online\n\nEscolha o que faz mais sentido para você",
