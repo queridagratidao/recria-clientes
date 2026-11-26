@@ -13,7 +13,22 @@ De acordo. Vamos aguardar o veredito do teste do Google (por volta de 28/11) e s
 
 De acordo com a estrutura de etapas e travas. Duas sugestões para contribuir:
 
-**Gamificação para destravar o funil**: já que o próprio plano aponta que o funil quebra depois do cadastro (as pessoas não lançam a última execução e não voltam ao portal), vale pensar numa estrutura leve de gamificação: um checklist de onboarding com progresso visual, um "selo" por marco atingido (primeira obrigação cadastrada, primeiro relatório gerado), ou um indicador de quantos condomínios da carteira estão "em dia". O objetivo é dar um motivo pra voltar ao portal nos primeiros dias, que é exatamente onde o funil quebra hoje.
+**Gamificação para destravar o funil**: já que o próprio plano aponta que o funil quebra depois do cadastro (as pessoas não lançam a última execução e não voltam ao portal), vale pensar numa estrutura de gamificação por pontos, bem comum em SaaS e em cursos para aumentar uso e LTV:
+
+*Pontos por ação:*
+- Cadastrou a 1ª obrigação: +10 pontos
+- Anexou o 1º comprovante de manutenção: +10 pontos
+- Registrou a 1ª ocorrência: +10 pontos
+- Gerou o 1º relatório de conformidade: +20 pontos
+- Convidou um membro da equipe para o portal: +15 pontos
+- Deixou 100% das obrigações do prédio em dia: +30 pontos (marco "Prédio em dia")
+
+*Marcos que desbloqueiam benefícios:*
+- 50 pontos (ou ~50% de uso da ferramenta): desbloqueia um material bônus (e-book ou checklist exclusivo)
+- 100 pontos: desbloqueia uma mentoria em grupo ou webinar com o Giuliano
+- 200 pontos, ou uso constante por alguns meses: desbloqueia acesso ao curso de Aprofundamento de Síndico Profissional
+
+A lógica é dar pequenas vitórias logo nas primeiras semanas, que é onde o funil quebra hoje, e guardar a recompensa maior (o curso) para quem vira usuário ativo de verdade.
 
 **Criativo de fim de ano**: sugestão de uma variação de copy (e possivelmente vídeo) para o período de festas, tipo "Aproveite o recesso de fim de ano para organizar a sua gestão" ou "Enquanto o condomínio está mais parado, teste o Área Comum". Encaixa bem com a pausa que o cronograma do Nextags já prevê entre 21/12 e 05/01.
 
@@ -23,17 +38,19 @@ De acordo. Entendido que M1-M6 estão no ar (não mexer), M7-M9 são reserva par
 
 ## 4 · Nextags — mensagens, imagens e cronograma
 
-De acordo com o texto e com o cronograma das mensagens.
+De acordo com o texto e com o cronograma das mensagens. Diferente da Comunidade (ver item 5), no Nextags dá para programar os disparos com antecedência, então conseguimos garantir as datas sugeridas no cronograma (quartas-feiras pela manhã) sem problema.
 
-**Ajuste necessário nas imagens**: as 11 imagens vieram no formato 1200x700 (retangular). Para o Nextags, o formato precisa ser 1:1 (quadrado), senão não é possível subir no disparo. Como o layout tem texto de um lado e o card de dados do outro, não dá para simplesmente recortar sem perder conteúdo — pedimos que vocês gerem as imagens já em 1:1.
+**Ajuste necessário nas imagens**: as 11 imagens vieram no formato 1200x700 (retangular). Para o Nextags, o formato precisa ser 1:1 (quadrado), senão não é possível subir no disparo. Como o layout tem texto de um lado e o card de dados do outro, não dá para simplesmente recortar sem perder conteúdo — como o PNG é gerado pelo Claude do Giuliano, pedimos que ele regenere as 11 imagens já em 1:1.
 
-**Sobre a cadência fixa às quartas-feiras pela manhã**: não temos como garantir esse dia e horário específicos toda semana, por conta de outros compromissos da agenda. Conseguimos garantir um envio por semana, mas o dia/horário exato pode variar entre segunda e sexta, de manhã, tarde ou noite. Se for importante manter o dia e horário fixos, pedimos que o Giuliano assuma esse agendamento particular, ou que nos dê liberdade para enviar em qualquer dia útil da semana.
+**Fluxo a partir daqui**: assim que recebermos as imagens em 1:1, vamos enviar o conjunto completo (texto + imagem) para aprovação da Meta. O que pode travar ou atrasar o início dos disparos é justamente o tempo de aprovação da Meta, não a programação em si — uma vez aprovado, conseguimos programar certinho nas datas e horários do cronograma sugerido.
 
 ## 5 · Comunidade Eleva — cards, textos e cronograma
 
 Cronograma e temas, de acordo. Mas pedimos para reformular o texto das mensagens antes de publicar no grupo.
 
 **Por quê**: as mensagens de post vieram iguais ao texto do Nextags (só trocando o link), entrando direto no tema de venda sem nenhuma saudação, contextualização ou abertura. Isso funciona para um disparo frio de WhatsApp, mas não para a Comunidade, que é tratada como um grupo VIP de relacionamento. Postar assim, sem cumprimentar e sem gerar contexto, tende a aumentar a saída de pessoas do grupo — especialmente se vier em sequência.
+
+**Sobre o dia e horário fixo**: diferente do Nextags, aqui não há como programar com antecedência, porque não existe hoje nenhuma ferramenta de disparo automático para grupo de WhatsApp (isso exigiria uma ferramenta paga, como o SendFlow). O envio depende da disponibilidade da Amanda no momento. Conseguimos garantir uma publicação por semana, normalmente entre quarta e quinta-feira, de tarde ou de noite, mas não um dia e horário fixos como terça de manhã. Se for essencial ter um horário fixo, o Giuliano precisaria enviar pessoalmente, ou avaliar contratar uma ferramenta paga para isso.
 
 **Sugestão de estrutura**: saudação (bom dia/boa tarde/boa noite, síndicos de alta performance) → pergunta de reflexão → contexto do tema → Área Comum como solução → CTA. Segue a reformulação das 12 mensagens:
 
