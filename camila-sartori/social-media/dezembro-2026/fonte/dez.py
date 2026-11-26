@@ -7,11 +7,11 @@ add(d='02/12',dow='Qua',t='stat',k='Estático',cv='claro',cvBold=1,fsz={'0':{'cq
  slides=["Você pode fazer tudo\n\nVocê só não pode fazer *tudo ao mesmo tempo*\n\nminha florzinha proativa, multitarefada e ansiosa"],
  cap="Dezembro chegou com aquela lista de mil coisas para fechar o ano, né? 😅\n\nUm lembrete carinhoso: dar conta não é fazer tudo de uma vez. Quando a gente tenta resolver tudo ao mesmo tempo, o corpo cobra: cansaço, irritação e aquela sensação de que nada anda.\n\nEscolha o que é prioridade hoje. O resto pode esperar um pouquinho.\n\nMarca aqui aquela amiga que precisa ler isso 👇")
 
-add(d='04/12',dow='Sex',t='vid',k='Vídeo com foto (humor)',bg='espelho',
+add(d='04/12',dow='Sex',t='vid',k='Vídeo com foto (humor)',bg='ia-dates',vt='top',
  beats=[("E se eu começasse a ir em dates de novo?",3.0),("Mente:",1.4),("lovebombing",1.2),("some do nada",1.2),("não quer nada sério",1.3),("ainda fala da ex",1.3),("mora em outro país",1.3),("é de 2004",1.6)],
  cap="A pista tá salgada, e a mente já sabe disso antes mesmo do primeiro \"oi\" 😂\n\nBrincadeiras à parte: depois de algumas decepções, é comum entrar em qualquer relação já esperando o pior. É a mente tentando te proteger. O problema é quando esse medo decide tudo por você.\n\nDá para voltar a se relacionar com mais consciência, reconhecendo os sinais de alerta sem desistir de viver.\n\nQual desses já aconteceu com você? Conta aqui 👇")
 
-add(d='07/12',dow='Seg',t='car',k='Carrossel',p40=1,cv='rosa',photo='poltrona',final='estante',
+add(d='07/12',dow='Seg',t='car',k='Carrossel',p40=1,cv='rosa',photo='ia-crianca',final='estante',
  slides=["A criança que nunca deu trabalho\n\ne a mulher que ela se tornou",
  "Ela aprendeu cedo a não incomodar\n\nNão chorava alto, não pedia muito, resolvia tudo sozinha",
  "Todo mundo elogiava: \"que menina boazinha\"\n\nE ela entendeu que ser amada era *não dar trabalho*",
@@ -31,7 +31,7 @@ add(d='11/12',dow='Sex',t='stat',k='Estático estilo tweet (humor)',cv='claro',c
  slides=["Eu: \"só entra gente doida na minha vida\"\n\nMinha psicóloga: *\"e quem é que abre a porta?\"*"],
  cap="Doeu, mas é verdade 😂\n\nÀs vezes a gente repete o mesmo tipo de relação e jura que é azar. Mas, olhando com calma, aparece um padrão: o que te atrai, o que você tolera e onde você coloca (ou não) limites.\n\nA boa notícia é que, se você abre a porta, também pode aprender a fechar.\n\nMarca aquela amiga que só atrai doido 👇")
 
-add(d='14/12',dow='Seg',t='car',k='Carrossel',p40=1,cv='rosa',photo='castelo2',final='janela',
+add(d='14/12',dow='Seg',t='car',k='Carrossel',p40=1,cv='rosa',photo='ia-ceia',final='espelho',
  slides=["Por que uma mulher de 40, livre e de bem com a vida, ainda vira \"tadinha\" na ceia de família?",
  "\"E o namorado?\"\n\n\"E os filhos, não vai ter?\"\n\n\"Nossa, tão bonita e sozinha…\"",
  "Em muitas famílias, ainda existe um roteiro pronto para a vida da mulher\n\nE quem sai dele *vira assunto*",
@@ -49,7 +49,7 @@ add(d='18/12',dow='Sex',t='vid',k='Vídeo com foto (humor)',bg='gravando',
  beats=[("Tá chegando aquela época do ano…",3.2),("em que a família tenta desfazer em uma ceia",3.6),("o que a terapia levou o ano inteiro para construir",4.6)],
  cap="Psicólogas do Brasil inteiro se preparando para janeiro 😂\n\nBrincadeiras à parte, as festas de fim de ano podem ativar muita coisa: comentários sobre o corpo, cobranças sobre casamento e filhos, mágoas antigas que voltam à mesa.\n\nTrês lembretes para a ceia:\n• você pode mudar de assunto;\n• você pode sair da conversa;\n• você pode ir embora mais cedo.\n\nCuidar de você também é colocar limites com quem você ama. 💛\n\nMarca aqui quem vai precisar de uma sessão extra em janeiro 👇")
 
-add(d='21/12',dow='Seg',t='car',k='Carrossel',p40=1,cv='claro',photo='estante',final='poltrona',
+add(d='21/12',dow='Seg',t='car',k='Carrossel',p40=1,cv='claro',photo='janela',final='estante',
  slides=["\"Eu tô numa relação boa, mas não sinto nada\"",
  "Machado de Assis escreveu sobre o prazer de usar uma bota apertada\n\nSó para sentir o alívio de tirá-la no fim do dia",
  "Muita gente vive o amor assim\n\nA relação só parece boa *quando para de doer*",
@@ -78,7 +78,7 @@ add(d='28/12',dow='Seg',t='car',k='Carrossel',cv='flor',
  fsz={'0':{'cq':10}},
  cap="Esqueça as declarações de filme: maturidade emocional é muito mais romântica 💛\n\nQuando alguém cuida das próprias feridas, conversa em vez de punir com silêncio e respeita os seus limites, você não precisa viver adivinhando, pisando em ovos ou implorando por atenção.\n\nE isso vale para você também: aprender a se comunicar, colocar limites e cuidar da sua história é uma forma de amar melhor.\n\nQual dessas frases você mais gostaria de ouvir? Me conta nos comentários 👇")
 
-add(d='30/12',dow='Qua',t='stat',k='Estático com foto',p40=1,photo='janela',
+add(d='30/12',dow='Qua',t='stat',k='Estático com foto',p40=1,photo='poltrona',
  slides=["Você se tornou alguém que protegeria a menina que você foi\n\nE talvez esse tenha sido o movimento mais bonito do seu ano"],
  cap="Antes de 2026 acabar, um convite: olhe para a menina que você foi. 💛\n\nTalvez ela tenha precisado ser forte cedo demais, se calar para não incomodar ou cuidar de todo mundo antes de ser cuidada. E hoje, mesmo que ainda doa às vezes, você está aprendendo a dar a ela o que faltou: proteção, respeito e limites.\n\nIsso não é pouco. É um dos trabalhos mais corajosos que alguém pode fazer.\n\nSe você quer continuar esse caminho em 2027, eu posso te acompanhar pelo atendimento individual online ou pelo meu curso de autoconhecimento para mulheres. Os dois estão no link da bio. 🌸\n\nFeliz Ano Novo! ✨")
 
