@@ -14,7 +14,7 @@ Com verba limitada e equipe enxuta (Amanda cuidando de todo o marketing, e a Ge�
 **Ecossistema Eleva**
 
 - **Eleva Expansão Estratégica Imobiliária**
-  - Cursos (Hotmart, perpétuos, sem matrícula/lançamento, compra e consome quando quiser): Formação de Síndico Profissional, Aprofundamento de Síndico Profissional, Multiplicar Vendas para Condomínios (fornecedor, síndico, gestor, imobiliária)
+  - Cursos (perpétuos): Formação de Síndico Profissional, Aprofundamento de Síndico Profissional, Multiplicar Vendas para Condomínios (fornecedor, síndico, gestor, imobiliária)
   - Sessão Estratégica
   - Diagnóstico
   - Mentoria

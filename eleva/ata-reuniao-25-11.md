@@ -10,9 +10,6 @@ Giuliano quer relembrar como funciona o Nextags e entender como a Recria pode us
 
 Combinado: até amanhã, fechar as mensagens de disparo Nextags (sugestões já preparadas e enviadas pela Amanda, baseadas no site), o Giuliano aprova para a Amanda mandar para aprovação da Meta. Com isso, dá para programar os disparos. O ideal é aprovar o máximo de mensagens possível de uma vez, assim, com a Meta aprovando, dá para programar em qualquer momento depois.
 
-**Elevacast**
-Programação feita até 23/12 (limite de agendamento da Meta). Material deve render até a primeira/segunda semana de janeiro. Falta receber o material do último podcast, gravado em novembro, para cobrir metade de janeiro, fevereiro e março de 2027.
-
 **Google Ads e Meta Ads**
 Resultado fraco na campanha do Portal do Condomínio, sem tempo e consistência suficientes para validar, por causa das mudanças de rumo constantes. Apresentada a visão estratégica de investimento por frente do ecossistema Eleva (documento em anexo).
 
