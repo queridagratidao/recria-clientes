@@ -34,7 +34,18 @@ De acordo com a estrutura de etapas e travas. Duas sugestões para contribuir:
 
 Sessão Estratégica e Diagnóstico ficam nos degraus mais altos, porque consomem o tempo do próprio Giuliano, então têm que valer mais pontos. O curso, por já estar gravado, entra como a entrega "topo" mais acessível, pra incentivar o consumo dele.
 
-**Sugestão, Giuliano**: pensa no que você acha que dá pra gerar valor pra esse pessoal nos degraus de Sessão Estratégica e Diagnóstico. Se não quiser abrir mão do seu tempo com essas duas, uma alternativa é montar uma esteira de iscas digitais (PDFs, checklists, templates), deixando tudo pronto com o Claude, e ir bonificando as pessoas com essas iscas em vez de tempo seu. Outra ideia de prêmio: uma vaga numa live ao vivo com você.
+**Sugestão, Giuliano**: pensa no que você acha que dá pra gerar valor pra esse pessoal nos degraus de Sessão Estratégica e Diagnóstico. Se não quiser abrir mão do seu tempo com essas duas, segue uma segunda opção de linha do tempo, só com entregas que não dependem da sua agenda (iscas digitais e conteúdo gravado):
+
+*Linha do tempo alternativa (sem Sessão Estratégica nem Diagnóstico):*
+
+| Pontos | Desbloqueia |
+|---|---|
+| 100 | Material bônus (e-book ou checklist exclusivo de gestão condominial, criado com o Claude) |
+| 200 | Outro material bônus (e-book ou checklist exclusivo) |
+| 500 | Trilha de conhecimento com vários PDFs, ou uma vaga numa live ao vivo com você (online ou presencial, quando houver) |
+| 1000 | Curso completo de Aprofundamento de Síndico Profissional |
+
+É só uma sugestão. Vale você pensar melhor no que faz mais sentido disponibilizar como entrega pela troca de pontos na gamificação.
 
 A lógica geral: dá pequenas vitórias logo nas primeiras semanas, que é onde o funil quebra hoje, e cada recompensa maior já funciona como porta de entrada pras outras frentes do ecossistema.
 
