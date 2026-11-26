@@ -32,7 +32,7 @@ def post_block(p):
         arq=(f"carrossel-{d}.zip ({len(fs)} cards)" if len(fs)>1 else f"estatico-{d}.png")
     tag=('<span class="tag">público 40+</span>' if p.get('p40') else '')+('<span class="tag">fixar no perfil · serve de anúncio</span>' if p.get('fixo') else '')
     dow={'Seg':'segunda','Qua':'quarta','Sex':'sexta'}.get(p['dow'],'')
-    return f'''<div class="post"><div class="thumbs">{imgs}</div><div style="flex:1"><div class="meta">{e(p['d'])}{' · '+dow if dow else ''} · {e(p['k'])}{tag}</div>
+    return f'''<div class="post"><div class="thumbs">{imgs}</div><div style="flex:1"><div class="meta">{e(p['d'])}{' · '+dow if dow else ''} · {e(p['k'])}{tag}</div>{('<div style="font-size:8.5pt;color:#A71874">Obs.: '+e(p.get('note2') or p.get('note') or '')+'</div>') if (p.get('note') or p.get('note2')) else ''}
 <div style="font-size:8.5pt;color:#888">Arquivo: {arq}</div>{art}<div class="cap"><b>Legenda</b><br>{e(p['cap'])}</div></div></div>'''
 
 grade=''.join(f"<tr><td>{p['d']}</td><td>{p['dow']}</td><td>{e(p['k'])}</td><td>{e((p.get('slides') or [p.get('beats',[['']])[0][0]])[0].replace(chr(10),' ').replace('*',''))[:90]}</td><td>{'40+' if p.get('p40') else ''}</td></tr>" for p in P if not p.get('fixo'))

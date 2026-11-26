@@ -16,7 +16,7 @@ const css=`@font-face{font-family:P;font-weight:700;src:url(${F}700-normal.woff2
  await pg.waitForTimeout(400);await pg.screenshot({path:out+'/bg.png'});
  for(let i=0;i<P.beats.length;i++){const [t]=P.beats[i];const big=t.length<22;
   fs.writeFileSync(out+'/p.html',`<html><head><style>${css}
-  .t{position:absolute;left:90px;right:90px;top:${P.vt==="top"?330:(big?1180:1080)}px;text-align:center;color:#fff;font:800 ${big?96:76}px/1.18 P;text-shadow:0 4px 24px rgba(30,6,20,.55)}
+  .t{position:absolute;left:90px;right:90px;top:${P.vt==="top"?330:P.vt==="low"?1390:(big?1180:1080)}px;text-align:center;color:#fff;font:800 ${big?96:76}px/1.18 P;text-shadow:0 4px 24px rgba(30,6,20,.55)}
   .t span{background:rgba(167,24,116,.0)}</style></head><body><div class="t">${t}</div></body></html>`);await pg.goto('file://'+out+'/p.html',{waitUntil:'load'});
   await pg.evaluate(()=>document.fonts.ready);
   await pg.screenshot({path:out+`/t${i}.png`,omitBackground:true});}
