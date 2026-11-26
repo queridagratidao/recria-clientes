@@ -391,3 +391,84 @@ _card2('REF-270101', LILAS); _kw('REF-270101')['fy'] = 0.0   # mantem encaixe e 
 # 11/12: Jean mais afastado (aparece até a cintura)
 _por_id = {it['id']: it for it in ITENS}
 _kw('REF-261211').update(zoom=0.68, fy=0.05)
+
+# ---------- ajustes da Daniela (26/11) ----------
+_por_id = {it['id']: it for it in ITENS}
+GRUPO = '/home/claude/nov/out/post01_04-11_mito-verdade-constelacao.jpg'   # equipe sem o Breno (provisória até chegar a foto original)
+GRUPO_CROP = (0, 0, 1080, 998)
+TEMA_NOV = 'Louvação ao Seu Zé Pilintra'
+TEMA_DEZ = 'Encerramento do Ciclo 2026'
+# 27/11: tema de novembro
+_i = _por_id['REF-261127']; _a = _i['arte']
+_i['arte'] = ('foto', _a[1], _a[2], f'Sábado, 28/11 · Quintal de Ogum · {TEMA_NOV}', _a[4], _a[5])
+_i['legenda'] = _i['legenda'].replace('E a mensagem que vai guiar o nosso encontro chegou: [TEMA DE NOVEMBRO]. [1 ou 2 frases da Daniela e do Joelson sobre o tema.]',
+    f'E a mensagem que vai guiar o nosso encontro chegou: este mês, a nossa é uma {TEMA_NOV}.')
+_i['status'] = 'rascunho'; _i['tema'] = f'Louvação: é amanhã ({TEMA_NOV})'
+# 04/12 e 23/12: tema de dezembro
+_i = _por_id['REF-261204']
+_i['legenda'] = _i['legenda'].replace('O tema do encontro ainda está sendo recebido, no processo de preparo e escuta espiritual que antecede cada Louvação. Assim que ele chegar, a gente conta aqui.',
+    f'O tema deste encontro: {TEMA_DEZ}.')
+_i = _por_id['REF-261223']; _a = _i['arte']
+_i['arte'] = ('foto', _a[1], _a[2], f'{LOUV_DEZ} · Quintal de Ogum · {TEMA_DEZ}', _a[4], _a[5])
+_i['legenda'] = _i['legenda'].replace('E a mensagem que vai guiar o nosso encontro chegou: [TEMA DE DEZEMBRO]. [1 ou 2 frases da Daniela e do Joelson sobre o tema.]',
+    f'E o tema do nosso encontro já chegou: {TEMA_DEZ}.')
+# 30/11: Luciana Arruda
+_i = _por_id['REF-261130']; _cap = list(_i['arte'][1])
+_cap[1] = ('print', _cap[1][1], 'Luciana Arruda · comentário no nosso Instagram', _cap[1][3])
+_i['arte'] = ('carrossel', _cap)
+_i['legenda'] = _i['legenda'].replace('o que a Lúcia escreveu', 'o que a Luciana Arruda escreveu').replace('Lúcia, obrigada', 'Luciana, obrigada')
+_i['foto'] = _i['foto'].replace('Lúcia', 'Luciana Arruda')
+# sem o Breno: capa da ciência (23/11) e Natal (25/12) com a foto de estúdio da equipe
+for _id, _capa in [('REF-261123', True), ('REF-261225', False)]:
+    _k = _kw(_id, _capa); _k.update(encaixe=GRUPO_CROP, sem_icone=True, fy=0.0)
+    if _capa:
+        _cap = list(_por_id[_id]['arte'][1]); _c0 = _cap[0]; _cap[0] = ('capa', GRUPO, _c0[2], _c0[3], _c0[4], _k); _por_id[_id]['arte'] = ('carrossel', _cap)
+    else:
+        _a = _por_id[_id]['arte']; _por_id[_id]['arte'] = ('foto', GRUPO, _a[2], _a[3], _a[4], _k)
+# foto de estúdio já sem o ícone antigo gravado
+GRUPO = '/home/claude/nov2/grupo_limpo.jpg'
+for _id, _capa in [('REF-261123', True), ('REF-261225', False), ('REF-270101', False)]:
+    _k = _kw(_id, _capa); _k['sem_icone'] = False; _k['encaixe'] = GRUPO_CROP
+    if _capa:
+        _cap = list(_por_id[_id]['arte'][1]); _c0 = _cap[0]; _cap[0] = ('capa', GRUPO, _c0[2], _c0[3], _c0[4], _k); _por_id[_id]['arte'] = ('carrossel', _cap)
+    else:
+        _a = _por_id[_id]['arte']; _por_id[_id]['arte'] = ('foto', GRUPO, _a[2], _a[3], _a[4], _k)
+
+# fotos originais enviadas pela Daniela (26/11)
+EQUIPE_V = '/home/claude/nov2/equipe_estudio_vertical.jpg'
+GATO = '/home/claude/nov2/daniela_gato.jpg'
+for _id, _capa in [('REF-261123', True), ('REF-261225', False)]:
+    _k = _kw(_id, _capa)
+    for _x in ('encaixe', 'sem_icone'): _k.pop(_x, None)
+    _k['fy'] = 0.0
+    if _capa:
+        _cap = list(_por_id[_id]['arte'][1]); _c0 = _cap[0]; _cap[0] = ('capa', EQUIPE_V, _c0[2], _c0[3], _c0[4], _k); _por_id[_id]['arte'] = ('carrossel', _cap)
+    else:
+        _a = _por_id[_id]['arte']; _por_id[_id]['arte'] = ('foto', EQUIPE_V, _a[2], _a[3], _a[4], _k)
+for _id in ('REF-261125', 'REF-261223'):
+    _a = _por_id[_id]['arte']; _k = dict(_a[5]); _k['fy'] = 0.12
+    _por_id[_id]['arte'] = ('foto', GATO, _a[2], _a[3], _a[4], _k); _por_id[_id]['foto'] = 'Daniela com o gato no jardim (foto enviada pela Daniela)'
+_por_id['REF-261123']['foto'] = 'Capa: equipe no estúdio (foto enviada pela Daniela). Demais cards só texto.'
+_por_id['REF-261225']['foto'] = 'Equipe no estúdio (foto enviada pela Daniela)'
+
+# Louvação de dezembro: sábado, 19/12 (arte enviada pela Daniela)
+DATA_DEZ = 'Sábado, 19/12'
+FRASE = 'Louvar é agradecer, é honrar e é fortalecer nossa caminhada espiritual.'
+def _troca_data(it):
+    a = it['arte']
+    it['arte'] = ('foto', a[1], a[2].replace(LOUV_DEZ, DATA_DEZ), a[3].replace(LOUV_DEZ, DATA_DEZ), a[4], a[5])
+    it['legenda'] = it['legenda'].replace(LOUV_DEZ, DATA_DEZ); it['status'] = 'rascunho'
+_troca_data(_por_id['REF-261204'])
+_por_id['REF-261204']['legenda'] = _por_id['REF-261204']['legenda'].replace(f'O tema deste encontro: {TEMA_DEZ}.', f'O tema deste encontro: {TEMA_DEZ}.\n\n{FRASE}')
+_l = _por_id['REF-261223']; _troca_data(_l)
+_a = _l['arte']; _l['arte'] = ('foto', _a[1], 'Amanhã é a última Louvação do ano.', _a[3].replace(DATA_DEZ, 'Sábado, 19/12'), _a[4], _a[5])
+_l['legenda'] = _l['legenda'].replace('A última Louvação de 2026 está chegando. 🤍', 'É amanhã: a última Louvação de 2026. 🤍').replace(
+    f'E o tema do nosso encontro já chegou: {TEMA_DEZ}.', f'O tema do nosso encontro: {TEMA_DEZ}.\n\n{FRASE}')
+_l.update(data='2026-12-18', dia='Sexta', tema='Louvação de dezembro: é amanhã', id='REF-261218')
+_x = _por_id['REF-261218']; _x.update(data='2026-12-23', dia='Quarta', id='REF-261223')
+_n = _por_id['REF-261127']
+_n['legenda'] = _n['legenda'].replace(f'este mês, a nossa é uma {TEMA_NOV}.', f'este mês, a nossa é uma {TEMA_NOV}.\n\n{FRASE}')
+ITENS.sort(key=lambda it: it['data'])
+_por_id = {it['id']: it for it in ITENS}
+FALTA = ['Reels de 27/11, 02/12 e 30/12: a Amanda coloca a música e devolve.',
+         'Foto do Jean e a do perfil: Jean pediu para manter como está.']

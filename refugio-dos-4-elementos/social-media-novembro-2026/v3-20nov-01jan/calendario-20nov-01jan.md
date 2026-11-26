@@ -7,18 +7,18 @@ Cronograma de recuperação: segunda, quarta e sexta até 01/01. Visual novo, 4 
 | Sex 20/11 | estatico | Louvação de novembro · sábado, 28/11 | rascunho |
 | Seg 23/11 | carrossel | O que a ciência já diz sobre as terapias integrativas | rascunho |
 | Qua 25/11 | estatico | Daniela e Joelson: a casa onde o Refúgio acontece | rascunho |
-| Sex 27/11 | reels | Louvação: é amanhã (tema revelado) | pendente |
+| Sex 27/11 | reels | Louvação: é amanhã (Louvação ao Seu Zé Pilintra) | rascunho |
 | Seg 30/11 | carrossel | Comentário de quem confia no nosso trabalho | rascunho |
 | Qua 02/12 | reels | Honrar quem veio antes (ancestralidade) | rascunho |
-| Sex 04/12 | estatico | Louvação de dezembro | pendente |
+| Sex 04/12 | estatico | Louvação de dezembro | rascunho |
 | Seg 07/12 | estatico | Respiração de 3 minutos para desacelerar | rascunho |
 | Qua 09/12 | estatico | Antes de qualquer terapia, existe uma conversa | rascunho |
 | Sex 11/12 | estatico | Prazer, Jean Carlos | rascunho |
 | Seg 14/12 | estatico | Mito: preciso ter religião para fazer terapia holística | rascunho |
 | Qua 16/12 | estatico | 3 sinais de que você carrega algo que não é seu | rascunho |
-| Sex 18/12 | estatico | Terapia Xamânica dos 4 Elementos | rascunho |
+| Sex 18/12 | estatico | Louvação de dezembro: é amanhã | rascunho |
 | Seg 21/12 | estatico | Natal com a família reunida | rascunho |
-| Qua 23/12 | estatico | Louvação de dezembro: lembrete | pendente |
+| Qua 23/12 | estatico | Terapia Xamânica dos 4 Elementos | rascunho |
 | Sex 25/12 | estatico | Feliz Natal | rascunho |
 | Seg 28/12 | carrossel | O Refúgio não é para todo mundo. E tudo bem. | rascunho |
 | Qua 30/12 | reels | O que você não quer levar para 2027? | rascunho |
@@ -26,11 +26,8 @@ Cronograma de recuperação: segunda, quarta e sexta até 01/01. Visual novo, 4 
 
 ## O que falta
 
-- Data da Louvação de dezembro (04/12 e 23/12): fica o último sábado (26/12) até eles confirmarem.
-- Tema da Louvação de novembro (27/11) e de dezembro (23/12), quando forem recebidos.
-- Imagem de Natal gerada por IA para o post de 21/12 (prompt enviado).
 - Reels de 27/11, 02/12 e 30/12: a Amanda coloca a música e devolve.
-- Pedir OK da Lúcia para usar o comentário dela (07/12).
+- Foto do Jean e a do perfil: Jean pediu para manter como está.
 
 ## 20/11 · Sexta · Louvação de novembro · sábado, 28/11
 **Formato:** estatico · **Arquivos:** 2026-11-20_sex.jpg
@@ -57,7 +54,7 @@ E se alguém aí perto está precisando de um encontro assim, manda esse post pr
 
 ## 23/11 · Segunda · O que a ciência já diz sobre as terapias integrativas
 **Formato:** carrossel · **Arquivos:** 2026-11-23_seg_carrossel-1.jpg, 2026-11-23_seg_carrossel-2.jpg, 2026-11-23_seg_carrossel-3.jpg, 2026-11-23_seg_carrossel-4.jpg, 2026-11-23_seg_carrossel-5.jpg
-**Foto:** Capa: equipe no bambuzal (foto do site). Demais cards só texto.
+**Foto:** Capa: equipe no estúdio (foto enviada pela Daniela). Demais cards só texto.
 **Objetivo:** Autoridade e quebra da objeção "isso é só crença" (carrossel do mês)
 
 **Legenda:**
@@ -86,7 +83,7 @@ Salva esse post e manda pra quem ainda acha que é "só crença".
 
 ## 25/11 · Quarta · Daniela e Joelson: a casa onde o Refúgio acontece
 **Formato:** estatico · **Arquivos:** 2026-11-25_qua.jpg
-**Foto:** Joelson aplicando passe em Daniela (283)
+**Foto:** Daniela com o gato no jardim (foto enviada pela Daniela)
 **Objetivo:** Conexão e confiança: apresentar os cofundadores antes do resto da equipe
 
 **Legenda:**
@@ -107,7 +104,7 @@ Comenta REFÚGIO se quiser conversar com a gente. 🤍
 
 **Nota:** Formação contada em texto corrido em vez de lista (soava currículo). Validar com Daniela e Joelson.
 
-## 27/11 · Sexta · Louvação: é amanhã (tema revelado)
+## 27/11 · Sexta · Louvação: é amanhã (Louvação ao Seu Zé Pilintra)
 **Formato:** reels · **Arquivos:** 2026-11-27_sex.jpg, 2026-11-27_sex_reel.mp4
 **Foto:** Jean com as mãos unidas (113)
 **Objetivo:** Lembrete do evento + revelação do tema
@@ -118,7 +115,9 @@ Comenta REFÚGIO se quiser conversar com a gente. 🤍
 
 Amanhã, sábado, 28/11, abrimos as portas do Quintal de Ogum para a Louvação de novembro.
 
-E a mensagem que vai guiar o nosso encontro chegou: [TEMA DE NOVEMBRO]. [1 ou 2 frases da Daniela e do Joelson sobre o tema.]
+E a mensagem que vai guiar o nosso encontro chegou: este mês, a nossa é uma Louvação ao Seu Zé Pilintra.
+
+Louvar é agradecer, é honrar e é fortalecer nossa caminhada espiritual.
 
 É uma noite de oração, cantos, silêncio e gratidão, aberta a qualquer pessoa, de qualquer religião ou crença. Você não precisa saber nada antes. Só vir.
 
@@ -130,16 +129,16 @@ Vai com alguém? Marca aqui quem você quer levar. 👇
 
 ## 30/11 · Segunda · Comentário de quem confia no nosso trabalho
 **Formato:** carrossel · **Arquivos:** 2026-11-30_seg_carrossel-1.jpg, 2026-11-30_seg_carrossel-2.jpg, 2026-11-30_seg_carrossel-3.jpg
-**Foto:** Capa: Daniela no bambuzal (foto do site). Card 2: comentário da Lúcia no Instagram.
+**Foto:** Capa: Daniela no bambuzal (foto do site). Card 2: comentário da Luciana Arruda no Instagram.
 **Objetivo:** Prova social: comentário de quem já passou pelo Refúgio (2º carrossel de novembro)
 
 **Legenda:**
 
 A gente poderia passar o mês inteiro explicando o que acontece numa sessão. Mas ninguém conta melhor do que quem viveu. 🤍
 
-Arrasta para o lado e lê o que a Lúcia escreveu aqui no nosso Instagram sobre o processo dela. 👉
+Arrasta para o lado e lê o que a Luciana Arruda escreveu aqui no nosso Instagram sobre o processo dela. 👉
 
-Lúcia, obrigada por confiar a sua experiência a nós. 🙏
+Luciana, obrigada por confiar a sua experiência a nós. 🙏
 
 Cada processo é único, e o tempo de cada pessoa também. Mas todo caminho começa do mesmo jeito: com um primeiro passo.
 
@@ -187,11 +186,13 @@ O ano está terminando. E, antes de começar outro, a gente te convida para para
 
 A última Louvação de 2026 vai ser um encontro de oração, cantos, silêncio e gratidão por tudo o que este ano trouxe, inclusive o que foi difícil.
 
-✨ [DATA DA LOUVAÇÃO DE DEZEMBRO]
+✨ Sábado, 19/12
 📍 Quintal de Ogum, Cuiabá
 🙏 Aberto a qualquer pessoa, de qualquer religião ou crença
 
-O tema do encontro ainda está sendo recebido, no processo de preparo e escuta espiritual que antecede cada Louvação. Assim que ele chegar, a gente conta aqui.
+O tema deste encontro: Encerramento do Ciclo 2026.
+
+Louvar é agradecer, é honrar e é fortalecer nossa caminhada espiritual.
 
 Comenta LOUVAÇÃO que a gente te manda o horário e as orientações no direct.
 
@@ -337,32 +338,29 @@ E salva pra ler de novo quando precisar.
 
 **Nota:** Post de alcance (salvar e comentar o número).
 
-## 18/12 · Sexta · Terapia Xamânica dos 4 Elementos
+## 18/12 · Sexta · Louvação de dezembro: é amanhã
 **Formato:** estatico · **Arquivos:** 2026-12-18_sex.jpg
-**Foto:** Joelson com as mãos erguidas (219)
-**Objetivo:** Apresentar a terapia que dá nome ao Refúgio
+**Foto:** Daniela com o gato no jardim (foto enviada pela Daniela)
+**Objetivo:** Lembrete do evento + revelação do tema
 
 **Legenda:**
 
-O fim do ano chegou e, com ele, aquela sensação de ciclo que precisa se fechar. Uma perda que ainda dói, uma fase que acabou mas não foi embora, uma pergunta sobre propósito que não sai da cabeça.
+É amanhã: a última Louvação de 2026. 🤍
 
-Algumas travessias pedem mais do que conversa. Pedem ritual, presença e conexão com algo maior do que a gente.
+✨ Sábado, 19/12
+📍 Quintal de Ogum, Cuiabá
 
-A Terapia Xamânica dos 4 Elementos trabalha exatamente com isso: Terra, Água, Ar e Fogo como caminhos de reconexão com você e com a natureza.
+O tema do nosso encontro: Encerramento do Ciclo 2026.
 
-Ela costuma ser procurada por quem está vivendo:
-🌿 Desconexão profunda de si e da natureza
-🌊 Perdas, lutos e ritos de passagem
-🔥 Busca de propósito e reconexão com a própria essência
-🌬️ Padrões que não cederam a outras abordagens
+Louvar é agradecer, é honrar e é fortalecer nossa caminhada espiritual.
 
-E, como tudo por aqui, sem vínculo com nenhuma religião e no seu tempo.
+Uma noite de oração, cantos, silêncio e gratidão para fechar o ano, aberta a qualquer pessoa, de qualquer religião ou crença.
 
-Os 4 elementos que inspiram o nome do Refúgio estão no centro dessa terapia. Quer entender se é o caminho pro seu momento? Comenta REFÚGIO que a gente te explica no direct.
+Comenta LOUVAÇÃO que a gente te manda o horário e as orientações no direct.
 
-📍 Cuiabá/MT
+Vai com alguém? Marca aqui quem você quer levar. 👇
 
-**Nota:** Substituiu o post de pacotes (reprovado). Indicações copiadas do site. Validar se é feita online (rodapé só com Cuiabá por segurança).
+**Nota:** Depende da data. Se a Louvação for em 19/12, este post vira o agradecimento do encontro (como o de 30/11).
 
 ## 21/12 · Segunda · Natal com a família reunida
 **Formato:** estatico · **Arquivos:** 2026-12-21_seg.jpg
@@ -395,31 +393,36 @@ Salva esse post pra ler antes da ceia e manda pra quem vai sentar à mesa com vo
 
 **Nota:** Imagem gerada por IA pela agência.
 
-## 23/12 · Quarta · Louvação de dezembro: lembrete
+## 23/12 · Quarta · Terapia Xamânica dos 4 Elementos
 **Formato:** estatico · **Arquivos:** 2026-12-23_qua.jpg
-**Foto:** Joelson e Daniela no passe (283)
-**Objetivo:** Lembrete do evento + revelação do tema
+**Foto:** Joelson com as mãos erguidas (219)
+**Objetivo:** Apresentar a terapia que dá nome ao Refúgio
 
 **Legenda:**
 
-A última Louvação de 2026 está chegando. 🤍
+O fim do ano chegou e, com ele, aquela sensação de ciclo que precisa se fechar. Uma perda que ainda dói, uma fase que acabou mas não foi embora, uma pergunta sobre propósito que não sai da cabeça.
 
-✨ [DATA DA LOUVAÇÃO DE DEZEMBRO]
-📍 Quintal de Ogum, Cuiabá
+Algumas travessias pedem mais do que conversa. Pedem ritual, presença e conexão com algo maior do que a gente.
 
-E a mensagem que vai guiar o nosso encontro chegou: [TEMA DE DEZEMBRO]. [1 ou 2 frases da Daniela e do Joelson sobre o tema.]
+A Terapia Xamânica dos 4 Elementos trabalha exatamente com isso: Terra, Água, Ar e Fogo como caminhos de reconexão com você e com a natureza.
 
-Uma noite de oração, cantos, silêncio e gratidão para fechar o ano, aberta a qualquer pessoa, de qualquer religião ou crença.
+Ela costuma ser procurada por quem está vivendo:
+🌿 Desconexão profunda de si e da natureza
+🌊 Perdas, lutos e ritos de passagem
+🔥 Busca de propósito e reconexão com a própria essência
+🌬️ Padrões que não cederam a outras abordagens
 
-Comenta LOUVAÇÃO que a gente te manda o horário e as orientações no direct.
+E, como tudo por aqui, sem vínculo com nenhuma religião e no seu tempo.
 
-Vai com alguém? Marca aqui quem você quer levar. 👇
+Os 4 elementos que inspiram o nome do Refúgio estão no centro dessa terapia. Quer entender se é o caminho pro seu momento? Comenta REFÚGIO que a gente te explica no direct.
 
-**Nota:** Depende da data. Se a Louvação for em 19/12, este post vira o agradecimento do encontro (como o de 30/11).
+📍 Cuiabá/MT
+
+**Nota:** Substituiu o post de pacotes (reprovado). Indicações copiadas do site. Validar se é feita online (rodapé só com Cuiabá por segurança).
 
 ## 25/12 · Sexta · Feliz Natal
 **Formato:** estatico · **Arquivos:** 2026-12-25_sex.jpg
-**Foto:** Equipe no bambuzal (foto do site)
+**Foto:** Equipe no estúdio (foto enviada pela Daniela)
 **Objetivo:** Data comemorativa (relacionamento, sem venda)
 
 **Legenda:**

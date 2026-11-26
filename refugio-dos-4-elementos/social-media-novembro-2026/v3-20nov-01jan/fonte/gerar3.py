@@ -101,8 +101,8 @@ antigos_pub, antigos_int = [], []
 for i, (dt, p) in enumerate(ant):
     f = f'img/antigo_{i}.jpg'; salvar_jpg(p, os.path.join(PUB, f), 360)
     antigos_pub.append({'thumb': f, 'dataBr': dt}); antigos_int.append({'thumb': b64(os.path.join(PUB, f)), 'dataBr': dt})
-av = Image.open('/home/claude/refugio-site/img/equipe-r.jpg').convert('RGB'); s = min(av.size)
-av.crop(((av.width - s) // 2, int((av.height - s) * 0.55), (av.width + s) // 2, int((av.height - s) * 0.55) + s)).resize((200, 200)).save(os.path.join(PUB, 'img/avatar.jpg'), quality=85)
+av = Image.open('/home/claude/nov2/equipe_estudio.jpg').convert('RGB').crop((150, 120, 1130, 959)); s = min(av.size)
+av.crop(((av.width - s) // 2, 0, (av.width + s) // 2, 0 + s)).resize((200, 200)).save(os.path.join(PUB, 'img/avatar.jpg'), quality=85)
 
 TPL = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'feed_artifact_template.html')).read()
 def pagina(versao, itens, antigos):
