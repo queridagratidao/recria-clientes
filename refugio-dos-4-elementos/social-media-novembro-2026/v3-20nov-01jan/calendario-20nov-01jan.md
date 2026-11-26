@@ -11,7 +11,7 @@ Cronograma de recuperação: segunda, quarta e sexta até 01/01. Visual novo, 4 
 | Seg 30/11 | carrossel | Comentário de quem confia no nosso trabalho | rascunho |
 | Qua 02/12 | reels | Honrar quem veio antes (ancestralidade) | rascunho |
 | Sex 04/12 | estatico | Louvação de dezembro | rascunho |
-| Seg 07/12 | estatico | Respiração de 3 minutos para desacelerar | rascunho |
+| Seg 07/12 | reels | Respiração de 3 minutos para desacelerar | rascunho |
 | Qua 09/12 | estatico | Antes de qualquer terapia, existe uma conversa | rascunho |
 | Sex 11/12 | estatico | Prazer, Jean Carlos | rascunho |
 | Seg 14/12 | estatico | Mito: preciso ter religião para fazer terapia holística | rascunho |
@@ -106,7 +106,7 @@ Comenta REFÚGIO se quiser conversar com a gente. 🤍
 
 ## 27/11 · Sexta · Louvação: é amanhã (Louvação ao Seu Zé Pilintra)
 **Formato:** reels · **Arquivos:** 2026-11-27_sex.jpg, 2026-11-27_sex_reel.mp4
-**Foto:** Jean com as mãos unidas (113)
+**Foto:** Seu Zé Pilintra (imagem gerada por IA)
 **Objetivo:** Lembrete do evento + revelação do tema
 
 **Legenda:**
@@ -201,8 +201,8 @@ E se alguém que você ama precisa fechar esse ano com mais leveza, manda esse p
 **Nota:** Falta a data: o último sábado seria 26/12, dia seguinte ao Natal. Confirmar se mantém ou antecipa (19/12).
 
 ## 07/12 · Segunda · Respiração de 3 minutos para desacelerar
-**Formato:** estatico · **Arquivos:** 2026-12-07_seg.jpg
-**Foto:** Jean sorrindo (126)
+**Formato:** reels · **Arquivos:** 2026-12-07_seg.jpg, 2026-12-07_seg_reel.mp4
+**Foto:** Jean com as mãos unidas (113)
 **Objetivo:** Valor prático (salvar e compartilhar) e ponte com o carrossel de ciência sobre meditação
 
 **Legenda:**

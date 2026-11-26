@@ -472,3 +472,13 @@ ITENS.sort(key=lambda it: it['data'])
 _por_id = {it['id']: it for it in ITENS}
 FALTA = ['Reels de 27/11, 02/12 e 30/12: a Amanda coloca a música e devolve.',
          'Foto do Jean e a do perfil: Jean pediu para manter como está.']
+
+# 27/11: imagem de Seu Zé Pilintra (gerada por IA no Figma) no lugar do Jean
+_por_id = {it['id']: it for it in ITENS}
+_i = _por_id['REF-261127']; _a = _i['arte']
+_i['arte'] = ('foto', '/home/claude/nov2/ze_pilintra.jpg', _a[2], _a[3], _a[4], {'fy': 0.15})
+_i['foto'] = 'Seu Zé Pilintra (imagem gerada por IA)'; _i['foco'] = (0.5, 0.2)
+# 07/12: o Reel do Jean (mãos unidas) vai para a respiração
+_r = _por_id['REF-261207']; _ra = _r['arte']
+_r.update(tipo='reels', reel=True, foco=(0.5, 0.3), foto='Jean com as mãos unidas (113)',
+          arte=('foto', J(113), _ra[2], _ra[3], _ra[4], {'fy': 0.15, 'reel_base': 560}))
