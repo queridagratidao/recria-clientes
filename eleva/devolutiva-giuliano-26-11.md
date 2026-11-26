@@ -13,9 +13,9 @@ De acordo. Vamos aguardar o veredito do teste do Google (por volta de 28/11) e s
 
 De acordo com a estrutura de etapas e travas. Duas sugestões para contribuir:
 
-**Gamificação para destravar o funil**: já que o próprio plano aponta que o funil quebra depois do cadastro (as pessoas não lançam a última execução e não voltam ao portal), vale pensar numa estrutura de gamificação por pontos, bem comum em SaaS e em cursos para aumentar uso e LTV:
+**Gamificação para destravar o funil**: já que o próprio plano aponta que o funil quebra depois do cadastro (as pessoas não lançam a última execução e não voltam ao portal), vale pensar numa estrutura de gamificação por pontos, bem comum em SaaS e em cursos para aumentar uso e LTV, cruzando com as outras frentes do ecossistema como recompensa.
 
-*Pontos por ação:*
+*Como ganha pontos, usando o portal:*
 - Cadastrou a 1ª obrigação: +10 pontos
 - Anexou o 1º comprovante de manutenção: +10 pontos
 - Registrou a 1ª ocorrência: +10 pontos
@@ -23,12 +23,16 @@ De acordo com a estrutura de etapas e travas. Duas sugestões para contribuir:
 - Convidou um membro da equipe para o portal: +15 pontos
 - Deixou 100% das obrigações do prédio em dia: +30 pontos (marco "Prédio em dia")
 
-*Marcos que desbloqueiam benefícios:*
-- 50 pontos (ou ~50% de uso da ferramenta): desbloqueia um material bônus (e-book ou checklist exclusivo)
-- 100 pontos: desbloqueia uma mentoria em grupo ou webinar com o Giuliano
-- 200 pontos, ou uso constante por alguns meses: desbloqueia acesso ao curso de Aprofundamento de Síndico Profissional
+*Linha do tempo de recompensas, por pontos acumulados:*
 
-A lógica é dar pequenas vitórias logo nas primeiras semanas, que é onde o funil quebra hoje, e guardar a recompensa maior (o curso) para quem vira usuário ativo de verdade.
+| Pontos | Desbloqueia |
+|---|---|
+| 50 | Material bônus (e-book ou checklist exclusivo de gestão condominial) |
+| 100 | Diagnóstico gratuito da gestão (normalmente um serviço pago da Expansão Estratégica) |
+| 150 | Sessão Estratégica gratuita |
+| 250 (ou uso constante por alguns meses) | Curso completo de Aprofundamento de Síndico Profissional |
+
+A lógica: dá pequenas vitórias logo nas primeiras semanas, que é onde o funil quebra hoje, e cada recompensa maior já funciona como porta de entrada pras outras frentes do ecossistema — quem ganha o Diagnóstico ou a Sessão Estratégica de graça pode virar cliente pago depois nessas frentes também. Falta só definir, com o Giuliano, o que a Eleva consegue entregar "de graça" inicialmente sem pesar no caixa.
 
 **Criativo de fim de ano**: sugestão de uma variação de copy (e possivelmente vídeo) para o período de festas, tipo "Aproveite o recesso de fim de ano para organizar a sua gestão" ou "Enquanto o condomínio está mais parado, teste o Área Comum". Encaixa bem com a pausa que o cronograma do Nextags já prevê entre 21/12 e 05/01.
 
