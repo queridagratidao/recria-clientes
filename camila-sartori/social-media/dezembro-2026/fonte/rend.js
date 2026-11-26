@@ -1,12 +1,12 @@
 const {chromium}=require('playwright');const fs=require('fs');
 const S='/tmp/claude-0/-home-claude/b2736a22-a7a5-5ef9-a4fc-d023deb3f6f7/scratchpad';
-const D=require(S+'/dez/dez.json');const only=process.argv.slice(2);
+const D=require(S+'/dez/dez.json');const IC=require(S+'/dez/deco.js');const only=process.argv.slice(2);
 (async()=>{const b=await chromium.launch();const pg=await b.newPage({viewport:{width:1080,height:1350}});
 await pg.goto('file://'+S+'/feed-dez/_r.html',{waitUntil:'load'});
-for(const p of D){if(p.t==='vid')continue;if(only.length&&!only.includes(p.d))continue;
+for(const p of D){if(p.t==='vid'||p.png)continue;if(only.length&&!only.includes(p.d))continue;
  const o=S+'/dez/out/'+p.d.replace('/','-').replace(' ','_');fs.rmSync(o,{recursive:true,force:true});fs.mkdirSync(o,{recursive:true});
  for(let i=0;i<p.slides.length;i++){
-  await pg.evaluate(([p,i])=>{document.getElementById('c').innerHTML=Cards.card(p,i,'')},[p,i]);
+  await pg.evaluate(([p,i,IC])=>{document.getElementById('c').innerHTML=Cards.card(p,i,'');if(p.deco&&i===0){const c=document.querySelector('.card');p.deco.forEach(([n,x,y,sz,r,col])=>{const d=document.createElement('div');d.style.cssText=`position:absolute;left:${x}%;top:${y}%;width:${sz}%;transform:rotate(${r}deg);color:${col};z-index:3;opacity:.9`;d.innerHTML=`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="width:100%;display:block">${IC[n]}</svg>`;c.appendChild(d)})}},[p,i,IC]);
   await pg.evaluate(()=>Promise.all([...document.images].map(im=>im.complete?1:new Promise(r=>im.onload=im.onerror=r))));await pg.evaluate(()=>document.fonts.ready);
   await pg.screenshot({clip:{x:0,y:0,width:1080,height:1350},path:o+`/card-${String(i+1).padStart(2,'0')}.png`});}}
 console.log(await pg.evaluate(()=>[document.fonts.check('700 20px Quicksand'),document.fonts.check('400 20px "Courier Prime"')]));await b.close()})();
