@@ -13,7 +13,7 @@ De acordo. Vamos aguardar o veredito do teste do Google (por volta de 28/11) e s
 
 De acordo com a estrutura de etapas e travas. Duas sugestões para contribuir:
 
-**Gamificação para destravar o funil**: já que o próprio plano aponta que o funil quebra depois do cadastro (as pessoas não lançam a última execução e não voltam ao portal), vale pensar numa estrutura de gamificação por pontos, bem comum em SaaS e em cursos para aumentar uso e LTV, cruzando com as outras frentes do ecossistema como recompensa.
+**Sobre o ponto das pessoas se cadastrarem no portal e não usarem**: minha sugestão é criar uma estrutura de gamificação, uma recompensa por pontos. É bem comum em SaaS e em cursos para aumentar uso e LTV, e dá pra cruzar com as outras frentes do ecossistema como recompensa.
 
 *Como ganha pontos, usando o portal:*
 - Cadastrou a 1ª obrigação: +10 pontos
