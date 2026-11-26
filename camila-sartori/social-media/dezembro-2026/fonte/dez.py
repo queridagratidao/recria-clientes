@@ -15,7 +15,7 @@ add(d='04/12',dow='Sex',t='vid',k='Vídeo com foto (humor)',bg='ia-dates',vt='to
 
 add(d='07/12',dow='Seg',t='car',k='Carrossel',p40=1,cv='rosa',photo='ia-crianca',final='estante',
  note="CTA \"comente TERAPIA\" depende da automação de comentário. Se a Camila pausar as automações, trocar por \"me chama pelo link da bio\".",
- slides=["A criança que nunca deu trabalho\n\ne a mulher que ela se tornou",
+ slides=["A criança que nunca deu trabalho…\n\nqual será a mulher que ela se tornou?",
  "Ela aprendeu cedo a não incomodar\n\nNão chorava alto, não pedia muito, resolvia tudo sozinha",
  "Todo mundo elogiava: \"que menina boazinha\"\n\nE ela entendeu que ser amada era *não dar trabalho*",
  "O que ninguém percebeu é que, por trás da menina fácil, existia uma criança com medo de *perder o amor* de quem cuidava dela",
@@ -24,9 +24,9 @@ add(d='07/12',dow='Seg',t='car',k='Carrossel',p40=1,cv='rosa',photo='ia-crianca'
  "No amor, aceita menos do que merece\n\nPorque, lá no fundo, aprendeu que precisar de algo é ser *um peso*",
  "Na Terapia do Esquema, chamamos isso de *esquema de autossacrifício*\n\nUma forma de se proteger que fez sentido na infância, mas que hoje cobra um preço alto",
  "A boa notícia é que esquema não é sentença\n\nNa terapia, conseguimos entender de onde esse esquema vem e cuidar do que faltou lá atrás, muitas vezes na infância\n\nAssim, você se conhece melhor e aprende a *se posicionar sem culpa*",
- "Você não precisa se tornar invisível para ser amada\n\nVocê pode, sim, aprender a amar e ser amada sem se sacrificar\n\nComente *TERAPIA* que eu te chamo no direct"],
+ "Você não precisa se tornar invisível para ser amada\n\nVocê pode, sim, aprender a amar e ser amada sem se sacrificar\n\nSe quiser a minha ajuda, comente *TERAPIA* que eu te chamo no direct"],
  fsz={'1':{'cq':7.4},'2':{'cq':7.2},'3':{'cq':7.0},'4':{'cq':7.0},'5':{'cq':6.8},'6':{'cq':7.0},'7':{'cq':6.4},'8':{'cq':6.2}},
- cap="Se você foi a criança que nunca deu trabalho, talvez hoje seja a adulta que nunca pede nada. 💛\n\nMuitas mulheres chegam aos 40, 50 anos cuidando de todo mundo: filhos, pais, parceiro, trabalho. E, quando finalmente param para pensar em si mesmas, vem a culpa, como se precisar de algo fosse um defeito.\n\nEsse padrão não surgiu do nada. Na Terapia do Esquema, ele é conhecido como autossacrifício: um jeito que a criança encontrou para continuar sendo amada. O problema é que, na vida adulta, ele vira cansaço, relações desequilibradas e a sensação de estar sempre em último lugar.\n\nA boa notícia é que dá para mudar isso. Na terapia individual, olhamos com cuidado para a sua história, entendemos de onde esse padrão vem e você aprende a se posicionar sem culpa.\n\nSe quiser ajuda nesse processo, comente TERAPIA que eu te chamo no direct. 🌸\n\nE na sua opinião: muitas mulheres da nossa geração cresceram assim? Me conta nos comentários 👇")
+ cap="Se você foi a criança que nunca deu trabalho, talvez hoje seja a adulta que nunca pede nada. 💛\n\nMuitas mulheres chegam aos 40, 50 anos cuidando de todo mundo: filhos, pais, parceiro, trabalho. E, quando finalmente param para pensar em si mesmas, vem a culpa, como se precisar de algo fosse um defeito.\n\nEsse padrão não surgiu do nada. Na Terapia do Esquema, ele é conhecido como autossacrifício: um jeito que a criança encontrou para continuar sendo amada. O problema é que, na vida adulta, ele vira cansaço, relações desequilibradas e a sensação de estar sempre em último lugar.\n\nA boa notícia é que dá para mudar isso. Na terapia individual, olhamos com cuidado para a sua história, entendemos de onde esse padrão vem e você aprende a se posicionar sem culpa. Se preferir começar em grupo, também tem a minha comunidade de autoconhecimento para mulheres. Todas as informações estão no link da bio, ou comente TERAPIA que eu te chamo no direct. 🌸\n\nE na sua opinião: por que tantas mulheres crescem com esse peso nas costas? Deixe a sua opinião nos comentários 👇")
 
 add(d='09/12',dow='Qua',t='stat',k='Estático com foto',photo='livro-esquema',cvBold=1,fsz={'0':{'cq':9.5}},
  slides=["*\"Até não aguentar mais\"*\n\nnão é um bom limite"],
