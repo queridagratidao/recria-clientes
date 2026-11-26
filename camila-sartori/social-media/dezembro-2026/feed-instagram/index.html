@@ -249,7 +249,7 @@ body{background:var(--bg);color:var(--fg);font-family:var(--ui);font-size:14px;l
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const FLOWER='<svg class="fl" viewBox="0 0 120 120" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"><path d="M60 112c0-30 2-52 10-70"/><path d="M62 80c-14-4-24-14-28-28 14 2 24 12 28 28z"/><path d="M66 62c10-6 22-6 30 2-10 6-22 6-30-2z"/><circle cx="72" cy="30" r="9"/><path d="M72 21c-4-8 4-14 8-8 8-4 12 6 6 10 6 6-2 14-8 10-2 8-12 8-12 0-8 2-10-8-4-12-6-6 2-14 10-10z"/><path d="M40 100c-8-6-10-16-6-24 8 4 10 14 6 24z"/></g></svg>';
 // how far each photo moves up inside the card (crops empty space above the head)
-const UP={'livro-amor2':32,poltrona2:20,estante:12,poltrona:16,'livro-amor':14,gravando:8,castelo:6,'livro-esquema':0,janela:0,espelho:0,cafe1:0,cafes:0,cafe2:0,gelato:0};
+const UP={'livro-amor2':0,poltrona2:20,estante:12,poltrona:16,'livro-amor':14,gravando:8,castelo:6,'livro-esquema':0,janela:0,espelho:0,cafe1:0,cafes:0,cafe2:0,gelato:0};
 function clean(s){return String(s).replace(/^📷 Foto da Camila\n\n/,'')}
 function sizeFor(t,photo){const n=t.length;let s=n<50?9:n<110?7.2:n<200?6:n<320?5.3:n<460?4.4:3.8;if(photo){s=n<60?7:n<110?5.4:n<170?4.4:3.8}return s}
 const FOOD={cafe1:1,cafes:1,cafe2:1,gelato:1};
