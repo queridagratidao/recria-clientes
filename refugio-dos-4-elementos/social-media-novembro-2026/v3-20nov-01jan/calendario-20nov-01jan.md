@@ -136,7 +136,7 @@ Vai com alguém? Marca aqui quem você quer levar. 👇
 
 A gente poderia passar o mês inteiro explicando o que acontece numa sessão. Mas ninguém conta melhor do que quem viveu. 🤍
 
-Arrasta para o lado e lê o que a Luciana Arruda escreveu aqui no nosso Instagram sobre o processo dela. 👉
+Arrasta para o lado e lê o que a Luciana escreveu aqui no nosso Instagram sobre o processo dela. 👉
 
 Luciana, obrigada por confiar a sua experiência a nós. 🙏
 
@@ -272,13 +272,13 @@ Constelador familiar, analista visual, sistêmico e comportamental, mestre em Re
 
 O Jean é daqueles que percebem o que o corpo e o jeito de falar dizem antes mesmo das palavras. Por isso, antes de indicar qualquer caminho, ele escuta. Com calma.
 
-No Refúgio, ele conduz sessões de Constelação Familiar e Reiki.
+No Refúgio, ele conduz sessões de Constelação Familiar.
 
 Quer conversar com o Jean sobre o que você está vivendo? Comenta REFÚGIO que a gente te chama no direct.
 
 📍 Cuiabá/MT e online
 
-**Nota:** Gancho da arte vem da formação de analista comportamental. Validar com o Jean o parágrafo da escuta e se atende online.
+**Nota:** Jean pediu para tirar o Reiki do que ele conduz no Refúgio (quem conduz é a Daniela).
 
 ## 14/12 · Segunda · Mito: preciso ter religião para fazer terapia holística
 **Formato:** estatico · **Arquivos:** 2026-12-14_seg.jpg

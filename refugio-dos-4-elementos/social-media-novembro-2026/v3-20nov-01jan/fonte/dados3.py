@@ -482,3 +482,11 @@ _i['foto'] = 'Seu Zé Pilintra (imagem gerada por IA)'; _i['foco'] = (0.5, 0.2)
 _r = _por_id['REF-261207']; _ra = _r['arte']
 _r.update(tipo='reels', reel=True, foco=(0.5, 0.3), foto='Jean com as mãos unidas (113)',
           arte=('foto', J(113), _ra[2], _ra[3], _ra[4], {'fy': 0.15, 'reel_base': 560}))
+
+# ajustes do Jean (26/11)
+_por_id = {it['id']: it for it in ITENS}
+_c = _por_id['REF-261130']
+_c['legenda'] = _c['legenda'].replace('o que a Luciana Arruda escreveu', 'o que a Luciana escreveu')
+_j = _por_id['REF-261211']
+_j['legenda'] = _j['legenda'].replace('No Refúgio, ele conduz sessões de Constelação Familiar e Reiki.', 'No Refúgio, ele conduz sessões de Constelação Familiar.')
+_j['nota'] = 'Jean pediu para tirar o Reiki do que ele conduz no Refúgio (quem conduz é a Daniela).'
